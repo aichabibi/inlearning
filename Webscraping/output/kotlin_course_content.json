@@ -1,0 +1,1728 @@
+[
+    {
+        "url": "https://www.w3schools.com/kotlin/index.php",
+        "cours": {
+            "titre": "Kotlin Tutorial",
+            "description": "Learn Kotlin Kotlin is a modern, trending programming language. Kotlin is easy to learn, especially if you already know Java (it is \n  100% compatible with Java). Kotlin is used to develop Android apps, server side apps, and much more. Start learning Kotlin now »",
+            "lien": "https://www.w3schools.com/kotlin/index.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "Example fun main() {\n  println(\"Hello World\")\n} Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_helloworld"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_intro.php",
+        "cours": {
+            "titre": "Kotlin Introduction",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_intro.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [
+                    [
+                        "Mobile applications (specially Android apps)",
+                        "Web development",
+                        "Server side applications",
+                        "Data science",
+                        "And much, much more!"
+                    ],
+                    [
+                        "Kotlin is fully compatible with Java",
+                        "Kotlin works on different platforms (Windows, Mac, Linux, Raspberry Pi, etc.)",
+                        "Kotlin is concise and safe",
+                        "Kotlin is easy to learn, especially if you already know Java",
+                        "Kotlin is free to use",
+                        "Big community/support"
+                    ]
+                ],
+                "examples": [],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/index.php"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/index.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_getstarted.php",
+        "cours": {
+            "titre": "Kotlin Get Started",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_getstarted.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "Main.kt fun main() {\n  println(\"Hello World\")\n}",
+                    "Main.kt Code: fun main() {\n  println(\"Hello World\")\n} Result: Hello World Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_intro.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_helloworld"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_intro.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_syntax.php",
+        "cours": {
+            "titre": "Kotlin Syntax",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_syntax.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "Example fun main() {\n  println(\"Hello World\")\n} Try it Yourself »",
+                    "Example fun main(args : Array<String>) {\n  println(\"Hello World\")\n} Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_getstarted.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_helloworld"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_helloworld2"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_getstarted.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_output.php",
+        "cours": {
+            "titre": "Kotlin Output (Print Text)",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_output.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "Example fun main() {\n  println(\"Hello World\")\n} Try it Yourself »",
+                    "Example fun main() {\n  println(\"Hello World!\")\n  println(\"I am learning Kotlin.\")\n  println(\"It is awesome!\")\n} Try it Yourself »",
+                    "Example fun main() {\n  println(3 + 3)\n} Try it Yourself »",
+                    "Example fun main() {\n  print(\"Hello World! \")\n  print(\"I am learning Kotlin. \")\n  print(\"It is awesome!\")\n} Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_syntax.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_output"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_output2"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_output3"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_output_print"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_syntax.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_comments.php",
+        "cours": {
+            "titre": "Kotlin Comments",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_comments.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "Example // This is a comment\nprintln(\"Hello World\") Try it Yourself »",
+                    "Example println(\"Hello World\")  // This is a comment Try it Yourself »",
+                    "Example /* The code below will print the words Hello World\nto the screen, and it is amazing */\nprintln(\"Hello World\") Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_output.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_comments_single"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_comments_end"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_comments_multi"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_output.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_variables.php",
+        "cours": {
+            "titre": "Kotlin Variables",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_variables.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [
+                    [
+                        "x stores the value 5",
+                        "y stores the value 6",
+                        "Then we use the println() method to display the value of x + y, \n which is 11"
+                    ],
+                    [
+                        "Names can contain letters, digits, underscores, and dollar signs",
+                        "Names should start with a letter",
+                        "Names can also begin with $ and _ (but we will not use it in this tutorial)",
+                        "Names are case sensitive (\"myVar\" and \"myvar\" are different variables)",
+                        "Names should start with a lowercase letter and it cannot contain whitespace",
+                        "Reserved words (like Kotlin keywords, such as var or String ) cannot be used as names"
+                    ]
+                ],
+                "examples": [
+                    "Syntax var variableName = value val variableName = value",
+                    "Example var name = \"John\"\nval birthyear = 1975\n\nprintln(name)          // Print the value of name\nprintln(birthyear)     // Print the value of birthyear Try it Yourself »",
+                    "Example var name = \"John\"      // String (text)\nval birthyear = 1975   // Int (number)\n\nprintln(name)          // Print the value of name\nprintln(birthyear)     // Print the value of birthyear Try it Yourself »",
+                    "Example var name: String = \"John\" // String\nval birthyear: Int = 1975 // Int\n\nprintln(name)\nprintln(birthyear) Try it Yourself »",
+                    "Example This works fine: var name: String\nname = \"John\"\nprintln(name) Try it Yourself »",
+                    "Example This will generate an error: var name\nname = \"John\"\nprintln(name) Try it Yourself »",
+                    "Example val name = \"John\"\nname = \"Robert\"  // Error (Val cannot be reassigned)\nprintln(name) Try it Yourself »",
+                    "Example var name = \"John\"\nname = \"Robert\"\nprintln(name) Try it Yourself »",
+                    "Example val pi = 3.14159265359\nprintln(pi) Try it Yourself »",
+                    "Example val name = \"John\"\nprintln(\"Hello \" + name) Try it Yourself »",
+                    "Example val firstName = \"John \"\nval lastName = \"Doe\"\nval fullName = firstName + lastName\nprintln(fullName) Try it Yourself »",
+                    "Example val x = 5\nval y = 6\nprintln(x + y) // Print the value of x + y Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_comments.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_variables1"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_variables"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_variables2"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_variables3"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_variables4"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_variables5"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_variables_change"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_variables_pi"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_variables_println"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_variables_println2"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_variables_println3"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_comments.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_data_types.php",
+        "cours": {
+            "titre": "Kotlin Data Types",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_data_types.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "Example val myNum = 5             // Int\nval myDoubleNum = 5.99    // Double\nval myLetter = 'D'        // Char\nval myBoolean = true      // Boolean\nval myText = \"Hello\"      // String Try it Yourself »",
+                    "Example val myNum: Int = 5                // Int\nval myDoubleNum: Double = 5.99    // Double\nval myLetter: Char = 'D'          // Char\nval myBoolean: Boolean = true     // Boolean\nval myText: String = \"Hello\"      // String Try it Yourself »",
+                    "Example val myNum: Byte = 100\nprintln(myNum) Try it Yourself »",
+                    "Example val myNum: Short = 5000\nprintln(myNum) Try it Yourself »",
+                    "Example val myNum: Int = 100000\nprintln(myNum) Try it Yourself »",
+                    "Example val myNum: Long = 15000000000L\nprintln(myNum) Try it Yourself »",
+                    "Example val myNum1 = 2147483647  // Int\nval myNum2 = 2147483648  // Long",
+                    "Float Example val myNum: Float = 5.75F\nprintln(myNum) Try it Yourself »",
+                    "Double Example val myNum: Double = 19.99\nprintln(myNum) Try it Yourself »",
+                    "Example val myNum1: Float = 35E3F\nval myNum2: Double = 12E4\nprintln(myNum1)\nprintln(myNum2) Try it Yourself »",
+                    "Example val isKotlinFun: Boolean = true\nval isFishTasty: Boolean = false\nprintln(isKotlinFun)   // Outputs true\nprintln(isFishTasty)   // Outputs false Try it Yourself »",
+                    "Example val myGrade: Char = 'B'\nprintln(myGrade) Try it Yourself »",
+                    "Example val myLetter: Char = 66\nprintln(myLetter) // Error",
+                    "Example val myText: String = \"Hello World\"\nprintln(myText) Try it Yourself »",
+                    "Example val x: Int = 5\nval y: Long = x\nprintln(y) // Error: Type mismatch Try it Yourself »",
+                    "Example val x: Int = 5\nval y: Long = x.toLong()\nprintln(y) Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_variables.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_data_types"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_data_types2"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_type_byte"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_type_short"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_type_int"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_type_long"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_type_float"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_type_double"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_type_scientific"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_booleans"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_type_char"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_type_string"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_type_conv"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_type_conv2"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_variables.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_operators.php",
+        "cours": {
+            "titre": "Kotlin Operators",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_operators.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [
+                    [
+                        "Arithmetic operators",
+                        "Assignment operators",
+                        "Comparison operators",
+                        "Logical operators"
+                    ]
+                ],
+                "examples": [
+                    "Example var x = 100 + 50 Try it Yourself »",
+                    "Example var sum1 = 100 + 50       // 150 (100 + 50)\nvar sum2 = sum1 + 250     // 400 (150 + 250)\nvar sum3 = sum2 + sum2    // 800 (400 + 400) Try it Yourself »",
+                    "Example var x = 10 Try it Yourself »",
+                    "Example var x = 10 x += 5 Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_data_types.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper2"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_add"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_sub"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_mult"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_div"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_mod"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_inc"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_dec"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_assignment1"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_assignment2"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_ass1"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_ass2"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_ass3"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_ass4"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_ass5"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_ass6"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_compare1"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_compare2"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_compare3"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_compare4"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_compare5"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_compare6"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_logical1"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_logical2"
+                    },
+                    {
+                        "title": "Try it »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_oper_logical3"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_data_types.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_strings.php",
+        "cours": {
+            "titre": "Kotlin Strings",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_strings.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "Example var greeting = \"Hello\" Try it Yourself »",
+                    "Example var greeting: String = \"Hello\" Try it Yourself »",
+                    "Example This works fine: var name: String\nname = \"John\"\nprintln(name) Try it Yourself »",
+                    "Example This will generate an error: var name\nname = \"John\"\nprintln(name) Try it Yourself »",
+                    "Example var txt = \"Hello World\"\nprintln(txt[0]) // first element (H)\nprintln(txt[2]) // third element (l) Try it Yourself »",
+                    "Example var txt = \"ABCDEFGHIJKLMNOPQRSTUVWXYZ\"\nprintln(\"The length of the txt string is: \" + txt.length) Try it Yourself »",
+                    "Example var txt = \"Hello World\"\nprintln(txt.toUpperCase())   // Outputs \"HELLO WORLD\"\nprintln(txt.toLowerCase())   // Outputs \"hello world\" Try it Yourself »",
+                    "Example var txt1 = \"Hello World\" var txt2 = \"Hello World\"\nprintln(txt1.compareTo(txt2))  // Outputs 0 (they are equal) Try it Yourself »",
+                    "Example var txt = \"Please locate where 'locate' occurs!\"\nprintln(txt.indexOf(\"locate\"))  // Outputs 7 Try it Yourself »",
+                    "Example var txt1 = \"It's alright\"\nvar txt2 = \"That's great\" Try it Yourself »",
+                    "Example var firstName = \"John\"\nvar lastName = \"Doe\"\nprintln(firstName + \" \" + lastName) Try it Yourself »",
+                    "Example var firstName = \"John \"\nvar lastName = \"Doe\"\nprintln(firstName.plus(lastName)) Try it Yourself »",
+                    "Example var firstName = \"John\"\nvar lastName = \"Doe\"\nprintln(\"My name is $firstName $lastName\") Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_operators.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_strings"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_strings2"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_variables3"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_variables4"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_strings_access"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_strings_length"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_strings_touppercase"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_strings_compareto"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_strings_indexof"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_strings_quotes"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_strings_conc"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_strings_conc2"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_strings_template"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_operators.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_booleans.php",
+        "cours": {
+            "titre": "Kotlin Booleans",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_booleans.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [
+                    [
+                        "YES / NO",
+                        "ON / OFF",
+                        "TRUE / FALSE"
+                    ]
+                ],
+                "examples": [
+                    "Example val isKotlinFun: Boolean = true\nval isFishTasty: Boolean = false\nprintln(isKotlinFun)   // Outputs true\nprintln(isFishTasty)   // Outputs false Try it Yourself »",
+                    "Example val isKotlinFun = true\nval isFishTasty = false\nprintln(isKotlinFun)   // Outputs true\nprintln(isFishTasty)   // Outputs false Try it Yourself »",
+                    "Example val x = 10\nval y = 9 println(x > y) // Returns true, because 10 is greater than 9 Try it Yourself »",
+                    "Example println(10 > 9) // Returns true, because 10 is greater than 9 Try it Yourself »",
+                    "Example val x = 10;\nprintln(x == 10); // Returns true, because the value of x is equal to 10 Try it Yourself »",
+                    "Example println(10 == 15); // Returns false, because 10 is not equal to 15 Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_strings.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_booleans"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_booleans_without"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_booleans1"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_booleans2"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_booleans3"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_booleans4"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_strings.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_conditions.php",
+        "cours": {
+            "titre": "Kotlin If ... Else",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_conditions.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [
+                    [
+                        "Less than: a < b",
+                        "Less than or equal to: a <= b",
+                        "Greater than: a > b",
+                        "Greater than or equal to: a >= b",
+                        "Equal to a == b",
+                        "Not Equal to: a != b"
+                    ],
+                    [
+                        "Use if to specify a block of code to be executed, if a specified condition is true",
+                        "Use else to specify a block of code to be executed, if the same condition is false",
+                        "Use else if to specify a new condition to test, if the first condition is false",
+                        "Use when to specify many alternative blocks of code to be executed"
+                    ]
+                ],
+                "examples": [
+                    "Syntax if ( condition ) { // block of code to be executed if the condition is true }",
+                    "Example if (20 > 18) {\n  println(\"20 is greater than 18\")\n} Try it Yourself »",
+                    "Example val x = 20\nval y = 18\nif (x > y) {\n  println(\"x is greater than y\")\n} Try it Yourself »",
+                    "Syntax if ( condition ) { // block of code to be executed if the condition is true } else { // block of code to be executed if the condition is false }",
+                    "Example val time = 20\nif (time < 18) {\n  println(\"Good day.\")\n} else {\n  println(\"Good evening.\")\n}\n// Outputs \"Good evening.\" Try it Yourself »",
+                    "Syntax if ( condition1 ) { // block of code to be executed if condition1 is true } else if ( condition2 ) { // block of code to be executed if the condition1 is false and condition2 is true } else { // block of code to be executed if the condition1 is false and condition2 is false }",
+                    "Example val time = 22\nif (time < 10) {\n  println(\"Good morning.\")\n} else if (time < 20) {\n  println(\"Good day.\")\n} else {\n  println(\"Good evening.\")\n}\n// Outputs \"Good evening.\" Try it Yourself »",
+                    "Example val time = 20\nval greeting = if (time < 18) {\n  \"Good day.\"\n} else {\n  \"Good evening.\"\n}\nprintln(greeting) Try it Yourself »",
+                    "Example fun main() {\n  val time = 20\n  val greeting = if (time < 18) \"Good day.\" else \"Good evening.\"\n  println(greeting)\n} Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_booleans.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_if"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_if2"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_if_else"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_if_else_if"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_if_else_exp"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_if_else_exp2"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_booleans.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_when.php",
+        "cours": {
+            "titre": "Kotlin When",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_when.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [
+                    [
+                        "The when variable ( day ) is evaluated once",
+                        "The value of the day variable is compared with the values of each \"branch\"",
+                        "Each branch starts with a value, followed by an arrow (->) and a result",
+                        "If there is a match, the associated block of code is executed",
+                        "else is used to specify some code to run if there is no match",
+                        "In the example above, the value of day is 4 , meaning \"Thursday\" will be printed"
+                    ]
+                ],
+                "examples": [
+                    "Example Use the weekday number to calculate the weekday name: val day = 4\n\nval result = when (day) {\n  1 -> \"Monday\"\n  2 -> \"Tuesday\"\n  3 -> \"Wednesday\"\n  4 -> \"Thursday\"\n  5 -> \"Friday\"\n  6 -> \"Saturday\"\n  7 -> \"Sunday\"\n  else -> \"Invalid day.\"\n}\nprintln(result)\n\n// Outputs \"Thursday\" (day 4) Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_conditions.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_when"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_conditions.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_while_loop.php",
+        "cours": {
+            "titre": "Kotlin While Loop",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_while_loop.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "Syntax while ( condition ) { // code block to be executed }",
+                    "Example var i = 0\nwhile (i < 5) {\n  println(i)\n  i++\n} Try it Yourself »",
+                    "Syntax do { // code block to be executed }\nwhile ( condition );",
+                    "Example var i = 0\ndo {\n  println(i)\n  i++\n  }\nwhile (i < 5) Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_when.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_while_loop"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_do_while_loop"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_when.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_break.php",
+        "cours": {
+            "titre": "Kotlin Break and Continue",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_break.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "Example var i = 0\nwhile (i < 10) {\n  println(i)\n  i++\n  if (i == 4) {\n    break\n  }\n} Try it Yourself »",
+                    "Example var i = 0\nwhile (i < 10) {\n  if (i == 4) {\n    i++\n    continue\n  }\n  println(i)\n  i++ } Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_while_loop.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_break"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_continue"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_while_loop.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_arrays.php",
+        "cours": {
+            "titre": "Kotlin Arrays",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_arrays.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "val cars = arrayOf(\"Volvo\", \"BMW\", \"Ford\", \"Mazda\") cars[0] = \"Opel\" println(cars[0]) // Now outputs Opel instead of Volvo",
+                    "val cars = arrayOf(\"Volvo\", \"BMW\", \"Ford\", \"Mazda\")",
+                    "Example val cars = arrayOf(\"Volvo\", \"BMW\", \"Ford\", \"Mazda\")\nprintln(cars[0])\n// Outputs Volvo Try it Yourself »",
+                    "Example cars[0] = \"Opel\"",
+                    "Example val cars = arrayOf(\"Volvo\", \"BMW\", \"Ford\", \"Mazda\") cars[0] = \"Opel\" println(cars[0]) // Now outputs Opel instead of Volvo Try it Yourself »",
+                    "Example val cars = arrayOf(\"Volvo\", \"BMW\", \"Ford\", \"Mazda\")\nprintln(cars.size)\n// Outputs 4 Try it Yourself »",
+                    "Example val cars = arrayOf(\"Volvo\", \"BMW\", \"Ford\", \"Mazda\")\nif (\"Volvo\" in cars) {\n  println(\"It exists!\")\n} else {\n  println(\"It does not exist.\")\n} Try it Yourself »",
+                    "Example val cars = arrayOf(\"Volvo\", \"BMW\", \"Ford\", \"Mazda\")\nfor (x in cars) {\n  println(x)\n} Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_break.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_array_access"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_array_change"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_array_size"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_ranges_in2"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_array_for_loop"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_break.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_for_loop.php",
+        "cours": {
+            "titre": "Kotlin For Loop",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_for_loop.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "Example Output all elements in the cars array: val cars = arrayOf(\"Volvo\", \"BMW\", \"Ford\", \"Mazda\")\nfor (x in cars) {\n  println(x)\n} Try it Yourself »",
+                    "Example val nums = arrayOf(1, 5, 10, 15, 20)\nfor (x in nums) {\n  println(x)\n} Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_arrays.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_array_for_loop"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_array_for_loop2"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_arrays.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_ranges.php",
+        "cours": {
+            "titre": "Kotlin Ranges",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_ranges.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "Example Print the whole alphabet: for (chars in 'a'..'x') {\n  println(chars)\n} Try it Yourself »",
+                    "Example for (nums in 5..15) {\n  println(nums)\n} Try it Yourself »",
+                    "Example val nums = arrayOf(2, 4, 6, 8)\nif (2 in nums) {\n  println(\"It exists!\")\n} else {\n  println(\"It does not exist.\")\n} Try it Yourself »",
+                    "Example val cars = arrayOf(\"Volvo\", \"BMW\", \"Ford\", \"Mazda\")\nif (\"Volvo\" in cars) {\n  println(\"It exists!\")\n} else {\n  println(\"It does not exist.\")\n} Try it Yourself »",
+                    "Example Stop the loop when nums is equal to 10 : for (nums in 5..15) {\n  if (nums == 10) {\n    break\n  }\n  println(nums)\n} Try it Yourself »",
+                    "Example Skip the value of 10 in the loop, and continue with the next iteration: for (nums in 5..15) {\n  if (nums == 10) {\n    continue\n  }\n  println(nums)\n} Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_for_loop.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_ranges"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_ranges2"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_ranges_in"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_ranges_in2"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_ranges_break"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_ranges_continue"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_for_loop.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_functions.php",
+        "cours": {
+            "titre": "Kotlin Functions",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_functions.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "Example fun main() {\n  println(\"Hello World\")\n} Try it Yourself »",
+                    "Example Create a function named \"myFunction\" that should output some text: fun myFunction() {\n  println(\"I just got executed!\")\n}",
+                    "Example fun main() {\n  myFunction() // Call myFunction\n}\n\n// Outputs \"I just got executed!\" Try it Yourself »",
+                    "Example fun main() {\n  myFunction()\n  myFunction()\n  myFunction()\n}\n\n// I just got executed!\n// I just got executed!\n// I just got executed! Try it Yourself »",
+                    "Example fun myFunction(fname: String) {\n  println(fname + \" Doe\")\n}\n\nfun main() {\n  myFunction(\"John\")\n  myFunction(\"Jane\")\n  myFunction(\"George\")\n}\n  \n// John Doe\n// Jane Doe\n// George Doe Try it Yourself »",
+                    "Example fun myFunction(fname: String, age: Int) {\n  println(fname + \" is \" + age)\n}\n\nfun main() {\n  myFunction(\"John\", 35)\n  myFunction(\"Jane\", 32)\n  myFunction(\"George\", 15)\n}\n\n// John is 35\n// Jane is 32\n// George is 15 Try it Yourself »",
+                    "Example A function with one Int parameter, and Int return type: fun myFunction(x: Int): Int {\n  return (x + 5)\n}\n\nfun main() {\n  var result = myFunction(3)\n  println(result)\n}\n\n// 8 (3 + 5) Try it Yourself »",
+                    "Example A function with two Int parameters, and Int return type: fun myFunction(x: Int, y: Int): Int {\n  return (x + y)\n}\n\nfun main() {\n  var result = myFunction(3, 5)\n  println(result)\n}\n\n// 8 (3 + 5) Try it Yourself »",
+                    "Example fun myFunction(x: Int, y: Int) = x + y\n\nfun main() {\n  var result = myFunction(3, 5)\n  println(result)\n}\n\n// 8 (3 + 5) Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_ranges.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_helloworld"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_function"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_function_multiple"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_function_param"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_function_param2"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_function_return"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_function_return2"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_function_assignment"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_ranges.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_oop.php",
+        "cours": {
+            "titre": "Kotlin OOP",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_oop.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [
+                    [
+                        "OOP is faster and easier to execute",
+                        "OOP provides a clear structure for the programs",
+                        "OOP helps to keep the Kotlin code DRY \"Don't Repeat Yourself\", and makes \n  the \n  code easier to maintain, modify and debug",
+                        "OOP makes it possible to create full reusable \n  applications with less code and shorter development time"
+                    ]
+                ],
+                "examples": [],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_functions.php"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_functions.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_classes.php",
+        "cours": {
+            "titre": "Kotlin Classes and Objects",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_classes.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "Example Create a Car class along with some properties (brand, model and year) class Car {\n  var brand = \"\"\n  var model = \"\"\n  var year = 0\n}",
+                    "Example // Create a c1 object of the Car class\nval c1 = Car()\n\n// Access the properties and add some values to it\nc1.brand = \"Ford\"\nc1.model = \"Mustang\"\nc1.year = 1969\n\nprintln(c1.brand)   // Outputs Ford\nprintln(c1.model)   // Outputs Mustang\nprintln(c1.year)    // Outputs 1969 Try it Yourself »",
+                    "Example val c1 = Car()\nc1.brand = \"Ford\"\nc1.model = \"Mustang\"\nc1.year = 1969\n\nval c2 = Car()\nc2.brand = \"BMW\"\nc2.model = \"X5\"\nc2.year = 1999\n\nprintln(c1.brand)  // Ford\nprintln(c2.brand)  // BMW Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_oop.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_classes"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_classes_multiple"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_oop.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_constructors.php",
+        "cours": {
+            "titre": "Kotlin Constructors",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_constructors.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "Example class Car {\n  var brand = \"\"\n  var model = \"\"\n  var year = 0\n}\n\nfun main() {\n  val c1 = Car()\n  c1.brand = \"Ford\"\n  c1.model = \"Mustang\"\n  c1.year = 1969\n} Try it Yourself »",
+                    "Example class Car(var brand: String, var model: String, var year: Int)\n\nfun main() {\n  val c1 = Car(\"Ford\", \"Mustang\", 1969)\n} Try it Yourself »",
+                    "Example class Car(var brand: String, var model: String, var year: Int)\n\nfun main() {\n  val c1 = Car(\"Ford\", \"Mustang\", 1969)\n  val c2 = Car(\"BMW\", \"X5\", 1999)\n  val c3 = Car(\"Tesla\", \"Model S\", 2020)\n} Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_classes.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_classes"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_constructor"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_constructor2"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_classes.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_class_functions.php",
+        "cours": {
+            "titre": "Kotlin Class Functions",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_class_functions.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "Example Create a drive() function inside the Car class and call it: class Car(var brand: String, var model: String, var year: Int) {\n  // Class function\n  fun drive() {\n    println(\"Wrooom!\")\n  }\n}\n\nfun main() {\n  val c1 = Car(\"Ford\", \"Mustang\", 1969)\n  \n  // Call the function\n  c1.drive()\n} Try it Yourself »",
+                    "Example Create two functions: drive() and speed() , and pass parameters to the speed() function: class Car(var brand: String, var model: String, var year: Int) {\n  // Class function\n  fun drive() {\n    println(\"Wrooom!\")\n  }\n  \n  // Class function with parameters\n  fun speed(maxSpeed: Int) {\n    println(\"Max speed is: \" + maxSpeed)\n  }\n}\n\nfun main() {\n  val c1 = Car(\"Ford\", \"Mustang\", 1969)\n  \n  // Call the functions\n  c1.drive()\n  c1.speed(200)\n} Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_constructors.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_class_function"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_class_function2"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_constructors.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_inheritance.php",
+        "cours": {
+            "titre": "Kotlin Inheritance",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_inheritance.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [
+                    [
+                        "subclass (child) - the class that inherits from another class",
+                        "superclass (parent) - the class being inherited from"
+                    ]
+                ],
+                "examples": [
+                    "Example // Superclass open class MyParentClass {\n  val x = 5\n}\n\n// Subclass\nclass MyChildClass: MyParentClass() {\n  fun myFunction() {\n    println(x) // x is now inherited from the superclass\n  }\n}\n\n// Create an object of MyChildClass and call myFunction\nfun main() {\n  val myObj = MyChildClass()\n  myObj.myFunction()\n} Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_class_functions.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_inheritance"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_class_functions.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_examples.php",
+        "cours": {
+            "titre": "Kotlin Examples",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_examples.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_inheritance.php"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_inheritance.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_compiler.php",
+        "cours": {
+            "titre": "Kotlin Compiler",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_compiler.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "fun main() { println(\"Hello World\") }"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_examples.php"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_examples.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_exercises.php",
+        "cours": {
+            "titre": "Kotlin Exercises",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_exercises.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_compiler.php"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_compiler.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_quiz.php",
+        "cours": {
+            "titre": "Kotlin Quiz",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_quiz.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_exercises.php"
+                    },
+                    {
+                        "title": "Start the Kotlin Quiz ❯",
+                        "url": "https://www.w3schools.com/quiztest/quiztest.php?qtest=KOTLIN"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_exercises.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_syllabus.php",
+        "cours": {
+            "titre": "Kotlin Syllabus",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_syllabus.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [
+                    [
+                        "Learn what Kotlin is and set up your environment",
+                        "Understand Kotlin syntax and basic concepts",
+                        "Work with variables and data types",
+                        "Use operators and control flow (if, when, while)",
+                        "Create and use arrays and loops",
+                        "Write functions in Kotlin",
+                        "Learn object-oriented programming with classes",
+                        "Work with constructors and inheritance",
+                        "Create class functions and objects"
+                    ],
+                    [
+                        "Android Development: Kotlin is one of the preferred languages for Android app development.",
+                        "Mobile Development: Kotlin enables cross-platform mobile development.",
+                        "Server-side Development: Kotlin works well for backend services.",
+                        "Web Development: Kotlin can be used for full-stack web development.",
+                        "Data Science: Kotlin supports data analysis and processing.",
+                        "Desktop Applications: Kotlin can create desktop applications.",
+                        "Multi-platform Development: Kotlin enables sharing code across platforms."
+                    ],
+                    [
+                        "Lessons",
+                        "Exercises",
+                        "Quizzes"
+                    ],
+                    [
+                        "Learning paths",
+                        "Sandbox and lab environments",
+                        "Achievements",
+                        "And much more!"
+                    ],
+                    [
+                        "Non-adaptive",
+                        "Adaptive"
+                    ]
+                ],
+                "examples": [
+                    "Example fun main() {\n  println(\"Hello World\")\n} Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_quiz.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/kotlin/trykotlin.php?filename=demo_helloworld"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_quiz.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_study_plan.php",
+        "cours": {
+            "titre": "Kotlin Study Plan",
+            "description": "",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_study_plan.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [
+                    [
+                        "Essentials ($1.99 / month per student)",
+                        "Full Access ($5.99 / month per student)",
+                        "Calculate your price and order here ."
+                    ],
+                    [
+                        "Managing your classroom",
+                        "Tracking of student progress and reports",
+                        "Labs, assignments, and code challenges (prebuilt challenges or create your own ones)",
+                        "Auto-grading",
+                        "Teaching materials",
+                        "Certification exams"
+                    ],
+                    [
+                        "W3Schools Kotlin Tutorial",
+                        "Kotlin Exercises",
+                        "Kotlin Quiz",
+                        "Kotlin Challenges (Coding challenges)",
+                        "Kotlin Certification Exam (End of Pathway Exam)"
+                    ],
+                    [
+                        "Learning Paths You can add ready-made learning paths. The learning paths are by default ordered by our recommended order. You can change the order. You can add custom activities with text, links, or multi-media files. Drag and drop or click to make changes to the path.",
+                        "You can add ready-made learning paths.",
+                        "The learning paths are by default ordered by our recommended order.",
+                        "You can change the order.",
+                        "You can add custom activities with text, links, or multi-media files.",
+                        "Drag and drop or click to make changes to the path.",
+                        "Interactive Content Tutorials Try-its (test code snippets) Exercises Quiz Challenges Labs",
+                        "Tutorials",
+                        "Try-its (test code snippets)",
+                        "Exercises",
+                        "Quiz",
+                        "Challenges",
+                        "Labs",
+                        "Timeline and Pace You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans). You can decide the learning pace for your class. Different study plans can be assigned to different students in the same class. The flexibility can help to make sure that everyone is challenged.",
+                        "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+                        "You can decide the learning pace for your class.",
+                        "Different study plans can be assigned to different students in the same class.",
+                        "The flexibility can help to make sure that everyone is challenged.",
+                        "Track Student Progress There are tools to track student progress. The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more. The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+                        "There are tools to track student progress.",
+                        "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+                        "The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+                        "End of Pathway Exam The Kotlin study plan aligns with the Kotlin Certification Exam. The exam can be taken at the end of the study plan, at your selected date. The exam summarizes the Kotlin Tutorial. You get reports of the students' results.",
+                        "The Kotlin study plan aligns with the Kotlin Certification Exam.",
+                        "The exam can be taken at the end of the study plan, at your selected date.",
+                        "The exam summarizes the Kotlin Tutorial.",
+                        "You get reports of the students' results.",
+                        "Accessibility Study plans and learning materials are accessible on desktops, tablets, and smartphones. This ensures students can learn anytime, anywhere.",
+                        "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+                        "This ensures students can learn anytime, anywhere."
+                    ],
+                    [
+                        "Week 1: Fundamentals, Variables, Data Types & Operators",
+                        "Week 2: Conditionals, Arrays, Loops",
+                        "Week 3: Functions, Classes, Kotlin Certification Exam"
+                    ]
+                ],
+                "examples": [],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_syllabus.php"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_syllabus.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/kotlin/kotlin_exam.php",
+        "cours": {
+            "titre": "W3Schools Kotlin Certificate",
+            "description": "How Does It Work? Study for free at W3Schools.com Study at your own speed Test your skills with W3Schools online quizzes Apply for your certificate by paying an exam fee Take your exam online, at any time, and from any location",
+            "lien": "https://www.w3schools.com/kotlin/kotlin_exam.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_study_plan.php"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/kotlin/kotlin_study_plan.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    }
+]

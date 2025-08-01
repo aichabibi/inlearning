@@ -1,0 +1,266 @@
+[
+  {
+    "url": "https://www.w3schools.com/gen_ai/index.php",
+    "cours": {
+      "titre": "Generative AI Tutorial",
+      "description": "[+: Learn Generative AI Generative AI can help boost your productivity if used correctly. AI prompt engineering is one of the hottest jobs in tech. Knowing how to write prompts correctly is the key to helping you use generative AIs. Start learning AI Prompt Engineering now ❯",
+      "lien": "https://www.w3schools.com/gen_ai/index.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "Explain \"Generative AI\" like I'm 5 years old",
+          "Example With the following prompt: Explain \"Generative AI\" like I'm 5 years old A response from a Generative AI (in this case, ChatGPT) could be:"
+        ],
+        "course_structure": [
+          {
+            "title": "Start learning AI Prompt Engineering now ❯",
+            "url": "https://www.w3schools.com/gen_ai/gen_ai_prompt_intro.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 2,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/gen_ai/gen_ai_prompt_intro.php",
+    "cours": {
+      "titre": "Generative AI Prompt Writing Introduction",
+      "description": "",
+      "lien": "https://www.w3schools.com/gen_ai/gen_ai_prompt_intro.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Text",
+            "Images",
+            "Audio",
+            "Videos",
+            "3D models"
+          ],
+          [
+            "Instructions",
+            "Questions",
+            "Data",
+            "Examples"
+          ]
+        ],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/gen_ai/index.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/gen_ai/index.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 2,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/gen_ai/gen_ai_prompt_text-to-text_intro.php",
+    "cours": {
+      "titre": "Generative AI Prompt text-to-text Introduction",
+      "description": "",
+      "lien": "https://www.w3schools.com/gen_ai/gen_ai_prompt_text-to-text_intro.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Understanding Text",
+            "Create content",
+            "Debug code",
+            "Education",
+            "Research",
+            "Translation",
+            "Virtual Assistant",
+            "And much, much more!"
+          ],
+          [
+            "Start simple - start with a simple prompt and build on it",
+            "Call to Action - start the prompt with an action word like \"Write\", \"Create\", or \"Summarize\" instead of \"Can you\"",
+            "Add Context - add specific and relevant context to the task you want to perform",
+            "Add Expectations - add clear and direct expectations for the content, like how long it should be and what to include"
+          ]
+        ],
+        "examples": [
+          "Create a list of 10 fun and inexpensive toy gifts to programmers based on the following criteria: - It should be useful - It should be silly - It should spark creativity",
+          "Example With the following prompt: Create a list of 10 fun and inexpensive toy gifts to programmers based on the following criteria: - It should be useful - It should be silly - It should spark creativity A response from a Generative AI (in this case, ChatGPT) could be:"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/gen_ai/gen_ai_prompt_intro.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/gen_ai/gen_ai_prompt_intro.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 2,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/gen_ai/gen_ai_chatgpt-3-5.php",
+    "cours": {
+      "titre": "Generative AI - ChatGPT-3.5",
+      "description": "[+: Learn ChatGPT ChatGPT is an AI chatbot developed by OpenAI. ChatGPT can help boost your productivity if used correctly. Knowing how to write prompts correctly is the key to helping you use ChatGPT Start learning how to use ChatGPT-3.5 now ❯",
+      "lien": "https://www.w3schools.com/gen_ai/gen_ai_chatgpt-3-5.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "Create a list of 10 fun and inexpensive toy gifts to programmers based on the following criteria: - It should be useful - It should be silly - It should spark creativity",
+          "Example With the following prompt: Create a list of 10 fun and inexpensive toy gifts to programmers based on the following criteria: - It should be useful - It should be silly - It should spark creativity A response from a ChatGPT-3.5 could be:"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/gen_ai/gen_ai_prompt_text-to-text_intro.php"
+          },
+          {
+            "title": "Start learning how to use ChatGPT-3.5 now ❯",
+            "url": "https://www.w3schools.com/gen_ai/chatgpt-3-5/index.php"
+          },
+          {
+            "title": "Start learning how to use ChatGPT-3.5 now ❯",
+            "url": "https://www.w3schools.com/gen_ai/chatgpt-3-5/index.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/gen_ai/gen_ai_prompt_text-to-text_intro.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 1,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/gen_ai/gen_ai_chatgpt-4.php",
+    "cours": {
+      "titre": "Generative AI - ChatGPT-4",
+      "description": "[+: Learn ChatGPT-4 ChatGPT-4 is the latest version of the AI chatbot by OpenAI. ChatGPT can help boost your productivity if used correctly. Knowing how to write prompts correctly is the key to helping you use ChatGPT Start learning how to use ChatGPT-4 now ❯",
+      "lien": "https://www.w3schools.com/gen_ai/gen_ai_chatgpt-4.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "Create a list of 10 fun and inexpensive toy gifts to programmers based on the following criteria: - It should be useful - It should be silly - It should spark creativity",
+          "Example With the following prompt: Create a list of 10 fun and inexpensive toy gifts to programmers based on the following criteria: - It should be useful - It should be silly - It should spark creativity A response from a ChatGPT-4 could be:"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/gen_ai/gen_ai_chatgpt-3-5.php"
+          },
+          {
+            "title": "Start learning how to use ChatGPT-4 now ❯",
+            "url": "https://www.w3schools.com/gen_ai/chatgpt-4/index.php"
+          },
+          {
+            "title": "Start learning how to use ChatGPT-4 now ❯",
+            "url": "https://www.w3schools.com/gen_ai/chatgpt-4/index.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/gen_ai/gen_ai_chatgpt-3-5.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 1,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/gen_ai/gen_ai_bard.php",
+    "cours": {
+      "titre": "Generative AI - Google Bard",
+      "description": "[+: Bard is an AI chatbot developed by Google. Bard can help boost your productivity if used correctly. Knowing how to write prompts correctly is the key to helping you use Bard Start learning how to use Bard now ❯",
+      "lien": "https://www.w3schools.com/gen_ai/gen_ai_bard.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "Create a list of 10 fun and inexpensive toy gifts to programmers based on the following criteria: - It should be useful - It should be silly - It should spark creativity",
+          "Example With the following prompt: Create a list of 10 fun and inexpensive toy gifts to programmers based on the following criteria: - It should be useful - It should be silly - It should spark creativity A response from a Bard could be:"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/gen_ai/gen_ai_chatgpt-4.php"
+          },
+          {
+            "title": "Start learning how to use Bard now ❯",
+            "url": "https://www.w3schools.com/gen_ai/bard/index.php"
+          },
+          {
+            "title": "Start learning how to use Bard now ❯",
+            "url": "https://www.w3schools.com/gen_ai/bard/index.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/gen_ai/gen_ai_chatgpt-4.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 1,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  }
+]

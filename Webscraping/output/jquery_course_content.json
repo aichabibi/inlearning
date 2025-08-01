@@ -1,0 +1,1916 @@
+[
+    {
+        "url": "https://www.w3schools.com/jquery/default.asp",
+        "cours": {
+            "titre": "jQueryTutorial",
+            "description": "jQuery is a JavaScript Library.jQuery greatly simplifies JavaScript programming.jQuery is easy to learn.Start learning jQuery now »",
+            "lien": "https://www.w3schools.com/jquery/default.asp",
+            "contenus": {
+                "paragraphs": [
+                    "jQuery is a JavaScript Library.",
+                    "jQuery greatly simplifies JavaScript programming.",
+                    "jQuery is easy to learn.",
+                    "Our \"Try it Yourself\" editor makes it easy to learn jQuery. You can edit code and view the result in your browser:",
+                    "Click on the \"Try it Yourself\" button to see how it works.",
+                    "Use the correctselectorto hide all <p> elements.",
+                    "Start the Exercise",
+                    "Learn by examples! At W3Schools you will find a lot of jQuery examples to edit and test yourself.",
+                    "Test your jQuery skills at W3Schools!",
+                    "Track your progress with the free \"My Learning\" program here at W3Schools.",
+                    "Log in to your account, and start earning points!",
+                    "This is an optional feature. You can study at W3Schools without using My Learning.",
+                    "At W3Schools you will find a complete reference of all jQuery selectors, methods, properties and events.",
+                    "Get certified by completingthecourse"
+                ],
+                "lists": [],
+                "examples": [
+                    "$(document).ready(function(){$(\"p\").click(function(){$(this).hide();});});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_intro.asp",
+        "cours": {
+            "titre": "jQueryIntroduction",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_intro.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The purpose of jQuery is to make it much easier to use JavaScript on your website.",
+                    "Before you start studying jQuery, you should have a basic knowledge of:",
+                    "If you want to study these subjects first, find the tutorials on ourHome page.",
+                    "jQuery is a lightweight, \"write less, do more\", JavaScript library.",
+                    "The purpose of jQuery is to make it much easier to use JavaScript on your website.",
+                    "jQuery takes a lot of common tasks that require many lines of JavaScript code to accomplish,\nand wraps them into methods that you can call with a single line of code.",
+                    "jQuery also simplifies a lot of the complicated things from JavaScript, like AJAX calls and DOM manipulation.",
+                    "The jQuery library contains the following features:",
+                    "Tip:In addition, jQuery has plugins for almost any task out there.",
+                    "There are lots of other JavaScript libraries out there, but jQuery\nis probably the most popular, and also the most extendable.",
+                    "Many of the biggest companies on the Web use jQuery, such as:",
+                    "Will jQuery work in all browsers?The jQuery team knows all about cross-browser issues, and they have \nwritten this knowledge into the jQuery library. jQuery will run exactly the same \nin all major browsers."
+                ],
+                "lists": [
+                    [
+                        "HTML",
+                        "CSS",
+                        "JavaScript"
+                    ],
+                    [
+                        "HTML/DOM manipulation",
+                        "CSS manipulation",
+                        "HTML event methods",
+                        "Effects and animations",
+                        "AJAX",
+                        "Utilities"
+                    ],
+                    [
+                        "Google",
+                        "Microsoft",
+                        "IBM",
+                        "Netflix"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_get_started.asp",
+        "cours": {
+            "titre": "jQueryGet Started",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_get_started.asp",
+            "contenus": {
+                "paragraphs": [
+                    "There are several ways to start using jQuery on your web site. You can:",
+                    "There are two versions of jQuery available for downloading:",
+                    "Both versions can be downloaded fromjQuery.com.",
+                    "The jQuery library is a single JavaScript file, and you reference it with the HTML<script>tag \n(notice that the<script>tag should be inside the<head>section):",
+                    "Tip:Place the downloaded file in the same directory as the pages where you wish to use it.",
+                    "If you don't want to download and host jQuery yourself, you can include it from a CDN (Content Delivery Network).",
+                    "Google is an example of someone who host jQuery:",
+                    "One big advantage of using the hosted jQuery from Google:Many users already have downloaded jQuery from Google when visiting \nanother site. As a result, it will be loaded from cache when they visit your site, which leads to faster loading time. \nAlso, most CDN's will make sure that once a user requests a file from it, it will be served \nfrom the server closest to them, which also leads to faster loading time."
+                ],
+                "lists": [
+                    [
+                        "Download the jQuery library from jQuery.com",
+                        "Include jQuery from a CDN, like Google"
+                    ],
+                    [
+                        "Production version - this is for your live website because it has been minified and compressed",
+                        "Development version - this is for testing and development (uncompressed and readable code)"
+                    ]
+                ],
+                "examples": [
+                    "<head><script src=\"jquery-3.7.1.min.js\"></script></head>",
+                    "<head><script src=\"https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js\"></script></head>"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_syntax.asp",
+        "cours": {
+            "titre": "jQuerySyntax",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_syntax.asp",
+            "contenus": {
+                "paragraphs": [
+                    "With jQuery you select (query) HTML elements and perform \"actions\" on them.",
+                    "The jQuery syntax is tailor-made forselectingHTML elements and performing someactionon the element(s).",
+                    "Basic syntax is:$(selector).action()",
+                    "Examples:",
+                    "$(this).hide()- hides the current element.",
+                    "$(\"p\").hide()- hides all <p> elements.",
+                    "$(\".test\").hide()- hides all elements with class=\"test\".",
+                    "$(\"#test\").hide()- hides the element with id=\"test\".",
+                    "Are you familiar with CSS selectors?jQuery uses CSS syntax to select elements. You will learn more about the selector syntax in the next chapter of this tutorial.",
+                    "Tip:If you don't know CSS, you can read ourCSS Tutorial.",
+                    "You might have noticed that all jQuery methods in our examples, are inside a document ready event:",
+                    "This is to prevent any jQuery code from running before the document is finished loading (is ready).",
+                    "It is good practice to wait for the document to be fully loaded and ready before working with it.\nThis also allows you to have your JavaScript code before the body of your document, in the head section.",
+                    "Here are some examples of actions that can fail if methods are run before the document is fully loaded:",
+                    "Tip:The jQuery team has also created an even shorter method for the \ndocument ready event:",
+                    "Use the syntax you prefer. We think that the document ready event is easier to understand when reading the code."
+                ],
+                "lists": [
+                    [
+                        "A $ sign to define/access jQuery",
+                        "A (selector) to \"query (or find)\" HTML elements",
+                        "A jQueryaction() to be performed on the element(s)"
+                    ],
+                    [
+                        "Trying to hide an element that is not created yet",
+                        "Trying to get the size of an image that is not loaded yet"
+                    ]
+                ],
+                "examples": [
+                    "$(document).ready(function(){// jQuery methods go here...});",
+                    "$(function(){// jQuery methods go here...});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_selectors.asp",
+        "cours": {
+            "titre": "jQuerySelectors",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_selectors.asp",
+            "contenus": {
+                "paragraphs": [
+                    "jQuery selectors are one of the most important parts of the jQuery library.",
+                    "jQuery selectors allow you to select and manipulate HTML element(s).",
+                    "jQuery selectors are used to \"find\" (or select) HTML elements based on their \nname, id, classes, types, attributes, values of attributes and much more.\nIt's based on the existingCSS Selectors, and in addition, it has \nsome own custom selectors.",
+                    "All selectors in jQuery start with the dollar sign and parentheses: $().",
+                    "The jQuery element selector selects elements based on the element name.",
+                    "You can select all<p>elements on a page like this:",
+                    "Example",
+                    "When a user clicks on a button, all<p>elements will be hidden:",
+                    "The jQuery#idselector uses the id attribute of an HTML tag to find the specific element.",
+                    "An id should be unique within a page, so you should use the #id selector when you want to find a single, unique element.",
+                    "To find an element with a specific id, write a hash character, followed by the id of the \nHTML element:",
+                    "Example",
+                    "When a user clicks on a button, the element with id=\"test\" will be hidden:",
+                    "The jQuery.classselector finds elements with a specific class.",
+                    "To find elements with a specific class, write a period character, followed by the name of the class:",
+                    "Example",
+                    "When a user clicks on a button, the elements with class=\"test\" will be hidden:",
+                    "Use ourjQuery Selector Testerto demonstrate the different selectors.",
+                    "For a complete reference of all the jQuery selectors, please go to ourjQuery Selectors Reference.",
+                    "If your website contains a lot of pages, and you want your jQuery functions to be easy \nto maintain, you can put your jQuery functions in a separate .js file.",
+                    "When we demonstrate jQuery in this tutorial, the functions are added directly into the<head>section. However, sometimes it is preferable to place them in a separate file, like this (use \nthe src attribute to refer \nto the .js file):",
+                    "Use the correctselectorto hide all <p> elements.",
+                    "Start the Exercise"
+                ],
+                "lists": [],
+                "examples": [
+                    "$(\"p\")",
+                    "$(document).ready(function(){$(\"button\").click(function(){$(\"p\").hide();});});",
+                    "$(\"#test\")",
+                    "$(document).ready(function(){$(\"button\").click(function(){$(\"#test\").hide();});});",
+                    "$(\".test\")",
+                    "$(document).ready(function(){$(\"button\").click(function(){$(\".test\").hide();});});",
+                    "<head><script\nsrc=\"https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js\"></script><script src=\"my_jquery_functions.js\"></script></head>"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_events.asp",
+        "cours": {
+            "titre": "jQueryEvent Methods",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_events.asp",
+            "contenus": {
+                "paragraphs": [
+                    "jQuery is tailor-made to respond to events in an HTML page.",
+                    "All the different visitors' actions that a web page can respond to are called events.",
+                    "An event represents the precise moment when something happens.",
+                    "Examples:",
+                    "The term\"fires/fired\"is often used with events. Example: \n\"The keypress event is fired, the moment you press a key\".",
+                    "Here are some common DOM events:",
+                    "In jQuery, most DOM events have an equivalent jQuery method.",
+                    "To assign a click event to all paragraphs on a page, you can do this:",
+                    "The next step is to define what should happen when the event fires. You must \npass a function to the event:",
+                    "$(document).ready()",
+                    "The$(document).ready()method allows us to execute a function when the \ndocument is fully loaded. This event is already explained in thejQuery Syntaxchapter.",
+                    "click()",
+                    "Theclick()method attaches an event handler function to an HTML element.",
+                    "The \nfunction is executed when the user clicks on the HTML element.",
+                    "The following example says: When a click event fires on a<p>element; hide \nthe current<p>element:",
+                    "dblclick()",
+                    "Thedblclick()method attaches an event handler function to an HTML element.",
+                    "The function is executed when the user double-clicks on the HTML element:",
+                    "mouseenter()",
+                    "Themouseenter()method attaches an event handler function to an HTML \nelement.",
+                    "The function is executed when the mouse pointer enters the HTML element:",
+                    "mouseleave()",
+                    "Themouseleave()method attaches an event handler function to an HTML \nelement.",
+                    "The function is executed when the mouse pointer leaves the HTML element:",
+                    "mousedown()",
+                    "Themousedown()method attaches an event handler function to an HTML \nelement.",
+                    "The function is executed, when the left, middle or right mouse button is pressed down, while the \nmouse is over the HTML element:",
+                    "mouseup()",
+                    "Themouseup()method attaches an event handler function to an HTML \nelement.",
+                    "The function is executed, when the left, middle or right mouse button is released, while the \nmouse is over the HTML element:",
+                    "hover()",
+                    "Thehover()method takes two functions and is a combination of themouseenter()andmouseleave()methods.",
+                    "The first \nfunction is executed when the mouse enters the HTML element, and the second \nfunction is \nexecuted when the mouse leaves the HTML element:",
+                    "focus()",
+                    "Thefocus()method attaches an event handler function to an HTML form field.",
+                    "The function is executed when the form field gets focus:",
+                    "blur()",
+                    "Theblur()method attaches an event handler function to an HTML form field.",
+                    "The function \nis executed when the form field loses focus:",
+                    "Theon()method attaches one or more event handlers for the selected elements.",
+                    "Attach a click event to a<p>element:",
+                    "Attach multiple event handlers to a<p>element:",
+                    "Use the correcteventto hide all <p> elements with a \"click\".",
+                    "Start the Exercise",
+                    "For a full jQuery event reference, please go to ourjQuery Events Reference."
+                ],
+                "lists": [
+                    [
+                        "moving a mouse over an element",
+                        "selecting a radio button",
+                        "clicking on an element"
+                    ]
+                ],
+                "examples": [
+                    "$(\"p\").click();",
+                    "$(\"p\").click(function(){// action goes here!!});",
+                    "$(\"p\").click(function(){$(this).hide();});",
+                    "$(\"p\").dblclick(function(){$(this).hide();});",
+                    "$(\"#p1\").mouseenter(function(){alert(\"You entered p1!\");});",
+                    "$(\"#p1\").mouseleave(function(){alert(\"Bye! You now leave p1!\");});",
+                    "$(\"#p1\").mousedown(function(){alert(\"Mouse down over p1!\");});",
+                    "$(\"#p1\").mouseup(function(){alert(\"Mouse up over p1!\");});",
+                    "$(\"#p1\").hover(function(){alert(\"You entered p1!\");},function(){alert(\"Bye! You now leave p1!\");});",
+                    "$(\"input\").focus(function(){$(this).css(\"background-color\", \"#cccccc\");});",
+                    "$(\"input\").blur(function(){$(this).css(\"background-color\", \"#ffffff\");});",
+                    "$(\"p\").on(\"click\", function(){$(this).hide();});",
+                    "$(\"p\").on({mouseenter: function(){$(this).css(\"background-color\", \"lightgray\");},mouseleave: function(){$(this).css(\"background-color\", \"lightblue\");},click: function(){$(this).css(\"background-color\", \"yellow\");}});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_hide_show.asp",
+        "cours": {
+            "titre": "jQuery Effects -Hide and Show",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_hide_show.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Hide, Show, Toggle, Slide, Fade, and Animate. WOW!",
+                    "Click to show/hide panel",
+                    "Because time is valuable, we deliver quick and easy learning.",
+                    "At W3Schools, you can study everything you need to learn, in an accessible and handy format.",
+                    "jQuery hide()Demonstrates a simple jQuery hide() method.",
+                    "jQuery hide()Another hide() demonstration. How to hide parts of text.",
+                    "With jQuery, you can hide and show HTML elements with thehide()andshow()methods:",
+                    "Syntax:",
+                    "The optional speed parameter specifies the speed of the hiding/showing, and \ncan take the following values: \"slow\", \"fast\", or milliseconds.",
+                    "The optional callback parameter is a function to be executed after  \nthehide()orshow()method completes (you will learn more about callback functions in a \nlater chapter).",
+                    "The following example demonstrates the speed parameter withhide():",
+                    "You can also toggle between hiding and showing an element with thetoggle()method.",
+                    "Shown elements are hidden and hidden elements are shown:",
+                    "Syntax:",
+                    "The optional speed parameter can take the following values: \"slow\", \"fast\", or milliseconds.",
+                    "The optional callback parameter is a function to be executed aftertoggle()completes.",
+                    "Use a jQuery method tohidea <p> element when it is clicked on.",
+                    "Start the Exercise",
+                    "For a complete overview of all jQuery effects, please go to ourjQuery Effect Reference."
+                ],
+                "lists": [],
+                "examples": [
+                    "$(\"#hide\").click(function(){$(\"p\").hide();});$(\"#show\").click(function(){$(\"p\").show();});",
+                    "$(selector).hide(speed,callback);$(selector).show(speed,callback);",
+                    "$(\"button\").click(function(){$(\"p\").hide(1000);});",
+                    "$(\"button\").click(function(){$(\"p\").toggle();});",
+                    "$(selector).toggle(speed,callback);"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_fade.asp",
+        "cours": {
+            "titre": "jQuery Effects -Fading",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_fade.asp",
+            "contenus": {
+                "paragraphs": [
+                    "With jQuery you can fade elements in and out of visibility.",
+                    "Click to fade in/out panel",
+                    "Because time is valuable, we deliver quick and easy learning.",
+                    "At W3Schools, you can study everything you need to learn, in an accessible and handy format.",
+                    "jQuery fadeIn()Demonstrates the jQuery fadeIn() method.",
+                    "jQuery fadeOut()Demonstrates the jQuery fadeOut() method.",
+                    "jQuery \nfadeToggle()Demonstrates the jQuery fadeToggle() method.",
+                    "jQuery fadeTo()Demonstrates the jQuery fadeTo() method.",
+                    "With jQuery you can fade an element in and out of visibility.",
+                    "jQuery has the following fade methods:",
+                    "The jQueryfadeIn()method is used to fade in a hidden element.",
+                    "Syntax:",
+                    "The optional speed parameter specifies the duration of the effect. It can take the following values: \"slow\", \"fast\", or \nmilliseconds.",
+                    "The optional callback parameter is a function to be executed after the \nfading completes.",
+                    "The following example demonstrates thefadeIn()method with different \nparameters:",
+                    "The jQueryfadeOut()method is used to fade out a visible element.",
+                    "Syntax:",
+                    "The optional speed parameter specifies the duration of the effect. It can take the following values: \"slow\", \"fast\", or \nmilliseconds.",
+                    "The optional callback parameter is a function to be executed after the \nfading completes.",
+                    "The following example demonstrates thefadeOut()method with different \nparameters:",
+                    "The jQueryfadeToggle()method toggles between thefadeIn()andfadeOut()methods.",
+                    "If the elements are faded out,fadeToggle()will fade them in.",
+                    "If the elements are faded in,fadeToggle()will fade them out.",
+                    "Syntax:",
+                    "The optional speed parameter specifies the duration of the effect. It can take the following values: \"slow\", \"fast\", or \nmilliseconds.",
+                    "The optional callback parameter is a function to be executed after the \nfading completes.",
+                    "The following example demonstrates thefadeToggle()method with different \nparameters:",
+                    "The jQueryfadeTo()method allows fading to a given opacity (value between 0 and 1).",
+                    "Syntax:",
+                    "The required speed parameter specifies the duration of the effect. It can take the following values: \"slow\", \"fast\", or \nmilliseconds.",
+                    "The required opacity parameter in thefadeTo()method specifies fading to a given opacity (value between 0 and 1).",
+                    "The optional callback parameter is a function to be executed after the function completes.",
+                    "The following example demonstrates thefadeTo()method with different \nparameters:",
+                    "Use a jQuery method tofade outa <div> element.",
+                    "Start the Exercise",
+                    "For a complete overview of all jQuery effects, please go to ourjQuery Effect Reference."
+                ],
+                "lists": [
+                    [
+                        "fadeIn()",
+                        "fadeOut()",
+                        "fadeToggle()",
+                        "fadeTo()"
+                    ]
+                ],
+                "examples": [
+                    "$(selector).fadeIn(speed,callback);",
+                    "$(\"button\").click(function(){$(\"#div1\").fadeIn();$(\"#div2\").fadeIn(\"slow\");$(\"#div3\").fadeIn(3000);});",
+                    "$(selector).fadeOut(speed,callback);",
+                    "$(\"button\").click(function(){$(\"#div1\").fadeOut();$(\"#div2\").fadeOut(\"slow\");$(\"#div3\").fadeOut(3000);});",
+                    "$(selector).fadeToggle(speed,callback);",
+                    "$(\"button\").click(function(){$(\"#div1\").fadeToggle();$(\"#div2\").fadeToggle(\"slow\");$(\"#div3\").fadeToggle(3000);});",
+                    "$(selector).fadeTo(speed,opacity,callback);",
+                    "$(\"button\").click(function(){$(\"#div1\").fadeTo(\"slow\", 0.15);$(\"#div2\").fadeTo(\"slow\", 0.4);$(\"#div3\").fadeTo(\"slow\", 0.7);});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_slide.asp",
+        "cours": {
+            "titre": "jQuery Effects -Sliding",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_slide.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The jQuery slide methods slide elements up and down.",
+                    "Click to slide down/up the panel",
+                    "Because time is valuable, we deliver quick and easy learning.",
+                    "At W3Schools, you can study everything you need to learn, in an accessible and handy format.",
+                    "jQuery slideDown()Demonstrates the jQuery slideDown() method.",
+                    "jQuery slideUp()Demonstrates the jQuery slideUp() method.",
+                    "jQuery slideToggle()Demonstrates the jQuery slideToggle() method.",
+                    "With jQuery you can create a sliding effect on elements.",
+                    "jQuery has the following slide methods:",
+                    "The jQueryslideDown()method is used to slide down an element.",
+                    "Syntax:",
+                    "The optional speed parameter specifies the duration of the effect. It can take the following values: \"slow\", \"fast\", or \nmilliseconds.",
+                    "The optional callback parameter is a function to be executed after the sliding completes.",
+                    "The following example demonstrates theslideDown()method:",
+                    "The jQueryslideUp()method is used to slide up an element.",
+                    "Syntax:",
+                    "The optional speed parameter specifies the duration of the effect. It can take the following values: \"slow\", \"fast\", or \nmilliseconds.",
+                    "The optional callback parameter is a function to be executed after the sliding completes.",
+                    "The following example demonstrates theslideUp()method:",
+                    "The jQueryslideToggle()method toggles between theslideDown()andslideUp()methods.",
+                    "If the elements have been slid down,slideToggle()will slide them up.",
+                    "If the elements have been slid up,slideToggle()will slide them down.",
+                    "The optional speed parameter can take the following values: \"slow\", \"fast\", milliseconds.",
+                    "The optional callback parameter is a function to be executed after the \nsliding completes.",
+                    "The following example demonstrates theslideToggle()method:",
+                    "Use a jQuery method toslide upa <div> element.",
+                    "Start the Exercise",
+                    "For a complete overview of all jQuery effects, please go to ourjQuery Effect Reference."
+                ],
+                "lists": [
+                    [
+                        "slideDown()",
+                        "slideUp()",
+                        "slideToggle()"
+                    ]
+                ],
+                "examples": [
+                    "$(selector).slideDown(speed,callback);",
+                    "$(\"#flip\").click(function(){$(\"#panel\").slideDown();});",
+                    "$(selector).slideUp(speed,callback);",
+                    "$(\"#flip\").click(function(){$(\"#panel\").slideUp();});",
+                    "$(selector).slideToggle(speed,callback);",
+                    "$(\"#flip\").click(function(){$(\"#panel\").slideToggle();});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_animate.asp",
+        "cours": {
+            "titre": "jQuery Effects -Animation",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_animate.asp",
+            "contenus": {
+                "paragraphs": [
+                    "With jQuery, you can create custom animations.",
+                    "The jQueryanimate()method is used to create custom animations.",
+                    "Syntax:",
+                    "The required params parameter defines the CSS properties to be animated.",
+                    "The optional speed parameter specifies the duration of the effect. It can take the following values: \"slow\", \"fast\", or \nmilliseconds.",
+                    "The optional callback parameter is a function to be executed after the \nanimation completes.",
+                    "The following example demonstrates a simple use of theanimate()method; it moves \na <div> element to the right, until it has reached a left property of 250px:",
+                    "By default, all HTML elements have a static position, and cannot be moved.To manipulate the position, remember to first set the CSS position property of the element to relative, fixed, or absolute!",
+                    "Notice that multiple properties can be animated at the same time:",
+                    "Is it possible to manipulate ALL CSS properties with the animate() method?Yes, almost! However, there is one important thing to remember: all property \nnames must be camel-cased when used with the animate() method: You will need to \nwrite paddingLeft instead of padding-left, marginRight instead of margin-right, and so on.Also, color animation is not included in the core jQuery library.If you want to animate color, you need to download theColor \nAnimations pluginfrom jQuery.com.",
+                    "It is also possible to define relative values (the value is then relative to \nthe element's current value). This is done by putting += or -= in front of the \nvalue:",
+                    "You can even specify a property's animation value as \"show\", \"hide\", or \"toggle\":",
+                    "By default, jQuery comes with queue functionality for animations.",
+                    "This means that if you write multipleanimate()calls after each other, \njQuery creates an \"internal\" queue with these method calls. Then it runs the \nanimate calls ONE by ONE.",
+                    "So, if you want to perform different animations after each other, we take \nadvantage of the queue functionality:",
+                    "The example below first moves the<div>element to the right, and then increases the font size of the text:",
+                    "Use theanimate()method to move a <div> element 250 pixels to the right.",
+                    "Start the Exercise",
+                    "For a complete overview of all jQuery effects, please go to ourjQuery Effect Reference."
+                ],
+                "lists": [],
+                "examples": [
+                    "$(selector).animate({params},speed,callback);",
+                    "$(\"button\").click(function(){$(\"div\").animate({left: '250px'});});",
+                    "$(\"button\").click(function(){$(\"div\").animate({left: '250px',opacity: '0.5',height: '150px',width: '150px'});});",
+                    "$(\"button\").click(function(){$(\"div\").animate({left: '250px',height: '+=150px',width: '+=150px'});});",
+                    "$(\"button\").click(function(){$(\"div\").animate({height: 'toggle'});});",
+                    "$(\"button\").click(function(){var div = $(\"div\");div.animate({height: '300px', opacity: '0.4'}, \"slow\");div.animate({width: '300px', opacity: '0.8'}, \"slow\");div.animate({height: '100px', opacity: '0.4'}, \"slow\");div.animate({width: '100px', opacity: '0.8'}, \"slow\");});",
+                    "$(\"button\").click(function(){var div = $(\"div\");div.animate({left: '100px'}, \"slow\");div.animate({fontSize: '3em'}, \"slow\");});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_stop.asp",
+        "cours": {
+            "titre": "jQueryStop Animations",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_stop.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The jQuery stop() method is used to stop animations or effects before it is finished.",
+                    "Click to slide down/up the panel",
+                    "Because time is valuable, we deliver quick and easy learning.",
+                    "At W3Schools, you can study everything you need to learn, in an accessible and handy format.",
+                    "jQuery stop() slidingDemonstrates the jQuery stop() method.",
+                    "jQuery \nstop() animation (with parameters)Demonstrates the jQuery stop() method.",
+                    "The jQuerystop()method is used to stop an animation or effect before it is finished.",
+                    "Thestop()method works for all jQuery effect functions, including sliding, fading and custom animations.",
+                    "Syntax:",
+                    "The optional stopAll parameter specifies whether also the animation queue \nshould be cleared or not. Default is false, which means that only the active \nanimation will be stopped, allowing any queued animations to be performed \nafterwards.",
+                    "The optional goToEnd parameter specifies whether or \nnot to complete the current animation immediately. Default is false.",
+                    "So, by default, thestop()method kills the current animation being performed \non the selected element.",
+                    "The following example demonstrates thestop()method, with no parameters:",
+                    "Use a jQuery method tostopthe animation effect of a <div> element.",
+                    "Start the Exercise",
+                    "For a complete overview of all jQuery effects, please go to ourjQuery Effect Reference."
+                ],
+                "lists": [],
+                "examples": [
+                    "$(selector).stop(stopAll,goToEnd);",
+                    "$(\"#stop\").click(function(){$(\"#panel\").stop();});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_callback.asp",
+        "cours": {
+            "titre": "jQueryCallbackFunctions",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_callback.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A callback function is executed after the current effect is 100% finished.",
+                    "JavaScript statements are executed line by line. However, with effects, \nthe next line of code can be run even though the effect is not finished. This \ncan create errors.",
+                    "To prevent this, you can create a callback function.",
+                    "A callback function is executed after the current effect is finished.",
+                    "Typical syntax:$(selector).hide(speed,callback);",
+                    "Examples",
+                    "The example below has a callback parameter that is a function that will be executed after the hide effect is completed:",
+                    "The example below has no callback parameter, and the alert box will be displayed before the hide effect is completed:"
+                ],
+                "lists": [],
+                "examples": [
+                    "$(\"button\").click(function(){$(\"p\").hide(\"slow\", function(){alert(\"The paragraph is now hidden\");});});",
+                    "$(\"button\").click(function(){$(\"p\").hide(1000);alert(\"The paragraph is now hidden\");});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_chaining.asp",
+        "cours": {
+            "titre": "jQuery -Chaining",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_chaining.asp",
+            "contenus": {
+                "paragraphs": [
+                    "With jQuery, you can chain together actions/methods.",
+                    "Chaining allows us to run multiple jQuery methods (on the same \nelement) within a single statement.",
+                    "Until now we have been writing jQuery statements one at a time (one after the \nother).",
+                    "However, there is a technique called chaining, that \nallows us to run multiple jQuery commands, one after the other, on the same \nelement(s).",
+                    "Tip:This way, browsers do not have to find the same element(s) more than once.",
+                    "To chain \nan action, you simply append the action to the previous action.",
+                    "The following example chains together thecss(),slideUp(), andslideDown()methods. The \"p1\" element first changes to red, then it slides up, and then it \nslides down:",
+                    "We could also have added more method calls if needed.",
+                    "Tip: When chaining, the line of code \ncould become quite long. However, jQuery is not very strict on the syntax; you can format it like you want, including line breaks and indentations.",
+                    "This also works just fine:",
+                    "jQuery throws away extra whitespace and executes the lines above as one long line of code."
+                ],
+                "lists": [],
+                "examples": [
+                    "$(\"#p1\").css(\"color\", \"red\").slideUp(2000).slideDown(2000);",
+                    "$(\"#p1\").css(\"color\", \"red\").slideUp(2000).slideDown(2000);"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_dom_get.asp",
+        "cours": {
+            "titre": "jQuery -Get Content and Attributes",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_dom_get.asp",
+            "contenus": {
+                "paragraphs": [
+                    "jQuery contains powerful methods for changing and manipulating HTML elements and attributes.",
+                    "One very important part of jQuery is the possibility to manipulate the DOM.",
+                    "jQuery comes with a bunch of DOM related methods that make it easy to \naccess and manipulate elements and attributes.",
+                    "DOM = Document Object ModelThe DOM defines a standard for accessing HTML and XML documents:\"The W3C Document Object Model (DOM) is a platform and language-neutral \ninterface that allows programs and scripts to dynamically access and update the \ncontent, structure, and style of a document.\"",
+                    "Three simple, but useful, jQuery methods for DOM manipulation are:",
+                    "The following example demonstrates how to get content with the jQuerytext()andhtml()methods:",
+                    "The following example demonstrates how to get the value of an input field with the jQueryval()method:",
+                    "The jQueryattr()method is used to get attribute values.",
+                    "The following example demonstrates how to get the value of the href attribute \nin a link:",
+                    "The next chapter explains how to set (change) content and attribute values.",
+                    "Use a jQuery method toreturnthe text content of a <div> element.",
+                    "Start the Exercise",
+                    "For a complete overview of all jQuery HTML methods, please go to ourjQuery HTML/CSS Reference."
+                ],
+                "lists": [
+                    [
+                        "text()- Sets or returns the text content of selected elements",
+                        "html()- Sets or returns the content of selected elements (including HTML markup)",
+                        "val()- Sets or returns the value of form fields"
+                    ]
+                ],
+                "examples": [
+                    "$(\"#btn1\").click(function(){alert(\"Text: \" + $(\"#test\").text());});$(\"#btn2\").click(function(){alert(\"HTML: \" + $(\"#test\").html());});",
+                    "$(\"#btn1\").click(function(){alert(\"Value: \" + $(\"#test\").val());});",
+                    "$(\"button\").click(function(){alert($(\"#w3s\").attr(\"href\"));});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_dom_set.asp",
+        "cours": {
+            "titre": "jQuery -Set Content and Attributes",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_dom_set.asp",
+            "contenus": {
+                "paragraphs": [
+                    "We will use the same three methods from the previous page toset content:",
+                    "The following example demonstrates how to set content with the jQuerytext(),html(), \nandval()methods:",
+                    "All of the three jQuery methods above:text(),html(), \nandval(), also come with a callback function. The callback function has two \nparameters: the index of the current element in the list of elements selected \nand the original (old) value. You then return the string you wish to use as the \nnew value from the function.",
+                    "The following example demonstratestext()andhtml()with a callback \nfunction:",
+                    "The jQueryattr()method is also used to set/change attribute values.",
+                    "The following example demonstrates how to change (set) the value of the href attribute \nin a link:",
+                    "Theattr()method also allows you to set multiple attributes at the same \ntime.",
+                    "The following example demonstrates how to set both the href and title attributes \nat the same time:",
+                    "The jQuery methodattr(), also comes with a callback function. The callback function has two \nparameters: the index of the current element in the list of elements selected \nand the original (old) attribute value. You then return the string you wish to use as the \nnew attribute value from the function.",
+                    "The following example demonstratesattr()with a callback \nfunction:",
+                    "Use a jQuery method tochangethe text of a <div> element to \"Hello World\".",
+                    "Start the Exercise",
+                    "For a complete overview of all jQuery HTML methods, please go to ourjQuery HTML/CSS Reference."
+                ],
+                "lists": [
+                    [
+                        "text()- Sets or returns the text content of selected elements",
+                        "html()- Sets or returns the content of selected elements (including HTML markup)",
+                        "val()- Sets or returns the value of form fields"
+                    ]
+                ],
+                "examples": [
+                    "$(\"#btn1\").click(function(){$(\"#test1\").text(\"Hello world!\");});$(\"#btn2\").click(function(){$(\"#test2\").html(\"<b>Hello world!</b>\");});$(\"#btn3\").click(function(){$(\"#test3\").val(\"Dolly Duck\");});",
+                    "$(\"#btn1\").click(function(){$(\"#test1\").text(function(i, origText){return \"Old text: \" + origText + \" New text: Hello world!(index: \" + i + \")\";});});$(\"#btn2\").click(function(){$(\"#test2\").html(function(i, origText){return \"Old html: \" + origText + \" New html: Hello \n<b>world!</b>(index: \" + i + \")\";});});",
+                    "$(\"button\").click(function(){$(\"#w3s\").attr(\"href\", \"https://www.w3schools.com/jquery/\");});",
+                    "$(\"button\").click(function(){$(\"#w3s\").attr({\"href\" : \"https://www.w3schools.com/jquery/\",\"title\" : \"W3Schools jQuery Tutorial\"});});",
+                    "$(\"button\").click(function(){$(\"#w3s\").attr(\"href\", function(i, origValue){return origValue + \"/jquery/\";});});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_dom_add.asp",
+        "cours": {
+            "titre": "jQuery -Add Elements",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_dom_add.asp",
+            "contenus": {
+                "paragraphs": [
+                    "With jQuery, it is easy to add new elements/content.",
+                    "We will look at four jQuery methods that are used to add new content:",
+                    "The jQueryappend()method inserts content AT THE END of the selected HTML elements.",
+                    "The jQueryprepend()method inserts content AT THE BEGINNING of the selected HTML elements.",
+                    "In both examples above, we have only inserted some text/HTML at the \nbeginning/end of the selected HTML elements.",
+                    "However, both theappend()andprepend()methods can take an infinite number of new \nelements as parameters. The new elements can be generated with text/HTML (like \nwe have done in the examples above), with jQuery, or with \nJavaScript code and DOM elements.",
+                    "In the following example, we create several new elements. The elements are \ncreated with text/HTML, jQuery, and JavaScript/DOM. Then we append the new \nelements to the text with theappend()method (this would have worked forprepend()too) :",
+                    "The jQueryafter()method inserts content AFTER the selected HTML elements.",
+                    "The jQuerybefore()method inserts content BEFORE the selected HTML elements.",
+                    "Also, both theafter()andbefore()methods can take an infinite number of new \nelements as parameters. The new elements can be generated with text/HTML (like \nwe have done in the example above), with jQuery, or with \nJavaScript code and DOM elements.",
+                    "In the following example, we create several new elements. The elements are \ncreated with text/HTML, jQuery, and JavaScript/DOM. Then we insert the new \nelements to the text with theafter()method (this would have worked forbefore()too) :",
+                    "Use a jQuery method toinsertthe text \"YES!\" at the end of a <p> element.",
+                    "Start the Exercise",
+                    "For a complete overview of all jQuery HTML methods, please go to ourjQuery HTML/CSS Reference."
+                ],
+                "lists": [
+                    [
+                        "append()- Inserts content at the end of the selected elements",
+                        "prepend()- Inserts content at the beginning of the selected elements",
+                        "after()- Inserts content after the selected elements",
+                        "before()- Inserts content before the selected elements"
+                    ]
+                ],
+                "examples": [
+                    "$(\"p\").append(\"Some appended text.\");",
+                    "$(\"p\").prepend(\"Some prepended text.\");",
+                    "function appendText()\n{var txt1 = \"<p>Text.</p>\";               \n// Create element with HTMLvar txt2 = $(\"<p></p>\").text(\"Text.\");   // Create with jQueryvar txt3 = document.createElement(\"p\");  // Create with DOMtxt3.innerHTML = \"Text.\";$(\"body\").append(txt1, txt2, txt3);      // Append the new elements}",
+                    "$(\"img\").after(\"Some text after\");$(\"img\").before(\"Some text before\");",
+                    "function afterText()\n{var txt1 = \"<b>I </b>\";                    \n// Create element with HTMLvar txt2 = $(\"<i></i>\").text(\"love \");     // Create with jQueryvar txt3 = document.createElement(\"b\");    // Create with DOMtxt3.innerHTML = \"jQuery!\";$(\"img\").after(txt1, txt2, txt3);          \n// Insert new elements after <img>}"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_dom_remove.asp",
+        "cours": {
+            "titre": "jQuery -Remove Elements",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_dom_remove.asp",
+            "contenus": {
+                "paragraphs": [
+                    "With jQuery, it is easy to remove existing HTML elements.",
+                    "To remove elements and content, there are mainly two jQuery methods:",
+                    "The jQueryremove()method removes the selected element(s) and its child \nelements.",
+                    "The jQueryempty()method removes the child elements of the selected element(s).",
+                    "The jQueryremove()method also accepts one parameter, which allows you to \nfilter the elements to be removed.",
+                    "The parameter can be any of the jQuery selector syntaxes.",
+                    "The following example removes all<p>elements withclass=\"test\":",
+                    "This example removes all<p>elements withclass=\"test\"andclass=\"demo\":",
+                    "Use a jQuery method toremovea <div> element.",
+                    "Start the Exercise",
+                    "For a complete overview of all jQuery HTML methods, please go to ourjQuery HTML/CSS Reference."
+                ],
+                "lists": [
+                    [
+                        "remove()- Removes the selected element (and its child elements)",
+                        "empty()- Removes the child elements from the selected element"
+                    ]
+                ],
+                "examples": [
+                    "$(\"#div1\").remove();",
+                    "$(\"#div1\").empty();",
+                    "$(\"p\").remove(\".test\");",
+                    "$(\"p\").remove(\".test, .demo\");"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_css_classes.asp",
+        "cours": {
+            "titre": "jQuery -Get and Set CSS Classes",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_css_classes.asp",
+            "contenus": {
+                "paragraphs": [
+                    "With jQuery, it is easy to manipulate the style of elements.",
+                    "jQuery has several methods for CSS manipulation. We will look at the \nfollowing methods:",
+                    "The following stylesheet will be used for all the examples on this page:",
+                    "The following example shows how to add class attributes to different \nelements. Of course you can select multiple elements, when adding classes:",
+                    "You can also specify multiple classes within theaddClass()method:",
+                    "The following example shows how to remove a specific class attribute from different \nelements:",
+                    "The following example will show how to use the jQuerytoggleClass()method. \nThis method toggles between adding/removing classes from the selected elements:",
+                    "The jQuerycss()method will be explained in the next chapter.",
+                    "Use a jQuery method toaddthe \"important\" class to a <p> element.",
+                    "Start the Exercise",
+                    "For a complete overview of all jQuery CSS methods, please go to ourjQuery HTML/CSS Reference."
+                ],
+                "lists": [
+                    [
+                        "addClass()- Adds one or more classes to the selected elements",
+                        "removeClass()- Removes one or more classes from the selected elements",
+                        "toggleClass()- Toggles between adding/removing classes from the selected elements",
+                        "css()- Sets or returns the style attribute"
+                    ]
+                ],
+                "examples": [
+                    ".important\n{font-weight: bold;font-size: xx-large;}.blue\n{color: blue;}",
+                    "$(\"button\").click(function(){$(\"h1, h2, p\").addClass(\"blue\");$(\"div\").addClass(\"important\");});",
+                    "$(\"button\").click(function(){$(\"#div1\").addClass(\"important blue\");});",
+                    "$(\"button\").click(function(){$(\"h1, h2, p\").removeClass(\"blue\");});",
+                    "$(\"button\").click(function(){$(\"h1, h2, p\").toggleClass(\"blue\");});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_css.asp",
+        "cours": {
+            "titre": "jQuery -css() Method",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_css.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Thecss()method sets or returns one or more style properties for the selected elements.",
+                    "To return the value of a specified CSS property, use the following syntax:",
+                    "The following example will return the background-color value of the FIRST matched element:",
+                    "To set a specified CSS property, use the following syntax:",
+                    "The following example will set the background-color value for ALL matched elements:",
+                    "To set multiple CSS properties, use the following syntax:",
+                    "The following example will set a background-color and a font-size for ALL \nmatched elements:",
+                    "Use thecss()method to add a pink background color to a <p> element.",
+                    "Start the Exercise",
+                    "For a complete overview of all jQuery CSS methods, please go to ourjQuery HTML/CSS Reference."
+                ],
+                "lists": [],
+                "examples": [
+                    "css(\"propertyname\");",
+                    "$(\"p\").css(\"background-color\");",
+                    "css(\"propertyname\",\"value\");",
+                    "$(\"p\").css(\"background-color\", \"yellow\");",
+                    "css({\"propertyname\":\"value\",\"propertyname\":\"value\",...});",
+                    "$(\"p\").css({\"background-color\": \"yellow\", \"font-size\": \"200%\"});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_dimensions.asp",
+        "cours": {
+            "titre": "jQuery -Dimensions",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_dimensions.asp",
+            "contenus": {
+                "paragraphs": [
+                    "With jQuery, it is easy to work with the dimensions of elements and browser window.",
+                    "jQuery has several important methods for working with dimensions:",
+                    "",
+                    "Thewidth()method sets or returns the width of an element (excludes \npadding, border and margin).",
+                    "Theheight()method sets or returns the height of an element (excludes padding, border \nand margin).",
+                    "The following example returns the width and height of a specified<div>element:",
+                    "TheinnerWidth()method returns the width of an element (includes padding).",
+                    "TheinnerHeight()method returns the height of an element (includes padding).",
+                    "The following example returns the inner-width/height of a specified<div>element:",
+                    "TheouterWidth()method returns the width of an element (includes padding and \nborder).",
+                    "TheouterHeight()method returns the height of an element (includes padding \nand border).",
+                    "The following example returns the outer-width/height of a specified<div>element:",
+                    "TheouterWidth(true)method returns the width of an element (includes \npadding, border, and margin).",
+                    "TheouterHeight(true)method returns the height of an element (includes \npadding, border, and margin).",
+                    "The following example returns the width and height of the document (the HTML \ndocument) and window (the browser viewport):",
+                    "The following example sets the width and height of a specified<div>element:",
+                    "Use jQuery methods to set the height and width of <div> to 500 pixels.",
+                    "Start the Exercise",
+                    "For a complete overview of all jQuery CSS methods, please go to ourjQuery HTML/CSS Reference."
+                ],
+                "lists": [
+                    [
+                        "width()",
+                        "height()",
+                        "innerWidth()",
+                        "innerHeight()",
+                        "outerWidth()",
+                        "outerHeight()"
+                    ]
+                ],
+                "examples": [
+                    "$(\"button\").click(function(){var txt = \"\";txt += \"Width: \" + $(\"#div1\").width() + \"</br>\";txt += \"Height: \" + $(\"#div1\").height();$(\"#div1\").html(txt);});",
+                    "$(\"button\").click(function(){var txt = \"\";txt += \"Inner width: \" + $(\"#div1\").innerWidth() + \"</br>\";txt += \"Inner height: \" + $(\"#div1\").innerHeight();$(\"#div1\").html(txt);});",
+                    "$(\"button\").click(function(){var txt = \"\";txt += \"Outer width: \" + $(\"#div1\").outerWidth() + \"</br>\";txt += \"Outer height: \" + $(\"#div1\").outerHeight();$(\"#div1\").html(txt);});",
+                    "$(\"button\").click(function(){var txt = \"\";txt += \"Outer width (+margin): \" + $(\"#div1\").outerWidth(true) + \"</br>\";txt += \"Outer height (+margin): \" + $(\"#div1\").outerHeight(true);$(\"#div1\").html(txt);});",
+                    "$(\"button\").click(function(){var txt = \"\";txt += \"Document width/height: \" + $(document).width();txt += \"x\" + $(document).height() + \"\\n\";txt += \"Window width/height: \" + $(window).width();txt += \"x\" + $(window).height();alert(txt);});",
+                    "$(\"button\").click(function(){$(\"#div1\").width(500).height(500);});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_traversing.asp",
+        "cours": {
+            "titre": "jQueryTraversing",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_traversing.asp",
+            "contenus": {
+                "paragraphs": [
+                    "jQuery traversing, which means \"move through\", are used to \"find\" (or select) \nHTML elements based on their relation to other elements. Start with one \nselection and move through that selection until you reach the elements you \ndesire.",
+                    "The image below illustrates an HTML page as a tree (DOM tree). With jQuery traversing, you can \neasily move up (ancestors), down (descendants) and sideways (siblings) in the tree,  starting from the \nselected (current) element. This movement is called traversing - or moving \nthrough - the DOM tree.",
+                    "Illustration explained:",
+                    "An ancestor is a parent, grandparent, great-grandparent, and so on.A \ndescendant is a child, grandchild, great-grandchild, and so on.Siblings share the same parent.",
+                    "jQuery provides a variety of methods that allow us to traverse the DOM.",
+                    "The largest category of traversal methods are tree-traversal.",
+                    "The next chapters will show us how to travel up, down and sideways in \nthe DOM tree.",
+                    "For a complete overview of all jQuery Traversing methods, please go to ourjQuery Traversing Reference."
+                ],
+                "lists": [
+                    [
+                        "The <div> element is theparentof <ul>, and anancestorof everything inside of it",
+                        "The <ul> element is theparentof both <li> elements, and achildof <div>",
+                        "The left <li> element is theparentof <span>,childof <ul> and adescendantof <div>",
+                        "The <span> element is achildof the left <li> and adescendantof <ul> and <div>",
+                        "The two <li> elements aresiblings(they share the same parent)",
+                        "The right <li> element is theparentof <b>,childof <ul> and adescendantof <div>",
+                        "The <b> element is achildof the right <li> and adescendantof <ul> and <div>"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_traversing_ancestors.asp",
+        "cours": {
+            "titre": "jQuery Traversing -Ancestors",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_traversing_ancestors.asp",
+            "contenus": {
+                "paragraphs": [
+                    "With jQuery you can traverse up the DOM tree to \nfind ancestors of an element.",
+                    "An ancestor is a parent, grandparent, great-grandparent, and so \non.",
+                    "Three useful jQuery methods for traversing up the DOM tree are:",
+                    "Theparent()method returns the direct parent element of the selected element.",
+                    "This method only traverse a single level up the DOM tree.",
+                    "The following example returns the direct parent element of each<span>elements:",
+                    "Theparents()method returns all ancestor elements of the selected element, \nall the way up to the document's root element (<html>).",
+                    "The following example returns all ancestors of all<span>elements:",
+                    "You can also use an optional parameter to filter the search for ancestors.",
+                    "The following example returns all ancestors of all<span>elements that are<ul>elements:",
+                    "TheparentsUntil()method returns all ancestor elements between two given \narguments.",
+                    "The following example returns all ancestor elements \nbetween a<span>and a<div>element:",
+                    "Use a jQuery method to get the direct parent of a <span> element.",
+                    "Start the Exercise",
+                    "For a complete overview of all jQuery Traversing methods, please go to ourjQuery Traversing Reference."
+                ],
+                "lists": [
+                    [
+                        "parent()",
+                        "parents()",
+                        "parentsUntil()"
+                    ]
+                ],
+                "examples": [
+                    "$(document).ready(function(){$(\"span\").parent();});",
+                    "$(document).ready(function(){$(\"span\").parents();});",
+                    "$(document).ready(function(){$(\"span\").parents(\"ul\");});",
+                    "$(document).ready(function(){$(\"span\").parentsUntil(\"div\");});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_traversing_descendants.asp",
+        "cours": {
+            "titre": "jQuery Traversing -Descendants",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_traversing_descendants.asp",
+            "contenus": {
+                "paragraphs": [
+                    "With jQuery you can traverse down the DOM tree to \nfind descendants of an element.",
+                    "A descendant is a child, grandchild, great-grandchild, and so \non.",
+                    "Two useful jQuery methods for traversing down the DOM tree are:",
+                    "Thechildren()method returns all direct children of the selected element.",
+                    "This method only traverses a single level down the DOM tree.",
+                    "The following example returns all elements that are direct children of each<div>elements:",
+                    "You can also use an optional parameter to filter the search for children.",
+                    "The following example returns all<p>elements with the class name \"first\", that \nare direct children of<div>:",
+                    "Thefind()method returns descendant elements of the selected element, all \nthe way down to the last descendant.",
+                    "The following example returns all<span>elements that are \ndescendants of<div>:",
+                    "The following example returns all \ndescendants of<div>:",
+                    "Use a jQuery method to get all direct children of a <div> element element.",
+                    "Start the Exercise",
+                    "For a complete overview of all jQuery Traversing methods, please go to ourjQuery Traversing Reference."
+                ],
+                "lists": [
+                    [
+                        "children()",
+                        "find()"
+                    ]
+                ],
+                "examples": [
+                    "$(document).ready(function(){$(\"div\").children();});",
+                    "$(document).ready(function(){$(\"div\").children(\"p.first\");});",
+                    "$(document).ready(function(){$(\"div\").find(\"span\");});",
+                    "$(document).ready(function(){$(\"div\").find(\"*\");});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_traversing_siblings.asp",
+        "cours": {
+            "titre": "jQuery Traversing -Siblings",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_traversing_siblings.asp",
+            "contenus": {
+                "paragraphs": [
+                    "With jQuery you can traverse sideways in the DOM \ntree to find siblings of an element.",
+                    "Siblings share the same parent.",
+                    "There are many useful jQuery methods for traversing sideways in the DOM tree:",
+                    "Thesiblings()method returns all sibling elements of the selected element.",
+                    "The following example returns all sibling elements of<h2>:",
+                    "You can also use an optional parameter to filter the search for siblings.",
+                    "The following example returns all sibling elements of<h2>that are<p>elements:",
+                    "Thenext()method returns the next sibling element of the selected element.",
+                    "The following example returns the next sibling of<h2>:",
+                    "ThenextAll()method returns all next sibling elements of the selected element.",
+                    "The following example returns all next sibling elements of<h2>:",
+                    "ThenextUntil()method returns all next sibling elements between two given \narguments.",
+                    "The following example returns all sibling elements \nbetween a<h2>and a<h6>element:",
+                    "Theprev(),prevAll()andprevUntil()methods work just like the methods above but with reverse functionality: they \nreturn previous sibling elements (traverse backwards along sibling \nelements in the DOM tree, instead of forward).",
+                    "Use a jQuery method to get all siblings elements of an <h2> element.",
+                    "Start the Exercise",
+                    "For a complete overview of all jQuery Traversing methods, please go to ourjQuery Traversing Reference."
+                ],
+                "lists": [
+                    [
+                        "siblings()",
+                        "next()",
+                        "nextAll()",
+                        "nextUntil()",
+                        "prev()",
+                        "prevAll()",
+                        "prevUntil()"
+                    ]
+                ],
+                "examples": [
+                    "$(document).ready(function(){$(\"h2\").siblings();});",
+                    "$(document).ready(function(){$(\"h2\").siblings(\"p\");});",
+                    "$(document).ready(function(){$(\"h2\").next();});",
+                    "$(document).ready(function(){$(\"h2\").nextAll();});",
+                    "$(document).ready(function(){$(\"h2\").nextUntil(\"h6\");});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_traversing_filtering.asp",
+        "cours": {
+            "titre": "jQuery Traversing -Filtering",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_traversing_filtering.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The most basic filtering methods arefirst(),last()andeq(), which \nallow you to select a specific element based on its position in a group of \nelements.",
+                    "Other filtering methods, likefilter()andnot()allow you to select elements \nthat match, or do not match, a certain criteria.",
+                    "Thefirst()method returns the first element of the specified elements.",
+                    "The following example selects the first<div>element:",
+                    "Thelast()method returns the last element of the specified elements.",
+                    "The following example selects the last<div>element:",
+                    "Theeq()method returns an element with a specific index number of the \nselected elements.",
+                    "The index numbers start at 0, so the first element will have the index number \n0 and not 1. The following example selects the second<p>element (index number \n1):",
+                    "Thefilter()method lets you specify a criteria. Elements that do not match \nthe criteria are removed from the selection, and those that match will be \nreturned.",
+                    "The following example returns all<p>elements with class name \"intro\":",
+                    "Thenot()method returns all elements that do not match the criteria.",
+                    "Tip:Thenot()method is the opposite offilter().",
+                    "The following example returns all<p>elements that do not have class name \n\"intro\":",
+                    "Use a jQuery method to get the first <div> element in the document.",
+                    "Start the Exercise",
+                    "For a complete overview of all jQuery Traversing methods, please go to ourjQuery Traversing Reference."
+                ],
+                "lists": [],
+                "examples": [
+                    "$(document).ready(function(){$(\"div\").first();});",
+                    "$(document).ready(function(){$(\"div\").last();});",
+                    "$(document).ready(function(){$(\"p\").eq(1);});",
+                    "$(document).ready(function(){$(\"p\").filter(\".intro\");});",
+                    "$(document).ready(function(){$(\"p\").not(\".intro\");});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_ajax_intro.asp",
+        "cours": {
+            "titre": "jQuery -AJAX Introduction",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_ajax_intro.asp",
+            "contenus": {
+                "paragraphs": [
+                    "AJAX is the art of exchanging data with a server, and updating \nparts of a web page - without reloading the whole page.",
+                    "AJAX = Asynchronous JavaScript and XML.",
+                    "In short; AJAX is about loading data in the background and display it on the \nwebpage, without reloading the whole page.",
+                    "Examples of applications using AJAX: Gmail, Google Maps, Youtube, and \nFacebook tabs.",
+                    "You can learn more about AJAX in ourAJAX tutorial.",
+                    "jQuery provides several methods for AJAX functionality.",
+                    "With the jQuery AJAX methods, you can request text, HTML, XML, or JSON from a remote \nserver using both HTTP Get and HTTP Post - And you can load the external data directly into the selected HTML elements of your \nweb page!",
+                    "Without jQuery, AJAX coding can be a bit tricky!Writing regular AJAX code can be a bit tricky, because different browsers have different \nsyntax for AJAX implementation. This means that you will have to write extra code \nto test for different browsers. However, the jQuery team has taken care of this \nfor us, so that we can write AJAX functionality with only one single line of code.",
+                    "In the next chapters we will look at the most important jQuery AJAX methods."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_ajax_load.asp",
+        "cours": {
+            "titre": "jQuery -AJAX load() Method",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_ajax_load.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The jQueryload()method is a simple, but powerful AJAX method.",
+                    "Theload()method loads data from a \nserver and puts the returned data into the selected element.",
+                    "Syntax:",
+                    "The required URL parameter specifies the URL you wish to load.",
+                    "The optional data parameter specifies a set of querystring key/value pairs to send along with \nthe request.",
+                    "The optional callback parameter is the name of a function to be executed \nafter theload()method is completed.",
+                    "Here is the content of our example file: \"demo_test.txt\":",
+                    "The following example loads the content of the file \"demo_test.txt\" into a \nspecific<div>element:",
+                    "It is also possible to add a jQuery selector to the URL parameter.",
+                    "The following example loads the content of the element with id=\"p1\", inside \nthe file \"demo_test.txt\", into a specific<div>element:",
+                    "The optional callback parameter specifies a callback function to run when theload()method is completed. The callback function can have different parameters:",
+                    "The following example displays an alert box after the load() method \ncompletes. If theload()method has succeeded, it displays \"External content \nloaded successfully!\", and if it fails it displays an error message:",
+                    "For a complete overview of all jQuery AJAX methods, please go to ourjQuery \nAJAX Reference."
+                ],
+                "lists": [
+                    [
+                        "responseTxt- contains the resulting content if the call succeeds",
+                        "statusTxt- contains the status of the call",
+                        "xhr- contains the XMLHttpRequest object"
+                    ]
+                ],
+                "examples": [
+                    "$(selector).load(URL,data,callback);",
+                    "<h2>jQuery and AJAX is FUN!!!</h2><p id=\"p1\">This is some text in a paragraph.</p>",
+                    "$(\"#div1\").load(\"demo_test.txt\");",
+                    "$(\"#div1\").load(\"demo_test.txt #p1\");",
+                    "$(\"button\").click(function(){$(\"#div1\").load(\"demo_test.txt\", function(responseTxt, statusTxt, xhr){if(statusTxt == \"success\")alert(\"External content loaded successfully!\");if(statusTxt == \"error\")alert(\"Error: \" + xhr.status + \": \" + xhr.statusText);});});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_ajax_get_post.asp",
+        "cours": {
+            "titre": "jQuery -AJAX get() and post() Methods",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_ajax_get_post.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The jQuery get() and post() methods are used to request data from the server \nwith an HTTP GET \nor POST request.",
+                    "Two commonly used methods for a request-response between a client and server \nare: GET and \nPOST.",
+                    "GET is basically used for just getting (retrieving) some data from the server.Note:The GET method may return cached data.",
+                    "POST can also be used to get some data from the server. However, the POST \nmethod NEVER caches data, and is often used to send data along with the request.",
+                    "To learn more about GET and POST, and the differences between the two \nmethods, please read ourHTTP Methods GET vs \nPOSTchapter.",
+                    "The$.get()method requests data from the server with an HTTP GET request.",
+                    "Syntax:",
+                    "The required URL parameter specifies the URL you wish to request.",
+                    "The optional callback parameter is the name of a function to be executed \nif the request succeeds.",
+                    "The following example uses the$.get()method to retrieve data from a file on \nthe server:",
+                    "The first parameter of$.get()is the URL we wish to request (\"demo_test.asp\").",
+                    "The second \nparameter is a callback function. The first callback parameter holds the content of \nthe page requested, and the second callback parameter holds the status of \nthe request.",
+                    "Tip:Here is how the ASP file looks like (\"demo_test.asp\"):",
+                    "The$.post()method requests data from the server using an HTTP POST request.",
+                    "Syntax:",
+                    "The required URL parameter specifies the URL you wish to request.",
+                    "The optional data parameter specifies some data to send along with the \nrequest.",
+                    "The optional callback parameter is the name of a function to be executed \nif the request succeeds.",
+                    "The following example uses the$.post()method to send some data along with the \nrequest:",
+                    "The first parameter of$.post()is the URL we wish to request (\"demo_test_post.asp\").",
+                    "Then we pass in some data to send along with the request (name and city).",
+                    "The ASP script in \"demo_test_post.asp\" reads the parameters, \nprocesses them, and returns a result.",
+                    "The third \nparameter is a callback function. The first callback parameter holds the content of \nthe page requested, and the second callback parameter holds the status of \nthe request.",
+                    "Tip:Here is how the ASP file looks like (\"demo_test_post.asp\"):",
+                    "For a complete overview of all jQuery AJAX methods, please go to ourjQuery \nAJAX Reference."
+                ],
+                "lists": [
+                    [
+                        "GET- Requests data from a specified resource",
+                        "POST- Submits data to be processed to a specified resource"
+                    ]
+                ],
+                "examples": [
+                    "$.get(URL,callback);",
+                    "$(\"button\").click(function(){$.get(\"demo_test.asp\", function(data, status){alert(\"Data: \" + data + \"\\nStatus: \" + status);});});",
+                    "<%response.write(\"This is some text from an external ASP file.\")%>",
+                    "$.post(URL,data,callback);",
+                    "$(\"button\").click(function(){$.post(\"demo_test_post.asp\",{name: \"Donald Duck\",city: \"Duckburg\"},function(data, status){alert(\"Data: \" + data + \"\\nStatus: \" + status);});});",
+                    "<%dim fname,cityfname=Request.Form(\"name\")city=Request.Form(\"city\")Response.Write(\"Dear \" & fname & \". \")Response.Write(\"Hope you live well in \" & city & \".\")%>"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_noconflict.asp",
+        "cours": {
+            "titre": "jQuery -The noConflict() Method",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_noconflict.asp",
+            "contenus": {
+                "paragraphs": [
+                    "What if you wish to use other frameworks on your pages, \nwhile still using jQuery?",
+                    "As you already know; jQuery uses the$sign as a shortcut for jQuery.",
+                    "There are many other popular JavaScript frameworks like: Angular, Backbone, Ember, Knockout, and more.",
+                    "What if other JavaScript frameworks also use the $ sign as a shortcut?",
+                    "If two different frameworks are using the same shortcut, one of them might stop working.",
+                    "The jQuery team have already thought about this, and implemented thenoConflict()method.",
+                    "ThenoConflict()method releases the hold on the $ shortcut identifier, \nso that other scripts can use it.",
+                    "You can of course still use jQuery, simply by \nwriting the full name instead of the shortcut:",
+                    "You can also create your \nown shortcut very easily. ThenoConflict()method returns a reference to jQuery, \nthat you can save in a variable, for later use. Here is an example:",
+                    "If you have a block of jQuery code which uses the$shortcut and you do not \nwant to change it all, you can pass the$sign in as a parameter to the ready method. This allows \nyou to access jQuery using$, inside this function - outside of it, \nyou will have to use \"jQuery\":",
+                    "For a complete overview of all jQuery Misc methods, please go to ourjQuery Misc Reference."
+                ],
+                "lists": [],
+                "examples": [
+                    "$.noConflict();jQuery(document).ready(function(){jQuery(\"button\").click(function(){jQuery(\"p\").text(\"jQuery is still working!\");});});",
+                    "var jq = $.noConflict();jq(document).ready(function(){jq(\"button\").click(function(){jq(\"p\").text(\"jQuery is still working!\");});});",
+                    "$.noConflict();jQuery(document).ready(function($){$(\"button\").click(function(){$(\"p\").text(\"jQuery is still working!\");});});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_filters.asp",
+        "cours": {
+            "titre": "jQuery -Filters",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_filters.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Use jQuery to filter/search for specific elements.",
+                    "Perform a case-insensitive search for items in a table:",
+                    "Type something in the input field to search the table for first names, last names or emails:",
+                    "Example explained:We use jQuery to loop through each table \nrows to check if there are any text values that matches the value of the input \nfield. Thetoggle()method hides the row (display:none) that does not match the \nsearch. We use thetoLowerCase()DOM method to convert the text to lower case, which \nmakes the search case insensitive (allows \"john\", \"John\", and even \"JOHN\" on \nsearch).",
+                    "Perform a case-insensitive search for items in a list:",
+                    "Type something in the input field to search the list for items:",
+                    "Perform a case-insensitive search for text inside a div element:",
+                    "",
+                    "I am a paragraph.",
+                    "Another paragraph."
+                ],
+                "lists": [
+                    [
+                        "First item",
+                        "Second item",
+                        "Third item",
+                        "Fourth"
+                    ]
+                ],
+                "examples": [
+                    "<script>$(document).ready(function(){$(\"#myInput\").on(\"keyup\", function() {var \n  value = $(this).val().toLowerCase();$(\"#myTable tr\").filter(function() {$(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)});});});</script>"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_examples.asp",
+        "cours": {
+            "titre": "jQueryExamples",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_examples.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Do you want to test your jQuery selector skills?",
+                    "Try Our \njQuery Selector Tester",
+                    "Selectors explained",
+                    "Events explained",
+                    "Hide and Show explained",
+                    "Fade explained",
+                    "Slide explained",
+                    "Animate explained",
+                    "Stop Animations explained",
+                    "Get Content and Attributes explained",
+                    "Set Content and Attributes explained",
+                    "Add Elements/Content explained",
+                    "Remove Elements/Content explained",
+                    "Get and Set CSS explained",
+                    "The css() method explained",
+                    "Dimensions explained",
+                    "Traversing Ancestors explained",
+                    "Traversing Descendants explained",
+                    "Traversing Siblings explained",
+                    "Traversing Filtering explained",
+                    "Filters explained",
+                    "AJAX load() explained",
+                    "AJAX get() and post() explained"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_editor.asp",
+        "cours": {
+            "titre": "jQueryOnline Editor",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_editor.asp",
+            "contenus": {
+                "paragraphs": [
+                    "With our online jQuery editor, you can edit jQuery code, and view the result in your browser.",
+                    "If you click on me, I will disappear.",
+                    "Click me away!",
+                    "Click me too!",
+                    "Click on the \"Try it Yourself\" button to see how it works.",
+                    "If you want to save your jQuery code, and create your own website or web \napplication, check outW3Schools Spaces.",
+                    "W3Schools Spacesis a website-building tool that lets you make and share your own website.",
+                    "You can change the website's look and how it works by editing the code right in your web browser.",
+                    "It's easy to use and doesn't require any setup:",
+                    "The code editor is packed with features to help you achieve more:",
+                    "Practice is key to mastering coding, and the best way to put your jQuery knowledge into practice is by getting practical with code.",
+                    "UseW3Schools Spacesto build, test and deploy code.",
+                    "The code editor lets you write and practice different types of computer languages. It includes HTML/CSS/JavaScript, and you can use it for other languages too.",
+                    "New languages are added all the time:",
+                    "If you do not know jQuery, we suggest that you read ourjQuery Tutorialfrom scratch.",
+                    "You can also use the code editor inW3School Spacesto build frontend or full-stack websites from scratch.",
+                    "Or you can use the 60+ templates available and save time:",
+                    "Create your Spaces account today and explore them all!",
+                    "Host and publish your websites in no time withW3School Spaces.",
+                    "W3Schools subdomain and SSL certificate are included for free withW3School Spaces. An SSL certificate makes your website safe and secure. It also helps people trust your website and makes it easier to find it online.",
+                    "Want a custom domain for your website?",
+                    "You can buy a domain or transfer an existing one and connect it to your space.",
+                    "Get started in a few clicks withW3School Spaces."
+                ],
+                "lists": [
+                    [
+                        "Templates:Start from scratch or use a template",
+                        "Cloud-based:no installations required. You only need your browser",
+                        "Terminal & Log:debug and troubleshoot your code easily",
+                        "File Navigator:switch between files inside the code editor",
+                        "And much more!"
+                    ]
+                ],
+                "examples": [
+                    "$(document).ready(function(){$(\"p\").click(function(){$(this).hide();});});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_quiz.asp",
+        "cours": {
+            "titre": "jQueryQuiz Test",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_quiz.asp",
+            "contenus": {
+                "paragraphs": [
+                    "You can test your jQuery skills with W3Schools' Quiz.",
+                    "The test contains 25 questions and there is no time limit.",
+                    "The test is not official, it's just a nice way to see how much you know, or don't know, about \nthe jQuery library.",
+                    "You will get 1 point for each correct answer. At the end of the Quiz,\nyour total score will be displayed. Maximum score is 25 points.",
+                    "Good luck!",
+                    "Start the jQuery Quiz ❯",
+                    "If you don't know jQuery, we suggest that you read ourjQuery Tutorialfrom scratch.",
+                    "Get certified by completingthecourse"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_exercises.asp",
+        "cours": {
+            "titre": "jQueryExercises",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_exercises.asp",
+            "contenus": {
+                "paragraphs": [
+                    "You can test your jQuery skills with W3Schools' Exercises.",
+                    "We have gathered a variety of jQuery exercises (with answers) for each jQuery Chapter.",
+                    "Try to solve an exercise by filling in the missing parts of a code. If you're stuck, hit the \"Show Answer\" button to see what you've done wrong.",
+                    "You will get 1 point for\neach correct answer. Your score and total score will always be displayed.",
+                    "Good luck!",
+                    "Start jQuery Exercises ❯",
+                    "If you don't know jQuery, we suggest that you read ourjQuery Tutorialfrom scratch.",
+                    "Get certified by completingthecourse"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_syllabus.asp",
+        "cours": {
+            "titre": "jQuerySyllabus",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_syllabus.asp",
+            "contenus": {
+                "paragraphs": [
+                    "TheW3Schools jQuery Tutorialis comprehensive and beginner-friendly.",
+                    "It will give you a fundamental knowledge of jQuery.",
+                    "It is designed for beginners and requires only basic JavaScript knowledge.",
+                    "The content has been carefully made to be bite-sized, simple, and easy to understand.",
+                    "The content has been proven by millions of users over the years. It is updated and improved frequently.",
+                    "The syllabus outline and its sequence are structured so you can learn jQuery step by step, from basic selectors to advanced features.",
+                    "Get Started With jQuery »",
+                    "Note:Are you a teacher teaching jQuery?W3Schools Academyis a toolbox of features that can help you teach. It offers classroom features such as pre-built study plans, classroom administration and much more. Read more aboutAcademy here.",
+                    "Get Started",
+                    "In this tutorial we offer different activities for you to learn jQuery for free:",
+                    "You can also create a free account to track your progress.",
+                    "As a signed-in user, you get access to features such as:",
+                    "Sign Up - It's free",
+                    "Get Started",
+                    "jQuery, like any programming library, is best learned through hands-on practice.",
+                    "Try this example using our editor:",
+                    "W3Schools offers an end-of-pathway certification program.",
+                    "Here you can take exams to get certified.",
+                    "The jQuery exam is a test that summarizes the W3Schools jQuery syllabus.",
+                    "After passing the exam you get the \"Certified jQuery Developer\" Certification.",
+                    "There are two different types of certifications:",
+                    "The non-adaptive is pass or no pass.",
+                    "The adaptive certification is adaptive and graded; students will get a grade from intermediate, advanced to professional.",
+                    "Buy Certificate »",
+                    "Are you interested in learning how you can useW3Schools Academyto Teach \njQuery?",
+                    "Join our upcoming webinar for a guided demo ofW3Schools Academy. You'll see how it works, and discover how it can make teaching programming easier and more engaging.",
+                    "Join our FREE Webinar »"
+                ],
+                "lists": [
+                    [
+                        "Understand jQuery syntax and how to implement jQuery in your web pages.",
+                        "Master jQuery selectors to find and manipulate HTML elements.",
+                        "Learn jQuery events and event handling (click, hover, etc.).",
+                        "Create animations and effects (hide, show, fade, slide, etc.).",
+                        "Manipulate HTML/DOM (get content, set content, add elements, remove elements).",
+                        "Work with CSS using jQuery (add/remove classes, get/set CSS properties).",
+                        "Traverse the DOM tree (find ancestors, descendants, siblings).",
+                        "Handle AJAX to load and send data without page refresh.",
+                        "Use jQuery callback functions and chaining.",
+                        "Implement jQuery noConflict() mode.",
+                        "Apply jQuery filters and custom selectors.",
+                        "Build interactive web applications using jQuery."
+                    ],
+                    [
+                        "Web Development:jQuery can be used for interactive web applications.",
+                        "Front-end Development:jQuery simplifies JavaScript programming.",
+                        "User Interface Design:jQuery enables rich UI interactions.",
+                        "Web Applications:jQuery handles AJAX and dynamic content.",
+                        "DOM Manipulation:jQuery simplifies HTML/DOM manipulation.",
+                        "Event Handling:jQuery provides powerful event management.",
+                        "Cross-browser Development:jQuery ensures consistent behavior across browsers."
+                    ],
+                    [
+                        "Lessons",
+                        "Exercises",
+                        "Quizzes"
+                    ],
+                    [
+                        "Learning paths",
+                        "Sandbox and lab environments",
+                        "Achievements",
+                        "And much more!"
+                    ],
+                    [
+                        "jQuery HOME",
+                        "jQuery Intro",
+                        "jQuery Get Started",
+                        "jQuery Syntax",
+                        "jQuery Selectors",
+                        "jQuery Events",
+                        "jQuery Hide/Show",
+                        "jQuery Fade",
+                        "jQuery Slide",
+                        "jQuery Animate",
+                        "jQuery stop()",
+                        "jQuery Callback",
+                        "jQuery Chaining",
+                        "jQuery Get",
+                        "jQuery Set",
+                        "jQuery Add",
+                        "jQuery Remove",
+                        "jQuery CSS Classes",
+                        "jQuery css()",
+                        "jQuery Dimensions",
+                        "jQuery Traversing",
+                        "jQuery Ancestors",
+                        "jQuery Descendants",
+                        "jQuery Siblings",
+                        "jQuery Filtering",
+                        "jQuery AJAX Intro",
+                        "jQuery Load",
+                        "jQuery Get/Post",
+                        "jQuery noConflict()",
+                        "jQuery Filters"
+                    ],
+                    [
+                        "Non-adaptive",
+                        "Adaptive"
+                    ]
+                ],
+                "examples": [
+                    "$(document).ready(function(){$(\"p\").click(function(){$(this).hide();});});"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_study_plan.asp",
+        "cours": {
+            "titre": "jQueryStudy Plan",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_study_plan.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The jQuery study plan helps you teach your students jQuery step-by-step.",
+                    "Creating a study plan for jQuery is easy.",
+                    "You can use a pre-built study plan or customize it.",
+                    "Students have different skill levels. The study plans can be customized to ensure that everyone is challenged.",
+                    "Save time with pre-built teacher materials and study plans. Easily organize your class with a timeline from the introduction of jQuery to the final exam.",
+                    "This study plan is a feature of W3Schools Academy.",
+                    "W3Schools Academy is a platform that has everything you need to teach coding, all in one place.",
+                    "It offers you as a teacher a toolbox of features that helps you succeed with teaching in your classroom.",
+                    "You need to have an active subscription to access the study plan feature. There are two different subscription tiers:",
+                    "Learn More »",
+                    "Academy also offer other features such as:",
+                    "Get a free demo »",
+                    "W3Schools has everything you need to teach jQuery.",
+                    "The jQuery training materials is available for you to include and use in your study plan:",
+                    "With the jQuery Syllabus, your students will start with the basics, like understanding jQuery syntax and selecting HTML elements, and move to more advanced topics, like event handling, animations, and AJAX interactions. Each chapter includes examples, try-it-yourself sections, exercises, and quizzes to make learning easy, interactive, and fun.",
+                    "Read more about jQuery Syllabus.",
+                    "The study plan features are made to help teachers and students. They make learning easy, flexible, and fun. These features work for different types of classes, learning styles and student level.",
+                    "Learn More »",
+                    "You choose the timeline and paceof your study plans.",
+                    "Schools have different preferences.",
+                    "Some would like more intensive pace, e.g. 3 weeks, others 12 or more weeks.",
+                    "It is completely up to you.",
+                    "For example, this is how a 3-week jQuery study plan could look like:",
+                    "Image of Sample jQuery study plan:",
+                    "Start withjQuery Study Planstoday.",
+                    "Get Started »",
+                    "Are you interested in learning how you can useW3Schools Academyto Teach jQuery programming?",
+                    "Join our upcoming webinar for a guided demo ofW3Schools Academy. You'll see how it works, and discover how it can make teaching programming easier and more engaging.",
+                    "Join our FREE Webinar »"
+                ],
+                "lists": [
+                    [
+                        "Essentials ($1.99 / month per student)",
+                        "Full Access ($5.99 / month per student)",
+                        "Calculate your price and orderhere."
+                    ],
+                    [
+                        "Managing your classroom",
+                        "Tracking of student progress and reports",
+                        "Labs, assignments, and code challenges (prebuilt challenges or create your own ones)",
+                        "Auto-grading",
+                        "Teaching materials",
+                        "Certification exams"
+                    ],
+                    [
+                        "W3Schools jQuery Tutorial",
+                        "jQuery Exercises",
+                        "jQuery Quiz",
+                        "jQuery Challenges (Coding challenges)",
+                        "jQuery Certification Exam (End of Pathway Exam)"
+                    ],
+                    [
+                        "Learning PathsYou can add ready-made learning paths.The learning paths are by default ordered by our recommended order.You can change the order.You can add custom activities with text, links, or multi-media files.Drag and drop or click to make changes to the path.",
+                        "You can add ready-made learning paths.",
+                        "The learning paths are by default ordered by our recommended order.",
+                        "You can change the order.",
+                        "You can add custom activities with text, links, or multi-media files.",
+                        "Drag and drop or click to make changes to the path.",
+                        "Interactive ContentTutorialsTry-its (test code snippets)ExercisesQuizChallengesLabs",
+                        "Tutorials",
+                        "Try-its (test code snippets)",
+                        "Exercises",
+                        "Quiz",
+                        "Challenges",
+                        "Labs",
+                        "Timeline and PaceYou can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).You can decide the learning pace for your class.Different study plans can be assigned to different students in the same class.The flexibility can help to make sure that everyone is challenged.",
+                        "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+                        "You can decide the learning pace for your class.",
+                        "Different study plans can be assigned to different students in the same class.",
+                        "The flexibility can help to make sure that everyone is challenged.",
+                        "Track Student ProgressThere are tools to track student progress.The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+                        "There are tools to track student progress.",
+                        "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+                        "The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+                        "End of Pathway ExamThe jQuery study plan aligns with the jQuery Certification Exam.The exam can be taken at the end of the study plan, at your selected date.The exam summarizes the jQuery Tutorial.You get reports of the students' results.",
+                        "The jQuery study plan aligns with the jQuery Certification Exam.",
+                        "The exam can be taken at the end of the study plan, at your selected date.",
+                        "The exam summarizes the jQuery Tutorial.",
+                        "You get reports of the students' results.",
+                        "AccessibilityStudy plans and learning materials are accessible on desktops, tablets, and smartphones.This ensures students can learn anytime, anywhere.",
+                        "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+                        "This ensures students can learn anytime, anywhere."
+                    ],
+                    [
+                        "You can add ready-made learning paths.",
+                        "The learning paths are by default ordered by our recommended order.",
+                        "You can change the order.",
+                        "You can add custom activities with text, links, or multi-media files.",
+                        "Drag and drop or click to make changes to the path."
+                    ],
+                    [
+                        "Tutorials",
+                        "Try-its (test code snippets)",
+                        "Exercises",
+                        "Quiz",
+                        "Challenges",
+                        "Labs"
+                    ],
+                    [
+                        "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+                        "You can decide the learning pace for your class.",
+                        "Different study plans can be assigned to different students in the same class.",
+                        "The flexibility can help to make sure that everyone is challenged."
+                    ],
+                    [
+                        "There are tools to track student progress.",
+                        "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+                        "The challenges can be auto-graded or manually graded. The results are available to you as a teacher."
+                    ],
+                    [
+                        "The jQuery study plan aligns with the jQuery Certification Exam.",
+                        "The exam can be taken at the end of the study plan, at your selected date.",
+                        "The exam summarizes the jQuery Tutorial.",
+                        "You get reports of the students' results."
+                    ],
+                    [
+                        "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+                        "This ensures students can learn anytime, anywhere."
+                    ],
+                    [
+                        "Week 1: Introduction, Basics",
+                        "Week 2: Effects, HTML, Traversing",
+                        "Week 3: AJAX, Misc, jQuery Certification Exam"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_exam.asp",
+        "cours": {
+            "titre": "W3SchoolsjQuery Certificate",
+            "description": "How Does It Work?Study for free at W3Schools.comStudy at your own speedTest your skills with W3Schools online quizzesApply for your certificate by paying an exam feeTake your exam online, at any time, and from any location",
+            "lien": "https://www.w3schools.com/jquery/jquery_exam.asp",
+            "contenus": {
+                "paragraphs": [
+                    "W3Schools offers an Online Certification Program.",
+                    "The perfect solution for busy professionals who need to balance work, family, and career building.",
+                    "More than 50 000 certificates already issued!",
+                    "Get Your Certificate »",
+                    "W3Schools offers an Online Certification Program.",
+                    "The perfect solution for busy professionals who need to balance work, family, and career building.",
+                    "More than 50 000 certificates already issued!",
+                    "Get Your Certificate »",
+                    "Any student or professional within the digital industry.",
+                    "Certifications are valuable assets to gain trust and demonstrate knowledge to your clients, current or future employers on a ever increasing competitive market.",
+                    "W3Schools has over two decades of experience with teaching coding online.",
+                    "Our certificates are recognized and valued by companies looking to employ skilled developers.",
+                    "Show the world your coding skills by getting a certification.",
+                    "The prices is a small fraction compared to the price of traditional education.",
+                    "Document and validate your competence by getting certified!",
+                    "Fee:95 USD",
+                    "Achievable certification levels:Intermediate (40%)Advanced (75%)Professional (90%)",
+                    "Number of questions:Adaptive,60on average",
+                    "Requirement to pass:Minimum 40% - Intermediate level",
+                    "Time limit:60 minutes",
+                    "Number of attempts to pass:3",
+                    "Exam deadline:None",
+                    "Certification Expiration:None",
+                    "Format:Online, multiple choice",
+                    "Register now »",
+                    "Getting a certificate proves your commitment to upgrading your skills.",
+                    "The certificate can be added as credentials to your CV, Resume, LinkedIn profile, and so on.",
+                    "It gives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+                    "Knowledge is power, especially in the current job market.",
+                    "Documentation of your skills enables you to advance your career or helps you to start a new one.",
+                    "Example certificate:",
+                    "Each certificate gets a unique link that can be shared with others.",
+                    "Validate your certification with the link or QR code.",
+                    "Check how it looks like in thisExample.",
+                    "Share your certificate on Linkedin the Certifications section in just one click!",
+                    "Getting a certificate proves your commitment to upgrade your skills,\ngives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+                    "Get Your Certificate »",
+                    "Are you an educator, manager or business owner looking for courses or certifications?",
+                    "We are working with schools, companies and organizations from all over the world.",
+                    "Get courses and/or certifications for your team here."
+                ],
+                "lists": [
+                    [
+                        "Study for free at W3Schools.com",
+                        "Study at your own speed",
+                        "Test your skills with W3Schools online quizzes",
+                        "Apply for your certificate by paying an exam fee",
+                        "Take your exam online, at any time, and from any location"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_ref_overview.asp",
+        "cours": {
+            "titre": "jQuery Reference",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_ref_overview.asp",
+            "contenus": {
+                "paragraphs": [
+                    "This section contains a complete jQuery reference documentation.",
+                    "The jQuery reference contains a list of all jQuery selectors, methods, properties and events, along with examples."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_ref_selectors.asp",
+        "cours": {
+            "titre": "jQuerySelectors",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_ref_selectors.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Use ourjQuery Selector Testerto demonstrate the different selectors."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_ref_events.asp",
+        "cours": {
+            "titre": "jQueryEventMethods",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_ref_events.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Event methods trigger or attach a function to an event handler for the \nselected elements.",
+                    "The following table lists all the jQuery methods used to handle events."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_ref_effects.asp",
+        "cours": {
+            "titre": "jQueryEffectMethods",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_ref_effects.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The following table lists all the jQuery methods for creating animation effects."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_ref_html.asp",
+        "cours": {
+            "titre": "jQueryHTML / CSSMethods",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_ref_html.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The following table lists all the methods used to manipulate the HTML and CSS.",
+                    "The methods below work for both HTML and XML documents. Exception: the html() method."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_ref_traversing.asp",
+        "cours": {
+            "titre": "jQueryTraversingMethods",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_ref_traversing.asp",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_ref_ajax.asp",
+        "cours": {
+            "titre": "jQueryAJAXMethods",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_ref_ajax.asp",
+            "contenus": {
+                "paragraphs": [
+                    "AJAX is the art of exchanging data with a server, and update parts of a web page - without reloading the whole page.",
+                    "The following table lists all the jQuery AJAX methods:"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_ref_misc.asp",
+        "cours": {
+            "titre": "jQueryMiscellaneousMethods",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_ref_misc.asp",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/jquery/jquery_ref_prop.asp",
+        "cours": {
+            "titre": "jQueryProperties",
+            "description": "",
+            "lien": "https://www.w3schools.com/jquery/jquery_ref_prop.asp",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    }
+]

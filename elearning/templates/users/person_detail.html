@@ -1,0 +1,162 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Profil de {{ person.name }}{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    {% if not person %}
+        <div class="text-center mb-4">
+            <h2>Bienvenue !</h2>
+            <p class="lead">Vous n'avez pas encore de profil. Créez-en un pour commencer votre parcours d'apprentissage.</p>
+            <a href="{% url 'create_profile' %}" class="btn btn-primary btn-lg">
+                <i class="fas fa-user-plus"></i> Créer mon profil
+            </a>
+        </div>
+    {% else %}
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <div class="card-body text-center">
+                    {% if person.profile_picture %}
+                        <img src="{{ person.profile_picture.url }}" alt="Photo de profil" class="rounded-circle img-fluid mb-3" style="max-width: 200px;">
+                    {% else %}
+                        <img src="{% static 'images/default_profile.png' %}" alt="Photo de profil par défaut" class="rounded-circle img-fluid mb-3" style="max-width: 200px;">
+                    {% endif %}
+                    <h3 class="card-title">{{ person.name }}</h3>
+                    <p class="text-muted">
+                        {% if person.age %}
+                            {{ person.age }} ans
+                        {% endif %}
+                        {% if person.gender %}
+                            | {{ person.get_gender_display }}
+                        {% endif %}
+                    </p>
+                    <a href="{% url 'edit_profile' person.id %}" class="btn btn-outline-primary">
+                        <i class="fas fa-edit"></i> Modifier mon profil
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <div class="col-md-8">
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h4>Informations personnelles</h4>
+                </div>
+                <div class="card-body">
+                    <p><strong>Email:</strong> {{ person.email }}</p>
+                    {% if person.phone %}
+                        <p><strong>Téléphone:</strong> {{ person.phone }}</p>
+                    {% endif %}
+                    {% if person.predicted_level %}
+                        <p><strong>Niveau prédit:</strong> {{ person.predicted_level }}</p>
+                    {% endif %}
+                </div>
+            </div>
+
+            {% if person.preferences %}
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h4>Préférences</h4>
+                </div>
+                <div class="card-body">
+                    <p><strong>Langue préférée:</strong> {{ person.preferences.get_preferred_language_display }}</p>
+                    <p><strong>Mode d'apprentissage:</strong> {{ person.preferences.get_learning_mode_display }}</p>
+                    {% if person.preferences.interests.all %}
+                        <p><strong>Centres d'intérêt:</strong></p>
+                        <ul>
+                            {% for interest in person.preferences.interests.all %}
+                                <li>{{ interest.name }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+
+            {% if person.academic_background %}
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h4>Formation académique</h4>
+                </div>
+                <div class="card-body">
+                    <p><strong>Niveau académique:</strong> {{ person.academic_background.get_highest_academic_level_display }}</p>
+                    {% if person.academic_background.fields_of_study.all %}
+                        <p><strong>Domaines d'étude:</strong></p>
+                        <ul>
+                            {% for field in person.academic_background.fields_of_study.all %}
+                                <li>{{ field.field_name }} - {{ field.institution }} ({{ field.year_of_completion }})</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+
+            {% if person.professional_background %}
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h4>Expérience professionnelle</h4>
+                </div>
+                <div class="card-body">
+                    {% if person.professional_background.total_experience_years %}
+                        <p><strong>Années d'expérience:</strong> {{ person.professional_background.total_experience_years }}</p>
+                    {% endif %}
+                    {% if person.professional_background.jobs.all %}
+                        <p><strong>Postes occupés:</strong></p>
+                        <ul>
+                            {% for job in person.professional_background.jobs.all %}
+                                <li>
+                                    <strong>{{ job.position }}</strong> chez {{ job.company }}
+                                    <br>
+                                    <small class="text-muted">
+                                        {{ job.start_date|date:"d/m/Y" }} - 
+                                        {% if job.is_current %}
+                                            Présent
+                                        {% else %}
+                                            {{ job.end_date|date:"d/m/Y" }}
+                                        {% endif %}
+                                    </small>
+                                    {% if job.description %}
+                                        <p class="mt-2">{{ job.description }}</p>
+                                    {% endif %}
+                                </li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+
+            {% if person.goals %}
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h4>Objectifs</h4>
+                </div>
+                <div class="card-body">
+                    {% if person.goals.short_term_goals.all %}
+                        <h5>Objectifs à court terme</h5>
+                        <ul>
+                            {% for goal in person.goals.short_term_goals.all %}
+                                <li>{{ goal.description }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+
+                    {% if person.goals.long_term_goals.all %}
+                        <h5>Objectifs à long terme</h5>
+                        <ul>
+                            {% for goal in person.goals.long_term_goals.all %}
+                                <li>{{ goal.description }}</li>
+                            {% endfor %}
+                        </ul>
+                    {% endif %}
+                </div>
+            </div>
+            {% endif %}
+        </div>
+    </div>
+    {% endif %}
+</div>
+{% endblock %} 

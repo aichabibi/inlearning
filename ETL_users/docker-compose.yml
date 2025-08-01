@@ -1,0 +1,38 @@
+version: '3.8'
+services:
+  app:
+    build: .
+    environment:
+      POSTGRES_HOST: db
+      POSTGRES_PORT: 5432
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Marykeita
+      POSTGRES_DB: users_data
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+
+  db:
+    image: postgres:14
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Marykeita
+      POSTGRES_DB: users_data
+    ports:
+      - "5432:5432"
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+  
+  pgadmin:
+    image: dpage/pgadmin4
+    environment:
+      PGADMIN_DEFAULT_EMAIL: admin@example.com  # Remplacez par votre email
+      PGADMIN_DEFAULT_PASSWORD: admin          # Remplacez par votre mot de passe
+    ports:
+      - "9090:80"  # Accès à pgAdmin via http://localhost:9090
+    depends_on:
+      - db
+
+volumes:
+  pg_data:

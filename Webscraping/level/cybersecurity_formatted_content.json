@@ -1,0 +1,1354 @@
+[
+  {
+    "url": "https://www.w3schools.com/cybersecurity/index.php",
+    "cours": {
+      "titre": "Cyber Security Tutorial",
+      "description": "[+: Learn Cyber Security Welcome to this introductory course in Cyber security. This course serves as an excellent primer to the many different domains of Cyber security.",
+      "lien": "https://www.w3schools.com/cybersecurity/index.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "Cyber Crime",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_crime.php"
+          },
+          {
+            "title": "Money Making Threats",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_money.php"
+          },
+          {
+            "title": "Dark Web",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_dark_web.php"
+          },
+          {
+            "title": "Networking Basics",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_networking.php"
+          },
+          {
+            "title": "Network Layer",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_network_layer.php"
+          },
+          {
+            "title": "Network Transport",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_network_transport.php"
+          },
+          {
+            "title": "Firewalls",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_firewalls.php"
+          },
+          {
+            "title": "Web Applications",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_web_applications.php"
+          },
+          {
+            "title": "Mapping & Port Scanning",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_mapping_port_scanning.php"
+          },
+          {
+            "title": "Network Attacks",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_network_attacks.php"
+          },
+          {
+            "title": "Web Application Attacks",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_web_applications_attacks.php"
+          },
+          {
+            "title": "WIFI Attacks",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_wifi_attacks.php"
+          },
+          {
+            "title": "Passwords",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_passwords.php"
+          },
+          {
+            "title": "Penetration Testing and Social Engineering",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_prenetration_testing.php"
+          },
+          {
+            "title": "Security Operations",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_security_operations.php"
+          },
+          {
+            "title": "Incident Response",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_incident_response.php"
+          },
+          {
+            "title": "Get certified",
+            "url": "https://campus.w3schools.com/collections/course-catalog"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 2,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_crime.php",
+    "cours": {
+      "titre": "Cyber Security Cyber Crime",
+      "description": "",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_crime.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Identity Theft",
+            "Online Predators",
+            "BEC (\"Business Email Compromise\")",
+            "Ransomware",
+            "Stealing of sensitive intellectual property"
+          ],
+          [
+            "Cyber Crime is easy to accomplish",
+            "Low risks of getting caught",
+            "For little work there is often high returns",
+            "Attackers can target thousands of victims",
+            "Money laundering is easier with Cryptocurrencies"
+          ],
+          [
+            "State-sponsored groups targeting organizations in other countries",
+            "Hacking Groups out to target companies to make them pay ransom",
+            "Kids in their rooms doing illegal hacking"
+          ]
+        ],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/index.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/index.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 4,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_money.php",
+    "cours": {
+      "titre": "Cyber Security Money Making Threats",
+      "description": "",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_money.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Ransomware files and systems are encrypted with attackers keys and they demand you to pay money to get your data back.",
+            "Cryptocurrency miners; your systems are infected with a low-profile cryptocurrency mining tool. This tool uses the CPU to try make money on a cryptocurrency for the attackers.",
+            "BEC (\"Business Email Compromise\"). Users get hacked through all sorts of methods and their emails are compromised. Via email compromise the attackers can intercept communications, for example an invoice, and try to redirect payments to other banks and accounts."
+          ],
+          [
+            "Bandwidth can be used to pressure businesses by targeting them with DDOS (\"Distributed Denial of Service\") attacks.",
+            "Hacked systems may have sensitive information worth money, for example business proprietary information, online gaming assets, sensitive photographs and pictures.",
+            "Attackers can install themselves in browsers and try to hijack the online banking use."
+          ],
+          [
+            "A person meets up with someone online, the other party is actually a scam artists trying to trick the victim.",
+            "They engage in interesting conversations and seem to make an immediate deep bond between one another.",
+            "They might even engage in video conversations, but the scam artists is for example using recorded video or simply has an excuse for not being able to activate their microphone or web-camera.",
+            "One thing might lead to another and the relationship could turn sexual. The scam artist tries to convince the victim in giving up personal pictures and recordings of themselves, likely in compromising situations.",
+            "Once the scam artist receives this material, perhaps even returning fake pictures of innocent people in similar situations, the extortion begins.",
+            "The scam artist can now threaten to release the compromising material to family members, co-workers and others, offering to delete the material if a sum of money is paid into the scam artists account."
+          ]
+        ],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_crime.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_crime.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 4,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_dark_web.php",
+    "cours": {
+      "titre": "Cyber Security Dark Web",
+      "description": "",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_dark_web.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Facebook - http://www.facebookcorewwwi.onion/",
+            "DuckDuckGo Search Engine - http://3g2upl4pq6kufc4m.onion/",
+            "The American CIA (\"Central Intelligence Agency\") - http://ciadotgov4sjwlzihbbgxnqg3xiyrg7so2r2o3lt5wz5ypk4sxyjstad.onion",
+            "The Hidden Wiki, a collection of links and places to explore - http://zqktlwiuavvvqqt4ybvgvi7tyo4hjl5xgfuvpdf6otjiycgwqbym2qad.onion/wiki/index.php/Main_Page"
+          ]
+        ],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_money.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_money.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 4,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_networking.php",
+    "cours": {
+      "titre": "Cyber Security Networking Basics",
+      "description": "",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_networking.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "HTTP (\"Hypertext Transfer Protocol\") - Enables us to access web applications",
+            "FTP (\"File Transfer Protocol\") - Allows users to transfer files",
+            "SNMP (\"Simple Network Management Protocol\") - Protocol to read and update network device configurations"
+          ],
+          [
+            "Encoding Schemes used to represent text and data, for example ASCII(American Standard Code for Information Interchange) and UTF(Unicode Transformation Format).",
+            "Encryption for services, for example SSL (\"Secure Sockets Layer\") and TLS (\"Transport Security Layer\")",
+            "Compression, for example GZip in use in many implementations of HTTP."
+          ],
+          [
+            "SOCKS - A protocol for sending packets through a proxy server.",
+            "NetBIOS - An older Windows protocol for establishing sessions and resolving names.",
+            "SIP (\"Session Initiation Protocol\") - For engaging in VOIP (\"Voice Over IP\") communications"
+          ],
+          [
+            "TCP (\"Transmission Control Protocol\") - Used for many applications, ensuring stability, control of how much data can be sent at any given time, reliability and more.",
+            "UDP (\"User Datagram Protocol\") - Lightweight and quick protocol use for many services.",
+            "QUIC (\"Quick UDP Internet Connections\") - A protocol designed for faster connections and goes hand-in-hand with the version 2 of the HTTP protocol."
+          ],
+          [
+            "IP (\"Internet Protocol\") - Used everyday when accessing the Internet. Comes in two versions, IP version 4 and 6.",
+            "ICMP (\"Internet Control Message Protocol\") - Used by network devices and network operators, to diagnose network connections or for devices to send and respond to error conditions and more.",
+            "IPSec (\"Internet Protocol Security\") - Allows encrypted and secure connections between two network devices."
+          ],
+          [
+            "Ethernet - An essential protocol used by most operating systems when connecting to networks using a physical cable.",
+            "Wi-Fi (\"Wireless Fidelity\") - For accessing networks via radio signals. It uses a family of protocols called IEEE 802.11.xx",
+            "NDP (\"Neighbor Discovery Protocol\") - IP version 6(IPv6) uses this protocol on the Link Layer to gather information required to communicate via IPv6"
+          ],
+          [
+            "CAN Bus (\"Controller Area Network\") - Used in microcontrollers and other devices to communicate to other similar devices, not involving a computer. Often used in ICS (\"Industrial Control Systems\").",
+            "Ethernet Physical Layer - Used by Ethernet on the physical layer to send signals with speeds up to many gigabits of traffic per second.",
+            "Bluetooth Physical Layer - Bluetooth also has its own specifications on how radio signals should be sent and received."
+          ]
+        ],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_dark_web.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_dark_web.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 4,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_network_layer.php",
+    "cours": {
+      "titre": "Cyber Security In-Depth Network Layer",
+      "description": "",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_network_layer.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "10.0.0.0/8 - More than 16 million IP addresses",
+            "172.16.0.0/12 - About 1 million IP addresses",
+            "192.168.0.0/16 - 65534 IP addresses"
+          ],
+          [
+            "Leading 0's can be shortened",
+            "Double colon (::) can be used to represent a continuous string of 0's."
+          ],
+          [
+            "The operating system sends a packet google.com, the TTL value is set to 1.",
+            "The packet is routed on the network, and the first router decrements the TTL by 1, leaving it at 0. This causes the router to drop the packet and send \"ICMP Time Exceeded\" back to the source.",
+            "The client increases the TTL 1, allowing the packet to be routed through one additional hop."
+          ]
+        ],
+        "examples": [
+          "tracert google.com",
+          "traceroute google.com",
+          "nslookup -type=SOA google.com",
+          "dig -t SOA google.com"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_networking.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_networking.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 4,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_network_transport.php",
+    "cours": {
+      "titre": "Cyber Security Network Transport",
+      "description": "",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_network_transport.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Client initiates the communication by sending a packet with the control bit SYN set in the header, a PRNG number in the Sequence number field and a target destination port. The Network Layer (Layer 3) allows the packet to be sent to a remote system. This packet is referred to as a SYN packet.",
+            "Server receives the packet, reads the Sequence Number from the Client and crafts a response. The response sets the Acknowledgement field with the Sequencer number of the client with the number 1 added to it. Furthermore the response contains the controls bits SYN and ACK set and the Sequence number is set to the Servers PRNG number. This packet is referred to as a SYN/ACK packet.",
+            "The Client receives the SYN-ACK packet and to complete the handshake returns a packet with the ACK control bit set. The final packet also confirms the PRNG number from the Server by returning it in the Acknowledgement field of the header."
+          ]
+        ],
+        "examples": [
+          "Alice: Does anyone know the MAC address of 192.168.10.10? Bob: Sure thing Alice, here is my MAC Address."
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_network_layer.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_network_layer.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 4,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_firewalls.php",
+    "cours": {
+      "titre": "Cyber Security Firewalls",
+      "description": "",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_firewalls.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "NAT",
+            "Routing",
+            "Blocking or Allowing traffic",
+            "Track active network connections",
+            "Support VPN connections"
+          ],
+          [
+            "Locations via geo-location databases. This means the Firewall can make blocking or allow actions based on the location of users. Location services are not always accurate and can often easily be bypassed using VPN services or by using other services like jump stations for attacks.",
+            "Users",
+            "Applications",
+            "Sessions",
+            "Ports and services",
+            "IP addresses"
+          ],
+          [
+            "Identify and control applications on the network.",
+            "It can be virtualized to run as a software Firewall.",
+            "Often offers simple and intuitive management.",
+            "Supports protecting against known threats via (\"Intrusion Prevention System\").",
+            "Potential to detect and prevent unknown threats via sandboxing solutions.",
+            "Offers a potential to manage unknown traffic, e.g. traffic which cannot be attributed to an application.",
+            "Capabilities to terminate and inspect encrypted traffic.",
+            "Can control users, not just system via respective IP addresses."
+          ],
+          [
+            "IT-Administrators should be able to use management protocols to the different services.",
+            "HR employees should be allowed to access HTTPS to the HR platforms.",
+            "Helpdesk employees can only access helpdesk related services.",
+            "Unrecognizable users can be identified and provisioned accordingly."
+          ],
+          [
+            "Hacking",
+            "Nudity",
+            "Violence",
+            "Phishing",
+            "Dating",
+            "Instant Messaging",
+            "Entertainment",
+            "Anonymizing services"
+          ],
+          [
+            "Word documents",
+            "Executables",
+            "Source-code",
+            "Scripts"
+          ],
+          [
+            "HTTP",
+            "SMB",
+            "FTP",
+            "IMAP & POP3",
+            "SMTP"
+          ],
+          [
+            "Windows 7,8 and 10.",
+            "Android phones.",
+            "Linux"
+          ],
+          [
+            "ZIP files with content to run",
+            "Office documents",
+            "PDF files",
+            "Java applications",
+            "JavaScript",
+            "Screensavers"
+          ],
+          [
+            "https://www.joesandbox.com/",
+            "https://www.virustotal.com/",
+            "https://www.hybrid-analysis.com/",
+            "https://any.run/"
+          ],
+          [
+            "https://cuckoosandbox.org/"
+          ],
+          [
+            "WAF can help build redundancy, that is having multiple servers to present the same service. This allows for for organizations to have a service in a higher available modus, allowing them to put a server offline while the other servers are still capable of serving users trying to access the service. This is useful as concepts like patching often requires you to restart the service, and the redundancy allows users to still access the service.",
+            "A WAF can help enforce best practice security rules, for example a single place to maintain and enforce encryption, multi-factor authentication and other concepts which this class covers.",
+            "It can be used to develop a single front and protection mechanism for multiple web-servers which are behind the WAF."
+          ]
+        ],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_network_transport.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_network_transport.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 4,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_web_applications.php",
+    "cours": {
+      "titre": "Cyber Security Web Applications",
+      "description": "",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_web_applications.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "q with a value of w3schools cyber security",
+            "ie with a value of UTF-8"
+          ],
+          [
+            "HTTP",
+            "HTTPS",
+            "FTP",
+            "SSH",
+            "SMB"
+          ],
+          [
+            "PHPSESSID",
+            "JSESSIONID",
+            "ASP.NET_SessionID"
+          ],
+          [
+            "What user you have logged in as",
+            "Privileges and authorizations"
+          ],
+          [
+            "JWT (\"JSON Web Tokens\")",
+            "ASP.Net ViewState"
+          ],
+          [
+            "Percentage is replaced with %25",
+            "Space is replaced with %20",
+            "Quote is replaced with %22"
+          ]
+        ],
+        "examples": [
+          "GET /search?q=w3schools+cyber+security&ie=UTF-8 HTTP/1.1 Host: google.com User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8 Referer: https://w3schools.com/ Accept-Encoding: gzip, deflate Cookie: cookie1=value1;cookie2=value2",
+          "HTTP/1.1 200 OK Content-Type: text/html Set-Cookie: <cookie value> <website content>",
+          "GET /search?q=w3schools+cyber+security&ie=UTF-8 HTTP/1.1 Host: google.com User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/87.0.4280.88 Safari/537.36 Accept: image/avif,image/webp,image/apng,image/*,*/*;q=0.8 Referer: https://w3schools.com/ Accept-Encoding: gzip, deflate Cookie: cookie1=value1;cookie2=value2",
+          "HTTP/1.1 200 OK Content-Type: text/html Set-Cookie: <cookie value> <website content>"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_firewalls.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_firewalls.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 4,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_mapping_port_scanning.php",
+    "cours": {
+      "titre": "Cyber Security Network Mapping & Port Scanning",
+      "description": "",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_mapping_port_scanning.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "ICMP Echo Request",
+            "TCP SYN packet to port 443",
+            "TCP ACK packet to port 80",
+            "ICMP Timestamp request"
+          ],
+          [
+            "Go download Nmap at https://nmap.org . Make sure you download the version that matches your operating system",
+            "Install Nmap and launch the tool from a command line terminal",
+            "Find your local IP address and subnet",
+            "Run Nmap to scan it to see what kinds of systems it can discover: nmap -vv IP/netmask"
+          ],
+          [
+            "T0 - Paranoid. This option is for attackers whom do not want to be detected. IDS systems can correlate multiple requests within a certain timespan. The paranoid option will try to circumvent this by only sending very few packets per second.",
+            "T1 - Sneaky. Faster but designed to evade IDS systems.",
+            "T2 - Polite. Slow scan doing its best job not to crash a system.",
+            "T3 - Normal. It's simply the default.",
+            "T4 - Aggressive. Fast scan which gives results fast. Most systems can cope with this.",
+            "T5 - Insane. We are sending at full capacity and performance."
+          ]
+        ],
+        "examples": [
+          "Eve: Please Provide Mac Address of system 192.168.0.1 Eve: Please Provide Mac Address of system 192.168.0.2 Eve: Please Provide Mac Address of system 192.168.0.3 Eve: Please Provide Mac Address of system 192.168.0.4 Eve: Please Provide Mac Address of system 192.168.0.5-254 Default Gateway: 192.168.0.1 is me and my MAC Address is AA:BB:CC:12:34:56 Bob: 192.168.0.3 is me and my MAC Address is: BB:CC:DD:12:34:56 Alice: 192.168.0.4 is me and my MAC Address is: CC:DD:EE:12:34:56",
+          "nmap --top-ports 100 <target>",
+          "nmap -sV <target>",
+          "nmap -sC <target>",
+          "nmap -O <target>",
+          "nmap -A <target>",
+          "nmap -6 <target>",
+          "Eve: Please Provide Mac Address of system 192.168.0.1 Eve: Please Provide Mac Address of system 192.168.0.2 Eve: Please Provide Mac Address of system 192.168.0.3 Eve: Please Provide Mac Address of system 192.168.0.4 Eve: Please Provide Mac Address of system 192.168.0.5-254 Default Gateway: 192.168.0.1 is me and my MAC Address is AA:BB:CC:12:34:56 Bob: 192.168.0.3 is me and my MAC Address is: BB:CC:DD:12:34:56 Alice: 192.168.0.4 is me and my MAC Address is: CC:DD:EE:12:34:56",
+          "nmap --top-ports 100 <target>",
+          "nmap -sV <target>",
+          "nmap -sC <target>",
+          "nmap -O <target>",
+          "nmap -A <target>",
+          "nmap -6 <target>"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_web_applications.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_web_applications.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 4,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_network_attacks.php",
+    "cours": {
+      "titre": "Cyber Security Network Attacks",
+      "description": "",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_network_attacks.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Make the victim register with a C2 (\"Command and Control\") server accepting commands from attackers",
+            "Create a new backdoor user account on the system so the attacker can use it later",
+            "Open a GUI (\"Graphical User Interface\") with the victim so the attacker can remotely control it",
+            "Receive a command line terminal, a shell, which attacker can send commands through"
+          ],
+          [
+            "Using HTTPS to communicate to attacker servers. This makes the C2 look like network browsing",
+            "Using Social Networks to post and read messages automatically",
+            "Systems like Google Docs to add and edit commands to victims"
+          ],
+          [
+            "long connections used by C2, but which is unnatural for the protocol in question. HTTP is one of those protocols where it is not very common to have long connections, but an attacker using it for remote control might.",
+            "Beacons used by C2 to indicate the victim is alive and ready for commands. Beacons are used by many kinds of software, not just attackers, but knowing which beacons exists and which you expect is good practice.",
+            "Strobes of data suddenly bursting from the network. This might indicate a large upload from an application, or an attacker stealing data. Try understand which application and user is causing strobes of data happening and apply context to it. Is it normal or not?"
+          ]
+        ],
+        "examples": [
+          "#include <string.h> void storeName (char *input) { char name[12]; strcpy(name, input); } int main (int argc, char **argv) { storeName(argv[1]); return 0; }",
+          "#include <string.h> void storeName (char *input) { char name[12]; strcpy(name, input); } int main (int argc, char **argv) { storeName(argv[1]); return 0; }"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_mapping_port_scanning.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_mapping_port_scanning.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 4,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_web_applications_attacks.php",
+    "cours": {
+      "titre": "Cyber Security Web Application Attacks",
+      "description": "",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_web_applications_attacks.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "3377d5a6-236e-4d68-be9c-e91b22afd216"
+          ],
+          [
+            "Stealing cookies which can be used for authentication",
+            "Defacing the website, presenting content which the webserver did not intend to",
+            "Phishing users in leaving credentials in fake login forms"
+          ],
+          [
+            "Let the webserver return CSP (\"Content Security Policy\") headers which strictly decides where and how JavaScript is executed from",
+            "Safely encode the output the webserver returns to users, effectively turning HTML characters into encoded safe characters"
+          ]
+        ],
+        "examples": [
+          "$id = getInputFromUser(); $doc = getDocument($id); return $doc;",
+          "$id = getInputFromUser(); $user = findUsername(); $doc = \"\"; if (hasAccessToDocument($user, $id)) { $doc = getDocument($id); } else { $doc = \"Not authorized for this document\"; } return $doc;",
+          "$username =  getUserName(); $pw = getPassword(); $user = mysql_query(\"SELECT * FROM userTable WHERE username = $username AND password =  $pw\"); if ($user) { $loggedIn = True; } else { $loggedIn = False; }",
+          "/login?username=admin&password=password' OR '1'='1",
+          "SELECT * FROM userTable WHERE username = 'admin' AND password = 'password' OR '1'='1'",
+          "$username = getUserName(); $pw = getPassword(); $parameterizedQuery = prepare_query(\"SELECT * FROM userTable where username = ? and password = ?\"); $parameterizedQuery.setString(1, $username) $parameterizedQuery.setString(2, $password) $user = parameterizedQuery.execute(); if ($user) { $loggedIn = True; } else { $loggedIn = False; }",
+          "$nickname = etNickName(); echo \"Greeting $nickname, nice to meet you!\";",
+          "$id = getInputFromUser(); $doc = getDocument($id); return $doc;",
+          "$id = getInputFromUser(); $user = findUsername(); $doc = \"\"; if (hasAccessToDocument($user, $id)) { $doc = getDocument($id); } else { $doc = \"Not authorized for this document\"; } return $doc;",
+          "$username =  getUserName(); $pw = getPassword(); $user = mysql_query(\"SELECT * FROM userTable WHERE username = $username AND password =  $pw\"); if ($user) { $loggedIn = True; } else { $loggedIn = False; }",
+          "/login?username=admin&password=password' OR '1'='1",
+          "SELECT * FROM userTable WHERE username = 'admin' AND password = 'password' OR '1'='1'",
+          "$username = getUserName(); $pw = getPassword(); $parameterizedQuery = prepare_query(\"SELECT * FROM userTable where username = ? and password = ?\"); $parameterizedQuery.setString(1, $username) $parameterizedQuery.setString(2, $password) $user = parameterizedQuery.execute(); if ($user) { $loggedIn = True; } else { $loggedIn = False; }",
+          "$nickname = etNickName(); echo \"Greeting $nickname, nice to meet you!\";"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_network_attacks.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_network_attacks.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 4,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_wifi_attacks.php",
+    "cours": {
+      "titre": "Cyber Security Wi-Fi Attacks",
+      "description": "",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_wifi_attacks.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Bluetooth, for communicating with devices we carry, typically smartphones, headphones etc.",
+            "NFC (\"Near Field Communications\"), implemented in access badges and credit cards for wireless transmission of data.",
+            "RFID (\"Radio Frequency Identification\"), used for access cards and other devices, for example a car which can wirelessly transmit its identifier to a toll-road system.",
+            "ZigBee and Z-Wave, used for enterprise and home automation."
+          ],
+          [
+            "No security",
+            "Access list based on MAC addresses",
+            "PSK (\"Pre-Shared Key\")",
+            "Enterprise authentication"
+          ],
+          [
+            "Monitor Mode: Makes the network card forward packets destined to all MAC addresses to the Operating System, not just its own.",
+            "Packet Injection: The network card supports crafting packets with a different source MAC address than its own."
+          ]
+        ],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_web_applications_attacks.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_web_applications_attacks.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 4,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_passwords.php",
+    "cours": {
+      "titre": "Cyber Security Passwords",
+      "description": "",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_passwords.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Hard to remember. Did you replace the first o (the letter) character with a 0 (the number), or was it the second? Did you replace the a character with a 4, or not?",
+            "Hard to type. You have to type in different letters, numbers and special characters in a special order. It will likely not be the fastest words being typed on your keyboard.",
+            "It is not very strong! The password is based off a rather common word and it does not offer much strength, only about 28 bits of entropy."
+          ],
+          [
+            "The password is easy to type. Typing in regular words is for many an everyday activity and you can get really fast at it.",
+            "It is easy to remember. By using a visual picture of the password, a horse, a battery, a staple and the word correct, we can remember it much easier.",
+            "It is significantly stronger against most password cracking activities! It offers about 44 bits of entropy, making it really hard to crack."
+          ],
+          [
+            "Make the use of the Internet a much more secure activity",
+            "Increase productivity as passwords for different services can easily be found, copied and pasted into the respective services the user want to log into",
+            "Offer easy ways to reset and regenerate new passwords when needed."
+          ],
+          [
+            "Non IT savvy workers in the office",
+            "A doctor who visits many different computers in the hospital, every day while visiting different patients in different rooms",
+            "It is hard to type in the password on the system which requires it"
+          ],
+          [
+            "Something they are, for example their face or fingerprint",
+            "Something they have, for example a token or their cell-phone"
+          ],
+          [
+            "Use an authentication application on a smart-phone to provide a secret code",
+            "Receive a secret code via SMS (\"Short Message Service\") on a phone",
+            "Use a hardware token to provide a secret code",
+            "Present a fingerprint or face to identify the individual"
+          ],
+          [
+            "Logs in from a new location",
+            "Uses a different browser or software to access the application",
+            "Tries to perform a sensitive action in the application, for example change password or perform a money transaction above a certain threshold"
+          ],
+          [
+            "Attacker accesses an email account of an employee. Inside there are thousands of emails ranging years back in history. Within the emails there are passwords communicated, allowing attacker to log into more systems. Furthermore, hundreds of attachments are present, some which may contain very sensitive information.",
+            "Attackers successfully guess the Admin accounts password for an HVAC (\"Heating, Ventilation and Air Conditioning\") system who's responsibility is to cool down the server room. The attackers are able to change the parameters of the HVAC and through careful modification causes the server-room to overheat.",
+            "A VPN service is available on the Internet, allowing employees to reach internal resources. One of the employees has a weak password which is guessed by an attacker through days of repeated password guessing. The attacker accesses the VPN service and is now on the inside network of the organization. From here, the attacker installs ransomware within the organization.",
+            "A web application is deployed on the Internet. It holds no obvious vulnerabilities from the outside, however attackers were able password guess into a regular users account on the system. Because the company hosting the web application trusts their users, the web security on the inside of the application was poor. From here, the attacker was able to use web exploits to compromise the server."
+          ],
+          [
+            "RDP (\"Remote Desktop Protocol\")",
+            "FTP (\"File Transfer Protocol\")",
+            "SMB (\"Server Message Block\")",
+            "Telnet",
+            "SSH (\"Secure Sockets Host\")"
+          ],
+          [
+            "Email",
+            "SharePoint",
+            "HR and Accounting",
+            "VPN (\"Virtual Private Networking\")"
+          ]
+        ],
+        "examples": [
+          "hydra -L common_usernames.txt -P common_passwords.txt ftp://localhost/",
+          "hydra -L common_usernames.txt -P common_passwords.txt ftp://localhost/"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_wifi_attacks.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_wifi_attacks.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 4,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_prenetration_testing.php",
+    "cours": {
+      "titre": "Cyber Security Penetration Testing",
+      "description": "",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_prenetration_testing.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Web applications. There are new web-applications developed and released.",
+            "Network and Infrastructure. Many applications are not a web-application, but instead uses other protocols. These organization applications can reside both externally and internally.",
+            "Inside testing / Infected computer simulation. What if a user receives malware on their system? This would be nearly equal to an attacker having hands-on-keyboard on that system, posing a serious risk to any organization.",
+            "External Organizational Testing. A test which holds within the entire organization as scope for the penetration testers. This is ideal, but often involves having their own internal penetration testing team to focus on this long-term, or high costs involving hiring an external team to do this test.",
+            "Stolen Laptop Scenario. Further described in our scenarios below.",
+            "Client Side Applications. Many applications exists in an enterprise written in different languages such as C, C++, Java, Flash, Silverlight or other compiled software. A penetration test could focus on these assets too.",
+            "Wireless networks. A test which serves to figure out if the WIFI can be broken into, if devices have outdated and vulnerable software, and if proper segmentation has been built between the wireless network and other networks.",
+            "Mobile applications (Android, Windows Phone, IOS). Mobile applications can have vulnerabilities in them, and also include connections and references to systems hosted inside the enterprise. Mobile applications can also hold secrets such as API keys which can easily be taken advantage of by attackers.",
+            "Social Engineering. Further described in our scenarios below.",
+            "Phishing and Vishing. Further described in our scenarios below.",
+            "Physical. A penetration testing team could try to see what happens if they show up at a location with a laptop and plugs into a network connection. Physical attacks can also include other kinds of covert attacks against locations.",
+            "ICS (\"Industrial Control Systems\") / SCADA (\"Supervisory Control And Data \n  Acquisition\"). These systems typically controls some of the most vulnerable and critical assets in organizations, and as such they should receive scrutiny."
+          ],
+          [
+            "The systems hard-drive might not be fully encrypted, allowing an attacker to mount the hard-drive on their own system to extract data and credentials. These credentials could in turn be cracked and re-used across many of the organizations login pages.",
+            "The user might have locked the system, but a user is still logged in. This user has applications and processes running in the background, even if it is locked. The attackers could try to add a malicious network card to the system via for example USB. This network card tries to become the preferred way for the system to reach the internet. If the system uses this network card, the attackers can now see the network traffic and attempt to find sensitive data, even change data."
+          ],
+          [
+            "Most people have the desire to be polite, especially to strangers",
+            "Professionals want to appear well-informed and intelligent",
+            "If you are praised, you will often talk more and divulge more",
+            "Most people would not lie for the sake of lying",
+            "Most people respond kindly to people who appear concerned about them"
+          ]
+        ],
+        "examples": [
+          "Eve: Hello, this is Miss Eve calling. I was told to call you personally by the CEO Margarethe; she said you would be able to help. Alice: Ok... What can I do for you? Eve: Margarethe is travelling right now, but urgently requests her password to be reset so we can get on with a business meeting happening the moment she lands. Eve: We urgently request for her email password to be reset so she can deliver the meeting. Eve: Can you proceed to reset her password to Margareth123? Alice: I am not sure... Eve: Please, Margarethe asked for you personally to comply with this request. It must be done now, I don't want to think of the consequences if not... Alice: Ok. Password is reset",
+          "Eve: Hello, this is Miss Eve calling. I was told to call you personally by the CEO Margarethe; she said you would be able to help. Alice: Ok... What can I do for you? Eve: Margarethe is travelling right now, but urgently requests her password to be reset so we can get on with a business meeting happening the moment she lands. Eve: We urgently request for her email password to be reset so she can deliver the meeting. Eve: Can you proceed to reset her password to Margareth123? Alice: I am not sure... Eve: Please, Margarethe asked for you personally to comply with this request. It must be done now, I don't want to think of the consequences if not... Alice: Ok. Password is reset"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_passwords.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_passwords.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 4,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_security_operations.php",
+    "cours": {
+      "titre": "Cyber Security Security Operations",
+      "description": "",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_security_operations.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Users logging in",
+            "Attacks observed in the network",
+            "Transactions within applications"
+          ],
+          [
+            "Network",
+            "Host",
+            "Applications"
+          ],
+          [
+            "Create an Incident in the appointed Incident Tracking System, assigning it to correct department or person(s)",
+            "If no direct action happens from department/person(s): send SMS and Email to primary contact",
+            "If still no direct action: phone call primary contact",
+            "If still no direct action: call secondary contact"
+          ],
+          [
+            "Category",
+            "Criticality",
+            "Sensitivity"
+          ],
+          [
+            "Inside Hacking",
+            "Malware on Client workstation",
+            "Worm spreading across the network",
+            "Distributed Denial of Service Attack",
+            "Leaked Credentials"
+          ]
+        ],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_prenetration_testing.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_prenetration_testing.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 4,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_incident_response.php",
+    "cours": {
+      "titre": "Cyber Security Incident Response",
+      "description": "",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_incident_response.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Cyber Security Specialist - We all know these belong on the team.",
+            "Security Operations - They might have insights into developing matters and can support with a birds eye view of the situation.",
+            "IT-Operations",
+            "Network Operations",
+            "Development",
+            "Legal",
+            "HR"
+          ],
+          [
+            "What is the criticality and sensitivity of the platform breached?",
+            "Is the platform used elsewhere, meaning there is a potential for further compromise if nothing is done in time?",
+            "How many users and systems are involved?",
+            "What kinds of credentials has the attackers got, and where else can they be re-used?"
+          ],
+          [
+            "A copy of the hard-drives involved for file forensics",
+            "A copy of the memory of the involved systems for memory forensics"
+          ],
+          [
+            "Blocking the attackers in the Firewall",
+            "Disconnecting network connectivity to the compromised systems",
+            "Turning systems offline",
+            "Changing passwords",
+            "Asking ISP (\"Internet Service Provider\") or other partners for help in stopping the attackers"
+          ],
+          [
+            "Restoring from a known good backup",
+            "Rebuilding the service"
+          ],
+          [
+            "Did the IRT have the necessary knowledge, tools and accesses to perform their work with high efficiency?",
+            "Was there any logs missing which could have made the IRT efforts easier and faster?",
+            "Are there any processes that could be improved to prevent similar incidents taking place in the future?"
+          ]
+        ],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_security_operations.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_security_operations.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 4,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_quiz.php",
+    "cours": {
+      "titre": "Cyber Security Quiz",
+      "description": "",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_quiz.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_incident_response.php"
+          },
+          {
+            "title": "Start the Cyber Security Quiz ❯",
+            "url": "https://www.w3schools.com/quiztest/quiztest.php?qtest=CYBERSECURITY"
+          },
+          {
+            "title": "Get certified",
+            "url": "https://campus.w3schools.com/collections/course-catalog"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_incident_response.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 1,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_syllabus.php",
+    "cours": {
+      "titre": "Cyber Security Syllabus",
+      "description": "",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_syllabus.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Learn what cyber crime is and why it is important.",
+            "Understand basic networking and the OSI model.",
+            "Learn about common network attacks.",
+            "Understand web application attacks and vulnerabilities.",
+            "Learn the basics of security operations and defense strategies."
+          ],
+          [
+            "Network Security: Protecting networks from unauthorized access.",
+            "Application Security: Securing software applications from threats.",
+            "Information Security: Protecting sensitive data and systems.",
+            "Cloud Security: Securing cloud-based resources and services.",
+            "Incident Response: Handling and managing security incidents.",
+            "Risk Management: Assessing and managing security risks.",
+            "Compliance: Meeting security regulations and standards."
+          ],
+          [
+            "Lessons",
+            "Quizzes"
+          ],
+          [
+            "Learning paths",
+            "Sandbox and lab environments",
+            "Achievements",
+            "And much more!"
+          ],
+          [
+            "Collaboration",
+            "File navigator",
+            "Terminal & log",
+            "Package manager",
+            "Database",
+            "Environment manager",
+            "Analytics"
+          ],
+          [
+            "Non-adaptive",
+            "Adaptive"
+          ]
+        ],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_quiz.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_quiz.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 4,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_study_plan.php",
+    "cours": {
+      "titre": "Cyber Security Study Plan",
+      "description": "",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_study_plan.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Essentials ($1.99 / month per student)",
+            "Full Access ($5.99 / month per student)",
+            "Calculate your price and order here ."
+          ],
+          [
+            "Managing your classroom",
+            "Tracking of student progress and reports",
+            "Labs, assignments, and code challenges (prebuilt challenges or create your own ones)",
+            "Auto-grading",
+            "Teaching materials",
+            "Certification exams"
+          ],
+          [
+            "W3Schools Cyber Security Tutorial",
+            "Cyber Security Quiz",
+            "Cyber Security Challenges (Coding challenges)",
+            "Cyber Security Certification Exam (End of Pathway Exam)"
+          ],
+          [
+            "Learning Paths You can add ready-made learning paths. The learning paths are by default ordered by our recommended order. You can change the order. You can add custom activities with text, links, or multi-media files. Drag and drop or click to make changes to the path.",
+            "You can add ready-made learning paths.",
+            "The learning paths are by default ordered by our recommended order.",
+            "You can change the order.",
+            "You can add custom activities with text, links, or multi-media files.",
+            "Drag and drop or click to make changes to the path.",
+            "Interactive Content Tutorials Try-its (test code snippets) Exercises Quiz Challenges Labs",
+            "Tutorials",
+            "Try-its (test code snippets)",
+            "Exercises",
+            "Quiz",
+            "Challenges",
+            "Labs",
+            "Timeline and Pace You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans). You can decide the learning pace for your class. Different study plans can be assigned to different students in the same class. The flexibility can help to make sure that everyone is challenged.",
+            "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+            "You can decide the learning pace for your class.",
+            "Different study plans can be assigned to different students in the same class.",
+            "The flexibility can help to make sure that everyone is challenged.",
+            "Track Student Progress There are tools to track student progress. The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more. The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+            "There are tools to track student progress.",
+            "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+            "The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+            "End of Pathway Exam The Cyber Security study plan aligns with the Cyber Security Certification Exam. The exam can be taken at the end of the study plan, at your selected date. The exam summarizes the Cyber Security Tutorial. You get reports of the students' results.",
+            "The Cyber Security study plan aligns with the Cyber Security Certification Exam.",
+            "The exam can be taken at the end of the study plan, at your selected date.",
+            "The exam summarizes the Cyber Security Tutorial.",
+            "You get reports of the students' results.",
+            "Accessibility Study plans and learning materials are accessible on desktops, tablets, and smartphones. This ensures students can learn anytime, anywhere.",
+            "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+            "This ensures students can learn anytime, anywhere."
+          ],
+          [
+            "Week 1: Crime, Threats, and the Dark Web",
+            "Week 2: Networking, Cyber Attacks",
+            "Week 3: Cyber Defence, Cyber Security Certification Exam"
+          ]
+        ],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_syllabus.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_syllabus.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 4,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/cybersecurity/cybersecurity_exam.php",
+    "cours": {
+      "titre": "Cyber Security Exam",
+      "description": "How Does It Work? Study for free at W3Schools.com Study at your own speed Test your skills with W3Schools online quizzes Apply for your certificate by paying an exam fee Take your exam online, at any time, and from any location",
+      "lien": "https://www.w3schools.com/cybersecurity/cybersecurity_exam.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_study_plan.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/cybersecurity/cybersecurity_study_plan.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": 4,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://campus.w3schools.com/products/cyber-security-certificate?utm_source=w3schools&utm_medium=referral&utm_campaign=cybersecurity_exam&utm_content=get_your_certificate",
+    "cours": {
+      "id": "",
+      "contenus": {
+        "texte": "",
+        "lienVideo": ""
+      },
+      "categories": [],
+      "niveau": 1,
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  }
+]

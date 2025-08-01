@@ -1,0 +1,24 @@
+FROM python:3.9-slim
+
+WORKDIR /app
+
+# Installer les dépendances système nécessaires
+RUN apt-get update && apt-get install -y \
+    build-essential \
+    && rm -rf /var/lib/apt/lists/*
+
+# Copier les fichiers de dépendances
+COPY requirements.txt .
+
+# Installer les dépendances Python avec des options pour améliorer la fiabilité
+RUN pip install --no-cache-dir --timeout 1000 --retries 3 -r requirements.txt
+
+# Copier le reste des fichiers
+COPY . .
+
+# Exposer le port
+EXPOSE 5000
+
+WORKDIR /app/api
+# Commande pour démarrer l'API
+CMD ["python", "app.py"]

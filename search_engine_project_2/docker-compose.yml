@@ -1,0 +1,37 @@
+version: '3.8'
+
+networks:
+  search_engine_network:  # Définition du réseau
+    driver: bridge
+
+services:
+  backend:
+    build: ./backend
+    ports:
+      - "5001:5000"
+    volumes:
+      - ./backend:/app
+    depends_on:
+      - db  # Si tu utilises une base de données
+    networks:
+      - search_engine_network  # Liaison avec le réseau
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "80:80"
+    depends_on:
+      - backend  # Démarrer après le backend
+    networks:
+      - search_engine_network  # Liaison avec le réseau
+
+  db:  # Si tu utilises une base de données, définis-la ici
+    image: postgres:latest
+    environment:
+      POSTGRES_USER: user
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: mydatabase
+    ports:
+      - "5432:5432"
+    networks:
+      - search_engine_network

@@ -1,0 +1,378 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Parcours d'apprentissage{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row">
+        <div class="col-12">
+            <h1 class="mb-4">Votre parcours d'apprentissage personnalisé</h1>
+            
+            <!-- Informations générales -->
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h5 class="card-title">Informations du parcours</h5>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <p><strong>Langage:</strong> {{ learning_path.language }}</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p><strong>Niveau:</strong> {{ learning_path.level }}</p>
+                        </div>
+                        <div class="col-md-4">
+                            <p><strong>Centres d'intérêt :</strong> 
+                            {% if interests_list %}
+                                {% for interest in interests_list %}
+                                    <span class="badge bg-primary">{{ interest }}</span>
+                                {% endfor %}
+                            {% else %}
+                                <span class="text-muted">Aucun centre d'intérêt enregistré</span>
+                            {% endif %}
+                            </p>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Boutons d'action -->
+            <div class="d-flex justify-content-between mt-4">
+                <a href="{% url 'generate_learning_path' %}" class="btn btn-outline-primary">
+                    <i class="bi bi-arrow-left me-2"></i>Générer un nouveau parcours
+                </a>
+                <a href="{% url 'dashboard' %}" class="btn btn-primary">
+                    <i class="bi bi-house me-2"></i>Retour au tableau de bord
+                </a>
+            </div>
+
+            <div class="d-flex gap-2 mt-3">
+                <button id="ask-claude-btn" class="btn btn-warning">
+                    <i class="bi bi-magic me-2"></i></i>Améliorer le parcours 
+                </button>
+                {% if learning_path.quizzes.exists %}
+                <a href="{% url 'quiz' quiz_id=learning_path.quizzes.first.id %}" class="btn btn-success">
+                    <i class="bi bi-check-circle me-2"></i>Passer le quiz de validation
+                </a>
+                {% else %}
+                <button id="generate-quiz-btn" class="btn btn-success">
+                    <i class="bi bi-plus-circle me-2"></i>Générer un quiz
+                </button>
+                {% endif %}
+            </div>
+            <div id="claude-response" class="mt-3"></div>
+
+            {% if learning_path.quizzes.exists %}
+            <div class="card mt-4">
+                <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center" 
+                     style="cursor: pointer;" 
+                     data-bs-toggle="collapse" 
+                     data-bs-target="#quizHistoryCollapse">
+                    <h4 class="mb-0">
+                        <i class="bi bi-list-check me-2"></i>Quiz de validation
+                    </h4>
+                    <i class="bi bi-chevron-down toggle-icon"></i>
+                </div>
+                <div id="quizHistoryCollapse" class="collapse show">
+                    <div class="card-body">
+                        {% for quiz_data in quizzes_with_attempts %}
+                            <div class="quiz-history mb-4">
+                                <h5>{{ quiz_data.quiz.title }}</h5>
+                                <p class="text-muted">{{ quiz_data.quiz.description }}</p>
+                                
+                                {% if quiz_data.attempts %}
+                                    <div class="table-responsive">
+                                        <table class="table table-hover">
+                                            <thead>
+                                                <tr>
+                                                    <th>Date</th>
+                                                    <th>Score</th>
+                                                    <th>Statut</th>
+                                                    <th>Action</th>
+                                                </tr>
+                                            </thead>
+                                            <tbody>
+                                                {% for attempt in quiz_data.attempts %}
+                                                <tr>
+                                                    <td>{{ attempt.completed_at|date:"d/m/Y H:i" }}</td>
+                                                    <td>{{ attempt.score|floatformat:1 }}%</td>
+                                                    <td>
+                                                        {% if attempt.passed %}
+                                                        <span class="badge bg-success">Réussi</span>
+                                                        {% else %}
+                                                        <span class="badge bg-danger">Échoué</span>
+                                                        {% endif %}
+                                                    </td>
+                                                    <td>
+                                                        <a href="{% url 'quiz_result' attempt_id=attempt.id %}" 
+                                                           class="btn btn-sm btn-outline-primary">
+                                                            <i class="bi bi-eye me-1"></i>Voir les détails
+                                                        </a>
+                                                    </td>
+                                                </tr>
+                                                {% endfor %}
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                {% else %}
+                                    <div class="alert alert-info">
+                                        <i class="bi bi-info-circle me-2"></i>
+                                        Vous n'avez pas encore passé ce quiz.
+                                    </div>
+                                    <a href="{% url 'quiz' quiz_id=quiz_data.quiz.id %}" class="btn btn-success">
+                                        <i class="bi bi-play-circle me-2"></i>Passer le quiz
+                                    </a>
+                                {% endif %}
+                            </div>
+                        {% endfor %}
+                    </div>
+                </div>
+            </div>
+            {% endif %}
+
+            <!-- Modules -->
+            <h3 class="mt-4">Modules du parcours :</h3>
+<div class="row">
+{% for module in modules %}
+    <div class="col-md-6 mb-3">
+        <div class="card h-100">
+            <div class="card-header bg-primary text-white">
+                <h5 class="mb-0">{{ module.title }}</h5>
+            </div>
+            <div class="card-body">
+                <p><strong>Niveau :</strong> {{ module.level }}</p>
+                {% if module.url %}
+                <a href="{{ module.url }}" target="_blank" class="btn btn-outline-primary">
+                    🔗 Voir le cours
+                </a>
+                {% else %}
+                <span class="text-muted">Pas de lien disponible</span>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+{% empty %}
+    <p class="text-muted">Aucun module trouvé.</p>
+{% endfor %}
+</div>
+
+
+            
+        </div>
+    </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Gestionnaire pour le bouton ask-claude
+    const askClaudeBtn = document.getElementById('ask-claude-btn');
+    if (askClaudeBtn) {
+        askClaudeBtn.addEventListener('click', function() {
+            const parcoursId = "{{ learning_path.id }}";
+            console.log("Parcours ID:", parcoursId);
+            const responseDiv = document.getElementById('claude-response');
+            responseDiv.innerHTML = `
+                <div class="text-center">
+                    <div class="spinner-border text-warning" role="status">
+                        <span class="visually-hidden">Chargement...</span>
+                    </div>
+                    <p class="mt-2">Analyse du parcours en cours...</p>
+                </div>`;
+
+            fetch(`/courses/api/claude-advice/?parcours_id=${parcoursId}`)
+                .then(response => response.json())
+                .then(data => {
+                    if (data.success && data.suggestions && data.suggestions.length > 0) {
+                        let suggestionsHtml = '';
+                        data.suggestions.forEach(suggestion => {
+                            suggestionsHtml += `
+                                <div class="suggestion-item mb-4">
+                                    <h5 class="text-primary">${suggestion.title}</h5>
+                                    <p><strong>Pertinence:</strong> ${suggestion.relevance}</p>
+                                    <p><strong>Niveau:</strong> ${suggestion.level}</p>
+                                    <div class="resources-section">
+                                        <strong>Ressources:</strong>
+                                        <ul class="list-unstyled ms-3">
+                                            ${suggestion.resources.map(resource => `
+                                                <li>
+                                                    <a href="${resource.url}" target="_blank" class="text-decoration-none">
+                                                        <i class="bi bi-link-45deg"></i> ${resource.name}
+                                                    </a>
+                                                    <small class="text-muted">(${resource.type})</small>
+                                                </li>
+                                            `).join('')}
+                                        </ul>
+                                    </div>
+                                </div>
+                            `;
+                        });
+
+                        responseDiv.innerHTML = `
+                            <div class="card mt-4">
+                                <div class="card-header bg-warning text-dark">
+                                    <h4 class="mb-0">
+                                        <i class="bi bi-lightbulb me-2"></i>
+                                        Suggestions de Claude
+                                    </h4>
+                                </div>
+                                <div class="card-body">
+                                    <div class="claude-advice">
+                                        ${suggestionsHtml}
+                                    </div>
+                                </div>
+                            </div>`;
+                    } else {
+                        responseDiv.innerHTML = `
+                            <div class="alert alert-warning mt-4">
+                                <i class="bi bi-exclamation-circle me-2"></i>
+                                ${data.error || 'Aucune suggestion disponible pour le moment.'}
+                            </div>`;
+                    }
+                })
+                .catch(error => {
+                    console.error('Error:', error);
+                    responseDiv.innerHTML = `
+                        <div class="alert alert-danger mt-4">
+                            <i class="bi bi-exclamation-triangle me-2"></i>
+                            Erreur lors de la communication avec Claude.
+                        </div>`;
+                });
+        });
+    }
+
+    // Gestionnaire pour le bouton generate-quiz
+    const generateQuizBtn = document.getElementById('generate-quiz-btn');
+    if (generateQuizBtn) {
+        generateQuizBtn.addEventListener('click', function() {
+            const responseDiv = document.getElementById('claude-response');
+            responseDiv.innerHTML = `
+                <div class="text-center">
+                    <div class="spinner-border text-success" role="status">
+                        <span class="visually-hidden">Chargement...</span>
+                    </div>
+                    <p class="mt-2">Génération du quiz en cours...</p>
+                </div>`;
+
+            fetch('/courses/api/generate-quiz/', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({
+                    learning_path_id: "{{ learning_path.id }}"
+                })
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    responseDiv.innerHTML = `
+                        <div class="alert alert-success mt-4">
+                            <i class="bi bi-check-circle me-2"></i>
+                            Quiz généré avec succès !
+                            <a href="/courses/quiz/${data.quiz_id}/" class="btn btn-success ms-3">
+                                <i class="bi bi-play-circle me-2"></i>Commencer le quiz
+                            </a>
+                        </div>`;
+                    // Recharger la page après 5 secondes pour afficher le nouveau quiz
+                    setTimeout(() => {
+                        window.location.reload();
+                    }, 5000);
+                } else {
+                    responseDiv.innerHTML = `
+                        <div class="alert alert-danger mt-4">
+                            <i class="bi bi-exclamation-triangle me-2"></i>
+                            Erreur : ${data.error}
+                        </div>`;
+                }
+            })
+            .catch(error => {
+                console.error('Error:', error);
+                responseDiv.innerHTML = `
+                    <div class="alert alert-danger mt-4">
+                        <i class="bi bi-exclamation-triangle me-2"></i>
+                        Erreur lors de la génération du quiz.
+                    </div>`;
+            });
+        });
+    }
+
+    // Gestionnaire pour les icônes de toggle
+    document.querySelectorAll('[data-bs-toggle="collapse"]').forEach(header => {
+        header.addEventListener('click', function() {
+            const icon = this.querySelector('.toggle-icon');
+            if (icon) {
+                icon.style.transform = this.classList.contains('collapsed') ? 'rotate(0deg)' : 'rotate(-180deg)';
+            }
+        });
+    });
+});
+</script>
+
+<style>
+.claude-advice {
+    line-height: 1.4;
+    font-size: 0.95rem;
+}
+
+.claude-advice h5 {
+    color: #6c5ce7;
+    border-bottom: 1px solid #e9ecef;
+    padding-bottom: 0.3rem;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+.claude-advice ul {
+    margin-bottom: 0.75rem;
+}
+
+.claude-advice li {
+    margin-bottom: 0.3rem;
+}
+
+.claude-advice strong {
+    color: #e17055;
+}
+
+.card-header {
+    background-color: #6c5ce7 !important;
+    color: white !important;
+}
+
+.card-header h4 {
+    font-size: 1.2rem;
+}
+
+.card {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.card-header.bg-info {
+    background-color: #0984e3 !important;
+}
+
+.card-header.bg-info h4 {
+    font-size: 1.2rem;
+}
+
+.toggle-icon {
+    transition: transform 0.3s ease;
+}
+
+.collapsed .toggle-icon {
+    transform: rotate(-180deg);
+}
+
+.card-header[data-bs-toggle="collapse"] {
+    cursor: pointer;
+}
+
+.card-header[data-bs-toggle="collapse"]:hover {
+    background-color: #5a4bd1 !important;
+}
+</style>
+{% endblock %}

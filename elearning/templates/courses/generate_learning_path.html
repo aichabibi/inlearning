@@ -1,0 +1,249 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Générer un parcours d'apprentissage{% endblock %}
+
+{% block content %}
+<div class="container py-5">
+    <div class="row justify-content-center">
+        <div class="col-md-8">
+            <div class="card shadow">
+                <div class="card-header bg-primary text-white">
+                    <h4 class="mb-0">
+                        <i class="bi bi-diagram-3 me-2"></i>
+                        Générer un parcours d'apprentissage
+                    </h4>
+                </div>
+                <div class="card-body">
+                    <div id="alert-container"></div>
+                    
+                    <!-- Ajout du conteneur pour l'animation de chargement -->
+                    <div id="loading-container" class="text-center d-none">
+                        <div class="spinner-border text-primary mb-3" role="status" style="width: 3rem; height: 3rem;">
+                            <span class="visually-hidden">Chargement...</span>
+                        </div>
+                        <h5 class="text-primary">Génération de votre parcours en cours...</h5>
+                        <p class="text-muted">Cela peut prendre quelques instants</p>
+                    </div>
+
+                    <form id="learning-path-form" method="post">
+                        {% csrf_token %}
+                        
+                        <div class="mb-4">
+                            <label for="subject" class="form-label">Langage de programmation</label>
+                            <select class="form-select" id="subject" name="subject" required>
+                                <option value="">Sélectionnez un langage</option>
+                                <option value="python">Python</option>
+                                <option value="javascript">JavaScript</option>
+                                <option value="java">Java</option>
+                                <option value="csharp">C#</option>
+                                <option value="php">PHP</option>
+                                <option value="ruby">Ruby</option>
+                                <option value="swift">Swift</option>
+                                <option value="kotlin">Kotlin</option>
+                                <option value="go">Go</option>
+                                <option value="rust">Rust</option>
+                            </select>
+                        </div>
+
+                        <div class="mb-4">
+                            <label for="level" class="form-label">Niveau</label>
+                            <select class="form-select" id="level" name="level" required>
+                                <option value="debutant" {% if user.person_profile.predicted_level|lower == 'debutant' or user.person_profile.predicted_level|lower == 'débutant' %}selected="selected"{% endif %}>Débutant</option>
+                                <option value="junior" {% if user.person_profile.predicted_level|lower == 'junior' %}selected="selected"{% endif %}>Junior</option>
+                                <option value="intermediaire" {% if user.person_profile.predicted_level|lower == 'intermediaire' or user.person_profile.predicted_level|lower == 'intermédiaire' %}selected="selected"{% endif %}>Intermédiaire</option>
+                                <option value="senior" {% if user.person_profile.predicted_level|lower == 'senior' %}selected="selected"{% endif %}>Senior</option>
+                                <option value="expert" {% if user.person_profile.predicted_level|lower == 'expert' %}selected="selected"{% endif %}>Expert</option>
+                            </select>
+                            
+                        </div>
+
+                        <div class="mb-4">
+                            <label class="form-label">Centres d'intérêt (sélectionnez jusqu'à 3)</label>
+                            <div class="row">
+                                <div class="col-md-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input interest-checkbox" type="checkbox" value="web" id="web">
+                                        <label class="form-check-label" for="web">Développement Web</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input interest-checkbox" type="checkbox" value="mobile" id="mobile">
+                                        <label class="form-check-label" for="mobile">Développement Mobile</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input interest-checkbox" type="checkbox" value="data" id="data">
+                                        <label class="form-check-label" for="data">Data Science</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input interest-checkbox" type="checkbox" value="ai" id="ai">
+                                        <label class="form-check-label" for="ai">Intelligence Artificielle</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input interest-checkbox" type="checkbox" value="game" id="game">
+                                        <label class="form-check-label" for="game">Développement de Jeux</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input interest-checkbox" type="checkbox" value="security" id="security">
+                                        <label class="form-check-label" for="security">Cybersécurité</label>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary">
+                                <i class="bi bi-magic me-2"></i>Générer mon parcours
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('learning-path-form');
+    const alertContainer = document.getElementById('alert-container');
+    const loadingContainer = document.getElementById('loading-container');
+    const interestCheckboxes = document.querySelectorAll('.interest-checkbox');
+    const maxInterests = 3;
+    const levelSelect = document.getElementById('level');
+
+    // Fonction pour normaliser le texte (enlever les accents et mettre en minuscules)
+    function normalizeText(text) {
+        return text.toLowerCase()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '');
+    }
+
+    // Sélectionner automatiquement le niveau prédit
+    const predictedLevel = "{{ user.person_profile.predicted_level }}";
+    console.log("Niveau prédit original:", predictedLevel);
+    
+    if (predictedLevel) {
+        const normalizedPredictedLevel = normalizeText(predictedLevel);
+        console.log("Niveau prédit normalisé:", normalizedPredictedLevel);
+        
+        // Trouver l'option correspondante
+        const options = Array.from(levelSelect.options);
+        const matchingOption = options.find(option => normalizeText(option.value) === normalizedPredictedLevel);
+        
+        if (matchingOption) {
+            matchingOption.selected = true;
+            console.log("Niveau sélectionné:", matchingOption.value);
+            levelSelect.dispatchEvent(new Event('change'));
+        }
+    }
+
+    // Fonction pour afficher les alertes
+    function showAlert(message, type = 'success') {
+        const alertDiv = document.createElement('div');
+        alertDiv.className = `alert alert-${type} alert-dismissible fade show`;
+        alertDiv.innerHTML = `
+            ${message}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        `;
+        alertContainer.innerHTML = '';
+        alertContainer.appendChild(alertDiv);
+        alertDiv.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    // Limiter la sélection des centres d'intérêt
+    interestCheckboxes.forEach(checkbox => {
+        checkbox.addEventListener('change', function() {
+            const checkedBoxes = document.querySelectorAll('.interest-checkbox:checked');
+            if (checkedBoxes.length > maxInterests) {
+                this.checked = false;
+                showAlert(`Vous ne pouvez sélectionner que ${maxInterests} centres d'intérêt maximum.`, 'warning');
+            }
+        });
+    });
+
+    // Fonction pour afficher/masquer l'animation de chargement
+    function toggleLoading(show) {
+        if (show) {
+            loadingContainer.classList.remove('d-none');
+            form.classList.add('d-none');
+        } else {
+            loadingContainer.classList.add('d-none');
+            form.classList.remove('d-none');
+        }
+    }
+
+    // Gérer la soumission du formulaire
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const subject = document.getElementById('subject').value;
+        const level = document.getElementById('level').value;
+        const selectedInterests = Array.from(document.querySelectorAll('.interest-checkbox:checked'))
+            .map(checkbox => checkbox.value);
+
+        if (!subject) {
+            showAlert('Veuillez sélectionner un langage de programmation.', 'warning');
+            return;
+        }
+
+        if (!level) {
+            showAlert('Veuillez sélectionner votre niveau.', 'warning');
+            return;
+        }
+
+        if (selectedInterests.length === 0) {
+            showAlert('Veuillez sélectionner au moins un centre d\'intérêt.', 'warning');
+            return;
+        }
+
+        // Afficher l'animation de chargement
+        toggleLoading(true);
+
+        // Envoyer les données au serveur
+        fetch('{% url "generate_learning_path" %}', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+                'X-CSRFToken': document.querySelector('[name=csrfmiddlewaretoken]').value
+            },
+            body: new URLSearchParams({
+                'subject': subject,
+                'level': level,
+                'interests': JSON.stringify(selectedInterests)
+            })
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                showAlert(data.message, 'success');
+                if (data.redirect_url) {
+                    setTimeout(() => {
+                        window.location.href = data.redirect_url;
+                    }, 1500);
+                }
+            } else {
+                toggleLoading(false);
+                showAlert(data.error, 'danger');
+            }
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            toggleLoading(false);
+            showAlert('Une erreur est survenue lors de la génération du parcours.', 'danger');
+        });
+    });
+});
+</script>
+{% endblock %} 

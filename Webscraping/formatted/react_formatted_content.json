@@ -1,0 +1,2222 @@
+[
+  {
+    "url": "https://www.w3schools.com/react/default.asp",
+    "cours": {
+      "titre": "React Tutorial",
+      "description": "[+:React is a JavaScript library for building user interfaces.React is used to build single-page applications.React allows us to create reusable UI components.Start learning React now ❯",
+      "lien": "https://www.w3schools.com/react/default.asp",
+      "contenus": {
+        "paragraphs": [
+          "React is a JavaScript library for building user interfaces.",
+          "React is used to build single-page applications.",
+          "React allows us to create reusable UI components.",
+          "Our \"Show React\" tool makes it easy to demonstrate React. It shows both the code and the result.",
+          "Run \nExample »",
+          "Many chapters in this tutorial end with an exercise where you can check you level of knowledge.",
+          "See all React Exercises",
+          "Test your React skills with a quiz.",
+          "React Quiz",
+          "Track your progress with the free \"My Learning\" program here at W3Schools.",
+          "Log in to your account, and start earning points!",
+          "This is an optional feature. You can study at W3Schools without using My Learning.",
+          "To learn and test React, you should set up a React Environment on \nyour computer.",
+          "This tutorial uses thecreate-react-app.",
+          "Thecreate-react-apptool is an officially supported way to create React applications.",
+          "Node.jsis required to usecreate-react-app.",
+          "Open your terminal in the directory you would like to create your \napplication.",
+          "Run this command to create a React application namedmy-react-app:",
+          "create-react-appwill set up everything you need to run a React application.",
+          "Note:If you've previously installedcreate-react-appglobally,\nit is recommended that you uninstall the package to ensure npx always uses the latest version ofcreate-react-app.\nTo uninstall, run this command:npm uninstall -g create-react-app.",
+          "Run this command to move to themy-react-appdirectory:",
+          "Run this command to execute the React applicationmy-react-app:",
+          "A new browser window will pop up with your newly created React App! If not, open your browser and typelocalhost:3000in the address bar.",
+          "The result:",
+          "You will learn more about thecreate-react-appin theReact Get Startedchapter.",
+          "Before starting with React.JS, you should have intermediate experience in:",
+          "You should also have some experience with the new JavaScript features \nintroduced in ECMAScript 6 (ES6), you will learn about them in theReact ES6chapter.",
+          "Get certified by completingthecourse"
+        ],
+        "lists": [
+          [
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ]
+        ],
+        "examples": [
+          "npx create-react-app my-react-app",
+          "cd my-react-app",
+          "npm start"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_intro.asp",
+    "cours": {
+      "titre": "React Introduction",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_intro.asp",
+      "contenus": {
+        "paragraphs": [
+          "React, sometimes referred to as a frontend JavaScript framework, is a \nJavaScript library created by Facebook.",
+          "React is a tool for building UI components.",
+          "React creates a VIRTUAL DOM in memory.",
+          "Instead of manipulating the browser's DOM directly, React creates a virtual \nDOM in memory, where it does all the necessary manipulating, before making the \nchanges in the browser DOM.",
+          "React only changes what needs to be changed!",
+          "React finds out what changes have been \nmade, and changesonlywhat needs to be changed.",
+          "You will learn the various aspects of how React does this in the rest of this \ntutorial.",
+          "Current version of React.JS is V18.0.0 (April 2022).",
+          "Initial Release to the Public (V0.3.0) was in July 2013.",
+          "React.JS was first used in 2011 for Facebook's Newsfeed feature.",
+          "Facebook Software Engineer, Jordan Walke, created it.",
+          "Current version ofcreate-react-appis \nv5.0.1 (April 2022).",
+          "create-react-appincludes built tools such \nas webpack, Babel, and ESLint."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_getstarted.asp",
+    "cours": {
+      "titre": "React Getting Started",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_getstarted.asp",
+      "contenus": {
+        "paragraphs": [
+          "To use React in production, you need npm which is included withNode.js.",
+          "To get an overview of what React is, you can write React \ncode directly in HTML.",
+          "But in order to use React in production, you need npm andNode.jsinstalled.",
+          "The quickest way start learning React is to \nwrite React directly in your HTML files.",
+          "The easiest way to get started with creating HTML files is W3Schools Spaces!",
+          "It is the perfect place to create, edit, and share your work with others!",
+          "Get started for free ❯",
+          "Start by including three scripts, the first two let us write React code in our \nJavaScripts, and the third, Babel, allows us to write JSX \nsyntax and ES6 in \nolder browsers.",
+          "You will learn more about JSX in theReact JSXchapter.",
+          "Include three CDN's in your HTML file:",
+          "Try it Yourself »",
+          "This way of using React can be OK for testing purposes, but for production you will need to set up aReact environment.",
+          "If you have npx and Node.js installed, you can create a React application by \nusingcreate-react-app.",
+          "If you've previously installedcreate-react-appglobally,\nit is recommended that you uninstall the package to ensure npx always uses the latest version ofcreate-react-app.",
+          "To uninstall, run this command:npm uninstall -g create-react-app.",
+          "Run this command to create a React application namedmy-react-app:",
+          "Thecreate-react-appwill set up everything you need to run a React application.",
+          "Now you are ready to run your firstrealReact application!",
+          "Run this command to move to themy-react-appdirectory:",
+          "Run this command to run the React applicationmy-react-app:",
+          "A new browser window will pop up with your newly created React App! If not, open your browser and typelocalhost:3000in the address bar.",
+          "The result:",
+          "So far so good, but how do I change the content?",
+          "Look in themy-react-appdirectory, and you will find asrcfolder. Inside thesrcfolder there is a file calledApp.js, open it and it will look like this:",
+          "/myReactApp/src/App.js:",
+          "Try changing the HTML content and save the file.",
+          "Notice that the changes are visible immediately after you save the file, you do not have to reload the browser!",
+          "Replace all the content inside the<div  className=\"App\">with a<h1>element.",
+          "See the changes in the browser when you click Save.",
+          "Notice that we have removed the imports we do not need (logo.svg and App.css).",
+          "The result:",
+          "Now you have a React Environment on your computer, and you are ready to learn more about React.",
+          "In the rest of this tutorial we will use our \"Show React\" tool to explain the various aspects of React, and how they are displayed in \nthe browser.",
+          "If you want to follow the same steps on your computer, start by \nstripping down thesrcfolder to only contain \none file:index.js. You should also remove any \nunnecessary lines of code inside theindex.jsfile to make them look like the example in the \"Show React\" tool \nbelow:",
+          "Click the \"Run Example\" button to see the result.",
+          "index.js:",
+          "Run \nExample »"
+        ],
+        "lists": [],
+        "examples": [
+          "npx create-react-app my-react-app",
+          "cd my-react-app",
+          "npm start"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_upgrade.asp",
+    "cours": {
+      "titre": "Upgrade React",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_upgrade.asp",
+      "contenus": {
+        "paragraphs": [
+          "Upgrading an existing React application to version 18 only requires two steps.",
+          "If you are already using the latest version ofcreate-react-appwhich uses React version 18 you can skip this section.",
+          "To install the latest version, from your project folder run the following from the terminal:",
+          "In order to take advantage of React 18's concurrent features you'll need to use the new root API for client rendering.",
+          "Your application will work without using the new root API. If you continue to useReactDOM.renderyour application will behave like React 17."
+        ],
+        "lists": [],
+        "examples": [
+          "npm i react@latest react-dom@latest"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_es6.asp",
+    "cours": {
+      "titre": "React ES6",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_es6.asp",
+      "contenus": {
+        "paragraphs": [
+          "ES6 stands for ECMAScript 6.",
+          "ECMAScript was created to standardize JavaScript, and ES6 is the 6th version \nof ECMAScript, it was published in 2015, and is also known as ECMAScript 2015.",
+          "React uses ES6, and you should be familiar with some of the new features \nlike:"
+        ],
+        "lists": [
+          [
+            "Classes",
+            "Arrow Functions",
+            "Variables(let, const, var)",
+            "Array Methodslike.map()",
+            "Destructuring",
+            "Modules",
+            "Ternary Operator",
+            "Spread Operator"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_es6_classes.asp",
+    "cours": {
+      "titre": "React ES6 Classes",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_es6_classes.asp",
+      "contenus": {
+        "paragraphs": [
+          "ES6 introduced classes.",
+          "A class is a type of function, but instead of using the keywordfunctionto initiate it, we use the keywordclass, and the properties are assigned inside aconstructor()method.",
+          "A simple class constructor:",
+          "Notice the case of the class name.\nWe have begun the name, \"Car\", with an uppercase character.\nThis is a standard naming convention for classes.",
+          "Now you can create objects using the Car class:",
+          "Create an object called \"mycar\" based on the Car class:",
+          "Try it Yourself »",
+          "Note:The constructor function is called automatically when the object is initialized.",
+          "You can add your own methods in a class:",
+          "Create a method named \"present\":",
+          "Try it Yourself »",
+          "As you can see in the example above, you call the method by referring to the \nobject's method name followed by parentheses (parameters would go inside the \nparentheses).",
+          "To create a class inheritance, use theextendskeyword.",
+          "A class created with a class inheritance inherits all the methods from \nanother class:",
+          "Create a class named \"Model\" which will inherit the methods from the \"Car\" \nclass:",
+          "Try it Yourself »",
+          "Thesuper()method refers to the parent \nclass.",
+          "By calling thesuper()method in the \nconstructor method, we call the parent's constructor method and get access to \nthe parent's properties and methods.",
+          "To learn more about classes, check out ourJavaScript Classessection."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_es6_arrow.asp",
+    "cours": {
+      "titre": "React ES6 Arrow Functions",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_es6_arrow.asp",
+      "contenus": {
+        "paragraphs": [
+          "Arrow functions allow us to write shorter function syntax:",
+          "Before:",
+          "Try it Yourself »",
+          "With Arrow Function:",
+          "Try it Yourself »",
+          "Try it Yourself »",
+          "It gets shorter! If the function has only one statement, and the statement \nreturns a value, you can remove the bracketsandthereturnkeyword:",
+          "Arrow Functions Return Value by Default:",
+          "Try it Yourself »",
+          "Note:This works only if the function has only one \nstatement.",
+          "If you have parameters, you pass them inside the parentheses:",
+          "Arrow Function With Parameters:",
+          "Try it Yourself »",
+          "In fact, if you have only one parameter, you can skip the parentheses as well:",
+          "Arrow Function Without Parentheses:",
+          "Try it Yourself »",
+          "The handling ofthisis also different in arrow functions compared to regular \nfunctions.",
+          "In short, with arrow functions there is no binding ofthis.",
+          "In regular functions thethiskeyword represented the object that called the \nfunction, which could be the window, the document, a button or whatever.",
+          "With arrow functions, thethiskeywordalwaysrepresents the \nobject that \ndefined the arrow function.",
+          "Let us take a look at two examples to understand the difference.",
+          "Both examples call a method twice, first when the page loads, and once again \nwhen the user clicks a button.",
+          "The first example uses a regular function, and the second example uses an \narrow function.",
+          "The result shows that the first example returns two different objects (window and button), \nand the \nsecond example returns the Header object twice.",
+          "With a regular function,thisrepresents the \nobject that called the function:",
+          "Try it Yourself »",
+          "With an arrow function,thisrepresents the \nHeader object no matter who called the function:",
+          "Try it Yourself »",
+          "Remember these differences when you are working with functions. Sometimes the \nbehavior of regular functions is what you want, if not, use arrow functions."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_es6_variables.asp",
+    "cours": {
+      "titre": "React ES6 Variables",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_es6_variables.asp",
+      "contenus": {
+        "paragraphs": [
+          "Before ES6 there was only one way of defining your variables: with thevarkeyword. If you did not define them, they would be assigned to the \nglobal object. Unless you were in strict mode, then you would get an error if \nyour variables were undefined.",
+          "Now, with ES6, there are three ways of defining your variables:var,let, andconst.",
+          "var",
+          "If you usevaroutside of a function, it belongs to the global scope.",
+          "If you usevarinside of a function, it belongs to that function.",
+          "If you usevarinside of a block, i.e. a for loop, the \nvariable is still available outside of that block.",
+          "varhas afunctionscope, not ablockscope.",
+          "let",
+          "letis the block scoped version ofvar, and is limited to the block (or expression) where it is defined.",
+          "If you useletinside of a block, i.e. a for loop, the \nvariable is only available inside of that loop.",
+          "lethas ablockscope.",
+          "const",
+          "constis a variable that once it has been \ncreated, its value can never change.",
+          "consthas ablockscope.",
+          "The keywordconstis a bit misleading.",
+          "It does not define a constant value. It defines a constant reference to a value.",
+          "Because of this you can NOT:",
+          "But you CAN:"
+        ],
+        "lists": [
+          [
+            "Reassign a constant value",
+            "Reassign a constant array",
+            "Reassign a constant object"
+          ],
+          [
+            "Change the elements of constant array",
+            "Change the properties of constant object"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_es6_array_methods.asp",
+    "cours": {
+      "titre": "React ES6 Array Methods",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_es6_array_methods.asp",
+      "contenus": {
+        "paragraphs": [
+          "There are many JavaScript array methods.",
+          "One of the most useful in React is the.map()array method.",
+          "The.map()method allows you to run a function on each item in the array,\nreturning a new array as the result.",
+          "In React,map()can be used to generate lists.",
+          "Generate a list of items from an array:",
+          "Run Example »"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_es6_destructuring.asp",
+    "cours": {
+      "titre": "React ES6 Destructuring",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_es6_destructuring.asp",
+      "contenus": {
+        "paragraphs": [
+          "To illustrate destructuring, we'll make a sandwich. Do you take everything out of the refrigerator to make your sandwich? No, you only take out the items you would like to use on your sandwich.",
+          "Destructuring is exactly the same. We may have an array or object that we are working with, but we only need some of the items contained in these.",
+          "Destructuring makes it easy to extract only what is needed.",
+          "Here is the old way of assigning array items to a variable:",
+          "Before:",
+          "Here is the new way of assigning array items to a variable:",
+          "With destructuring:",
+          "When destructuring arrays, the order that variables are declared is important.",
+          "If we only want the car and suv we can simply leave out the truck but keep the comma:",
+          "Destructuring comes in handy when a function returns an array:",
+          "Try it Yourself »",
+          "Here is the old way of using an object inside a function:",
+          "Before:",
+          "Here is the new way of using an object inside a function:",
+          "With destructuring:",
+          "Try it Yourself »",
+          "Notice that the object properties do not have to be declared in a specific order.",
+          "We can even destructure deeply nested objects by referencing the nested object then using a colon and curly braces to again destructure the items needed from the nested object:",
+          "Try it Yourself »"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_es6_spread.asp",
+    "cours": {
+      "titre": "React ES6 Spread Operator",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_es6_spread.asp",
+      "contenus": {
+        "paragraphs": [
+          "The JavaScript spread operator (...) allows us to quickly copy all or part of an existing array or object into another array or object.",
+          "Try it Yourself »",
+          "The spread operator is often used in combination with destructuring.",
+          "Assign the first and second items fromnumbersto variables and put the rest in an array:",
+          "Try it Yourself »",
+          "We can use the spread operator with objects too:",
+          "Combine these two objects:",
+          "Try it Yourself »",
+          "Notice the properties that did not match were combined, but the property that did match,color, was overwritten by the last object that was passed,updateMyVehicle. The resulting color is now yellow."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_es6_modules.asp",
+    "cours": {
+      "titre": "React ES6 Modules",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_es6_modules.asp",
+      "contenus": {
+        "paragraphs": [
+          "JavaScript modules allow you to break up your code into separate files.",
+          "This makes it easier to maintain the code-base.",
+          "ES Modules rely on theimportandexportstatements.",
+          "You can export a function or variable from any file.",
+          "Let us create a file namedperson.js, and \nfill it with the things we want to export.",
+          "There are two types of exports: Named and Default.",
+          "You can create named exports two ways. In-line individually, or all at once at the bottom.",
+          "In-line individually:",
+          "person.js",
+          "person.js",
+          "Let us create another file, namedmessage.js, and \nuse it for demonstrating default export.",
+          "You can only have one default export in a file.",
+          "message.js",
+          "You can import modules into a file in two ways, based on if they are named \nexports or default exports.",
+          "Named exports must be destructured using curly braces. Default exports do not.",
+          "Import named exports from the file person.js:",
+          "Try it Yourself »",
+          "Import a default export from the file message.js:",
+          "Try it Yourself »"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_es6_ternary.asp",
+    "cours": {
+      "titre": "React ES6 Ternary Operator",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_es6_ternary.asp",
+      "contenus": {
+        "paragraphs": [
+          "The ternary operator is a simplified conditional operator likeif/else.",
+          "Syntax:condition ? <expression if true> : <expression if false>",
+          "Here is an example usingif/else:",
+          "Before:",
+          "Try it Yourself »",
+          "Here is the same example using a ternary operator:",
+          "With Ternary",
+          "Try it Yourself »"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_render.asp",
+    "cours": {
+      "titre": "React Render HTML",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_render.asp",
+      "contenus": {
+        "paragraphs": [
+          "React's goal is in many ways to render HTML in a web page.",
+          "React renders HTML to the web page by using a function calledcreateRoot()and its methodrender().",
+          "ThecreateRoot()function takes one \nargument, an HTML element.",
+          "The purpose of the function is to define the HTML element where a React component should be displayed.",
+          "Therender()method is then called to define the React component that should be rendered.",
+          "But render where?",
+          "There is another folder in the root directory of your React project, named \"public\".\nIn this folder, there is anindex.htmlfile.",
+          "You'll notice a single<div>in the body of this file. This is where our React application will be rendered.",
+          "Display a paragraph inside an element with the id of \"root\":",
+          "The result is displayed in the<div id=\"root\">element:",
+          "Run \nExample »",
+          "Note that the element id does not have to be called \"root\", but this is the standard convention.",
+          "The HTML code in this tutorial uses JSX which allows you to write HTML tags \ninside the JavaScript code:",
+          "Do not worry if the syntax is unfamiliar, you will learn more about JSX in the next chapter.",
+          "Create a variable that contains HTML code and display it in the \"root\" node:",
+          "Run \nExample »",
+          "The root node is the HTML element where you want to display the result.",
+          "It is like acontainerfor content managed by React.",
+          "It does NOT have to be a<div>element and it does \nNOT have to \nhave theid='root':",
+          "The root node can be called whatever you like:",
+          "Display the result in the<header id=\"sandy\">element:",
+          "Run \nExample »"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_jsx.asp",
+    "cours": {
+      "titre": "React JSX",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_jsx.asp",
+      "contenus": {
+        "paragraphs": [
+          "JSX stands for JavaScript XML.",
+          "JSX allows us to write HTML in React.",
+          "JSX makes it easier to write and add HTML in React.",
+          "JSX allows us to write HTML elements in JavaScript and place them in the DOM \nwithout anycreateElement()and/orappendChild()methods.",
+          "JSX converts HTML tags into react elements.",
+          "You are not required to use JSX, but JSX makes it easier to write React applications.",
+          "Here are two examples. The first uses JSX and the second does \nnot:",
+          "JSX:",
+          "Run \nExample »",
+          "Without JSX:",
+          "Run \nExample »",
+          "As you can see in the first example, JSX allows us to write HTML directly within the JavaScript code.",
+          "JSX is an extension of the JavaScript language based on ES6, and is translated into regular JavaScript at runtime.",
+          "With JSX you can write expressions inside curly braces{ }.",
+          "The expression can be a React variable, or property, or any other valid JavaScript expression. JSX will execute the expression and return the result:",
+          "Execute the expression5 + 5:",
+          "Run \nExample »",
+          "To write HTML on multiple lines, put the HTML inside parentheses:",
+          "Create a list with three list items:",
+          "Run \nExample »",
+          "The HTML code must be wrapped inONEtop level element.",
+          "So if you like to writetwoparagraphs, you must put them inside a \nparent element, like adivelement.",
+          "Wrap two paragraphs inside one DIV element:",
+          "Run \nExample »",
+          "JSX will throw an error if the HTML is not correct, or if the HTML misses a \nparent element.",
+          "Alternatively, you can use a \"fragment\" to wrap multiple lines.\nThis will prevent unnecessarily adding extra nodes to the DOM.",
+          "A fragment looks like an empty HTML tag:<></>.",
+          "Wrap two paragraphs inside a fragment:",
+          "Run \nExample »",
+          "JSX follows XML rules, and therefore HTML elements must be properly closed.",
+          "Close empty elements with/>",
+          "Run \nExample »",
+          "JSX will throw an error if the HTML is not properly closed.",
+          "Theclassattribute is a much used attribute \nin HTML, but since JSX is rendered as JavaScript, and theclasskeyword is a reserved word in JavaScript, \nyou are not allowed to use it in JSX.",
+          "Use attributeclassNameinstead.",
+          "JSX solved this by usingclassNameinstead. \nWhen JSX is rendered, it translatesclassNameattributes intoclassattributes.",
+          "Use attributeclassNameinstead ofclassin JSX:",
+          "Run \nExample »",
+          "React supportsifstatements, but notinsideJSX.",
+          "To be able to use conditional statements in JSX, you should put theifstatements outside of the JSX, or you could use a ternary expression instead:",
+          "Writeifstatements outside of the JSX code:",
+          "Write \"Hello\" ifxis less than 10, otherwise \"Goodbye\":",
+          "Run \nExample »",
+          "Use ternary expressions instead:",
+          "Write \"Hello\" ifxis less than 10, otherwise \"Goodbye\":",
+          "Run \nExample »",
+          "Notethat in order to embed a JavaScript expression inside JSX,\nthe JavaScript must be wrapped with curly braces,{}."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_components.asp",
+    "cours": {
+      "titre": "React Components",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_components.asp",
+      "contenus": {
+        "paragraphs": [
+          "Components are like functions that return HTML elements.",
+          "Components are independent and reusable bits of code.\nThey serve the same purpose as JavaScript functions,\nbut work in isolation and return HTML.",
+          "Components come in two types, Class components and Function components, in \nthis tutorial we will concentrate on Function components.",
+          "In older React code bases, you may find Class components primarily used.\nIt is now suggested to use Function components along with Hooks,\nwhich were added in React 16.8. There is an optional section on Class components for your reference.",
+          "When creating a React component, the component's nameMUSTstart with an \nupper case letter.",
+          "A class component must include theextends React.Componentstatement. \nThis statement creates an inheritance to React.Component, and gives your component access to React.Component's functions.",
+          "The component also requires arender()method, \nthis method returns HTML.",
+          "Create a Class component calledCar",
+          "Here is the same example as above, but created using a Function component instead.",
+          "A Function component also returns HTML, and behaves much the same way as a Class component,\nbut Function components can be written using much less code,\nare easier to understand, and will be preferred in this tutorial.",
+          "Create a Function component calledCar",
+          "Now your React application has a component called Car, which returns an<h2>element.",
+          "To use this component in your application, use similar syntax as normal HTML:<Car />",
+          "Display theCarcomponent in the \"root\" element:",
+          "Run \nExample »",
+          "Components can be passed asprops, which stands for properties.",
+          "Props are like function arguments, and you send them into the component as attributes.",
+          "You will learn more aboutpropsin the next chapter.",
+          "Use an attribute to pass a color to the Car component, and use it in the \nrender() function:",
+          "Run \nExample »",
+          "We can refer to components inside other components:",
+          "Use the Car component inside the Garage component:",
+          "Run \nExample »",
+          "React is all about re-using code, and it is recommended to split your components into separate files.",
+          "To do that, create a new file with a.jsfile extension and put the code inside it:",
+          "Note that the filename must start with an uppercase character.",
+          "This is the new file, we named it \"Car.js\":",
+          "To be able to use the Car component, you have to import the file in your \napplication.",
+          "Now we import the \"Car.js\" file in the application, and we can use theCarcomponent as if it was created here.",
+          "Run \nExample »"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_class.asp",
+    "cours": {
+      "titre": "React Class Components",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_class.asp",
+      "contenus": {
+        "paragraphs": [
+          "Before React 16.8, Class components were the only way to track state and lifecycle on a React component.\nFunction components were considered \"state-less\".",
+          "With the addition of Hooks, Function components are now almost equivalent to Class components.\nThe differences are so minor that you will probably never need to use a Class component in React.",
+          "Even though Function components are preferred, there are no current plans on removing Class components from React.",
+          "This section will give you an overview of how to use Class components in React.",
+          "Feel free to skip this section, and use Function Components instead.",
+          "Components are independent and reusable bits of code.\nThey serve the same purpose as JavaScript functions,\nbut work in isolation and return HTML via a render() function.",
+          "Components come in two types, Class components and Function components, in \nthis chapter you will learn about Class components.",
+          "When creating a React component, the component's name must start with an \nupper case letter.",
+          "The component has to include theextends React.Componentstatement, this statement creates an inheritance to \nReact.Component, and gives your component access to React.Component's functions.",
+          "The component also requires arender()method, \nthis method returns HTML.",
+          "Create a Class component calledCar",
+          "Now your React application has a component called Car, which returns a<h2>element.",
+          "To use this component in your application, use similar syntax as normal HTML:<Car />",
+          "Display theCarcomponent in the \"root\" element:",
+          "Run \nExample »",
+          "If there is aconstructor()function in your component, this function will be called when the \ncomponent gets initiated.",
+          "The constructor function is where you initiate the component's properties.",
+          "In React, component properties should be kept in an object calledstate.",
+          "You will learn more aboutstatelater in \nthis tutorial.",
+          "The constructor function is also where you honor the inheritance of the \nparent component by including thesuper()statement, which executes the parent component's constructor function, and your component has access to all the functions of \nthe parent component (React.Component).",
+          "Create a constructor function in the Car component, and add a color property:",
+          "Use the color property in the render() function:",
+          "Run \nExample »",
+          "Another way of handling component properties is by usingprops.",
+          "Props are like function arguments, and you send them into the component as attributes.",
+          "You will learn more aboutpropsin the next chapter.",
+          "Use an attribute to pass a color to the Car component, and use it in the \nrender() function:",
+          "Run \nExample »",
+          "If your component has a constructor function,\nthe props should always be passed to the constructor and also to the React.Component via thesuper()method.",
+          "Run \nExample »",
+          "We can refer to components inside other components:",
+          "Use the Car component inside the Garage component:",
+          "Run \nExample »",
+          "React is all about re-using code, and it can be smart to insert some of your \ncomponents in separate files.",
+          "To do that, create a new file with a.jsfile extension and put the code inside it:",
+          "Note that the file must start by importing React (as before), and it has to \nend with the statementexport default Car;.",
+          "This is the new file, we named itCar.js:",
+          "To be able to use theCarcomponent, you have to import the file in your \napplication.",
+          "Now we import theCar.jsfile in the application, and we can use theCarcomponent as if it was created here.",
+          "Run \nExample »",
+          "React Class components have a built-instateobject.",
+          "You might have noticed that we usedstateearlier in the component constructor section.",
+          "Thestateobject is where you store property values that belongs to the component.",
+          "When thestateobject changes, the component re-renders.",
+          "The state object is initialized in the constructor:",
+          "Specify thestateobject in the constructor method:",
+          "The state object can contain as many properties as you like:",
+          "Specify all the properties your component need:",
+          "Refer to thestateobject anywhere in the component by using thethis.state.propertynamesyntax:",
+          "Refer to thestateobject in therender()method:",
+          "Run \nExample »",
+          "To change a value in the state object, use thethis.setState()method.",
+          "When a value in thestateobject changes, \nthe component will re-render, meaning that the output will change according to \nthe new value(s).",
+          "Add a button with anonClickevent that \n  will change the color property:",
+          "Run \nExample »",
+          "Always use thesetState()method to change the state object,\nit will ensure that the component knows its been updated and calls the render() method\n(and all the other lifecycle methods).",
+          "Each component in React has a lifecycle which you can monitor and manipulate during its \nthree main phases.",
+          "The three phases are:Mounting,Updating, andUnmounting.",
+          "Mounting means putting elements into the DOM.",
+          "React has four built-in methods that gets called, in this order, when \nmounting a component:",
+          "Therender()method is required and will \nalways be called, the others are optional and will be called if you define them.",
+          "Theconstructor()method is called before anything else, \nwhen the component is initiated, and it is the natural \nplace to set up the initialstateand other \ninitial values.",
+          "Theconstructor()method is called with theprops, as arguments, and you should always \nstart by calling thesuper(props)before \nanything else, this will initiate the parent's constructor method and allows the \ncomponent to inherit methods from its parent (React.Component).",
+          "Theconstructormethod is called, by \n  React, every time you make a component:",
+          "Run \nExample »",
+          "ThegetDerivedStateFromProps()method is \ncalled right before rendering the element(s) in the DOM.",
+          "This is the natural place to set thestateobject based on the initialprops.It takesstateas an argument, and returns an object with changes to thestate.The example below starts with the favorite color being \n\"red\", but thegetDerivedStateFromProps()method updates the favorite color based on thefavcolattribute:Example:ThegetDerivedStateFromPropsmethod is called \n  right before the render method:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  static getDerivedStateFromProps(props, state) {\n    return {favoritecolor: props.favcol };\n  }\n  render() {\n    return (\n      <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header favcol=\"yellow\"/>);Run \nExample »renderTherender()method is required, and is the \nmethod that actually outputs the HTML to the DOM.Example:A simple component with a simplerender()method:class Header extends React.Component {\n  render() {\n    return (\n      <h1>This is the content of the Header component</h1>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header />);Run \nExample »componentDidMountThecomponentDidMount()method is called after the \ncomponent is rendered.This is where you run statements that requires that the component is already placed in the DOM.Example:At first my favorite color is red, but give me a second, and it is yellow \n  instead:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  componentDidMount() {\n    setTimeout(() => {\n      this.setState({favoritecolor: \"yellow\"})\n    }, 1000)\n  }\n  render() {\n    return (\n      <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header />);Run \nExample »UpdatingThe next phase in the lifecycle is when a component isupdated.A component is updated whenever there is a change in the component'sstateorprops.React has five built-in methods that gets called, in this order, when a component \nis updated:getDerivedStateFromProps()shouldComponentUpdate()render()getSnapshotBeforeUpdate()componentDidUpdate()Therender()method is required and will \nalways be called, the others are optional and will be called if you define them.getDerivedStateFromPropsAlso atupdatesthegetDerivedStateFromPropsmethod is \ncalled. This is the first method that is called when a component gets updated.This is still the natural place to set thestateobject based on the initial props.The example below has a button that changes the favorite color to blue, but \nsince thegetDerivedStateFromProps()method is called, \nwhich updates the state with the color from the favcol attribute, the favorite color is \nstill \nrendered as yellow:Example:If the component gets updated, thegetDerivedStateFromProps()method is called:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  static getDerivedStateFromProps(props, state) {\n    return {favoritecolor: props.favcol };\n  }\n  changeColor = () => {\n    this.setState({favoritecolor: \"blue\"});\n  }\n  render() {\n    return (\n      <div>\n      <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n      <button type=\"button\" onClick={this.changeColor}>Change color</button>\n      </div>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header favcol=\"yellow\" />);Run \nExample »shouldComponentUpdateIn theshouldComponentUpdate()method\nyou can return a Boolean value that specifies whether React should continue with the rendering or not.The default value istrue.The example below shows what happens when theshouldComponentUpdate()method returnsfalse:Example:Stop the component from rendering at any update:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  shouldComponentUpdate() {\n    return false;\n  }\n  changeColor = () => {\n    this.setState({favoritecolor: \"blue\"});\n  }\n  render() {\n    return (\n      <div>\n      <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n      <button type=\"button\" onClick={this.changeColor}>Change color</button>\n      </div>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header />);Run \nExample »Example:Same example as above, but this time theshouldComponentUpdate()method returnstrueinstead:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  shouldComponentUpdate() {\n    return true;\n  }\n  changeColor = () => {\n    this.setState({favoritecolor: \"blue\"});\n  }\n  render() {\n    return (\n      <div>\n      <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n      <button type=\"button\" onClick={this.changeColor}>Change color</button>\n      </div>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header />);Run \nExample »renderTherender()method is of course called when a component getsupdated, \nit has to re-render the HTML to the DOM, with the new changes.The example below has a button that changes the favorite color to blue:Example:Click the button to make a change in the component's state:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  changeColor = () => {\n    this.setState({favoritecolor: \"blue\"});\n  }\n  render() {\n    return (\n      <div>\n      <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n      <button type=\"button\" onClick={this.changeColor}>Change color</button>\n      </div>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header />);Run \nExample »getSnapshotBeforeUpdateIn thegetSnapshotBeforeUpdate()method\nyou have access to thepropsandstatebeforethe update, meaning that \neven after the update, you can check what the values werebeforethe \nupdate.If thegetSnapshotBeforeUpdate()method\nis present, you should also include thecomponentDidUpdate()method, otherwise you will get an error.The example below might seem complicated, but all it does is this:When the component ismountingit is rendered with the favorite \ncolor \"red\".When the componenthas been mounted,a timer changes the state, and \nafter one second, the favorite color becomes \"yellow\".This action triggers theupdatephase, and since this component has agetSnapshotBeforeUpdate()method, this method is executed, and writes a \nmessage to the empty DIV1 element.Then thecomponentDidUpdate()method is \nexecuted and writes a message in the empty DIV2 element:Example:Use thegetSnapshotBeforeUpdate()method to find out \n  what thestateobject looked like before \n  the update:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  componentDidMount() {\n    setTimeout(() => {\n      this.setState({favoritecolor: \"yellow\"})\n    }, 1000)\n  }\n  getSnapshotBeforeUpdate(prevProps, prevState) {\n    document.getElementById(\"div1\").innerHTML =\n    \"Before the update, the favorite was \" + prevState.favoritecolor;\n  }\n  componentDidUpdate() {\n    document.getElementById(\"div2\").innerHTML =\n    \"The updated favorite is \" + this.state.favoritecolor;\n  }\n  render() {\n    return (\n      <div>\n        <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n        <div id=\"div1\"></div>\n        <div id=\"div2\"></div>\n      </div>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header />);Run \nExample »componentDidUpdateThecomponentDidUpdatemethod\nis called after the component is updated in the DOM.The example below might seem complicated, but all it does is this:When the component ismountingit is rendered with the favorite \ncolor \"red\".When the componenthas been mounted,a timer changes the state, and \nthe color becomes \"yellow\".This action triggers theupdatephase, and since this component has \nacomponentDidUpdatemethod, this method is \nexecuted and writes a message in the empty DIV element:Example:ThecomponentDidUpdatemethod is called \n  after the update has been rendered in the DOM:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  componentDidMount() {\n    setTimeout(() => {\n      this.setState({favoritecolor: \"yellow\"})\n    }, 1000)\n  }\n  componentDidUpdate() {\n    document.getElementById(\"mydiv\").innerHTML =\n    \"The updated favorite is \" + this.state.favoritecolor;\n  }\n  render() {\n    return (\n      <div>\n      <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n      <div id=\"mydiv\"></div>\n      </div>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header />);Run \nExample »UnmountingThe next phase in the lifecycle is when a component is removed from the DOM, orunmountingas React likes to call it.React has only one built-in method that gets called when a component is unmounted:componentWillUnmount()componentWillUnmountThecomponentWillUnmountmethod is \ncalled when the component is about to be removed from the DOM.Example:Click the button to delete the header:class Container extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {show: true};\n  }\n  delHeader = () => {\n    this.setState({show: false});\n  }\n  render() {\n    let myheader;\n    if (this.state.show) {\n      myheader = <Child />;\n    };\n    return (\n      <div>\n      {myheader}\n      <button type=\"button\" onClick={this.delHeader}>Delete Header</button>\n      </div>\n    );\n  }\n}\n\nclass Child extends React.Component {\n  componentWillUnmount() {\n    alert(\"The component named Header is about to be unmounted.\");\n  }\n  render() {\n    return (\n      <h1>Hello World!</h1>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Container />);Run \nExample »❮ PreviousNext ❯★+1Track your progress - it's free!Log inSign Up",
+          "It takesstateas an argument, and returns an object with changes to thestate.The example below starts with the favorite color being \n\"red\", but thegetDerivedStateFromProps()method updates the favorite color based on thefavcolattribute:Example:ThegetDerivedStateFromPropsmethod is called \n  right before the render method:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  static getDerivedStateFromProps(props, state) {\n    return {favoritecolor: props.favcol };\n  }\n  render() {\n    return (\n      <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header favcol=\"yellow\"/>);Run \nExample »renderTherender()method is required, and is the \nmethod that actually outputs the HTML to the DOM.Example:A simple component with a simplerender()method:class Header extends React.Component {\n  render() {\n    return (\n      <h1>This is the content of the Header component</h1>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header />);Run \nExample »componentDidMountThecomponentDidMount()method is called after the \ncomponent is rendered.This is where you run statements that requires that the component is already placed in the DOM.Example:At first my favorite color is red, but give me a second, and it is yellow \n  instead:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  componentDidMount() {\n    setTimeout(() => {\n      this.setState({favoritecolor: \"yellow\"})\n    }, 1000)\n  }\n  render() {\n    return (\n      <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header />);Run \nExample »UpdatingThe next phase in the lifecycle is when a component isupdated.A component is updated whenever there is a change in the component'sstateorprops.React has five built-in methods that gets called, in this order, when a component \nis updated:getDerivedStateFromProps()shouldComponentUpdate()render()getSnapshotBeforeUpdate()componentDidUpdate()Therender()method is required and will \nalways be called, the others are optional and will be called if you define them.getDerivedStateFromPropsAlso atupdatesthegetDerivedStateFromPropsmethod is \ncalled. This is the first method that is called when a component gets updated.This is still the natural place to set thestateobject based on the initial props.The example below has a button that changes the favorite color to blue, but \nsince thegetDerivedStateFromProps()method is called, \nwhich updates the state with the color from the favcol attribute, the favorite color is \nstill \nrendered as yellow:Example:If the component gets updated, thegetDerivedStateFromProps()method is called:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  static getDerivedStateFromProps(props, state) {\n    return {favoritecolor: props.favcol };\n  }\n  changeColor = () => {\n    this.setState({favoritecolor: \"blue\"});\n  }\n  render() {\n    return (\n      <div>\n      <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n      <button type=\"button\" onClick={this.changeColor}>Change color</button>\n      </div>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header favcol=\"yellow\" />);Run \nExample »shouldComponentUpdateIn theshouldComponentUpdate()method\nyou can return a Boolean value that specifies whether React should continue with the rendering or not.The default value istrue.The example below shows what happens when theshouldComponentUpdate()method returnsfalse:Example:Stop the component from rendering at any update:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  shouldComponentUpdate() {\n    return false;\n  }\n  changeColor = () => {\n    this.setState({favoritecolor: \"blue\"});\n  }\n  render() {\n    return (\n      <div>\n      <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n      <button type=\"button\" onClick={this.changeColor}>Change color</button>\n      </div>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header />);Run \nExample »Example:Same example as above, but this time theshouldComponentUpdate()method returnstrueinstead:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  shouldComponentUpdate() {\n    return true;\n  }\n  changeColor = () => {\n    this.setState({favoritecolor: \"blue\"});\n  }\n  render() {\n    return (\n      <div>\n      <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n      <button type=\"button\" onClick={this.changeColor}>Change color</button>\n      </div>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header />);Run \nExample »renderTherender()method is of course called when a component getsupdated, \nit has to re-render the HTML to the DOM, with the new changes.The example below has a button that changes the favorite color to blue:Example:Click the button to make a change in the component's state:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  changeColor = () => {\n    this.setState({favoritecolor: \"blue\"});\n  }\n  render() {\n    return (\n      <div>\n      <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n      <button type=\"button\" onClick={this.changeColor}>Change color</button>\n      </div>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header />);Run \nExample »getSnapshotBeforeUpdateIn thegetSnapshotBeforeUpdate()method\nyou have access to thepropsandstatebeforethe update, meaning that \neven after the update, you can check what the values werebeforethe \nupdate.If thegetSnapshotBeforeUpdate()method\nis present, you should also include thecomponentDidUpdate()method, otherwise you will get an error.The example below might seem complicated, but all it does is this:When the component ismountingit is rendered with the favorite \ncolor \"red\".When the componenthas been mounted,a timer changes the state, and \nafter one second, the favorite color becomes \"yellow\".This action triggers theupdatephase, and since this component has agetSnapshotBeforeUpdate()method, this method is executed, and writes a \nmessage to the empty DIV1 element.Then thecomponentDidUpdate()method is \nexecuted and writes a message in the empty DIV2 element:Example:Use thegetSnapshotBeforeUpdate()method to find out \n  what thestateobject looked like before \n  the update:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  componentDidMount() {\n    setTimeout(() => {\n      this.setState({favoritecolor: \"yellow\"})\n    }, 1000)\n  }\n  getSnapshotBeforeUpdate(prevProps, prevState) {\n    document.getElementById(\"div1\").innerHTML =\n    \"Before the update, the favorite was \" + prevState.favoritecolor;\n  }\n  componentDidUpdate() {\n    document.getElementById(\"div2\").innerHTML =\n    \"The updated favorite is \" + this.state.favoritecolor;\n  }\n  render() {\n    return (\n      <div>\n        <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n        <div id=\"div1\"></div>\n        <div id=\"div2\"></div>\n      </div>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header />);Run \nExample »componentDidUpdateThecomponentDidUpdatemethod\nis called after the component is updated in the DOM.The example below might seem complicated, but all it does is this:When the component ismountingit is rendered with the favorite \ncolor \"red\".When the componenthas been mounted,a timer changes the state, and \nthe color becomes \"yellow\".This action triggers theupdatephase, and since this component has \nacomponentDidUpdatemethod, this method is \nexecuted and writes a message in the empty DIV element:Example:ThecomponentDidUpdatemethod is called \n  after the update has been rendered in the DOM:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  componentDidMount() {\n    setTimeout(() => {\n      this.setState({favoritecolor: \"yellow\"})\n    }, 1000)\n  }\n  componentDidUpdate() {\n    document.getElementById(\"mydiv\").innerHTML =\n    \"The updated favorite is \" + this.state.favoritecolor;\n  }\n  render() {\n    return (\n      <div>\n      <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n      <div id=\"mydiv\"></div>\n      </div>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header />);Run \nExample »UnmountingThe next phase in the lifecycle is when a component is removed from the DOM, orunmountingas React likes to call it.React has only one built-in method that gets called when a component is unmounted:componentWillUnmount()componentWillUnmountThecomponentWillUnmountmethod is \ncalled when the component is about to be removed from the DOM.Example:Click the button to delete the header:class Container extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {show: true};\n  }\n  delHeader = () => {\n    this.setState({show: false});\n  }\n  render() {\n    let myheader;\n    if (this.state.show) {\n      myheader = <Child />;\n    };\n    return (\n      <div>\n      {myheader}\n      <button type=\"button\" onClick={this.delHeader}>Delete Header</button>\n      </div>\n    );\n  }\n}\n\nclass Child extends React.Component {\n  componentWillUnmount() {\n    alert(\"The component named Header is about to be unmounted.\");\n  }\n  render() {\n    return (\n      <h1>Hello World!</h1>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Container />);Run \nExample »❮ PreviousNext ❯★+1Track your progress - it's free!Log inSign Up",
+          "The example below starts with the favorite color being \n\"red\", but thegetDerivedStateFromProps()method updates the favorite color based on thefavcolattribute:",
+          "ThegetDerivedStateFromPropsmethod is called \n  right before the render method:",
+          "Run \nExample »",
+          "Therender()method is required, and is the \nmethod that actually outputs the HTML to the DOM.",
+          "A simple component with a simplerender()method:",
+          "Run \nExample »",
+          "ThecomponentDidMount()method is called after the \ncomponent is rendered.",
+          "This is where you run statements that requires that the component is already placed in the DOM.",
+          "At first my favorite color is red, but give me a second, and it is yellow \n  instead:",
+          "Run \nExample »",
+          "The next phase in the lifecycle is when a component isupdated.",
+          "A component is updated whenever there is a change in the component'sstateorprops.",
+          "React has five built-in methods that gets called, in this order, when a component \nis updated:",
+          "Therender()method is required and will \nalways be called, the others are optional and will be called if you define them.",
+          "Also atupdatesthegetDerivedStateFromPropsmethod is \ncalled. This is the first method that is called when a component gets updated.",
+          "This is still the natural place to set thestateobject based on the initial props.The example below has a button that changes the favorite color to blue, but \nsince thegetDerivedStateFromProps()method is called, \nwhich updates the state with the color from the favcol attribute, the favorite color is \nstill \nrendered as yellow:Example:If the component gets updated, thegetDerivedStateFromProps()method is called:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  static getDerivedStateFromProps(props, state) {\n    return {favoritecolor: props.favcol };\n  }\n  changeColor = () => {\n    this.setState({favoritecolor: \"blue\"});\n  }\n  render() {\n    return (\n      <div>\n      <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n      <button type=\"button\" onClick={this.changeColor}>Change color</button>\n      </div>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header favcol=\"yellow\" />);Run \nExample »shouldComponentUpdateIn theshouldComponentUpdate()method\nyou can return a Boolean value that specifies whether React should continue with the rendering or not.The default value istrue.The example below shows what happens when theshouldComponentUpdate()method returnsfalse:Example:Stop the component from rendering at any update:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  shouldComponentUpdate() {\n    return false;\n  }\n  changeColor = () => {\n    this.setState({favoritecolor: \"blue\"});\n  }\n  render() {\n    return (\n      <div>\n      <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n      <button type=\"button\" onClick={this.changeColor}>Change color</button>\n      </div>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header />);Run \nExample »Example:Same example as above, but this time theshouldComponentUpdate()method returnstrueinstead:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  shouldComponentUpdate() {\n    return true;\n  }\n  changeColor = () => {\n    this.setState({favoritecolor: \"blue\"});\n  }\n  render() {\n    return (\n      <div>\n      <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n      <button type=\"button\" onClick={this.changeColor}>Change color</button>\n      </div>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header />);Run \nExample »renderTherender()method is of course called when a component getsupdated, \nit has to re-render the HTML to the DOM, with the new changes.The example below has a button that changes the favorite color to blue:Example:Click the button to make a change in the component's state:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  changeColor = () => {\n    this.setState({favoritecolor: \"blue\"});\n  }\n  render() {\n    return (\n      <div>\n      <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n      <button type=\"button\" onClick={this.changeColor}>Change color</button>\n      </div>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header />);Run \nExample »getSnapshotBeforeUpdateIn thegetSnapshotBeforeUpdate()method\nyou have access to thepropsandstatebeforethe update, meaning that \neven after the update, you can check what the values werebeforethe \nupdate.If thegetSnapshotBeforeUpdate()method\nis present, you should also include thecomponentDidUpdate()method, otherwise you will get an error.The example below might seem complicated, but all it does is this:When the component ismountingit is rendered with the favorite \ncolor \"red\".When the componenthas been mounted,a timer changes the state, and \nafter one second, the favorite color becomes \"yellow\".This action triggers theupdatephase, and since this component has agetSnapshotBeforeUpdate()method, this method is executed, and writes a \nmessage to the empty DIV1 element.Then thecomponentDidUpdate()method is \nexecuted and writes a message in the empty DIV2 element:Example:Use thegetSnapshotBeforeUpdate()method to find out \n  what thestateobject looked like before \n  the update:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  componentDidMount() {\n    setTimeout(() => {\n      this.setState({favoritecolor: \"yellow\"})\n    }, 1000)\n  }\n  getSnapshotBeforeUpdate(prevProps, prevState) {\n    document.getElementById(\"div1\").innerHTML =\n    \"Before the update, the favorite was \" + prevState.favoritecolor;\n  }\n  componentDidUpdate() {\n    document.getElementById(\"div2\").innerHTML =\n    \"The updated favorite is \" + this.state.favoritecolor;\n  }\n  render() {\n    return (\n      <div>\n        <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n        <div id=\"div1\"></div>\n        <div id=\"div2\"></div>\n      </div>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header />);Run \nExample »componentDidUpdateThecomponentDidUpdatemethod\nis called after the component is updated in the DOM.The example below might seem complicated, but all it does is this:When the component ismountingit is rendered with the favorite \ncolor \"red\".When the componenthas been mounted,a timer changes the state, and \nthe color becomes \"yellow\".This action triggers theupdatephase, and since this component has \nacomponentDidUpdatemethod, this method is \nexecuted and writes a message in the empty DIV element:Example:ThecomponentDidUpdatemethod is called \n  after the update has been rendered in the DOM:class Header extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {favoritecolor: \"red\"};\n  }\n  componentDidMount() {\n    setTimeout(() => {\n      this.setState({favoritecolor: \"yellow\"})\n    }, 1000)\n  }\n  componentDidUpdate() {\n    document.getElementById(\"mydiv\").innerHTML =\n    \"The updated favorite is \" + this.state.favoritecolor;\n  }\n  render() {\n    return (\n      <div>\n      <h1>My Favorite Color is {this.state.favoritecolor}</h1>\n      <div id=\"mydiv\"></div>\n      </div>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Header />);Run \nExample »UnmountingThe next phase in the lifecycle is when a component is removed from the DOM, orunmountingas React likes to call it.React has only one built-in method that gets called when a component is unmounted:componentWillUnmount()componentWillUnmountThecomponentWillUnmountmethod is \ncalled when the component is about to be removed from the DOM.Example:Click the button to delete the header:class Container extends React.Component {\n  constructor(props) {\n    super(props);\n    this.state = {show: true};\n  }\n  delHeader = () => {\n    this.setState({show: false});\n  }\n  render() {\n    let myheader;\n    if (this.state.show) {\n      myheader = <Child />;\n    };\n    return (\n      <div>\n      {myheader}\n      <button type=\"button\" onClick={this.delHeader}>Delete Header</button>\n      </div>\n    );\n  }\n}\n\nclass Child extends React.Component {\n  componentWillUnmount() {\n    alert(\"The component named Header is about to be unmounted.\");\n  }\n  render() {\n    return (\n      <h1>Hello World!</h1>\n    );\n  }\n}\n\nconst root = ReactDOM.createRoot(document.getElementById('root'));\nroot.render(<Container />);Run \nExample »❮ PreviousNext ❯★+1Track your progress - it's free!Log inSign Up",
+          "The example below has a button that changes the favorite color to blue, but \nsince thegetDerivedStateFromProps()method is called, \nwhich updates the state with the color from the favcol attribute, the favorite color is \nstill \nrendered as yellow:",
+          "If the component gets updated, thegetDerivedStateFromProps()method is called:",
+          "Run \nExample »",
+          "In theshouldComponentUpdate()method\nyou can return a Boolean value that specifies whether React should continue with the rendering or not.",
+          "The default value istrue.",
+          "The example below shows what happens when theshouldComponentUpdate()method returnsfalse:",
+          "Stop the component from rendering at any update:",
+          "Run \nExample »",
+          "Same example as above, but this time theshouldComponentUpdate()method returnstrueinstead:",
+          "Run \nExample »",
+          "Therender()method is of course called when a component getsupdated, \nit has to re-render the HTML to the DOM, with the new changes.",
+          "The example below has a button that changes the favorite color to blue:",
+          "Click the button to make a change in the component's state:",
+          "Run \nExample »",
+          "In thegetSnapshotBeforeUpdate()method\nyou have access to thepropsandstatebeforethe update, meaning that \neven after the update, you can check what the values werebeforethe \nupdate.",
+          "If thegetSnapshotBeforeUpdate()method\nis present, you should also include thecomponentDidUpdate()method, otherwise you will get an error.",
+          "The example below might seem complicated, but all it does is this:",
+          "When the component ismountingit is rendered with the favorite \ncolor \"red\".",
+          "When the componenthas been mounted,a timer changes the state, and \nafter one second, the favorite color becomes \"yellow\".",
+          "This action triggers theupdatephase, and since this component has agetSnapshotBeforeUpdate()method, this method is executed, and writes a \nmessage to the empty DIV1 element.",
+          "Then thecomponentDidUpdate()method is \nexecuted and writes a message in the empty DIV2 element:",
+          "",
+          "Use thegetSnapshotBeforeUpdate()method to find out \n  what thestateobject looked like before \n  the update:",
+          "Run \nExample »",
+          "ThecomponentDidUpdatemethod\nis called after the component is updated in the DOM.",
+          "The example below might seem complicated, but all it does is this:",
+          "When the component ismountingit is rendered with the favorite \ncolor \"red\".",
+          "When the componenthas been mounted,a timer changes the state, and \nthe color becomes \"yellow\".",
+          "This action triggers theupdatephase, and since this component has \nacomponentDidUpdatemethod, this method is \nexecuted and writes a message in the empty DIV element:",
+          "ThecomponentDidUpdatemethod is called \n  after the update has been rendered in the DOM:",
+          "Run \nExample »",
+          "The next phase in the lifecycle is when a component is removed from the DOM, orunmountingas React likes to call it.",
+          "React has only one built-in method that gets called when a component is unmounted:",
+          "ThecomponentWillUnmountmethod is \ncalled when the component is about to be removed from the DOM.",
+          "Click the button to delete the header:",
+          "Run \nExample »"
+        ],
+        "lists": [
+          [
+            "constructor()",
+            "getDerivedStateFromProps()",
+            "render()",
+            "componentDidMount()"
+          ],
+          [
+            "getDerivedStateFromProps()",
+            "shouldComponentUpdate()",
+            "render()",
+            "getSnapshotBeforeUpdate()",
+            "componentDidUpdate()"
+          ],
+          [
+            "componentWillUnmount()"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_props.asp",
+    "cours": {
+      "titre": "React Props",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_props.asp",
+      "contenus": {
+        "paragraphs": [
+          "Props are arguments passed into React components.",
+          "Props are passed to components via HTML attributes.",
+          "propsstands for properties.",
+          "React Props are like function arguments in JavaScriptandattributes \nin HTML.",
+          "To send props into a component, use the same syntax as HTML attributes:",
+          "Add a \"brand\" attribute to the Car element:",
+          "The component receives the argument as apropsobject:",
+          "Use the brand attribute in the component:",
+          "Run \nExample »",
+          "Props are also how you pass data from one component to another, as parameters.",
+          "Send the \"brand\" property from the Garage component to the Car component:",
+          "Run \nExample »",
+          "If you have a variable to send, and not a string as in the example above, you just put the variable name inside curly brackets:",
+          "Create a variable namedcarNameand send it to theCarcomponent:",
+          "Run \nExample »",
+          "Or if it was an object:",
+          "Create an object namedcarInfoand send it to theCarcomponent:",
+          "Run \nExample »",
+          "Note:React Props are read-only! You will get an error if you try to change their \nvalue."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_events.asp",
+    "cours": {
+      "titre": "React Events",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_events.asp",
+      "contenus": {
+        "paragraphs": [
+          "Just like HTML DOM events, React can perform actions based on user events.",
+          "React has the same events as HTML: click, change, mouseover etc.",
+          "React events are written in camelCase syntax:",
+          "onClickinstead ofonclick.",
+          "React event handlers are written inside curly \nbraces:",
+          "onClick={shoot}instead ofonclick=\"shoot()\".",
+          "Put theshootfunction inside theFootballcomponent:",
+          "Run \nExample »",
+          "To pass an argument to an event handler, use an arrow function.",
+          "Send \"Goal!\" as a parameter to theshootfunction, using arrow \n  function:",
+          "Run \nExample »",
+          "Event handlers have access to the React event that triggered the function.",
+          "In our example the event is the \"click\" event.",
+          "Arrow Function: Sending the event object manually:",
+          "Run \nExample »",
+          "This will come in handy when we look atFormin \na later chapter."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_conditional_rendering.asp",
+    "cours": {
+      "titre": "React Conditional Rendering",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_conditional_rendering.asp",
+      "contenus": {
+        "paragraphs": [
+          "In React, you can conditionally render components.",
+          "There are several ways to do this.",
+          "We can use theifJavaScript operator to decide which component to render.",
+          "We'll use these two components:",
+          "Now, we'll create another component that chooses which component to render based on a condition:",
+          "Run \nExample »",
+          "Try changing theisGoalattribute totrue:",
+          "Run \nExample »",
+          "Another way to conditionally render a React component is by using the&&operator.",
+          "We can embed JavaScript expressions in JSX by using curly braces:",
+          "Run \nExample »",
+          "Ifcars.length > 0is equates to true,\nthe expression after&&will render.",
+          "Try emptying thecarsarray:",
+          "Run \nExample »",
+          "Another way to conditionally render elements is by using a ternary operator.",
+          "We will go back to the goal example.",
+          "Return theMadeGoalcomponent ifisGoalistrue, \n  otherwise return theMissedGoalcomponent:",
+          "Run \nExample »",
+          "To learn more, see theternary operatorsection."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_lists.asp",
+    "cours": {
+      "titre": "React Lists",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_lists.asp",
+      "contenus": {
+        "paragraphs": [
+          "In React, you will render lists with some type of loop.",
+          "The JavaScriptmap()array method is generally the preferred method.",
+          "If you need a refresher on themap()method, check out theES6 section.",
+          "Let's render all of the cars from our garage:",
+          "Run \nExample »",
+          "When you run this code in yourcreate-react-app, it will work but you will receive a warning that there is no \"key\" provided for the list items.",
+          "Keys allow React to keep track of elements. This way, if an item is updated or removed, only that item will be re-rendered instead of the entire list.",
+          "Keys need to be unique to each sibling. But they can be duplicated globally.",
+          "Generally, the key should be a unique ID assigned to each item. As a last resort, you can use the array index as a key.",
+          "Let's refactor our previous example to include keys:",
+          "Run \nExample »"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_forms.asp",
+    "cours": {
+      "titre": "React Forms",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_forms.asp",
+      "contenus": {
+        "paragraphs": [
+          "Just like in HTML, React uses forms to allow users to interact with the web page.",
+          "You add a form with React like any other element:",
+          "Add a form that allows users to enter their name:",
+          "Run \nExample »",
+          "This will work as normal, the form will submit and the page will refresh.",
+          "But this is generally not what we want to happen in React.",
+          "We want to prevent this default behavior and let React control the form.",
+          "Handling forms is about how you handle the data when it changes value or gets \nsubmitted.",
+          "In HTML, form data is usually handled by the DOM.",
+          "In React, form data is usually handled by the components.",
+          "When the data is handled by the components, all the data is stored in the component \nstate.",
+          "You can control changes by adding event handlers in theonChangeattribute.",
+          "We can use theuseStateHook to keep track of each inputs value and provide a \"single source of truth\" for the entire application.",
+          "See theReact Hookssection for more information on Hooks.",
+          "Use theuseStateHook to manage the input:",
+          "Run \nExample »",
+          "You can control the submit action by adding an event handler in theonSubmitattribute for the<form>:",
+          "Add a submit button and an event handler in theonSubmitattribute:",
+          "Run \nExample »",
+          "You can control the values of more than one input field by adding anameattribute to each element.",
+          "We will initialize our state with an empty object.",
+          "To access the fields in the event handler use theevent.target.nameandevent.target.valuesyntax.",
+          "To update the state, use square brackets [bracket notation] around the property name.",
+          "Write a form with two input fields:",
+          "Run \nExample »",
+          "Note:We use the same event handler function for both input fields, \nwe could write one event handler for each, but this gives us much cleaner code and is the preferred way in React.",
+          "The textarea element in React is slightly different from ordinary HTML.",
+          "In HTML the value of a textarea was the text between the start tag<textarea>and the end tag</textarea>.",
+          "In React the value of a textarea is placed in a value attribute.\nWe'll use theuseStateHook to manage the value of the textarea:",
+          "A simple textarea with some content:",
+          "Run \nExample »",
+          "A drop down list, or a select box, in React is also a bit different from HTML.",
+          "In HTML, the selected value in the drop down list was defined with theselectedattribute:",
+          "In React, the selected value is defined with avalueattribute on theselecttag:",
+          "A simple select box, where the selected value \"Volvo\" is initialized in the constructor:",
+          "Run \nExample »",
+          "By making these slight changes to<textarea>and<select>, React is able to handle all input elements in the same way."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_router.asp",
+    "cours": {
+      "titre": "React Router",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_router.asp",
+      "contenus": {
+        "paragraphs": [
+          "Create React App doesn't include page routing.",
+          "React Router is the most popular solution.",
+          "To add React Router in your application, run this in the terminal from the root directory of the application:",
+          "Note:This tutorial uses React Router v6.",
+          "If you are upgrading from v5, you will need to use the @latest flag:",
+          "To create an application with multiple page routes, let's first start with the file structure.",
+          "Within thesrcfolder, we'll create a folder namedpageswith several files:",
+          "src\\pages\\:",
+          "Each file will contain a very basic React component.",
+          "Now we will use our Router in ourindex.jsfile.",
+          "Use React Router to route to pages based on URL:",
+          "index.js:",
+          "Run \nExample »",
+          "We wrap our content first with<BrowserRouter>.",
+          "Then we define our<Routes>.\nAn application can have multiple<Routes>.\nOur basic example only uses one.",
+          "<Route>s can be nested.\nThe first<Route>has a path of/and renders theLayoutcomponent.",
+          "The nested<Route>s inherit and add to the parent route.\nSo theblogspath is combined with the parent and becomes/blogs.",
+          "TheHomecomponent route does not have a path but has anindexattribute.\nThat specifies this route as the default route for the parent route, which is/.",
+          "Setting thepathto*will act as a \ncatch-all for any undefined URLs. This is great for a 404 error page.",
+          "TheLayoutcomponent has<Outlet>and<Link>elements.",
+          "The<Outlet>renders the current route selected.",
+          "<Link>is used to set the URL and keep track of browsing history.",
+          "Anytime we link to an internal path, we will use<Link>instead of<a href=\"\">.",
+          "The \"layout route\" is a shared component that inserts common content on all pages, such as a navigation menu.",
+          "Layout.js:",
+          "Home.js:",
+          "Blogs.js:",
+          "Contact.js:",
+          "NoPage.js:"
+        ],
+        "lists": [
+          [
+            "Layout.js",
+            "Home.js",
+            "Blogs.js",
+            "Contact.js",
+            "NoPage.js"
+          ]
+        ],
+        "examples": [
+          "npm i -D react-router-dom",
+          "npm i -D react-router-dom@latest"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_memo.asp",
+    "cours": {
+      "titre": "React Memo",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_memo.asp",
+      "contenus": {
+        "paragraphs": [
+          "Usingmemowill cause React to skip rendering a component if its props have not changed.",
+          "This can improve performance.",
+          "This section uses React Hooks. See theReact Hookssection for more information on Hooks.",
+          "In this example, theTodoscomponent re-renders even when the todos have not changed.",
+          "index.js:",
+          "Todos.js:",
+          "Run \nExample »",
+          "When you click the increment button, theTodoscomponent re-renders.",
+          "If this component was complex, it could cause performance issues.",
+          "To fix this, we can usememo.",
+          "Usememoto keep theTodoscomponent from needlessly re-rendering.",
+          "Wrap theTodoscomponent export inmemo:",
+          "index.js:",
+          "Todos.js:",
+          "Run \nExample »",
+          "Now theTodoscomponent only re-renders when thetodosthat are passed to it through props are updated."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_css_styling.asp",
+    "cours": {
+      "titre": "Styling React Using CSS",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_css_styling.asp",
+      "contenus": {
+        "paragraphs": [
+          "There are many ways to style React with CSS, this tutorial will \ntake a closer look at three common ways:",
+          "To style an element with the inline style attribute, the value must be a \nJavaScript object:",
+          "Insert an object with the styling information:",
+          "Run \nExample »",
+          "Note:In JSX, JavaScript expressions are written inside curly braces,\nand since JavaScript objects also use curly braces,\nthe styling in the example above is written inside two sets of curly braces{{}}.",
+          "Since the inline CSS is written in a JavaScript object, properties with \nhyphen separators, likebackground-color, \nmust be written with camel case syntax:",
+          "UsebackgroundColorinstead ofbackground-color:",
+          "Run \nExample »",
+          "You can also create an object with styling information, and refer to it in the style attribute:",
+          "Create a style object namedmyStyle:",
+          "Run \nExample »",
+          "You can write your CSS styling in a separate file, just save the file with the.cssfile extension, and import it in your \napplication.",
+          "Create a new file called \"App.css\" and insert some CSS code in it:",
+          "Note:You can call the file whatever you like, just remember the correct file extension.",
+          "Import the stylesheet in your application:",
+          "Run \nExample »",
+          "Another way of adding styles to your application is to use CSS Modules.",
+          "CSS Modules are convenient for components that are placed in separate files.",
+          "The CSS inside a module is available only for the component that imported it, \nand you do not have to worry about name conflicts.",
+          "Create the CSS module with the.module.cssextension, example:my-style.module.css.",
+          "Create a new file called \"my-style.module.css\" and insert some CSS code in it:",
+          "Import the stylesheet in your component:",
+          "Import the component in your application:",
+          "Run \nExample »"
+        ],
+        "lists": [
+          [
+            "Inline styling",
+            "CSS stylesheets",
+            "CSS Modules"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_sass_styling.asp",
+    "cours": {
+      "titre": "Styling React Using Sass",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_sass_styling.asp",
+      "contenus": {
+        "paragraphs": [
+          "Sass is a CSS pre-processor.",
+          "Sass files are executed on the server and sends CSS to the \nbrowser.",
+          "You can learn more about Sass in ourSass Tutorial.",
+          "If you use thecreate-react-appin your project, you can easily \ninstall and use Sass in your React projects.",
+          "Install Sass by running this command in your terminal:",
+          "Now you are ready to include Sass files in your project!",
+          "Create a Sass file the same way as you create CSS files, but Sass files have the \nfile extension.scss",
+          "In Sass files you can use variables and other Sass functions:",
+          "my-sass.scss:",
+          "Create a variable to define the color of the text:",
+          "Import the Sass file the same way as you imported a CSS file:",
+          "index.js:",
+          "Run \nExample »"
+        ],
+        "lists": [],
+        "examples": [
+          "npm i sass"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_hooks.asp",
+    "cours": {
+      "titre": "React Hooks",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_hooks.asp",
+      "contenus": {
+        "paragraphs": [
+          "Hooks were added to React in version 16.8.",
+          "Hooks allow function components to have access to state and other React features. Because of this, class components are generally no longer needed.",
+          "Although Hooks generally replace class components, there are no plans to remove classes from React.",
+          "Hooks allow us to \"hook\" into React features such as state and lifecycle methods.",
+          "Here is an example of a Hook. Don't worry if it doesn't make sense. We will go into more detail in thenext section.",
+          "Run \nExample »",
+          "You mustimportHooks fromreact.",
+          "Here we are using theuseStateHook to keep track of the application state.",
+          "State generally refers to application data or properties that need to be tracked.",
+          "There are 3 rules for hooks:",
+          "Note:Hooks will not work in React class components.",
+          "If you have stateful logic that needs to be reused in several components, you can build your own custom Hooks.",
+          "We'll go into more detail in theCustom Hooks section."
+        ],
+        "lists": [
+          [
+            "Hooks can only be called inside React function components.",
+            "Hooks can only be called at the top level of a component.",
+            "Hooks cannot be conditional"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_usestate.asp",
+    "cours": {
+      "titre": "ReactuseStateHook",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_usestate.asp",
+      "contenus": {
+        "paragraphs": [
+          "The ReactuseStateHook allows us to track state in a function component.",
+          "State generally refers to data or properties that need to be tracking in an application.",
+          "To use theuseStateHook, we first need toimportit into our component.",
+          "At the top of your component,importtheuseStateHook.",
+          "Notice that we are destructuringuseStatefromreactas it is a named export.",
+          "To learn more about destructuring, check out theES6 section.",
+          "We initialize our state by callinguseStatein our function component.",
+          "useStateaccepts an initial state and returns two values:",
+          "Initialize state at the top of the function component.",
+          "Notice that again, we are destructuring the returned values fromuseState.",
+          "The first value,color, is our current state.",
+          "The second value,setColor, is the function that is used to update our state.",
+          "These names are variables that can be named anything you would like.",
+          "Lastly, we set the initial state to an empty string:useState(\"\")",
+          "We can now include our state anywhere in our component.",
+          "Use the state variable in the rendered component.",
+          "Run \nExample »",
+          "To update our state, we use our state updater function.",
+          "We should never directly update state. Ex:color = \"red\"is not allowed.",
+          "Use a button to update the state:",
+          "Run \nExample »",
+          "TheuseStateHook can be used to keep track of strings, numbers, booleans, arrays, objects, and any combination of these!",
+          "We could create multiple state Hooks to track individual values.",
+          "Create multiple state Hooks:",
+          "Run \nExample »",
+          "Or, we can just use one state and include an object instead!",
+          "Create a single Hook that holds an object:",
+          "Run \nExample »",
+          "Since we are now tracking a single object,\nwe need to reference that object and then the property of that object when rendering the component.\n(Ex:car.brand)",
+          "When state is updated, the entire state gets overwritten.",
+          "What if we only want to update the color of our car?",
+          "If we only calledsetCar({color: \"blue\"}), this would remove the brand, model, and year from our state.",
+          "We can use the JavaScript spread operator to help us.",
+          "Use the JavaScript spread operator to update only the color of the car:",
+          "Run \nExample »",
+          "Because we need the current value of state, we pass a function into oursetCarfunction.\nThis function receives the previous value.",
+          "We then return an object, spreading thepreviousStateand overwriting only the color."
+        ],
+        "lists": [
+          [
+            "The current state.",
+            "A function that updates the state."
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_useeffect.asp",
+    "cours": {
+      "titre": "ReactuseEffectHooks",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_useeffect.asp",
+      "contenus": {
+        "paragraphs": [
+          "TheuseEffectHook allows you to perform side effects in your components.",
+          "Some examples of side effects are: fetching data, directly updating the DOM, and timers.",
+          "useEffectaccepts two arguments. The second argument is optional.",
+          "useEffect(<function>, <dependency>)",
+          "Let's use a timer as an example.",
+          "UsesetTimeout()to count 1 second after initial render:",
+          "Run \nExample »",
+          "But wait!! It keeps counting even though it should only count once!",
+          "useEffectruns on every render. That means that when the count changes, a render happens, which then triggers another effect.",
+          "This is not what we want. There are several ways to control when side effects run.",
+          "We should always include the second parameter which accepts an array.\nWe can optionally pass dependencies touseEffectin this array.",
+          "1. No dependency passed:",
+          "2. An empty array:",
+          "3. Props or state values:",
+          "So, to fix this issue, let's only run this effect on the initial render.",
+          "Only run the effect on the initial render:",
+          "Run \nExample »",
+          "Here is an example of auseEffectHook that is dependent on a variable. If thecountvariable updates, the effect will run again:",
+          "Run \nExample »",
+          "If there are multiple dependencies, they should be included in theuseEffectdependency array.",
+          "Some effects require cleanup to reduce memory leaks.",
+          "Timeouts, subscriptions, event listeners, and other effects that are no longer needed should be disposed.",
+          "We do this by including a return function at the end of theuseEffectHook.",
+          "Clean up the timer at the end of theuseEffectHook:",
+          "Run \nExample »",
+          "Note:To clear the timer, we had to name it."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_usecontext.asp",
+    "cours": {
+      "titre": "React useContext Hook",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_usecontext.asp",
+      "contenus": {
+        "paragraphs": [
+          "React Context is a way to manage state globally.",
+          "It can be used together with theuseStateHook to share state between\ndeeply nested components more easily than withuseStatealone.",
+          "State should be held by the highest parent component in the stack that requires access to the state.",
+          "To illustrate, we have many nested components. The component at the top and bottom of the stack need access to the state.",
+          "To do this without Context, we will need to pass the state as \"props\" through each nested component. This is called \"prop drilling\".",
+          "Passing \"props\" through nested components:",
+          "Run \nExample »",
+          "Even though components 2-4 did not need the state, they had to pass the state along so that it could reach component 5.",
+          "The solution is to create context.",
+          "To create context, you must ImportcreateContextand initialize \nit:",
+          "Next we'll use the Context Provider to wrap the tree of components that need the state Context.",
+          "Wrap child components in the Context Provider and supply the state value.",
+          "Now, all components in this tree will have access to the user Context.",
+          "In order to use the Context in a child component, we need to access it using theuseContextHook.",
+          "First, include theuseContextin the import \nstatement:",
+          "Then you can access the user Context in all components:",
+          "Here is the full example using React Context:",
+          "Run \nExample »"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_useref.asp",
+    "cours": {
+      "titre": "ReactuseRefHook",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_useref.asp",
+      "contenus": {
+        "paragraphs": [
+          "TheuseRefHook allows you to persist values between renders.",
+          "It can be used to store a mutable value that does not cause a re-render when updated.",
+          "It can be used to access a DOM element directly.",
+          "If we tried to count how many times our application renders using theuseStateHook, we would be caught in an infinite loop since this Hook itself causes a re-render.",
+          "To avoid this, we can use theuseRefHook.",
+          "UseuseRefto track application renders.",
+          "Run \nExample »",
+          "useRef()only returns one item. It returns an Object calledcurrent.",
+          "When we initializeuseRefwe set the initial value:useRef(0).",
+          "It's like doing this:const count = {current: 0}. We can access the count by usingcount.current.",
+          "Run this on your computer and try typing in the input to see the application render count increase.",
+          "In general, we want to let React handle all DOM manipulation.",
+          "But there are some instances whereuseRefcan be used without causing issues.",
+          "In React, we can add arefattribute to an element to access it directly in the DOM.",
+          "UseuseRefto focus the input:",
+          "Run \nExample »",
+          "TheuseRefHook can also be used to keep track of previous state values.",
+          "This is because we are able to persistuseRefvalues between renders.",
+          "UseuseRefto keep track of previous state values:",
+          "Run \nExample »",
+          "This time we use a combination ofuseState,useEffect, anduseRefto keep track of the previous state.",
+          "In theuseEffect, we are updating theuseRefcurrent value each time theinputValueis updated by entering text into the input field."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_usereducer.asp",
+    "cours": {
+      "titre": "ReactuseReducerHook",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_usereducer.asp",
+      "contenus": {
+        "paragraphs": [
+          "TheuseReducerHook is similar to theuseStateHook.",
+          "It allows for custom state logic.",
+          "If you find yourself keeping track of multiple pieces of state that rely on complex logic,useReducermay be useful.",
+          "The useReducer Hook accepts two arguments.",
+          "useReducer(<reducer>, <initialState>)",
+          "Thereducerfunction contains your custom state logic and theinitialStatecan be a simple value but generally will contain an object.",
+          "TheuseReducerHook returns the currentstateand adispatchmethod.",
+          "Here is an example ofuseReducerin a counter app:",
+          "Run \nExample »",
+          "This is just the logic to keep track of the todo complete status.",
+          "All of the logic to add, delete, and complete a todo could be contained within a singleuseReducerHook by adding more actions."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_usecallback.asp",
+    "cours": {
+      "titre": "ReactuseCallbackHook",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_usecallback.asp",
+      "contenus": {
+        "paragraphs": [
+          "The ReactuseCallbackHook returns a memoized callback function.",
+          "Think of memoization as caching a value so that it does not need to be recalculated.",
+          "This allows us to isolate resource intensive functions so that they will not automatically run on every render.",
+          "TheuseCallbackHook only runs when one of its dependencies update.",
+          "This can improve performance.",
+          "TheuseCallbackanduseMemoHooks are similar.\nThe main difference is thatuseMemoreturns a memoizedvalueanduseCallbackreturns a memoizedfunction.\nYou can learn more about useMemo in the useMemochapter.",
+          "One reason to useuseCallbackis to prevent a component from re-rendering unless its props have changed.",
+          "In this example, you might think that theTodoscomponent will not re-render unless thetodoschange:",
+          "This is a similar example to the one in theReact.memosection.",
+          "index.js",
+          "Todos.js",
+          "Run \nExample »",
+          "Try running this and click the count increment button.",
+          "You will notice that theTodoscomponent re-renders even when thetodosdo not change.",
+          "Why does this not work? We are usingmemo, so theTodoscomponent should not re-render since neither thetodosstate nor theaddTodofunction are changing when the count is incremented.",
+          "This is because of something called \"referential equality\".",
+          "Every time a component re-renders, its functions get recreated. Because of this, theaddTodofunction has actually changed.",
+          "To fix this, we can use theuseCallbackhook to prevent the function from being recreated unless necessary.",
+          "Use theuseCallbackHook to prevent theTodoscomponent from re-rendering needlessly:",
+          "index.js",
+          "Todos.js",
+          "Run \nExample »",
+          "Now theTodoscomponent will only re-render when thetodosprop changes."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_usememo.asp",
+    "cours": {
+      "titre": "ReactuseMemoHook",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_usememo.asp",
+      "contenus": {
+        "paragraphs": [
+          "The ReactuseMemoHook returns a memoized value.",
+          "Think of memoization as caching a value so that it does not need to be recalculated.",
+          "TheuseMemoHook only runs when one of its dependencies update.",
+          "This can improve performance.",
+          "TheuseMemoanduseCallbackHooks are similar.\nThe main difference is thatuseMemoreturns a memoized value anduseCallbackreturns a memoized function.\nYou can learn more aboutuseCallbackin theuseCallback chapter.",
+          "TheuseMemoHook can be used to keep expensive, resource intensive functions from needlessly running.",
+          "In this example, we have an expensive function that runs on every render.",
+          "When changing the count or adding a todo, you will notice a delay in execution.",
+          "A poor performing function. TheexpensiveCalculationfunction runs on every render:",
+          "Run \nExample »",
+          "To fix this performance issue, we can use theuseMemoHook to memoize theexpensiveCalculationfunction. This will cause the function to only run when needed.",
+          "We can wrap the expensive function call withuseMemo.",
+          "TheuseMemoHook accepts a second parameter to declare \ndependencies. The expensive function will only run when its dependencies have changed.",
+          "In the following example, the expensive function will only run whencountis changed and not when todo's are added.",
+          "Performance example using theuseMemoHook:",
+          "Run \nExample »"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_customhooks.asp",
+    "cours": {
+      "titre": "React Custom Hooks",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_customhooks.asp",
+      "contenus": {
+        "paragraphs": [
+          "Hooks are reusable functions.",
+          "When you have component logic that needs to be used by multiple components, we can extract that logic to a custom Hook.",
+          "Custom Hooks start with \"use\". Example:useFetch.",
+          "In the following code, we are fetching data in ourHomecomponent and displaying it.",
+          "We will use theJSONPlaceholderservice to fetch fake data. This service is great for testing applications when there is no existing data.",
+          "To learn more, check out theJavaScript Fetch APIsection.",
+          "Use the JSONPlaceholder service to fetch fake \"todo\" items and display the titles on the page:",
+          "index.js:",
+          "Run \nExample »",
+          "The fetch logic may be needed in other components as well, so we will extract that into a custom Hook.",
+          "Move the fetch logic to a new file to be used as a custom Hook:",
+          "useFetch.js:",
+          "index.js:",
+          "Run \nExample »",
+          "We have created a new file calleduseFetch.jscontaining a function calleduseFetchwhich contains all of the logic needed to fetch our data.",
+          "We removed the hard-coded URL and replaced it with aurlvariable that can be passed to the custom Hook.",
+          "Lastly, we are returning our data from our Hook.",
+          "Inindex.js, we are importing ouruseFetchHook and utilizing it like any other Hook. This is where we pass in the URL to fetch data from.",
+          "Now we can reuse this custom Hook in any component to fetch data from any URL."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_compiler.asp",
+    "cours": {
+      "titre": "ReactOnline Compiler",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_compiler.asp",
+      "contenus": {
+        "paragraphs": [
+          "Create your own website and React.js applications with a Node.js environment inW3Schools Spaces.",
+          "W3Schools Spacesis a website-building tool that enables you to create and share your own website, as well as develop and host your React.js applications within a Node.js environment.",
+          "You have full control over the website's appearance and functionality by editing the code directly in your web browser.",
+          "W3Schools Spaces is user-friendly and requires no setup, making it easy to use.",
+          "Get started with React.js by selecting the Node.js environment in Spaces.",
+          "The code editor is packed with features to help you achieve more:",
+          "Practice is key to mastering coding, and the best way to put your React.js knowledge into practice is by getting practical with code.",
+          "UseW3Schools Spacesto build, test and deploy code.",
+          "The code editor lets you write and practice different types of computer languages. It includes \nReact.js, but you can use it for other languages too.",
+          "New languages are added all the time:",
+          "If you don't know React, we suggest that you read ourReact Tutorialfrom scratch.",
+          "Get an overview of your packages and easily add or delete frameworks and libraries. Then, with just one click, you can make changes to your packages without manual installation.",
+          "",
+          "You can use the code editor inW3School Spacesto build frontend or full-stack websites from scratch.",
+          "Or you can use the 60+ templates available and save time:",
+          "Create your Spaces account today and explore them all!",
+          "Host and publish your websites in no time withW3School Spaces.",
+          "W3Schools subdomain and SSL certificate are included for free withW3School Spaces. An SSL certificate makes your website safe and secure. It also helps people trust your website and makes it easier to find it online.",
+          "Want a custom domain for your website?",
+          "You can buy a domain or transfer an existing one and connect it to your space.",
+          "Get started in a few clicks withW3School Spaces."
+        ],
+        "lists": [
+          [
+            "Templates:Start from scratch or use a template",
+            "Cloud-based:no installations required. You only need your browser",
+            "Terminal & Log:debug and troubleshoot your code easily",
+            "File Navigator:switch between files inside the code editor",
+            "And much more!"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_quiz.asp",
+    "cours": {
+      "titre": "ReactQuiz",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_quiz.asp",
+      "contenus": {
+        "paragraphs": [
+          "You can test your React skills with W3Schools' Quiz.",
+          "The test contains 25 questions and there is no time limit.",
+          "The test is not official, it's just a nice way to see how much you know, or don't know, about React.",
+          "You will get 1 point for each correct answer. At the end of the Quiz,\nyour total score will be displayed. Maximum score is 25 points.",
+          "Good luck!",
+          "Start the React Quiz ❯",
+          "If you don't know React, we suggest that you read ourReact Tutorialfrom scratch.",
+          "Get certified by completingtheexam"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_exercises.asp",
+    "cours": {
+      "titre": "ReactExercises",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_exercises.asp",
+      "contenus": {
+        "paragraphs": [
+          "Test your React skills with exercises from all categories:",
+          "If you haven't already,sign upto become a W3Schooler, and get points for every exercise you complete.",
+          "As a logged on W3Schools user you will have access to many features like havingyour own web page,track your learning progress,receive personal guided paths, andmore.",
+          "We have gathered a variety of React exercises from most of the chapters in ourReact Tutorial.",
+          "The exercises are a mix of \"multiple choice\" and \"fill in the blanks\" questions. \nThe answer can be found in the corresponding tutorial chapter. If you're stuck, \nor answer wrong, you can try again or hit the \"Show Answer\" button to see the correct answer."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_syllabus.asp",
+    "cours": {
+      "titre": "ReactSyllabus",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_syllabus.asp",
+      "contenus": {
+        "paragraphs": [
+          "TheW3Schools React Tutorialis comprehensive and beginner-friendly.",
+          "It will give you a fundamental knowledge of React.",
+          "It is designed for beginners and requires intermediate JavaScript knowledge.",
+          "The content has been carefully made to be bite-sized, simple, and easy to understand.",
+          "The content has been proven by millions of users over the years. It is updated and improved frequently.",
+          "The syllabus outline and its sequence are structured so you can learn React step by step, from basic components to advanced features.",
+          "Get Started With React »",
+          "Note:Are you a teacher teaching React?W3Schools Academyis a toolbox of features that can help you teach. It offers classroom features such as pre-built study plans, classroom administration and much more. Read more aboutAcademy here.",
+          "Get Started",
+          "In this tutorial we offer different activities for you to learn React for free:",
+          "You can also create a free account to track your progress.",
+          "As a signed-in user, you get access to features such as:",
+          "Sign Up - It's free",
+          "Get Started",
+          "React, like any programming library, is best learned through hands-on practice.",
+          "Try this example using our editor:",
+          "Run \nExample »",
+          "If you want to explore more and host your project, we have a feature calledSpacesthat allows you to build, test and deploy static websites for free.",
+          "Here you get a secure sandbox environment called Spaces, where you can practice coding and test projects in real-time.",
+          "Spaces allow you to test, build, and deploy code. This includes a W3Schools subdomain, hosting, and secure SSL certificates.",
+          "Spaces require no installation and run directly in the browser.",
+          "Features include:",
+          "Create a Spaces Account",
+          "W3Schools offers an end-of-pathway certification program.",
+          "Here you can take exams to get certified.",
+          "The React exam is a test that summarizes the W3Schools React syllabus.",
+          "After passing the exam you get the \"Certified React Developer\" Certification.",
+          "There are two different types of certifications:",
+          "The non-adaptive is pass or no pass.",
+          "The adaptive certification is adaptive and graded; students will get a grade from intermediate, advanced to professional.",
+          "Buy Certificate »",
+          "Are you interested in learning how you can useW3Schools Academyto Teach \nReact?",
+          "Join our upcoming webinar for a guided demo ofW3Schools Academy. You'll see how it works, and discover how it can make teaching programming easier and more engaging.",
+          "Join our FREE Webinar »"
+        ],
+        "lists": [
+          [
+            "Master ES6 features used in React (classes, arrow functions, destructuring, modules).",
+            "Create and render React components using JSX syntax.",
+            "Work with React components, both class and functional components.",
+            "Handle component props and state management.",
+            "Implement event handling and conditional rendering.",
+            "Create and manage lists with keys in React.",
+            "Build forms and handle user input in React applications.",
+            "Implement navigation using React Router.",
+            "Use React Hooks (useState, useEffect, useContext, useRef, etc.).",
+            "Apply performance optimization with React Memo.",
+            "Style React components using CSS and Sass.",
+            "Create custom hooks for reusable logic."
+          ],
+          [
+            "Web Development:React can be used for building modern web applications.",
+            "Front-end Development:React is a leading library for user interface development.",
+            "Single Page Applications:React enables building dynamic single-page applications.",
+            "User Interface Design:React provides a component-based approach to UI development.",
+            "Web Applications:React is ideal for interactive web applications.",
+            "Mobile Development:React Native extends React concepts to mobile development.",
+            "Modern JavaScript Development:React embraces modern JavaScript features and practices."
+          ],
+          [
+            "Lessons",
+            "Exercises",
+            "Quizzes"
+          ],
+          [
+            "Learning paths",
+            "Sandbox and lab environments",
+            "Achievements",
+            "And much more!"
+          ],
+          [
+            "React Home",
+            "React Intro",
+            "React Get Started",
+            "React Upgrade",
+            "React ES6",
+            "ES6 Classes",
+            "ES6 Arrow Functions",
+            "ES6 Variables",
+            "ES6 Array Methods",
+            "ES6 Destructuring",
+            "ES6 Spread Operator",
+            "ES6 Modules",
+            "ES6 Ternary Operator",
+            "React Render HTML",
+            "React JSX",
+            "React Components",
+            "React Class",
+            "React Props",
+            "React Events",
+            "React Conditionals",
+            "React Lists",
+            "React Forms",
+            "React Router",
+            "React Memo",
+            "React CSS Styling",
+            "React Sass Styling",
+            "What is a Hook?",
+            "useState",
+            "useEffect",
+            "useContext",
+            "useRef",
+            "useReducer",
+            "useCallback",
+            "useMemo",
+            "Custom Hooks"
+          ],
+          [
+            "Collaboration",
+            "File navigator",
+            "Terminal & log",
+            "Package manager",
+            "Database",
+            "Environment manager",
+            "Analytics"
+          ],
+          [
+            "Non-adaptive",
+            "Adaptive"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_study_plan.asp",
+    "cours": {
+      "titre": "ReactStudy Plan",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_study_plan.asp",
+      "contenus": {
+        "paragraphs": [
+          "The React study plan helps you teach your students React step-by-step.",
+          "Creating a study plan for React is easy.",
+          "You can use a pre-built study plan or customize it.",
+          "Students have different skill levels. The study plans can be customized to ensure that everyone is challenged.",
+          "Save time with pre-built teacher materials and study plans. Easily organize your class with a timeline from the introduction of React to the final exam.",
+          "This study plan is a feature of W3Schools Academy.",
+          "W3Schools Academy is a platform that has everything you need to teach coding, all in one place.",
+          "It offers you as a teacher a toolbox of features that helps you succeed with teaching in your classroom.",
+          "You need to have an active subscription to access the study plan feature. There are two different subscription tiers:",
+          "Learn More »",
+          "Academy also offer other features such as:",
+          "Get a free demo »",
+          "W3Schools has everything you need to teach React.",
+          "The React training materials is available for you to include and use in your study plan:",
+          "With the React Syllabus, your students will start with the basics, like understanding components, props, and state, and move to more advanced topics, like working with hooks, managing routing, and building interactive user interfaces. Each chapter includes simple examples, try-it-yourself sections, exercises, and quizzes to make learning easy, interactive, and fun.",
+          "Read more about React Syllabus.",
+          "The study plan features are made to help teachers and students. They make learning easy, flexible, and fun. These features work for different types of classes, learning styles and student level.",
+          "Learn More »",
+          "You choose the timeline and paceof your study plans.",
+          "Schools have different preferences.",
+          "Some would like more intensive pace, e.g. 3 weeks, others 6 or more weeks.",
+          "It is completely up to you.",
+          "For example, this is how a 3-week React study plan could look like:",
+          "Image of Sample React study plan:",
+          "Start withReact Study Planstoday.",
+          "Get Started »",
+          "Are you interested in learning how you can useW3Schools Academyto Teach React programming?",
+          "Join our upcoming webinar for a guided demo ofW3Schools Academy. You'll see how it works, and discover how it can make teaching programming easier and more engaging.",
+          "Join our FREE Webinar »"
+        ],
+        "lists": [
+          [
+            "Essentials ($1.99 / month per student)",
+            "Full Access ($5.99 / month per student)",
+            "Calculate your price and orderhere."
+          ],
+          [
+            "Managing your classroom",
+            "Tracking of student progress and reports",
+            "Labs, assignments, and code challenges (prebuilt challenges or create your own ones)",
+            "Auto-grading",
+            "Teaching materials",
+            "Certification exams"
+          ],
+          [
+            "W3Schools React Tutorial",
+            "React Exercises",
+            "React Quiz",
+            "React Challenges (Coding challenges)",
+            "React Certification Exam (End of Pathway Exam)"
+          ],
+          [
+            "Learning PathsYou can add ready-made learning paths.The learning paths are by default ordered by our recommended order.You can change the order.You can add custom activities with text, links, or multi-media files.Drag and drop or click to make changes to the path.",
+            "You can add ready-made learning paths.",
+            "The learning paths are by default ordered by our recommended order.",
+            "You can change the order.",
+            "You can add custom activities with text, links, or multi-media files.",
+            "Drag and drop or click to make changes to the path.",
+            "Interactive ContentTutorialsTry-its (test code snippets)ExercisesQuizChallengesLabs",
+            "Tutorials",
+            "Try-its (test code snippets)",
+            "Exercises",
+            "Quiz",
+            "Challenges",
+            "Labs",
+            "Timeline and PaceYou can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).You can decide the learning pace for your class.Different study plans can be assigned to different students in the same class.The flexibility can help to make sure that everyone is challenged.",
+            "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+            "You can decide the learning pace for your class.",
+            "Different study plans can be assigned to different students in the same class.",
+            "The flexibility can help to make sure that everyone is challenged.",
+            "Track Student ProgressThere are tools to track student progress.The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+            "There are tools to track student progress.",
+            "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+            "The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+            "End of Pathway ExamThe React study plan aligns with the React Certification Exam.The exam can be taken at the end of the study plan, at your selected date.The exam summarizes the React Tutorial.You get reports of the students' results.",
+            "The React study plan aligns with the React Certification Exam.",
+            "The exam can be taken at the end of the study plan, at your selected date.",
+            "The exam summarizes the React Tutorial.",
+            "You get reports of the students' results.",
+            "AccessibilityStudy plans and learning materials are accessible on desktops, tablets, and smartphones.This ensures students can learn anytime, anywhere.",
+            "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+            "This ensures students can learn anytime, anywhere."
+          ],
+          [
+            "You can add ready-made learning paths.",
+            "The learning paths are by default ordered by our recommended order.",
+            "You can change the order.",
+            "You can add custom activities with text, links, or multi-media files.",
+            "Drag and drop or click to make changes to the path."
+          ],
+          [
+            "Tutorials",
+            "Try-its (test code snippets)",
+            "Exercises",
+            "Quiz",
+            "Challenges",
+            "Labs"
+          ],
+          [
+            "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+            "You can decide the learning pace for your class.",
+            "Different study plans can be assigned to different students in the same class.",
+            "The flexibility can help to make sure that everyone is challenged."
+          ],
+          [
+            "There are tools to track student progress.",
+            "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+            "The challenges can be auto-graded or manually graded. The results are available to you as a teacher."
+          ],
+          [
+            "The React study plan aligns with the React Certification Exam.",
+            "The exam can be taken at the end of the study plan, at your selected date.",
+            "The exam summarizes the React Tutorial.",
+            "You get reports of the students' results."
+          ],
+          [
+            "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+            "This ensures students can learn anytime, anywhere."
+          ],
+          [
+            "Week 1: Introduction",
+            "Week 2: ES6, Render HTML, JSX, Components & Component Props, Router & Events, Lists & Forms",
+            "Week 3: Styling, Hooks, React Certification Exam"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_server.asp",
+    "cours": {
+      "titre": "React.jsServer",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_server.asp",
+      "contenus": {
+        "paragraphs": [
+          "Coding Skills",
+          "AI Tutor",
+          "Projects",
+          "Securely",
+          "By subscribing to a plan you support the W3Schools mission to makelearning available to everyone - no matter their background.",
+          "$0/Forever",
+          "This is for you that are beginning to explore coding and web development",
+          "$14.99/Month",
+          "This is for you that want to learn and reach your goals faster. Build fullstack projects, ad free experience.",
+          "Contact us for information",
+          "W3Schools right to use and Plus for educational institutions or enterprise customers",
+          "You can also buy a domain or connect an existing one.",
+          "Just landed inSpaces",
+          "Learn to code more effectivelyand intelligently with kAI - AI tutor",
+          "Hi! I'm kAI, W3Schools AI Tutor...",
+          "Feel free to ask me any coding-related questions, and I'll do my best to assist you.",
+          "I can help you checking your code for errors, improving your code's structure, explaining coding concepts in a clear and understandable way, and more...",
+          "I can even create complete websites for you based on your input, so what are you waiting for?",
+          "Cloud-based",
+          "Terminal & Log",
+          "How To Libraries",
+          "Database",
+          "File Navigator",
+          "Package Manager",
+          "Analytics",
+          "Environment Manager",
+          "With Basic Spaces, you can build frontend websites. Whereas with Fullstack Spaces, you can build frontend and backend websites.",
+          "Basic Spaces include HTML, CSS, and Javascript. Full Stack Spaces include everything in Basic Spaces plus PHP, Python, React.js, Vue.js, Node.js, Handlebars, and Django.",
+          "Your subscription will be automatically renewed every month.",
+          "Your access to all the benefits for the paid period of time will continue. However, the subscription will not be renewed automatically.",
+          "To subscribe W3Schools accounts for multiple users, you can contact sales@w3schools.com"
+        ],
+        "lists": [
+          [
+            "Build and host 1 static website",
+            "100 credits/monthAccess various AI features like W3Schools kAI coding tutor and interview preparation.",
+            "No support"
+          ],
+          [
+            "Ad-free experience",
+            "Build and host 15 static websites",
+            "Build and host 1 full stack server",
+            "Choose from 18 frameworks / languages",
+            "Choose from 75+ templates",
+            "50000 credits/monthAccess various AI features like W3Schools kAI coding tutor and interview preparation.",
+            "Priority Support",
+            "Cancel anytime"
+          ],
+          [
+            "Everything in W3Schools Plus",
+            "Certification Exams",
+            "And much more!"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_interview_prep.asp",
+    "cours": {
+      "titre": "React.jsInterview Preparation",
+      "description": "",
+      "lien": "https://www.w3schools.com/react/react_interview_prep.asp",
+      "contenus": {
+        "paragraphs": [
+          "Try W3Schools' comprehensive Front-End interview preparation feature.",
+          "A tool that will help you get ready for your next interview.",
+          "W3Schools interview preparation is an interactive feature powered by AI, where you can select the role of the interviewer, ask questions, and receive guidance.",
+          "After the interview training you will get an evaluation of your performance that you can use to improve yourself.",
+          "Get Started",
+          "If you are going to a Front-End interview, there are a few things you can expect:",
+          "Coding Questions:",
+          "You will be asked coding questions, and you possibly also get a task to solve.",
+          "Examples of technical questions:",
+          "Tell me about your experience as a Front-End developer.Tell me about a personal project where you worked on implementing the user interface for a website.",
+          "Examples of a task:",
+          "Create a webpage that shows a greeting message to the user.Use HTML and CSS to structure and style it. You can add a JavaScript function to change the message based on the time of the day.",
+          "If you don't know how to solve the task or answer the question, do not panic. It happens to everyone, even pro Front-End developers.",
+          "Showcase your skills and projects:",
+          "They would like to see projects to understand your work better.You can include current projects in your portfolio even if they are unfinished.",
+          "Examples of projects to have in your portfolio:",
+          "Before you go to an interview, you should check out the company.",
+          "It will give you a better understanding of their values and what they do.",
+          "Check out:",
+          "Make sure you understand the job description:",
+          "Read the description and take notes if you need help understanding something. You can call them before the interview and ask about the things you don't understand.",
+          "You can also ask a friend or a community member to help you.",
+          "There is a big community of Front-End developers on social media.",
+          "Reflect on why you are the right fit for this role:",
+          "Companies hire people they believe will be the right fit.",
+          "Think about what value you can add to the role and the team.",
+          "Write them down.",
+          "It will help you discuss how you are the right candidate for the role.",
+          "We have created an interview tool to help you prepare:",
+          "Try it out",
+          "",
+          "Front-End development is an exciting career that allows you to create dynamic and responsive websites and apps. It's a good choice if you're interested in good user engagement and experience.",
+          "Typical Languages Used in Front-End Development:",
+          "The demand for Front-End developers is high.",
+          "You can expect:",
+          "The Average Salary is $112,328 in the US.",
+          "Typical Job Titles for a Front-End Developer:",
+          "Try W3Schools Pathfinder Jobs, where companies post in-demand job roles such as Front-End development, web development, Java development, and more.",
+          "Our best tip: Prepare yourself so you can go in with confidence and enjoy the process!",
+          "",
+          "Try W3Schools interview preparation here:Interview Preperation",
+          "Best of luck!"
+        ],
+        "lists": [
+          [
+            "To-do list app",
+            "Blog template",
+            "Weather dashboard",
+            "E-commerce product page",
+            "Interactive game or application"
+          ],
+          [
+            "Their webpage",
+            "Their social media platforms",
+            "Articles and reviews"
+          ],
+          [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "React.js",
+            "Bootstrap",
+            "and other CSS frameworks"
+          ],
+          [
+            "Competitive salary",
+            "Possibility of working remotely",
+            "Opportunity to grow as the industry innovates and adopts new technologies."
+          ],
+          [
+            "Front-End developer",
+            "Web Developer",
+            "UI/UX Designer",
+            "Web App Developer",
+            "and many more."
+          ]
+        ],
+        "examples": [
+          "<head><title>Simple Greeting Page</title><style>body {font-family: Arial, sans-serif;background-color: #f0f0f0;color: #333;padding: 20px;}</style></head><body><h1>Hello, welcome to our website!</h1></body></html>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/react/react_exam.asp",
+    "cours": {
+      "titre": "W3SchoolsReact Certificate",
+      "description": "How Does It Work?Study for free at W3Schools.comStudy at your own speedTest your skills with W3Schools online quizzesApply for your certificate by paying an exam feeTake your exam online, at any time, and from any location",
+      "lien": "https://www.w3schools.com/react/react_exam.asp",
+      "contenus": {
+        "paragraphs": [
+          "W3Schools offers an Online Certification Program.",
+          "The perfect solution for busy professionals who need to balance work, family, and career building.",
+          "More than 50 000 certificates already issued!",
+          "Get Your Certificate »",
+          "W3Schools offers an Online Certification Program.",
+          "The perfect solution for busy professionals who need to balance work, family, and career building.",
+          "More than 50 000 certificates already issued!",
+          "Get Your Certificate »",
+          "Any student or professional within the digital industry.",
+          "Certifications are valuable assets to gain trust and demonstrate knowledge to your clients, current or future employers on a ever increasing competitive market.",
+          "W3Schools has over two decades of experience with teaching coding online.",
+          "Our certificates are recognized and valued by companies looking to employ skilled developers.",
+          "Show the world your coding skills by getting a certification.",
+          "The prices is a small fraction compared to the price of traditional education.",
+          "Document and validate your competence by getting certified!",
+          "Fee:95 USD",
+          "Achievable certification levels:Intermediate (40%)Advanced (75%)Professional (90%)",
+          "Number of questions:Adaptive,60on average",
+          "Requirement to pass:Minimum 40% - Intermediate level",
+          "Time limit:60 minutes",
+          "Number of attempts to pass:3",
+          "Exam deadline:None",
+          "Certification Expiration:None",
+          "Format:Online, multiple choice",
+          "Register now »",
+          "Getting a certificate proves your commitment to upgrading your skills.",
+          "The certificate can be added as credentials to your CV, Resume, LinkedIn profile, and so on.",
+          "It gives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+          "Knowledge is power, especially in the current job market.",
+          "Documentation of your skills enables you to advance your career or helps you to start a new one.",
+          "Example certificate:",
+          "Each certificate gets a unique link that can be shared with others.",
+          "Validate your certification with the link or QR code.",
+          "Check how it looks like in thisExample.",
+          "Share your certificate on Linkedin the Certifications section in just one click!",
+          "Getting a certificate proves your commitment to upgrade your skills,\ngives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+          "Get Your Certificate »",
+          "Are you an educator, manager or business owner looking for courses or certifications?",
+          "We are working with schools, companies and organizations from all over the world.",
+          "Get courses and/or certifications for your team here."
+        ],
+        "lists": [
+          [
+            "Study for free at W3Schools.com",
+            "Study at your own speed",
+            "Test your skills with W3Schools online quizzes",
+            "Apply for your certificate by paying an exam fee",
+            "Take your exam online, at any time, and from any location"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://campus.w3schools.com/products/react-js-certificate?utm_source=w3schools&utm_medium=referral&utm_campaign=react_exam&utm_content=get_your_certificate",
+    "cours": {
+      "id": "",
+      "contenus": {
+        "texte": "",
+        "lienVideo": ""
+      },
+      "categories": [],
+      "niveau": "Débutant",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  }
+]

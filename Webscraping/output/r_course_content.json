@@ -1,0 +1,2042 @@
+[
+    {
+        "url": "https://www.w3schools.com/r/default.asp",
+        "cours": {
+            "titre": "RTutorial",
+            "description": "Learn RR is a programming language.R is often used for statistical computing and graphical presentation to analyze \n  and visualize data.Start learning R now »",
+            "lien": "https://www.w3schools.com/r/default.asp",
+            "contenus": {
+                "paragraphs": [
+                    "R is a programming language.",
+                    "R is often used for statistical computing and graphical presentation to analyze \n  and visualize data.",
+                    "With our \"Try it Yourself\" editor, you can edit R code and view the result.",
+                    "How to output some text, and how to do a simple calculation in R:",
+                    "Result:",
+                    "How you can use R to easily create a graph with \nnumbers from 1 to 10 on both the x and y axis:",
+                    "Result:",
+                    "We recommend reading this tutorial, in the sequence listed in the left menu.",
+                    "Insert the missing part of the code below to output \"Hello World\".",
+                    "Start the Exercise",
+                    "Track your progress with the free \"My Learning\" program here at W3Schools.",
+                    "Log in to your account, and start earning points!",
+                    "This is an optional feature. You can study at W3Schools without using My Learning.",
+                    "Learn by examples! This tutorial supplements all explanations with clarifying examples.",
+                    "See All R Examples",
+                    "Learn by taking a quiz! This quiz will give you a signal of how much you know about R.",
+                    "Take the R Quiz"
+                ],
+                "lists": [],
+                "examples": [
+                    "\"Hello World!\"5 + 5",
+                    "plot(1:10)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_intro.asp",
+        "cours": {
+            "titre": "RIntroduction",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_intro.asp",
+            "contenus": {
+                "paragraphs": [
+                    "R is a popular programming language used for statistical computing and graphical presentation.",
+                    "Its most common use is to analyze and visualize data.",
+                    "This tutorial will teach you the basics of R.",
+                    "It is not necessary to have any prior programming experience."
+                ],
+                "lists": [
+                    [
+                        "It is a great resource for data analysis, data visualization, data science and machine learning",
+                        "It provides many statistical techniques (such as statistical tests, classification, clustering and data reduction)",
+                        "It is easy to draw graphs in R, like pie charts, histograms, box plot, scatter plot, etc++",
+                        "It works on different platforms (Windows, Mac, Linux)",
+                        "It is open-source and free",
+                        "It has a large community support",
+                        "It has many packages (libraries of functions) that can be used to solve different problems"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_get_started.asp",
+        "cours": {
+            "titre": "RGet Started",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_get_started.asp",
+            "contenus": {
+                "paragraphs": [
+                    "To install R, go tohttps://cloud.r-project.org/and download the latest version of R for Windows, Mac or Linux.",
+                    "When you have downloaded and installed R, you can run R on your computer.",
+                    "The screenshot below shows how it may look like when you run R on a Windows \nPC:",
+                    "If you type5 + 5, and press enter, you will see that R outputs10.",
+                    "When learning R at W3Schools.com, you can use our \"Try it Yourself\" tool, which shows both the code and the result \nin your browser. This will make it easier for you to test and understand every part as we move forward:",
+                    "Result:"
+                ],
+                "lists": [],
+                "examples": [
+                    "5 + 5"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_syntax.asp",
+        "cours": {
+            "titre": "RSyntax",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_syntax.asp",
+            "contenus": {
+                "paragraphs": [
+                    "To output text in R, use single or double quotes:",
+                    "To output numbers, just type the number (without quotes):",
+                    "To do simple calculations, add numbers together:",
+                    "Congratulations! You have now written your first R code."
+                ],
+                "lists": [],
+                "examples": [
+                    "\"Hello World!\"",
+                    "51025",
+                    "5 + 5"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_print.asp",
+        "cours": {
+            "titre": "RPrint Output",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_print.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Unlike many other programming languages, you can output code in R without using a print function:",
+                    "However, R does have aprint()function \navailable if you want to use it. This might be useful if you are familiar with other programming languages, such asPython, which often uses theprint()function to output code.",
+                    "And there are times you must use theprint()function to output code, for example when working withforloops (which you will learn more about in a later chapter):",
+                    "Conclusion:It is up to you whether you want to use theprint()function to output code. However, when your code is inside an R expression (e.g. inside curly braces{}like in the example above), use theprint()function to output the result."
+                ],
+                "lists": [],
+                "examples": [
+                    "\"Hello World!\"",
+                    "print(\"Hello World!\")",
+                    "for (x in 1:10) {print(x)}"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_comments.asp",
+        "cours": {
+            "titre": "RComments",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_comments.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Comments can be used to explain R code, and to make it more readable. It can also be used to \nprevent execution when testing alternative code.",
+                    "Comments starts with a#. When executing code, R will ignore anything \nthat starts with#.",
+                    "This example uses a comment before a line of code:",
+                    "This example uses a comment at the end of a line of code:",
+                    "Comments does not have to be text to explain the code, it can also be used to prevent R from\nexecuting the code:",
+                    "Unlike other programming languages, such asJava, there are no syntax in R for multiline comments. However, we can just insert a#for each line \nto create multiline comments:"
+                ],
+                "lists": [],
+                "examples": [
+                    "# This is a comment\"Hello World!\"",
+                    "\"Hello World!\"\n  # This is a comment",
+                    "# \"Good morning!\"\"Good night!\"",
+                    "# This is a comment# written in# more than just one line\"Hello World!\""
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_variables.asp",
+        "cours": {
+            "titre": "RVariables",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_variables.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Variables are containers for storing data values.",
+                    "R does not have a command for declaring a variable. A variable is created the moment you first assign a value to it. To assign a value to a variable, use the<-sign. To output (or print) the variable value, just type the variable name:",
+                    "From the example above,nameandagearevariables, while\"John\"and40arevalues.",
+                    "In other programming language, it is common to use=as an assignment operator. In R, we can use\nboth=and<-as assignment operators.",
+                    "However,<-is preferred in most cases because the=operator can be forbidden in some contexts in R.",
+                    "Compared to many other programming languages, you do not have to use a \nfunction to print/output variables in R. You can just type the name of the \nvariable:",
+                    "However, R does have aprint()function \navailable if you want to use it. This might be useful if you are familiar with other programming languages, such asPython, which \noften use aprint()function to output variables.",
+                    "And there are times you must use theprint()function to output code, for example when working withforloops (which you will learn more about in a later chapter):",
+                    "Conclusion:It is up to your if you want to use theprint()function or not to output code. However, when your code is inside an R expression (for example inside curly braces{}like in the example above), use theprint()function if you want to output the result."
+                ],
+                "lists": [],
+                "examples": [
+                    "name <- \"John\"age <- 40name   # output \"John\"age    # output 40",
+                    "name <- \"John Doe\"name # auto-print the value of the name variable",
+                    "name <- \"John Doe\"print(name) # print the value of the name variable",
+                    "for (x in 1:10) {print(x)}"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_variables_concat.asp",
+        "cours": {
+            "titre": "RConcatenate Elements",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_variables_concat.asp",
+            "contenus": {
+                "paragraphs": [
+                    "You can also concatenate, or join, two or more elements, by using thepaste()function.",
+                    "To combine both text and a variable, R uses comma (,):",
+                    "You can also use,to add a variable to another variable:",
+                    "For numbers, the+character works as a mathematical operator:",
+                    "If you try to combine a string (text) and a number, R will give you an error:",
+                    "Result:"
+                ],
+                "lists": [],
+                "examples": [
+                    "text <- \"awesome\"paste(\"R is\", text)",
+                    "text1 <- \"R is\"text2 <- \"awesome\"paste(text1, \n  text2)",
+                    "num1 <- 5num2 <- 10num1 + num2",
+                    "num <- 5text <- \"Some text\"num + text"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_variables_multiple.asp",
+        "cours": {
+            "titre": "RMultiple Variables",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_variables_multiple.asp",
+            "contenus": {
+                "paragraphs": [
+                    "R allows you to assign the same value to multiple variables in one line:"
+                ],
+                "lists": [],
+                "examples": [
+                    "# Assign the same value to multiple variables in one linevar1 <- var2 <- \n  var3 <- \"Orange\"# Print variable valuesvar1var2var3"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_variables_name.asp",
+        "cours": {
+            "titre": "RVariable Names (Identifiers)",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_variables_name.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Remember that variable names are case-sensitive!"
+                ],
+                "lists": [
+                    [
+                        "A variable name must start with a letter and can be a combination of \nletters, digits, period(.)and underscore(_). If it starts with period(.), it \ncannot be followed by a digit.",
+                        "A variable name cannot start with a number or underscore (_)",
+                        "Variable names are case-sensitive (age, Age and AGE are three different variables)",
+                        "Reserved words cannot be used as variables (TRUE, FALSE, NULL, if...)"
+                    ]
+                ],
+                "examples": [
+                    "# Legal variable names:myvar <- \"John\"my_var <- \"John\"myVar \n  <- \"John\"MYVAR <- \"John\"myvar2 <- \"John\".myvar <- \"John\"# Illegal variable names:2myvar <- \"John\"my-var <- \"John\"my var <- \"John\"_my_var <- \"John\"my_v@ar <- \"John\"TRUE <- \"John\""
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_data_types.asp",
+        "cours": {
+            "titre": "RData Types",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_data_types.asp",
+            "contenus": {
+                "paragraphs": [
+                    "In programming, data type is an important concept.",
+                    "Variables can store data of different types, and different types can do different things.",
+                    "In R, variables do not need to be declared with any particular type, and can even change type after they\nhave been set:",
+                    "R has a variety of data types and object classes. You will learn much more \nabout these as you continue to get to know R.",
+                    "Basic data types in R can be divided into the following types:",
+                    "We can use theclass()function to check the data type of a variable:",
+                    "You will learn much more about the individual data types in the upcoming chapters."
+                ],
+                "lists": [
+                    [
+                        "numeric- (10.5, 55, 787)",
+                        "integer- (1L, 55L, 100L, where the letter \"L\" declares this as an integer)",
+                        "complex- (9 + 3i, where \"i\" is the imaginary part)",
+                        "character(a.k.a. string) - (\"k\", \"R is exciting\", \"FALSE\", \"11.5\")",
+                        "logical(a.k.a. boolean) - (TRUE or FALSE)"
+                    ]
+                ],
+                "examples": [
+                    "my_var <- 30 # my_var is type ofnumericmy_var <- \"Sally\" \n  # my_var is now of typecharacter(aka string)",
+                    "# numericx <- 10.5class(x)# integerx <- 1000Lclass(x)# \n  complexx <- 9i + 3class(x)# character/stringx <- \"R is exciting\"class(x)# logical/booleanx <- TRUEclass(x)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_numbers.asp",
+        "cours": {
+            "titre": "RNumbers",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_numbers.asp",
+            "contenus": {
+                "paragraphs": [
+                    "There are three number types in R:",
+                    "Variables of number types are created when you assign a value to them:",
+                    "Anumericdata type is the most common type \nin R, and contains any number with or without a decimal, like: 10.5, 55, 787:",
+                    "Integers are numeric data without decimals. This is used when you are certain \nthat you will never create a variable that should contain decimals. To create anintegervariable, \nyou must use the letterLafter the integer value:",
+                    "Acomplexnumber is written with an \"i\" as the imaginary part:",
+                    "You can convert from one type to another with the following functions:"
+                ],
+                "lists": [
+                    [
+                        "numeric",
+                        "integer",
+                        "complex"
+                    ],
+                    [
+                        "as.numeric()",
+                        "as.integer()",
+                        "as.complex()"
+                    ]
+                ],
+                "examples": [
+                    "x <- 10.5   # \n  numericy <- 10L    # integerz <- 1i     # complex",
+                    "x <- 10.5y <- 55# Print values of x and yxy# \n  Print the class name of x and yclass(x)class(y)",
+                    "x <- 1000Ly <- 55L# Print values of x and yxy# Print the class name of x and yclass(x)class(y)",
+                    "x <- 3+5iy <- 5i# Print values of x and yxy# Print the class name of x and yclass(x)class(y)",
+                    "x <- 1L # integery <- 2 # numeric# convert from integer to \n  numeric:a <- as.numeric(x)# convert from numeric to integer:b \n  <- as.integer(y)# print values of x and yxy# print \n  the class name of a and bclass(a)class(b)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_math.asp",
+        "cours": {
+            "titre": "RMath",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_math.asp",
+            "contenus": {
+                "paragraphs": [
+                    "In R, you can useoperatorsto perform common mathematical operations on numbers.",
+                    "The+operator is used to add together two values:",
+                    "And the-operator is used for subtraction:",
+                    "You will learn more about available operators in ourR Operators Tutorial.",
+                    "R also has many built-in math functions that allows you to perform mathematical tasks on numbers.",
+                    "For example, themin()andmax()functions can be used to find the lowest or highest \nnumber in a set:",
+                    "Thesqrt()function returns the square root of \na number:",
+                    "Theabs()function returns the absolute (positive) value of \na number:",
+                    "Theceiling()function rounds a number upwards to \nits nearest integer, and thefloor()function rounds a number downwards to its nearest integer, and returns the result:"
+                ],
+                "lists": [],
+                "examples": [
+                    "10 + 5",
+                    "10 - 5",
+                    "max(5, 10, 15)min(5, 10, 15)",
+                    "sqrt(16)",
+                    "abs(-4.7)",
+                    "ceiling(1.4)floor(1.4)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_strings.asp",
+        "cours": {
+            "titre": "RStrings",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_strings.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Strings are used for storing text.",
+                    "A string is surrounded by either single quotation marks, or double quotation marks:",
+                    "\"hello\"is the same as'hello':",
+                    "Assigning a string to a variable is done with the variable followed by the<-operator and the string:",
+                    "You can assign a multiline string to a variable like this:",
+                    "However, note that R will add a \"\\n\" at the end of each line break. This is called an escape character, and thencharacter indicates anew line.",
+                    "If you want the line breaks to be inserted at the same position as in the code, use thecat()function:",
+                    "There are many useful string functions in R.",
+                    "For example, to find the number of characters in a string, use thenchar()function:",
+                    "Use thegrepl()function to check if a character or a sequence of characters are present in a string:",
+                    "Use thepaste()function to merge/concatenate two strings:"
+                ],
+                "lists": [],
+                "examples": [
+                    "\"hello\"'hello'",
+                    "str <- \"Hello\"str # print the value of str",
+                    "str <- \"Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do \n  eiusmod tempor incididuntut labore et dolore magna aliqua.\"str # print the value of str",
+                    "str <- \"Lorem ipsum dolor sit amet,consectetur adipiscing elit,sed do \n  eiusmod tempor incididuntut labore et dolore magna aliqua.\"cat(str)",
+                    "str <- \"Hello World!\"nchar(str)",
+                    "str <- \"Hello World!\"grepl(\"H\", str)grepl(\"Hello\", \n  str)grepl(\"X\", \n  str)",
+                    "str1 <- \"Hello\"str2 <- \"World\"paste(str1, str2)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_strings_esc.asp",
+        "cours": {
+            "titre": "REscape Characters",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_strings_esc.asp",
+            "contenus": {
+                "paragraphs": [
+                    "To insert characters that are illegal in a string, you must use an escape character.",
+                    "An escape character is a backslash\\followed by the character you want to insert.",
+                    "An example of an illegal character is a double quote inside a string that is surrounded by double quotes:",
+                    "Result:",
+                    "To fix this problem, use the escape character\\\":",
+                    "The escape character allows you to use double quotes when you normally would not be allowed:",
+                    "Note that auto-printing thestrvariable will print the backslash \nin the output. You can use thecat()function to print\nit without backslash.",
+                    "Other escape characters in R:"
+                ],
+                "lists": [],
+                "examples": [
+                    "str <- \"We are the so-called \"Vikings\", from the north.\"str",
+                    "str <- \"We are the so-called \\\"Vikings\\\", from the north.\"strcat(str)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_booleans.asp",
+        "cours": {
+            "titre": "RBooleans / Logical Values",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_booleans.asp",
+            "contenus": {
+                "paragraphs": [
+                    "In programming, you often need to know if an expression istrueorfalse.",
+                    "You can evaluate any expression in R, and get one of two answers,TRUEorFALSE.",
+                    "When you compare two values, the expression is evaluated and R returns the logical answer:",
+                    "You can also compare two variables:",
+                    "You can also run a condition in anifstatement, \nwhich you will learn much more about in theif..elsechapter."
+                ],
+                "lists": [],
+                "examples": [
+                    "10 > 9    # TRUE because 10 is greater than 910 == 9   \n  # FALSE because 10 is not equal to 910 < 9    # FALSE \n  because 10 is greater than 9",
+                    "a <- 10b <- 9a > b",
+                    "a <- 200b <- 33if (b > a) {print (\"b is greater than \n  a\")} else {print(\"b is not greater than a\")}"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_operators.asp",
+        "cours": {
+            "titre": "ROperators",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_operators.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Operators are used to perform operations on variables and values.",
+                    "In the example below, we use the+operator to add together two values:",
+                    "R divides the operators in the following groups:",
+                    "Arithmetic operators are used with numeric values to perform common mathematical operations:",
+                    "Assignment operators are used to assign values to variables:",
+                    "Note:<<-is a global \nassigner. You will learn more about this in theGlobal Variable chapter.",
+                    "It is also possible to turn the direction of the assignment operator.",
+                    "x <- 3 is equal to 3 -> x",
+                    "Comparison operators are used to compare two values:",
+                    "Logical operators are used to combine conditional statements:",
+                    "Miscellaneous operators are used to manipulate data:",
+                    "Note:You will learn more about Matrix multiplication and matrices in a later chapter."
+                ],
+                "lists": [
+                    [
+                        "Arithmetic operators",
+                        "Assignment operators",
+                        "Comparison operators",
+                        "Logical operators",
+                        "Miscellaneous operators"
+                    ]
+                ],
+                "examples": [
+                    "10 + 5",
+                    "my_var <- 3my_var <<- 33 -> my_var3 ->> \n  my_varmy_var # print my_var"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_if_else.asp",
+        "cours": {
+            "titre": "RIf ... Else",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_if_else.asp",
+            "contenus": {
+                "paragraphs": [
+                    "R supports the usual logical conditions from mathematics:",
+                    "These conditions can be used in several ways, most commonly in \"if statements\" and loops.",
+                    "An \"if statement\" is written with theifkeyword, and it is used to specify a block of code to be executed if a condition isTRUE:",
+                    "In this example we use two variables,aandb,\nwhich are used as a part of the if statement to test whetherbis greater thana.\nAsais33, andbis200,\nwe know that 200 is greater than 33, and so we print to screen that \"b is greater than a\".",
+                    "R uses curly brackets { } to define the scope in the code.",
+                    "Theelse ifkeyword is R's way of saying \"if the previous conditions were not true, then try this\ncondition\":",
+                    "In this exampleais equal tob, so the first condition is not true, but theelse ifcondition is true, so we\nprint to screen that \"a and b are equal\".",
+                    "You can use as manyelse ifstatements as you want in R.",
+                    "Theelsekeyword catches anything which isn't caught by the preceding conditions:",
+                    "In this example,ais greater thanb,\nso the first condition is not true, also theelse ifcondition is not true,\nso we go to theelsecondition and print to screen that \"a is greater than b\".",
+                    "You can also useelsewithoutelse if:"
+                ],
+                "lists": [],
+                "examples": [
+                    "a <- 33b <- 200if (b > a) {print(\"b is greater than a\")}",
+                    "a <- 33b <- 33if (b > a) {print(\"b is greater than a\")} else if (a == b) {print (\"a and b are equal\")}",
+                    "a <- 200b <- 33if (b > a) {print(\"b is greater than a\")} else if (a == b) {print(\"a and b are equal\")} else {print(\"a is greater than b\")}",
+                    "a <- 200b <- 33if (b > a) {print(\"b is greater than a\")} else {print(\"b is not greater than a\")}"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_if_else_nested.asp",
+        "cours": {
+            "titre": "RNested If",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_if_else_nested.asp",
+            "contenus": {
+                "paragraphs": [
+                    "You can also haveifstatements insideifstatements, this is callednestedifstatements."
+                ],
+                "lists": [],
+                "examples": [
+                    "x <- 41if (x > 10) {print(\"Above ten\")if (x > \n  20) {print(\"and also above 20!\")} else {print(\"but not above 20.\")}} else {print(\"below \n  10.\")}"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_if_else_andor.asp",
+        "cours": {
+            "titre": "R -AND OROperators",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_if_else_andor.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The&symbol (and) is a logical operator, and \nis used to combine conditional statements:",
+                    "Test if a is greater than b, AND if c is greater than a:",
+                    "The|symbol (or) is a logical operator, and is used to combine conditional statements:",
+                    "Test if a is greater than b, or if c is greater than a:"
+                ],
+                "lists": [],
+                "examples": [
+                    "a <- 200b <- 33c <- 500if (a > b & c > a) {print(\"Both conditions are true\")}",
+                    "a <- 200b <- 33c <- 500if (a > b | a > c) {print(\"At \n  least one of the conditions is true\")}"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_while_loop.asp",
+        "cours": {
+            "titre": "RWhile Loop",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_while_loop.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Loops can execute a block of code as long as a specified condition is reached.",
+                    "Loops are handy because they save time, reduce errors, and they make code more readable.",
+                    "R has two loop commands:",
+                    "With thewhileloop we can execute a set of statements as long as a condition is TRUE:",
+                    "Printias long asiis less than 6:",
+                    "In the example above, the loop will continue to produce numbers ranging from \n1 to 5. The loop will stop at 6 because6 < 6is FALSE.",
+                    "Thewhileloop requires relevant variables to be ready, in this example we \nneed to define an indexing variable,i, which we set to 1.",
+                    "Note:remember to increment i, or else the loop will continue forever.",
+                    "With thebreakstatement, we can stop the loop even if the while condition is TRUE:",
+                    "Exit the loop ifiis equal to 4.",
+                    "The loop will stop at 3 because we have chosen to finish the loop by using thebreakstatement wheniis equal to 4 (i == 4).",
+                    "With thenextstatement, we can skip an iteration without terminating the loop:",
+                    "Skip the value of 3:",
+                    "When the loop passes the value 3, it will skip it and continue to loop.",
+                    "To demonstrate a practical example, let us say we play a game of Yahtzee!",
+                    "Print \"Yahtzee!\" If the dice number is 6:",
+                    "If the loop passes the values ranging from 1 to 5, it prints \"No Yahtzee\". Whenever it passes the value\n6, it prints \"Yahtzee!\"."
+                ],
+                "lists": [
+                    [
+                        "whileloops",
+                        "forloops"
+                    ]
+                ],
+                "examples": [
+                    "i <- 1while (i < 6) {print(i)i <- i + 1}",
+                    "i <- 1while (i < 6) {print(i)i <- i + 1if \n  (i == 4) {break}}",
+                    "i <- 0while (i < 6) {i <- i + 1if (i == 3) {next}print(i)}",
+                    "dice <- 1while (dice <= 6) {if (dice < 6) {print(\"No \n  Yahtzee\")} else {print(\"Yahtzee!\")}dice <- dice \n  + 1}"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_for_loop.asp",
+        "cours": {
+            "titre": "RFor Loop",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_for_loop.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Aforloop is used for iterating over a sequence:",
+                    "This is less like theforkeyword in other programming languages, and works more like an iterator\nmethod as found in other object-oriented programming languages.",
+                    "With theforloop we can execute a set of statements, once for each item in a vector, \narray, list, etc..",
+                    "You will learn aboutlistsandvectors, etc in a later chapter.",
+                    "Print every item in a list:",
+                    "Print the number of dices:",
+                    "Theforloop does not require an indexing variable to set beforehand, like withwhileloops.",
+                    "With thebreakstatement, we can stop the loop before it has looped through all the items:",
+                    "Stop the loop at \"cherry\":",
+                    "The loop will stop at \"cherry\" because we have chosen to finish the loop by using thebreakstatement whenxis equal to \"cherry\" (x == \n\"cherry\").",
+                    "With thenextstatement, we can skip an iteration without terminating the loop:",
+                    "Skip \"banana\":",
+                    "When the loop passes \"banana\", it will skip it and continue to loop.",
+                    "To demonstrate a practical example, let us say we play a game of Yahtzee!",
+                    "Print \"Yahtzee!\" If the dice number is 6:",
+                    "If the loop reaches the values ranging from 1 to 5, it prints \"No Yahtzee\" and its number. When it\nreaches the value 6, it prints \"Yahtzee!\" and its number."
+                ],
+                "lists": [],
+                "examples": [
+                    "for (x in 1:10) {print(x)}",
+                    "fruits <- list(\"apple\", \"banana\", \"cherry\")for (x in fruits) {print(x)}",
+                    "dice <- c(1, 2, 3, 4, 5, 6)for (x in dice) {print(x)}",
+                    "fruits <- list(\"apple\", \"banana\", \"cherry\")for (x in fruits) {if (x == \"cherry\") {break}print(x)}",
+                    "fruits <- list(\"apple\", \"banana\", \"cherry\")for (x in fruits) {if (x == \"banana\") {next}print(x)}",
+                    "dice <- 1:6for(x in dice) {if (x == 6) {print(paste(\"The dice number is\", x, \"Yahtzee!\"))} else {print(paste(\"The dice number is\", x, \"Not Yahtzee\"))}}"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_for_loop_nested.asp",
+        "cours": {
+            "titre": "RNested Loops",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_for_loop_nested.asp",
+            "contenus": {
+                "paragraphs": [
+                    "It is also possible to place a loop inside another loop. This is called anested loop:",
+                    "Print the adjective of each fruit in a list:"
+                ],
+                "lists": [],
+                "examples": [
+                    "adj <- list(\"red\", \"big\", \"tasty\")fruits <- list(\"apple\", \"banana\", \n  \"cherry\")for (x in adj) {for (y in fruits) {print(paste(x, y))}}"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_functions.asp",
+        "cours": {
+            "titre": "RFunctions",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_functions.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A function is a block of code which only runs when it is called.",
+                    "You can pass data, known as parameters, into a function.",
+                    "A function can return data as a result.",
+                    "To create a function, use thefunction()keyword:",
+                    "To call a function, use the function name followed by parenthesis, likemy_function():",
+                    "Information can be passed into functions as arguments.",
+                    "Arguments are specified after the function name, inside the parentheses. You can add as many\narguments as you want, just separate them with a comma.",
+                    "The following example has a function with one argument (fname). When the function is called, we\npass along a first name, which is used inside the function to print the full name:",
+                    "The terms \"parameter\" and \"argument\" can be used for the same thing: information that are passed into\na function.",
+                    "From a function's perspective:",
+                    "A parameter is the variable listed inside the parentheses in the function definition.",
+                    "An argument is the value that is sent to the function when it is called.",
+                    "By default, a function must be called with the correct number of arguments. Meaning that if your\nfunction expects 2 arguments, you have to call the function with 2 arguments, not more, and not less:",
+                    "This function expects 2 arguments, and gets 2 arguments:",
+                    "If you try to call the function with 1 or 3 arguments, you will get an error:",
+                    "This function expects 2 arguments, and gets 1 argument:",
+                    "The following example shows how to use a default parameter value.",
+                    "If we call the function without an argument, it uses the default value:",
+                    "To let a function return a result, use thereturn()function:",
+                    "The output of the code above will be:"
+                ],
+                "lists": [],
+                "examples": [
+                    "my_function <- function() { # create a function with the name my_functionprint(\"Hello World!\")}",
+                    "my_function <- function() {print(\"Hello World!\")}my_function()# call the function named my_function",
+                    "my_function <- function(fname) {paste(fname, \"Griffin\")}my_function(\"Peter\")my_function(\"Lois\")my_function(\"Stewie\")",
+                    "my_function <- function(fname, lname) {paste(fname, lname)}my_function(\"Peter\", \"Griffin\")",
+                    "my_function <- function(fname, lname) {paste(fname, lname)}my_function(\"Peter\")",
+                    "my_function <- function(country = \"Norway\") {paste(\"I am \n  from\", country)}my_function(\"Sweden\")my_function(\"India\")my_function() \n  # will get the default value, which is Norwaymy_function(\"USA\")",
+                    "my_function <- function(x) {return (5 * x)}print(my_function(3))print(my_function(5))print(my_function(9))"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_functions_nested.asp",
+        "cours": {
+            "titre": "RNested Functions",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_functions_nested.asp",
+            "contenus": {
+                "paragraphs": [
+                    "There are two ways to create a nested function:",
+                    "Call a function within another function:",
+                    "The function tells x to add y.",
+                    "The first input Nested_function(2,2) is \"x\" of the main function.",
+                    "The second input Nested_function(3,3) is \"y\" of the main function.",
+                    "The output is therefore (2+2) + (3+3) =10.",
+                    "Write a function within a function:",
+                    "You cannot directly call the function because the Inner_func has been defined (nested) inside the\nOuter_func.",
+                    "We need to call Outer_func first in order to call Inner_func as a second step.We need to create a new variable called output and give it a value, which is 3 here.We then print the output with the desired value of \"y\", which in this case is 5.The output is therefore8(3 + 5).❮ PreviousNext ❯★+1Track your progress - it's free!Log inSign Up",
+                    "We need to create a new variable called output and give it a value, which is 3 here.",
+                    "We then print the output with the desired value of \"y\", which in this case is 5.",
+                    "The output is therefore8(3 + 5)."
+                ],
+                "lists": [
+                    [
+                        "Call a function within another function.",
+                        "Write a function within a function."
+                    ]
+                ],
+                "examples": [
+                    "Nested_function <- function(x, y) {a <- x + yreturn(a)}Nested_function(Nested_function(2,2), Nested_function(3,3))",
+                    "Outer_func <- function(x) {Inner_func <- function(y) {a <- x + yreturn(a)}return \n  (Inner_func)}output <- Outer_func(3) # To \n  call the Outer_funcoutput(5)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_functions_recursion.asp",
+        "cours": {
+            "titre": "RFunction Recursion",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_functions_recursion.asp",
+            "contenus": {
+                "paragraphs": [
+                    "R also accepts function recursion, which means a defined function can call itself.",
+                    "Recursion is a common mathematical and programming concept. It means that a function calls itself.\nThis has the benefit of meaning that you can loop through data to reach a result.",
+                    "The developer should be very careful with recursion as it can be quite easy to slip into writing a\nfunction which never terminates, or one that uses excess amounts of memory or processor power.\nHowever, when written correctly, recursion can be a very efficient and mathematically-elegant\napproach to programming.",
+                    "In this example,tri_recursion()is a function that we have defined to call itself (\"recurse\"). We use thekvariable as the data, which decrements (-1) every time we recurse. The recursion ends when the\ncondition is not greater than 0 (i.e. when it is 0).",
+                    "To a new developer it can take some time to work out how exactly this works, best way to find out is\nby testing and modifying it."
+                ],
+                "lists": [],
+                "examples": [
+                    "tri_recursion <- function(k) {if (k > 0) {result <- k + tri_recursion(k - 1)print(result)} else {result = 0return(result)}}tri_recursion(6)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_variables_global.asp",
+        "cours": {
+            "titre": "RGlobal Variables",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_variables_global.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Variables that are created outside of a function are known asglobalvariables.",
+                    "Global variables can be used by everyone, both inside of functions and outside.",
+                    "Create a variable outside of a function and use it inside the function:",
+                    "If you create a variable with the same name inside a function, this variable will be local, and can only\nbe used inside the function. The global variable with the same name will remain as it was, global and\nwith the original value.",
+                    "Create a variable inside of a function with the same name as the\nglobal variable:",
+                    "If you try to printtxt, it will return \"global variable\" because we are printingtxtoutside the function.",
+                    "Normally, when you create a variable inside a function, that variable is local, and can only be used\ninside that function.",
+                    "To create a global variable inside a function, you can use theglobal assignmentoperator<<-",
+                    "If you use the assignment operator<<-, the variable belongs to the global scope:",
+                    "Also, use theglobalassignment operator if you want to \nchange a global variable inside a function:",
+                    "To change the value of a global variable inside a function, refer to the variable by using the global\nassignment operator<<-:"
+                ],
+                "lists": [],
+                "examples": [
+                    "txt <- \"awesome\"my_function <- function() {paste(\"R is\", \n  txt)}my_function()",
+                    "txt <- \"global variable\"my_function <- function() {txt = \"fantastic\"paste(\"R is\", txt)}my_function()txt # print txt",
+                    "my_function <- function() {txt <<- \"fantastic\"paste(\"R is\", \n  txt)}my_function()print(txt)",
+                    "txt <- \"awesome\"my_function <- function() {txt <<- \"fantastic\"paste(\"R is\", txt)}my_function()paste(\"R is\", \n  txt)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_vectors.asp",
+        "cours": {
+            "titre": "RVectors",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_vectors.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A vector is simply a list of items that are of the same type.",
+                    "To combine the list of items to a vector, use thec()function and separate the items by a comma.",
+                    "In the example below, we create a vector variable calledfruits, \nthat combine strings:",
+                    "In this example, we create a vector that combines numerical values:",
+                    "To create a vector with numerical values in a sequence, use the:operator:",
+                    "You can also create numerical values with decimals in a sequence, but note that if the last element does not belong to the sequence, it is not used:",
+                    "Result:",
+                    "In the example below, we create a vector of logical values:",
+                    "To find out how many items a vector has, use thelength()function:",
+                    "To sort items in a vector alphabetically or numerically, use thesort()function:",
+                    "You can access the vector items by referring to its index number inside brackets[]. The first item has index 1, the second item has index 2, and so on:",
+                    "You can also access multiple elements by referring to different index \npositions with thec()function:",
+                    "You can also use negative index numbers to access all items except the ones specified:",
+                    "To change the value of a specific item, refer to the index number:",
+                    "To repeat vectors, use therep()function:",
+                    "Repeat each value:",
+                    "Repeat the sequence of the vector:",
+                    "Repeat each value independently:",
+                    "One of the examples on top, showed you how to create a vector with numerical values in a sequence with the:operator:",
+                    "To make bigger or smaller steps in a sequence, use theseq()function:",
+                    "Note:Theseq()function has three parameters:fromis where the sequence starts,tois where the sequence stops, andbyis the interval of the\nsequence."
+                ],
+                "lists": [],
+                "examples": [
+                    "# Vector of stringsfruits <- c(\"banana\", \"apple\", \"orange\")# Print fruitsfruits",
+                    "# Vector of numerical \n  valuesnumbers <- c(1, 2, 3)# Print numbersnumbers",
+                    "# Vector with numerical values in a sequencenumbers <- \n  1:10numbers",
+                    "# Vector with numerical \n  decimals in a sequencenumbers1 <- \n  1.5:6.5numbers1# Vector with numerical \n  decimals in a sequence where the last element is not usednumbers2 <- \n  1.5:6.3numbers2",
+                    "# Vector of logical valueslog_values <- \n  c(TRUE, FALSE, TRUE, FALSE)log_values",
+                    "fruits <- c(\"banana\", \"apple\", \"orange\")length(fruits)",
+                    "fruits <- c(\"banana\", \"apple\", \"orange\", \"mango\", \"lemon\")numbers <- c(13, 3, 5, 7, 20, 2)sort(fruits) \n  # Sort a stringsort(numbers) # Sort numbers",
+                    "fruits <- c(\"banana\", \"apple\", \"orange\")# Access the first item (banana)fruits[1]",
+                    "fruits <- c(\"banana\", \"apple\", \"orange\", \n  \"mango\", \"lemon\")# Access the first and third item \n  (banana and orange)fruits[c(1, 3)]",
+                    "fruits <- c(\"banana\", \"apple\", \"orange\", \"mango\", \"lemon\")# Access all \n  items except for the first itemfruits[c(-1)]",
+                    "fruits <- c(\"banana\", \"apple\", \"orange\", \"mango\", \"lemon\")# Change \n  \"banana\" to \"pear\"fruits[1] <- \"pear\"# Print fruitsfruits",
+                    "repeat_each <- rep(c(1,2,3), each = 3)repeat_each",
+                    "repeat_times <- rep(c(1,2,3), times = 3)repeat_times",
+                    "repeat_indepent <- rep(c(1,2,3), times = c(5,2,1))repeat_indepent",
+                    "numbers <- \n  1:10numbers",
+                    "numbers <- seq(from = 0, to = 100, by = 20)numbers"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_lists.asp",
+        "cours": {
+            "titre": "RLists",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_lists.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A list in R can contain many different data types inside it. A list is a collection of data which is ordered and\nchangeable.",
+                    "To create a list, use thelist()function:",
+                    "You can access the list items by referring to its index number, inside brackets. The first item has index 1, the second item has index 2, and so on:",
+                    "To change the value of a specific item, refer to the index number:",
+                    "To find out how many items a list has, use thelength()function:",
+                    "To find out if a specified item is present in a list, use the%in%operator:",
+                    "Check if \"apple\" is present in the list:",
+                    "To add an item to the end of the list, use theappend()function:",
+                    "Add \"orange\" to the list:",
+                    "To add an item to the right of a specified index, add \"after=index number\" in theappend()function:",
+                    "Add \"orange\" to the list after \"banana\" (index 2):",
+                    "You can also remove list items. The following example creates a new, updated list without \nan \"apple\" item:",
+                    "Remove \"apple\" from the list:",
+                    "You can specify a range of indexes by specifying where to start and where to end the range, by using the:operator:",
+                    "Return the second, third, fourth and fifth item:",
+                    "Note:The search will start at index 2 (included) and end at index 5 (included).",
+                    "Remember that the first item has index 1.",
+                    "You can loop through the list items by using aforloop:",
+                    "Print all items in the list, one by one:",
+                    "There are several ways to join, or concatenate, two or more lists in R.",
+                    "The most common way is to use thec()function, which combines two elements together:"
+                ],
+                "lists": [],
+                "examples": [
+                    "# List of stringsthislist <- list(\"apple\", \"banana\", \"cherry\")# Print the listthislist",
+                    "thislist <- list(\"apple\", \"banana\", \"cherry\")thislist[1]",
+                    "thislist <- list(\"apple\", \"banana\", \"cherry\")thislist[1] <- \"blackcurrant\"# Print the updated listthislist",
+                    "thislist <- list(\"apple\", \"banana\", \"cherry\")length(thislist)",
+                    "thislist <- list(\"apple\", \"banana\", \"cherry\")\"apple\" %in% thislist",
+                    "thislist <- list(\"apple\", \"banana\", \"cherry\")append(thislist, \n  \"orange\")",
+                    "thislist <- list(\"apple\", \"banana\", \"cherry\")append(thislist, \n  \"orange\", after = 2)",
+                    "thislist <- list(\"apple\", \"banana\", \"cherry\")newlist <- thislist[-1]# Print the new listnewlist",
+                    "thislist <- list(\"apple\", \"banana\", \"cherry\", \"orange\", \"kiwi\", \"melon\", \n  \"mango\")(thislist)[2:5]",
+                    "thislist <- list(\"apple\", \"banana\", \"cherry\")for (x in thislist) {print(x)}",
+                    "list1 <- list(\"a\", \"b\", \"c\")list2 <- list(1,2,3)list3 <- \n  c(list1,list2)list3"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_matrices.asp",
+        "cours": {
+            "titre": "RMatrices",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_matrices.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A matrix is a two dimensional data set with columns and rows.",
+                    "A column is a vertical representation of data, while a row is a horizontal representation of data.",
+                    "A matrix can be created with thematrix()function. Specify thenrowandncolparameters to get the amount of rows and columns:",
+                    "Note:Remember thec()function is used to concatenate \nitems together.",
+                    "You can also create a matrix with strings:",
+                    "You can access the items by using[ ]brackets. The first number \"1\" in the bracket specifies the row-position, while \nthe second number \"2\" specifies the column-position:",
+                    "The whole row can be accessed if you specify a commaafterthe number in the bracket:",
+                    "The whole column can be accessed if you specify a commabeforethe number in the bracket:",
+                    "More than one row can be accessed if you use thec()function:",
+                    "More than one column can be accessed if you use thec()function:",
+                    "Use thecbind()function to add additional columns in a Matrix:",
+                    "Note:The cells in the new column must be of the same length as the existing matrix.",
+                    "Use therbind()function to add additional rows in a Matrix:",
+                    "Note:The cells in the new row must be of the same length as the existing matrix.",
+                    "Use thec()function to remove rows and columns in a Matrix:",
+                    "To find out if a specified item is present in a matrix, use the%in%operator:",
+                    "Check if \"apple\" is present in the matrix:",
+                    "Use thedim()function to find the number of rows and columns in a Matrix:",
+                    "Use thelength()function to find the dimension of a Matrix:",
+                    "Total cells in the matrix is the number of rows multiplied by number of columns.",
+                    "In the example above: Dimension = 2*2 =4.",
+                    "You can loop through a Matrix using aforloop. The loop will start at the \nfirst row, moving right:",
+                    "Loop through the matrix items and print them:",
+                    "Again, you can use therbind()orcbind()function to combine two or more matrices together:"
+                ],
+                "lists": [],
+                "examples": [
+                    "# Create a matrixthismatrix <- matrix(c(1,2,3,4,5,6), nrow = 3, ncol = 2)# Print the \n  matrixthismatrix",
+                    "thismatrix <- matrix(c(\"apple\", \"banana\", \"cherry\", \"orange\"), nrow = 2, ncol \n  = 2)thismatrix",
+                    "thismatrix <- matrix(c(\"apple\", \"banana\", \"cherry\", \"orange\"), nrow = 2, ncol \n  = 2)thismatrix[1, 2]",
+                    "thismatrix <- matrix(c(\"apple\", \"banana\", \"cherry\", \"orange\"), nrow = 2, ncol \n  = 2)thismatrix[2,]",
+                    "thismatrix <- matrix(c(\"apple\", \"banana\", \"cherry\", \"orange\"), nrow = 2, ncol \n  = 2)thismatrix[,2]",
+                    "thismatrix <- matrix(c(\"apple\", \"banana\", \"cherry\", \"orange\",\"grape\", \n  \"pineapple\", \"pear\", \"melon\", \"fig\"), nrow = 3, ncol = 3)thismatrix[c(1,2),]",
+                    "thismatrix <- matrix(c(\"apple\", \"banana\", \"cherry\", \"orange\",\"grape\", \n  \"pineapple\", \"pear\", \"melon\", \"fig\"), nrow = 3, ncol = 3)thismatrix[, \n  c(1,2)]",
+                    "thismatrix <- matrix(c(\"apple\", \"banana\", \"cherry\", \"orange\",\"grape\", \n  \"pineapple\", \"pear\", \"melon\", \"fig\"), nrow = 3, ncol = 3)newmatrix <- \n  cbind(thismatrix, c(\"strawberry\", \"blueberry\", \"raspberry\"))# Print the new matrixnewmatrix",
+                    "thismatrix <- matrix(c(\"apple\", \"banana\", \"cherry\", \"orange\",\"grape\", \n  \"pineapple\", \"pear\", \"melon\", \"fig\"), nrow = 3, ncol = 3)newmatrix <- \n  rbind(thismatrix, c(\"strawberry\", \"blueberry\", \"raspberry\"))# Print the new matrixnewmatrix",
+                    "thismatrix <- matrix(c(\"apple\", \"banana\", \"cherry\", \"orange\", \"mango\", \"pineapple\"), \n  nrow = 3, ncol =2)#Remove the first row and the first columnthismatrix <- thismatrix[-c(1), -c(1)]thismatrix",
+                    "thismatrix <- matrix(c(\"apple\", \"banana\", \"cherry\", \"orange\"), nrow = 2, ncol \n  = 2)\"apple\" %in% thismatrix",
+                    "thismatrix <- matrix(c(\"apple\", \"banana\", \"cherry\", \"orange\"), nrow = 2, ncol \n  = 2)dim(thismatrix)",
+                    "thismatrix <- matrix(c(\"apple\", \"banana\", \"cherry\", \"orange\"), nrow = 2, ncol \n  = 2)length(thismatrix)",
+                    "thismatrix <- matrix(c(\"apple\", \"banana\", \"cherry\", \"orange\"), nrow = 2, ncol \n  = 2)for (rows in 1:nrow(thismatrix)) {for (columns in \n  1:ncol(thismatrix)) {print(thismatrix[rows, columns])}}",
+                    "# Combine matricesMatrix1 <- matrix(c(\"apple\", \"banana\", \"cherry\", \n  \"grape\"), nrow = 2, ncol = 2)Matrix2 <- matrix(c(\"orange\", \"mango\", \n  \"pineapple\", \"watermelon\"), nrow = 2, ncol = 2)# Adding it as a rowsMatrix_Combined <- rbind(Matrix1, Matrix2)Matrix_Combined# Adding it as a columnsMatrix_Combined <- cbind(Matrix1, Matrix2)Matrix_Combined"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_arrays.asp",
+        "cours": {
+            "titre": "RArrays",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_arrays.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Compared to matrices, arrays can have more than two dimensions.",
+                    "We can use thearray()function to create an array, and thedimparameter to specify the dimensions:",
+                    "In the example above we create an array with the values 1 to 24.",
+                    "How doesdim=c(4,3,2)work?The first and second number in the bracket specifies the amount of rows and columns.The last number in the bracket specifies how many dimensions we want.",
+                    "Note:Arrays can only have one data type.",
+                    "You can access the array elements by referring to the index position. You can use the[]brackets to\naccess the desired elements from an array:",
+                    "The syntax is as follow:\narray[row position, column position, matrix level]",
+                    "You can also access the whole row or column from a matrix in an array, by using thec()function:",
+                    "A comma (,) before c() means that we want to access the column.",
+                    "A comma (,) after c() means that we want to access the row.",
+                    "To find out if a specified item is present in an array, use the%in%operator:",
+                    "Check if the value \"2\" is present in the array:",
+                    "Use thedim()function to find the amount of rows and columns in an array:",
+                    "Use thelength()function to find the dimension of an array:",
+                    "You can loop through the array items by using aforloop:"
+                ],
+                "lists": [],
+                "examples": [
+                    "# An array with one dimension with values ranging from 1 to 24thisarray <- \n  c(1:24)thisarray# An array with more than one dimensionmultiarray <- array(thisarray, dim = c(4, 3, 2))multiarray",
+                    "thisarray <- c(1:24)multiarray <- array(thisarray, dim = c(4, 3, 2))multiarray[2, 3, 2]",
+                    "thisarray <- c(1:24)# Access all the items from the first row from \n  matrix onemultiarray <- array(thisarray, dim = c(4, 3, 2))multiarray[c(1),,1]# Access all the items from the first column \n  from matrix onemultiarray <- array(thisarray, dim = c(4, 3, 2))multiarray[,c(1),1]",
+                    "thisarray <- c(1:24)multiarray <- array(thisarray, dim = c(4, 3, 2))2 %in% multiarray",
+                    "thisarray <- c(1:24)multiarray <- array(thisarray, dim = c(4, 3, 2))dim(multiarray)",
+                    "thisarray <- c(1:24)multiarray <- array(thisarray, dim = c(4, 3, 2))length(multiarray)",
+                    "thisarray <- c(1:24)multiarray <- array(thisarray, dim = c(4, 3, 2))for(x in multiarray){print(x)}"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_data_frames.asp",
+        "cours": {
+            "titre": "RData Frames",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_data_frames.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Data Frames are data displayed in a format as a table.",
+                    "Data Frames can have different types of data inside it. While the first column can becharacter, the\nsecond and third can benumericorlogical. However, each column should have the same type of\ndata.",
+                    "Use thedata.frame()function to create a data frame:",
+                    "Use thesummary()function to summarize the data from a Data Frame:",
+                    "You will learn more about thesummary()function in the statistical part of the R tutorial.",
+                    "We can use single brackets[ ], double \nbrackets[[ ]]or$to access columns from a data frame:",
+                    "Use therbind()function to add new rows in \na Data Frame:",
+                    "Use thecbind()function to add new columns \nin a Data Frame:",
+                    "Use thec()function to remove rows and columns in a Data Frame:",
+                    "Use thedim()function to find the amount of rows and columns in a Data Frame:",
+                    "You can also use thencol()function to find the number of columns andnrow()to find the number of rows:",
+                    "Use thelength()function to find the number of columns in a Data Frame (similar toncol()):",
+                    "Use therbind()function to combine two or more data frames in R vertically:",
+                    "And use thecbind()function to combine two or more data frames in R horizontally:"
+                ],
+                "lists": [],
+                "examples": [
+                    "# Create a data frameData_Frame <- data.frame (Training = c(\"Strength\", \"Stamina\", \n  \"Other\"),Pulse = c(100, 150, 120),Duration = c(60, 30, \n  45))# Print the data frameData_Frame",
+                    "Data_Frame <- data.frame (Training = c(\"Strength\", \"Stamina\", \n  \"Other\"),Pulse = c(100, 150, 120),Duration = c(60, 30, \n  45))Data_Framesummary(Data_Frame)",
+                    "Data_Frame <- data.frame (Training = c(\"Strength\", \"Stamina\", \n  \"Other\"),Pulse = c(100, 150, 120),Duration = c(60, 30, \n  45))Data_Frame[1]Data_Frame[[\"Training\"]]Data_Frame$Training",
+                    "Data_Frame <- data.frame (Training = c(\"Strength\", \"Stamina\", \n  \"Other\"),Pulse = c(100, 150, 120),Duration = c(60, 30, \n  45))# Add a new rowNew_row_DF <- rbind(Data_Frame, c(\"Strength\", \n  110, 110))# Print the new rowNew_row_DF",
+                    "Data_Frame <- data.frame (Training = c(\"Strength\", \"Stamina\", \n  \"Other\"),Pulse = c(100, 150, 120),Duration = c(60, 30, \n  45))# Add a new columnNew_col_DF <- cbind(Data_Frame, Steps = \n  c(1000, 6000, 2000))# Print the new columnNew_col_DF",
+                    "Data_Frame <- data.frame (Training = c(\"Strength\", \"Stamina\", \n  \"Other\"),Pulse = c(100, 150, 120),Duration = c(60, 30, \n  45))# Remove the first row and columnData_Frame_New <- \n  Data_Frame[-c(1), -c(1)]# Print the new data frameData_Frame_New",
+                    "Data_Frame <- data.frame (Training = c(\"Strength\", \"Stamina\", \n  \"Other\"),Pulse = c(100, 150, 120),Duration = c(60, 30, \n  45))dim(Data_Frame)",
+                    "Data_Frame <- data.frame (Training = c(\"Strength\", \"Stamina\", \n  \"Other\"),Pulse = c(100, 150, 120),Duration = c(60, 30, \n  45))ncol(Data_Frame)nrow(Data_Frame)",
+                    "Data_Frame <- data.frame (Training = c(\"Strength\", \"Stamina\", \n  \"Other\"),Pulse = c(100, 150, 120),Duration = c(60, 30, \n  45))length(Data_Frame)",
+                    "Data_Frame1 <- data.frame (Training = c(\"Strength\", \"Stamina\", \n  \"Other\"),Pulse = c(100, 150, 120),Duration = c(60, 30, \n  45))Data_Frame2 <- data.frame (Training = c(\"Stamina\", \n  \"Stamina\", \"Strength\"),Pulse = c(140, 150, 160),Duration = \n  c(30, 30, 20))New_Data_Frame <- rbind(Data_Frame1, Data_Frame2)New_Data_Frame",
+                    "Data_Frame3 <- data.frame (Training = c(\"Strength\", \"Stamina\", \n  \"Other\"),Pulse = c(100, 150, 120),Duration = c(60, 30, \n  45))Data_Frame4 <- data.frame (Steps = c(3000, 6000, \n  2000),Calories = c(300, 400, 300))New_Data_Frame1 <- \n  cbind(Data_Frame3, Data_Frame4)New_Data_Frame1"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_factors.asp",
+        "cours": {
+            "titre": "RFactors",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_factors.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Factors are used to categorize data. Examples of factors are:",
+                    "To create a factor, use thefactor()function \nand add a vector as argument:",
+                    "Result:",
+                    "You can see from the example above that that the factor has four levels (categories): Classic, Jazz, Pop and Rock.",
+                    "To only print the levels, use thelevels()function:",
+                    "Result:",
+                    "You can also set the levels, by adding thelevelsargument inside thefactor()function:",
+                    "Result:",
+                    "Use thelength()function to find out how many items there are in the factor:",
+                    "Result:",
+                    "To access the items in a factor, refer to the index number, using[]brackets:",
+                    "Access the third item:",
+                    "Result:",
+                    "To change the value of a specific item, refer to the index number:",
+                    "Change the value of the third item:",
+                    "Result:",
+                    "Note that you cannot change the value of a specific item if it is not already \nspecified in the factor. The following example will produce an error:",
+                    "Trying to change the value of the third item (\"Classic\") to an item that does \nnot exist/not predefined (\"Opera\"):",
+                    "Result:",
+                    "However, if you have already specified it inside thelevelsargument, it will work:",
+                    "Change the value of the third item:",
+                    "Result:"
+                ],
+                "lists": [
+                    [
+                        "Demography: Male/Female",
+                        "Music: Rock, Pop, Classic, Jazz",
+                        "Training: Strength, Stamina"
+                    ]
+                ],
+                "examples": [
+                    "# Create a factormusic_genre <- factor(c(\"Jazz\", \"Rock\", \"Classic\", \"Classic\", \"Pop\", \"Jazz\", \n  \"Rock\", \"Jazz\"))# Print the factormusic_genre",
+                    "music_genre <- factor(c(\"Jazz\", \"Rock\", \"Classic\", \"Classic\", \"Pop\", \"Jazz\", \n  \"Rock\", \"Jazz\"))levels(music_genre)",
+                    "music_genre <- factor(c(\"Jazz\", \"Rock\", \"Classic\", \"Classic\", \"Pop\", \"Jazz\", \n  \"Rock\", \"Jazz\"), levels = c(\"Classic\", \"Jazz\", \"Pop\", \"Rock\", \"Other\"))levels(music_genre)",
+                    "music_genre <- factor(c(\"Jazz\", \"Rock\", \"Classic\", \"Classic\", \"Pop\", \"Jazz\", \n  \"Rock\", \"Jazz\"))length(music_genre)",
+                    "music_genre <- factor(c(\"Jazz\", \"Rock\", \"Classic\", \"Classic\", \"Pop\", \"Jazz\", \n  \"Rock\", \"Jazz\"))music_genre[3]",
+                    "music_genre <- factor(c(\"Jazz\", \"Rock\", \"Classic\", \"Classic\", \"Pop\", \"Jazz\", \n  \"Rock\", \"Jazz\"))music_genre[3] <- \"Pop\"music_genre[3]",
+                    "music_genre <- factor(c(\"Jazz\", \"Rock\", \"Classic\", \"Classic\", \"Pop\", \"Jazz\", \n  \"Rock\", \"Jazz\"))music_genre[3] <- \"Opera\"music_genre[3]",
+                    "music_genre <- factor(c(\"Jazz\", \"Rock\", \"Classic\", \"Classic\", \"Pop\", \"Jazz\", \n  \"Rock\", \"Jazz\"), levels = c(\"Classic\", \"Jazz\", \"Pop\", \"Rock\",\"Opera\"))music_genre[3] <- \"Opera\"music_genre[3]"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_graph_plot.asp",
+        "cours": {
+            "titre": "RPlotting",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_graph_plot.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Theplot()function is used to draw points (markers) in a diagram.",
+                    "The function takes parameters for specifying points in the diagram.",
+                    "Parameter 1 specifies points on thex-axis.",
+                    "Parameter 2 specifies points on they-axis.",
+                    "At its simplest, you can use theplot()function to plot two numbers against each other:",
+                    "Draw one point in the diagram, at position (1) and position (3):",
+                    "Result:",
+                    "To draw more points, usevectors:",
+                    "Draw two points in the diagram, one at position (1, 3) and one in position (8, 10):",
+                    "Result:",
+                    "You can plot as many points as you like, just make sure you have the same number of points in both axis:",
+                    "Result:",
+                    "For better organization, when you have many values, it is better to use variables:",
+                    "Result:",
+                    "If you want to draw dots in a sequence, on both thex-axisand they-axis, use the:operator:",
+                    "Result:",
+                    "Theplot()function also takes atypeparameter with the valuelto draw a line to connect all the points in \nthe diagram:",
+                    "Result:",
+                    "Theplot()function also accept other parameters, \nsuch asmain,xlabandylabif you want to customize the graph with a main title and different labels for \nthe x and y-axis:",
+                    "Result:",
+                    "There are many other parameters you can use to change the appearance of the points.",
+                    "Usecol=\"color\"to add a color to the \npoints:",
+                    "Result:",
+                    "Usecex=numberto change the size \nof the points (1is default, while0.5means 50% smaller, and2means 100% larger):",
+                    "Result:",
+                    "Usepchwith a value from 0 to 25 to change the point shape format:",
+                    "Result:",
+                    "The values of thepchparameter ranges from 0 to 25, which means that we can choose up to 26 different types of\npoint shapes:"
+                ],
+                "lists": [],
+                "examples": [
+                    "plot(1, 3)",
+                    "plot(c(1, 8), c(3, 10))",
+                    "plot(c(1, 2, 3, 4, 5), c(3, 7, 8, 9, 12))",
+                    "x <- c(1, 2, 3, 4, 5)y <- c(3, 7, 8, 9, 12)plot(x, y)",
+                    "plot(1:10)",
+                    "plot(1:10, type=\"l\")",
+                    "plot(1:10, main=\"My Graph\", xlab=\"The x-axis\", ylab=\"The y axis\")",
+                    "plot(1:10, col=\"red\")",
+                    "plot(1:10, cex=2)",
+                    "plot(1:10, pch=25, cex=2)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_graph_line.asp",
+        "cours": {
+            "titre": "RLine",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_graph_line.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A line graph has a line that connects all the points in a diagram.",
+                    "To create a line, use theplot()function and add thetypeparameter with a value of\"l\":",
+                    "Result:",
+                    "The line color is black by default. To change the color, use thecolparameter:",
+                    "Result:",
+                    "To change the width of the line, use thelwdparameter (1is default, while0.5means 50% smaller, and2means 100% larger):",
+                    "Result:",
+                    "The line is solid by default. Use theltyparameter with a value from0 to 6to specify the line format.",
+                    "For example,lty=3will display a dotted line instead of a solid line:",
+                    "Result:",
+                    "Available parameter values forlty:",
+                    "To display more than one line in a graph, use theplot()function together with thelines()function:",
+                    "Result:"
+                ],
+                "lists": [
+                    [
+                        "0removes the line",
+                        "1displays a solid line",
+                        "2displays a dashed line",
+                        "3displays a dotted line",
+                        "4displays a \"dot dashed\" line",
+                        "5displays a \"long dashed\" line",
+                        "6displays a \"two dashed\" line"
+                    ]
+                ],
+                "examples": [
+                    "plot(1:10, type=\"l\")",
+                    "plot(1:10, type=\"l\", col=\"blue\")",
+                    "plot(1:10, type=\"l\", lwd=2)",
+                    "plot(1:10, type=\"l\", lwd=5, lty=3)",
+                    "line1 <- c(1,2,3,4,5,10)line2 <- c(2,5,7,8,9,10)plot(line1, \n  type = \"l\", col = \"blue\")lines(line2, type=\"l\", col = \"red\")"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_graph_scatterplot.asp",
+        "cours": {
+            "titre": "RScatter Plot",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_graph_scatterplot.asp",
+            "contenus": {
+                "paragraphs": [
+                    "You learned from thePlot chapterthat theplot()function is used to plot \nnumbers against each other.",
+                    "A \"scatter plot\" is a type of plot used to display the relationship between two numerical \nvariables, and plots one dot for each observation.",
+                    "It needs two vectors of same \nlength, one for the x-axis (horizontal) and one for the y-axis (vertical):",
+                    "Result:",
+                    "The observation in the example above should show the result of 12 cars passing by.",
+                    "That might not be clear for someone who sees the graph for the first time, so let's add a header and \ndifferent labels to describe the scatter plot better:",
+                    "Result:",
+                    "To recap, the observation in the example above is the result of 12 cars passing by.",
+                    "Thex-axisshows how old the car is.",
+                    "They-axisshows the speed of the car when it passes.",
+                    "Are there any relationships between the observations?",
+                    "It seems that the newer the car, the faster it drives, but that could be a coincidence, after all we only registered 12 cars.",
+                    "In the example above, there seems to be a relationship between the car speed and age, but what if we plot the observations from another day as well? Will the scatter plot tell us something else?",
+                    "To compare the plot with another plot, use thepoints()function:",
+                    "Draw two plots on the same figure:",
+                    "Result:",
+                    "Note:To be able to see the difference of the comparison, you must assign different colors to the plots (by using thecolparameter).Redrepresents the values of day 1, whilebluerepresents day 2.  Note that we have also added thecexparameter to increase the size of the dots.",
+                    "Conclusion of observation:By comparing the two plots, I think it is safe to say that they both gives us the same conclusion: the newer the car, the faster it drives."
+                ],
+                "lists": [],
+                "examples": [
+                    "x <- c(5,7,8,7,2,2,9,4,11,12,9,6)y <- \n  c(99,86,87,88,111,103,87,94,78,77,85,86)plot(x, y)",
+                    "x <- c(5,7,8,7,2,2,9,4,11,12,9,6)y <- \n  c(99,86,87,88,111,103,87,94,78,77,85,86)plot(x, y, main=\"Observation \n  of Cars\", xlab=\"Car age\", ylab=\"Car speed\")",
+                    "# day one, the age and speed of 12 cars:x1 <- c(5,7,8,7,2,2,9,4,11,12,9,6)y1 <- c(99,86,87,88,111,103,87,94,78,77,85,86)# day two, the age and speed of 15 cars:x2 <- \n  c(2,2,8,1,15,8,12,9,7,3,11,4,7,14,12)y2 <- \n  c(100,105,84,105,90,99,90,95,94,100,79,112,91,80,85)plot(x1, y1, \n  main=\"Observation of Cars\", xlab=\"Car age\", ylab=\"Car speed\", col=\"red\", \n  cex=2)points(x2, y2, col=\"blue\", cex=2)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_graph_pie.asp",
+        "cours": {
+            "titre": "RPie Charts",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_graph_pie.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A pie chart is a circular graphical view of data.",
+                    "Use thepie()function to draw pie charts:",
+                    "Result:",
+                    "As you can see the pie chart draws one pie for each value in the vector (in this case\n10, 20, 30, 40).",
+                    "By default, the plotting of the first pie starts from the x-axis and movecounterclockwise.",
+                    "Note:The size of each pie is determined by comparing the value with all the other values, by\nusing this formula:",
+                    "The value divided by the sum of all values:x/sum(x)",
+                    "You can change the start angle of the pie chart with theinit.angleparameter.",
+                    "The value ofinit.angleis defined with angle in degrees, where default angle is 0.",
+                    "Start the first pie at 90 degrees:",
+                    "Result:",
+                    "Use thelabelparameter to add a label to the pie chart, \nand use themainparameter to add a header:",
+                    "Result:",
+                    "You can add a color to each pie with thecolparameter:",
+                    "Result:",
+                    "To add a list of explanation for each pie, use thelegend()function:",
+                    "Result:",
+                    "The legend can be positioned as either:",
+                    "bottomright,bottom,bottomleft,left,topleft,top,topright,right,center"
+                ],
+                "lists": [],
+                "examples": [
+                    "# Create a vector of piesx <- c(10,20,30,40)# Display \n  the pie chartpie(x)",
+                    "# Create a vector of piesx <- c(10,20,30,40)# Display \n  the pie chart and start the first pie at 90 degreespie(x, init.angle = 90)",
+                    "# Create a vector of piesx <- c(10,20,30,40)# Create a vector of labelsmylabel <- c(\"Apples\", \n  \"Bananas\", \"Cherries\", \"Dates\")# Display \n  the pie chart with labelspie(x, label = mylabel, main = \"Fruits\")",
+                    "# Create a vector of colorscolors <- c(\"blue\", \"yellow\", \"green\", \"black\")# Display the pie chart \n  with colorspie(x, label = mylabel, main = \n  \"Fruits\", col = colors)",
+                    "# Create a vector of labelsmylabel <- c(\"Apples\", \"Bananas\", \"Cherries\", \n  \"Dates\")# Create a vector of colorscolors <- c(\"blue\", \"yellow\", \n  \"green\", \"black\")# Display the pie chart with \n  colorspie(x, label = mylabel, \n  main = \"Pie Chart\", col = colors)# Display the explanation boxlegend(\"bottomright\", mylabel, fill = colors)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_graph_bars.asp",
+        "cours": {
+            "titre": "RBar Charts",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_graph_bars.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A bar chart uses rectangular bars to visualize data. Bar charts can be displayed horizontally or vertically. The height or length of the bars are proportional to the values they represent.",
+                    "Use thebarplot()function to draw a vertical bar chart:",
+                    "Result:",
+                    "Use thecolparameter to change the color of the bars:",
+                    "Result:",
+                    "To change the bar texture, use thedensityparameter:",
+                    "Result:",
+                    "Use thewidthparameter to change the width of the bars:",
+                    "Result:",
+                    "If you want the bars to be displayed horizontally instead of vertically, usehoriz=TRUE:",
+                    "Result:"
+                ],
+                "lists": [
+                    [
+                        "Thexvariable represents values in the x-axis (A,B,C,D)",
+                        "Theyvariable represents values in the y-axis (2,4,6,8)",
+                        "Then we use thebarplot()function to \ncreate a bar chart of the values",
+                        "names.argdefines the names of each observation in the x-axis"
+                    ]
+                ],
+                "examples": [
+                    "# x-axis valuesx <- c(\"A\", \"B\", \"C\", \"D\")# y-axis valuesy <- c(2, 4, 6, 8)barplot(y, names.arg = x)",
+                    "x <- c(\"A\", \"B\", \"C\", \"D\")y <- c(2, 4, 6, 8)barplot(y, names.arg = x, \n  col = \"red\")",
+                    "x <- c(\"A\", \"B\", \"C\", \"D\")y <- c(2, 4, 6, 8)barplot(y, names.arg = x, \n  density = 10)",
+                    "x <- c(\"A\", \"B\", \"C\", \"D\")y <- c(2, 4, 6, 8)barplot(y, names.arg = x, \n  width = c(1,2,3,4))",
+                    "x <- c(\"A\", \"B\", \"C\", \"D\")y <- c(2, 4, 6, 8)barplot(y, names.arg = x, \n  horiz = TRUE)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_stat_intro.asp",
+        "cours": {
+            "titre": "RStatistics",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_stat_intro.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Statistics is the science of analyzing, reviewing and conclude data.",
+                    "Some basic statistical numbers include:",
+                    "The R language was developed by two statisticians. It has many built-in functionalities, in addition to\nlibraries for the exact purpose of statistical analysis.",
+                    "You will learn about these features, and how to use them in the next chapters.",
+                    "Tip:If you are completely new to statistics, and want to learn more about it, visit ourStatistics Tutorial."
+                ],
+                "lists": [
+                    [
+                        "Mean, median and mode",
+                        "Minimum and maximum value",
+                        "Percentiles",
+                        "Variance and Standard Devation",
+                        "Covariance and Correlation",
+                        "Probability distributions"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_stat_data_set.asp",
+        "cours": {
+            "titre": "RData Set",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_stat_data_set.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A data set is a collection of data, often presented in a table.",
+                    "There is a popular built-in data set in R called \"mtcars\" (Motor Trend Car Road Tests), which is \nretrieved from the 1974 Motor Trend US Magazine.",
+                    "In the examples below (and for the next chapters), we will use themtcarsdata set, for statistical purposes:",
+                    "Result:",
+                    "You can use the question mark (?) to get information about themtcarsdata set:",
+                    "Result:",
+                    "The data was extracted from the 1974Motor TrendUS magazine,\nand comprises fuel consumption and 10 aspects of\nautomobile design and performance for 32 automobiles (1973-74\nmodels).",
+                    "A data frame with 32 observations on 11 (numeric) variables.",
+                    "Henderson and Velleman (1981) comment in a footnote to Table 1:\n'Hocking [original transcriber]'s noncrucial coding of the\nMazda's rotary engine as a straight six-cylinder engine and the\nPorsche's flat engine as a V engine, as well as the inclusion of the\ndiesel Mercedes 240D, have been retained to enable direct comparisons\nto be made with previous analyses.'",
+                    "Henderson and Velleman (1981),\nBuilding multiple regression models interactively.Biometrics,37, 391-411.",
+                    "Use thedim()function to find the dimensions of the data set, and thenames()function to view the names of the\nvariables:",
+                    "Result:",
+                    "Use therownames()function to get the name of each row in the first column, which is the name of each car:",
+                    "Result:",
+                    "From the examples above, we have found out that the data set has32observations \n(Mazda RX4, Mazda RX4 Wag, Datsun 710, etc) and11variables \n(mpg, cyl, disp, etc).",
+                    "A variable is defined as something that can be measured or counted.",
+                    "Here is a brief explanation of the variables from the mtcars data set:",
+                    "If you want to print all values that belong to a variable, access the data \nframe by using the$sign, and the name of the variable \n(for examplecyl(cylinders)):",
+                    "Result:",
+                    "To sort the values, use thesort()function:",
+                    "Result:",
+                    "From the examples above, we see that most cars have 4 and 8 cylinders.",
+                    "Now that we have some information about the data set, we can start to analyze it with some statistical numbers.",
+                    "For example, we can use thesummary()function to get a statistical summary of the data:",
+                    "Do not worry if you do not understand the output numbers. You will master them shortly.",
+                    "Thesummary()function returns six statistical numbers for each variable:",
+                    "We will cover all of them, along with other statistical numbers in the next chapters."
+                ],
+                "lists": [
+                    [
+                        "Min",
+                        "First quantile (percentile)",
+                        "Median",
+                        "Mean",
+                        "Third quantile (percentile)",
+                        "Max"
+                    ]
+                ],
+                "examples": [
+                    "# Print the mtcars data setmtcars",
+                    "# Use the question mark to get information about \n  the data set?mtcars",
+                    "Data_Cars <- mtcars # create a variable of the mtcars data set for better \n  organization# Use dim() to find the dimension of the data setdim(Data_Cars)# Use names() to find the names of the variables from \n  the data setnames(Data_Cars)",
+                    "Data_Cars <- mtcarsrownames(Data_Cars)",
+                    "Data_Cars <- mtcarsData_Cars$cyl",
+                    "Data_Cars <- mtcarssort(Data_Cars$cyl)",
+                    "Data_Cars <- mtcarssummary(Data_Cars)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_stat_max_min.asp",
+        "cours": {
+            "titre": "RMax and Min",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_stat_max_min.asp",
+            "contenus": {
+                "paragraphs": [
+                    "In the previous chapter, we introduced themtcarsdata set. We will continue to use this data set throughout the next pages.",
+                    "You learned from theR Mathchapter that R has several built-in math functions. For example, themin()andmax()functions can be used to find the lowest or highest \nvalue in a set:",
+                    "Find the largest and smallest value of the variablehp(horsepower).",
+                    "Result:",
+                    "Now we know that the largest horsepower value in the set is335, and the lowest52.",
+                    "We could take a look at the data set and try to find out which car these two values belongs to:",
+                    "By observing the table, it looks like the largest hp value belongs to a Maserati Bora, and the lowest belongs to a Honda Civic.",
+                    "However, it is much easier (and safer) to let R find out this for us.",
+                    "For example, we can use thewhich.max()andwhich.min()functions to find the index position of the max and min value in the table:",
+                    "Result:",
+                    "Or even better, combinewhich.max()andwhich.min()with therownames()function to get the name of the car with the largest and smallest horsepower:",
+                    "Result:",
+                    "Now we know for sure:Maserati Borais the car with the highest horsepower, andHonda Civicis the car with the lowest horsepower.",
+                    "Max and min can also be used to detectoutliers. An outlier is a data point that differs from rest\nof the observations.",
+                    "Example of data points that could have been outliers in themtcarsdata set:"
+                ],
+                "lists": [
+                    [
+                        "If maximum of forward gears of a car was 11",
+                        "If minimum of horsepower of a car was 0",
+                        "If maximum weight of a car was 50 000 lbs"
+                    ]
+                ],
+                "examples": [
+                    "Data_Cars <- mtcarsmax(Data_Cars$hp)min(Data_Cars$hp)",
+                    "Data_Cars <- mtcarswhich.max(Data_Cars$hp)which.min(Data_Cars$hp)",
+                    "Data_Cars <- mtcarsrownames(Data_Cars)[which.max(Data_Cars$hp)]rownames(Data_Cars)[which.min(Data_Cars$hp)]"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_stat_mean.asp",
+        "cours": {
+            "titre": "RMean",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_stat_mean.asp",
+            "contenus": {
+                "paragraphs": [
+                    "In statistics, there are often three values that interests us:",
+                    "To calculate the average value (mean) of a variable from themtcarsdata set, find the sum of all values, and divide the sum by the number of values.",
+                    "Luckily for us, themean()function in R can do it for you:",
+                    "Find the average weight (wt) of a car:",
+                    "Result:"
+                ],
+                "lists": [
+                    [
+                        "Mean- The average value",
+                        "Median- The middle value",
+                        "Mode- The most common value"
+                    ]
+                ],
+                "examples": [
+                    "Data_Cars <- mtcarsmean(Data_Cars$wt)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_stat_median.asp",
+        "cours": {
+            "titre": "RMedian",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_stat_median.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The median value is the value in the middle, after you have sorted all the values.",
+                    "If we take a look at the values of thewtvariable (from themtcarsdata set), we will see that there are two numbers in the middle:",
+                    "Note:If there are two numbers in the middle, you must divide the sum of those numbers by two, to find the median.",
+                    "Luckily, R has a function that does all of that for you: Just use themedian()function to find the middle value:",
+                    "Find the mid point value of weight (wt):",
+                    "Result:"
+                ],
+                "lists": [],
+                "examples": [
+                    "Data_Cars <- mtcarsmedian(Data_Cars$wt)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_stat_mode.asp",
+        "cours": {
+            "titre": "RMode",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_stat_mode.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The mode value is the value that appears the most number of times.",
+                    "R does not have a function to calculate the mode. However, we can create our \nown function to find it.",
+                    "If we take a look at the values of thewtvariable (from themtcarsdata set), we will see that the numbers3.440are often shown:",
+                    "Instead of counting it ourselves, we can use the following code to find the mode:",
+                    "Result:",
+                    "From the example above, we now know that the number that appears the most number of times in mtcars wt variable is3.44or3.440 lbs."
+                ],
+                "lists": [],
+                "examples": [
+                    "Data_Cars <- mtcarsnames(sort(-table(Data_Cars$wt)))[1]"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_stat_percentiles.asp",
+        "cours": {
+            "titre": "RPercentiles",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_stat_percentiles.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Percentiles are used in statistics to give you a number that describes the value that a given percent of\nthe values are lower than.",
+                    "If we take a look at the values of thewt(weight) variable from themtcarsdata set:",
+                    "What is the 75. percentile of the weight of the cars? The answer is 3.61 or 3 610 lbs, meaning that 75% or the cars weight 3 610 lbs or less:",
+                    "Result:",
+                    "If you run thequantile()function without specifying thec()parameter, you will get \nthe percentiles of 0, 25, 50, 75 and 100:",
+                    "Result:",
+                    "Quartiles are data divided into four parts, when sorted in an ascending order:",
+                    "Use thequantile()function to get the quartiles."
+                ],
+                "lists": [
+                    [
+                        "The value of the first quartile cuts off the first 25% of the data",
+                        "The value of the second quartile cuts off the first 50% of the data",
+                        "The value of the third quartile cuts off the first 75% of the data",
+                        "The value of the fourth quartile cuts off the 100% of the data"
+                    ]
+                ],
+                "examples": [
+                    "Data_Cars <- mtcars# c() specifies which percentile you wantquantile(Data_Cars$wt, c(0.75))",
+                    "Data_Cars <- mtcarsquantile(Data_Cars$wt)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_examples.asp",
+        "cours": {
+            "titre": "RExamples",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_examples.asp",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_compiler.asp",
+        "cours": {
+            "titre": "ROnline Compiler",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_compiler.asp",
+            "contenus": {
+                "paragraphs": [
+                    "With our online R compiler, you can edit R code, and view the result in your browser.",
+                    "Click on the \"Try it Yourself\" button to see how it works.",
+                    "The window to the left is editable - edit the code and click on the \"Run\" button to view the result in the right window.",
+                    "The icons are explained in the table below:",
+                    "If you do not know R, we suggest that you read ourR Tutorialfrom scratch."
+                ],
+                "lists": [],
+                "examples": [
+                    "\"Hello World!\"5 + 5"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_exercises.asp",
+        "cours": {
+            "titre": "RExercises",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_exercises.asp",
+            "contenus": {
+                "paragraphs": [
+                    "We have gathered a variety of R exercises (with answers) for each R Chapter.",
+                    "Try to solve an exercise by editing some code, or show the answer to see what you've done wrong.",
+                    "You will get 1 point for\neach correct answer. Your score and total score will always be displayed.",
+                    "Good luck!",
+                    "Start R Exercises ❯",
+                    "If you do not know R, we suggest that you read ourR Tutorialfrom scratch."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_quiz.asp",
+        "cours": {
+            "titre": "RQuiz",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_quiz.asp",
+            "contenus": {
+                "paragraphs": [
+                    "You can test your R skills with W3Schools' Quiz.",
+                    "The test contains 25 questions and there is no time limit.",
+                    "The test is not official, it's just a nice way to see how much you know, or don't know, about \nR.",
+                    "You will get 1 point for each correct answer. At the end of the Quiz,\nyour total score will be displayed. Maximum score is 25 points.",
+                    "Good luck!",
+                    "Start the R Quiz ❯",
+                    "If you do not know R, we suggest that you read ourR Tutorialfrom scratch."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_syllabus.asp",
+        "cours": {
+            "titre": "RSyllabus",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_syllabus.asp",
+            "contenus": {
+                "paragraphs": [
+                    "TheW3Schools R Tutorialis comprehensive and beginner-friendly.",
+                    "It will give you a fundamental knowledge of R programming.",
+                    "It is designed for beginners and requires no prior programming experience.",
+                    "The content has been carefully made to be bite-sized, simple, and easy to understand.",
+                    "The content has been proven by millions of users over the years. It is updated and improved frequently.",
+                    "The syllabus outline and its sequence are structured so you can learn R step by step, from the introduction to data analysis.",
+                    "Get Started With R »",
+                    "Note:Are you a teacher teaching R?W3Schools Academyis a toolbox of features that can help you teach. It offers classroom features such as pre-built study plans, classroom administration and much more. Read more aboutAcademy here.",
+                    "Get Started",
+                    "In this tutorial we offer different activities for you to learn R for free:",
+                    "You can also create a free account to track your progress.",
+                    "As a signed-in user, you get access to features such as:",
+                    "Sign Up - It's free",
+                    "Get Started",
+                    "R, like any programming language, is best learned through hands-on practice.",
+                    "Try this example using our editor:",
+                    "How you can use R to easily create a graph with \nnumbers from 1 to 10 on both the x and y axis:",
+                    "Result:",
+                    "If you want to explore more and host your project, we have a feature calledSpacesthat allows you to build, test and run R scripts for free.",
+                    "Here you get a secure sandbox environment called Spaces, where you can practice R code and test projects in real-time.",
+                    "Spaces allow you to test, run, and analyze data. This includes a W3Schools subdomain, hosting, and secure SSL certificates.",
+                    "Spaces require no installation and run directly in the browser.",
+                    "Features include:",
+                    "Create a Spaces Account",
+                    "W3Schools offers an end-of-pathway certification program.",
+                    "Here you can take exams to get certified.",
+                    "The R exam is a test that summarizes the W3Schools R syllabus.",
+                    "After passing the exam you get the \"Certified R Developer\" Certification.",
+                    "The adaptive certification exam is adaptive and graded; students will get a grade from intermediate, advanced to professional.",
+                    "Buy Certificate »",
+                    "Are you interested in learning how you can useW3Schools Academyto Teach \nR?",
+                    "Watch a demo ofW3Schools Academy. You'll see how it works, and discover how it can make teaching programming easier and more engaging.",
+                    "Watch Demo »"
+                ],
+                "lists": [
+                    [
+                        "Learn R basics and syntax",
+                        "Work with R variables and data types",
+                        "Use operators and control structures (if, while, for)",
+                        "Create and use functions in R",
+                        "Work with data structures (vectors, lists, matrices, arrays)",
+                        "Create data frames and use factors",
+                        "Make plots and visualize data (line, scatter, pie, bar)",
+                        "Perform basic statistics (mean, median, mode)",
+                        "Analyze data sets using R"
+                    ],
+                    [
+                        "Data Science:R is essential for data analysis and statistical computing.",
+                        "Statistics:R provides comprehensive tools for statistical analysis.",
+                        "Machine Learning:R offers powerful packages for ML algorithms.",
+                        "Data Visualization:R excels at creating sophisticated plots and graphs.",
+                        "Bioinformatics:R is widely used in biological data analysis.",
+                        "Research:R supports academic and scientific research.",
+                        "Business Analytics:R helps in business intelligence and reporting."
+                    ],
+                    [
+                        "Lessons",
+                        "Exercises",
+                        "Quizzes"
+                    ],
+                    [
+                        "Learning paths",
+                        "Sandbox and lab environments",
+                        "Achievements",
+                        "And much more!"
+                    ],
+                    [
+                        "R HOME",
+                        "R Intro",
+                        "R Get Started",
+                        "R Syntax",
+                        "R Comments",
+                        "R Variables",
+                        "Concatenate Elements",
+                        "Multiple Variables",
+                        "Variable Names",
+                        "R Data Types",
+                        "R Numbers",
+                        "R Math",
+                        "R Strings",
+                        "Escape Characters",
+                        "R Booleans",
+                        "R Operators",
+                        "R If...Else",
+                        "Nested If",
+                        "And Or",
+                        "R While Loop",
+                        "R For Loop",
+                        "Nested Loop",
+                        "R Functions",
+                        "Nested Functions",
+                        "Recursion",
+                        "R Vectors",
+                        "R Lists",
+                        "R Matrices",
+                        "R Arrays",
+                        "R Data Frames",
+                        "R Factors",
+                        "R Plot",
+                        "R Line",
+                        "R Scatterplot",
+                        "R Pie Charts",
+                        "R Statistics Intro",
+                        "R Data Set",
+                        "R Max and Min",
+                        "R Mean",
+                        "R Median",
+                        "R Mode"
+                    ],
+                    [
+                        "Collaboration",
+                        "File navigator",
+                        "Terminal & log",
+                        "Package manager",
+                        "Database",
+                        "Environment manager",
+                        "Analytics"
+                    ]
+                ],
+                "examples": [
+                    "plot(1:10)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_study_plan.asp",
+        "cours": {
+            "titre": "RStudy Plan",
+            "description": "",
+            "lien": "https://www.w3schools.com/r/r_study_plan.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The R study plan helps you teach your students R step-by-step.",
+                    "Creating a study plan for R is easy.",
+                    "You can use a pre-built study plan or customize it.",
+                    "Students have different skill levels. The study plans can be customized to ensure that everyone is challenged.",
+                    "Save time with pre-built teacher materials and study plans. Easily organize your class with a timeline from the introduction of R to the final exam.",
+                    "This study plan is a feature of W3Schools Academy.",
+                    "W3Schools Academy is a platform that has everything you need to teach coding, all in one place.",
+                    "It offers you as a teacher a toolbox of features that helps you succeed with teaching in your classroom.",
+                    "You need to have an active subscription to access the study plan feature. There are two different subscription tiers:",
+                    "Learn More »",
+                    "Academy also offer other features such as:",
+                    "Get a free demo »",
+                    "W3Schools has everything you need to teach R.",
+                    "The R training materials is available for you to include and use in your study plan:",
+                    "With the R Syllabus, your students will start with the basics, like understanding variables, data types, and syntax, and move to more advanced topics, like data visualization, statistical analysis, and working with data frames. Each chapter includes examples, try-it-yourself sections, exercises, and quizzes to make learning easy, interactive, and fun.",
+                    "Read more about R Syllabus.",
+                    "The study plan features are made to help teachers and students. They make learning easy, flexible, and fun. These features work for different types of classes, learning styles and student level.",
+                    "Learn More »",
+                    "You choose the timeline and paceof your study plans.",
+                    "Schools have different preferences.",
+                    "Some would like more intensive pace, e.g. 3 weeks, others 12 or more weeks.",
+                    "It is completely up to you.",
+                    "For example, this is how a 3-week R study plan could look like:",
+                    "Image of Sample R study plan:",
+                    "Start withR Study Planstoday.",
+                    "Get Started »",
+                    "Are you interested in learning how you can useW3Schools Academyto Teach R programming?",
+                    "Watch a demo ofW3Schools Academy. You'll see how it works, and discover how it can make teaching programming easier and more engaging.",
+                    "Watch Demo »"
+                ],
+                "lists": [
+                    [
+                        "Essentials ($1.99 / month per student)",
+                        "Full Access ($5.99 / month per student)",
+                        "Calculate your price and orderhere."
+                    ],
+                    [
+                        "Managing your classroom",
+                        "Tracking of student progress and reports",
+                        "Labs, assignments, and code challenges (prebuilt challenges or create your own ones)",
+                        "Auto-grading",
+                        "Teaching materials",
+                        "Certification exams"
+                    ],
+                    [
+                        "W3Schools R Tutorial",
+                        "R Exercises",
+                        "R Quiz",
+                        "R Challenges (Coding challenges)",
+                        "R Certification Exam (End of Pathway Exam)"
+                    ],
+                    [
+                        "Learning PathsYou can add ready-made learning paths.The learning paths are by default ordered by our recommended order.You can change the order.You can add custom activities with text, links, or multi-media files.Drag and drop or click to make changes to the path.",
+                        "You can add ready-made learning paths.",
+                        "The learning paths are by default ordered by our recommended order.",
+                        "You can change the order.",
+                        "You can add custom activities with text, links, or multi-media files.",
+                        "Drag and drop or click to make changes to the path.",
+                        "Interactive ContentTutorialsTry-its (test code snippets)ExercisesQuizChallengesLabs",
+                        "Tutorials",
+                        "Try-its (test code snippets)",
+                        "Exercises",
+                        "Quiz",
+                        "Challenges",
+                        "Labs",
+                        "Timeline and PaceYou can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).You can decide the learning pace for your class.Different study plans can be assigned to different students in the same class.The flexibility can help to make sure that everyone is challenged.",
+                        "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+                        "You can decide the learning pace for your class.",
+                        "Different study plans can be assigned to different students in the same class.",
+                        "The flexibility can help to make sure that everyone is challenged.",
+                        "Track Student ProgressThere are tools to track student progress.The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+                        "There are tools to track student progress.",
+                        "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+                        "The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+                        "End of Pathway ExamThe R study plan aligns with the R Certification Exam.The exam can be taken at the end of the study plan, at your selected date.The exam summarizes the R Tutorial.You get reports of the students' results.",
+                        "The R study plan aligns with the R Certification Exam.",
+                        "The exam can be taken at the end of the study plan, at your selected date.",
+                        "The exam summarizes the R Tutorial.",
+                        "You get reports of the students' results.",
+                        "AccessibilityStudy plans and learning materials are accessible on desktops, tablets, and smartphones.This ensures students can learn anytime, anywhere.",
+                        "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+                        "This ensures students can learn anytime, anywhere."
+                    ],
+                    [
+                        "You can add ready-made learning paths.",
+                        "The learning paths are by default ordered by our recommended order.",
+                        "You can change the order.",
+                        "You can add custom activities with text, links, or multi-media files.",
+                        "Drag and drop or click to make changes to the path."
+                    ],
+                    [
+                        "Tutorials",
+                        "Try-its (test code snippets)",
+                        "Exercises",
+                        "Quiz",
+                        "Challenges",
+                        "Labs"
+                    ],
+                    [
+                        "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+                        "You can decide the learning pace for your class.",
+                        "Different study plans can be assigned to different students in the same class.",
+                        "The flexibility can help to make sure that everyone is challenged."
+                    ],
+                    [
+                        "There are tools to track student progress.",
+                        "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+                        "The challenges can be auto-graded or manually graded. The results are available to you as a teacher."
+                    ],
+                    [
+                        "The R study plan aligns with the R Certification Exam.",
+                        "The exam can be taken at the end of the study plan, at your selected date.",
+                        "The exam summarizes the R Tutorial.",
+                        "You get reports of the students' results."
+                    ],
+                    [
+                        "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+                        "This ensures students can learn anytime, anywhere."
+                    ],
+                    [
+                        "Week 1: Introduction, Basics",
+                        "Week 2: Conditionals & Loops, Functions, Data Structures, Graphics",
+                        "Week 3: Statistics, Statistics Mean Median Mode, Statistics Percentiles, R Certification Exam"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/r/r_exam.asp",
+        "cours": {
+            "titre": "RCertificate",
+            "description": "How Does It Work?Study for free at W3Schools.comStudy at your own speedTest your skills with W3Schools online quizzesApply for your certificate by paying an exam feeTake your exam online, at any time, and from any location",
+            "lien": "https://www.w3schools.com/r/r_exam.asp",
+            "contenus": {
+                "paragraphs": [
+                    "W3Schools offers an Online Certification Program.",
+                    "The perfect solution for busy professionals who need to balance work, family, and career building.",
+                    "More than 50 000 certificates already issued!",
+                    "Get Your Certificate »",
+                    "W3Schools offers an Online Certification Program.",
+                    "The perfect solution for busy professionals who need to balance work, family, and career building.",
+                    "More than 50 000 certificates already issued!",
+                    "Get Your Certificate »",
+                    "Any student or professional within the digital industry.",
+                    "Certifications are valuable assets to gain trust and demonstrate knowledge to your clients, current or future employers on a ever increasing competitive market.",
+                    "W3Schools has over two decades of experience with teaching coding online.",
+                    "Our certificates are recognized and valued by companies looking to employ skilled developers.",
+                    "Show the world your coding skills by getting a certification.",
+                    "The prices is a small fraction compared to the price of traditional education.",
+                    "Document and validate your competence by getting certified!",
+                    "Fee:95 USD",
+                    "Achievable certification levels:Intermediate (40%)Advanced (75%)Professional (90%)",
+                    "Number of questions:Adaptive,60on average",
+                    "Requirement to pass:Minimum 40% - Intermediate level",
+                    "Time limit:60 minutes",
+                    "Number of attempts to pass:3",
+                    "Exam deadline:None",
+                    "Certification Expiration:None",
+                    "Format:Online, multiple choice",
+                    "Register now »",
+                    "Getting a certificate proves your commitment to upgrading your skills.",
+                    "The certificate can be added as credentials to your CV, Resume, LinkedIn profile, and so on.",
+                    "It gives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+                    "Knowledge is power, especially in the current job market.",
+                    "Documentation of your skills enables you to advance your career or helps you to start a new one.",
+                    "Example certificate:",
+                    "Each certificate gets a unique link that can be shared with others.",
+                    "Validate your certification with the link or QR code.",
+                    "Check how it looks like in thisExample.",
+                    "Share your certificate on Linkedin the Certifications section in just one click!",
+                    "Getting a certificate proves your commitment to upgrade your skills,\ngives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+                    "Get Your Certificate »",
+                    "Are you an educator, manager or business owner looking for courses or certifications?",
+                    "We are working with schools, companies and organizations from all over the world.",
+                    "Get courses and/or certifications for your team here."
+                ],
+                "lists": [
+                    [
+                        "Study for free at W3Schools.com",
+                        "Study at your own speed",
+                        "Test your skills with W3Schools online quizzes",
+                        "Apply for your certificate by paying an exam fee",
+                        "Take your exam online, at any time, and from any location"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://campus.w3schools.com/products/r-certificate",
+        "cours": {}
+    }
+]

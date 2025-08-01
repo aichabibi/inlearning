@@ -1,0 +1,63 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            <div class="card">
+                <div class="card-header {% if attempt.passed %}bg-success{% else %}bg-danger{% endif %} text-white">
+                    <h3 class="mb-0">
+                        {% if attempt.passed %}
+                        <i class="bi bi-check-circle me-2"></i>Quiz réussi !
+                        {% else %}
+                        <i class="bi bi-x-circle me-2"></i>Quiz échoué
+                        {% endif %}
+                    </h3>
+                </div>
+                <div class="card-body">
+                    <div class="text-center mb-4">
+                        <h4>Votre score : {{ attempt.score|floatformat:1 }}%</h4>
+                        <p class="text-muted">
+                            Score minimum requis : {{ attempt.quiz.passing_score }}%
+                        </p>
+                    </div>
+
+                    <h5 class="mb-3">Détail des réponses :</h5>
+                    {% for user_answer in user_answers %}
+                    <div class="answer-container mb-4">
+                        <div class="question mb-2">
+                            <strong>Question :</strong> {{ user_answer.question.text }}
+                        </div>
+                        <div class="answer {% if user_answer.is_correct %}text-success{% else %}text-danger{% endif %}">
+                            <strong>Votre réponse :</strong> {{ user_answer.selected_answer.text }}
+                            {% if user_answer.is_correct %}
+                            <i class="bi bi-check-circle ms-2"></i>
+                            {% else %}
+                            <i class="bi bi-x-circle ms-2"></i>
+                            {% endif %}
+                        </div>
+                        {% if not user_answer.is_correct %}
+                        <div class="correct-answer text-success mt-2">
+                            <strong>Bonne réponse :</strong> 
+                            {% for answer in user_answer.question.answers.all %}
+                                {% if answer.is_correct %}
+                                    {{ answer.text }}
+                                {% endif %}
+                            {% endfor %}
+                        </div>
+                        {% endif %}
+                    </div>
+                    {% endfor %}
+
+                    <div class="d-grid gap-2 mt-4">
+                        <a href="{% url 'learning_path_detail' path_id=attempt.quiz.learning_path.id %}" 
+                           class="btn btn-primary">
+                            <i class="bi bi-arrow-left me-2"></i>Retour au parcours
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %} 

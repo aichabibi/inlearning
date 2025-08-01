@@ -1,0 +1,94 @@
+[
+    {
+        "person": {
+            "id": "P001",
+            "name": "Sophie Martin",
+            "age": 24,
+            "gender": "Femme"
+        },
+        "preferences": {
+            "preferred_language": "français",
+            "learning_mode": "mixte",
+            "interests": [
+                "développement web",
+                "intelligence artificielle"
+            ]
+        },
+        "academic_background": {
+            "highest_academic_level": "licence",
+            "fields_of_study": [
+                {
+                    "field_name": "Informatique",
+                    "institution": "Université Lyon 1",
+                    "year_of_completion": 2022
+                }
+            ]
+        },
+        "professional_background": {
+            "total_experience_years": 1,
+            "jobs": [
+                {
+                    "title": "Développeuse junior",
+                    "company": "TechStart",
+                    "duration": "1 an"
+                }
+            ]
+        },
+        "goals": {
+            "short_term_goals": [
+                "Maîtriser React",
+                "Contribuer à des projets open source"
+            ],
+            "long_term_goals": [
+                "Devenir lead developer",
+                "Créer une startup"
+            ]
+        }
+    },
+    {
+        "person": {
+            "id": "P002",
+            "name": "Thomas Dubois",
+            "age": 35,
+            "gender": "Homme"
+        },
+        "preferences": {
+            "preferred_language": "anglais",
+            "learning_mode": "en ligne",
+            "interests": [
+                "data science",
+                "machine learning"
+            ]
+        },
+        "academic_background": {
+            "highest_academic_level": "master",
+            "fields_of_study": [
+                {
+                    "field_name": "Mathématiques appliquées",
+                    "institution": "École Polytechnique",
+                    "year_of_completion": 2010
+                }
+            ]
+        },
+        "professional_background": {
+            "total_experience_years": 12,
+            "jobs": [
+                {
+                    "title": "Data Scientist Senior",
+                    "company": "DataCorp",
+                    "duration": "5 ans"
+                }
+            ]
+        },
+        "goals": {
+            "short_term_goals": [
+                "Certification en IA",
+                "Leadership d'équipe"
+            ],
+            "long_term_goals": [
+                "Direction technique",
+                "Innovation en IA"
+            ]
+        }
+    }
+]

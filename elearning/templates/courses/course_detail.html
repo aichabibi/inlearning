@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h1>{{ course.title }}</h1>
+<p>{{ course.description }}</p>
+<p><strong>Durée :</strong> {{ course.duration }} heures</p>
+<p><strong>Niveau :</strong> {{ course.get_difficulty_display }}</p>
+<p><strong>Mode d'apprentissage :</strong> {{ course.get_learning_mode_display }}</p>
+{% if course.is_free %}
+    <p><span style="color:green;">✅ Ce cours est gratuit !</span></p>
+{% else %}
+    <p>💰 Prix : {{ course.price }} €</p>
+{% endif %}
+<a href="/courses/">⬅ Retour à la liste des cours</a>
+{% endblock %}
+<h2>📚 Leçons du cours</h2>
+{% if lessons %}
+    <ul>
+        {% for lesson in lessons %}
+            <li>
+                <strong>{{ lesson.title }}</strong><br>
+                {{ lesson.content|safe }}
+                {% if lesson.video_url %}
+                    <p><a href="{{ lesson.video_url }}" target="_blank">🎥 Voir la vidéo</a></p>
+                {% endif %}
+            </li>
+        {% endfor %}
+    </ul>
+{% else %}
+    <p>Aucune leçon disponible pour ce cours.</p>
+{% endif %}

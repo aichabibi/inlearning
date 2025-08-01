@@ -1,0 +1,1314 @@
+[
+  {
+    "url": "https://www.w3schools.com/git/default.asp",
+    "cours": {
+      "titre": "GitTutorial",
+      "description": "[+:Git is a version control system.Git helps you keep track of code changes.Git is used to collaborate on code.",
+      "lien": "https://www.w3schools.com/git/default.asp",
+      "contenus": {
+        "paragraphs": [
+          "Git is a version control system.",
+          "Git helps you keep track of code changes.",
+          "Git is used to collaborate on code.",
+          "In this tutorial, we will show you Git commands like this:",
+          "For new users, using the terminal view can seem a bit complicated. Don't worry! We will keep it really simple, and learning this way gives you a good grasp of how Git works.",
+          "In the code above, you can see commands (input) and output.",
+          "Lines like this are commands we input:",
+          "Lines like this are the output/response to our commands:",
+          "In general, lines with$in front of it is input. These are the commands you can copy and run in your terminal.",
+          "Git and GitHub are different things.",
+          "In this tutorial you will understand what Git is and how to use it on the remote repository platforms, like GitHub.",
+          "You can choose, and change, which platform to focus on by clicking in the menu on the right:",
+          "Insert the missing part of the command to check which version of Git (if any) \nis installed.",
+          "Start the Exercise",
+          "Test your Git skills with a quiz.",
+          "Start Git Quiz",
+          "Track your progress with the free \"My Learning\" program here at W3Schools.",
+          "Log in to your account, and start earning points!",
+          "This is an optional feature. You can study at W3Schools without using My Learning."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_intro.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "Git and {{title}}Introduction",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_intro.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [
+          "Git is a popular version control system. It was created by Linus Torvalds in \n2005, and has been maintained by Junio Hamano since then.",
+          "It is used for:"
+        ],
+        "lists": [
+          [
+            "Tracking code changes",
+            "Tracking who made changes",
+            "Coding collaboration"
+          ],
+          [
+            "Manage projects withRepositories",
+            "Clonea project to work on a local copy",
+            "Control and track changes withStagingandCommitting",
+            "BranchandMergeto allow for work on \ndifferent parts and versions of a project",
+            "Pullthe latest version of the project to a local copy",
+            "Pushlocal updates to the main project"
+          ],
+          [
+            "Initialize Git on a folder, making it aRepository",
+            "Git now creates a hidden folder to keep track of changes in that folder",
+            "When a file is changed, added or deleted, it is consideredmodified",
+            "You select the modified files you want toStage",
+            "TheStagedfiles areCommitted, which \n  prompts Git to store apermanentsnapshot of the files",
+            "Git allows you to see the full history of every commit.",
+            "You can revert back to any previous commit.",
+            "Git does not store a separate copy of every file in every commit, but \n  keeps track of changes made in each commit!"
+          ],
+          [
+            "Over 70% of developers use Git!",
+            "Developers can work together from anywhere in the world.",
+            "Developers can see the full history of the project.",
+            "Developers can revert to earlier versions of a project."
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_getstarted.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitGetting Started",
+      "description": "Note:If you already have a folder/directory you would \n  like to use for Git:Navigate to it in command line, or open it in your file explorer, right-click and select \"Git Bash here\"",
+      "lien": "https://www.w3schools.com/git/git_getstarted.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [
+          "You can download Git for free from the following website:https://www.git-scm.com/",
+          "To start using Git, we are first going to open up our Command shell.",
+          "For Windows, you can use Git bash, which comes included in Git for Windows. \nFor Mac and Linux you can use the built-in terminal.",
+          "The first thing we need to do, is to check if Git is properly installed:",
+          "If Git is installed, it should show something likegit version X.Y",
+          "Now let Git know who you are. This is important for version control systems, \nas each Git commit uses this information:",
+          "Change the user name and e-mail address to your own. You will probably also want to use this when registering to GitHub \nlater on.",
+          "Note:Useglobalto set the username and e-mail forevery repositoryon your computer.",
+          "If you want to set the username/e-mail for just the current repo, you can removeglobal",
+          "Now, let's create a new folder for our project:",
+          "mkdirmakes anew directory.",
+          "cdchangesthecurrent working directory.",
+          "Now that we are in the correct directory. We can start by initializing Git!",
+          "Note:If you already have a folder/directory you would \n  like to use for Git:",
+          "Navigate to it in command line, or open it in your file explorer, right-click and select \"Git Bash here\"",
+          "Once you have navigated to the correct folder, you can initialize Git on that \nfolder:",
+          "You just created your first Git Repository!",
+          "Note:Git now knows that it should watch the folder you \n  initiated it on.",
+          "Git creates a hidden folder to keep track of changes.",
+          "Insert the missing part of the command to check which version of Git (if any) \nis installed.",
+          "Start the Exercise"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_new_files.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitNew Files",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_new_files.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [
+          "You just created your first local Git repo. But it is empty.",
+          "So let's add some files, or create a new file using your favourite text editor. Then save or move it to the folder you just created.",
+          "If you want to learn how to create a new file using a text editor, you can visit our HTML tutorial:HTML Editors",
+          "For this example, I am going to use a simple HTML file like this:",
+          "And save it to our new folder asindex.html.",
+          "Let's go back to the terminal and list the files in our current working directory:",
+          "lswilllistthe files in \nthe directory. We can see thatindex.htmlis there.",
+          "Then we check the Gitstatusand see if it is a part of our repo:",
+          "Now Git isawareof the file, but has notaddedit to our repository!",
+          "Files in your Git repository folder can be in one of 2 states:",
+          "When you first add files to an empty repository, they are all \nuntracked. To get Git to track them, you need to stage them, or add them to the \nstaging environment.",
+          "We will cover the staging environment in the next chapter.",
+          "Check the status of the Git:",
+          "Start the Exercise"
+        ],
+        "lists": [
+          [
+            "Tracked - files that Git knows about and are added to the repository",
+            "Untracked - files that are in your working directory, but not added to the \n  repository"
+          ]
+        ],
+        "examples": [
+          "<!DOCTYPE html><html><head><title>Hello World!</title></head><body><h1>Hello world!</h1><p>This is \n  the first file in my new Git Repo.</p></body></html>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_staging_environment.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitStaging Environment",
+      "description": "Note:The shorthand command forgit add --allisgit add -A",
+      "lien": "https://www.w3schools.com/git/git_staging_environment.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [
+          "One of the core functions of Git is the concepts of the Staging Environment, and the Commit.",
+          "As you are working, you may be adding, editing and removing files. But \nwhenever you hit a milestone or finish a part of the work, you should add the \nfiles to a Staging Environment.",
+          "Stagedfiles are files that are ready to becommittedto the \nrepository you are working on. You will learn more aboutcommitshortly.",
+          "For now, we are done working withindex.html. \nSo we can add it to the Staging Environment:",
+          "The file should beStaged. Let's check the status::",
+          "Now the file has been added to the Staging Environment.",
+          "You can also stage more than one file at a time. Let's add 2 more files to our working folder. Use the text editor again.",
+          "AREADME.mdfile that describes the repository (recommended for all \nrepositories):",
+          "A basic external style sheet (bluestyle.css):",
+          "And updateindex.htmlto include the stylesheet:",
+          "Now add all files in the current directory to the Staging Environment:",
+          "Using--allinstead of individual filenames \nwillstageall changes (new, modified, and deleted) files.",
+          "Now all 3 files are added to the Staging Environment, and we are ready to do \nour firstcommit.",
+          "Note:The shorthand command forgit add --allisgit add -A",
+          "Add index.html to the Stating Environment:",
+          "Start the Exercise"
+        ],
+        "lists": [],
+        "examples": [
+          "# hello-worldHello World repository for Git tutorialThis is an \n  example repository for the Git tutoial on https://www.w3schools.comThis repository is built step by step in the tutorial.",
+          "body {background-color: lightblue;}h1 {color: navy;margin-left: 20px;}",
+          "<!DOCTYPE html><html><head><title>Hello World!</title><link \n  rel=\"stylesheet\" href=\"bluestyle.css\"></head><body><h1>Hello world!</h1><p>This is \n  the first file in my new Git Repo.</p></body></html>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_commit.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitCommit",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_commit.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [
+          "Since we have finished our work,  \nwe are ready move fromstagetocommitfor our repo.",
+          "Adding commits keep track of our progress and changes as we work. Git \nconsiders eachcommitchange point or \"save point\". It is a point in the project \nyou can go back to if you find a bug, or want to make a change.",
+          "When wecommit, we shouldalwaysinclude amessage.",
+          "By adding clear messages to eachcommit, it is easy for yourself (and others) \nto see what has changed and when.",
+          "Thecommitcommand performs a commit, and the-m \"message\"adds a message.",
+          "The Staging Environment has been committed to our repo, with the message:\"First release of Hello World!\"",
+          "Sometimes, when you make small changes, using the staging environment seems like a waste of time. It is possible to commit changes directly, skipping the staging environment.\nThe-aoption will automatically stage every \nchanged, already tracked file.",
+          "Let's add a small update to index.html:",
+          "And check the status of our repository. But this time, we will use the --short option to see the changes in a more compact way:",
+          "Note:Short status flags are:",
+          "We see the file we expected is modified. So let's commit it directly:",
+          "Warning:Skipping the Staging Environment is not generally recommended.",
+          "Skipping the stage step can sometimes make you include unwanted changes.",
+          "To view the history of commits for a repository, you can use thelogcommand:",
+          "Commit the changes to the current repository with the message \"First release!",
+          "Start the Exercise"
+        ],
+        "lists": [
+          [
+            "?? - Untracked files",
+            "A - Files added to stage",
+            "M - Modified files",
+            "D - Deleted files"
+          ]
+        ],
+        "examples": [
+          "<!DOCTYPE html><html><head><title>Hello World!</title><link \n  rel=\"stylesheet\" href=\"bluestyle.css\"></head><body><h1>Hello world!</h1><p>This is \n  the first file in my new Git Repo.</p><p>A new line in our file!</p></body></html>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_help.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitHelp",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_help.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [
+          "If you are having trouble remembering commands or options for commands, you \ncan use Githelp.",
+          "There are a couple of different ways you can use thehelpcommand in command line:",
+          "Let's go over the different commands.",
+          "Any time you need some help remembering the specific option for a \ncommand, you can usegitcommand-help:",
+          "Note:You can also use--helpinstead of-helpto open the relevant Git \n  manual page",
+          "To list all possible commands, use thehelp --allcommand:",
+          "Warning:This will display a very long list of commands",
+          "Note:If you find yourself stuck in the list view,SHIFT + Gto jump the end of the list, thenqto exit the view.",
+          "Show the possible options for thestatuscommand in command line:",
+          "Start the Exercise"
+        ],
+        "lists": [
+          [
+            "gitcommand-help-  See \n  all the available options for the specific command",
+            "git help --all-  See all possible \n  commands"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_branch.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitBranch",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_branch.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [
+          "In Git, abranchis a new/separate version of the main repository.",
+          "Let's say you have a large project, and you need to update the design on it.",
+          "How would that work without and with Git:",
+          "Without Git:",
+          "With Git:",
+          "Branches allow you to work on different parts of a project without impacting \nthe main branch.",
+          "When the work is complete, a branch can be merged with the main project.",
+          "You can even switch between branches and work on different projects without \nthem interfering with each other.",
+          "Branching in Git is very lightweight and fast!",
+          "Let add some new features to ourindex.htmlpage.",
+          "We are working in our local repository, and we do not want to disturb or possibly wreck the main project.",
+          "So we create a newbranch:",
+          "Now we created a newbranchcalled \"hello-world-images\"",
+          "Let's confirm that we have created a newbranch:",
+          "We can see the new branch with the name \"hello-world-images\", but the*besidemasterspecifies that we are currently on thatbranch.",
+          "checkoutis the command used to check out abranch. Moving usfromthe currentbranch,tothe one specified at the end of the command:",
+          "Now we have moved our current workspace from the master branch, to the newbranch",
+          "Open your favourite editor and make some changes.",
+          "For this example, we added an \nimage (img_hello_world.jpg) to the working folder and a line of code in theindex.htmlfile:",
+          "We have made changes to a file and added a new file in the working directory \n(same directory as themainbranch).",
+          "Now check the status of the currentbranch:",
+          "So let's go through what happens here:",
+          "So we need to add both files to the Staging Environment for thisbranch:",
+          "Using--allinstead of individual filenames \nwillStageall changed (new, modified, and deleted) files.",
+          "Check thestatusof thebranch:",
+          "We are happy with our changes. So we will commit them to thebranch:",
+          "Now we have a newbranch, that is different from the masterbranch.",
+          "Note:Using the-boption \n  oncheckoutwill create a new branch, and move to it, if it does not exist",
+          "Now let's see just how quick and easy it is to work with different branches, and how well it works.",
+          "We are currently on the branchhello-world-images. We added an image to this branch, so let's list the files in the current directory:",
+          "We can see the new fileimg_hello_world.jpg, and if we open the html file, we can see the code has been altered. All is as it should be.",
+          "Now, let's see what happens when we change branch tomaster",
+          "The new image is not a part of this branch. List the files in the current directory again:",
+          "img_hello_world.jpgis no longer there! And if we open the html file, we can see the code reverted to what it was before the alteration.",
+          "See how easy it is to work with branches? And how this allows you to work on different things?",
+          "Now imagine that we are not yet done with hello-world-images, but we need to fix an error on master.",
+          "I don't want to mess with master directly, and I do not want to mess with \nhello-world-images, since it is not done yet.",
+          "So we create a new branch to deal with the emergency:",
+          "Now we have created a new branch from master, and changed to it. We can \nsafely fix the error without disturbing the other branches.",
+          "Let's fix our imaginary error:",
+          "We have made changes in this file, and we need to get those changes to the \nmaster branch.",
+          "Check the status:",
+          "stage the file, and commit:",
+          "Now we have a fix ready for master, and we need to merge the two branches.",
+          "Create a new branch calledhello-world-images:",
+          "Start the Exercise"
+        ],
+        "lists": [
+          [
+            "Make copies of all the relevant files to avoid impacting the live version",
+            "Start working with the design and find that code depend on code in other \n  files, that also need to be changed!",
+            "Make copies of the dependant files as well. Making sure that every file \n  dependency references the correct file name",
+            "EMERGENCY! There is an unrelated error somewhere else in the project that \n  needs to be fixed ASAP!",
+            "Save all your files, making a note of the names of the copies you were \n  working on",
+            "Work on the unrelated error and update the code to fix it",
+            "Go back to the design, and finish the work there",
+            "Copy the code or rename the files, so the updated design is on the live \n  version",
+            "(2 weeks later, you realize that the unrelated error was not fixed in the \n  new design version because you copied the files before the fix)"
+          ],
+          [
+            "With a new branch called new-design, edit the code directly without \n  impacting the main branch",
+            "EMERGENCY! There is an unrelated error somewhere else in the project that \n  needs to be fixed ASAP!",
+            "Create a new branch from the main project called small-error-fix",
+            "Fix the unrelated error and merge the small-error-fix branch with the main \n  branch",
+            "You go back to the new-design branch, and finish the work there",
+            "Merge the new-design branch with main (getting alerted to the small error \n  fix that you were missing)"
+          ],
+          [
+            "There are changes to our index.html, but the file is not staged forcommit",
+            "img_hello_world.jpgis nottracked"
+          ]
+        ],
+        "examples": [
+          "<!DOCTYPE html><html><head><title>Hello World!</title><link \n  rel=\"stylesheet\" href=\"bluestyle.css\"></head><body><h1>Hello \n  world!</h1><div><img src=\"img_hello_world.jpg\" alt=\"Hello World from \n  Space\"style=\"width:100%;max-width:960px\"></div><p>This is the first \n  file in my new Git Repo.</p><p>A new line in our file!</p></body></html>",
+          "<!DOCTYPE html><html><head><title>Hello World!</title><link \n  rel=\"stylesheet\" href=\"bluestyle.css\"></head><body><h1>Hello \n  world!</h1><p>This is the first \n  file in my new Git Repo.</p><p>This line is here to show how \n  merging works.</p></body></html>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_branch_merge.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitBranch Merge",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_branch_merge.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [
+          "We have the emergency fix ready, and so let's merge the master and emergency-fix branches.",
+          "First, we need to change to the master branch:",
+          "Now we merge the current branch (master) with emergency-fix:",
+          "Since the emergency-fix branch came directly from master, and no other changes had been made to master while we were working, Git sees this as a continuation of master. So it can \"Fast-forward\", just pointing both master and emergency-fix to the same commit.",
+          "As master and emergency-fix are essentially the same now, we can delete emergency-fix, as it is no longer needed:",
+          "Now we can move over to hello-world-images and keep working. Add another image file (img_hello_git.jpg) and change index.html, so it shows it:",
+          "Now, we are done with our work here and can stage and commit for this branch:",
+          "We see that index.html has been changed in both branches. Now we are ready to merge hello-world-images into master. But what will \nhappen to the changes we recently made in master?",
+          "The merge failed, as there is conflict between the versions for index.html. Let us check the status:",
+          "This confirms there is a conflict in index.html, but the image files are ready and staged to be committed.",
+          "So we need to fix that conflict. Open the file in our editor:",
+          "We can see the differences between the versions and edit it like we want:",
+          "Now we can stage index.html and check the status:",
+          "The conflict has been fixed, and we can use commit to conclude the merge:",
+          "And delete the hello-world-images branch:",
+          "Now you have a better understanding of how branches and merging works. Time to start working with a remote repository!",
+          "Merge thehello-youbranch with the current branch:",
+          "Start the Exercise"
+        ],
+        "lists": [],
+        "examples": [
+          "<!DOCTYPE html><html><head><title>Hello World!</title><link rel=\"stylesheet\" href=\"bluestyle.css\"></head><body><h1>Hello world!</h1><div><img src=\"img_hello_world.jpg\" alt=\"Hello World \n  from Space\" style=\"width:100%;max-width:960px\"></div><p>This is the first \n  file in my new Git Repo.</p><p>A new line in our file!</p><div><img \n  src=\"img_hello_git.jpg\" alt=\"Hello Git\" \n  style=\"width:100%;max-width:640px\"></div></body></html>",
+          "<!DOCTYPE html><html><head><title>Hello World!</title><link \n  rel=\"stylesheet\" href=\"bluestyle.css\"></head><body><h1>Hello \n  world!</h1><div><img src=\"img_hello_world.jpg\" alt=\"Hello World from \n  Space\" style=\"width:100%;max-width:960px\"></div><p>This is the first file \n  in my new Git Repo.</p><<<<<<< HEAD<p>This line is here to show how \n  merging works.</p>=======<p>A new line in our file!</p><div><img \n  src=\"img_hello_git.jpg\" alt=\"Hello Git\" \n  style=\"width:100%;max-width:640px\"></div>>>>>>>> hello-world-images</body></html>",
+          "<!DOCTYPE html><html><head><title>Hello World!</title><link \n  rel=\"stylesheet\" href=\"bluestyle.css\"></head><body><h1>Hello \n  world!</h1><div><img src=\"img_hello_world.jpg\" alt=\"Hello World from \n  Space\" style=\"width:100%;max-width:960px\"></div><p>This is the first file \n  in my new Git Repo.</p><p>This line is here to show how \n  merging works.</p><div><img \n  src=\"img_hello_git.jpg\" alt=\"Hello Git\" \n  style=\"width:100%;max-width:640px\"></div></body></html>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_remote_getstarted.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "Git {{title}}Getting Started",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_remote_getstarted.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_remote_edit_code.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "Git {{title}}Edit Code",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_remote_edit_code.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_pull_from_remote.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitPull from {{title}}",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_pull_from_remote.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_push_to_remote.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitPush to {{title}}",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_push_to_remote.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_remote_branch.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "Git {{title}}Branch",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_remote_branch.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_branch_pull_from_remote.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitPull Branch from {{title}}",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_branch_pull_from_remote.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_branch_push_to_remote.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitPush Branch to {{title}}",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_branch_push_to_remote.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_github_flow.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitGitHub Flow",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_github_flow.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [
+          "On this page, you will learn how to get the best out of working with \nGitHub.",
+          "The GitHub flow is a workflow designed to work well with Git and GitHub.",
+          "It focuses on branching and makes it possible for teams to experiment freely, and make deployments regularly.",
+          "The GitHub flow works like this:",
+          "You should already have a good understanding of how this works from the \nprevious chapters. This chapter focuses on understanding how the flow \nmakes it easy for you to work together.",
+          "Branching is the key concept in Git. And it works around the rule that the \nmaster branch is ALWAYS deployable.",
+          "That means, if you want to try something new or experiment, you create a new \nbranch! Branching gives you an environment where you can make changes without \naffecting the main branch.",
+          "When your new branch is ready, it can be reviewed, discussed, and merged with \nthe main branch when ready.",
+          "When you make a new branch, you will (almost always) want to make it from \nthe master branch.",
+          "Note:Keep in mind that you are working with others. Using descriptive names for \nnew branches, so everyone can understand what is happening.",
+          "After the new branch is created, it is time to get to work. Make \nchanges by adding, editing and deleting files. Whenever you reach a small \nmilestone, add the changes to your branch by commit.",
+          "Adding commits keeps track of your work. Each commit should have a message \nexplaining what has changed and why. Each commit becomes a part of the history \nof the branch, and a point you can revert back to if you need to.",
+          "Note:commit messages are very important! Let everyone \n  know what has changed and why. Messages and comments make it so much easier for yourself \n  and other people to keep track of changes.",
+          "Pull requests are a key part of GitHub. A Pull Request notifies \npeople you have changes ready for them to consider or review.",
+          "You can ask others to review your changes or pull your contribution \nand merge it into their branch.",
+          "When a Pull Request is made, it can be reviewed by whoever has the proper \naccess to the branch. This is where good discussions and review of the changes \nhappen.",
+          "Pull Requests are designed to allow people to work together easily and \nproduce better results together!",
+          "If you receive feedback and continue to \nimprove your changes, you can push your changes with new commits, making further \nreviews possible.",
+          "Note:GitHub shows new commit and feedback in the \"unified \n  Pull Request view\".",
+          "When the pull request has been reviewed and everything looks good, it is time \nfor the final testing. GitHub allows you to deploy from a branch for final \ntesting in production before merging with the master branch.",
+          "If any issues arise, you can undo the changes by deploying the master branch \ninto production again!",
+          "Note:Teams often have dedicated testing environments used \n  for deploying branches.",
+          "After exhaustive testing, you can merge the code into the master branch!",
+          "Pull Requests keep records of changes to your code, and if you commented and \nnamed changes well, you can go back and understand why changes and decisions \nwere made.",
+          "Note:You can add keywords to your pull request for easier \n  searching!"
+        ],
+        "lists": [
+          [
+            "Create a new Branch",
+            "Make changes and add Commits",
+            "Open a Pull Request",
+            "Review",
+            "Deploy",
+            "Merge"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_remote_pages.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "Git{{title}} Pages",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_remote_pages.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_remote_fork.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "Git{{title}} Fork",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_remote_fork.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_clone.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitClone from {{title}}",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_clone.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_remote_send_pull_request.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "Git{{title}} Send Pull Request",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_remote_send_pull_request.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_ignore.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitIgnore and .gitignore",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_ignore.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [
+          "When sharing your code with others, there are often files or parts of your project, you do not want to share.",
+          "Examples",
+          "Git can specify which files or parts of your project should be \nignored by Git using a.gitignorefile.",
+          "Git will not track files and folders specified in.gitignore. However, the.gitignorefile itselfIStracked by Git.",
+          "To create a.gitignorefile, go to the root of your local Git, and create it:",
+          "Now open the file using a text editor.",
+          "We are just going to add two simple rules:",
+          "Now all.logfiles and anything intempfolders will be ignored by Git.",
+          "Note:In this case, we use a single.gitignorewhich applies to the entire repository.",
+          "It is also possible to have additional.gitignorefiles in subdirectories. These only apply to files or folders within that directory.",
+          "Here are the general rules for matching patterns in.gitignorefiles:",
+          "It is also possible to ignore files or folders but not show it in the \ndistributed.gitignorefile.",
+          "These kinds of ignores are specified in the.git/info/excludefile. It works the same way as.gitignorebut are not shown to anyone else.",
+          "In.gitignoreadd a line to ignore all.tempfiles:",
+          "Start the Exercise"
+        ],
+        "lists": [
+          [
+            "log files",
+            "temporary files",
+            "hidden files",
+            "personal files",
+            "etc."
+          ],
+          [
+            "Ignore any files with the.logextension",
+            "Ignore everything in any directory namedtemp"
+          ]
+        ],
+        "examples": [
+          "# ignore ALL .log files*.log# ignore ALL files in ANY directory named temptemp/"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_security_ssh.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitSecurity SSH",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_security_ssh.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [
+          "Up to this point, we have used HTTPS to connect to our remote repository.",
+          "HTTPS will usually work just fine, but you should use SSH if you work with unsecured networks. And sometimes, a project will require that you use SSH.",
+          "SSH is a secure shell network protocol that is used for network management, \nremote file transfer, and remote system access.",
+          "SSH uses a pair of SSH keys to establish an authenticated and encrypted \nsecure network protocol. It allows for secure remote communication on unsecured \nopen networks.",
+          "SSH keys are used to initiate a secure \"handshake\". When generating a set of \nkeys, you will generate a \"public\" and \"private\" key.",
+          "The \"public\" key is the one you share with the remote party. Think of this \nmore as the lock.",
+          "The \"private\" key is the one you keep for yourself in a secure place. Think of \nthis as the key to the lock.",
+          "SSH keys are generated through a security algorithm. It is all very complicated, but it uses prime numbers, and \nlarge random numbers to make the public and private key.",
+          "It is created so that the public key can be derived from the private \nkey, but not the other way around.",
+          "In the command line for Linux, Apple, and in the Git Bash for Windows, you can \ngenerate an SSH key.",
+          "Let's go through it, step by step.",
+          "Start by creating a new key, using your email as a label:",
+          "You will be prompted with the following through this creation:",
+          "Select a file location, or press \"Enter\" to use the default file location.",
+          "Entering a secure passphrase will create an additional layer of security. Preventing anyone who gains access to the computer to use that key without the passphrase. However, it will require you to supply the passphrase anytime the SSH key is used.",
+          "Now we add this SSH key pair to the SSH-Agent (using the file location from above):",
+          "You will be prompted to supply the passphrase, if you added one.",
+          "Now the SSH key pair is ready to use."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_remote_add_ssh.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "Git{{title}} Add SSH",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_remote_add_ssh.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_revert.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitRevert",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_revert.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [
+          "revertis the command we use when we want to take a previouscommitand add it as a newcommit, keeping thelogintact.",
+          "Step 1: Find the previouscommit:",
+          "",
+          "Step 2: Use it to make a newcommit:",
+          "",
+          "Let's make a newcommit, where we have \"accidentally\" deleted a file:",
+          "Now we have a part in ourcommithistory we want to go back to. Let's try and do that withrevert.",
+          "First thing, we need to find the point we want to return to. To do that, we need to go through thelog.",
+          "To avoid the very long log list, we are going to use the--onelineoption, \nwhich gives just one line per commit showing:",
+          "So let's find the point we want torevert:",
+          "We want to revert to the previouscommit:52418f7 (HEAD -> master) Just a regular update, definitely no accidents here..., and we see that \nit is the latestcommit.",
+          "We revert the latestcommitusing gitrevert HEAD(revertthe latest change,  and thencommit), adding the option--no-editto skip the commit message editor (getting the defaultrevertmessage):",
+          "Now let's check thelogagain:",
+          "Note:To revert to earlier commits, usegit revert HEAD~x(xbeing a number. 1 going back one more, 2 going back two more, etc.)",
+          "On the next page, we'll go overgit reset, which brings the repository back to an earlier state in the commits without \nmaking a newcommit.",
+          "Show thelogof the repository, showing just 1 line percommit:",
+          "Start the Exercise"
+        ],
+        "lists": [
+          [
+            "The first seven characters of thecommit hash",
+            "thecommit message"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_reset.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitReset",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_reset.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [
+          "resetis the command we use when we want to move the repository back to a previouscommit, discarding any changes made after thatcommit.",
+          "Step 1: Find the previouscommit:",
+          "",
+          "Step 2: Move the repository back to that step:",
+          "",
+          "After the previous chapter, we have a part in ourcommithistory we could go back to. Let's try and do that withreset.",
+          "First thing, we need to find the point we want to return to. To do that, we need to go through thelog.",
+          "To avoid the very longloglist, we are going to use the--onelineoption, \nwhich gives just one line percommitshowing:",
+          "So let's find the point we want toresetto:",
+          "We want to return to thecommit:9a9add8 (origin/master) Added .gitignore, \nthe last one before we started to mess with things.",
+          "Weresetour repository back to the specific commit usinggit resetcommithash(commithashbeing \nthe first 7 characters of the commit hash we found in thelog):",
+          "Now let's check thelogagain:",
+          "Warning:Messing with thecommithistory of a repository can be dangerous. \n  It is usually ok to make these kinds of changes to your own local repository. However, you should avoid making changes that rewrite history toremoterepositories, especially if others are working with them.",
+          "Even though the commits are no longer showing up in thelog, it is not removed from Git.",
+          "If you know the commit hash you canresetto it:",
+          "Now let's check thelogagain:",
+          "resetto thecommitwith the hash abc1234:",
+          "Start the Exercise"
+        ],
+        "lists": [
+          [
+            "The first seven characters of thecommit hash- this is what we need to \n  refer to in our reset command.",
+            "thecommit message"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_amend.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitAmend",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_amend.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [
+          "commit --amendis used to modify the most recentcommit.",
+          "It combines changes in thestaging environmentwith the latestcommit, and creates a newcommit.",
+          "This newcommitreplaces the latestcommitentirely.",
+          "One of the simplest things you can do with--amendis to \nchange acommitmessage.",
+          "Let's update theREADME.mdandcommit:",
+          "Now let's check thelog:",
+          "Oh no! thecommitmessage is full of spelling errors. Embarrassing. Let'samendthat:",
+          "And re-check thelog:",
+          "We see the previouscommitis replaced with our amended one!",
+          "Warning:Messing with thecommithistory of a repository can be dangerous. \n  It is usually ok to make these kinds of changes to your own local repository. However, you should avoid making changes that rewrite history toremoterepositories, especially if others are working with them.",
+          "Adding files with--amendworks the same way as above. Just add them to thestaging environmentbefore committing.",
+          "Amend the previouscommitto with the message\"Updated index\":",
+          "Start the Exercise"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_exercises.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitExercises",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_exercises.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [
+          "You can test your Git skills with W3Schools' Exercises.",
+          "We have gathered a variety of Git exercises (with answers) for each Git Chapter.",
+          "Try to solve an exercise by filling in the missing parts of a code. If you're stuck, hit the \"Show Answer\" button to see what you've done wrong.",
+          "You will get 1 point for\neach correct answer. Your score and total score will always be displayed.",
+          "Good luck!",
+          "Start Git Exercises ❯",
+          "If you don't know Git, we suggest that you read ourGit Tutorialfrom scratch."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_quiz.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitQuiz",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_quiz.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [
+          "You can test your Git skills with W3Schools' Quiz.",
+          "The test contains 25 questions and there is no time limit.",
+          "The test is not official, it's just a nice way to see how much you know, or don't know, about Git.",
+          "You will get 1 point for each correct answer. At the end of the Quiz,\nyour total score will be displayed. Maximum score is 25 points.",
+          "Good luck!",
+          "Start the Git Quiz ❯",
+          "If you do not know Git, we suggest that you read ourGit Tutorialfrom scratch."
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_syllabus.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitSyllabus",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_syllabus.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [
+          "TheW3Schools Git Tutorialis comprehensive and beginner-friendly.",
+          "It will give you a fundamental knowledge of Git version control.",
+          "It is designed for beginners and requires no prior version control experience.",
+          "The content has been carefully made to be bite-sized, simple, and easy to understand.",
+          "The content has been proven by millions of users over the years. It is updated and improved frequently.",
+          "The syllabus outline and its sequence are structured so you can learn Git step by step, from the introduction to advanced features.",
+          "Get Started With Git »",
+          "Note:Are you a teacher teaching Git?W3Schools Academyis a toolbox of features that can help you teach. It offers classroom features such as pre-built study plans, classroom administration and much more. Read more aboutAcademy here.",
+          "Get Started",
+          "In this tutorial we offer different activities for you to learn Git for free:",
+          "You can also create a free account to track your progress.",
+          "As a signed-in user, you get access to features such as:",
+          "Sign Up - It's free",
+          "Get Started",
+          "If you want to host your project, we have a feature calledSpacesthat allows you to practice Git commands and manage repositories.",
+          "Here you get a secure sandbox environment called Spaces, it integrates with GitHub, where you can practice Git and test commands in real-time.",
+          "Spaces allow you to test, commit, and manage repositories. This includes a W3Schools subdomain, hosting, and secure SSL certificates.",
+          "Spaces require no installation and run directly in the browser.",
+          "Features include:",
+          "Create a Spaces Account",
+          "W3Schools offers an end-of-pathway certification program.",
+          "Here you can take exams to get certified.",
+          "The Git exam is a test that summarizes the W3Schools Git syllabus.",
+          "After passing the exam you get the \"Certified Git Developer\" Certification.",
+          "The certification exam is adaptive and graded; students will get a grade from intermediate, advanced to professional.",
+          "Buy Certificate »",
+          "Are you interested in learning how you can useW3Schools Academyto Teach \nGit?",
+          "Join our upcoming webinar for a guided demo ofW3Schools Academy. You'll see how it works, and discover how it can make teaching programming easier and more engaging.",
+          "Join our FREE Webinar »"
+        ],
+        "lists": [
+          [
+            "Understand the basic concepts of version control with Git.",
+            "Create and manage Git repositories.",
+            "Track changes and manage file versions.",
+            "Work with branches and merging.",
+            "Collaborate with other developers.",
+            "Use Git commands effectively.",
+            "Handle conflicts and troubleshooting.",
+            "Work with remote repositories."
+          ],
+          [
+            "Software Development:Git is essential for managing code versions and collaboration.",
+            "DevOps:Git is fundamental for continuous integration and deployment.",
+            "Project Management:Git helps track project changes and contributions.",
+            "Team Collaboration:Git enables multiple developers to work together.",
+            "Code Review:Git provides tools for reviewing and discussing code.",
+            "Documentation:Git helps maintain documentation versions.",
+            "Open Source:Git is crucial for open source development."
+          ],
+          [
+            "Lessons",
+            "Exercises",
+            "Quizzes"
+          ],
+          [
+            "Learning paths",
+            "Sandbox and lab environments",
+            "Achievements",
+            "And much more!"
+          ],
+          [
+            "Git HOME",
+            "Git Intro",
+            "Git Get Started",
+            "Git New Files",
+            "Git Staging Environment",
+            "Git Commit",
+            "Git Help",
+            "Git Branch",
+            "Git Branch Merge",
+            "GitHub Get Started",
+            "GitHub Edit Code",
+            "Pull from GitHub",
+            "Push to GitHub",
+            "GitHub Branch",
+            "Pull Branch from GitHub",
+            "Push Branch to GitHub",
+            "GitHub Flow",
+            "GitHub Pages",
+            "GitHub Fork",
+            "Git Clone from GitHub",
+            "GitHub Send Pull Request",
+            "Git .gitignore",
+            "Git Security SSH",
+            "GitHub Add SSH",
+            "Git Revert",
+            "Git Reset",
+            "Git Amend"
+          ],
+          [
+            "Collaboration",
+            "File navigator",
+            "Terminal & log",
+            "Package manager",
+            "Database",
+            "Environment manager",
+            "Analytics"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_study_plan.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "GitStudy Plan",
+      "description": "",
+      "lien": "https://www.w3schools.com/git/git_study_plan.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [
+          "The Git study plan helps you teach your students Git step-by-step.",
+          "Creating a study plan for Git is easy.",
+          "You can use a pre-built study plan or customize it.",
+          "Students have different skill levels. The study plans can be customized to ensure that everyone is challenged.",
+          "Save time with pre-built teacher materials and study plans. Easily organize your class with a timeline from the introduction of Git to the final exam.",
+          "This study plan is a feature of W3Schools Academy.",
+          "W3Schools Academy is a platform that has everything you need to teach coding, all in one place.",
+          "It offers you as a teacher a toolbox of features that helps you succeed with teaching in your classroom.",
+          "You need to have an active subscription to access the study plan feature. There are two different subscription tiers:",
+          "Learn More »",
+          "Academy also offer other features such as:",
+          "Get a free demo »",
+          "W3Schools has everything you need to teach Git.",
+          "The Git training materials is available for you to include and use in your study plan:",
+          "With the Git Syllabus, your students will start with the basics, like understanding version control and creating repositories, and move to more advanced topics, like branching, merging, and collaborating on projects. Each chapter includes simple examples, try-it-yourself sections, exercises, and quizzes to make learning easy, interactive, and fun.",
+          "Read more about Git Syllabus.",
+          "The study plan features are made to help teachers and students. They make learning easy, flexible, and fun. These features work for different types of classes, learning styles and student level.",
+          "Learn More »",
+          "You choose the timeline and paceof your study plans.",
+          "Schools have different preferences.",
+          "Some would like more intensive pace, e.g. 3 weeks, others 12 or more weeks.",
+          "It is completely up to you.",
+          "For example, this is how a 3-week Git study plan could look like:",
+          "Image of Sample Git study plan:",
+          "Start withGit Study Planstoday.",
+          "Get Started »",
+          "Are you interested in learning how you can useW3Schools Academyto Teach Git programming?",
+          "Join our upcoming webinar for a guided demo ofW3Schools Academy. You'll see how it works, and discover how it can make teaching programming easier and more engaging.",
+          "Join our FREE Webinar »"
+        ],
+        "lists": [
+          [
+            "Essentials ($1.99 / month per student)",
+            "Full Access ($5.99 / month per student)",
+            "Calculate your price and orderhere."
+          ],
+          [
+            "Managing your classroom",
+            "Tracking of student progress and reports",
+            "Labs, assignments, and code challenges (prebuilt challenges or create your own ones)",
+            "Auto-grading",
+            "Teaching materials",
+            "Certification exams"
+          ],
+          [
+            "W3Schools Git Tutorial",
+            "Git Exercises",
+            "Git Quiz",
+            "Git Challenges (Coding challenges)",
+            "Git Certification Exam (End of Pathway Exam)"
+          ],
+          [
+            "Learning PathsYou can add ready-made learning paths.The learning paths are by default ordered by our recommended order.You can change the order.You can add custom activities with text, links, or multi-media files.Drag and drop or click to make changes to the path.",
+            "You can add ready-made learning paths.",
+            "The learning paths are by default ordered by our recommended order.",
+            "You can change the order.",
+            "You can add custom activities with text, links, or multi-media files.",
+            "Drag and drop or click to make changes to the path.",
+            "Interactive ContentTutorialsTry-its (test code snippets)ExercisesQuizChallengesLabs",
+            "Tutorials",
+            "Try-its (test code snippets)",
+            "Exercises",
+            "Quiz",
+            "Challenges",
+            "Labs",
+            "Timeline and PaceYou can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).You can decide the learning pace for your class.Different study plans can be assigned to different students in the same class.The flexibility can help to make sure that everyone is challenged.",
+            "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+            "You can decide the learning pace for your class.",
+            "Different study plans can be assigned to different students in the same class.",
+            "The flexibility can help to make sure that everyone is challenged.",
+            "Track Student ProgressThere are tools to track student progress.The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+            "There are tools to track student progress.",
+            "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+            "The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+            "End of Pathway ExamThe Git study plan aligns with the Git Certification Exam.The exam can be taken at the end of the study plan, at your selected date.The exam summarizes the Git Tutorial.You get reports of the students' results.",
+            "The Git study plan aligns with the Git Certification Exam.",
+            "The exam can be taken at the end of the study plan, at your selected date.",
+            "The exam summarizes the Git Tutorial.",
+            "You get reports of the students' results.",
+            "AccessibilityStudy plans and learning materials are accessible on desktops, tablets, and smartphones.This ensures students can learn anytime, anywhere.",
+            "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+            "This ensures students can learn anytime, anywhere."
+          ],
+          [
+            "You can add ready-made learning paths.",
+            "The learning paths are by default ordered by our recommended order.",
+            "You can change the order.",
+            "You can add custom activities with text, links, or multi-media files.",
+            "Drag and drop or click to make changes to the path."
+          ],
+          [
+            "Tutorials",
+            "Try-its (test code snippets)",
+            "Exercises",
+            "Quiz",
+            "Challenges",
+            "Labs"
+          ],
+          [
+            "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+            "You can decide the learning pace for your class.",
+            "Different study plans can be assigned to different students in the same class.",
+            "The flexibility can help to make sure that everyone is challenged."
+          ],
+          [
+            "There are tools to track student progress.",
+            "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+            "The challenges can be auto-graded or manually graded. The results are available to you as a teacher."
+          ],
+          [
+            "The Git study plan aligns with the Git Certification Exam.",
+            "The exam can be taken at the end of the study plan, at your selected date.",
+            "The exam summarizes the Git Tutorial.",
+            "You get reports of the students' results."
+          ],
+          [
+            "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+            "This ensures students can learn anytime, anywhere."
+          ],
+          [
+            "Week 1: Essentials",
+            "Week 2: Essential Commands, Branch Management, Remote Collaboration, Contribution Guide",
+            "Week 3: Security Practices, Undo and Revert, Git Certification Exam"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/git/git_exam.asp?remote={{remoteName}}",
+    "cours": {
+      "titre": "W3Schools GitCertificate",
+      "description": "How Does It Work?Study for free at W3Schools.comStudy at your own speedTest your skills with W3Schools online quizzesApply for your certificate by paying an exam feeTake your exam online, at any time, and from any location",
+      "lien": "https://www.w3schools.com/git/git_exam.asp?remote={{remoteName}}",
+      "contenus": {
+        "paragraphs": [
+          "W3Schools offers an Online Certification Program.",
+          "The perfect solution for busy professionals who need to balance work, family, and career building.",
+          "More than 50 000 certificates already issued!",
+          "Get Your Certificate »",
+          "W3Schools offers an Online Certification Program.",
+          "The perfect solution for busy professionals who need to balance work, family, and career building.",
+          "More than 50 000 certificates already issued!",
+          "Get Your Certificate »",
+          "Any student or professional within the digital industry.",
+          "Certifications are valuable assets to gain trust and demonstrate knowledge to your clients, current or future employers on a ever increasing competitive market.",
+          "W3Schools has over two decades of experience with teaching coding online.",
+          "Our certificates are recognized and valued by companies looking to employ skilled developers.",
+          "Show the world your coding skills by getting a certification.",
+          "The prices is a small fraction compared to the price of traditional education.",
+          "Document and validate your competence by getting certified!",
+          "Fee:95 USD",
+          "Achievable certification levels:Intermediate (40%)Advanced (75%)Professional (90%)",
+          "Number of questions:Adaptive,60on average",
+          "Requirement to pass:Minimum 40% - Intermediate level",
+          "Time limit:60 minutes",
+          "Number of attempts to pass:3",
+          "Exam deadline:None",
+          "Certification Expiration:None",
+          "Format:Online, multiple choice",
+          "Register now »",
+          "Getting a certificate proves your commitment to upgrading your skills.",
+          "The certificate can be added as credentials to your CV, Resume, LinkedIn profile, and so on.",
+          "It gives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+          "Knowledge is power, especially in the current job market.",
+          "Documentation of your skills enables you to advance your career or helps you to start a new one.",
+          "Example certificate:",
+          "Each certificate gets a unique link that can be shared with others.",
+          "Validate your certification with the link or QR code.",
+          "Check how it looks like in thisExample.",
+          "Share your certificate on Linkedin the Certifications section in just one click!",
+          "Getting a certificate proves your commitment to upgrade your skills,\n    gives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+          "Get Your Certificate »",
+          "Are you an educator, manager or business owner looking for courses or certifications?",
+          "We are working with schools, companies and organizations from all over the world.",
+          "Get courses and/or certifications for your team here."
+        ],
+        "lists": [
+          [
+            "Study for free at W3Schools.com",
+            "Study at your own speed",
+            "Test your skills with W3Schools online quizzes",
+            "Apply for your certificate by paying an exam fee",
+            "Take your exam online, at any time, and from any location"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://campus.w3schools.com/products/git-certificate",
+    "cours": {
+      "id": "",
+      "contenus": {
+        "texte": "",
+        "lienVideo": ""
+      },
+      "categories": [],
+      "niveau": "Débutant",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  }
+]

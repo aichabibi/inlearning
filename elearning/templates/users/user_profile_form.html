@@ -1,0 +1,125 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block title %}Profil Utilisateur{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+    <div class="row">
+        <div class="col-md-12">
+            <div class="card">
+                <div class="card-header">
+                    <h2>Profil Utilisateur</h2>
+                </div>
+                <div class="card-body">
+                    <div id="alert-container"></div>
+                    <form id="profile-form" method="post" enctype="multipart/form-data">
+                        {% csrf_token %}
+                        
+                        <div class="row">
+                            <!-- Informations personnelles -->
+                            <div class="col-md-6">
+                                <h3>Informations personnelles</h3>
+                                {{ person_form.as_p }}
+                            </div>
+                            
+                            <!-- Préférences -->
+                            <div class="col-md-6">
+                                <h3>Préférences</h3>
+                                {{ preferences_form.as_p }}
+                            </div>
+                        </div>
+
+                        <div class="row mt-4">
+                            <!-- Formation académique -->
+                            <div class="col-md-6">
+                                <h3>Formation académique</h3>
+                                {{ academic_form.as_p }}
+                            </div>
+                            
+                            <!-- Expérience professionnelle -->
+                            <div class="col-md-6">
+                                <h3>Expérience professionnelle</h3>
+                                {{ professional_form.as_p }}
+                            </div>
+                        </div>
+
+                        <div class="mt-4">
+                            <button type="submit" class="btn btn-primary">Enregistrer</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% block extra_js %}
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    const form = document.getElementById('profile-form');
+    const alertContainer = document.getElementById('alert-container');
+
+    function showAlert(message, type = 'success') {
+        // Supprimer les alertes existantes
+        alertContainer.innerHTML = '';
+        
+        // Créer la nouvelle alerte
+        const alert = document.createElement('div');
+        alert.className = `alert alert-${type} alert-dismissible fade show`;
+        alert.innerHTML = `
+            ${message}
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        `;
+        
+        // Ajouter l'alerte au conteneur
+        alertContainer.appendChild(alert);
+        
+        // Faire défiler jusqu'à l'alerte
+        alert.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    form.addEventListener('submit', function(e) {
+        e.preventDefault();
+        
+        const formData = new FormData(form);
+        
+        fetch(form.action, {
+            method: 'POST',
+            body: formData,
+            headers: {
+                'X-Requested-With': 'XMLHttpRequest'
+            }
+        })
+        .then(response => response.json())
+        .then(data => {
+            if (data.success) {
+                showAlert(data.message);
+                if (data.predicted_level) {
+                    showAlert(`Niveau prédit : ${data.predicted_level}`, 'info');
+                }
+                if (data.warning) {
+                    showAlert(data.warning, 'warning');
+                }
+            } else {
+                let errorMessage = '';
+                if (data.form_errors) {
+                    Object.entries(data.form_errors).forEach(([field, errors]) => {
+                        errorMessage += `${field}: ${errors.join(', ')}<br>`;
+                    });
+                }
+                if (data.global_errors) {
+                    errorMessage += data.global_errors.join('<br>');
+                }
+                showAlert(errorMessage || 'Une erreur est survenue', 'danger');
+            }
+        })
+        .catch(error => {
+            showAlert('Une erreur est survenue lors de la communication avec le serveur', 'danger');
+            console.error('Error:', error);
+        });
+    });
+});
+</script>
+{% endblock %}
+{% endblock %}

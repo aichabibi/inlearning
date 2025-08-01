@@ -1,0 +1,32 @@
+<!-- templates/forms_preview.html -->
+{% extends 'base.html' %}
+
+{% block title %}Aperçu des formulaires{% endblock %}
+
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card shadow">
+                <div class="card-body text-center">
+                    <h1 class="card-title mb-4 text-primary">Aperçu des formulaires</h1>
+                    
+                    <div class="list-group mb-4">
+                        <a href="{% url 'login' %}" class="list-group-item list-group-item-action p-3 text-primary fw-bold">
+                            <i class="bi bi-box-arrow-in-right me-2"></i>Formulaire de connexion
+                        </a>
+                        <a href="{% url 'register' %}" class="list-group-item list-group-item-action p-3 text-primary fw-bold">
+                            <i class="bi bi-person-plus me-2"></i>Formulaire d'inscription
+                        </a>
+                        <a href="{% url 'create_profile' %}" class="list-group-item list-group-item-action p-3 text-primary fw-bold">
+                            <i class="bi bi-person-vcard me-2"></i>Formulaire de profil utilisateur
+                        </a>
+                    </div>
+                    
+                    <p class="card-text text-muted">Cliquez sur un lien pour voir le formulaire correspondant.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

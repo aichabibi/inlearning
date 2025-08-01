@@ -1,0 +1,980 @@
+[
+    {
+        "url": "https://www.w3schools.com/python/pandas/default.asp",
+        "cours": {
+            "titre": "PandasTutorial",
+            "description": "Learn Pandas[+:Pandas is a Python library.Pandas is used to analyze data.",
+            "lien": "https://www.w3schools.com/python/pandas/default.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Pandas is a Python library.",
+                    "Pandas is used to analyze data.",
+                    "We have created 14 tutorial pages for you to learn more about Pandas.",
+                    "Starting with a basic introduction and ends up with cleaning and plotting data:",
+                    "In our \"Try it Yourself\" editor, you can use the Pandas module, and modify the code to see the result.",
+                    "Load a CSV file into a Pandas DataFrame:",
+                    "Click on the \"Try it Yourself\" button to see how it works.",
+                    "Most chapters in this tutorial end with an exercise where you can check your level of knowledge.",
+                    "See all Pandas Exercises",
+                    "Test your Pandas skills with a quiz test.",
+                    "Start Pandas Quiz"
+                ],
+                "lists": [],
+                "examples": [
+                    "import pandas as pddf = pd.read_csv('data.csv')print(df.to_string())"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_intro.asp",
+        "cours": {
+            "titre": "PandasIntroduction",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_intro.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Pandas is a Python library used for working with data sets.",
+                    "It has functions for analyzing, cleaning, exploring, and manipulating data.",
+                    "The name \"Pandas\" has a reference to both \"Panel Data\", and \"Python Data \nAnalysis\" and was created by Wes McKinney in 2008.",
+                    "Pandas allows us to analyze big data and make conclusions based on \nstatistical theories.",
+                    "Pandas can clean messy data sets, and make them readable and relevant.",
+                    "Relevant data is very important in data science.",
+                    "Data Science:is a branch of computer science where we study how to store, use and analyze data for deriving information from it.",
+                    "Pandas gives you answers about the data. Like:",
+                    "Pandas are also able to delete rows that are not relevant, or contains wrong \nvalues, like empty or NULL values. This is calledcleaningthe data.",
+                    "The source code for Pandas is located at this github repositoryhttps://github.com/pandas-dev/pandas",
+                    "github:enables many people to work on the same \n  codebase."
+                ],
+                "lists": [
+                    [
+                        "Is there a correlation between two or more columns?",
+                        "What is average value?",
+                        "Max value?",
+                        "Min value?"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_getting_started.asp",
+        "cours": {
+            "titre": "PandasGetting Started",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_getting_started.asp",
+            "contenus": {
+                "paragraphs": [
+                    "If you havePythonandPIPalready installed on a system, then installation of Pandas is very easy.",
+                    "Install it using this command:",
+                    "If this command fails, then use a python distribution that already has Pandas installed like, Anaconda, Spyder etc.",
+                    "Once Pandas is installed, import it in your applications by adding theimportkeyword:",
+                    "Now Pandas is imported and ready to use.",
+                    "Pandas is usually imported under thepdalias.",
+                    "alias:In Python alias are an alternate name for referring \n  to the same thing.",
+                    "Create an alias with theaskeyword while importing:",
+                    "Now the Pandas package can be referred to aspdinstead ofpandas.",
+                    "The version string is stored under__version__attribute."
+                ],
+                "lists": [],
+                "examples": [
+                    "C:\\Users\\Your Name>pip install pandas",
+                    "import pandas",
+                    "import pandasmydataset = {'cars': [\"BMW\", \"Volvo\", \"Ford\"],'passings': [3, 7, 2]}myvar = pandas.DataFrame(mydataset)print(myvar)",
+                    "import pandas as pd",
+                    "import pandas as pdmydataset = {'cars': [\"BMW\", \"Volvo\", \"Ford\"],'passings': \n  [3, 7, 2]}myvar = pd.DataFrame(mydataset)print(myvar)",
+                    "import pandas as pdprint(pd.__version__)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_series.asp",
+        "cours": {
+            "titre": "PandasSeries",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_series.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A Pandas Series is like a column in a table.",
+                    "It is a one-dimensional array holding data of any type.",
+                    "Create a simple Pandas Series from a list:",
+                    "If nothing else is specified, the values are labeled with their index number. First value \nhas index 0, second value has index 1 etc.",
+                    "This label can be used to access a specified value.",
+                    "Return the first value of the Series:",
+                    "With theindexargument, you can name your own labels.",
+                    "Create your own labels:",
+                    "When you have created labels, you can access an item by referring to the label.",
+                    "Return the value of \"y\":",
+                    "You can also use a key/value object, like a dictionary, when creating a Series.",
+                    "Create a simple Pandas Series from a dictionary:",
+                    "Note:The keys of the dictionary become the labels.",
+                    "To select only some of the items in the dictionary, use theindexargument and specify only the items you want to include in the Series.",
+                    "Create a Series using only data from \"day1\" and \"day2\":",
+                    "Data sets in Pandas are usually multi-dimensional tables, called DataFrames.",
+                    "Series is like a column, a DataFrame is the whole table.",
+                    "Create a DataFrame from two Series:",
+                    "You will learn aboutDataFrames in the next chapter."
+                ],
+                "lists": [],
+                "examples": [
+                    "import pandas as pda = [1, 7, 2]myvar = pd.Series(a)print(myvar)",
+                    "print(myvar[0])",
+                    "import pandas as pda = [1, 7, 2]myvar = pd.Series(a, index = [\"x\", \"y\", \"z\"])print(myvar)",
+                    "print(myvar[\"y\"])",
+                    "import pandas as pdcalories = {\"day1\": 420, \"day2\": 380, \"day3\": \n  390}myvar = pd.Series(calories)print(myvar)",
+                    "import pandas as pdcalories = {\"day1\": 420, \"day2\": 380, \"day3\": \n  390}myvar = pd.Series(calories, \n  index = [\"day1\", \"day2\"])print(myvar)",
+                    "import pandas as pddata = {\"calories\": [420, 380, 390],\"duration\": \n  [50, 40, 45]}myvar = pd.DataFrame(data)print(myvar)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_dataframes.asp",
+        "cours": {
+            "titre": "PandasDataFrames",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_dataframes.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A Pandas DataFrame is a 2 dimensional data structure, like a 2 dimensional \narray, or a table with rows and columns.",
+                    "Create a simple Pandas DataFrame:",
+                    "As you can see from the result above, the DataFrame is like a table with rows and columns.",
+                    "Pandas use thelocattribute to return  \none or more specified row(s)",
+                    "Return row 0:",
+                    "Note:This example returns a PandasSeries.",
+                    "Return row 0 and 1:",
+                    "Note:When using[], the \n  result is a PandasDataFrame.",
+                    "With theindexargument, you can name your own indexes.",
+                    "Add a list of names to give each row a name:",
+                    "Use the named index in thelocattribute to return the specified row(s).",
+                    "Return \"day2\":",
+                    "If your data sets are stored in a file, Pandas can load them into a DataFrame.",
+                    "Load a comma separated file (CSV file) into a DataFrame:",
+                    "You will learn more about importing files in the next chapters."
+                ],
+                "lists": [],
+                "examples": [
+                    "import pandas as pddata = {\"calories\": [420, 380, 390],\"duration\": \n  [50, 40, 45]}#load data into a DataFrame object:df = pd.DataFrame(data)print(df)",
+                    "#refer to the row index:print(df.loc[0])",
+                    "#use a list of indexes:print(df.loc[[0, 1]])",
+                    "import pandas as pddata = {\"calories\": [420, 380, 390],\"duration\": \n  [50, 40, 45]}df = pd.DataFrame(data, index = [\"day1\", \"day2\", \n  \"day3\"])print(df)",
+                    "#refer to the named index:print(df.loc[\"day2\"])",
+                    "import pandas as pddf = pd.read_csv('data.csv')print(df)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_csv.asp",
+        "cours": {
+            "titre": "PandasRead CSV",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_csv.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A simple way to store big data sets is to use CSV files (comma separated \nfiles).",
+                    "CSV files contains plain text and is a well know format that can be read by everyone including Pandas.",
+                    "In our examples we will be using a CSV file called 'data.csv'.",
+                    "Download data.csv. orOpen \ndata.csv",
+                    "Load the CSV into a DataFrame:",
+                    "Tip:useto_string()to print the entire \n  DataFrame.",
+                    "If you have a large DataFrame with many rows, Pandas will only return the first 5 rows, and the last 5 rows:",
+                    "Print the DataFrame without theto_string()method:",
+                    "The number of rows returned is defined in Pandas option settings.",
+                    "You can check your system's maximum rows with thepd.options.display.max_rowsstatement.",
+                    "Check the number of maximum returned rows:",
+                    "In my system the number is 60, which means that if the DataFrame contains more than 60 rows,\ntheprint(df)statement will return only the headers and the first and last 5 rows.",
+                    "You can change the maximum rows number with the same statement.",
+                    "Increase the maximum number of rows to display the entire DataFrame:"
+                ],
+                "lists": [],
+                "examples": [
+                    "import pandas as pddf = pd.read_csv('data.csv')print(df.to_string())",
+                    "import pandas as pddf = pd.read_csv('data.csv')print(df)",
+                    "import pandas as pdprint(pd.options.display.max_rows)",
+                    "import pandas as pdpd.options.display.max_rows \n  = 9999df = pd.read_csv('data.csv')print(df)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_json.asp",
+        "cours": {
+            "titre": "PandasRead JSON",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_json.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Big data sets are often stored, or extracted as JSON.",
+                    "JSON is plain text, but has the format of an object, and is well known in the world of programming, including Pandas.",
+                    "In our examples we will be using a JSON file called 'data.json'.",
+                    "Open data.json.",
+                    "Load the JSON file into a DataFrame:",
+                    "Tip:useto_string()to print the entire DataFrame.",
+                    "JSON = Python Dictionary",
+                    "JSON objects have the same format as Python dictionaries.",
+                    "If your JSON code is not in a file, but in a Python Dictionary, you can load it into a DataFrame \ndirectly:",
+                    "Load a Python Dictionary into a DataFrame:"
+                ],
+                "lists": [],
+                "examples": [
+                    "import pandas as pddf = pd.read_json('data.json')print(df.to_string())",
+                    "import pandas as pddata = {\"Duration\":{\"0\":60,\"1\":60,\"2\":60,\"3\":45,\"4\":45,\"5\":60},\"Pulse\":{\"0\":110,\"1\":117,\"2\":103,\"3\":109,\"4\":117,\"5\":102},\"Maxpulse\":{\"0\":130,\"1\":145,\"2\":135,\"3\":175,\"4\":148,\"5\":127},\"Calories\":{\"0\":409,\"1\":479,\"2\":340,\"3\":282,\"4\":406,\"5\":300}}df = pd.DataFrame(data)print(df)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_analyzing.asp",
+        "cours": {
+            "titre": "Pandas -Analyzing DataFrames",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_analyzing.asp",
+            "contenus": {
+                "paragraphs": [
+                    "One of the most used method for getting a quick overview of the DataFrame, is thehead()method.",
+                    "Thehead()method returns the headers and \na specified number of rows, starting from the top.",
+                    "Get a quick overview by printing the first 10 rows of the DataFrame:",
+                    "In our examples we will be using a CSV file called 'data.csv'.",
+                    "Downloaddata.csv, or opendata.csvin your browser.",
+                    "Note:if the number of rows is not specified, thehead()method \n  will return \n  the top 5 rows.",
+                    "Print the first 5 rows of the DataFrame:",
+                    "There is also atail()method for viewing thelastrows of the DataFrame.",
+                    "Thetail()method returns the headers and \na specified number of rows, starting from the bottom.",
+                    "Print the last 5 rows of the DataFrame:",
+                    "The DataFrames object has a method calledinfo(), that \ngives you more information about \nthe data set.",
+                    "Print information about the data:",
+                    "The result tells us there are 169 rows and 4 columns:",
+                    "And the name of each column, with the data type:",
+                    "Theinfo()method also tells us how many Non-Null values there are present in each column,\nand in our data set it seems like there are 164 of 169 Non-Null values in the \"Calories\" column.",
+                    "Which means that there are 5 rows with no value at all, in the \"Calories\" column, for whatever reason.",
+                    "Empty values, or Null values, can be bad when analyzing data,\nand you should consider removing rows with empty values.\nThis is a step towards what is calledcleaning data,\nand you will learn more about that in the next chapters."
+                ],
+                "lists": [],
+                "examples": [
+                    "import pandas as pddf = pd.read_csv('data.csv')print(df.head(10))",
+                    "import pandas as pddf = pd.read_csv('data.csv')print(df.head())",
+                    "print(df.tail())",
+                    "print(df.info())"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_cleaning.asp",
+        "cours": {
+            "titre": "Pandas -Cleaning Data",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_cleaning.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Data cleaning means fixing bad data in your data set.",
+                    "Bad data could be:",
+                    "In this tutorial you will learn how to deal with all of them.",
+                    "In the next chapters we will use this data set:",
+                    "The data set contains some empty cells (\"Date\" in row 22, and \"Calories\" in row 18 and 28).",
+                    "The data set contains wrong format (\"Date\" in row 26).",
+                    "The data set contains wrong data (\"Duration\" in row 7).",
+                    "The data set contains duplicates (row 11 and 12)."
+                ],
+                "lists": [
+                    [
+                        "Empty cells",
+                        "Data in wrong format",
+                        "Wrong data",
+                        "Duplicates"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_cleaning_empty_cells.asp",
+        "cours": {
+            "titre": "Pandas -Cleaning Empty Cells",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_cleaning_empty_cells.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Empty cells can potentially give you a wrong result when you analyze data.",
+                    "One way to deal with empty cells is to remove rows that contain empty cells.",
+                    "This is usually OK, since data sets can be very big, and removing a few rows \nwill not have a big impact on the result.",
+                    "Return a new Data Frame with no empty cells:",
+                    "Note:By default, thedropna()method returns \n  anewDataFrame, and will not change the original.",
+                    "If you want to change the original DataFrame, use theinplace = Trueargument:",
+                    "Remove all rows with NULL values:",
+                    "Note:Now, thedropna(inplace = True)will NOT return a new DataFrame, but it will remove all rows containing NULL values from the original DataFrame.",
+                    "Another way of dealing with empty cells is to insert anewvalue instead.",
+                    "This way you do not have to delete entire rows just because of some empty \ncells.",
+                    "Thefillna()method allows us to replace empty \ncells with a value:",
+                    "Replace NULL values with the number 130:",
+                    "The example above replaces all empty cells in the whole Data Frame.",
+                    "To only replace empty values for one column,\nspecify thecolumn namefor the DataFrame:",
+                    "Replace NULL values in the \"Calories\" columns with the number 130:",
+                    "A common way to replace empty cells, is to calculate the mean, median or mode value of the \ncolumn.",
+                    "Pandas uses themean()median()andmode()methods to \ncalculate the respective values for a specified column:",
+                    "Calculate the MEAN, and replace any empty values with it:",
+                    "Mean= the average value (the sum of all values divided by number of values).",
+                    "Calculate the MEDIAN, and replace any empty values with it:",
+                    "Median= the value in the middle, after you have sorted all values \n  ascending.",
+                    "Calculate the MODE, and replace any empty values with it:",
+                    "Mode= the value that appears most frequently."
+                ],
+                "lists": [],
+                "examples": [
+                    "import pandas as pddf = pd.read_csv('data.csv')new_df = df.dropna()print(new_df.to_string())",
+                    "import pandas as pddf = pd.read_csv('data.csv')df.dropna(inplace = True)print(df.to_string())",
+                    "import pandas as pddf = pd.read_csv('data.csv')df.fillna(130, inplace = True)",
+                    "import pandas as pddf = pd.read_csv('data.csv')df[\"Calories\"].fillna(130, inplace = True)",
+                    "import pandas as pddf = pd.read_csv('data.csv')x = df[\"Calories\"].mean()df[\"Calories\"].fillna(x, inplace = True)",
+                    "import pandas as pddf = pd.read_csv('data.csv')x = df[\"Calories\"].median()df[\"Calories\"].fillna(x, inplace = True)",
+                    "import pandas as pddf = pd.read_csv('data.csv')x = df[\"Calories\"].mode()[0]df[\"Calories\"].fillna(x, inplace = True)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_cleaning_wrong_format.asp",
+        "cours": {
+            "titre": "Pandas -Cleaning Data of Wrong Format",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_cleaning_wrong_format.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Cells with data of wrong format can make it difficult, or even impossible, to analyze data.",
+                    "To fix it, you have two options: remove the rows, or convert all cells in the \ncolumns into the same format.",
+                    "In our Data Frame, we have two cells with the wrong format. Check out row 22 \nand 26, the 'Date' column should be a string that represents a date:",
+                    "Let's try to convert all cells in the 'Date' column into dates.",
+                    "Pandas has ato_datetime()method for this:",
+                    "Convert to date:",
+                    "Result:",
+                    "As you can see from the result, the date in row 26 was fixed,\nbut the empty date in row 22 got a NaT (Not a Time) value, in other words an \nempty value. One way to deal with empty values is simply removing the entire row.",
+                    "The result from the converting in the example above gave us a NaT value, which can be handled as a NULL value, and we can remove the row by using thedropna()method.",
+                    "Remove rows with a NULL value in the \"Date\" column:"
+                ],
+                "lists": [],
+                "examples": [
+                    "import pandas as pddf = pd.read_csv('data.csv')df['Date'] = pd.to_datetime(df['Date'])print(df.to_string())",
+                    "df.dropna(subset=['Date'], inplace = True)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_cleaning_wrong_data.asp",
+        "cours": {
+            "titre": "Pandas -Fixing Wrong Data",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_cleaning_wrong_data.asp",
+            "contenus": {
+                "paragraphs": [
+                    "\"Wrong data\" does not have to be \"empty cells\" or \"wrong format\", it can  \njust be wrong, like if someone registered \"199\" instead of \"1.99\".",
+                    "Sometimes you can spot wrong data by looking at the data set, because you have an expectation of what \nit should be.",
+                    "If you take a look at our data set, you can see that in row 7, the duration is 450, but for all the other rows the duration is between 30 and 60.",
+                    "It doesn't have to be wrong, but taking in consideration that this is the data set of someone's workout \nsessions,\nwe conclude with the fact that this person did not work out in 450 minutes.",
+                    "How can we fix wrong values, like the one for \"Duration\" in row 7?",
+                    "One way to fix wrong values is to replace them with something else.",
+                    "In our example, it is most likely a typo, and the value should be \"45\" instead of \"450\", and \nwe \ncould just insert \"45\" in row 7:",
+                    "Set \"Duration\" = 45 in row 7:",
+                    "For small data sets you might be able to replace the wrong data one by one, \nbut not for big data sets.",
+                    "To replace wrong data for larger data sets you can create some rules, e.g. \nset some boundaries for legal values, and replace any values that are outside of the \nboundaries.",
+                    "Loop through all values in the \"Duration\" column.",
+                    "If the value is higher than 120, set it to 120:",
+                    "Another way of handling wrong data is to remove the rows that contains wrong data.",
+                    "This way you do not have to find out what to replace them with, and there is \na good chance you do not need them to do your analyses.",
+                    "Delete rows where \"Duration\" is higher than 120:"
+                ],
+                "lists": [],
+                "examples": [
+                    "df.loc[7, 'Duration'] = 45",
+                    "for x in df.index:if df.loc[x, \"Duration\"] > 120:df.loc[x, \"Duration\"] = 120",
+                    "for x in df.index:if df.loc[x, \"Duration\"] > 120:df.drop(x, inplace = True)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_cleaning_duplicates.asp",
+        "cours": {
+            "titre": "Pandas -Removing Duplicates",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_cleaning_duplicates.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Duplicate rows are rows \nthat have been registered more than one time.",
+                    "By taking a look at our test data set, we can assume that row 11 and 12 are duplicates.",
+                    "To discover duplicates, we can use theduplicated()method.",
+                    "Theduplicated()method returns a Boolean values for each row:",
+                    "ReturnsTruefor every row that is a duplicate, \n  otherwiseFalse:",
+                    "To remove duplicates, use thedrop_duplicates()method.",
+                    "Remove all duplicates:",
+                    "Remember:The(inplace = True)will \n  make sure that the method does NOT return anewDataFrame, but it will remove all \n  duplicates from theoriginalDataFrame."
+                ],
+                "lists": [],
+                "examples": [
+                    "print(df.duplicated())",
+                    "df.drop_duplicates(inplace = True)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_correlations.asp",
+        "cours": {
+            "titre": "Pandas -Data Correlations",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_correlations.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A great aspect of the Pandas module is thecorr()method.",
+                    "Thecorr()method calculates the relationship between each column in your data set.",
+                    "The examples in this page uses a CSV file called: 'data.csv'.",
+                    "Download data.csv. orOpen \ndata.csv",
+                    "Show the relationship between the columns:",
+                    "Note:Thecorr()method ignores \"not numeric\" \n    columns.",
+                    "The Result of thecorr()method is a table with a lot of numbers that represents\nhow well the relationship is between two columns.",
+                    "The number varies from -1 to 1.",
+                    "1 means that there is a 1 to 1 relationship (a perfect correlation),\nand for this data set, each time a value went up in the first column, the other one went up as well.",
+                    "0.9 is also a good relationship, and if you increase one value, the other will probably increase as well.",
+                    "-0.9 would be just as good relationship as 0.9, but if you increase one value, the other will probably go down.",
+                    "0.2 means NOT a good relationship, meaning that if one value goes up does not mean that the other will.",
+                    "What is a good correlation?It depends on the use, but I think it is safe to say you have to have at least0.6(or-0.6) to call it a good correlation.",
+                    "We can see that \"Duration\" and \"Duration\" got the number1.000000, which makes sense,\neach column always has a perfect relationship with itself.",
+                    "\"Duration\" and \"Calories\" got a0.922721correlation, \nwhich is a very good correlation, and we can predict that the longer you work \nout, the more calories you burn, and the other way around: if you burned a lot \nof calories, you probably had a long work out.",
+                    "\"Duration\" and \"Maxpulse\" got a0.009403correlation, \nwhich is a very bad correlation, meaning that we can not predict the max pulse \nby just looking at the duration of the work out, and vice versa."
+                ],
+                "lists": [],
+                "examples": [
+                    "df.corr()"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_plotting.asp",
+        "cours": {
+            "titre": "Pandas -Plotting",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_plotting.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Pandas uses theplot()method to create \ndiagrams.",
+                    "We can use Pyplot, a submodule of the Matplotlib library to visualize the \ndiagram on the screen.",
+                    "Read more about Matplotlib in ourMatplotlib Tutorial.",
+                    "Import pyplot from Matplotlib and visualize our DataFrame:",
+                    "The examples in this page uses a CSV file called: 'data.csv'.",
+                    "Download data.csvorOpen \ndata.csv",
+                    "Specify that you want a scatter plot with thekindargument:",
+                    "kind = 'scatter'",
+                    "A scatter plot needs an x- and a y-axis.",
+                    "In the example below we will use \"Duration\" for the x-axis\nand \"Calories\" for the y-axis.",
+                    "Include the x and y arguments like this:",
+                    "x = 'Duration', y = 'Calories'",
+                    "",
+                    "Remember:In the previous example, we learned that the correlation between \"Duration\" and \"Calories\"\n    was0.922721, and we concluded with the fact that\n    higher duration means more calories burned.",
+                    "By looking at the scatterplot, I will agree.",
+                    "Let's create another scatterplot, where there is a bad relationship between the columns, like \"Duration\" and \"Maxpulse\", with the correlation0.009403:",
+                    "A scatterplot where there are no relationship between the columns:",
+                    "",
+                    "Use thekindargument \nto specify that you want a histogram:",
+                    "kind = 'hist'",
+                    "A histogram needs only one column.",
+                    "A histogram shows us the frequency of each interval, e.g. how many workouts lasted between 50 and 60 minutes?",
+                    "In the example below we will use the \"Duration\" column to create the histogram:",
+                    "",
+                    "Note:The histogram tells us that there were over 100 workouts that lasted between 50 and 60 minutes."
+                ],
+                "lists": [],
+                "examples": [
+                    "import pandas as pdimport matplotlib.pyplot as pltdf = pd.read_csv('data.csv')df.plot()plt.show()",
+                    "import pandas as pdimport matplotlib.pyplot as pltdf = pd.read_csv('data.csv')df.plot(kind = 'scatter', x = 'Duration', y = 'Calories')plt.show()",
+                    "import pandas as pdimport matplotlib.pyplot as pltdf = pd.read_csv('data.csv')df.plot(kind = 'scatter', x = 'Duration', y = 'Maxpulse')plt.show()",
+                    "df[\"Duration\"].plot(kind = 'hist')"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_compiler.asp",
+        "cours": {
+            "titre": "PandasOnline Compiler (Editor)",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_compiler.asp",
+            "contenus": {
+                "paragraphs": [
+                    "With our \"Try it Yourself\" editor, you can edit Python code and use the Pandas \nmodule, and view the result in your browser.",
+                    "Click on the \"Try it Yourself\" button to see how it works.",
+                    "If you want to create your own website or build Python applications, check outW3Schools Spaces.",
+                    "W3Schools Spacesis a website-building tool that enables you to create and share your own website. \nYou can also get a Python server, allowing you to develop and host your Python applications with ease.",
+                    "Note:This includes Python libraries such as: Django, Pandas, NumPy, SciPy and more.",
+                    "You can change the website's look and how it works by editing the code right in your web browser.",
+                    "It's easy to use and doesn't require any setup",
+                    "The code editor is packed with features to help you achieve more:",
+                    "Practice is key to mastering coding, and the best way to put your Python knowledge into practice is by getting practical with code.",
+                    "UseW3Schools Spacesto build, test and deploy code.",
+                    "The code editor lets you write and practice different types of computer languages. It includes \nPython, but you can use it for other languages too.",
+                    "New languages are added all the time:",
+                    "If you don't know Python, we suggest that you read ourPython Tutorialfrom scratch.",
+                    "Get an overview of your packages and easily add or delete frameworks and libraries. Then, with just one click, you can make changes to your packages without manual installation.",
+                    "",
+                    "You can also use the code editor inW3School Spacesto build frontend or full-stack websites from scratch.",
+                    "Or you can use the 60+ templates available and save time:",
+                    "Create your Spaces account today and explore them all!",
+                    "Host and publish your websites in no time withW3School Spaces.",
+                    "W3Schools subdomain and SSL certificate are included for free withW3School Spaces. An SSL certificate makes your website safe and secure. It also helps people trust your website and makes it easier to find it online.",
+                    "Want a custom domain for your website?",
+                    "You can buy a domain or transfer an existing one and connect it to your space.",
+                    "Get started in a few clicks withW3School Spaces."
+                ],
+                "lists": [
+                    [
+                        "Templates:Start from scratch or use a template",
+                        "Cloud-based:no installations required. You only need your browser",
+                        "Terminal & Log:debug and troubleshoot your code easily",
+                        "File Navigator:switch between files inside the code editor",
+                        "And much more!"
+                    ]
+                ],
+                "examples": [
+                    "import pandas as pddf = pd.read_csv('data.csv')print(df.to_string())"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_quiz.asp",
+        "cours": {
+            "titre": "PandasQuiz",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_quiz.asp",
+            "contenus": {
+                "paragraphs": [
+                    "You can test your Pandas skills with W3Schools' Quiz.",
+                    "The test contains 25 questions and there is no time limit.",
+                    "The test is not official, it's just a nice way to see how much you know, or don't know, about \nPandas.",
+                    "You will get 1 point for each correct answer. At the end of the Quiz,\nyour total score will be displayed. Maximum score is 25 points.",
+                    "Good luck!",
+                    "Start the Pandas Quiz ❯",
+                    "If you don't know Pandas, we suggest that you read ourPandas Tutorialfrom scratch."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_exercises.asp",
+        "cours": {
+            "titre": "PandasExercises",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_exercises.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Test your Pandas skills with exercises from all categories:",
+                    "If you haven't already,sign upto become a W3Schooler, and get points for every exercise you complete.",
+                    "As a logged on W3Schools user you will have access to many features like havingyour own web page,track your learning progress,receive personal guided paths, andmore.",
+                    "The exercises are a mix of \"multiple choice\" and \"fill in the blanks\" questions. \nThere are between 3 and 9 questions in  each category.\nThe answer can be found in the corresponding tutorial chapter. If you're stuck, \nor answer wrong, you can try again or hit the \"Show Answer\" button to see the correct answer.",
+                    "Get certified by completingthecourse"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_syllabus.asp",
+        "cours": {
+            "titre": "PandasSyllabus",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_syllabus.asp",
+            "contenus": {
+                "paragraphs": [
+                    "TheW3Schools Pandas Tutorialis comprehensive and beginner-friendly.",
+                    "It will give you a fundamental knowledge of Pandas.",
+                    "It is designed for beginners and requires only basic Python knowledge.",
+                    "The content has been carefully made to be bite-sized, simple, and easy to\n  understand.",
+                    "The content has been proven by millions of users over the years. It is updated\n  and improved frequently.",
+                    "The syllabus outline and its sequence are structured so you can learn Pandas\n  step by step, from the introduction to data analysis.",
+                    "Get Started With Pandas »",
+                    "Note:Are you a teacher teaching Pandas?W3Schools Academyis a toolbox of features that can help you teach. It offers classroom\n    features such as pre-built study plans, classroom administration and much\n    more. Read more aboutAcademy here.",
+                    "Get Started",
+                    "In this tutorial we offer different activities for you to learn Pandas for\n  free:",
+                    "You can also create a free account to track your progress.",
+                    "As a signed-in user, you get access to features such as:",
+                    "Sign Up - It's free",
+                    "Get Started",
+                    "Pandas, like any other library, is best learned through hands-on practice.",
+                    "Try this example using our editor:",
+                    "Load a CSV file into a Pandas DataFrame:",
+                    "If you want to explore more and host your project, we have a feature calledSpacesthat allows you to\n  build, test and deploy Python projects for free.",
+                    "Here you get a secure sandbox environment called Spaces, where you can\n  practice Pandas code and test projects in real-time.",
+                    "Spaces allow you to test, build, and deploy code. This includes a W3Schools\n  subdomain, hosting, and secure SSL certificates.",
+                    "Spaces require no installation and run directly in the browser.",
+                    "Features include:",
+                    "Create a Spaces Account",
+                    "W3Schools offers an end-of-pathway certification program.",
+                    "Here you can take exams to get certified.",
+                    "The Pandas exam is a test that summarizes the W3Schools Pandas syllabus.",
+                    "After passing the exam you get the \"Certified Pandas Developer\" Certification.",
+                    "There are two different types of certifications:",
+                    "The non-adaptive is pass or no pass.",
+                    "The adaptive certification is adaptive and graded; students will get a grade\n  from intermediate, advanced to professional.",
+                    "Buy Certificate »",
+                    "Are you interested in learning how you can useW3Schools Academyto Teach Pandas?",
+                    "Watch a demo ofW3Schools Academy.\n  You'll see how it works, and discover how it can make teaching programming\n  easier and more engaging.",
+                    "Watch Demo »"
+                ],
+                "lists": [
+                    [
+                        "Understand the basic structure of Pandas DataFrames and Series.",
+                        "Load and manipulate data from various sources.",
+                        "Clean and preprocess data effectively.",
+                        "Perform data analysis and aggregation.",
+                        "Handle missing data appropriately.",
+                        "Create data visualizations.",
+                        "Work with time series data.",
+                        "Merge and join datasets.",
+                        "Export data to different formats."
+                    ],
+                    [
+                        "Data Analysis:Pandas is essential for data manipulation and analysis.",
+                        "Data Science:Pandas is fundamental for data preparation and exploration.",
+                        "Business Analytics:Pandas helps analyze business data and create reports.",
+                        "Finance:Pandas is perfect for financial data analysis and time series.",
+                        "Research:Pandas supports data cleaning and statistical analysis.",
+                        "Machine Learning:Pandas is crucial for data preprocessing in ML projects.",
+                        "Data Engineering:Pandas helps in data transformation and ETL processes."
+                    ],
+                    [
+                        "Lessons",
+                        "Exercises",
+                        "Quizzes"
+                    ],
+                    [
+                        "Learning paths",
+                        "Sandbox and lab environments",
+                        "Achievements",
+                        "And much more!"
+                    ],
+                    [
+                        "Pandas HOME",
+                        "Pandas Intro",
+                        "Pandas Getting Started",
+                        "Pandas Series",
+                        "Pandas DataFrames",
+                        "Pandas Read CSV",
+                        "Pandas Read JSON",
+                        "Pandas Analyzing Data",
+                        "Cleaning Data",
+                        "Cleaning Empty Cells",
+                        "Cleaning Wrong Format",
+                        "Cleaning Wrong Data",
+                        "Removing Duplicates",
+                        "Pandas Correlations",
+                        "Pandas Plotting",
+                        "DataFrames Reference"
+                    ],
+                    [
+                        "Collaboration",
+                        "File navigator",
+                        "Terminal & log",
+                        "Package manager",
+                        "Database",
+                        "Environment manager",
+                        "Analytics"
+                    ],
+                    [
+                        "Non-adaptive",
+                        "Adaptive"
+                    ]
+                ],
+                "examples": [
+                    "import pandas as pddf = pd.read_csv('data.csv')print(df.to_string())"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_study_plan.asp",
+        "cours": {
+            "titre": "PandasStudy Plan",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_study_plan.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The Pandas study plan helps you teach your students Pandas step-by-step.",
+                    "Creating a study plan for Pandas is easy.",
+                    "You can use a pre-built study plan or customize it.",
+                    "Students have different skill levels. The study plans can be customized to ensure that everyone is challenged.",
+                    "Save time with pre-built teacher materials and study plans. Easily organize your class with a timeline from the introduction of Pandas to the final exam.",
+                    "This study plan is a feature of W3Schools Academy.",
+                    "W3Schools Academy is a platform that has everything you need to teach coding, all in one place.",
+                    "It offers you as a teacher a toolbox of features that helps you succeed with teaching in your classroom.",
+                    "You need to have an active subscription to access the study plan feature. There are two different subscription tiers:",
+                    "Learn More »",
+                    "Academy also offer other features such as:",
+                    "Get a free demo »",
+                    "W3Schools has everything you need to teach Pandas.",
+                    "The Pandas training materials is available for you to include and use in your study plan:",
+                    "With the Pandas Syllabus, your students will start with the basics, like understanding DataFrames and Series, and move to more advanced topics, like data cleaning, merging datasets, and analyzing data. Each chapter includes examples, try-it-yourself sections, exercises, and quizzes to make learning easy, interactive, and fun.",
+                    "Read more about Pandas Syllabus.",
+                    "The study plan features are made to help teachers and students. They make learning easy, flexible, and fun. These features work for different types of classes, learning styles and student level.",
+                    "Learn More »",
+                    "You choose the timeline and paceof your study plans.",
+                    "Schools have different preferences.",
+                    "Some would like more intensive pace, e.g. 3 weeks, others 12 or more weeks.",
+                    "It is completely up to you.",
+                    "For example, this is how a 3-week Pandas study plan could look like:",
+                    "Image of Sample Pandas study plan:",
+                    "Start withPandas Study Planstoday.",
+                    "Get Started »",
+                    "Are you interested in learning how you can useW3Schools Academyto Teach Pandas programming?",
+                    "Watch a demo ofW3Schools Academy. You'll see how it works, and discover how it can make teaching programming easier and more engaging.",
+                    "Watch Demo »"
+                ],
+                "lists": [
+                    [
+                        "Essentials ($1.99 / month per student)",
+                        "Full Access ($5.99 / month per student)",
+                        "Calculate your price and orderhere."
+                    ],
+                    [
+                        "Managing your classroom",
+                        "Tracking of student progress and reports",
+                        "Labs, assignments, and code challenges (prebuilt challenges or create your own ones)",
+                        "Auto-grading",
+                        "Teaching materials",
+                        "Certification exams"
+                    ],
+                    [
+                        "W3Schools Pandas Tutorial",
+                        "Pandas Exercises",
+                        "Pandas Quiz",
+                        "Pandas Challenges (Coding challenges)",
+                        "Pandas Certification Exam (End of Pathway Exam)"
+                    ],
+                    [
+                        "Learning PathsYou can add ready-made learning paths.The learning paths are by default ordered by our recommended order.You can change the order.You can add custom activities with text, links, or multi-media files.Drag and drop or click to make changes to the path.",
+                        "You can add ready-made learning paths.",
+                        "The learning paths are by default ordered by our recommended order.",
+                        "You can change the order.",
+                        "You can add custom activities with text, links, or multi-media files.",
+                        "Drag and drop or click to make changes to the path.",
+                        "Interactive ContentTutorialsTry-its (test code snippets)ExercisesQuizChallengesLabs",
+                        "Tutorials",
+                        "Try-its (test code snippets)",
+                        "Exercises",
+                        "Quiz",
+                        "Challenges",
+                        "Labs",
+                        "Timeline and PaceYou can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).You can decide the learning pace for your class.Different study plans can be assigned to different students in the same class.The flexibility can help to make sure that everyone is challenged.",
+                        "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+                        "You can decide the learning pace for your class.",
+                        "Different study plans can be assigned to different students in the same class.",
+                        "The flexibility can help to make sure that everyone is challenged.",
+                        "Track Student ProgressThere are tools to track student progress.The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+                        "There are tools to track student progress.",
+                        "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+                        "The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+                        "End of Pathway ExamThe Pandas study plan aligns with the Pandas Certification Exam.The exam can be taken at the end of the study plan, at your selected date.The exam summarizes the Pandas Tutorial.You get reports of the students' results.",
+                        "The Pandas study plan aligns with the Pandas Certification Exam.",
+                        "The exam can be taken at the end of the study plan, at your selected date.",
+                        "The exam summarizes the Pandas Tutorial.",
+                        "You get reports of the students' results.",
+                        "AccessibilityStudy plans and learning materials are accessible on desktops, tablets, and smartphones.This ensures students can learn anytime, anywhere.",
+                        "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+                        "This ensures students can learn anytime, anywhere."
+                    ],
+                    [
+                        "You can add ready-made learning paths.",
+                        "The learning paths are by default ordered by our recommended order.",
+                        "You can change the order.",
+                        "You can add custom activities with text, links, or multi-media files.",
+                        "Drag and drop or click to make changes to the path."
+                    ],
+                    [
+                        "Tutorials",
+                        "Try-its (test code snippets)",
+                        "Exercises",
+                        "Quiz",
+                        "Challenges",
+                        "Labs"
+                    ],
+                    [
+                        "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+                        "You can decide the learning pace for your class.",
+                        "Different study plans can be assigned to different students in the same class.",
+                        "The flexibility can help to make sure that everyone is challenged."
+                    ],
+                    [
+                        "There are tools to track student progress.",
+                        "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+                        "The challenges can be auto-graded or manually graded. The results are available to you as a teacher."
+                    ],
+                    [
+                        "The Pandas study plan aligns with the Pandas Certification Exam.",
+                        "The exam can be taken at the end of the study plan, at your selected date.",
+                        "The exam summarizes the Pandas Tutorial.",
+                        "You get reports of the students' results."
+                    ],
+                    [
+                        "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+                        "This ensures students can learn anytime, anywhere."
+                    ],
+                    [
+                        "Week 1: Introduction, Getting started",
+                        "Week 2: Data, Cleaning Data",
+                        "Week 3: Plotting"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_exam.asp",
+        "cours": {
+            "titre": "PandasCertification",
+            "description": "How Does It Work?Study for free at W3Schools.comStudy at your own speedTest your skills with W3Schools online quizzesApply for your certificate by paying an exam feeTake your exam online, at any time, and from any location",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_exam.asp",
+            "contenus": {
+                "paragraphs": [
+                    "W3Schools offers an Online Certification Program.",
+                    "The perfect solution for busy professionals who need to balance work, family, and career building.",
+                    "More than 50 000 certificates already issued!",
+                    "Get Your Certificate »",
+                    "W3Schools offers an Online Certification Program.",
+                    "The perfect solution for busy professionals who need to balance work, family, and career building.",
+                    "More than 50 000 certificates already issued!",
+                    "Get Your Certificate »",
+                    "Any student or professional within the digital industry.",
+                    "Certifications are valuable assets to gain trust and demonstrate knowledge to your clients, current or future employers on a ever increasing competitive market.",
+                    "W3Schools has over two decades of experience with teaching coding online.",
+                    "Our certificates are recognized and valued by companies looking to employ skilled developers.",
+                    "Show the world your coding skills by getting a certification.",
+                    "The prices is a small fraction compared to the price of traditional education.",
+                    "Document and validate your competence by getting certified!",
+                    "Fee:95 USD",
+                    "Achievable certification levels:Intermediate (40%)Advanced (75%)Professional (90%)",
+                    "Number of questions:Adaptive,60on average",
+                    "Requirement to pass:Minimum 40% - Intermediate level",
+                    "Time limit:60 minutes",
+                    "Number of attempts to pass:3",
+                    "Exam deadline:None",
+                    "Certification Expiration:None",
+                    "Format:Online, multiple choice",
+                    "Register now »",
+                    "Getting a certificate proves your commitment to upgrading your skills.",
+                    "The certificate can be added as credentials to your CV, Resume, LinkedIn profile, and so on.",
+                    "It gives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+                    "Knowledge is power, especially in the current job market.",
+                    "Documentation of your skills enables you to advance your career or helps you to start a new one.",
+                    "Example certificate:",
+                    "Each certificate gets a unique link that can be shared with others.",
+                    "Validate your certification with the link or QR code.",
+                    "Check how it looks like in thisExample.",
+                    "Share your certificate on Linkedin the Certifications section in just one click!",
+                    "Getting a certificate proves your commitment to upgrade your skills,\ngives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+                    "Get Your Certificate »",
+                    "Are you an educator, manager or business owner looking for courses or certifications?",
+                    "We are working with schools, companies and organizations from all over the world.",
+                    "Get courses and/or certifications for your team here."
+                ],
+                "lists": [
+                    [
+                        "Study for free at W3Schools.com",
+                        "Study at your own speed",
+                        "Test your skills with W3Schools online quizzes",
+                        "Apply for your certificate by paying an exam fee",
+                        "Take your exam online, at any time, and from any location"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/pandas/pandas_ref_dataframe.asp",
+        "cours": {
+            "titre": "Pandas -DataFrame Reference",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/pandas/pandas_ref_dataframe.asp",
+            "contenus": {
+                "paragraphs": [
+                    "All properties and methods of the DataFrame object, with explanations and \nexamples:"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    }
+]

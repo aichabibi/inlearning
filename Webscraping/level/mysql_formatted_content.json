@@ -1,0 +1,120 @@
+[
+  {
+    "url": "https://www.w3schools.com/mysql/default.asp",
+    "cours": {
+      "titre": "MySQLTutorial",
+      "description": "MySQL is a widely used relational database management system (RDBMS).MySQL is free and open-source.MySQL is ideal for both small and large applications.Start learning MySQL now »",
+      "lien": "https://www.w3schools.com/mysql/default.asp",
+      "contenus": {
+        "paragraphs": [
+          "MySQL is a widely used relational database management system (RDBMS).",
+          "MySQL is free and open-source.",
+          "MySQL is ideal for both small and large applications.",
+          "With our online MySQL editor, you can edit the SQL statements, and click on a button to view the result.",
+          "Click on the \"Try it Yourself\" button to see how it works.",
+          "Insert the missing statement to get all the columns from theCustomerstable.",
+          "Start the Exercise",
+          "Learn by examples! This tutorial supplements all explanations with clarifying examples.",
+          "See All SQL Examples",
+          "Test your MySQL skills at W3Schools!",
+          "Start MySQL Quiz!",
+          "Track your progress with the free \"My Learning\" program here at W3Schools.",
+          "Log in to your account, and start earning points!",
+          "This is an optional feature. You can study at W3Schools without using My Learning.",
+          "At W3Schools you will find a complete reference of MySQL data types and functions:",
+          "MySQL Data Types",
+          "MySQL Functions"
+        ],
+        "lists": [],
+        "examples": [
+          "SELECT * FROM Customers;"
+        ]
+      },
+      "categories": "",
+      "niveau": 1,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/mysql/mysql_intro.asp",
+    "cours": {
+      "titre": "Introduction toMySQL",
+      "description": "",
+      "lien": "https://www.w3schools.com/mysql/mysql_intro.asp",
+      "contenus": {
+        "paragraphs": [
+          "MySQL is a very popular open-source relational database management system (RDBMS).",
+          "To build a web site that shows data from a database, you will need:"
+        ],
+        "lists": [
+          [
+            "MySQL is a relational database management system",
+            "MySQL is open-source",
+            "MySQL is free",
+            "MySQL is ideal for both small and large applications",
+            "MySQL is very fast, reliable, scalable, and easy to use",
+            "MySQL is cross-platform",
+            "MySQL is compliant with the ANSI SQL standard",
+            "MySQL was first released in 1995",
+            "MySQL is developed, distributed, and supported by Oracle Corporation",
+            "MySQL is named after co-founder Ulf Michael \"Monty\" Widenius's daughter: My"
+          ],
+          [
+            "Huge websites like Facebook, Twitter, Airbnb, Booking.com, Uber, GitHub, YouTube, etc.",
+            "Content Management Systems like WordPress, Drupal, Joomla!, Contao, etc.",
+            "A very large number of web developers around the world"
+          ],
+          [
+            "An RDBMS database program (like MySQL)",
+            "A server-side scripting language, like PHP",
+            "To use SQL to get the data you want",
+            "To use HTML / CSS to style the page"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": 1,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/mysql/mysql_rdbms.asp",
+    "cours": {
+      "titre": "MySQL RDBMS",
+      "description": "",
+      "lien": "https://www.w3schools.com/mysql/mysql_rdbms.asp",
+      "contenus": {
+        "paragraphs": [
+          "RDBMS stands for Relational Database Management System.",
+          "RDBMS is a program used to maintain a relational database.",
+          "RDBMS is the basis for all modern database systems such as MySQL, Microsoft SQL Server, Oracle, and Microsoft Access.",
+          "RDBMS usesSQL queriesto access the data in the database.",
+          "A table is a collection of related data entries, and it consists of columns and rows.",
+          "A column holds specific information about every record in the table.",
+          "A record (or row) is each individual entry that exists in a table.",
+          "Look at a selection from the Northwind \"Customers\" table:",
+          "The columns in the \"Customers\" table above are: CustomerID, CustomerName, ContactName, Address, \nCity, PostalCode and Country. The table has 5 records (rows).",
+          "A relational database defines database relationships in the form of tables. \nThe tables are related to each other - based on data common to each.",
+          "Look at the following three tables \"Customers\", \"Orders\", and \"Shippers\" from the Northwind \ndatabase:",
+          "The relationship between the \"Customers\" table and the \"Orders\" table is the \nCustomerID column:",
+          "The relationship between the \"Orders\" table and the \"Shippers\" table is the \nShipperID column:"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": 2,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  }
+]

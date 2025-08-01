@@ -1,0 +1,1202 @@
+[
+    {
+        "url": "https://www.w3schools.com/datascience/default.asp",
+        "cours": {
+            "titre": "Data ScienceTutorial",
+            "description": "Learn Data ScienceToday, Data rules the world. This has resulted in a huge demand for Data Scientists.A Data Scientist helps companies with data-driven decisions, to make their business better.Start learning Data Science now »",
+            "lien": "https://www.w3schools.com/datascience/default.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Today, Data rules the world. This has resulted in a huge demand for Data Scientists.",
+                    "A Data Scientist helps companies with data-driven decisions, to make their business better.",
+                    "With our \"Try it Yourself\" editor, you can edit Python code and view the result.",
+                    "Click on the \"Try it Yourself\" button to see how it works.",
+                    "Python is a programming language widely used by Data Scientists.",
+                    "Python has in-built mathematical libraries and functions, making it easier to calculate mathematical problems and to perform data analysis.",
+                    "In this tutorial, we will use Python to provide practical examples.",
+                    "To learn more about Python, please visit ourPython Tutorial."
+                ],
+                "lists": [],
+                "examples": [
+                    "import pandas as pdimport matplotlib.pyplot as pltfrom scipy \n  import statsfull_health_data = pd.read_csv(\"data.csv\", header=0, sep=\",\")x = full_health_data[\"Average_Pulse\"]y = full_health_data[\"Calorie_Burnage\"]slope, intercept, r, p, std_err = stats.linregress(x, y)def myfunc(x):return \n  slope * x + interceptmymodel = list(map(myfunc, x))plt.scatter(x, y)plt.plot(x, mymodel)plt.ylim(ymin=0, ymax=2000)plt.xlim(xmin=0, xmax=200)plt.xlabel(\"Average_Pulse\")plt.ylabel (\"Calorie_Burnage\")plt.show()"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_introduction.asp",
+        "cours": {
+            "titre": "Data ScienceIntroduction",
+            "description": "For route planning: To discover the best routes to shipTo foresee delays for flight/ship/train etc. (through predictive \n    analysis)To create promotional offersTo find the best suited time to deliver goodsTo forecast the next years revenue for a companyTo analyze health benefit of trainingTo predict who will win elections",
+            "lien": "https://www.w3schools.com/datascience/ds_introduction.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Data Science is a combination of multiple disciplines that uses statistics, \ndata analysis, and machine learning to analyze data and to extract knowledge and insights from it.",
+                    "Data Science is about data gathering, analysis and decision-making.",
+                    "Data Science is about finding patterns in data, through analysis, and make \nfuture predictions.",
+                    "By using Data Science, companies are able to make:",
+                    "Data Science is used in many industries \nin the world today, e.g. banking, consultancy, healthcare, and manufacturing.",
+                    "Examples of where Data Science is needed:",
+                    "Data Science can be applied in nearly every part of a business where data is available. Examples are:",
+                    "A Data Scientist requires expertise in several \nbackgrounds:",
+                    "A Data Scientist must find patterns within the data. Before he/she can find \nthe patterns, he/she must organize the data in a standard format.",
+                    "Here is how a Data Scientist works:",
+                    "In this tutorial, we will start by presenting what data is and how data can be analyzed.",
+                    "You will learn how to use statistics and mathematical functions to make \npredictions."
+                ],
+                "lists": [
+                    [
+                        "Better decisions (should we choose A or B)",
+                        "Predictive analysis (what will happen next?)",
+                        "Pattern discoveries (find pattern, or maybe hidden information in the \n  data)"
+                    ],
+                    [
+                        "For route planning: To discover the best routes to ship",
+                        "To foresee delays for flight/ship/train etc. (through predictive \n    analysis)",
+                        "To create promotional offers",
+                        "To find the best suited time to deliver goods",
+                        "To forecast the next years revenue for a company",
+                        "To analyze health benefit of training",
+                        "To predict who will win elections"
+                    ],
+                    [
+                        "Consumer goods",
+                        "Stock markets",
+                        "Industry",
+                        "Politics",
+                        "Logistic companies",
+                        "E-commerce"
+                    ],
+                    [
+                        "Machine Learning",
+                        "Statistics",
+                        "Programming (Python or R)",
+                        "Mathematics",
+                        "Databases"
+                    ],
+                    [
+                        "Ask the right questions- To understand the business \n  problem.",
+                        "Explore and collect data- From database, web logs, \n  customer feedback, etc.",
+                        "Extract the data- Transform the data to a standardized \nformat.",
+                        "Clean the data- Remove erroneous values from the data.",
+                        "Find and replace missing values- Check for \nmissing values and replace them with a suitable value (e.g. an average value).",
+                        "Normalize data- Scale the values in a practical range \n  (e.g. 140 cm is smaller than 1,8 m. However, the number 140 \nis larger than 1,8. - so scaling is important).",
+                        "Analyze data, find patterns and make future predictions.",
+                        "Represent the result- Present the result with useful \n  insights in a way the \"company\" can understand."
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_data.asp",
+        "cours": {
+            "titre": "Data Science- What is Data?",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_data.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Data is a collection of information.",
+                    "One purpose of Data Science is to structure data, making it interpretable and easy to work with.",
+                    "Data can be categorized into two groups:",
+                    "Unstructured data is not organized. We must organize the data for analysis purposes.",
+                    "",
+                    "",
+                    "Structured data is organized and easier to work with.",
+                    "",
+                    "We can use an array or a database table to structure or present data.",
+                    "Example of an array:",
+                    "The following example shows how to create an array in Python:",
+                    "It is common to work with very large data sets in Data Science.",
+                    "In this tutorial we will try to make it as easy as possible to understand the concepts of \nData Science. We will therefore work with a small data set that is easy to interpret."
+                ],
+                "lists": [
+                    [
+                        "Structured data",
+                        "Unstructured data"
+                    ]
+                ],
+                "examples": [
+                    "[80, 85, 90, 95, 100, 105, 110, 115, 120, 125]",
+                    "Array = [80, 85, 90, 95, 100, 105, 110, 115, 120, 125]print(Array)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_database.asp",
+        "cours": {
+            "titre": "Data Science- Database Table",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_database.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A database table is a table with structured data.",
+                    "The following table shows a database table with health data extracted from a sports watch:",
+                    "This dataset contains information of a typical training session such as duration, average pulse, calorie burnage etc.",
+                    "A database table consists of column(s) and row(s):",
+                    "A row is a horizontal representation of data.",
+                    "A column is a vertical representation of data.",
+                    "A variable is defined as something that can be measured or counted.",
+                    "Examples can be characters, numbers or time.",
+                    "In the example under, we can observe that each column represents a variable.",
+                    "There are 6 columns, meaning that there are 6 variables (Duration, \nAverage_Pulse, Max_Pulse, Calorie_Burnage, Hours_Work, Hours_Sleep).",
+                    "There are 11 rows, meaning that each variable has 10 observations.",
+                    "But if there are 11 rows, how come there are only 10 observations?",
+                    "It is because the first row is the label, meaning that it is thenameof the variable."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_python.asp",
+        "cours": {
+            "titre": "Data Science &Python",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_python.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Python is a programming language widely used by Data Scientists.",
+                    "Python has in-built mathematical libraries and functions, making it easier to calculate mathematical problems and to perform data analysis.",
+                    "We will provide practical examples using Python.",
+                    "To learn more about Python, please visit ourPython Tutorial.",
+                    "Python has libraries with large collections of mathematical functions and analytical tools.",
+                    "In this tutorial, we will use the following libraries:",
+                    "We will use these libraries throughout the tutorial to create examples."
+                ],
+                "lists": [
+                    [
+                        "Pandas- This library is used for structured data operations, like import \n  CSV files, create dataframes, and data preparation",
+                        "Numpy- This is a mathematical \n  library. Has a powerful N-dimensional array object, linear algebra, Fourier \n  transform, etc.",
+                        "Matplotlib- This library is \n  used for visualization of data.",
+                        "SciPy- This library has linear algebra modules"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_python_dataframe.asp",
+        "cours": {
+            "titre": "Data Science- Python DataFrame",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_python_dataframe.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A data frame is a structured representation of data.",
+                    "Let's define a data frame with 3 columns and 5 rows with fictional numbers:",
+                    "We writepd.in front ofDataFrame()to let Python know that we want to activate the DataFrame() function from the Pandas library.",
+                    "Be aware of the capital D and F in DataFrame!",
+                    "This is the output:",
+                    "",
+                    "We see that \"col1\", \"col2\" and \"col3\" are the names of the columns.",
+                    "Do not be confused about the vertical numbers ranging from 0-4. They tell us the information about the position of the rows.",
+                    "In Python, the numbering of rows starts with zero.",
+                    "Now, we can use Python to count the columns and rows.",
+                    "We can use df.shape[1] to find the number of columns:",
+                    "Count the number of columns:",
+                    "We can use df.shape[0] to find the number of rows:",
+                    "Count the number of rows:",
+                    "If we work with larger data sets with many columns and rows, it will be confusing to count it by yourself. \nYou risk to count it wrongly.\nIf we use the built-in functions in Python correctly, we assure that the count is correct."
+                ],
+                "lists": [
+                    [
+                        "Import the Pandas library as pd",
+                        "Define data with column and rows in a variable named d",
+                        "Create a data frame using the function pd.DataFrame()",
+                        "The data frame contains 3 columns and 5 rows",
+                        "Print the data frame output with the print() function"
+                    ]
+                ],
+                "examples": [
+                    "import pandas as pdd = {'col1': [1, 2, 3, 4, 7], 'col2': [4, 5, 6, 9, \n  5], 'col3': [7, 8, 12, 1, 11]}df = pd.DataFrame(data=d)print(df)",
+                    "count_column = df.shape[1]print(count_column)",
+                    "count_row = df.shape[0]print(count_row)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_functions.asp",
+        "cours": {
+            "titre": "Data ScienceFunctions",
+            "description": "We use underscore (_) to separate strings because Python cannot read space as separator.",
+            "lien": "https://www.w3schools.com/datascience/ds_functions.asp",
+            "contenus": {
+                "paragraphs": [
+                    "This chapter shows three commonly used functions when working \nwith Data Science: max(), min(), and mean().",
+                    "The data set above consists of 6 variables, each with 10 observations:",
+                    "We use underscore (_) to separate strings because Python cannot read space as separator.",
+                    "The Pythonmax()function is used to find the highest value in an array.",
+                    "The Pythonmin()function is used to find the lowest value in an array.",
+                    "The NumPymean()function is used to find the average value of an array.",
+                    "Note:We writenp.in front ofmeanto let Python know that we want to activate themeanfunction from theNumpylibrary."
+                ],
+                "lists": [
+                    [
+                        "Duration- How long lasted the training session in minutes?",
+                        "Average_Pulse- What was the average pulse of the training session? This is measured by beats per minute",
+                        "Max_Pulse- What was the max pulse of the training session?",
+                        "Calorie_Burnage- How much calories were burnt on the training session?",
+                        "Hours_Work- How many hours did we work at our job before the training session?",
+                        "Hours_Sleep- How much did we sleep the night before the training session?"
+                    ]
+                ],
+                "examples": [
+                    "Average_pulse_max = max(80, 85, 90, 95, 100, 105, 110, 115, 120, 125)print \n  (Average_pulse_max)",
+                    "Average_pulse_min = min(80, 85, 90, 95, 100, 105, 110, 115, 120, 125)print \n  (Average_pulse_min)",
+                    "import numpy as npCalorie_burnage = \n  [240, 250, 260, 270, 280, 290, 300, 310, 320, 330]Average_calorie_burnage = \n  np.mean(Calorie_burnage)print(Average_calorie_burnage)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_analyze_data.asp",
+        "cours": {
+            "titre": "Data Science- Data Preparation",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_analyze_data.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Before analyzing data, a Data Scientist must extract the data, \nand make it clean and valuable.",
+                    "Before data can be analyzed, it must be imported/extracted.",
+                    "In the example below, we show you how to import data using Pandas in Python.",
+                    "We  use theread_csv()function to import a CSV file with the health data:",
+                    "Tip:If you have a large CSV file, you can use thehead()function to only show the top 5rows:",
+                    "Look at the imported data. As you can see, the data are \"dirty\" with wrongly or unregistered values:",
+                    "So, we must clean the data in order to perform the analysis.",
+                    "We see that the non-numeric values (9 000 and AF) are in the same rows with missing values.",
+                    "Solution: We can remove the rows with missing observations to fix this problem.",
+                    "When we load a data set using Pandas, all blank cells are automatically converted into \"NaN\" values.",
+                    "So, removing the NaN cells gives us a clean data set that can be analyzed.",
+                    "We can \nuse thedropna()function to remove the NaNs. axis=0 means that we want to remove all rows that have a NaN value:",
+                    "The result is a data set without NaN rows:",
+                    "To analyze data, we also need to know the types of data we are dealing with.",
+                    "Data can be split into two main categories:",
+                    "By knowing the type of your data, you will be able to know what technique to use when analyzing them.",
+                    "We can use theinfo()function to list the data types \nwithin our data set:",
+                    "Result:",
+                    "We see that this data set has two different types of data:",
+                    "We cannot use objects to calculate and perform analysis here. We must convert \nthe type object to float64 (float64 is a number with a decimal in Python).",
+                    "We can use theastype()function to convert the data into float64.",
+                    "The following example converts \"Average_Pulse\" and \"Max_Pulse\" into data \ntype float64 (the other variables are already of data type float64):",
+                    "Result:",
+                    "Now, the data set has only float64 data types.",
+                    "When we have cleaned the data set, we can start analyzing the data.",
+                    "We can use thedescribe()function in Python \nto summarize data:",
+                    "Result:"
+                ],
+                "lists": [
+                    [
+                        "Import the Pandas library",
+                        "Name the data frame ashealth_data.",
+                        "header=0means that the headers for the variable names are to be found in the first row (note that \n  0 means the first row in Python)",
+                        "sep=\",\"means that \",\" is used as the separator between the \n  values. This is because we are using the file type .csv (comma separated \n  values)"
+                    ],
+                    [
+                        "There are some blank fields",
+                        "Average pulse of 9 000 is not possible",
+                        "9 000 will be treated as non-numeric, because of the space separator",
+                        "One observation of max pulse is denoted as \"AF\", which does not make sense"
+                    ],
+                    [
+                        "Quantitative Data- Can be expressed as a number or can \n  be quantified. Can be divided into two sub-categories:Discrete data: Numbers are counted as \"whole\", e.g. \n      number of students in a class, number of goals in a soccer gameContinuous data: Numbers can be of infinite precision. \n      e.g. weight of a person, shoe size, temperature",
+                        "Discrete data: Numbers are counted as \"whole\", e.g. \n      number of students in a class, number of goals in a soccer game",
+                        "Continuous data: Numbers can be of infinite precision. \n      e.g. weight of a person, shoe size, temperature",
+                        "Qualitative Data- Cannot be expressed as a number and \n  cannot be quantified. Can be divided into two sub-categories:Nominal data: Example: gender, hair color, ethnicityOrdinal data: Example: school grades (A, B, C), \n    economic status (low, middle, high)",
+                        "Nominal data: Example: gender, hair color, ethnicity",
+                        "Ordinal data: Example: school grades (A, B, C), \n    economic status (low, middle, high)"
+                    ],
+                    [
+                        "Discrete data: Numbers are counted as \"whole\", e.g. \n      number of students in a class, number of goals in a soccer game",
+                        "Continuous data: Numbers can be of infinite precision. \n      e.g. weight of a person, shoe size, temperature"
+                    ],
+                    [
+                        "Nominal data: Example: gender, hair color, ethnicity",
+                        "Ordinal data: Example: school grades (A, B, C), \n    economic status (low, middle, high)"
+                    ],
+                    [
+                        "Float64",
+                        "Object"
+                    ],
+                    [
+                        "Count- Counts the number of observations",
+                        "Mean- The average value",
+                        "Std- Standard deviation (explained in the statistics chapter)",
+                        "Min- The lowest value",
+                        "25%,50%and75%are percentiles \n  (explained in the statistics chapter)",
+                        "Max- The highest value"
+                    ]
+                ],
+                "examples": [
+                    "import pandas as pdhealth_data = pd.read_csv(\"data.csv\", header=0, sep=\",\")print(health_data)",
+                    "import pandas as pdhealth_data = pd.read_csv(\"data.csv\", header=0, sep=\",\")print(health_data.head())",
+                    "health_data.dropna(axis=0,inplace=True)print(health_data)",
+                    "print(health_data.info())",
+                    "health_data[\"Average_Pulse\"] \n  = health_data['Average_Pulse'].astype(float)health_data[\"Max_Pulse\"] = \n  health_data[\"Max_Pulse\"].astype(float)print \n  (health_data.info())",
+                    "print(health_data.describe())"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_linear_functions.asp",
+        "cours": {
+            "titre": "Data Science- Linear Functions",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_linear_functions.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Mathematical functions are important to know as a data \nscientist, because we want to make predictions and interpret them.",
+                    "In mathematics a function is used to relate one variable to another variable.",
+                    "Suppose we consider the relationship between calorie burnage and average \npulse. It is reasonable to assume that, in general, the calorie burnage will \nchange as the average pulse changes - we say that the calorie burnage depends \nupon the average pulse.",
+                    "Furthermore, it may be reasonable to assume that as the average pulse \nincreases, so will the calorie burnage. Calorie burnage and average pulse are \nthe two variables being considered.",
+                    "Because the calorie burnage depends upon the average pulse, we say that \ncalorie burnage is the dependent variable and the average pulse is the \nindependent variable.",
+                    "The relationship between a dependent and an independent variable can often be \nexpressed mathematically using a formula (function).",
+                    "A linear function has one independent variable (x) and one dependent variable \n(y), and has the following form:",
+                    "This function is used to calculate a value for the dependent variable when we \nchoose a value for the independent variable.",
+                    "Explanation:",
+                    "A function with one explanatory variable means that we use one variable for \nprediction.",
+                    "Let us say we want to predict calorie burnage using average pulse. We have \nthe following formula:",
+                    "Here, the numbers and variables means:",
+                    "The term linearity means a \"straight line\". So, if you show a linear function \ngraphically, the line will always be a straight line. The line can slope \nupwards, downwards, and in some cases may be horizontal or vertical.",
+                    "Here is a graphical representation of the mathematical function above:"
+                ],
+                "lists": [
+                    [
+                        "f(x) = the output (the dependant variable)",
+                        "x = the input (the independant variable)",
+                        "a = slope = is the coefficient of the independent variable. It gives the \n  rate of change of the dependent variable",
+                        "b = intercept = is the value of the dependent \nvariable when x = 0. It is also the point where the diagonal line crosses the \n  vertical axis."
+                    ],
+                    [
+                        "f(x) = The output. This number is where we get the predicted value of \n  Calorie_Burnage",
+                        "x = The input, which is Average_Pulse",
+                        "2 = Slope = Specifies how much Calorie_Burnage increases if Average_Pulse \n  increases by one. It tells us how \"steep\" the diagonal line is",
+                        "80 = Intercept = A fixed value. It is the value of the dependent variable \n  when x = 0"
+                    ],
+                    [
+                        "The horizontal axis is generally called the x-axis. Here, it \nrepresents Average_Pulse.",
+                        "The vertical axis is generally called \nthe y-axis. Here, it represents Calorie_Burnage.",
+                        "Calorie_Burnage is a function of Average_Pulse, because \nCalorie_Burnage is assumed to be dependent on Average_Pulse.",
+                        "In other words, we \nuse Average_Pulse to predict Calorie_Burnage.",
+                        "The blue (diagonal) line \nrepresents the structure of the mathematical function that predicts calorie \nburnage."
+                    ]
+                ],
+                "examples": [
+                    "y = f(x) = ax + b",
+                    "f(x) = 2x + 80"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_linear_functions_graphic.asp",
+        "cours": {
+            "titre": "Data Science- Plotting Linear Functions",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_linear_functions_graphic.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Take a look at our health data set:",
+                    "Now, we can first plot the values of Average_Pulse against Calorie_Burnage using the matplotlib library.",
+                    "Theplot()function is used to make a 2D hexagonal binning plot of points x,y:",
+                    "The code above will produce the following result:",
+                    "As we can see, there is a relationship between Average_Pulse and \nCalorie_Burnage. Calorie_Burnage increases proportionally with Average_Pulse. It means that we can use Average_Pulse to predict Calorie_Burnage.",
+                    "The reason is that we do not have observations where Average_Pulse or \nCalorie_Burnage are equal to zero. 80 is the first observation of Average_Pulse \nand 240 is the first observation of Calorie_Burnage.",
+                    "Look at the line. What happens to calorie burnage if average pulse increases from 80 to 90?",
+                    "We can use the diagonal line to find the mathematical function to predict calorie burnage.",
+                    "As it turns out:",
+                    "There is a pattern. If average pulse increases by 10, the calorie burnage increases by 20."
+                ],
+                "lists": [
+                    [
+                        "Import the pyplot module of the matplotlib library",
+                        "Plot the data from Average_Pulse against Calorie_Burnage",
+                        "kind='line'tells us which type of plot we want. Here, we \n  want to have a straight line",
+                        "plt.ylim() and plt.xlim() tells us what value we want the axis to start \n  on. Here, we want the axis to begin from zero",
+                        "plt.show() shows us the output"
+                    ],
+                    [
+                        "If the average pulse is 80, the calorie burnage is 240",
+                        "If the average pulse is 90, the calorie burnage is 260",
+                        "If the average pulse is 100, the calorie burnage is 280"
+                    ]
+                ],
+                "examples": [
+                    "import matplotlib.pyplot as plthealth_data.plot(x ='Average_Pulse', \n  y='Calorie_Burnage', kind='line'),plt.ylim(ymin=0)plt.xlim(xmin=0)plt.show()"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_linear_slope.asp",
+        "cours": {
+            "titre": "Data Science- Slope and Intercept",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_linear_slope.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Now we will explain how we found the slope and intercept of our function:",
+                    "The image below points to the Slope - which indicates how steep the line is, \nand the Intercept - which is the value of y, when x = 0 (the point where the \ndiagonal line crosses the vertical axis). The red line is the continuation of \nthe blue line from previous page.",
+                    "The slope is defined as how much calorie burnage increases, if average pulse increases by one. \nIt tells us how \"steep\" the diagonal line is.",
+                    "We can find the slope by using the proportional difference of two points from the graph.",
+                    "We see that if average pulse increases with 10, the calorie burnage increases by 20.",
+                    "The slope is 2.",
+                    "f(x2) = Second observation of Calorie_Burnage = 260f(x1) = First \nobservation of Calorie_Burnage = 240x2 = Second observation of Average_Pulse = 90x1 = First observation of \nAverage_Pulse = 80",
+                    "Be consistent to define the observations in the correct order! If not, the \nprediction will not be correct!",
+                    "Calculate the slope with the following code:",
+                    "The intercept is used to fine tune the functions ability to predict Calorie_Burnage.",
+                    "The intercept is where the diagonal line crosses the y-axis, if it were fully drawn.",
+                    "The intercept is the value of y, when x = 0.",
+                    "Here, we see that if average pulse (x) is zero, then the calorie burnage (y) is 80.",
+                    "So, the intercept is 80.",
+                    "Sometimes, the intercept has a practical meaning. Sometimes not.",
+                    "Does it make sense that average pulse is zero?",
+                    "No, you would be dead and you certainly would not burn any calories.",
+                    "However, we need to include the intercept in order to complete the \nmathematical function's ability to predict Calorie_Burnage correctly.",
+                    "Other examples where the intercept of a mathematical function can have a practical meaning:",
+                    "Thenp.polyfit()function returns the slope and intercept.",
+                    "If we proceed with the following code, we can both get the slope and intercept from the function.",
+                    "Tip:linear functions = 1.degree function. In our example, the function is linear, which is in the 1.degree. That means \nthat all coefficients (the numbers) are in the power of one.",
+                    "We have now calculated the slope (2) and the intercept (80).\n\nWe can write the mathematical function as follow:",
+                    "Predict Calorie_Burnage by using a mathematical expression:",
+                    "Now, we want to predict calorie burnage if average pulse \nis 135.",
+                    "Remember that the intercept is a constant. A constant is a number that \ndoes not change.",
+                    "We can now substitute the input x with 135:",
+                    "If average pulse is 135, the calorie burnage is 350.",
+                    "Here is the exact same mathematical function, but in Python. The function \nreturns 2*x + 80, with x as the input:",
+                    "Try to replace x with 140 and 150.",
+                    "Here, we plot the same graph as earlier, but formatted the axis a little bit.",
+                    "Max value of the y-axis is now 400 and for x-axis is 150:"
+                ],
+                "lists": [
+                    [
+                        "If the average pulse is 80, the calorie burnage is 240",
+                        "If the average pulse is 90, the calorie burnage is 260"
+                    ],
+                    [
+                        "Predicting next years revenue by using marketing expenditure (How much \nrevenue will we have next year, if marketing expenditure is zero?). It is likely \nto assume that a company will still have some revenue even though if it does not spend money on marketing.",
+                        "Fuel usage with speed (How much fuel do we use if speed is equal to 0 mph?). \nA car that uses gasoline will still use fuel when it is idle."
+                    ],
+                    [
+                        "Isolate the variables Average_Pulse (x) and Calorie_Burnage (y) \nfrom health_data.",
+                        "Call the np.polyfit() function.",
+                        "The last parameter of the function specifies the degree of the function, which in this case \nis \"1\"."
+                    ],
+                    [
+                        "Import the pyplot module of the matplotlib library",
+                        "Plot the data from Average_Pulse against Calorie_Burnage",
+                        "kind='line'tells us which type of plot we want. Here, we \n  want to have a straight line",
+                        "plt.ylim() and plt.xlim() tells us what value we want the axis to start \n  and stop on.",
+                        "plt.show() shows us the output"
+                    ]
+                ],
+                "examples": [
+                    "f(x) = 2x + 80",
+                    "Slope = 20/10 = 2",
+                    "Slope = f(x2) - f(x1) / x2-x1",
+                    "Slope = (260-240) / (90 - 80) = 2",
+                    "def slope(x1, y1, x2, y2):s = (y2-y1)/(x2-x1)return sprint (slope(80,240,90,260))",
+                    "import pandas as pdimport numpy as nphealth_data = pd.read_csv(\"data.csv\", header=0, sep=\",\")x = health_data[\"Average_Pulse\"]y = health_data[\"Calorie_Burnage\"]slope_intercept = np.polyfit(x,y,1)print(slope_intercept)",
+                    "f(x) = 2x + 80",
+                    "f(135) = 2 * 135 + 80 = 350",
+                    "def my_function(x):return 2*x + 80print (my_function(135))",
+                    "import matplotlib.pyplot as plthealth_data.plot(x ='Average_Pulse', \n  y='Calorie_Burnage', kind='line'),plt.ylim(ymin=0, ymax=400)plt.xlim(xmin=0, \n  xmax=150)plt.show()"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_stat_intro.asp",
+        "cours": {
+            "titre": "Data Science- Intro to Statistics",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_stat_intro.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Statistics is the science of analyzing data.",
+                    "When we have created a model for prediction, we must assess the prediction's \nreliability.",
+                    "After all, what is a prediction worth, if we cannot rely on it?",
+                    "We will first cover some basic descriptive statistics.",
+                    "Descriptive statistics summarizes important features of a data set such as:",
+                    "It is a good starting point to become familiar with the data.",
+                    "We can use thedescribe()function in Python to summarize the data:",
+                    "Output:",
+                    "Do you see anything interesting here?"
+                ],
+                "lists": [
+                    [
+                        "Count",
+                        "Sum",
+                        "Standard Deviation",
+                        "Percentile",
+                        "Average",
+                        "Etc.."
+                    ]
+                ],
+                "examples": [
+                    "print (full_health_data.describe())"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_stat_percentiles.asp",
+        "cours": {
+            "titre": "Data Science- Statistics Percentiles",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_stat_percentiles.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Percentiles are used in statistics to give you a number that describes the \nvalue that a given percent of the values are lower than.",
+                    "Let us try to explain it by some examples, using Average_Pulse.",
+                    "The following example shows how to do it in Python:",
+                    "The 10% percentile of Max_Pulse is 120. This means that 10% of all the training sessions have a Max_Pulse of 120 or lower."
+                ],
+                "lists": [
+                    [
+                        "The 25% percentile of Average_Pulse means that 25% of all of the training \nsessions have an average pulse of 100 beats per minute or lower. If we flip \nthe statement, it means that 75% of all of the training sessions have an average pulse of 100 \nbeats per minute or higher",
+                        "The 75% percentile of Average_Pulse means that 75% of all the training \nsession have an average pulse of 111 or lower. If we flip the statement, it \n  means that 25% of \nall of the training sessions have an average pulse of 111 beats per minute or \nhigher"
+                    ],
+                    [
+                        "Max_Pulse = full_health_data[\"Max_Pulse\"] - Isolate the variable Max_Pulse from the full health data set.",
+                        "np.percentile() is used to define that we want the 10% percentile from Max_Pulse."
+                    ]
+                ],
+                "examples": [
+                    "import numpy as npMax_Pulse= full_health_data[\"Max_Pulse\"]percentile10 = np.percentile(Max_Pulse, 10)print(percentile10)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_stat_std.asp",
+        "cours": {
+            "titre": "Data Science- Statistics Standard Deviation",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_stat_std.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Standard deviation is a number that describes how spread out the observations are.",
+                    "A mathematical function will have difficulties in predicting precise values, \nif the observations are \"spread\". Standard deviation is a measure of uncertainty.",
+                    "A low standard deviation means that most of the numbers are close to the mean (average) value.",
+                    "A high standard deviation means that the values are spread out over a wider range.",
+                    "Tip:Standard Deviation is often represented by the symbol Sigma: σ",
+                    "We can use thestd()function from Numpy to find the standard deviation of a variable:",
+                    "The output:",
+                    "What does these numbers mean?",
+                    "The coefficient of variation is used to get an idea of how large the standard deviation is.",
+                    "Mathematically, the coefficient of variation is defined as:",
+                    "We can do this in Python if we proceed with the following code:",
+                    "The output:",
+                    "We see that the variables Duration, Calorie_Burnage and Hours_Work has a high \nStandard Deviation compared to Max_Pulse, Average_Pulse and Hours_Sleep."
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as npstd = np.std(full_health_data)print(std)",
+                    "Coefficient of Variation = Standard Deviation / Mean",
+                    "import numpy as npcv = np.std(full_health_data) / np.mean(full_health_data)print(cv)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_stat_variance.asp",
+        "cours": {
+            "titre": "Data Science- Statistics Variance",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_stat_variance.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Variance is another number that indicates how spread out the values are.",
+                    "In fact, if you take the square root of the variance, you get the standard \ndeviation. Or the other way around, if you multiply the standard deviation by itself, you get the variance!",
+                    "We will first use the data set with 10 observations to give an example of how we can calculate the variance:",
+                    "Tip:Variance is often represented by the symbol Sigma Square: σ^2",
+                    "We want to find the variance of Average_Pulse.",
+                    "1. Find the mean:",
+                    "The mean is 102.5",
+                    "2. Find the difference from the mean for each value:",
+                    "3. Find the square value for each difference:",
+                    "Note:We must square the values to get the total spread.",
+                    "4. Sum the squared values and find the average:",
+                    "The variance is 206.25.",
+                    "We can use thevar()function from Numpy to find the \nvariance (remember that we now use the first data set with 10 observations):",
+                    "The output:",
+                    "Here we calculate the variance for each column for the full data set:",
+                    "The output:"
+                ],
+                "lists": [],
+                "examples": [
+                    "(80+85+90+95+100+105+110+115+120+125) / 10 = 102.5",
+                    "80 - 102.5 = -22.585 - 102.5 = -17.590 - 102.5 = -12.595 - 102.5 = \n  -7.5100 - 102.5 = -2.5105 - 102.5 = 2.5110 - 102.5 = 7.5115 - \n  102.5 = 12.5120 - 102.5 = 17.5125 - 102.5 = 22.5",
+                    "(-22.5)^2 = 506.25(-17.5)^2 = 306.25(-12.5)^2 = 156.25(-7.5)^2 = \n  56.25(-2.5)^2 = 6.252.5^2 = 6.257.5^2 = 56.2512.5^2 = 156.2517.5^2 = 306.2522.5^2 = 506.25",
+                    "(506.25 + 306.25 + 156.25 + 56.25 + 6.25 + 6.25 + 56.25 + 156.25 + 306.25 + \n  506.25) / 10 = 206.25",
+                    "import numpy as npvar = np.var(health_data)print(var)",
+                    "import numpy as npvar_full = np.var(full_health_data)print(var_full)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_stat_correlation.asp",
+        "cours": {
+            "titre": "Data Science- Statistics Correlation",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_stat_correlation.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Correlation measures the relationship between two variables.",
+                    "We mentioned that a function has a purpose to predict a value, by converting \ninput (x) to output (f(x)). We can say also say that a function uses the relationship between two variables for prediction.",
+                    "The correlation coefficient measures the relationship between two variables.",
+                    "The correlation coefficient can never be less than -1 or higher than 1.",
+                    "We will use scatterplot to visualize the relationship between Average_Pulse \nand Calorie_Burnage (we have used the small data set of the sports watch with 10 observations).",
+                    "This time we want scatter plots, so we change kind to \"scatter\":",
+                    "Output:",
+                    "As we saw earlier, it exists a perfect linear relationship between Average_Pulse and Calorie_Burnage.",
+                    "We have plotted fictional data here. The x-axis represents the amount of hours worked at our job before a \ntraining session. The y-axis is Calorie_Burnage.",
+                    "If we work longer hours, we tend to have lower calorie burnage because we are exhausted before the training session.",
+                    "The correlation coefficient here is -1.",
+                    "Here, we have plotted Max_Pulse against Duration from the full_health_data set.",
+                    "As you can see, there is no linear relationship between the two variables. It \nmeans that longer training session does not lead to higher Max_Pulse.",
+                    "The correlation coefficient here is 0."
+                ],
+                "lists": [
+                    [
+                        "1 = there is a perfect linear relationship between the variables (like Average_Pulse against Calorie_Burnage)",
+                        "0 = there is no linear relationship between the variables",
+                        "-1 = there is a perfect negative linear relationship between the variables (e.g. Less hours worked, leads to higher calorie burnage during a training session)"
+                    ]
+                ],
+                "examples": [
+                    "import matplotlib.pyplot as plthealth_data.plot(x ='Average_Pulse', y='Calorie_Burnage', \nkind='scatter')plt.show()",
+                    "import pandas as pdimport matplotlib.pyplot as pltnegative_corr = \n  {'Hours_Work_Before_Training': [10,9,8,7,6,5,4,3,2,1],'Calorie_Burnage': \n  [220,240,260,280,300,320,340,360,380,400]}negative_corr = pd.DataFrame(data=negative_corr)negative_corr.plot(x ='Hours_Work_Before_Training', \n  y='Calorie_Burnage', kind='scatter')plt.show()",
+                    "import matplotlib.pyplot as pltfull_health_data.plot(x ='Duration', y='Max_Pulse', \nkind='scatter')plt.show()"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_stat_correlation_matrix.asp",
+        "cours": {
+            "titre": "Data Science- Statistics Correlation Matrix",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_stat_correlation_matrix.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A matrix is an array of numbers arranged in rows and columns.",
+                    "A correlation matrix is simply a table showing the correlation coefficients \nbetween variables.",
+                    "Here, the variables are represented in the \nfirst row, and in the first column:",
+                    "The table above has used data from the full health data set.",
+                    "Observations:",
+                    "We can use thecorr()function in Python to create a correlation matrix. We \nalso use theround()function to round the output to two decimals:",
+                    "Output:",
+                    "We can use a Heatmap to Visualize the Correlation Between Variables:",
+                    "The closer the correlation coefficient is to 1, the greener the squares get.",
+                    "The closer the correlation coefficient is to -1, the browner the squares \nget.",
+                    "We can use the Seaborn library to create a correlation heat map (Seaborn is a visualization library based on matplotlib):"
+                ],
+                "lists": [
+                    [
+                        "We observe that Duration and Calorie_Burnage are closely related, with a \n  correlation coefficient of 0.89. This makes sense as the longer we train, the \n  more calories we burn",
+                        "We observe that there is almost no linear relationships between \n  Average_Pulse and Calorie_Burnage (correlation coefficient of 0.02)",
+                        "Can we conclude that Average_Pulse does not affect Calorie_Burnage? No. We \n  will come back to answer this question later!"
+                    ],
+                    [
+                        "Import the library seaborn as sns.",
+                        "Use the full_health_data set.",
+                        "Use sns.heatmap() to tell \nPython that we want a heatmap to visualize the correlation matrix.",
+                        "Use \nthe correlation matrix. Define the maximal and minimal values of the heatmap. \nDefine that 0 is the center.",
+                        "Define the colors with sns.diverging_palette. n=500 \nmeans that we want 500 types of color in the same color palette.",
+                        "square = True means that we want to see squares."
+                    ]
+                ],
+                "examples": [
+                    "Corr_Matrix = round(full_health_data.corr(),2)print(Corr_Matrix)",
+                    "import matplotlib.pyplot as pltimport seaborn as snscorrelation_full_health = \nfull_health_data.corr()axis_corr = sns.heatmap(correlation_full_health,vmin=-1, vmax=1, center=0,cmap=sns.diverging_palette(50, \n500, n=500),square=True)plt.show()"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_stat_correlation_causality.asp",
+        "cours": {
+            "titre": "Data Science- Statistics Correlation vs. Causality",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_stat_correlation_causality.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Correlation \nmeasures the numerical relationship between two variables.",
+                    "A high \ncorrelation coefficient (close to 1), does not mean that we can for sure conclude an \nactual relationship between two variables.",
+                    "A classic example:",
+                    "Does this \nmean that increase of ice cream sale is a direct cause of increased drowning \naccidents?",
+                    "Here, we constructed a fictional data set for you to try:",
+                    "Output:",
+                    "In other words: can we use ice cream sale to predict drowning accidents?",
+                    "The answer is - Probably not.",
+                    "It is likely that these two variables are accidentally correlating with each other.",
+                    "What causes drowning then?",
+                    "Let us reverse the argument:",
+                    "Does a low correlation coefficient (close to zero) mean that change in x does not affect y?",
+                    "Back to the question:",
+                    "The answer is no.",
+                    "There is an important difference between correlation and causality:",
+                    "Tip:Always critically reflect over the concept of causality when doing predictions!"
+                ],
+                "lists": [
+                    [
+                        "During the summer, the sale of ice cream at a beach increases",
+                        "Simultaneously, drowning accidents also increase as well"
+                    ],
+                    [
+                        "Unskilled swimmers",
+                        "Waves",
+                        "Cramp",
+                        "Seizure disorders",
+                        "Lack of supervision",
+                        "Alcohol (mis)use",
+                        "etc."
+                    ],
+                    [
+                        "Can we conclude that Average_Pulse does not affect Calorie_Burnage because of a low correlation \ncoefficient?"
+                    ],
+                    [
+                        "Correlation is a number that measures how \nclosely the data are related",
+                        "Causality is the conclusion that x causes y."
+                    ]
+                ],
+                "examples": [
+                    "import pandas as pdimport matplotlib.pyplot as pltDrowning_Accident = [20,40,60,80,100,120,140,160,180,200]Ice_Cream_Sale = \n  [20,40,60,80,100,120,140,160,180,200]Drowning = {\"Drowning_Accident\": \n  [20,40,60,80,100,120,140,160,180,200],\"Ice_Cream_Sale\": \n  [20,40,60,80,100,120,140,160,180,200]}Drowning = pd.DataFrame(data=Drowning)Drowning.plot(x=\"Ice_Cream_Sale\", y=\"Drowning_Accident\", kind=\"scatter\")plt.show()correlation_beach = Drowning.corr()print(correlation_beach)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_linear_regression.asp",
+        "cours": {
+            "titre": "Data Science- Linear Regression",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_linear_regression.asp",
+            "contenus": {
+                "paragraphs": [
+                    "We are missing one important variable that affects Calorie_Burnage, which is the Duration of the training session.",
+                    "Duration in combination with Average_Pulse will together explain Calorie_Burnage more precisely.",
+                    "The term regression is used when you try to find the relationship between variables.",
+                    "In Machine Learning and in statistical modeling, that relationship is used to predict the outcome of events.",
+                    "In this module, we will cover the following questions:",
+                    "Linear regression uses the least square method.",
+                    "The concept is to draw a line through all the plotted data points. The line \nis positioned in a way that it minimizes the distance to all of the data points.",
+                    "The distance is called \"residuals\" or \"errors\".",
+                    "The red dashed lines represents the distance from the data points to the drawn mathematical function.",
+                    "In this example, we will try to predict Calorie_Burnage with Average_Pulse using Linear Regression:",
+                    "Do you think that the line is able to predict Calorie_Burnage precisely?",
+                    "We will show that the variable Average_Pulse alone is not enough to make precise prediction of Calorie_Burnage."
+                ],
+                "lists": [
+                    [
+                        "Can we conclude that Average_Pulse and Duration are related to Calorie_Burnage?",
+                        "Can we use Average_Pulse and Duration to predict Calorie_Burnage?"
+                    ],
+                    [
+                        "Import \nthe modules you need: Pandas, matplotlib and Scipy",
+                        "Isolate Average_Pulse as x. Isolate Calorie_burnage as y",
+                        "Get important key values with: slope, intercept, r, p, std_err = stats.linregress(x, y)",
+                        "Create a function that uses the slope and intercept values to return a new value. This new value represents where on the y-axis the corresponding x value \n  will be placed",
+                        "Run each value of the x array through the function. This will result in a new array with new values for the y-axis: mymodel = list(map(myfunc, x))",
+                        "Draw the original scatter plot: plt.scatter(x, y)",
+                        "Draw the line of linear regression: plt.plot(x, mymodel)",
+                        "Define maximum and minimum values of the axis",
+                        "Label the axis: \"Average_Pulse\" and \"Calorie_Burnage\""
+                    ]
+                ],
+                "examples": [
+                    "import pandas as pdimport matplotlib.pyplot as pltfrom scipy \n  import statsfull_health_data = pd.read_csv(\"data.csv\", header=0, sep=\",\")x = full_health_data[\"Average_Pulse\"]y = full_health_data [\"Calorie_Burnage\"]slope, intercept, r, p, std_err = stats.linregress(x, y)def myfunc(x):return \n  slope * x + interceptmymodel = list(map(myfunc, x))plt.scatter(x, y)plt.plot(x, slope * x + intercept)plt.ylim(ymin=0, ymax=2000)plt.xlim(xmin=0, xmax=200)plt.xlabel(\"Average_Pulse\")plt.ylabel (\"Calorie_Burnage\")plt.show()"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_linear_regression_table.asp",
+        "cours": {
+            "titre": "Data Science- Regression Table",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_linear_regression_table.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The output from linear regression can be summarized in a regression table.",
+                    "The content of the table includes:",
+                    "You can now begin your journey on analyzing advanced output!",
+                    "Here is how to create a linear regression table in Python:"
+                ],
+                "lists": [
+                    [
+                        "Information about the model",
+                        "Coefficients of the linear regression function",
+                        "Regression statistics",
+                        "Statistics of the coefficients from the linear regression function",
+                        "Other information that we will not cover in this module"
+                    ],
+                    [
+                        "Import the library statsmodels.formula.api as smf. Statsmodels \n  is a statistical library in Python.",
+                        "Use the full_health_data set.",
+                        "Create a model based on Ordinary Least Squares with smf.ols(). Notice that \n  the explanatory variable \nmust be written first in the parenthesis. Use the full_health_data data set.",
+                        "By calling .fit(), you obtain the variable results. This holds a lot of \n  information about the regression model.",
+                        "Call summary() to get the table with the results of linear regression."
+                    ]
+                ],
+                "examples": [
+                    "import pandas as pdimport statsmodels.formula.api as smffull_health_data = pd.read_csv(\"data.csv\", header=0, sep=\",\")model = smf.ols('Calorie_Burnage ~ Average_Pulse', data = \nfull_health_data)results = model.fit()print(results.summary())"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_linear_regression_info.asp",
+        "cours": {
+            "titre": "Data Science- Regression Table - Info",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_linear_regression_info.asp",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [
+                    [
+                        "Dep. Variable:is short for \"Dependent Variable\". Calorie_Burnage is \n  here the dependent variable. The Dependent variable is here assumed to be explained by Average_Pulse.",
+                        "Model:OLS is short for Ordinary Least Squares. This is a type of model that uses the Least Square method.",
+                        "Date:andTime:shows the date and time the output was calculated in Python."
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_linear_regression_coeff.asp",
+        "cours": {
+            "titre": "Data Science- Regression Table - Coefficients",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_linear_regression_coeff.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The linear regression function can be rewritten mathematically as:",
+                    "These numbers means:",
+                    "Do you think that this is a good model?",
+                    "Define the linear regression function in Python to perform predictions.",
+                    "What is Calorie_Burnage if Average_Pulse is: 120, 130, 150, 180?"
+                ],
+                "lists": [
+                    [
+                        "Coefis short for coefficient. It is the output of the linear regression \nfunction."
+                    ],
+                    [
+                        "If Average_Pulse increases by 1, Calorie_Burnage increases by 0.3296 (or 0,3 \n  rounded)",
+                        "If \nAverage_Pulse = 0, the Calorie_Burnage is equal to 346.8662 (or \n346.9 rounded).",
+                        "Remember that the intercept is used to adjust the model's precision of \n  predicting!"
+                    ]
+                ],
+                "examples": [
+                    "Calorie_Burnage = 0.3296 * Average_Pulse + 346.8662",
+                    "def Predict_Calorie_Burnage(Average_Pulse):return(0.3296*Average_Pulse + \n346.8662)print(Predict_Calorie_Burnage(120))print(Predict_Calorie_Burnage(130))print(Predict_Calorie_Burnage(150))print(Predict_Calorie_Burnage(180))"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_linear_regression_pvalue.asp",
+        "cours": {
+            "titre": "Data Science- Regression Table: P-Value",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_linear_regression_pvalue.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Now, we want to test if the coefficients from the linear regression function has a significant impact on \nthe dependent variable (Calorie_Burnage).",
+                    "This means that we want to prove that it exists a relationship between Average_Pulse and Calorie_Burnage, using statistical tests.",
+                    "There are four components that explains the statistics of the coefficients:",
+                    "We will focus on understanding the \"P-value\" in this module.",
+                    "The P-value is a statistical number to conclude if there is a relationship between Average_Pulse and Calorie_Burnage.",
+                    "We test if the true value of the coefficient is equal to zero (no relationship). The statistical test for this is called Hypothesis testing.",
+                    "Hypothesis testing is a statistical procedure to test if your results are valid.",
+                    "In our example, we are testing if the true coefficient of Average_Pulse and the intercept is equal to zero.",
+                    "Hypothesis test has two statements. The null hypothesis and the alternative hypothesis.",
+                    "Mathematically written:",
+                    "The sign ≠ means \"not equal to\"",
+                    "The null hypothesis can either be rejected or not.",
+                    "If we reject the null hypothesis, we conclude that it exist a relationship between Average_Pulse and Calorie_Burnage. The P-value is \nused for this conclusion.",
+                    "A common threshold of the P-value is 0.05.",
+                    "Note:A P-value of 0.05 means that 5% of the times, we will falsely reject the null hypothesis. It means that we accept that 5% of the times, we \nmight falsely have concluded a relationship.",
+                    "If the P-value is lower than 0.05, we can reject the null hypothesis and conclude that it exist a relationship between the variables.",
+                    "However, the P-value of Average_Pulse is 0.824. So, we cannot conclude a relationship between Average_Pulse \nand Calorie_Burnage.",
+                    "It means that there is a 82.4% chance that the true coefficient of Average_Pulse is zero.",
+                    "The intercept is used to adjust the regression function's ability to predict more precisely. It is therefore \nuncommon to interpret the P-value of the intercept."
+                ],
+                "lists": [
+                    [
+                        "std errstands for Standard Error",
+                        "tis the \"t-value\" of the coefficients",
+                        "P>|t|is called the \"P-value\"",
+                        "[0.025  0.975]represents the confidence interval of the coefficients"
+                    ],
+                    [
+                        "A low P-value (< 0.05) means that the coefficient is likely not to equal zero.",
+                        "A high P-value (> 0.05) means that we cannot conclude that the explanatory variable affects the dependent variable (here: if Average_Pulse affects \nCalorie_Burnage).",
+                        "A high P-value is also called an insignificant P-value."
+                    ],
+                    [
+                        "The null hypothesis can be shortly written as H0",
+                        "The alternative hypothesis can be shortly written as HA"
+                    ]
+                ],
+                "examples": [
+                    "H0: Average_Pulse = 0HA: Average_Pulse ≠ 0H0: Intercept = \n0HA: Intercept ≠ 0"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_linear_regression_rsquared.asp",
+        "cours": {
+            "titre": "Data Science- Regression Table: R-Squared",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_linear_regression_rsquared.asp",
+            "contenus": {
+                "paragraphs": [
+                    "R-Squared and Adjusted R-Squared describes how well the linear regression model fits the data points:",
+                    "The value of R-Squared is always between 0 to 1 (0% to 100%).",
+                    "Our regression model shows a R-Squared value of zero, which means that the \nlinear regression function line does not fit the data well.",
+                    "This can be visualized when we plot the linear regression function \nthrough the data points of Average_Pulse and Calorie_Burnage.",
+                    "However, if we plotDurationandCalorie_Burnage, the R-Squared increases. \nHere, we see that the data points are close to the linear regression function line:",
+                    "Here is the code in Python:",
+                    "How can we summarize the linear regression function with Average_Pulse as explanatory variable?"
+                ],
+                "lists": [
+                    [
+                        "A high R-Squared value means that many data points are close to the linear regression function line.",
+                        "A low R-Squared value means that the linear regression function line does not fit the data well."
+                    ],
+                    [
+                        "Coefficient of 0.3296, which means that Average_Pulse has a very small effect on Calorie_Burnage.",
+                        "High P-value (0.824), which means that we cannot conclude a relationship between Average_Pulse and Calorie_Burnage.",
+                        "R-Squared value of 0, which means that the linear regression function line does not fit the data well."
+                    ]
+                ],
+                "examples": [
+                    "import pandas as pdimport matplotlib.pyplot as pltfrom scipy \n  import statsfull_health_data = pd.read_csv(\"data.csv\", header=0, sep=\",\")x = full_health_data[\"Duration\"]y = \nfull_health_data [\"Calorie_Burnage\"]slope, intercept, r, p, std_err = \nstats.linregress(x, y)def myfunc(x):return slope * x + interceptmymodel = list(map(myfunc, x))print(mymodel)plt.scatter(x, \ny)plt.plot(x, mymodel)plt.ylim(ymin=0, ymax=2000)plt.xlim(xmin=0, \nxmax=200)plt.xlabel(\"Duration\")plt.ylabel (\"Calorie_Burnage\")plt.show()"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_linear_regression_case.asp",
+        "cours": {
+            "titre": "Data Science- Linear Regression Case",
+            "description": "",
+            "lien": "https://www.w3schools.com/datascience/ds_linear_regression_case.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Create a Linear Regression Table with Average_Pulse and Duration as Explanatory Variables:",
+                    "The linear regression function can be rewritten mathematically as:",
+                    "Rounded to two decimals:",
+                    "Define the linear regression function in Python to perform predictions.",
+                    "What is Calorie_Burnage if:",
+                    "The Answers:",
+                    "Look at the coefficients:",
+                    "Look at the P-value for each coefficient.",
+                    "So here we can conclude that Average_Pulse and Duration has a relationship with Calorie_Burnage.",
+                    "There is a problem with R-squared if we have more than one explanatory variable.",
+                    "R-squared will almost always increase if we add more variables, and will never decrease.",
+                    "This is because we are adding more data points around the linear regression function.",
+                    "If we add random variables that does not affect Calorie_Burnage, we risk to falsely conclude that the \nlinear regression function is a good fit. Adjusted R-squared adjusts for this problem.",
+                    "It is therefore better to look at the adjusted R-squared value if we have more than one explanatory variable.",
+                    "The Adjusted R-squared is 0.814.",
+                    "The value of R-Squared is always between 0 to 1 (0% to 100%).",
+                    "Conclusion: The model fits the data point well!",
+                    "Congratulations! You have now finished the final module of the data science library."
+                ],
+                "lists": [
+                    [
+                        "Import the library statsmodels.formula.api as smf. Statsmodels \n  is a statistical library in Python.",
+                        "Use the full_health_data set.",
+                        "Create a model based on Ordinary Least Squares with smf.ols(). Notice that \n  the explanatory variable \nmust be written first in the parenthesis. Use the full_health_data data set.",
+                        "By calling .fit(), you obtain the variable results. This holds a lot of \n  information about the regression model.",
+                        "Call summary() to get the table with the results of linear regression."
+                    ],
+                    [
+                        "Average pulse is 110 and duration of the training session is 60 minutes?",
+                        "Average pulse is 140 and duration of the training session is 45 minutes?",
+                        "Average pulse is 175 and duration of the training session is 20 minutes?"
+                    ],
+                    [
+                        "Average pulse is 110 and duration of the training session is 60 minutes = 365 Calories",
+                        "Average pulse is 140 and duration of the training session is 45 minutes = 372 Calories",
+                        "Average pulse is 175 and duration of the training session is 20 minutes = 337 Calories"
+                    ],
+                    [
+                        "Calorie_Burnage increases with 3.17 if Average_Pulse increases by one.",
+                        "Calorie_Burnage increases with 5.84 if Duration increases by one."
+                    ],
+                    [
+                        "P-value is 0.00 for Average_Pulse, Duration and the Intercept.",
+                        "The P-value is statistically significant for all of the variables, as it is less than 0.05."
+                    ],
+                    [
+                        "A high R-Squared value means that many data points are close to the linear regression function line.",
+                        "A low R-Squared value means that the linear regression function line does not fit the data well."
+                    ]
+                ],
+                "examples": [
+                    "import pandas as pdimport statsmodels.formula.api as smffull_health_data = pd.read_csv(\"data.csv\", header=0, sep=\",\")model = smf.ols('Calorie_Burnage ~ Average_Pulse + Duration', data = full_health_data)results \n  = model.fit()print(results.summary())",
+                    "Calorie_Burnage = Average_Pulse * 3.1695 + Duration * 5.8424 - 334.5194",
+                    "Calorie_Burnage = Average_Pulse * 3.17 + \nDuration * 5.84 - 334.52",
+                    "def Predict_Calorie_Burnage(Average_Pulse, \nDuration):return(3.1695*Average_Pulse + 5.8434 * Duration - 334.5194)print(Predict_Calorie_Burnage(110,60))print(Predict_Calorie_Burnage(140,45))print(Predict_Calorie_Burnage(175,20))"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/datascience/ds_exam.asp",
+        "cours": {
+            "titre": "W3SchoolsData Science Certificate",
+            "description": "How Does It Work?Study for free at W3Schools.comStudy at your own speedTest your skills with W3Schools online quizzesApply for your certificate by paying an exam feeTake your exam online, at any time, and from any location",
+            "lien": "https://www.w3schools.com/datascience/ds_exam.asp",
+            "contenus": {
+                "paragraphs": [
+                    "W3Schools offers an Online Certification Program.",
+                    "The perfect solution for busy professionals who need to balance work, family, and career building.",
+                    "More than 50 000 certificates already issued!",
+                    "Get Your Certificate »",
+                    "W3Schools offers an Online Certification Program.",
+                    "The perfect solution for busy professionals who need to balance work, family, and career building.",
+                    "More than 50 000 certificates already issued!",
+                    "Get Your Certificate »",
+                    "Any student or professional within the digital industry.",
+                    "Certifications are valuable assets to gain trust and demonstrate knowledge to your clients, current or future employers on a ever increasing competitive market.",
+                    "W3Schools has over two decades of experience with teaching coding online.",
+                    "Our certificates are recognized and valued by companies looking to employ skilled developers.",
+                    "Show the world your coding skills by getting a certification.",
+                    "The prices is a small fraction compared to the price of traditional education.",
+                    "Document and validate your competence by getting certified!",
+                    "Fee:95 USD",
+                    "Achievable certification levels:Intermediate (40%)Advanced (75%)Professional (90%)",
+                    "Number of questions:Adaptive,60on average",
+                    "Requirement to pass:Minimum 40% - Intermediate level",
+                    "Time limit:60 minutes",
+                    "Number of attempts to pass:3",
+                    "Exam deadline:None",
+                    "Certification Expiration:None",
+                    "Format:Online, multiple choice",
+                    "Register now »",
+                    "Getting a certificate proves your commitment to upgrading your skills.",
+                    "The certificate can be added as credentials to your CV, Resume, LinkedIn profile, and so on.",
+                    "It gives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+                    "Knowledge is power, especially in the current job market.",
+                    "Documentation of your skills enables you to advance your career or helps you to start a new one.",
+                    "Example certificate:",
+                    "Each certificate gets a unique link that can be shared with others.",
+                    "Validate your certification with the link or QR code.",
+                    "Check how it looks like in thisExample.",
+                    "Share your certificate on Linkedin the Certifications section in just one click!",
+                    "Getting a certificate proves your commitment to upgrade your skills,\ngives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+                    "Get Your Certificate »",
+                    "Are you an educator, manager or business owner looking for courses or certifications?",
+                    "We are working with schools, companies and organizations from all over the world.",
+                    "Get courses and/or certifications for your team here."
+                ],
+                "lists": [
+                    [
+                        "Study for free at W3Schools.com",
+                        "Study at your own speed",
+                        "Test your skills with W3Schools online quizzes",
+                        "Apply for your certificate by paying an exam fee",
+                        "Take your exam online, at any time, and from any location"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://campus.w3schools.com/collections/certifications/products/data-science-certificate",
+        "cours": {}
+    }
+]

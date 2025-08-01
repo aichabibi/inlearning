@@ -1,0 +1,95 @@
+[
+    {
+      "person": {
+        "id": "P001",
+        "name": "Thomas Martin",
+        "age": "23",
+        "gender": "M"
+      },
+      "preferences": {
+        "preferred_language": "Python",
+        "learning_mode": "En ligne",
+        "interests": [
+          "Intelligence Artificielle",
+          "Développement Web"
+        ]
+      },
+      "academic_background": {
+        "highest_academic_level": "Licence",
+        "fields_of_study": [
+          {
+            "field_name": "Informatique",
+            "institution": "Université Lyon 1",
+            "year_of_completion": "2022"
+          }
+        ]
+      },
+      "professional_background": {
+        "total_experience_years": "1",
+        "jobs": [
+          {
+            "title": "Développeur Junior",
+            "company": "StartupTech",
+            "duration_years": "1"
+          }
+        ]
+      },
+      "goals": {
+        "short_term_goals": [
+          "Maîtriser React",
+          "Obtenir une certification AWS"
+        ],
+        "long_term_goals": [
+          "Devenir Lead Developer",
+          "Créer une startup"
+        ]
+      }
+    },
+    {
+      "person": {
+        "id": "P002",
+        "name": "Marie Dubois",
+        "age": "35",
+        "gender": "F"
+      },
+      "preferences": {
+        "preferred_language": "JavaScript",
+        "learning_mode": "Présentiel",
+        "interests": [
+          "UX Design",
+          "Mobile Development"
+        ]
+      },
+      "academic_background": {
+        "highest_academic_level": "Master",
+        "fields_of_study": [
+          {
+            "field_name": "Marketing Digital",
+            "institution": "ESC Toulouse",
+            "year_of_completion": "2010"
+          }
+        ]
+      },
+      "professional_background": {
+        "total_experience_years": "12",
+        "jobs": [
+          {
+            "title": "Chef de Projet Marketing",
+            "company": "GlobalCorp",
+            "duration_years": "8"
+          }
+        ]
+      },
+      "goals": {
+        "short_term_goals": [
+          "Apprendre le développement web",
+          "Réussir sa reconversion"
+        ],
+        "long_term_goals": [
+          "Devenir Développeuse Full-Stack",
+          "Travailler en freelance"
+        ]
+      }
+    }
+  ]
+  

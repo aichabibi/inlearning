@@ -1,0 +1,12 @@
+[
+  {
+      "id": 1,
+      "title": "Machine Learning Basics",
+      "tags": ["AI", "Machine Learning", "Data Science"]
+  },
+  {
+      "id": 2,
+      "title": "Deep Learning with Python",
+      "tags": ["AI", "Deep Learning"]
+  }
+]

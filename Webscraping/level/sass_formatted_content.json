@@ -1,0 +1,611 @@
+[
+  {
+    "url": "https://www.w3schools.com/sass/default.asp",
+    "cours": {
+      "titre": "SassTutorial",
+      "description": "Sass is a CSS pre-processor.Sass reduces repetition of CSS and therefore saves time.Start learning Sass now »",
+      "lien": "https://www.w3schools.com/sass/default.asp",
+      "contenus": {
+        "paragraphs": [
+          "Sass is a CSS pre-processor.",
+          "Sass reduces repetition of CSS and therefore saves time.",
+          "Our \"Show Sass\" tool makes it easy to learn Sass, it shows both the code and the result.",
+          "Run Example »",
+          "Track your progress with the free \"My Learning\" program here at W3Schools.",
+          "Log in to your account, and start earning points!",
+          "This is an optional feature. You can study at W3Schools without using My Learning.",
+          "At W3Schools you will find complete references of all Sass functions with syntax and examples.",
+          "Sass String Functions",
+          "Sass Numeric Functions",
+          "Sass List Functions",
+          "Sass Map Functions",
+          "Sass Selector Functions",
+          "Sass Introspection Functions",
+          "Sass Color Functions"
+        ],
+        "lists": [],
+        "examples": [
+          "/* Define standard variables and values for website */$bgcolor: lightblue;$textcolor: darkblue;$fontsize: 18px;/* Use the variables */body\n{background-color: $bgcolor;color: \n  $textcolor;font-size: $fontsize;}"
+        ]
+      },
+      "categories": "",
+      "niveau": 1,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/sass/sass_intro.php",
+    "cours": {
+      "titre": "SassIntroduction",
+      "description": "",
+      "lien": "https://www.w3schools.com/sass/sass_intro.php",
+      "contenus": {
+        "paragraphs": [
+          "Before you continue you should have a basic understanding of the following:",
+          "If you want to study these subjects first, find the tutorials on ourHome page.",
+          "Stylesheets are getting larger, more complex, \nand harder to maintain. This is where a CSS pre-processor can help.",
+          "Sass lets \nyou use features that do not exist in CSS, like variables, nested rules, mixins, \nimports, \ninheritance, built-in functions, and other stuff.",
+          "Let's say we have a website with three main colors:",
+          "#a2b9bc",
+          "#b2ad7f",
+          "#878f99",
+          "So, how many times do you need to type those HEX values? A LOT of times. And \nwhat about variations of the same colors?",
+          "Instead of typing the above values a lot of times, you can use Sass and write this:",
+          "So, when using Sass, and the primary color changes, you only need to change \nit in one place.",
+          "A browser does not understand Sass code. Therefore, you will need a Sass \npre-processor to convert Sass code into standard CSS.",
+          "This process is called transpiling. So, you need to give a transpiler \n(some kind of program) some Sass code and then get some CSS code back.",
+          "Tip:Transpiling is a term for taking a source code written in one language \nand transform/translate it into another language.",
+          "Sass files has the \".scss\" file extension.",
+          "Sass supports standard CSS comments/* comment */, \nand in addition it supports inline comments// comment:"
+        ],
+        "lists": [
+          [
+            "HTML",
+            "CSS"
+          ],
+          [
+            "Sassstands forSyntacticallyAwesomeStylesheet",
+            "Sass is an extension to CSS",
+            "Sass is a CSS pre-processor",
+            "Sass is completely compatible with all versions of CSS",
+            "Sass reduces repetition of CSS and therefore saves time",
+            "Sass was designed by Hampton Catlin and developed by Natalie Weizenbaum in \n  2006",
+            "Sass is free to download and use"
+          ]
+        ],
+        "examples": [
+          "/* define variables for the primary colors */$primary_1: #a2b9bc;$primary_2: #b2ad7f;$primary_3: \n  #878f99;/* \n  use the variables */.main-header\n{background-color: $primary_1;}.menu-left\n{background-color: $primary_2;}.menu-right\n{background-color: $primary_3;}",
+          "/* define primary colors */$primary_1: #a2b9bc;$primary_2: #b2ad7f;/* \n  use the variables */.main-header\n{background-color: $primary_1; // here you can put an inline comment}"
+        ]
+      },
+      "categories": "",
+      "niveau": 2,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/sass/sass_installation.php",
+    "cours": {
+      "titre": "SassInstallation",
+      "description": "",
+      "lien": "https://www.w3schools.com/sass/sass_installation.php",
+      "contenus": {
+        "paragraphs": [
+          "Read more about Sass at the official Sass web site:https://sass-lang.com/",
+          "There are several ways to install Sass in your system. There are many \napplications that will get you up and running with Sass in a few minutes for \nMac, Windows, and Linux. Some of these are free, but some are paid apps.",
+          "You can read more about them here:sass-lang.com/install"
+        ],
+        "lists": [
+          [
+            "Operating system- Sass is platform independent",
+            "Browser support- Sass works in Edge/IE (from IE 8), \n  Firefox, Chrome, Safari, Opera",
+            "Programming language- Sass is based on Ruby"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": 1,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/sass/sass_variables.php",
+    "cours": {
+      "titre": "SassVariables",
+      "description": "",
+      "lien": "https://www.w3schools.com/sass/sass_variables.php",
+      "contenus": {
+        "paragraphs": [
+          "Variables are a way to store information that you can re-use later.",
+          "With Sass, you can store information in variables, like:",
+          "Sass uses the $ symbol, followed by a name, to declare variables:",
+          "Sass Variable Syntax:",
+          "The following example declares 4 variables named myFont, myColor, myFontSize, and myWidth.\nAfter the variables are declared, you can use the variables wherever you want:",
+          "SCSS Syntax:",
+          "Run Example »",
+          "So, when the Sass file is transpiled, it takes the variables (myFont, myColor, \netc.) and outputs normal CSS with the variable values placed in the CSS, like \nthis:",
+          "CSS Output:",
+          "Sass variables are only available at the level of nesting where they are defined.",
+          "Look at the following example:",
+          "SCSS Syntax:",
+          "Run Example »",
+          "Will the color of the text inside a<p>tag be red or green? It will be red!",
+          "The other definition, $myColor: green; is inside the<h1>rule, and will only \nbe available there!",
+          "So, the CSS output will be:",
+          "CSS Output:",
+          "Ok, that is the default behavior for variable scope.",
+          "The default behavior for variable scope can be overridden by using the!globalswitch.",
+          "!globalindicates that a variable is global, \nwhich means that it is accessible on all levels.",
+          "Look at the following example (same as above; but with!globaladded):",
+          "SCSS Syntax:",
+          "Run Example »",
+          "Now the color of the text inside a<p>tag will be green!",
+          "So, the CSS output will be:",
+          "CSS Output:",
+          "Tip:Global variables should be defined outside any rules. It could be \nwise to define all global variables in its own file, named \"_globals.scss\", and \ninclude the file with the@includekeyword."
+        ],
+        "lists": [
+          [
+            "strings",
+            "numbers",
+            "colors",
+            "booleans",
+            "lists",
+            "nulls"
+          ]
+        ],
+        "examples": [
+          "$variablename:value;",
+          "$myFont: Helvetica, sans-serif;$myColor: red;$myFontSize: 18px;$myWidth: 680px;body {font-family: $myFont;font-size: $myFontSize;color: $myColor;}#container {width: $myWidth;}",
+          "body {font-family: Helvetica, sans-serif;font-size: 18px;color: red;}#container {width: 680px;}",
+          "$myColor: red;h1 {$myColor: green;color: $myColor;}p {color: $myColor;}",
+          "h1 {color: green;}p {color: red;}",
+          "$myColor: red;h1 {$myColor: green !global;color: $myColor;}p {color: $myColor;}",
+          "h1 {color: green;}p {color: green;}"
+        ]
+      },
+      "categories": "",
+      "niveau": 2,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/sass/sass_nesting.php",
+    "cours": {
+      "titre": "SassNested Rules and Properties",
+      "description": "",
+      "lien": "https://www.w3schools.com/sass/sass_nesting.php",
+      "contenus": {
+        "paragraphs": [
+          "Sass lets you nest CSS selectors in the same way as HTML.",
+          "Look at an example of some Sass code for a site's navigation:",
+          "SCSS Syntax:",
+          "Run Example »",
+          "Notice that in Sass, theul,li, andaselectors are nested inside thenavselector.",
+          "While in CSS, the rules are defined one by one (not nested):",
+          "CSS Syntax:",
+          "Because you can nest properties in Sass, it is cleaner and easier to read \nthan standard CSS.",
+          "Many CSS properties have the same prefix, like font-family, font-size and \nfont-weight or text-align, text-transform and text-overflow.",
+          "With Sass you can write them as nested properties:",
+          "SCSS Syntax:",
+          "The Sass transpiler will convert the above to normal CSS:",
+          "CSS Output:"
+        ],
+        "lists": [],
+        "examples": [
+          "nav {ul {margin: 0;padding: 0;list-style: none;}li {display: inline-block;}a {display: \n  block;padding: 6px 12px;text-decoration: none;}}",
+          "nav ul {margin: 0;padding: 0;list-style: \n  none;}nav li {display: inline-block;}nav a {display: block;padding: 6px 12px;text-decoration: none;}",
+          "font: {family: Helvetica, sans-serif;size: 18px;weight: bold;}text: {align: center;transform: lowercase;overflow: hidden;}",
+          "font-family: Helvetica, sans-serif;font-size: 18px;font-weight: bold;text-align: center;text-transform: lowercase;text-overflow: \n  hidden;"
+        ]
+      },
+      "categories": "",
+      "niveau": 2,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/sass/sass_import.php",
+    "cours": {
+      "titre": "Sass@import and Partials",
+      "description": "",
+      "lien": "https://www.w3schools.com/sass/sass_import.php",
+      "contenus": {
+        "paragraphs": [
+          "Sass keeps the CSS code DRY (Don't Repeat Yourself). One way to \nwrite DRY code is to keep related code in separate files.",
+          "You can create small files with CSS snippets to include in other Sass files. Examples \nof such files can be: reset file, variables, colors, fonts, font-sizes, etc.",
+          "Just like CSS, Sass also supports the@importdirective.",
+          "The@importdirective allows you to include \nthe content of one file in another.",
+          "The CSS@importdirective has a major drawback \ndue to performance issues; it creates an extra HTTP request \neach time you call it. However, the Sass@importdirective \nincludes the file in the CSS; so no extra HTTP call is required at runtime!",
+          "Sass Import Syntax:",
+          "Tip:You do not need to specify a \nfile extension, Sass automatically assumes that you mean a .sass or .scss file. \nYou can also import CSS files. The@importdirective imports the file and any variables or mixins defined in the imported \nfile can then be used in the main file.",
+          "You can import as many files as you need in the main file:",
+          "Let's look at an example: Let's assume we have a reset file called \"reset.scss\", that looks like this:",
+          "SCSS Syntax (reset.scss):",
+          "and now we want to import the \"reset.scss\" file into another file called \"standard.scss\".",
+          "Here is how we do it: It is normal to add the@importdirective at the top of a file; this way its content will have a global scope:",
+          "SCSS Syntax (standard.scss):",
+          "So, when the \"standard.css\" file is transpiled, the CSS will look like this:",
+          "CSS output:",
+          "Run Example »",
+          "By default, Sass transpiles all the .scss files directly. However, when you want to \nimport a file, you do not need the file to be transpiled directly.",
+          "Sass has a mechanism for this: If you start the filename with an underscore, Sass will not transpile it. Files named this way are called partials in \nSass.",
+          "So, a partial Sass file is named with a leading underscore:",
+          "Sass Partial Syntax:",
+          "The following example shows a partial Sass file named \"_colors.scss\". \n(This file will not be transpiled directly to \"colors.css\"):",
+          "\"_colors.scss\":",
+          "Now, if you import the partial file, omit the underscore. Sass understands \nthat it should \nimport the file \"_colors.scss\":"
+        ],
+        "lists": [],
+        "examples": [
+          "@importfilename;",
+          "@import \"variables\";@import \n  \"colors\";@import \n  \"reset\";",
+          "html,body,ul,ol {margin: 0;padding: 0;}",
+          "@import \"reset\";body {font-family: Helvetica, sans-serif;font-size: 18px;color: red;}",
+          "html, body, ul, ol {margin: 0;padding: 0;}body {font-family: Helvetica, sans-serif;font-size: 18px;color: red;}",
+          "_filename;",
+          "$myPink: #EE82EE;$myBlue: #4169E1;$myGreen: #8FBC8F;",
+          "@import \"colors\";body {font-family: Helvetica, sans-serif;font-size: 18px;color: $myBlue;}"
+        ]
+      },
+      "categories": "",
+      "niveau": 2,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/sass/sass_mixin_include.php",
+    "cours": {
+      "titre": "Sass@mixin and @include",
+      "description": "",
+      "lien": "https://www.w3schools.com/sass/sass_mixin_include.php",
+      "contenus": {
+        "paragraphs": [
+          "The@mixindirective lets you create CSS \ncode that is to be reused throughout the website.",
+          "The@includedirective is created to let you \nuse (include) the mixin.",
+          "A mixin is defined with the@mixindirective.",
+          "Sass @mixin Syntax:",
+          "The following example creates a mixin named \"important-text\":",
+          "SCSS Syntax:",
+          "Tip:A tip on hyphens and underscore in Sass: Hyphens and underscores are considered to be the same.\nThis means that @mixin important-text { } and @mixin important_text { } are considered \nas the same mixin!",
+          "The@includedirective is used to include a mixin.",
+          "Sass @include mixin Syntax:",
+          "So, to include the important-text mixin created above:",
+          "SCSS Syntax:",
+          "The Sass transpiler will convert the above to normal CSS:",
+          "CSS output:",
+          "Run Example »",
+          "A mixin can also include other mixins:",
+          "SCSS Syntax:",
+          "Mixins accept arguments. This way you can pass variables to a mixin.",
+          "Here is how to define a mixin with arguments:",
+          "SCSS Syntax:",
+          "Notice that the arguments are set as variables and then used as the values \n(color and width) of the border property.",
+          "After compilation, the CSS will look like this:",
+          "CSS Output:",
+          "Run Example »",
+          "It is also possible to define default values for mixin variables:",
+          "SCSS Syntax:",
+          "Then, you only need to specify the values that change when you include the \nmixin:",
+          "SCSS Syntax:",
+          "Another good use of a mixin is for vendor \nprefixes.",
+          "Here is an example for transform:",
+          "SCSS Syntax:",
+          "After compilation, the CSS will look like this:",
+          "CSS Output:"
+        ],
+        "lists": [],
+        "examples": [
+          "@mixinname{property:value;property:value;...}",
+          "@mixin \n  important-text {color: \n  red;font-size: 25px;font-weight: bold;border: 1px solid blue;}",
+          "selector{@includemixin-name;}",
+          ".danger {@include \n  important-text;background-color: green;}",
+          ".danger {color: \n  red;font-size: 25px;font-weight: bold;border: 1px solid blue;background-color: green;}",
+          "@mixin special-text {@include \n  important-text;@include \n  link;@include \n  special-border;}",
+          "/* Define mixin with two arguments */@mixin bordered($color, $width) {border: \n  $width solid $color;}.myArticle {@include bordered(blue, 1px);  \n  // Call mixin with two values}.myNotes {@include bordered(red, 2px); // Call mixin with two values}",
+          ".myArticle {border: 1px solid blue;}.myNotes {border: 2px solid red;}",
+          "@mixin bordered($color: blue, $width: \n  1px) {border: \n  $width solid $color;}",
+          ".myTips {@include bordered($color: orange);}",
+          "@mixin transform($property) {-webkit-transform: $property;-ms-transform: $property;transform: $property;}.myBox {@include transform(rotate(20deg));}",
+          ".myBox {-webkit-transform: rotate(20deg);-ms-transform: \n  rotate(20deg);transform: rotate(20deg);}"
+        ]
+      },
+      "categories": "",
+      "niveau": 2,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/sass/sass_extend.php",
+    "cours": {
+      "titre": "Sass@extend and Inheritance",
+      "description": "",
+      "lien": "https://www.w3schools.com/sass/sass_extend.php",
+      "contenus": {
+        "paragraphs": [
+          "The@extenddirective lets you share a set \nof CSS properties from one selector to another.",
+          "The@extenddirective is useful if \nyou have almost identically styled elements that only differ in some \nsmall details.",
+          "The following Sass example first creates a basic style for buttons (this \nstyle will be \nused for most buttons). Then, we create one style for a \"Report\" button and one \nstyle for a \"Submit\" button. Both \"Report\" and \"Submit\" button inherit all the \nCSS properties from the .button-basic class, through the@extenddirective. In \naddition, they have their own colors defined:",
+          "SCSS Syntax:",
+          "After compilation, the CSS will look like this:",
+          "CSS Output:",
+          "By using the@extenddirective, you do not need to \nspecify several classes for an element in your HTML code, like this: <button \nclass=\"button-basic button-report\">Report this</button>. You just need to specify .button-report to get both sets of styles.",
+          "The@extenddirective helps keep your Sass code very DRY."
+        ],
+        "lists": [],
+        "examples": [
+          ".button-basic  {border: none;padding: 15px 30px;text-align: center;font-size: 16px;cursor: pointer;}.button-report  {@extend .button-basic;background-color: red;}.button-submit  {@extend \n  .button-basic;background-color: green;color: white;}",
+          ".button-basic, .button-report, .button-submit {border: none;padding: 15px 30px;text-align: center;font-size: 16px;cursor: pointer;}.button-report  {background-color: red;}.button-submit  {background-color: green;color: \n  white;}"
+        ]
+      },
+      "categories": "",
+      "niveau": 2,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/sass/sass_functions_string.php",
+    "cours": {
+      "titre": "SassString Functions",
+      "description": "",
+      "lien": "https://www.w3schools.com/sass/sass_functions_string.php",
+      "contenus": {
+        "paragraphs": [
+          "The string functions are used to manipulate and get information about \nstrings.",
+          "Sass strings are 1-based. The first character in a string is at index 1, not \n0.",
+          "The following table lists all string functions in Sass:"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": 2,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/sass/sass_functions_numeric.php",
+    "cours": {
+      "titre": "SassNumeric Functions",
+      "description": "",
+      "lien": "https://www.w3schools.com/sass/sass_functions_numeric.php",
+      "contenus": {
+        "paragraphs": [
+          "The numeric functions are used to manipulate numeric values.",
+          "The following table lists all numeric functions in Sass:"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": 2,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/sass/sass_functions_list.php",
+    "cours": {
+      "titre": "SassList Functions",
+      "description": "",
+      "lien": "https://www.w3schools.com/sass/sass_functions_list.php",
+      "contenus": {
+        "paragraphs": [
+          "The list functions are used to access values in a list, combine lists, and \nadd items to lists.",
+          "Sass lists are immutable (they cannot change). So, the list functions that return a \nlist, will \nreturn a new list, and not change the original list.",
+          "Sass lists are 1-based. The first list item in a list is at index 1, not 0.",
+          "The following table lists all list functions in Sass:"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": 2,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/sass/sass_functions_map.php",
+    "cours": {
+      "titre": "SassMap Functions",
+      "description": "",
+      "lien": "https://www.w3schools.com/sass/sass_functions_map.php",
+      "contenus": {
+        "paragraphs": [
+          "In Sass, the map data type represents one or more key/value pairs.",
+          "Tip:It is also possible to use theList functionsfrom the previous page, \nwith maps. Then the map will be treated as a list with two elements.",
+          "Sass maps are immutable (they cannot change). So, the map functions that return a \nmap, will \nreturn a new map, and not change the original map.",
+          "The following table lists all map functions in Sass:"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": 2,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/sass/sass_functions_selector.php",
+    "cours": {
+      "titre": "SassSelector Functions",
+      "description": "",
+      "lien": "https://www.w3schools.com/sass/sass_functions_selector.php",
+      "contenus": {
+        "paragraphs": [
+          "The selector functions are used to check and manipulate selectors.",
+          "The following table lists all selector functions in Sass:"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": 2,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/sass/sass_functions_introspection.php",
+    "cours": {
+      "titre": "SassIntrospection Functions",
+      "description": "",
+      "lien": "https://www.w3schools.com/sass/sass_functions_introspection.php",
+      "contenus": {
+        "paragraphs": [
+          "The introspection functions are rarely used when building a stylesheet. \nHowever, they are valuable if something does not work properly - to figure out \nwhat's going on: like debugging functions.",
+          "The following table lists all introspection functions in Sass:"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": 2,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/sass/sass_functions_color.php",
+    "cours": {
+      "titre": "SassColor Functions",
+      "description": "",
+      "lien": "https://www.w3schools.com/sass/sass_functions_color.php",
+      "contenus": {
+        "paragraphs": [
+          "We have divided the color functions in Sass into three parts: Set color \nfunctions, Get color functions, and Manipulate color functions:"
+        ],
+        "lists": [],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": 2,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/sass/sass_exam.php",
+    "cours": {
+      "titre": "W3Schools SASS Certificate",
+      "description": "How Does It Work?Study for free at W3Schools.comStudy at your own speedTest your skills with W3Schools online quizzesApply for your certificate by paying an exam feeTake your exam online, at any time, and from any location",
+      "lien": "https://www.w3schools.com/sass/sass_exam.php",
+      "contenus": {
+        "paragraphs": [
+          "W3Schools offers an Online Certification Program.",
+          "The perfect solution for busy professionals who need to balance work, family, and career building.",
+          "More than 50 000 certificates already issued!",
+          "Get Your Certificate »",
+          "W3Schools offers an Online Certification Program.",
+          "The perfect solution for busy professionals who need to balance work, family, and career building.",
+          "More than 50 000 certificates already issued!",
+          "Get Your Certificate »",
+          "Any student or professional within the digital industry.",
+          "Certifications are valuable assets to gain trust and demonstrate knowledge to your clients, current or future employers on a ever increasing competitive market.",
+          "W3Schools has over two decades of experience with teaching coding online.",
+          "Our certificates are recognized and valued by companies looking to employ skilled developers.",
+          "Show the world your coding skills by getting a certification.",
+          "The prices is a small fraction compared to the price of traditional education.",
+          "Document and validate your competence by getting certified!",
+          "Fee:95 USD",
+          "Achievable certification levels:Intermediate (40%)Advanced (75%)Professional (90%)",
+          "Number of questions:Adaptive,60on average",
+          "Requirement to pass:Minimum 40% - Intermediate level",
+          "Time limit:60 minutes",
+          "Number of attempts to pass:3",
+          "Exam deadline:None",
+          "Certification Expiration:None",
+          "Format:Online, multiple choice",
+          "Register now »",
+          "Getting a certificate proves your commitment to upgrading your skills.",
+          "The certificate can be added as credentials to your CV, Resume, LinkedIn profile, and so on.",
+          "It gives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+          "Knowledge is power, especially in the current job market.",
+          "Documentation of your skills enables you to advance your career or helps you to start a new one.",
+          "Example certificate:",
+          "Each certificate gets a unique link that can be shared with others.",
+          "Validate your certification with the link or QR code.",
+          "Check how it looks like in thisExample.",
+          "Share your certificate on Linkedin the Certifications section in just one click!",
+          "Getting a certificate proves your commitment to upgrade your skills,\n    gives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+          "Get Your Certificate »",
+          "Are you an educator, manager or business owner looking for courses or certifications?",
+          "We are working with schools, companies and organizations from all over the world.",
+          "Get courses and/or certifications for your team here."
+        ],
+        "lists": [
+          [
+            "Study for free at W3Schools.com",
+            "Study at your own speed",
+            "Test your skills with W3Schools online quizzes",
+            "Apply for your certificate by paying an exam fee",
+            "Take your exam online, at any time, and from any location"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": 1,
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://campus.w3schools.com/products/sass-certificate",
+    "cours": {
+      "id": "",
+      "contenus": {
+        "texte": "",
+        "lienVideo": ""
+      },
+      "categories": [],
+      "niveau": 1,
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  }
+]

@@ -1,0 +1,2320 @@
+[
+    {
+        "url": "https://www.w3schools.com/cs/default.asp",
+        "cours": {
+            "titre": "C#Tutorial",
+            "description": "Learn C#C# (C-Sharp) is a programming language developed by Microsoft that runs on the .NET \nFramework.C# is used to develop web apps, desktop apps, mobile apps, games and much \nmore.Start learning C# now »",
+            "lien": "https://www.w3schools.com/cs/default.asp",
+            "contenus": {
+                "paragraphs": [
+                    "C# (C-Sharp) is a programming language developed by Microsoft that runs on the .NET \nFramework.",
+                    "C# is used to develop web apps, desktop apps, mobile apps, games and much \nmore.",
+                    "Our \"Try it Yourself\" editor makes it easy to learn C#. You can edit C# code and view the result in your browser.",
+                    "Try it Yourself »",
+                    "Click on the \"Run example\" button to see how it works.",
+                    "We recommend reading this tutorial, in the sequence listed in the left menu.",
+                    "Insert the missing part of the code below to output \"Hello World!\".",
+                    "Start the Exercise",
+                    "Learn by examples! This tutorial supplements all explanations with clarifying examples.",
+                    "See All C# Examples",
+                    "Learn by taking a quiz! The quiz will give you a signal of how much you know, or do not know, about C#.",
+                    "Start C# Quiz",
+                    "Track your progress with the free \"My Learning\" program here at W3Schools.",
+                    "Log in to your account, and start earning points!",
+                    "This is an optional feature. You can study at W3Schools without using My Learning.",
+                    "Get certified by completingthecourse"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_intro.php",
+        "cours": {
+            "titre": "C#Introduction",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_intro.php",
+            "contenus": {
+                "paragraphs": [
+                    "C# is pronounced \"C-Sharp\".",
+                    "It is an object-oriented programming language created by Microsoft that runs \non the .NET Framework.",
+                    "C# has roots from the C family, and the language is close to other popular languages likeC++andJava.",
+                    "The first version was released in year 2002. The latest version,C# \n12, was released in November 2023.",
+                    "C# is used for:",
+                    "This tutorial will teach you the basics of C#.",
+                    "It is not necessary to have any prior programming experience."
+                ],
+                "lists": [
+                    [
+                        "Mobile applications",
+                        "Desktop applications",
+                        "Web applications",
+                        "Web services",
+                        "Web sites",
+                        "Games",
+                        "VR",
+                        "Database applications",
+                        "And much, much more!"
+                    ],
+                    [
+                        "It is one of the most popular programming languages in the world",
+                        "It is easy to learn and simple to use",
+                        "It has huge community support",
+                        "C# is an object-oriented language which gives a clear structure to programs and allows code to be reused, lowering development costs",
+                        "As C# is close toC,C++andJava, it makes it easy for programmers to switch to C# or vice versa"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_getstarted.php",
+        "cours": {
+            "titre": "C#Get Started",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_getstarted.php",
+            "contenus": {
+                "paragraphs": [
+                    "The easiest way to get started with C# is to use an IDE.",
+                    "An IDE (Integrated Development Environment) is used to edit and compile code.",
+                    "In our tutorial, we will use Visual Studio Community, which is free to download fromhttps://visualstudio.microsoft.com/vs/community/.",
+                    "Applications written in C# use the .NET Framework, so it makes sense to use \nVisual Studio, as the program, the framework, and the language, are all created by \nMicrosoft.",
+                    "Once the Visual Studio Installer is downloaded and installed, choose the .NET workload and click on theModify/Installbutton:",
+                    "After the installation is complete, click on theLaunchbutton to get started with Visual Studio.",
+                    "On the start window, chooseCreate a new project:",
+                    "Then click on the \"Install more tools and features\" link:",
+                    "Choose \"Console App (.NET Core)\" from the list and click on the Next button:",
+                    "Enter a name for your project, and click on the Create button:",
+                    "Visual Studio will automatically generate some code for your project:",
+                    "The code should look something like this:",
+                    "Try it Yourself »",
+                    "Don't worry if you don't understand the code above - we will discuss it in detail in later chapters. For now, focus on how to run the code.",
+                    "Run the program by pressing theF5button on your keyboard (or click on \"Debug\" -> \"Start Debugging\"). This will compile and execute your code. The result will look something to this:",
+                    "Congratulations! You have now written and executed your first C# program.",
+                    "When learning C# at W3Schools.com, you can use our \"Try it Yourself\" tool, which shows both the code and the result. This will make it easier for \nyou to understand every part as we move forward:",
+                    "Result:",
+                    "Try it Yourself »"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_syntax.php",
+        "cours": {
+            "titre": "C#Syntax",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_syntax.php",
+            "contenus": {
+                "paragraphs": [
+                    "In the previous chapter, we created a C# file called Program.cs, and we used the following code to print \"Hello World\" to the screen:",
+                    "Result:",
+                    "Try it Yourself »",
+                    "Line 1:using Systemmeans \nthat we can use classes from theSystemnamespace.",
+                    "Line 2:A blank line. C# ignores white space. However, multiple lines makes the code more readable.",
+                    "Line 3:namespaceis used to organize your code, and it is a container for classes and other namespaces.",
+                    "Line 4:The curly braces{}marks the beginning and the end of a block of code.",
+                    "Line 5:classis a \ncontainer for data and methods, which brings functionality to your program. Every line of code that runs in C# must be inside a class. In our example, we named the class Program.",
+                    "Don't worry if you don't understand howusing \nSystem,namespaceandclassworks. Just think of it as something that (almost) always appears in your program, and that you will learn more about them in a later chapter.",
+                    "Line 7:Another thing that always appear in a C# program is \ntheMainmethod. Any code inside its curly brackets{}will be executed.\nYou don't have to understand the keywords before and after Main. You will get to \nknow them bit by bit while reading this tutorial.",
+                    "Line 9:Consoleis a class of theSystemnamespace, which \nhas aWriteLine()method that is used to output/print text. In our example, it will output \"Hello World!\".",
+                    "If you omit theusing Systemline, you would have to writeSystem.Console.WriteLine()to print/output text.",
+                    "Note:Every C# statement ends with a semicolon;.",
+                    "Note:C# is case-sensitive; \"MyClass\" and \"myclass\" \nhave \ndifferent meaning.",
+                    "Note:UnlikeJava, the name of the C# file does not have to match the class name, but they often do (for better organization).\nWhen saving the file, save it using a proper name and add \".cs\" to the end of \nthe filename. To run the example above on your computer, make sure that C# is \nproperly installed: Go to theGet Started Chapterfor how to install C#. The output should be:",
+                    "Insert the missing part of the code below to output \"Hello World!\".",
+                    "Start the Exercise"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_output.php",
+        "cours": {
+            "titre": "C#Output",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_output.php",
+            "contenus": {
+                "paragraphs": [
+                    "To output values or print text in C#, you can use theWriteLine()method:",
+                    "Try it Yourself »",
+                    "You can add as manyWriteLine()methods as you want. Note that it will add a new line for each method:",
+                    "Try it Yourself »",
+                    "You can also output numbers, and perform mathematical calculations:",
+                    "Try it Yourself »",
+                    "There is also aWrite()method, which is similar toWriteLine().",
+                    "The only difference is that it does not insert a new line at the end of the output:",
+                    "Try it Yourself »",
+                    "Note that we add an extra space when needed (after \"Hello World!\" in the example above), for better readability.",
+                    "In this tutorial, we will only useWriteLine()as it makes it easier to read the output of code."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_comments.php",
+        "cours": {
+            "titre": "C#Comments",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_comments.php",
+            "contenus": {
+                "paragraphs": [
+                    "Comments can be used to explain C# code, and to make it more readable. It can also be used to \nprevent execution when testing alternative code.",
+                    "Single-line comments start with two forward slashes (//).",
+                    "Any text between//and the end of the line \nis ignored by C# (will not be executed).",
+                    "This example uses a single-line comment before a line of code:",
+                    "Try it Yourself »",
+                    "This example uses a single-line comment at the end of a line of code:",
+                    "Try it Yourself »",
+                    "Multi-line comments start with/*and ends with*/.",
+                    "Any text between/*and*/will be ignored by C#.",
+                    "This example uses a multi-line comment (a comment block) to explain the code:",
+                    "Try it Yourself »",
+                    "It is up to you which you want to use. Normally, we use//for short comments, and/* */for longer.",
+                    "Insert the missing parts to create two types of comments.",
+                    "Start the Exercise"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_variables.php",
+        "cours": {
+            "titre": "C#Variables",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_variables.php",
+            "contenus": {
+                "paragraphs": [
+                    "Variables are containers for storing data values.",
+                    "In C#, there are differenttypesof variables (defined with different keywords), for example:",
+                    "To create a variable, you must specify the type and assign it a value:",
+                    "Wheretypeis a C# type (such asintorstring), andvariableNameis the name of the variable (such asxorname). Theequal signis used to assign values to the variable.",
+                    "To create a variable that should store text, look at the following example:",
+                    "Create a variable callednameof typestringand assign it the value \"John\":",
+                    "Try it Yourself »",
+                    "To create a variable that should store a number, look at the following example:",
+                    "Create a variable calledmyNumof typeintand assign it the value15:",
+                    "Try it Yourself »",
+                    "You can also declare a variable without assigning the value, and assign the value later:",
+                    "Try it Yourself »",
+                    "Note that if you assign a new value to an existing variable, it will overwrite the previous value:",
+                    "Change the value ofmyNumto 20:",
+                    "Try it Yourself »",
+                    "A demonstration of how to declare variables of other types:",
+                    "You will learn more aboutdata typesin a later chapter."
+                ],
+                "lists": [
+                    [
+                        "int- stores integers (whole numbers), without decimals, such as 123 or -123",
+                        "double- stores floating point numbers, with decimals, such as 19.99 or -19.99",
+                        "char- stores single characters, such as 'a' or 'B'. \n Char values are surrounded by single quotes",
+                        "string- stores text, such as \"Hello World\". \n String values are surrounded by double quotes",
+                        "bool- stores values with two states: \n true or false"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_variables_constants.php",
+        "cours": {
+            "titre": "C#Constants",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_variables_constants.php",
+            "contenus": {
+                "paragraphs": [
+                    "If you don't want others (or yourself) to overwrite existing values, you can add theconstkeyword \nin front of the variable type.",
+                    "This will declare the variable as \"constant\", which means unchangeable and read-only:",
+                    "Try it Yourself »",
+                    "Theconstkeyword is useful when you want a variable to always store the same value, so that others (or yourself) won't mess up your code. An example that is often referred to as a constant, is PI (3.14159...).",
+                    "Note:You cannot declare a constant variable without assigning the value. If you do, an error will occur:A const field requires a value to be provided."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_variables_display.php",
+        "cours": {
+            "titre": "C#Display Variables",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_variables_display.php",
+            "contenus": {
+                "paragraphs": [
+                    "TheWriteLine()method is often used to \ndisplay variable values to the console window.",
+                    "To combine both text and a variable, use the+character:",
+                    "Try it Yourself »",
+                    "You can also use the+character to add a variable to another variable:",
+                    "Try it Yourself »",
+                    "For numeric values, the+character works as a mathematical operator (notice that we useint(integer) variables here):",
+                    "Try it Yourself »",
+                    "From the example above, you can expect:"
+                ],
+                "lists": [
+                    [
+                        "x stores the value 5",
+                        "y stores the value 6",
+                        "Then we use theWriteLine()method to display the value of x + y, \n which is11"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_variables_multiple.php",
+        "cours": {
+            "titre": "C#Multiple Variables",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_variables_multiple.php",
+            "contenus": {
+                "paragraphs": [
+                    "To declare more than one variable of thesame type, use a comma-separated list:",
+                    "Try it Yourself »",
+                    "You can also assign thesame valueto multiple variables in one line:",
+                    "Try it Yourself »"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_variables_identifiers.php",
+        "cours": {
+            "titre": "C#Identifiers",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_variables_identifiers.php",
+            "contenus": {
+                "paragraphs": [
+                    "All C#variablesmust beidentifiedwithunique names.",
+                    "These unique names are calledidentifiers.",
+                    "Identifiers can be short names (like x and y) or more descriptive names (age, sum, totalVolume).",
+                    "Note:It is recommended to use descriptive names in order to \ncreate understandable and maintainable code:",
+                    "Try it Yourself »",
+                    "The general rules for naming variables are:",
+                    "Create a variable namedmyNumand assign the value50to it.",
+                    "Start the Exercise"
+                ],
+                "lists": [
+                    [
+                        "Names can contain letters, digits and the underscore character (_)",
+                        "Names must begin with a letter or underscore",
+                        "Names should start with a lowercase letter, and cannot contain whitespace",
+                        "Names are case-sensitive (\"myVar\" and \"myvar\" are different variables)",
+                        "Reserved words (like C# keywords, such asintordouble) cannot be used as names"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_data_types.php",
+        "cours": {
+            "titre": "C#Data Types",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_data_types.php",
+            "contenus": {
+                "paragraphs": [
+                    "As explained in the variables chapter, a variable in C# must be a specified data type:",
+                    "Try it Yourself »",
+                    "A data type specifies the size and type of variable values.",
+                    "It is important to use the correct data type for the corresponding variable; to avoid errors, to save time and memory, but it will also make your code more maintainable and readable. The most common \ndata types are:",
+                    "Number types are divided into two groups:",
+                    "Integer typesstores whole numbers, positive or negative (such as 123 or -456), without decimals. \nValid types areintandlong. Which type you should use, depends on the numeric value.",
+                    "Floating point typesrepresents numbers with a fractional \npart, containing one or more decimals. Valid types arefloatanddouble.",
+                    "Even though there are many numeric types in C#, the most used for numbers \nareint(for whole numbers) anddouble(for floating point numbers). However, we will describe them all as you continue to \nread.",
+                    "Theintdata type can store whole numbers from -2147483648 to 2147483647.In general, and in our tutorial, theintdata type is \nthe preferred data type when we create variables with a numeric value.",
+                    "Try it Yourself »",
+                    "Thelongdata type can store whole numbers from -9223372036854775808 to 9223372036854775807. This is used whenintis not large enough to store the value. Note that you should end the value with an \"L\":",
+                    "Try it Yourself »",
+                    "You should use a floating point type whenever you need a number with a decimal, such as 9.99 or 3.14515.",
+                    "Thefloatanddoubledata types can store fractional numbers. Note that you should end the value with an \"F\" for floats and \"D\" for doubles:",
+                    "Try it Yourself »",
+                    "Try it Yourself »",
+                    "Usefloatordouble?",
+                    "Theprecisionof a floating point value indicates how many digits the value can have \nafter the decimal point.\nThe precision offloatis only six or seven \ndecimal digits, whiledoublevariables have a precision \nof about 15 digits. Therefore it is safer to usedoublefor most calculations.",
+                    "A floating point number can also be a scientific number with an \"e\" to indicate the power of 10:",
+                    "Try it Yourself »",
+                    "A boolean data type is declared with theboolkeyword and can only take the valuestrueorfalse:",
+                    "Try it Yourself »",
+                    "Boolean values are mostly used for conditional testing, which you will learn more about in a later chapter.",
+                    "Thechardata type is used to store asinglecharacter. The character must be \nsurrounded by single quotes, like 'A' or 'c':",
+                    "Try it Yourself »",
+                    "Thestringdata type is used to store a sequence of characters (text). String values must be surrounded by double quotes:",
+                    "Try it Yourself »",
+                    "Add the correct data type for the following variables:",
+                    "Start the Exercise"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_type_casting.php",
+        "cours": {
+            "titre": "C#Type Casting",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_type_casting.php",
+            "contenus": {
+                "paragraphs": [
+                    "Type casting is when you assign a value of one data type to another type.",
+                    "In C#, there are two types of casting:",
+                    "Implicit casting is done automatically when passing a smaller size type to a \nlarger size type:",
+                    "Try it Yourself »",
+                    "Explicit casting must be done manually by placing the type in parentheses \nin front of the value:",
+                    "Try it Yourself »",
+                    "It is also possible to convert data types explicitly by using built-in methods, such asConvert.ToBoolean,Convert.ToDouble,Convert.ToString,Convert.ToInt32(int) andConvert.ToInt64(long):",
+                    "Try it Yourself »",
+                    "Many times, there's no need for type conversion. But sometimes you have to. Take a look at the next chapter, when working withuser input, to see an example of this."
+                ],
+                "lists": [
+                    [
+                        "Implicit Casting(automatically) - converting a smaller type \nto a larger type sizechar->int->long->float->doubleExplicit Casting(manually) - converting a larger type \nto a smaller size typedouble->float->long->int->char",
+                        "Explicit Casting(manually) - converting a larger type \nto a smaller size typedouble->float->long->int->char"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_user_input.php",
+        "cours": {
+            "titre": "C#User Input",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_user_input.php",
+            "contenus": {
+                "paragraphs": [
+                    "You have already learned thatConsole.WriteLine()is used to output (print) values. Now we will useConsole.ReadLine()to get user input.",
+                    "In the following example, the user can input his or hers username, which is stored in the \nvariableuserName. Then we print the value ofuserName:",
+                    "Run example »",
+                    "TheConsole.ReadLine()method returns astring. Therefore, you cannot get information from another data type, such asint. The following program will cause an error:",
+                    "The error message will be something like this:",
+                    "Like the error message says, you cannot implicitly convert type 'string' to \n'int'.",
+                    "Luckily, for you, you just learned from theprevious chapter (Type Casting), that you can convert \nany type explicitly, by using one of theConvert.Tomethods:",
+                    "Run example »",
+                    "Note:If you enter wrong input (e.g. text in a numerical input), you will get an exception/error message (like System.FormatException: 'Input string was not in a correct format.').",
+                    "You will learn more aboutExceptionsand how to handle errors in a later chapter.",
+                    "Fill in the missing parts to get user input, stored in the variableuserName:",
+                    "Start the Exercise"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_operators.php",
+        "cours": {
+            "titre": "C#Operators",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_operators.php",
+            "contenus": {
+                "paragraphs": [
+                    "Operators are used to perform operations on variables and values.",
+                    "In the example below, we use the+operatorto add together two values:",
+                    "Try it Yourself »",
+                    "Although the+operator is often used to add together two values, like in the example above, it can also be used to add together a variable and a value, or a variable and another variable:",
+                    "Try it Yourself »",
+                    "Arithmetic operators are used to perform common mathematical operations:",
+                    "Multiply10with5, and print the result.",
+                    "Start the Exercise"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_operators_assignment.php",
+        "cours": {
+            "titre": "C#Assignment Operators",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_operators_assignment.php",
+            "contenus": {
+                "paragraphs": [
+                    "Assignment operators are used to assign values to variables.",
+                    "In the example below, we use theassignmentoperator (=) \nto assign the value10to a variable calledx:",
+                    "Try it Yourself »",
+                    "Theaddition assignmentoperator (+=) adds a value to a variable:",
+                    "Try it Yourself »",
+                    "A list of all assignment operators:"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_operators_comparison.php",
+        "cours": {
+            "titre": "C#Comparison Operators",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_operators_comparison.php",
+            "contenus": {
+                "paragraphs": [
+                    "Comparison operators are used to compare two values (or variables). This is important in programming, because it helps us to find answers and make decisions.",
+                    "The return value of a comparison is eitherTrueorFalse. These values are known asBoolean values, and you will learn more about them in theBooleansandIf..Elsechapter.",
+                    "In the following example, we use thegreater than operator(>) to find out if 5 is greater than 3:",
+                    "Try it Yourself »",
+                    "A list of all comparison operators:"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_operators_logical.php",
+        "cours": {
+            "titre": "C#Logical Operators",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_operators_logical.php",
+            "contenus": {
+                "paragraphs": [
+                    "As withcomparison operators, you can also test forTrueorFalsevalues withlogical operators.",
+                    "Logical operators are used to determine the logic between variables or \nvalues:",
+                    "You will learn more about comparison and logical operators in theBooleansandIf...Elsechapters."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_math.php",
+        "cours": {
+            "titre": "C#Math",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_math.php",
+            "contenus": {
+                "paragraphs": [
+                    "The C# Math class has many methods that allows you to perform mathematical tasks on numbers.",
+                    "TheMath.Max(x,y)method can be used to find the highest value ofxandy:",
+                    "Try it Yourself »",
+                    "TheMath.Min(x,y)method can be used to find the lowest value of ofxandy:",
+                    "Try it Yourself »",
+                    "TheMath.Sqrt(x)method returns the square root ofx:",
+                    "Try it Yourself »",
+                    "TheMath.Abs(x)method returns the absolute (positive) value ofx:",
+                    "Try it Yourself »",
+                    "Math.Round()rounds a number to the nearest whole number:",
+                    "Try it Yourself »",
+                    "Use the correct method to print thehighest valueofxandy.",
+                    "Start the Exercise"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_strings.php",
+        "cours": {
+            "titre": "C#Strings",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_strings.php",
+            "contenus": {
+                "paragraphs": [
+                    "Strings are used for storing text.",
+                    "Astringvariable contains a collection of characters surrounded by double quotes:",
+                    "Create a variable of typestringand assign it a value:",
+                    "Try it Yourself »",
+                    "A string variable can contain many words, if you want:",
+                    "Try it Yourself »",
+                    "A string in C# is actually an object, which contain properties and methods that can perform certain operations on strings. For example, the length of a string can be found with theLengthproperty:",
+                    "Try it Yourself »",
+                    "There are many string methods available, for exampleToUpper()andToLower(), which returns a copy of the string converted to uppercase or lowercase:",
+                    "Try it Yourself »"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_strings_concat.php",
+        "cours": {
+            "titre": "C#String Concatenation",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_strings_concat.php",
+            "contenus": {
+                "paragraphs": [
+                    "The+operator can be used between strings to combine them. This is calledconcatenation:",
+                    "Try it Yourself »",
+                    "Note that we have added a space after \"John\" to create a space between firstName and lastName on print.",
+                    "You can also use thestring.Concat()method to concatenate two strings:",
+                    "Try it Yourself »",
+                    "WARNING!",
+                    "C# uses the + operator for both addition and concatenation.",
+                    "Remember:Numbers are added. Strings are concatenated.",
+                    "If you add two numbers, the result will be a number:",
+                    "Try it Yourself »",
+                    "If you add two strings, the result will be a string concatenation:",
+                    "Try it Yourself »"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_strings_interpol.php",
+        "cours": {
+            "titre": "C#String Interpolation",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_strings_interpol.php",
+            "contenus": {
+                "paragraphs": [
+                    "Another option ofstring concatenation, isstring interpolation, \nwhich substitutes values of variables into placeholders in a string. Note that \nyou do not have to worry about spaces, like with concatenation:",
+                    "Try it Yourself »",
+                    "Also note that you have to use the dollar sign ($) when using the string interpolation method.",
+                    "String interpolation was introduced in C# version 6."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_strings_access.php",
+        "cours": {
+            "titre": "C#Access Strings",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_strings_access.php",
+            "contenus": {
+                "paragraphs": [
+                    "You can access the characters in a string by referring to its index number \ninside square brackets[].",
+                    "This example prints thefirst characterinmyString:",
+                    "Try it Yourself »",
+                    "Note:String indexes start with 0: [0] is the first character. [1] is the second \ncharacter, etc.",
+                    "This example prints thesecond character(1) inmyString:",
+                    "Try it Yourself »",
+                    "You can also find the index position of a specific character in a string, by using theIndexOf()method:",
+                    "Try it Yourself »",
+                    "Another useful method isSubstring(), which extracts the characters from a string, \nstarting from the specified character position/index, and returns a new string. This method is often used together withIndexOf()to get the specific character position:",
+                    "Try it Yourself »"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_strings_chars.php",
+        "cours": {
+            "titre": "C#Special Characters",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_strings_chars.php",
+            "contenus": {
+                "paragraphs": [
+                    "Because strings must be written within quotes, C# will misunderstand this string, \nand generate an error:",
+                    "The solution to avoid this problem, is to use thebackslash escape character.",
+                    "The backslash (\\) escape character turns special characters into string characters:",
+                    "The sequence\\\"inserts a double quote in a string:Examplestring txt = \"We are the so-called \\\"Vikings\\\" from the north.\";Try it Yourself »The sequence\\'inserts a single quote in a string:Examplestring txt = \"It\\'s alright.\";Try it Yourself »The sequence\\\\inserts a single backslash in a string:Examplestring txt = \"The character \\\\ is called backslash.\";Try it Yourself »Other useful escape characters in C# are:CodeResultTry it\\nNew LineTry it »\\tTabTry it »\\bBackspaceTry it »C# ExercisesTest Yourself With ExercisesExercise:Fill in the missing part to create agreetingvariable of typestringand assign it the valueHello.=;Submit Answer »Start the Exercise❮ PreviousNext ❯★+1Track your progress - it's free!Log inSign Up",
+                    "Examplestring txt = \"We are the so-called \\\"Vikings\\\" from the north.\";Try it Yourself »The sequence\\'inserts a single quote in a string:Examplestring txt = \"It\\'s alright.\";Try it Yourself »The sequence\\\\inserts a single backslash in a string:Examplestring txt = \"The character \\\\ is called backslash.\";Try it Yourself »Other useful escape characters in C# are:CodeResultTry it\\nNew LineTry it »\\tTabTry it »\\bBackspaceTry it »C# ExercisesTest Yourself With ExercisesExercise:Fill in the missing part to create agreetingvariable of typestringand assign it the valueHello.=;Submit Answer »Start the Exercise❮ PreviousNext ❯★+1Track your progress - it's free!Log inSign Up",
+                    "Try it Yourself »",
+                    "The sequence\\'inserts a single quote in a string:Examplestring txt = \"It\\'s alright.\";Try it Yourself »The sequence\\\\inserts a single backslash in a string:Examplestring txt = \"The character \\\\ is called backslash.\";Try it Yourself »Other useful escape characters in C# are:CodeResultTry it\\nNew LineTry it »\\tTabTry it »\\bBackspaceTry it »C# ExercisesTest Yourself With ExercisesExercise:Fill in the missing part to create agreetingvariable of typestringand assign it the valueHello.=;Submit Answer »Start the Exercise❮ PreviousNext ❯★+1Track your progress - it's free!Log inSign Up",
+                    "Examplestring txt = \"It\\'s alright.\";Try it Yourself »The sequence\\\\inserts a single backslash in a string:Examplestring txt = \"The character \\\\ is called backslash.\";Try it Yourself »Other useful escape characters in C# are:CodeResultTry it\\nNew LineTry it »\\tTabTry it »\\bBackspaceTry it »C# ExercisesTest Yourself With ExercisesExercise:Fill in the missing part to create agreetingvariable of typestringand assign it the valueHello.=;Submit Answer »Start the Exercise❮ PreviousNext ❯★+1Track your progress - it's free!Log inSign Up",
+                    "Try it Yourself »",
+                    "The sequence\\\\inserts a single backslash in a string:Examplestring txt = \"The character \\\\ is called backslash.\";Try it Yourself »Other useful escape characters in C# are:CodeResultTry it\\nNew LineTry it »\\tTabTry it »\\bBackspaceTry it »C# ExercisesTest Yourself With ExercisesExercise:Fill in the missing part to create agreetingvariable of typestringand assign it the valueHello.=;Submit Answer »Start the Exercise❮ PreviousNext ❯★+1Track your progress - it's free!Log inSign Up",
+                    "Examplestring txt = \"The character \\\\ is called backslash.\";Try it Yourself »Other useful escape characters in C# are:CodeResultTry it\\nNew LineTry it »\\tTabTry it »\\bBackspaceTry it »C# ExercisesTest Yourself With ExercisesExercise:Fill in the missing part to create agreetingvariable of typestringand assign it the valueHello.=;Submit Answer »Start the Exercise❮ PreviousNext ❯★+1Track your progress - it's free!Log inSign Up",
+                    "Try it Yourself »",
+                    "Other useful escape characters in C# are:",
+                    "Fill in the missing part to create agreetingvariable of typestringand assign it the valueHello.",
+                    "Start the Exercise"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_booleans.php",
+        "cours": {
+            "titre": "C#Booleans",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_booleans.php",
+            "contenus": {
+                "paragraphs": [
+                    "Very often, in programming, you will need a data type that can only have one of two values, like:",
+                    "For this, C# has abooldata type, which can take the valuestrueorfalse.",
+                    "A boolean type is declared with theboolkeyword and can only take the valuestrueorfalse:",
+                    "Try it Yourself »",
+                    "However, it is more common to return boolean values from boolean expressions, for conditional testing\n(see below).",
+                    "A Boolean expression returns a boolean value:TrueorFalse, by comparing values/variables.",
+                    "This is useful to build logic, and find answers.",
+                    "For example, you can use acomparison operator, such as thegreater than(>) operator to find out if an expression (or a variable) is true:",
+                    "Try it Yourself »",
+                    "Or even easier:",
+                    "Try it Yourself »",
+                    "In the examples below, we use theequal to(==) operator to evaluate an expression:",
+                    "Try it Yourself »",
+                    "Try it Yourself »",
+                    "Let's think of a \"real \nlife example\" where we need to find out if a person is old enough to vote.",
+                    "In the example below, we use the>=comparison operator to find out if the age (25) isgreater thanORequal tothe voting age limit, which is set \nto18:",
+                    "Try it Yourself »",
+                    "Cool, right? An even better approach (since we are on a roll now), would be to wrap the code above in anif...elsestatement, so we can perform \ndifferent actions depending on the result:",
+                    "Output \"Old enough to vote!\" ifmyAgeisgreater than or equal to18. Otherwise output \"Not old enough to vote.\":",
+                    "Try it Yourself »",
+                    "The boolean value of an expression is the basis for all C# comparisons and conditions.",
+                    "You will learn more aboutconditions (if...else)in the next chapter.",
+                    "Fill in the missing parts to print the valuesTrueandFalse:",
+                    "Start the Exercise"
+                ],
+                "lists": [
+                    [
+                        "YES / NO",
+                        "ON / OFF",
+                        "TRUE / FALSE"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_conditions.php",
+        "cours": {
+            "titre": "C#If ... Else",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_conditions.php",
+            "contenus": {
+                "paragraphs": [
+                    "C# supports the usual logical conditions from mathematics:",
+                    "You can use these conditions to perform different actions for different decisions.",
+                    "C# has the following conditional statements:",
+                    "Use theifstatement to specify a block of C# code to be executed if a condition isTrue.",
+                    "Note thatifis in lowercase letters. Uppercase letters (If or IF) will generate an error.",
+                    "In the example below, we test two values to find out if 20 is greater than \n18. If the condition isTrue, print some text:",
+                    "Try it Yourself »",
+                    "We can also test variables:",
+                    "Try it Yourself »",
+                    "In the example above we use two variables,xandy, \nto test whether x is greater than y \n(using the>operator). As x is 20, and y is 18, and we know that 20 is greater than 18, we print to the screen that \"x is greater than y\"."
+                ],
+                "lists": [
+                    [
+                        "Less than:a < b",
+                        "Less than or equal to:a <= b",
+                        "Greater than:a > b",
+                        "Greater than or equal to:a >= b",
+                        "Equal toa == b",
+                        "Not Equal to:a != b"
+                    ],
+                    [
+                        "Useifto specify a block of code to be executed, if a specified condition is true",
+                        "Useelseto specify a block of code to be executed, if the same condition is false",
+                        "Useelse ifto specify a new condition to test, if the first condition is false",
+                        "Useswitchto specify many alternative blocks of code to be executed"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_conditions_else.php",
+        "cours": {
+            "titre": "C#The else Statement",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_conditions_else.php",
+            "contenus": {
+                "paragraphs": [
+                    "Use theelsestatement to specify a block of code to be executed if the condition isFalse.",
+                    "Try it Yourself »",
+                    "In the example above, time (20) is greater than 18, so the condition isFalse. \nBecause of this, we move on to theelsecondition and print to the screen \"Good \nevening\". If the time was less than 18, the program would print \"Good day\"."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_conditions_elseif.php",
+        "cours": {
+            "titre": "C#The else if Statement",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_conditions_elseif.php",
+            "contenus": {
+                "paragraphs": [
+                    "Use theelse ifstatement to specify a new condition if the first condition isFalse.",
+                    "Try it Yourself »",
+                    "In the example above, time (22) is greater than 10, so thefirst conditionisFalse. The next condition, in theelse ifstatement, is alsoFalse, so we move on to theelsecondition sincecondition1andcondition2is bothFalse- and print to the screen \"Good \nevening\".",
+                    "However, if the time was 14, our program would print \"Good day.\""
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_conditions_shorthand.php",
+        "cours": {
+            "titre": "C#Short Hand If...Else",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_conditions_shorthand.php",
+            "contenus": {
+                "paragraphs": [
+                    "There is also a short-hand if else, which is known as theternary \noperatorbecause it consists of three operands. It can be used to \nreplace multiple lines of code with a single line. It is often used to replace \nsimple if else statements:",
+                    "Instead of writing:",
+                    "Try it Yourself »",
+                    "You can simply write:",
+                    "Try it Yourself »",
+                    "Print \"Hello World\" ifxisgreater thany.",
+                    "Start the Exercise"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_switch.php",
+        "cours": {
+            "titre": "C#Switch",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_switch.php",
+            "contenus": {
+                "paragraphs": [
+                    "Use theswitchstatement to select one of many code blocks to be executed.",
+                    "This is how it works:",
+                    "The example below uses the weekday number to calculate the weekday name:",
+                    "Try it Yourself »",
+                    "When C# reaches abreakkeyword, it breaks out of the switch block.",
+                    "This will stop the execution of more code and case testing inside \nthe block.",
+                    "When a match is found, and the job is done, it's time for a break. There is no need for more testing.",
+                    "A break can save a lot of execution time because it \"ignores\" the execution \nof all the rest of the code in the switch block.",
+                    "Thedefaultkeyword is optional and specifies some code to run if there is no \ncase match:",
+                    "Try it Yourself »",
+                    "Insert the missing parts to complete the followingswitchstatement.",
+                    "Start the Exercise"
+                ],
+                "lists": [
+                    [
+                        "Theswitchexpression is evaluated once",
+                        "The value of the expression is compared with the values of eachcase",
+                        "If there is a match, the associated block of code is executed",
+                        "Thebreakanddefaultkeywords will be described later in this chapter"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_while_loop.php",
+        "cours": {
+            "titre": "C#While Loop",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_while_loop.php",
+            "contenus": {
+                "paragraphs": [
+                    "Loops can execute a block of code as long as a specified condition is reached.",
+                    "Loops are handy because they save time, reduce errors, and they make code more readable.",
+                    "Thewhileloop loops through a block of code as long as a specified condition isTrue:",
+                    "In the example below, the code in the loop will run, over and over again, as long as \na variable (i) is less than 5:",
+                    "Try it Yourself »",
+                    "Note:Do not forget to increase the variable used in the condition, otherwise \nthe loop will never end!",
+                    "Thedo/whileloop is a variant of thewhileloop. This loop will \nexecute the code block once, before checking if the condition is true, then it will\nrepeat the loop as long as the condition is true.",
+                    "The example below uses ado/whileloop. The loop will always be \nexecuted at least once, even if the condition is false, because the code block \nis executed before the condition is tested:",
+                    "Try it Yourself »",
+                    "Do not forget to increase the variable used in the condition, otherwise \nthe loop will never end!",
+                    "Printias long asiis less than 6.",
+                    "Start the Exercise"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_for_loop.php",
+        "cours": {
+            "titre": "C#For Loop",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_for_loop.php",
+            "contenus": {
+                "paragraphs": [
+                    "When you know exactly how many times you want to loop through a block of \ncode, use theforloop instead of awhileloop:",
+                    "Statement 1is executed (one time) before the execution of the code block.",
+                    "Statement 2defines the condition for executing the code block.",
+                    "Statement 3is executed (every time) after the code block has been executed.",
+                    "The example below will print the numbers 0 to 4:",
+                    "Try it Yourself »",
+                    "Statement 1 sets a variable before the loop starts (int i = 0).",
+                    "Statement 2 defines the condition for the loop to run (imust be less than5). If the condition istrue, the loop will start over again, if it isfalse, \nthe loop will end.",
+                    "Statement 3 increases a value (i++) each time the code block in the loop has \nbeen executed.",
+                    "This example will only print even values between 0 and 10:",
+                    "Try it Yourself »",
+                    "It is also possible to place a loop inside another loop. This is called anested loop.",
+                    "The \"inner loop\" will be executed one time for each iteration of the \"outer loop\":",
+                    "Try it Yourself »",
+                    "Use aforloop to print \"Yes\" 5 times:",
+                    "Start the Exercise"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_foreach_loop.php",
+        "cours": {
+            "titre": "C#Foreach Loop",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_foreach_loop.php",
+            "contenus": {
+                "paragraphs": [
+                    "There is also aforeachloop, which is used exclusively to loop through elements in anarray(or other data sets):",
+                    "The following example outputs all elements in thecarsarray, using aforeachloop:",
+                    "Try it Yourself »",
+                    "Note:Don't worry if you don't understand the example above. You will learn more about Arrays in theC# Arrays chapter."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_break.php",
+        "cours": {
+            "titre": "C#Break and Continue",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_break.php",
+            "contenus": {
+                "paragraphs": [
+                    "You have already seen thebreakstatement used in an earlier chapter of this tutorial. It was used to \"jump out\" of aswitchstatement.",
+                    "Thebreakstatement can also be used to jump out of aloop.",
+                    "This example jumps out of the loop wheniis equal to4:",
+                    "Try it Yourself »",
+                    "Thecontinuestatement breaks one iteration (in the loop), if a specified condition occurs, and continues with the next iteration in the loop.",
+                    "This example skips the value of4:",
+                    "Try it Yourself »",
+                    "You can also usebreakandcontinuein while loops:",
+                    "Try it Yourself »",
+                    "Try it Yourself »"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_arrays.php",
+        "cours": {
+            "titre": "C#Arrays",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_arrays.php",
+            "contenus": {
+                "paragraphs": [
+                    "Arrays are used to store multiple values in a single variable, instead of declaring separate variables for each \nvalue.",
+                    "To declare an array, define the variable type withsquare brackets:",
+                    "We have now declared a variable that holds an array of strings.",
+                    "To insert values to it, we can use an array literal - place the values in a comma-separated list, inside curly braces:",
+                    "To create an array of integers, you could write:",
+                    "You access an array element by referring to the index number.",
+                    "This statement accesses the value of the first element incars:",
+                    "Try it Yourself »",
+                    "Note:Array indexes start with 0: [0] is the first element. [1] is the second \nelement, etc.",
+                    "To change the value of a specific element, refer to the index number:",
+                    "Try it Yourself »",
+                    "To find out how many elements an array has, use theLengthproperty:",
+                    "Try it Yourself »",
+                    "If you are familiar with C#, you might have seen arrays created with thenewkeyword, and perhaps you have seen arrays with a specified size as well. In C#, there are different ways to create an array:",
+                    "It is up to you which option you choose. In our tutorial, we will often use the last option, as it is faster and easier to read.",
+                    "However, you should note that if you declare an array and initialize it later, you have to use thenewkeyword:",
+                    "Try it Yourself »",
+                    "Create an array of typestringcalledcars.",
+                    "Start the Exercise"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_arrays_loop.php",
+        "cours": {
+            "titre": "C#Loop Through Arrays",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_arrays_loop.php",
+            "contenus": {
+                "paragraphs": [
+                    "You can loop through the array elements with theforloop, and use theLengthproperty to specify how many times the loop should run.",
+                    "The following example outputs all elements in thecarsarray:",
+                    "Try it Yourself »",
+                    "There is also aforeachloop, which is used exclusively to loop through elements in anarray:",
+                    "The following example outputs all elements in thecarsarray, using aforeachloop:",
+                    "Try it Yourself »",
+                    "The example above can be read like this:for eachstringelement (calledi- as inindex) incars, print out the value ofi.",
+                    "If you compare theforloop andforeachloop, you will see that theforeachmethod is easier to write, it \ndoes not require a counter (using theLengthproperty), and it is more readable."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_arrays_sort.php",
+        "cours": {
+            "titre": "C#Sort Arrays",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_arrays_sort.php",
+            "contenus": {
+                "paragraphs": [
+                    "There are many array methods available, for exampleSort(), which sorts an array \nalphabetically or in an ascending order:",
+                    "Try it Yourself »",
+                    "Other useful array methods, such asMin,Max, andSum, can be found in theSystem.Linqnamespace:",
+                    "Try it Yourself »",
+                    "You will learn more about other namespaces in a later chapter."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_arrays_multi.php",
+        "cours": {
+            "titre": "C#Multidimensional Arrays",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_arrays_multi.php",
+            "contenus": {
+                "paragraphs": [
+                    "In the previous chapter, you learned aboutarrays, \nwhich is also known assingle dimension arrays. These are great, and something you will use a lot while programming in C#. However, if you want to store data as a tabular form, like a table with rows and columns, \nyou need to get familiar withmultidimensional arrays.",
+                    "A multidimensional array is basically an array of arrays.",
+                    "Arrays can have any number of dimensions. The most common are two-dimensional arrays (2D).",
+                    "To create a 2D array, add each array within its own set of curly braces, and insert a comma (,) inside the square brackets:",
+                    "",
+                    "Good to know:The single comma[,]specifies that the array is two-dimensional. A three-dimensional array would have two commas:int[,,].",
+                    "numbersis now an array with two arrays as its elements. \nThe first array element contains three elements: 1, 4 and 2, while the second \narray element contains 3, 6 and 8. To visualize it, think of the array as a table with rows and columns:",
+                    "To access an element of a two-dimensional array, you must specify two indexes: one for the array, and one for the element inside that array. Or better yet, with the table visualization in mind; one for the row and one for the column (see example below).",
+                    "This statement accesses the value of the element in thefirst row (0)andthird column (2)of thenumbersarray:",
+                    "Try it Yourself »",
+                    "Remember that:Array indexes start with 0: [0] is the first element. [1] is the second element, etc.",
+                    "You can also change the value of an element.",
+                    "The following example will change the value of the element in thefirst row (0)andfirst column (0):",
+                    "Try it Yourself »",
+                    "You can easily loop through the elements of a two-dimensional array with aforeachloop:",
+                    "Try it Yourself »",
+                    "You can also use afor loop. For multidimensional arrays, \nyou need one loop for each of the array's dimensions.",
+                    "Also note that we have to useGetLength()instead ofLengthto specify how many times the loop should run:",
+                    "Try it Yourself »",
+                    ""
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_methods.php",
+        "cours": {
+            "titre": "C#Methods",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_methods.php",
+            "contenus": {
+                "paragraphs": [
+                    "Amethodis a block of code which only runs when it is called.",
+                    "You can pass data, known as parameters, into a method.",
+                    "Methods are used to perform certain actions, and they are also known asfunctions.",
+                    "Why use methods? To reuse code: define the code once, and use \nit many times.",
+                    "A method is defined \nwith the name of the method, followed by parentheses(). C# \nprovides some pre-defined methods, which you already are familiar with, such asMain(), but you can also create your own methods to perform certain actions:",
+                    "Create a method inside the Program class:",
+                    "Note:In C#, it is good practice to start with an uppercase letter when naming methods, as it makes the code easier to read.",
+                    "To call (execute) a method, write the method's name followed by two \nparentheses()and a semicolon;",
+                    "In the following example,MyMethod()is used to print a text (the action), when it is called:",
+                    "InsideMain(), call themyMethod()method:",
+                    "Try it Yourself »",
+                    "A method can be called multiple times:",
+                    "Try it Yourself »",
+                    "Create a method namedMyMethodand call it insideMain().",
+                    "Start the Exercise"
+                ],
+                "lists": [
+                    [
+                        "MyMethod()is the name of the method",
+                        "staticmeans that the method belongs to the Program class and not an object of the Program class. You will learn more about objects and how to access methods through objects later in this tutorial.",
+                        "voidmeans that this method does not have a \nreturn value. You will learn more about return values later in this chapter"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_method_parameters.php",
+        "cours": {
+            "titre": "C#Method Parameters",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_method_parameters.php",
+            "contenus": {
+                "paragraphs": [
+                    "Information can be passed to methods as parameter. Parameters act as variables inside the method.",
+                    "They are specified after the method name, inside the parentheses.\nYou can add as many parameters as you want, just separate them with a comma.",
+                    "The following example has a \nmethod that takes astringcalledfnameas parameter.\nWhen the method is called, we pass along a first name,\nwhich is used inside the method to print the full name:",
+                    "Try it Yourself »",
+                    "When aparameteris passed to the method, it is called anargument. So, from the example above:fnameis aparameter, whileLiam,JennyandAnjaarearguments.",
+                    "You can have as many parameters as you like, just separate them with commas:",
+                    "Try it Yourself »",
+                    "Note that when you are working with multiple parameters, the method call must \nhave the same number of arguments as there are parameters, and the arguments must be passed in the same order."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_method_parameters_default.php",
+        "cours": {
+            "titre": "C#Default Parameter Value",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_method_parameters_default.php",
+            "contenus": {
+                "paragraphs": [
+                    "You can also use a default parameter value, by using the equals sign (=).",
+                    "If we call the method without an argument, it uses the default value (\"Norway\"):",
+                    "Try it Yourself »",
+                    "A parameter with a default value, is often known as an \"optional parameter\". From the example above,countryis an optional parameter and\"Norway\"is the default value."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_method_parameters_return.php",
+        "cours": {
+            "titre": "C#Return Values",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_method_parameters_return.php",
+            "contenus": {
+                "paragraphs": [
+                    "In theprevious page, we used thevoidkeyword in all examples, which indicates that the method should not return a value.",
+                    "If you \nwant the method to return a value, you can use a primitive data type (such asintordouble) instead ofvoid, and use thereturnkeyword inside the method:",
+                    "Try it Yourself »",
+                    "This example returns the sum of a method'stwo parameters:",
+                    "Try it Yourself »",
+                    "You can also store the result in a variable (recommended, as it is easier to read and maintain):",
+                    "Try it Yourself »"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_method_parameters_named_args.php",
+        "cours": {
+            "titre": "C#Named Arguments",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_method_parameters_named_args.php",
+            "contenus": {
+                "paragraphs": [
+                    "It is also possible to send arguments with thekey: valuesyntax.",
+                    "That way, the order of the arguments does not matter:",
+                    "Try it Yourself »"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_method_overloading.php",
+        "cours": {
+            "titre": "C#Method Overloading",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_method_overloading.php",
+            "contenus": {
+                "paragraphs": [
+                    "Withmethod overloading, multiple methods can have the same name with different\nparameters:",
+                    "Consider the following example, which have two methods that add numbers of different type:",
+                    "Try it Yourself »",
+                    "Instead of defining two methods that should do the same thing, it is better to overload one.",
+                    "In the example below, we overload thePlusMethodmethod to work for bothintanddouble:",
+                    "Try it Yourself »",
+                    "Note:Multiple methods can have the same name \n  as long as the number and/or type of parameters are different."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_oop.php",
+        "cours": {
+            "titre": "C#OOP",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_oop.php",
+            "contenus": {
+                "paragraphs": [
+                    "OOP stands for Object-Oriented Programming.",
+                    "Procedural programming is about writing procedures or methods that perform \noperations on the data, while object-oriented programming is about \ncreating objects that contain both data and methods.",
+                    "Object-oriented programming has several advantages over procedural \nprogramming:",
+                    "Tip:The \"Don't Repeat Yourself\" (DRY) principle is about \nreducing the repetition of code. You should extract out the codes that are \ncommon for the application, and place them at a single place and reuse them \ninstead of repeating it.",
+                    "Classes and objects are the two main aspects of object-oriented programming.",
+                    "Look at the following illustration to see the difference between class and \nobjects:",
+                    "Fruit",
+                    "Apple",
+                    "Banana",
+                    "Mango",
+                    "Another example:",
+                    "Car",
+                    "Volvo",
+                    "Audi",
+                    "Toyota",
+                    "So, a class is a template for objects, and an object is an instance of a class.",
+                    "When the individual objects are created, they inherit all the \nvariables and methods from the class.",
+                    "You will learn much more aboutclasses and objectsin the next chapter."
+                ],
+                "lists": [
+                    [
+                        "OOP is faster and easier to execute",
+                        "OOP provides a clear structure for the programs",
+                        "OOP helps to keep the C# code DRY \"Don't Repeat Yourself\", and makes \n  the \n  code easier to maintain, modify and debug",
+                        "OOP makes it possible to create full reusable \n  applications with less code and shorter development time"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_classes.php",
+        "cours": {
+            "titre": "C#Classes and Objects",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_classes.php",
+            "contenus": {
+                "paragraphs": [
+                    "You learned from the previous chapter that C# is an object-oriented programming language.",
+                    "Everything in C# is associated with classes and objects, along with its \nattributes and \nmethods. For example: in real life, a car is an object. The car hasattributes, such as weight and color, andmethods, such as drive and brake.",
+                    "A Class is like an object constructor, or a \"blueprint\" for creating objects.",
+                    "To create a class, use theclasskeyword:",
+                    "Create a class named \"Car\" with a variablecolor:",
+                    "When a variable is declared directly in a class, it is often referred to as afield(or attribute).",
+                    "It is not required, but it is a good practice to start with an uppercase first letter when naming classes. Also, it is common that the name of the C# file and the class matches, as it makes our code organized. However it is not required (like in Java).",
+                    "An object is created from a class. We have already created the class namedCar, \nso now we can use this to create objects.",
+                    "To create an object ofCar, \nspecify the class name, followed by the object name, and use the keywordnew:",
+                    "Create an object called \"myObj\" and use \nit to print the value ofcolor:",
+                    "Try it Yourself »",
+                    "Note that we use the dot syntax (.) to access variables/fields inside a class (myObj.color). You will learn more about \nfields in the next chapter."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_classes_multi.php",
+        "cours": {
+            "titre": "C#Multiple Classes and Objects",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_classes_multi.php",
+            "contenus": {
+                "paragraphs": [
+                    "You can create multiple objects of one class:",
+                    "Create two objects ofCar:",
+                    "Try it Yourself »",
+                    "You can also create an object of a class and access it in another class. This \nis often used for better organization of classes (one class has all the \nfields and methods, while the other class holds theMain()method (code to \nbe executed)).",
+                    "Try it Yourself »",
+                    "Did you notice thepublickeyword? It is called anaccess modifier, \nwhich specifies that thecolorvariable/field ofCaris accessible for other classes as well, such asProgram.",
+                    "You will learn much more aboutaccess modifiersandclasses/objectsin the next chapters."
+                ],
+                "lists": [
+                    [
+                        "prog2.cs",
+                        "prog.cs"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_class_members.php",
+        "cours": {
+            "titre": "C#Class Members",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_class_members.php",
+            "contenus": {
+                "paragraphs": [
+                    "Fields and methods inside classes are often referred to as \"Class Members\":",
+                    "Create aCarclass with three class members:two fieldsandone method.",
+                    "In the previous chapter, you learned that variables inside a class are called fields, \nand that you can access them by creating an object of the class, and by using the dot syntax (.).",
+                    "The following example will create an object of theCarclass, with the \nnamemyObj. Then we print the value of the \nfieldscolorandmaxSpeed:",
+                    "Try it Yourself »",
+                    "You can also leave the fields blank, and modify them when creating the object:",
+                    "Try it Yourself »",
+                    "This is especially useful when creating multiple objects of one class:",
+                    "Try it Yourself »",
+                    "You learned from theC# Methodschapter that methods are used to perform certain actions.",
+                    "Methods normally belong to a class, and they define how an object of a class behaves.",
+                    "Just like with fields, you can access methods with the dot syntax. However, note that \nthe method must bepublic. And remember that we use the name of the method followed by two \nparentheses()and a semicolon;to call (execute) the method:",
+                    "Try it Yourself »",
+                    "Why did we declare the method aspublic, and notstatic, like in the examples from theC# Methods Chapter?",
+                    "The reason is simple: astaticmethod can be accessed without creating an object of the class, whilepublicmethods can only be accessed by objects.",
+                    "Remember from the last chapter, that we can use multiple classes for better organization \n(one for fields and methods, and another one for execution). This is \nrecommended:",
+                    "Try it Yourself »",
+                    "Thepublickeyword is called anaccess modifier, \nwhich specifies that the fields ofCarare accessible for other classes as well, such asProgram.",
+                    "You will learn more aboutAccess Modifiersin a later chapter.",
+                    "Tip:As you continue to read, you will also learn more about other class members, such asconstructorsandproperties."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_constructors.php",
+        "cours": {
+            "titre": "C#Constructors",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_constructors.php",
+            "contenus": {
+                "paragraphs": [
+                    "A constructor is aspecial methodthat is used to initialize \nobjects. The advantage of a constructor, is that it is called when an object of a class is created. It can \nbe used to set initial values for fields:",
+                    "Create a constructor:",
+                    "Try it Yourself »",
+                    "Note that the constructor name mustmatch the class name, and it cannot have areturn type(likevoidorint).",
+                    "Also note that the constructor is called when the object is created.",
+                    "All classes have constructors by default: if you do not create a class \n  constructor yourself, C# creates one for you. However, then you are not able \n  to set initial values for fields.",
+                    "Constructors save time!Take a look at the last example on this page to really understand why.",
+                    "Constructors can also take parameters, which is used to initialize \nfields.",
+                    "The following example adds astring modelNameparameter \nto the constructor. \nInside the constructor we setmodeltomodelName(model=modelName). When we call \nthe constructor, we pass a parameter to the constructor (\"Mustang\"), which will set the value ofmodelto\"Mustang\":",
+                    "Try it Yourself »",
+                    "You can have as many parameters as you want:",
+                    "Try it Yourself »",
+                    "Tip:Just like other methods, constructors can beoverloadedby using different numbers of parameters.",
+                    "When you consider the example from the previous chapter, you will notice that constructors \nare very useful, as they help reducing the amount of code:",
+                    "Without constructor:",
+                    "Try it Yourself »",
+                    "With constructor:",
+                    "Try it Yourself »"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_access_modifiers.php",
+        "cours": {
+            "titre": "C#Access Modifiers",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_access_modifiers.php",
+            "contenus": {
+                "paragraphs": [
+                    "By now, you are quite familiar with thepublickeyword that appears \nin many of our examples:",
+                    "Thepublickeyword is anaccess modifier, \nwhich is used to set the access level/visibility for classes, fields, methods and properties.",
+                    "C# has the following access modifiers:",
+                    "There's also two combinations:protected internalandprivate protected.",
+                    "For now, lets focus onpublicandprivatemodifiers.",
+                    "If you declare a field with aprivateaccess modifier, it can only be \naccessed within the same class:",
+                    "The output will be:",
+                    "Try it Yourself »",
+                    "If you try to access it outside the class, an error will occur:",
+                    "The output will be:",
+                    "Try it Yourself »",
+                    "If you declare a field with apublicaccess modifier, it is accessible for \nall classes:",
+                    "The output will be:",
+                    "Try it Yourself »",
+                    "To control the visibility of class members (the security level of \neach individual class and class member).",
+                    "To achieve \"Encapsulation\" - which is the process of making sure that \"sensitive\" data is hidden from users. \nThis is done by declaring fields asprivate. You will learn more about this in the next chapter.",
+                    "Note:By default, all members of a class areprivateif you don't specify an access modifier:"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_properties.php",
+        "cours": {
+            "titre": "C#Properties (Get and Set)",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_properties.php",
+            "contenus": {
+                "paragraphs": [
+                    "Before we start to explain properties, you should have a basic understanding of \"Encapsulation\".",
+                    "The meaning ofEncapsulation, is to make sure that \"sensitive\" data is hidden \nfrom users. To achieve this, you must:declare fields/variables asprivateprovidepublicgetandsetmethods, throughproperties, to access and update the value of aprivatefieldPropertiesYou learned from the previous chapter thatprivatevariables can only be \naccessed within the same class (an outside class has no access to it). However, \nsometimes we need to access them - and it can be done with properties.A property is like a combination of a variable and a method, and it has two methods: agetand asetmethod:Exampleclass Person\n{\n  private string name; // field\n\n  public string Name   // property\n  {\n    get { return name; }   // get method\n    set { name = value; }  // set method\n  }\n}Example explainedTheNameproperty is associated with thenamefield. It is a good practice to use the same name for both the property and the private field, but with an uppercase first letter.Thegetmethod returns the value of the variablename.Thesetmethod assigns avalueto thenamevariable. Thevaluekeyword represents the value we assign to the property.If you don't fully understand it, take a look at the example below.Now we can use theNameproperty to access and update theprivatefield of thePersonclass:Exampleclass Person\n{\n  private string name; // field\n  public string Name   // property\n  {\n    get { return name; }\n    set { name = value; }\n  }\n}\n\nclass Program\n{\n  static void Main(string[] args)\n  {\n    Person myObj = new Person();\n    myObj.Name = \"Liam\";\n    Console.WriteLine(myObj.Name);\n  }\n}The output will be:LiamTry it Yourself »Automatic Properties (Short Hand)C# also provides a way to use short-hand / automatic properties, where you do \nnot have to define the field for the property, and you only have to writeget;andset;inside the property.The following example will produce the same result as the example above. The only difference is that there is less code:ExampleUsing automatic properties:class Person\n{\n  public string Name  // property\n  { get; set; }\n}\n\nclass Program\n{\n  static void Main(string[] args)\n  {\n    Person myObj = new Person();\n    myObj.Name = \"Liam\";\n    Console.WriteLine(myObj.Name);\n  }\n}The output will be:LiamTry it Yourself »Why Encapsulation?Better control of class members (reduce the possibility of yourself (or others) to mess up the code)Fields can be maderead-only(if you only use thegetmethod), orwrite-only(if you only use thesetmethod)Flexible: the programmer can change one part of the code without affecting other partsIncreased security of data❮ PreviousNext ❯★+1Track your progress - it's free!Log inSign Up",
+                    "You learned from the previous chapter thatprivatevariables can only be \naccessed within the same class (an outside class has no access to it). However, \nsometimes we need to access them - and it can be done with properties.",
+                    "A property is like a combination of a variable and a method, and it has two methods: agetand asetmethod:",
+                    "TheNameproperty is associated with thenamefield. It is a good practice to use the same name for both the property and the private field, but with an uppercase first letter.",
+                    "Thegetmethod returns the value of the variablename.",
+                    "Thesetmethod assigns avalueto thenamevariable. Thevaluekeyword represents the value we assign to the property.",
+                    "If you don't fully understand it, take a look at the example below.",
+                    "Now we can use theNameproperty to access and update theprivatefield of thePersonclass:",
+                    "The output will be:",
+                    "Try it Yourself »",
+                    "C# also provides a way to use short-hand / automatic properties, where you do \nnot have to define the field for the property, and you only have to writeget;andset;inside the property.",
+                    "The following example will produce the same result as the example above. The only difference is that there is less code:",
+                    "Using automatic properties:",
+                    "The output will be:",
+                    "Try it Yourself »"
+                ],
+                "lists": [
+                    [
+                        "declare fields/variables asprivate",
+                        "providepublicgetandsetmethods, throughproperties, to access and update the value of aprivatefield"
+                    ],
+                    [
+                        "Better control of class members (reduce the possibility of yourself (or others) to mess up the code)",
+                        "Fields can be maderead-only(if you only use thegetmethod), orwrite-only(if you only use thesetmethod)",
+                        "Flexible: the programmer can change one part of the code without affecting other parts",
+                        "Increased security of data"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_inheritance.php",
+        "cours": {
+            "titre": "C#Inheritance",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_inheritance.php",
+            "contenus": {
+                "paragraphs": [
+                    "In C#, it is possible to inherit fields and methods from one class to another. We group the \"inheritance concept\" into two categories:",
+                    "To inherit from a class, use the:symbol.",
+                    "In the example below, theCarclass \n(child) inherits the fields and methods from theVehicleclass \n(parent):",
+                    "Run example »",
+                    "- It is useful for code reusability: reuse fields and methods of an existing class when you create a new class.",
+                    "Tip:Also take a look at the next chapter,Polymorphism, which uses inherited methods to perform different tasks.",
+                    "If you don't want other classes to inherit from a class, use thesealedkeyword:",
+                    "If you try to access asealedclass, C# will generate an error:",
+                    "The error message will be something like this:"
+                ],
+                "lists": [
+                    [
+                        "Derived Class(child) - the class that inherits from another class",
+                        "Base Class(parent) - the class being inherited from"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_polymorphism.php",
+        "cours": {
+            "titre": "C#Polymorphism",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_polymorphism.php",
+            "contenus": {
+                "paragraphs": [
+                    "Polymorphism means \"many forms\", and it occurs when we have many classes that are related to each other by inheritance.",
+                    "Like we specified in the previous chapter;Inheritancelets us \ninherit fields and methods from another class.Polymorphismuses those methods to perform different tasks. This allows us to perform a single \naction in different ways.",
+                    "For example, think of a base class calledAnimalthat has a method calledanimalSound(). Derived classes of Animals could be Pigs, Cats, Dogs, Birds - And they also have their own implementation of an animal sound (the pig oinks, and the cat meows, etc.):",
+                    "Remember from theInheritance chapterthat we use the:symbol to inherit from a class.",
+                    "Now we can createPigandDogobjects and call theanimalSound()method on both of them:",
+                    "The output will be:",
+                    "Try it Yourself »",
+                    "The output from the example above was probably not what you expected. That is because the base class method overrides the derived class method, when they share the same name.",
+                    "However, C# provides an option to override the base class method, by adding thevirtualkeyword to the method inside the base class, and by using theoverridekeyword for each derived class methods:",
+                    "The output will be:",
+                    "Try it Yourself »",
+                    "- It is useful for code reusability: reuse fields and methods of an existing class when you create a new class."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_abstract.php",
+        "cours": {
+            "titre": "C#Abstraction",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_abstract.php",
+            "contenus": {
+                "paragraphs": [
+                    "Dataabstractionis the process of hiding certain details and showing only essential information to the user.Abstraction can be achieved with eitherabstract classesorinterfaces(which you will learn more about in the next chapter).",
+                    "Theabstractkeyword is used for classes and methods:Abstract class:is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).Abstract method:can only be used in an abstract class, and it does not have a body. The body is provided by the \nderived class (inherited from).An abstract class can have both abstract and regular methods:abstract class Animal \n{\n  public abstract void animalSound();\n  public void sleep() \n  {\n    Console.WriteLine(\"Zzz\");\n  }\n}From the example above, it is not possible to create an object of the Animal class:Animal myObj = new Animal(); // Will generate an error (Cannot create an instance of the abstract class or interface 'Animal')To access the abstract class, it must be inherited from another class. Let's convert the Animal class we used in thePolymorphismchapter to an abstract class.Remember from theInheritance chapterthat we use the:symbol to inherit from a class, \nand that we use theoverridekeyword to override the base class method.Example// Abstract class\nabstract class Animal\n{\n  // Abstract method (does not have a body)\n  public abstract void animalSound();\n  // Regular method\n  public void sleep()\n  {\n    Console.WriteLine(\"Zzz\");\n  }\n}\n\n// Derived class (inherit from Animal)\nclass Pig : Animal\n{\n  public override void animalSound()\n  {\n    // The body of animalSound() is provided here\n    Console.WriteLine(\"The pig says: wee wee\");\n  }\n}\n\nclass Program\n{\n  static void Main(string[] args)\n  {\n    Pig myPig = new Pig(); // Create a Pig object\n    myPig.animalSound();  // Call the abstract method\n    myPig.sleep();  // Call the regular method\n  }\n}Try it Yourself »Why And When To Use Abstract Classes and Methods?To achieve security - hide certain details and only show the important \ndetails of an object.Note:Abstraction can also be achieved withInterfaces, which you will learn more about in the next chapter.❮ PreviousNext ❯★+1Track your progress - it's free!Log inSign Up",
+                    "An abstract class can have both abstract and regular methods:",
+                    "From the example above, it is not possible to create an object of the Animal class:",
+                    "To access the abstract class, it must be inherited from another class. Let's convert the Animal class we used in thePolymorphismchapter to an abstract class.",
+                    "Remember from theInheritance chapterthat we use the:symbol to inherit from a class, \nand that we use theoverridekeyword to override the base class method.",
+                    "Try it Yourself »",
+                    "To achieve security - hide certain details and only show the important \ndetails of an object.",
+                    "Note:Abstraction can also be achieved withInterfaces, which you will learn more about in the next chapter."
+                ],
+                "lists": [
+                    [
+                        "Abstract class:is a restricted class that cannot be used to create objects (to access it, it must be inherited from another class).",
+                        "Abstract method:can only be used in an abstract class, and it does not have a body. The body is provided by the \nderived class (inherited from)."
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_interface.php",
+        "cours": {
+            "titre": "C#Interface",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_interface.php",
+            "contenus": {
+                "paragraphs": [
+                    "Another way to achieveabstractionin C#, is with interfaces.",
+                    "Aninterfaceis a completely \"abstract class\", \nwhich can only contain abstract methods and properties (with empty bodies):",
+                    "It is considered good practice to start with the letter \"I\" at the beginning of an interface, as it makes it easier for yourself and others to remember that \nit is an interface and not a class.",
+                    "By default, members of an interface areabstractandpublic.",
+                    "Note:Interfaces can contain properties and methods, but \n  not fields.",
+                    "To access the interface methods, the interface must be \"implemented\" (kinda \nlike inherited) by another class. To implement an interface, use the:symbol (just like with inheritance). The body of the interface method is \nprovided by the \"implement\" class. Note that you do not have to use theoverridekeyword when implementing an interface:",
+                    "Try it Yourself »",
+                    "1) To achieve security - hide certain details and only show the important \ndetails of an object (interface).",
+                    "2) C# does not support \"multiple inheritance\" (a class can only inherit from one \n  base class). However, it can be achieved \n  with interfaces, because the class canimplementmultiple interfaces.Note:To implement multiple interfaces, separate them with a comma (see example below)."
+                ],
+                "lists": [
+                    [
+                        "Likeabstract classes, interfacescannotbe used to create objects (in the example above, \nit is not possible to create an \"IAnimal\" object in the Program class)",
+                        "Interface methods do not have a body - the \nbody is provided by the \"implement\" class",
+                        "On implementation of an interface, you must override all of its methods",
+                        "Interfaces can contain properties and methods, but not \n  fields/variables",
+                        "Interface members are by defaultabstractandpublic",
+                        "An interface cannot contain a constructor (as it cannot be used to create objects)"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_interface_multi.php",
+        "cours": {
+            "titre": "C#Multiple Interfaces",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_interface_multi.php",
+            "contenus": {
+                "paragraphs": [
+                    "To implement multiple interfaces, separate them with a comma:",
+                    "Try it Yourself »"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_enums.php",
+        "cours": {
+            "titre": "C#Enum",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_enums.php",
+            "contenus": {
+                "paragraphs": [
+                    "Anenumis a special \"class\" that represents a group ofconstants(unchangeable/read-only variables).",
+                    "To create anenum, use theenumkeyword (instead of class or interface), and separate \nthe enum items with a comma:",
+                    "You can accessenumitems with thedotsyntax:",
+                    "Enum is short for \"enumerations\", which means \"specifically listed\".",
+                    "You can also have anenuminside a class:",
+                    "The output will be:",
+                    "By default, the first item of an enum has the value 0. The second has the value 1, and so on.",
+                    "To get the integer value from an item, you mustexplicitly convertthe item to anint:",
+                    "The output will be:",
+                    "You can also assign your own enum values, and the next items will update their numbers accordingly:",
+                    "The output will be:",
+                    "Enums are often used inswitchstatements to check for corresponding values:",
+                    "The output will be:",
+                    "Use enums when you have values that you know aren't going to change, like month days, days, colors, deck of cards, etc."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_files.php",
+        "cours": {
+            "titre": "C#Files",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_files.php",
+            "contenus": {
+                "paragraphs": [
+                    "TheFileclass from theSystem.IOnamespace, allows us to work with files:",
+                    "TheFileclass has many useful methods for creating and getting information \nabout files. \nFor example:",
+                    "For a full list of File methods, go toMicrosoft .Net File Class Reference.",
+                    "In the \nfollowing example, we use theWriteAllText()method \nto create a file named \"filename.txt\" and write some content to it. Then we use theReadAllText()method to read the contents of the file:",
+                    "The output will be:"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_exceptions.php",
+        "cours": {
+            "titre": "C#Exceptions - Try..Catch",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_exceptions.php",
+            "contenus": {
+                "paragraphs": [
+                    "When executing C# code, different errors can occur: coding errors made by the programmer, errors due to wrong input, \nor other unforeseeable things.",
+                    "When an error occurs, C# will normally stop and generate an error message. The technical term for this is: C# will throw anexception(throw an error).",
+                    "Thetrystatement allows you to define a block of code to be \ntested for errors while it is being executed.",
+                    "Thecatchstatement allows you to define a block of code to \nbe executed, if an error occurs in the try block.",
+                    "Thetryandcatchkeywords \ncome in pairs:",
+                    "Consider the following example, where we create an array of three integers:",
+                    "This will generate an error, becausemyNumbers[10]does not exist.",
+                    "The error message will be something like this:",
+                    "If an error occurs, we can usetry...catchto catch the error and execute some code to handle it.",
+                    "In the following example, we use the variable inside the catch block (e) together with the built-inMessageproperty, which outputs a message that describes the exception:",
+                    "The output will be:",
+                    "You can also output your own error message:",
+                    "The output will be:",
+                    "Thefinallystatement lets you execute code, aftertry...catch, regardless of the result:",
+                    "The output will be:",
+                    "Thethrowstatement allows you to create a custom error.",
+                    "Thethrowstatement is used together with anexception class. There are many exception classes available in C#:ArithmeticException,FileNotFoundException,IndexOutOfRangeException,TimeOutException, etc:",
+                    "The error message displayed in the program will be:",
+                    "Ifagewas 20, you wouldnotget an exception:",
+                    "The output will be:"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_howto_add_two_numbers.php",
+        "cours": {
+            "titre": "C#How To Add Two Numbers",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_howto_add_two_numbers.php",
+            "contenus": {
+                "paragraphs": [
+                    "Learn how to add two numbers in C#:",
+                    "Try it Yourself »"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_examples.php",
+        "cours": {
+            "titre": "C#Examples",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_examples.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_compiler.php",
+        "cours": {
+            "titre": "C#Online Compiler",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_compiler.php",
+            "contenus": {
+                "paragraphs": [
+                    "With our online C# compiler, you can edit C# code, and view the result in your browser.",
+                    "Click on the \"Try it Yourself\" button to see how it works.",
+                    "If you want to create your own C# applications, check outW3Schools Spaces.",
+                    "W3Schools Spacesis a website-building tool that enables you to create and share your own website, as well as develop and host C# applications.",
+                    "You can change the website's look and how it works by editing the code right in your web browser.",
+                    "It's easy to use and doesn't require any setup.",
+                    "The code editor is packed with features to help you achieve more:",
+                    "Practice is key to mastering coding, and the best way to put your C# knowledge into practice is by getting practical with code.",
+                    "UseW3Schools Spacesto build, test and deploy code.",
+                    "The code editor lets you write and practice different types of computer languages. It includes \nC#, but you can use it for other languages too:",
+                    "If you don't know C#, we suggest that you read ourC# Tutorialfrom scratch.",
+                    "Get an overview of your packages and easily add or delete frameworks and libraries. Then, with just one click, you can make changes to your packages without manual installation.",
+                    "",
+                    "You can also use the code editor inW3School Spacesto build frontend or full-stack websites from scratch.",
+                    "Or you can use the 60+ templates available and save time:",
+                    "Create your Spaces account today and explore them all!",
+                    "Host and publish your websites in no time withW3School Spaces.",
+                    "W3Schools subdomain and SSL certificate are included for free withW3School Spaces. An SSL certificate makes your website safe and secure. It also helps people trust your website and makes it easier to find it online.",
+                    "Want a custom domain for your website?",
+                    "You can buy a domain or transfer an existing one and connect it to your space.",
+                    "Get started in a few clicks withW3School Spaces."
+                ],
+                "lists": [
+                    [
+                        "Templates:Start from scratch or use a template",
+                        "Cloud-based:no installations required. You only need your browser",
+                        "Terminal & Log:debug and troubleshoot your code easily",
+                        "File Navigator:switch between files inside the code editor",
+                        "And much more!"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_exercises.php",
+        "cours": {
+            "titre": "C#Exercises",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_exercises.php",
+            "contenus": {
+                "paragraphs": [
+                    "You can test your C# skills with W3Schools' Exercises.",
+                    "We have gathered a variety of C# exercises (with answers) for each C# Chapter.",
+                    "Try to solve an exercise by editing some code, or show the answer to see what you've done wrong.",
+                    "You will get 1 point for\neach correct answer. Your score and total score will always be displayed.",
+                    "Good luck!",
+                    "Start C# Exercises ❯",
+                    "If you don't know C#, we suggest that you read ourC# Tutorialfrom scratch.",
+                    "Get certified by completingthecourse"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_quiz.php",
+        "cours": {
+            "titre": "C#Quiz",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_quiz.php",
+            "contenus": {
+                "paragraphs": [
+                    "You can test your C# skills with W3Schools' Quiz.",
+                    "The test contains 25 questions and there is no time limit.",
+                    "The test is not official, it's just a nice way to see how much you know, or don't know, about \nC#.",
+                    "You will get 1 point for each correct answer. At the end of the Quiz,\nyour total score will be displayed. Maximum score is 25 points.",
+                    "Good luck!",
+                    "Start the C# Quiz ❯",
+                    "If you don't know C#, we suggest that you read ourC# Tutorialfrom scratch.",
+                    "Get certified by completingthecourse"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_server.php",
+        "cours": {
+            "titre": "C# Server",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_server.php",
+            "contenus": {
+                "paragraphs": [
+                    "Coding Skills",
+                    "AI Tutor",
+                    "Projects",
+                    "Securely",
+                    "By subscribing to a plan you support the W3Schools mission to makelearning available to everyone - no matter their background.",
+                    "$0/Forever",
+                    "This is for you that are beginning to explore coding and web development",
+                    "$14.99/Month",
+                    "This is for you that want to learn and reach your goals faster. Build fullstack projects, ad free experience.",
+                    "Contact us for information",
+                    "W3Schools right to use and Plus for educational institutions or enterprise customers",
+                    "You can also buy a domain or connect an existing one.",
+                    "Just landed inSpaces",
+                    "Learn to code more effectivelyand intelligently with kAI - AI tutor",
+                    "Hi! I'm kAI, W3Schools AI Tutor...",
+                    "Feel free to ask me any coding-related questions, and I'll do my best to assist you.",
+                    "I can help you checking your code for errors, improving your code's structure, explaining coding concepts in a clear and understandable way, and more...",
+                    "I can even create complete websites for you based on your input, so what are you waiting for?",
+                    "Cloud-based",
+                    "Terminal & Log",
+                    "How To Libraries",
+                    "Database",
+                    "File Navigator",
+                    "Package Manager",
+                    "Analytics",
+                    "Environment Manager",
+                    "With Basic Spaces, you can build frontend websites. Whereas with Fullstack Spaces, you can build frontend and backend websites.",
+                    "Basic Spaces include HTML, CSS, and Javascript. Full Stack Spaces include everything in Basic Spaces plus PHP, Python, React.js, Vue.js, Node.js, Handlebars, and Django.",
+                    "Your subscription will be automatically renewed every month.",
+                    "Your access to all the benefits for the paid period of time will continue. However, the subscription will not be renewed automatically.",
+                    "To subscribe W3Schools accounts for multiple users, you can contact sales@w3schools.com"
+                ],
+                "lists": [
+                    [
+                        "Build and host 1 static website",
+                        "100 credits/monthAccess various AI features like W3Schools kAI coding tutor and interview preparation.",
+                        "No support"
+                    ],
+                    [
+                        "Ad-free experience",
+                        "Build and host 15 static websites",
+                        "Build and host 1 full stack server",
+                        "Choose from 18 frameworks / languages",
+                        "Choose from 75+ templates",
+                        "50000 credits/monthAccess various AI features like W3Schools kAI coding tutor and interview preparation.",
+                        "Priority Support",
+                        "Cancel anytime"
+                    ],
+                    [
+                        "Everything in W3Schools Plus",
+                        "Certification Exams",
+                        "And much more!"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_syllabus.php",
+        "cours": {
+            "titre": "C#Syllabus",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_syllabus.php",
+            "contenus": {
+                "paragraphs": [
+                    "TheW3Schools C# Tutorialis comprehensive and beginner-friendly.",
+                    "It will give you a fundamental knowledge of C#.",
+                    "It is designed for beginners and requires no prior experience with programming.",
+                    "The content has been carefully made to be bite-sized, simple, and easy to understand.",
+                    "The content has been proven by millions of users over the years. It is updated and improved frequently.",
+                    "The syllabus outline and its sequence are structured so you can learn C# step by step, from the introduction to creating your first application with C#.",
+                    "Get Started With C# »",
+                    "Note:Are you a teacher teaching C# programming?W3Schools Academyis a toolbox of features that can help you teach. It offers classroom features such as pre-built study plans, classroom administration and much more. Read more aboutAcademy here.",
+                    "Get Started",
+                    "In this tutorial we offer different activities for you to learn C# for free:",
+                    "You can also create a free account to track your progress.",
+                    "As a signed-in user, you get access to features such as:",
+                    "Sign Up - It's free",
+                    "Get Started",
+                    "C#, like any other programming language, is best learned by working hands-on with code.",
+                    "Easily try code with our \"Try it Yourself\" editor.",
+                    "Here, you can edit C# code and view the result:",
+                    "Try it Yourself »",
+                    "If you want to explore more and host your project, we have a feature calledSpacesthat allows you to build, test and deploy C# code and other backend languages.",
+                    "Here you get a secure sandbox environment called Spaces, where you can practice coding and test projects in real-time.",
+                    "Spaces allow you to test, build, and deploy code. This includes a W3Schools subdomain, hosting, and secure SSL certificates.",
+                    "Spaces require no installation and run directly in the browser.",
+                    "Features include:",
+                    "Create a Spaces Account",
+                    "W3Schools offers an end-of-pathway certification program.",
+                    "Here you can take exams to get certified.",
+                    "The C# exam is a test that summarizes the W3Schools C# syllabus.",
+                    "After passing the exam you get the \"Certified C# Developer\" Certification.",
+                    "There are two different types of certifications:",
+                    "The non-adaptive is pass or no pass.",
+                    "The adaptive certification is adaptive and graded; students will get a grade from intermediate, advanced to professional.",
+                    "Buy Certificate »",
+                    "Are you interested in learning how you can useW3Schools Academyto Teach \nC#?",
+                    "Join our upcoming webinar for a guided demo ofW3Schools Academy. You'll see how it works, and discover how it can make teaching programming easier and more engaging.",
+                    "Join our FREE Webinar »"
+                ],
+                "lists": [
+                    [
+                        "Understand C# and set up a development environment.",
+                        "Learn C#, including syntax, variables, data types, and operators.",
+                        "Use control structures such as if statements, for loops, and while loops.",
+                        "Understand and apply object-oriented programming (OOP) concepts: classes, objects, and inheritance.",
+                        "Create and use methods to organize your code and make it easier to understand.",
+                        "Handle errors in your code and write code to manage them properly.",
+                        "Write and run C# programs."
+                    ],
+                    [
+                        "Computer Science:C# is used to teach programming, software development, and object-oriented programming (OOP).",
+                        "Mathematics:C# can be used for solving math problems and creating algorithms.",
+                        "Engineering:C# is used for building software and tools for projects.",
+                        "Game Development:C# is popular for creating games, particularly with game engines like Unity.",
+                        "Information Technology (IT):C# is used to develop software applications and understand how systems work.",
+                        "Business and Data Analysis:C# can be used to create applications for analyzing business data and for automating tasks.",
+                        "Web Development:C# is used for building web applications and services using frameworks like ASP.NET.",
+                        "C# can help you learn problem-solving and develop programming skills."
+                    ],
+                    [
+                        "Lessons",
+                        "Exercises",
+                        "Quizzes"
+                    ],
+                    [
+                        "Learning paths",
+                        "Sandbox and lab environments",
+                        "Achievements",
+                        "And much more!"
+                    ],
+                    [
+                        "C# HOME",
+                        "C# Introduction",
+                        "C# Get Started",
+                        "C# Syntax",
+                        "C# Output",
+                        "C# Comments",
+                        "C# Variables",
+                        "C# Data Types",
+                        "C# Type Casting",
+                        "C# User Input",
+                        "C# Operators",
+                        "C# Math",
+                        "C# Strings",
+                        "C# Booleans",
+                        "C# If...Else (Conditions)",
+                        "C# Switch",
+                        "C# While Loop",
+                        "C# For Loop",
+                        "C# Break/Continue",
+                        "C# Arrays",
+                        "C# Methods",
+                        "C# Method Parameters",
+                        "C# Method Overloading",
+                        "C# OOP (Object-Oriented Programming)",
+                        "C# Classes/Objects",
+                        "C# Class Members",
+                        "C# Constructors",
+                        "C# Access Modifiers",
+                        "C# Properties",
+                        "C# Inheritance",
+                        "C# Polymorphism",
+                        "C# Abstraction",
+                        "C# Interface",
+                        "C# Enums",
+                        "C# Files",
+                        "C# Exceptions"
+                    ],
+                    [
+                        "Collaboration",
+                        "File navigator",
+                        "Terminal & log",
+                        "Package manager",
+                        "Database",
+                        "Environment manager",
+                        "Analytics"
+                    ],
+                    [
+                        "Non-adaptive",
+                        "Adaptive"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_study_plan.php",
+        "cours": {
+            "titre": "C#Study Plan",
+            "description": "",
+            "lien": "https://www.w3schools.com/cs/cs_study_plan.php",
+            "contenus": {
+                "paragraphs": [
+                    "The C# study plan helps you teach your students C# step-by-step.",
+                    "Creating a study plan for C# is easy.",
+                    "You can use a pre-built study plan or customize it.",
+                    "Students have different skill levels. The study plans can be customized to ensure that everyone is challenged.",
+                    "Save time with pre-built teacher materials and study plans. Easily organize your class with a timeline from the introduction of C# to the final exam.",
+                    "This study plan is a feature of W3Schools Academy.",
+                    "W3Schools Academy is a platform that has everything you need to teach coding, all in one place.",
+                    "It offers you as a teacher a toolbox of features that helps you succeed with teaching in your classroom.",
+                    "You need to have an active subscription to access the study plan feature. There are two different subscription tiers:",
+                    "Learn More »",
+                    "Academy also offer other features such as:",
+                    "Get a free demo »",
+                    "W3Schools has everything you need to teach C#.",
+                    "The C# training materials is available for you to include and use in your study plan:",
+                    "With the C# Syllabus, your students will start with the basics, like understanding variables, data types, and simple syntax, and move to more advanced topics, like object-oriented programming, working with classes and interfaces. Each chapter has examples, try-it-yourself sections, exercises, and quizzes to make learning easy, interactive, and fun.",
+                    "Read more about C# Syllabus.",
+                    "The study plan features are made to help teachers and students. They make learning easy, flexible, and fun. These features work for different types of classes, learning styles and student level.",
+                    "Learn More »",
+                    "You choose the timeline and paceof your study plans.",
+                    "Schools have different preferences.",
+                    "Some would like more intensive pace, e.g. 5 weeks, others 12 or more weeks.",
+                    "It is completely up to you.",
+                    "For example, this is how a 5-week C# study plan could look like:",
+                    "Image of Sample C# study plan:",
+                    "Start withC# Study Planstoday.",
+                    "Get Started »",
+                    "Are you interested in learning how you can useW3Schools Academyto Teach C# programming?",
+                    "Join our upcoming webinar for a guided demo ofW3Schools Academy. You'll see how it works, and discover how it can make teaching programming easier and more engaging.",
+                    "Join our FREE Webinar »"
+                ],
+                "lists": [
+                    [
+                        "Essentials ($1.99 / month per student)",
+                        "Full Access ($5.99 / month per student)",
+                        "Calculate your price and orderhere."
+                    ],
+                    [
+                        "Managing your classroom",
+                        "Tracking of student progress and reports",
+                        "Labs, assignments, and code challenges (prebuilt challenges or create your own ones)",
+                        "Auto-grading",
+                        "Teaching materials",
+                        "Certification exams"
+                    ],
+                    [
+                        "W3Schools C# Tutorial",
+                        "C# Exercises",
+                        "C# Quiz",
+                        "C# Challenges (Coding challenges)",
+                        "C# Certification Exam (End of Pathway Exam)"
+                    ],
+                    [
+                        "Learning PathsYou can add ready-made learning paths.The learning paths are by default ordered by our recommended order.You can change the order.You can add custom activities with text, links, or multi-media files.Drag and drop or click to make changes to the path.",
+                        "You can add ready-made learning paths.",
+                        "The learning paths are by default ordered by our recommended order.",
+                        "You can change the order.",
+                        "You can add custom activities with text, links, or multi-media files.",
+                        "Drag and drop or click to make changes to the path.",
+                        "Interactive ContentTutorialsTry-its (test code snippets)ExercisesQuizChallengesLabs",
+                        "Tutorials",
+                        "Try-its (test code snippets)",
+                        "Exercises",
+                        "Quiz",
+                        "Challenges",
+                        "Labs",
+                        "Timeline and PaceYou can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).You can decide the learning pace for your class.Different study plans can be assigned to different students in the same class.The flexibility can help to make sure that everyone is challenged.",
+                        "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+                        "You can decide the learning pace for your class.",
+                        "Different study plans can be assigned to different students in the same class.",
+                        "The flexibility can help to make sure that everyone is challenged.",
+                        "Track Student ProgressThere are tools to track student progress.The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+                        "There are tools to track student progress.",
+                        "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+                        "The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+                        "End of Pathway ExamThe C# study plan aligns with the C# Certification Exam.The exam can be taken at the end of the study plan, at your selected date.The exam summarizes the C# Tutorial.You get reports of the students' results.",
+                        "The C# study plan aligns with the C# Certification Exam.",
+                        "The exam can be taken at the end of the study plan, at your selected date.",
+                        "The exam summarizes the C# Tutorial.",
+                        "You get reports of the students' results.",
+                        "AccessibilityStudy plans and learning materials are accessible on desktops, tablets, and smartphones.This ensures students can learn anytime, anywhere.",
+                        "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+                        "This ensures students can learn anytime, anywhere."
+                    ],
+                    [
+                        "You can add ready-made learning paths.",
+                        "The learning paths are by default ordered by our recommended order.",
+                        "You can change the order.",
+                        "You can add custom activities with text, links, or multi-media files.",
+                        "Drag and drop or click to make changes to the path."
+                    ],
+                    [
+                        "Tutorials",
+                        "Try-its (test code snippets)",
+                        "Exercises",
+                        "Quiz",
+                        "Challenges",
+                        "Labs"
+                    ],
+                    [
+                        "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+                        "You can decide the learning pace for your class.",
+                        "Different study plans can be assigned to different students in the same class.",
+                        "The flexibility can help to make sure that everyone is challenged."
+                    ],
+                    [
+                        "There are tools to track student progress.",
+                        "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+                        "The challenges can be auto-graded or manually graded. The results are available to you as a teacher."
+                    ],
+                    [
+                        "The C# study plan aligns with the C# Certification Exam.",
+                        "The exam can be taken at the end of the study plan, at your selected date.",
+                        "The exam summarizes the C# Tutorial.",
+                        "You get reports of the students' results."
+                    ],
+                    [
+                        "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+                        "This ensures students can learn anytime, anywhere."
+                    ],
+                    [
+                        "Week 1: Introduction, Variables",
+                        "Week 2: Data Types & Type Casting, User Input, Operators & Math, Strings",
+                        "Week 3: Booleans, Loops, Arrays",
+                        "Week 4: Methods, Classes/Objects, Enums, Files & Exceptions, C# Certification Exam",
+                        "Week 5: Pointers, Functions, Classes, Exceptions, Inheritance & Polymorphism, Date, Files, Data Structures, C# Certification Exam"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/cs/cs_exam.php",
+        "cours": {
+            "titre": "C#Certification",
+            "description": "How Does It Work?Study for free at W3Schools.comStudy at your own speedTest your skills with W3Schools online quizzesApply for your certificate by paying an exam feeTake your exam online, at any time, and from any location",
+            "lien": "https://www.w3schools.com/cs/cs_exam.php",
+            "contenus": {
+                "paragraphs": [
+                    "W3Schools offers an Online Certification Program.",
+                    "The perfect solution for busy professionals who need to balance work, family, and career building.",
+                    "More than 50 000 certificates already issued!",
+                    "Get Your Certificate »",
+                    "W3Schools offers an Online Certification Program.",
+                    "The perfect solution for busy professionals who need to balance work, family, and career building.",
+                    "More than 50 000 certificates already issued!",
+                    "Get Your Certificate »",
+                    "Any student or professional within the digital industry.",
+                    "Certifications are valuable assets to gain trust and demonstrate knowledge to your clients, current or future employers on a ever increasing competitive market.",
+                    "W3Schools has over two decades of experience with teaching coding online.",
+                    "Our certificates are recognized and valued by companies looking to employ skilled developers.",
+                    "Show the world your coding skills by getting a certification.",
+                    "The prices is a small fraction compared to the price of traditional education.",
+                    "Document and validate your competence by getting certified!",
+                    "Fee:95 USD",
+                    "Achievable certification levels:Intermediate (40%)Advanced (75%)Professional (90%)",
+                    "Number of questions:Adaptive,60on average",
+                    "Requirement to pass:Minimum 40% - Intermediate level",
+                    "Time limit:60 minutes",
+                    "Number of attempts to pass:3",
+                    "Exam deadline:None",
+                    "Certification Expiration:None",
+                    "Format:Online, multiple choice",
+                    "Register now »",
+                    "Getting a certificate proves your commitment to upgrading your skills.",
+                    "The certificate can be added as credentials to your CV, Resume, LinkedIn profile, and so on.",
+                    "It gives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+                    "Knowledge is power, especially in the current job market.",
+                    "Documentation of your skills enables you to advance your career or helps you to start a new one.",
+                    "Example certificate:",
+                    "Each certificate gets a unique link that can be shared with others.",
+                    "Validate your certification with the link or QR code.",
+                    "Check how it looks like in thisExample.",
+                    "Share your certificate on Linkedin the Certifications section in just one click!",
+                    "Getting a certificate proves your commitment to upgrade your skills,\ngives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+                    "Get Your Certificate »",
+                    "Are you an educator, manager or business owner looking for courses or certifications?",
+                    "We are working with schools, companies and organizations from all over the world.",
+                    "Get courses and/or certifications for your team here."
+                ],
+                "lists": [
+                    [
+                        "Study for free at W3Schools.com",
+                        "Study at your own speed",
+                        "Test your skills with W3Schools online quizzes",
+                        "Apply for your certificate by paying an exam fee",
+                        "Take your exam online, at any time, and from any location"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://campus.w3schools.com/products/c-certificate-1?utm_source=w3schools&utm_medium=referral&utm_campaign=cs_exam&utm_content=get_your_certificate",
+        "cours": {}
+    }
+]

@@ -1,0 +1,13 @@
+pipeline:
+  name: My First Data Pipeline
+  version: 1.0
+
+postgresql:
+  host: ${POSTGRES_HOST}
+  port: ${POSTGRES_PORT}
+  username: ${POSTGRES_USER}
+  password: ${POSTGRES_PASSWORD}
+  database_name: ${POSTGRES_DB}
+
+filepath: data/data.xlsx
+

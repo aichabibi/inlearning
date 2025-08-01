@@ -1,0 +1,18 @@
+[
+  {
+    "titre": "React Introduction",
+    "description": "Apprenez les bases de React...",
+    "lien": "https://www.w3schools.com/react/react_intro.asp",
+    "niveau": 1,
+    "duree": "30 minutes",
+    "url": "https://www.w3schools.com/react/react_intro.asp"
+  },
+  {
+    "titre": "React Tutorial",
+    "description": "Approfondissez React et ses composants...",
+    "lien": "https://www.w3schools.com/react/default.asp",
+    "niveau": 2,
+    "duree": "45 minutes",
+    "url": "https://www.w3schools.com/react/default.asp"
+  }
+]

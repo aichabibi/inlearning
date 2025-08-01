@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Search Engine</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Course Recommendation</h1>
+    <input type="text" id="name" placeholder="Your Name">
+    <input type="text" id="language" placeholder="Language">
+    <input type="text" id="learning_mode" placeholder="Learning Mode">
+    <input type="text" id="interests" placeholder="Interests (comma-separated)">
+    <button id="recommend-btn">Get Recommendations</button>
+    <div id="result"></div>
+
+    <script>
+        document.getElementById("recommend-btn").addEventListener("click", async function() {
+            const name = document.getElementById("name").value;
+            const language = document.getElementById("language").value;
+            const learning_mode = document.getElementById("learning_mode").value;
+            const interests = document.getElementById("interests").value.split(",");
+
+            const response = await fetch("http://backend:5000/recommend", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify({ name, language, learning_mode, interests })
+            });
+
+            const data = await response.json();
+            document.getElementById("result").innerHTML = JSON.stringify(data, null, 2);
+        });
+    </script>
+</body>
+</html>

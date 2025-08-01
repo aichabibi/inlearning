@@ -1,0 +1,2050 @@
+[
+    {
+        "url": "https://www.w3schools.com/python/numpy/default.asp",
+        "cours": {
+            "titre": "NumPyTutorial",
+            "description": "Learn NumPy[+:NumPy is a Python library.NumPy is used for working with arrays.NumPy is short for \"Numerical Python\".",
+            "lien": "https://www.w3schools.com/python/numpy/default.asp",
+            "contenus": {
+                "paragraphs": [
+                    "NumPy is a Python library.",
+                    "NumPy is used for working with arrays.",
+                    "NumPy is short for \"Numerical Python\".",
+                    "We have created 43 tutorial pages for you to learn more about NumPy.",
+                    "Starting with a basic introduction and ends up with creating and plotting random data sets, and working with NumPy functions:",
+                    "In our \"Try it Yourself\" editor, you can use the NumPy module, and modify the code to see the result.",
+                    "Create a NumPy array:",
+                    "Click on the \"Try it Yourself\" button to see how it works.",
+                    "Many chapters in this tutorial end with an exercise where you can check your level of knowledge.",
+                    "See all NumPy Exercises",
+                    "Test your NumPy skills with a quiz test.",
+                    "Start NumPy Quiz"
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5])print(arr)print(type(arr))"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_intro.asp",
+        "cours": {
+            "titre": "NumPyIntroduction",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_intro.asp",
+            "contenus": {
+                "paragraphs": [
+                    "NumPy is a Python library used for working with arrays.",
+                    "It also has functions for working in domain of linear algebra, fourier transform, and matrices.",
+                    "NumPy was created in 2005 by Travis Oliphant. It is an open source project \nand you can use it freely.",
+                    "NumPy stands for Numerical Python.",
+                    "In Python we have lists that serve the purpose of arrays, but they are slow to process.",
+                    "NumPy aims to provide an array object that is up to 50x faster than \ntraditional Python lists.",
+                    "The array object in NumPy is calledndarray, \nit provides a lot of supporting functions that make working withndarrayvery easy.",
+                    "Arrays are very frequently used in data science, where speed and resources \nare very important.",
+                    "Data Science:is a branch of computer science where we study how to store, use and analyze data for deriving information from it.",
+                    "NumPy arrays are stored at one continuous place in memory unlike lists, so processes can access and manipulate them very efficiently.",
+                    "This behavior is called locality of reference in computer science.",
+                    "This is the main reason why NumPy is faster than lists. Also it is optimized to work with latest CPU architectures.",
+                    "NumPy is a Python library and is written partially in Python, but most of the parts that require fast computation are written in C or C++.",
+                    "The source code for NumPy is located at this github repositoryhttps://github.com/numpy/numpy",
+                    "github:enables many people to work on the same \n  codebase."
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_getting_started.asp",
+        "cours": {
+            "titre": "NumPyGetting Started",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_getting_started.asp",
+            "contenus": {
+                "paragraphs": [
+                    "If you havePythonandPIPalready installed on a system, then installation of \nNumPy is very easy.",
+                    "Install it using this command:",
+                    "If this command fails, then use a python distribution that already has NumPy installed like, Anaconda, Spyder etc.",
+                    "Once NumPy is installed, import it in your applications by adding theimportkeyword:",
+                    "Now NumPy is imported and ready to use.",
+                    "NumPy is usually imported under thenpalias.",
+                    "alias:In Python alias are an alternate name for referring \n  to the same thing.",
+                    "Create an alias with theaskeyword while importing:",
+                    "Now the NumPy package can be referred to asnpinstead ofnumpy.",
+                    "The version string is stored under__version__attribute."
+                ],
+                "lists": [],
+                "examples": [
+                    "C:\\Users\\Your Name>pip install numpy",
+                    "import numpy",
+                    "import numpyarr = numpy.array([1, 2, 3, 4, 5])print(arr)",
+                    "import numpy as np",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5])print(arr)",
+                    "import numpy as npprint(np.__version__)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_creating_arrays.asp",
+        "cours": {
+            "titre": "NumPyCreating Arrays",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_creating_arrays.asp",
+            "contenus": {
+                "paragraphs": [
+                    "NumPy is used to work with arrays. The array object in NumPy is calledndarray.",
+                    "We can create a NumPyndarrayobject by using thearray()function.",
+                    "type():This built-in Python function tells us the type of the object passed to it. Like in above code \n  it shows thatarrisnumpy.ndarraytype.",
+                    "To create anndarray,\nwe can pass a list, tuple or any array-like object into thearray()method, and it will be converted into anndarray:",
+                    "Use a tuple to create a NumPy array:",
+                    "A dimension in arrays is one level of array depth (nested arrays).",
+                    "nested array:are arrays that have arrays as their elements.",
+                    "0-D arrays, \nor Scalars, are the elements in an array. Each value in an array is a 0-D array.",
+                    "Create a 0-D array with value 42",
+                    "An array that has 0-D arrays as its elements is called uni-dimensional or 1-D array.",
+                    "These are the most common and basic arrays.",
+                    "Create a 1-D array containing the values 1,2,3,4,5:",
+                    "An array that has 1-D arrays as its elements is called a 2-D array.",
+                    "These are often used to represent matrix or 2nd order tensors.",
+                    "NumPy has a whole sub module dedicated towards matrix operations callednumpy.mat",
+                    "Create a 2-D array containing two arrays with the values 1,2,3 and 4,5,6:",
+                    "An array that has 2-D arrays (matrices) as its elements is called 3-D array.",
+                    "These are often used to represent a 3rd order tensor.",
+                    "Create a 3-D array with two 2-D arrays, both containing two arrays with the \nvalues 1,2,3 and 4,5,6:",
+                    "NumPy Arrays provides thendimattribute that returns an integer that tells us how many dimensions the array have.",
+                    "Check how many dimensions the arrays have:",
+                    "An array can have any number of dimensions.",
+                    "When the array is created, you can define the number of dimensions by using \nthendminargument.",
+                    "Create an array with 5 dimensions and verify that it has 5 dimensions:",
+                    "In this array the innermost dimension (5th dim) has 4 elements,\nthe 4th dim has 1 element that is the vector,\nthe 3rd dim has 1 element that is the matrix with the vector,\nthe 2nd dim has 1 element that is 3D array and 1st dim has 1 element that is a 4D array."
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5])print(arr)print(type(arr))",
+                    "import numpy as nparr = np.array((1, 2, 3, 4, 5))print(arr)",
+                    "import numpy as nparr = np.array(42)print(arr)",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5])print(arr)",
+                    "import numpy as nparr = np.array([[1, 2, 3], [4, 5, 6]])print(arr)",
+                    "import numpy as nparr = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])print(arr)",
+                    "import numpy as npa = np.array(42)b = np.array([1, 2, 3, 4, 5])c = np.array([[1, 2, 3], [4, 5, 6]])d = np.array([[[1, 2, 3], [4, 5, 6]], [[1, 2, 3], [4, 5, 6]]])print(a.ndim)print(b.ndim)print(c.ndim)print(d.ndim)",
+                    "import numpy as nparr = np.array([1, 2, 3, 4], ndmin=5)print(arr)print('number of dimensions :', arr.ndim)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_array_indexing.asp",
+        "cours": {
+            "titre": "NumPyArray Indexing",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_array_indexing.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Array indexing is the same as accessing an array element.",
+                    "You can access an array element by referring to its index number.",
+                    "The indexes in NumPy arrays start with 0, meaning that the first element  \nhas index 0, and the second has index 1 etc.",
+                    "Get the first element from the following array:",
+                    "Get the second element from the following array.",
+                    "Get third and fourth elements from the following array and add them.",
+                    "To access elements from 2-D arrays we can use comma separated integers representing \nthe \ndimension and the index of the element.",
+                    "Think of 2-D arrays like a table with rows and columns, where the dimension \nrepresents the row and the index represents the column.",
+                    "Access the element on the first row, second column:",
+                    "Access the element on the 2nd row, 5th column:",
+                    "To access elements from 3-D arrays we can use comma separated integers representing \nthe dimensions and the index of the element.",
+                    "Access the third element of the second array of the first array:",
+                    "arr[0, 1, 2]prints the value6.",
+                    "And this is why:",
+                    "The first number represents the first dimension, which contains two arrays:[[1, 2, 3], [4, 5, 6]]and:[[7, 8, 9], [10, 11, 12]]Since we selected0, we are left with the first array:[[1, 2, 3], [4, 5, 6]]",
+                    "The second number represents the second dimension, which also contains two arrays:[1, 2, 3]and:[4, 5, 6]Since we selected1, we are left with the second array:[4, 5, 6]",
+                    "The third number represents the third dimension, which contains three values:456Since we selected2, we end up with the third value:6",
+                    "Use negative indexing to access an array from the end.",
+                    "Print the last element from the 2nd dim:"
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as nparr = np.array([1, 2, 3, 4])print(arr[0])",
+                    "import numpy as nparr = np.array([1, 2, 3, 4])print(arr[1])",
+                    "import numpy as nparr = np.array([1, 2, 3, 4])print(arr[2] + \n  arr[3])",
+                    "import numpy as nparr = np.array([[1,2,3,4,5], [6,7,8,9,10]])print('2nd element on 1st row: ', arr[0, 1])",
+                    "import numpy as nparr = np.array([[1,2,3,4,5], [6,7,8,9,10]])print('5th element on \n  2nd row: ', arr[1, 4])",
+                    "import numpy as nparr = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, \n  9], [10, 11, 12]]])print(arr[0, 1, 2])",
+                    "import numpy as nparr = np.array([[1,2,3,4,5], [6,7,8,9,10]])print('Last element \n  from \n  2nd dim: ', arr[1, -1])"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_array_slicing.asp",
+        "cours": {
+            "titre": "NumPyArray Slicing",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_array_slicing.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Slicing in python means taking elements from one given index to another given \nindex.",
+                    "We pass slice instead of index like this:[start:end].",
+                    "We can also define the step, like this:[start:end:step].",
+                    "If we don't pass start its considered 0",
+                    "If we don't pass end its considered length of array in that dimension",
+                    "If we don't pass step its considered 1",
+                    "Slice elements from index 1 to index 5 from the following array:",
+                    "Note:The resultincludesthe start index, butexcludesthe end index.",
+                    "Slice elements from index 4 to the end of the array:",
+                    "Slice elements from the beginning to index 4 (not included):",
+                    "Use the minus operator to refer to an index from the end:",
+                    "Slice from the index 3 from the end to index 1 from the end:",
+                    "Use thestepvalue to determine the step of the slicing:",
+                    "Return every other element from index 1 to index 5:",
+                    "Return every other element from the entire array:",
+                    "From the second element, slice elements from index 1 to index 4 (not included):",
+                    "Note:Remember thatsecond elementhas index 1.",
+                    "From both elements, return index 2:",
+                    "From both elements, slice index 1 to index 4 (not included), this will return a 2-D array:"
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5, 6, 7])print(arr[1:5])",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5, 6, 7])print(arr[4:])",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5, 6, 7])print(arr[:4])",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5, 6, 7])print(arr[-3:-1])",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5, 6, 7])print(arr[1:5:2])",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5, 6, 7])print(arr[::2])",
+                    "import numpy as nparr = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])print(arr[1, 1:4])",
+                    "import numpy as nparr = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])print(arr[0:2, 2])",
+                    "import numpy as nparr = np.array([[1, 2, 3, 4, 5], [6, 7, 8, 9, 10]])print(arr[0:2, 1:4])"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_data_types.asp",
+        "cours": {
+            "titre": "NumPyData Types",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_data_types.asp",
+            "contenus": {
+                "paragraphs": [
+                    "By default Python have these data types:",
+                    "NumPy has some extra data types, and refer to data types with one \ncharacter, likeifor integers,ufor unsigned integers etc.",
+                    "Below is a list of all data types in NumPy and the characters used to represent them.",
+                    "The NumPy array object has a property calleddtypethat returns the data type of the array:",
+                    "Get the data type of an array object:",
+                    "Get the data type of an array containing strings:",
+                    "We use thearray()function to create arrays, this function can take an optional argument:dtypethat allows us to define the expected data type of the array elements:",
+                    "Create an array with data type string:",
+                    "Fori,u,f,SandUwe can define size as well.",
+                    "Create an array with data type 4 bytes integer:",
+                    "If a type is given in which elements can't be casted then NumPy will raise a ValueError.",
+                    "ValueError:In Python ValueError is raised when the type of passed argument to a function is unexpected/incorrect.",
+                    "A non integer string like 'a' can not be converted to integer (will raise an error):",
+                    "The best way to change the data type of an existing array, is to make a copy \nof the array with theastype()method.",
+                    "Theastype()function creates a copy of the \narray, and allows you to specify the data type as a parameter.",
+                    "The data type can be specified using a string, like'f'for float,'i'for integer etc. or you can use the data type directly likefloatfor float andintfor integer.",
+                    "Change data type from float to integer by using'i'as parameter value:",
+                    "Change data type from float to integer by usingintas parameter value:",
+                    "Change data type from integer to boolean:"
+                ],
+                "lists": [
+                    [
+                        "strings- used to represent text data, the text is given under quote marks. e.g. \"ABCD\"",
+                        "integer- used to represent integer numbers. e.g. -1, -2, -3",
+                        "float- used to represent real numbers. e.g. 1.2, 42.42",
+                        "boolean- used to represent True or False.",
+                        "complex- used to represent complex \nnumbers. e.g. 1.0 + 2.0j, 1.5 + 2.5j"
+                    ],
+                    [
+                        "i- integer",
+                        "b- boolean",
+                        "u- unsigned integer",
+                        "f- float",
+                        "c- complex float",
+                        "m- timedelta",
+                        "M- datetime",
+                        "O- object",
+                        "S- string",
+                        "U- unicode string",
+                        "V- fixed chunk of memory for other type ( void )"
+                    ]
+                ],
+                "examples": [
+                    "import numpy as nparr = np.array([1, 2, 3, 4])print(arr.dtype)",
+                    "import numpy as nparr = np.array(['apple', \n  'banana', 'cherry'])print(arr.dtype)",
+                    "import numpy as nparr = np.array([1, 2, 3, 4], \n  dtype='S')print(arr)print(arr.dtype)",
+                    "import numpy as nparr = np.array([1, 2, 3, 4], \n  dtype='i4')print(arr)print(arr.dtype)",
+                    "import numpy as nparr = np.array(['a', '2', '3'], dtype='i')",
+                    "import numpy as nparr = np.array([1.1, 2.1, 3.1])newarr = arr.astype('i')print(newarr)print(newarr.dtype)",
+                    "import numpy as nparr = np.array([1.1, 2.1, 3.1])newarr = arr.astype(int)print(newarr)print(newarr.dtype)",
+                    "import numpy as nparr = np.array([1, 0, 3])newarr = arr.astype(bool)print(newarr)print(newarr.dtype)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_copy_vs_view.asp",
+        "cours": {
+            "titre": "NumPyArray Copy vs View",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_copy_vs_view.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The main difference between a copy and a view of an array is that\nthe copy is a new array, and the view is just a view of the original array.",
+                    "The copyownsthe data and any changes made to the copy will not \naffect original array, and any changes made to the original array will not \naffect the copy.",
+                    "The viewdoes not ownthe data and any changes made to the view will \naffect the original array, and any changes made to the original array will \naffect the view.",
+                    "Make a copy, change the original array, and display both arrays:",
+                    "The copy SHOULD NOT be affected by the changes made to the original array.",
+                    "Make a view, change the original array, and display both arrays:",
+                    "The view SHOULD be affected by the changes made to the original array.",
+                    "Make a view, change the view, and display both arrays:",
+                    "The original array SHOULD be affected by the changes made to the view.",
+                    "As mentioned above, copiesownsthe data, and viewsdoes not ownthe data, but how can we check this?",
+                    "Every NumPy array has the attributebasethat \nreturnsNoneif the array owns the data.",
+                    "Otherwise, thebaseattribute refers to the original object.ExamplePrint the value of the base attribute to check if an array owns it's data or \nnot:import numpy as nparr = np.array([1, 2, 3, 4, 5])x = arr.copy()y = arr.view()print(x.base)print(y.base)Try it Yourself »The copy returnsNone.The view returns the original array.❮ PreviousNext ❯★+1Track your progress - it's free!Log inSign Up",
+                    "Print the value of the base attribute to check if an array owns it's data or \nnot:",
+                    "The copy returnsNone.The view returns the original array."
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5])x = arr.copy()arr[0] = 42print(arr)print(x)",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5])x = arr.view()arr[0] = 42print(arr)print(x)",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5])x = arr.view()x[0] = 31print(arr)print(x)",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5])x = arr.copy()y = arr.view()print(x.base)print(y.base)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_array_shape.asp",
+        "cours": {
+            "titre": "NumPyArray Shape",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_array_shape.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The shape of an array is the number of elements in each dimension.",
+                    "NumPy arrays have an attribute calledshapethat returns a tuple with each index having the number of corresponding elements.",
+                    "Print the shape of a 2-D array:",
+                    "The example above returns(2, 4), which means that the array has 2 dimensions, \nwhere the first dimension has 2 elements and the second has 4.",
+                    "Create an array with 5 dimensions usingndminusing a vector with values 1,2,3,4 and verify that last dimension has value 4:",
+                    "Integers at every index tells about the number of elements the corresponding dimension has.",
+                    "In the example above at index-4 we have value 4, so we can say that 5th ( 4 + 1 th) dimension has 4 elements."
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as nparr = np.array([[1, 2, 3, 4], \n  [5, 6, 7, 8]])print(arr.shape)",
+                    "import numpy as nparr = np.array([1, 2, 3, 4], ndmin=5)print(arr)print('shape of array :', arr.shape)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_array_reshape.asp",
+        "cours": {
+            "titre": "NumPyArray Reshaping",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_array_reshape.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Reshaping means changing the shape of an array.",
+                    "The shape of an array is the number of elements in each dimension.",
+                    "By reshaping we can add or remove dimensions or change number of elements in each dimension.",
+                    "Convert the following 1-D array with 12 elements into a 2-D array.",
+                    "The outermost dimension will have 4 arrays, each with 3 elements:",
+                    "Convert the following 1-D array with 12 elements into a 3-D array.",
+                    "The outermost dimension will have 2 arrays that contains 3 arrays, each \n  with 2 elements:",
+                    "Yes, as long as the elements required for reshaping are equal in both shapes.",
+                    "We can reshape an 8 elements 1D array into 4 elements in 2 rows 2D array but we cannot reshape it \ninto a 3 elements 3 rows 2D array as that would require 3x3 = 9 elements.",
+                    "Try converting 1D array with 8 elements to a 2D array with 3 elements in each dimension (will raise an error):",
+                    "Check if the returned array is a copy or a view:",
+                    "The example above returns the original array, so it is a view.",
+                    "You are allowed to have one \"unknown\" dimension.",
+                    "Meaning that you do not have to specify an exact number for one of the \ndimensions in the reshape method.",
+                    "Pass-1as the value, and NumPy will \ncalculate this number for you.",
+                    "Convert 1D array with 8 elements to 3D array with 2x2 elements:",
+                    "Note:We can not pass-1to more than one dimension.",
+                    "Flattening array means converting a multidimensional array into a 1D array.",
+                    "We can usereshape(-1)to do this.",
+                    "Convert the array into a 1D array:",
+                    "Note:There are a lot of functions for changing the shapes of arrays in numpyflatten,raveland also for rearranging the elementsrot90,flip,fliplr,flipudetc. These fall under Intermediate to Advanced section of numpy."
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, \n  12])newarr = arr.reshape(4, 3)print(newarr)",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, \n  12])newarr = arr.reshape(2, 3, 2)print(newarr)",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5, 6, 7, 8])newarr = arr.reshape(3, 3)print(newarr)",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5, 6, 7, 8])print(arr.reshape(2, 4).base)",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5, 6, 7, 8])newarr = arr.reshape(2, 2, -1)print(newarr)",
+                    "import numpy as nparr = np.array([[1, 2, 3], [4, 5, 6]])newarr \n  = arr.reshape(-1)print(newarr)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_array_iterating.asp",
+        "cours": {
+            "titre": "NumPyArray Iterating",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_array_iterating.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Iterating means going through elements one by one.",
+                    "As we deal with multi-dimensional arrays in numpy, we can do this using basicforloop of python.",
+                    "If we iterate on a 1-D array it will go through each element one by one.",
+                    "Iterate on the elements of the following 1-D array:",
+                    "In a 2-D array it will go through all the rows.",
+                    "Iterate on the elements of the following 2-D array:",
+                    "If we iterate on an-D array it will go through n-1th dimension one by one.",
+                    "To return the actual values, the scalars, we have to iterate the arrays in each dimension.",
+                    "Iterate on each scalar element of the 2-D array:",
+                    "In a 3-D array it will go through all the 2-D arrays.",
+                    "Iterate on the elements of the following 3-D array:",
+                    "To return the actual values, the scalars, we have to iterate the arrays in each dimension.",
+                    "Iterate down to the scalars:",
+                    "The functionnditer()is a helping function that can be used from very basic to very advanced iterations. \nIt solves some basic issues which we face in iteration, lets go through it with examples.Iterating on Each Scalar ElementIn basicforloops, iterating through each scalar of an array we need to usenforloops which can be difficult to write for arrays with very high dimensionality.ExampleIterate through the following 3-D array:import numpy as nparr = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])for x in np.nditer(arr):print(x)Try it Yourself »Iterating Array With Different Data TypesWe can useop_dtypesargument and pass it the expected datatype to change the datatype of elements while iterating.NumPy does not change the data type of the element in-place (where the element is in array) so it needs some other space to perform this action, that extra space is called buffer, and in order to enable it innditer()we passflags=['buffered'].ExampleIterate through the array as a string:import numpy as nparr = np.array([1, 2, 3])for x in \n  np.nditer(arr, flags=['buffered'], op_dtypes=['S']):print(x)Try it Yourself »Iterating With Different Step SizeWe can use filtering and followed by iteration.ExampleIterate through every scalar element of the 2D array skipping 1 element:import numpy as nparr = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])for x in np.nditer(arr[:, ::2]):print(x)Try it Yourself »Enumerated Iteration Using ndenumerate()Enumeration means mentioning sequence number of somethings one by one.Sometimes we require corresponding index of the element while iterating, thendenumerate()method can be used for those usecases.ExampleEnumerate on following 1D arrays elements:import numpy as nparr = np.array([1, 2, 3])for idx, x in \n  np.ndenumerate(arr):print(idx, x)Try it Yourself »ExampleEnumerate on following 2D array's elements:import numpy as nparr = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])for idx, x in np.ndenumerate(arr):print(idx, x)Try it Yourself »❮ PreviousNext ❯★+1Track your progress - it's free!Log inSign Up",
+                    "In basicforloops, iterating through each scalar of an array we need to usenforloops which can be difficult to write for arrays with very high dimensionality.",
+                    "Iterate through the following 3-D array:",
+                    "We can useop_dtypesargument and pass it the expected datatype to change the datatype of elements while iterating.",
+                    "NumPy does not change the data type of the element in-place (where the element is in array) so it needs some other space to perform this action, that extra space is called buffer, and in order to enable it innditer()we passflags=['buffered'].",
+                    "Iterate through the array as a string:",
+                    "We can use filtering and followed by iteration.",
+                    "Iterate through every scalar element of the 2D array skipping 1 element:",
+                    "Enumeration means mentioning sequence number of somethings one by one.",
+                    "Sometimes we require corresponding index of the element while iterating, thendenumerate()method can be used for those usecases.",
+                    "Enumerate on following 1D arrays elements:",
+                    "Enumerate on following 2D array's elements:"
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as nparr = np.array([1, 2, 3])for x in arr:print(x)",
+                    "import numpy as nparr = np.array([[1, 2, 3], [4, 5, 6]])for x \n  in arr:print(x)",
+                    "import numpy as nparr = np.array([[1, 2, 3], [4, 5, 6]])for x \n  in arr:for y in x:print(y)",
+                    "import numpy as nparr = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], \n  [10, 11, 12]]])for x \n  in arr:print(x)",
+                    "import numpy as nparr = np.array([[[1, 2, 3], [4, 5, 6]], [[7, 8, 9], \n  [10, 11, 12]]])for x \n  in arr:for y in x:for z in y:print(z)",
+                    "import numpy as nparr = np.array([[[1, 2], [3, 4]], [[5, 6], [7, 8]]])for x in np.nditer(arr):print(x)",
+                    "import numpy as nparr = np.array([1, 2, 3])for x in \n  np.nditer(arr, flags=['buffered'], op_dtypes=['S']):print(x)",
+                    "import numpy as nparr = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])for x in np.nditer(arr[:, ::2]):print(x)",
+                    "import numpy as nparr = np.array([1, 2, 3])for idx, x in \n  np.ndenumerate(arr):print(idx, x)",
+                    "import numpy as nparr = np.array([[1, 2, 3, 4], [5, 6, 7, 8]])for idx, x in np.ndenumerate(arr):print(idx, x)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_array_join.asp",
+        "cours": {
+            "titre": "NumPyJoining Array",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_array_join.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Joining means putting contents of two or more arrays in a single array.",
+                    "In SQL we join tables based on a key, whereas in NumPy we join arrays by axes.",
+                    "We pass a sequence of arrays that we want to join to theconcatenate()function, along with the axis. If axis is not explicitly passed, it is taken as 0.",
+                    "Join two arrays",
+                    "Join two 2-D arrays along rows (axis=1):",
+                    "Stacking is same as concatenation, the only difference is that stacking is done along a new axis.",
+                    "We can concatenate two 1-D arrays along the second axis which would result in putting them one over \nthe other, ie. stacking.",
+                    "We pass a sequence of arrays that we want to join to thestack()method along with the axis. If axis is not explicitly passed it is taken as 0.",
+                    "NumPy provides a helper function:hstack()to stack along rows.",
+                    "NumPy provides a helper function:vstack()to stack along columns.",
+                    "NumPy provides a helper function:dstack()to stack along height, which is the same as depth."
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as nparr1 = np.array([1, 2, 3])arr2 = np.array([4, \n  5, 6])arr = np.concatenate((arr1, arr2))print(arr)",
+                    "import numpy as nparr1 = np.array([[1, 2], [3, 4]])arr2 = \n  np.array([[5, 6], [7, 8]])arr = np.concatenate((arr1, arr2), axis=1)print(arr)",
+                    "import numpy as nparr1 = np.array([1, 2, 3])arr2 = \n  np.array([4, 5, 6])arr = np.stack((arr1, arr2), axis=1)print(arr)",
+                    "import numpy as nparr1 = np.array([1, 2, 3])arr2 = np.array([4, \n  5, 6])arr = np.hstack((arr1, arr2))print(arr)",
+                    "import numpy as nparr1 = np.array([1, 2, 3])arr2 = np.array([4, \n  5, 6])arr = np.vstack((arr1, arr2))print(arr)",
+                    "import numpy as nparr1 = np.array([1, 2, 3])arr2 = np.array([4, \n  5, 6])arr = np.dstack((arr1, arr2))print(arr)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_array_split.asp",
+        "cours": {
+            "titre": "NumPySplitting Array",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_array_split.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Splitting is reverse operation of Joining.",
+                    "Joining merges multiple arrays into one and Splitting breaks one\narray into multiple.",
+                    "We usearray_split()for splitting arrays, we pass it the array we want to split \nand the number of splits.",
+                    "Split the array in 3 parts:",
+                    "Note:The return value is a list containing three arrays.",
+                    "If the array has less elements than required, it will adjust from the end accordingly.",
+                    "Split the array in 4 parts:",
+                    "Note:We also have the methodsplit()available but it will not adjust the elements when elements are less in\nsource array for splitting like in example above,array_split()worked properly butsplit()would fail.",
+                    "The return value of thearray_split()method is an array containing each of the split as an array.",
+                    "If you split an array into 3 arrays, you can access them from the result just \nlike any array element:",
+                    "Access the splitted arrays:",
+                    "Use the same syntax when splitting 2-D arrays.",
+                    "Use thearray_split()method, pass in the array \nyou want to split \nand the number of splits you want to do.",
+                    "Split the 2-D array into three 2-D arrays.",
+                    "The example above returns three 2-D arrays.",
+                    "Let's look at another example, this time each element in the 2-D arrays \ncontains 3 elements.",
+                    "Split the 2-D array into three 2-D arrays.",
+                    "The example above returns three 2-D arrays.",
+                    "In addition, you can specify which axis you want to do the split around.",
+                    "The example below also returns three 2-D arrays, but they are split along the \nrow (axis=1).",
+                    "Split the 2-D array into three 2-D arrays along rows.",
+                    "An alternate solution is usinghsplit()opposite ofhstack()",
+                    "Use thehsplit()method to split the 2-D array into three 2-D arrays along rows.",
+                    "Note:Similar alternates tovstack()anddstack()are available asvsplit()anddsplit()."
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5, 6])newarr =\n  np.array_split(arr, 3)print(newarr)",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5, 6])newarr =\n  np.array_split(arr, 4)print(newarr)",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5, 6])newarr =\n  np.array_split(arr, 3)print(newarr[0])print(newarr[1])print(newarr[2])",
+                    "import numpy as nparr = np.array([[1, 2], [3, 4], [5, 6], [7, 8], [9, \n  10], [11, 12]])newarr = np.array_split(arr, 3)print(newarr)",
+                    "import numpy as nparr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, \n  11, 12], [13, 14, 15], [16, 17, 18]])newarr = np.array_split(arr, 3)print(newarr)",
+                    "import numpy as nparr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], [10, \n  11, 12], [13, 14, 15], [16, 17, 18]])newarr = np.array_split(arr, 3, axis=1)print(newarr)",
+                    "import numpy as nparr = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9], \n  [10, 11, 12], [13, 14, 15], [16, 17, 18]])newarr = np.hsplit(arr, 3)print(newarr)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_array_search.asp",
+        "cours": {
+            "titre": "NumPySearching Arrays",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_array_search.asp",
+            "contenus": {
+                "paragraphs": [
+                    "You can search an array for a certain value, and return the indexes that get a match.",
+                    "To search an array, use thewhere()method.",
+                    "Find the indexes where the value is 4:",
+                    "The example above will return a tuple:(array([3, 5, 6],)",
+                    "Which means that the value 4 is present at index 3, 5, and 6.",
+                    "Find the indexes where the values are even:",
+                    "Find the indexes where the values are odd:",
+                    "There is a method calledsearchsorted()which performs a binary search in the array,\nand returns the index where the specified value would be inserted to maintain the \nsearch order.",
+                    "Thesearchsorted()method is assumed to be \n  used on sorted arrays.",
+                    "Find the indexes where the value 7 should be inserted:",
+                    "Example explained: The number 7 should be inserted on index 1 to remain the sort order.",
+                    "The method starts the search from the left and returns the first index where the number \n7 is no longer larger than the next value.",
+                    "By default the left most index is returned, but we can giveside='right'to return the right most index instead.",
+                    "Find the indexes where the value 7 should be inserted, starting from the \nright:",
+                    "Example explained: The number 7 should be inserted on index 2 to remain the sort order.",
+                    "The method starts the search from the right and returns the first index where the number \n7 is no longer less than the next value.",
+                    "To search for more than one value, use an array with the specified values.",
+                    "Find the indexes where the values 2, 4, and 6 should be inserted:",
+                    "The return value is an array:[1 2 3]containing the three indexes where 2, 4, 6 would be inserted \nin the original array to maintain the order."
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5, 4, 4])x =\n  np.where(arr == 4)print(x)",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5, 6, 7, 8])x =\n  np.where(arr%2 == 0)print(x)",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5, 6, 7, 8])x =\n  np.where(arr%2 == 1)print(x)",
+                    "import numpy as nparr = np.array([6, \n  7, 8, 9])x =\n  np.searchsorted(arr, 7)print(x)",
+                    "import numpy as nparr = np.array([6, \n  7, 8, 9])x =\n  np.searchsorted(arr, 7, side='right')print(x)",
+                    "import numpy as nparr = np.array([1, \n  3, 5, 7])x =\n  np.searchsorted(arr, [2, 4, 6])print(x)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_array_sort.asp",
+        "cours": {
+            "titre": "NumPySorting Arrays",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_array_sort.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Sorting means putting elements in anordered sequence.",
+                    "Ordered sequenceis any sequence that has an order corresponding to elements, like numeric or alphabetical, ascending or descending.",
+                    "The NumPy ndarray object has a function calledsort(), \nthat will sort a specified array.",
+                    "Sort the array:",
+                    "Note:This method returns a copy of the array, leaving the \n  original array unchanged.",
+                    "You can also sort arrays of strings, or any other data type:",
+                    "Sort the array alphabetically:",
+                    "Sort a boolean array:",
+                    "If you use the sort() method on a 2-D array, both arrays will be sorted:",
+                    "Sort a 2-D array:"
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as nparr = np.array([3, 2, 0, 1])print(np.sort(arr))",
+                    "import numpy as nparr = np.array(['banana', 'cherry', 'apple'])print(np.sort(arr))",
+                    "import numpy as nparr = np.array([True, False, True])print(np.sort(arr))",
+                    "import numpy as nparr = np.array([[3, 2, 4], [5, 0, 1]])print(np.sort(arr))"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_array_filter.asp",
+        "cours": {
+            "titre": "NumPyFilter Array",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_array_filter.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Getting some elements out of an existing array and creating a new array out \nof them is calledfiltering.",
+                    "In NumPy, you filter an array using aboolean index list.",
+                    "Aboolean index listis a list of booleans corresponding to indexes in the array.",
+                    "If the value at an index isTruethat element is contained in the filtered array, if the value at that index isFalsethat element is excluded from the filtered array.",
+                    "Create an array from the elements on index 0 and 2:",
+                    "The example above will return[41, 43], why?",
+                    "Because the new array contains only the values where the filter array had the valueTrue, in this case, index \n0 and 2.",
+                    "In the example above we hard-coded theTrueandFalsevalues, but the common use is to create a filter array based on conditions.",
+                    "Create a filter array that will return only values higher than 42:",
+                    "Create a filter array that will return only even elements from the original \narray:",
+                    "The above example is quite a common task in NumPy and NumPy provides a nice way to tackle it.",
+                    "We can directly substitute the array instead of the iterable variable in our condition and it will work just as we expect it to.",
+                    "Create a filter array that will return only values higher than 42:",
+                    "Create a filter array that will return only even elements from the original \narray:"
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as nparr = np.array([41, 42, 43, 44])x = [True, \n  False, True, False]newarr = arr[x]print(newarr)",
+                    "import numpy as nparr = np.array([41, 42, 43, 44])# \n  Create an empty listfilter_arr = []# go through each element in \n  arrfor element in arr:# if the element is higher than 42, set \n  the value to True, otherwise False:if element > 42:filter_arr.append(True)else:filter_arr.append(False)newarr = arr[filter_arr]print(filter_arr)print(newarr)",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5, 6, 7])# \n  Create an empty listfilter_arr = []# go through each element in \n  arrfor element in arr:# if the element is completely divisble \n  by 2, set the value to True, otherwise Falseif element % 2 == 0:filter_arr.append(True)else:filter_arr.append(False)newarr = arr[filter_arr]print(filter_arr)print(newarr)",
+                    "import numpy as nparr = np.array([41, 42, 43, 44])filter_arr = arr \n  > 42newarr = arr[filter_arr]print(filter_arr)print(newarr)",
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5, 6, 7])filter_arr = arr \n  % 2 == 0newarr = arr[filter_arr]print(filter_arr)print(newarr)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_random.asp",
+        "cours": {
+            "titre": "Random Numbers in NumPy",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_random.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Random number does NOT mean a different number every time. Random means something that can\nnot be predicted logically.",
+                    "Computers work on programs, and programs are definitive set of instructions. So it means there must be some\nalgorithm to generate a random number as well.",
+                    "If there is a program to generate random number it can be\npredicted, thus it is not truly random.",
+                    "Random numbers generated through a generation algorithm are calledpseudo random.",
+                    "Can we make truly random numbers?",
+                    "Yes. In order to generate a truly random number on our computers we need to get the random data from some\noutside source. This outside source is generally our keystrokes, mouse movements, data on network\netc.",
+                    "We do not need truly random numbers, unless it is related to security (e.g. encryption keys) or the basis of\napplication is the randomness (e.g. Digital roulette wheels).",
+                    "In this tutorial we will be using pseudo random numbers.",
+                    "NumPy offers therandommodule to work with random numbers.",
+                    "Generate a random integer from 0 to 100:",
+                    "The random module'srand()method returns a random float between 0 and 1.",
+                    "Generate a random float from 0 to 1:",
+                    "In NumPy we work with arrays, and you can use the two methods from the above examples to make random arrays.",
+                    "Therandint()method takes asizeparameter where you can specify the shape of an array.",
+                    "Generate a 1-D array containing 5 random integers from 0 to 100:",
+                    "Generate a 2-D array with 3 rows, each row containing 5 random integers from 0 \nto 100:",
+                    "Therand()method also allows you to specify \nthe shape of the array.",
+                    "Generate a 1-D array containing 5 random floats:",
+                    "Generate a 2-D array with 3 rows, each row containing 5 random numbers:",
+                    "Thechoice()method allows you to generate a random value based on an array of values.",
+                    "Thechoice()method takes an array as a \nparameter and randomly returns one of the values.",
+                    "Return one of the values in an array:",
+                    "Thechoice()method also allows you to return anarrayof values.",
+                    "Add asizeparameter to specify the shape of the array.",
+                    "Generate a 2-D array that consists of the values in the array parameter (3, \n5, 7, and 9):"
+                ],
+                "lists": [],
+                "examples": [
+                    "from numpy import randomx = random.randint(100)print(x)",
+                    "from numpy import randomx = random.rand()print(x)",
+                    "from numpy import randomx=random.randint(100, size=(5))print(x)",
+                    "from numpy import randomx = random.randint(100, size=(3, 5))print(x)",
+                    "from numpy import randomx = random.rand(5)print(x)",
+                    "from numpy import randomx = random.rand(3, 5)print(x)",
+                    "from numpy import randomx = random.choice([3, 5, 7, 9])print(x)",
+                    "from numpy import randomx = random.choice([3, 5, 7, 9], size=(3, 5))print(x)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_random_distribution.asp",
+        "cours": {
+            "titre": "Random Data Distribution",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_random_distribution.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Data Distribution is a list of all possible values, and how often each value \noccurs.",
+                    "Such lists are important when working with statistics and data science.",
+                    "The random module offer methods that returns randomly generated data \ndistributions.",
+                    "A random distribution is a set of random numbers that follow a certainprobability density function.",
+                    "Probability Density Function:A function that describes a continuous probability. i.e. probability of all\nvalues in an array.",
+                    "We can generate random numbers based on defined probabilities using thechoice()method of therandommodule.",
+                    "Thechoice()method allows us to specify the probability for each value.",
+                    "The probability is set by a number between 0 and 1, where 0 means that the \nvalue will never occur and 1 means that the value will always occur.",
+                    "Generate a 1-D array containing 100 values, where each value has to be 3, 5, \n7 or 9.",
+                    "The probability for the value to be 3 is set to be 0.1",
+                    "The probability for the value to be 5 is set to be 0.3",
+                    "The probability for the value to be 7 is set to be 0.6",
+                    "The probability for the value to be 9 is set to be 0",
+                    "The sum of all probability numbers should be 1.",
+                    "Even if you run the example above 100 times, the value 9 will never occur.",
+                    "You can return arrays of any shape and size by specifying the shape in thesizeparameter.",
+                    "Same example as above, but return a 2-D array with 3 rows, each containing 5 values."
+                ],
+                "lists": [],
+                "examples": [
+                    "from numpy import randomx = random.choice([3, 5, 7, 9], p=[0.1, 0.3, \n  0.6, 0.0], size=(100))print(x)",
+                    "from numpy import randomx = random.choice([3, 5, 7, 9], p=[0.1, 0.3, \n  0.6, 0.0], size=(3, 5))print(x)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_random_permutation.asp",
+        "cours": {
+            "titre": "Random Permutations",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_random_permutation.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A permutation refers to an arrangement of elements. e.g. [3, 2, 1] is a permutation of [1, 2, 3] and vice-versa.",
+                    "The NumPy Random module provides two methods for this:shuffle()andpermutation().",
+                    "Shuffle means changing arrangement of elements in-place. i.e. in the array itself.",
+                    "Randomly shuffle elements of following array:",
+                    "Theshuffle()method makes changes to the original array.",
+                    "Generate a random permutation of elements of following array:",
+                    "Thepermutation()methodreturnsa re-arranged array (and leaves the original array un-changed)."
+                ],
+                "lists": [],
+                "examples": [
+                    "from numpy import randomimport numpy as nparr = np.array([1, 2, 3, \n  4, 5])random.shuffle(arr)print(arr)",
+                    "from numpy import randomimport numpy as nparr = np.array([1, 2, 3, \n  4, 5])print(random.permutation(arr))"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_random_seaborn.asp",
+        "cours": {
+            "titre": "Seaborn",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_random_seaborn.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Seaborn is a library that uses Matplotlib underneath to plot graphs. It will be used to visualize random distributions.",
+                    "If you havePythonandPIPalready installed on a system, install it using this command:",
+                    "If you use Jupyter, install Seaborn using this command:",
+                    "Distplot stands for distribution plot, it takes as input an array and plots a curve corresponding to the distribution of points in the array.",
+                    "You can learn about the Matplotlib module in ourMatplotlib Tutorial.",
+                    "Note:We will be using:sns.distplot(arr, hist=False)to visualize random distributions in this tutorial."
+                ],
+                "lists": [],
+                "examples": [
+                    "C:\\Users\\Your Name>pip install seaborn",
+                    "C:\\Users\\Your Name>!pip install seaborn",
+                    "import matplotlib.pyplot as plt",
+                    "import seaborn as sns",
+                    "import matplotlib.pyplot as pltimport seaborn as snssns.distplot([0, 1, \n  2, 3, 4, 5])plt.show()",
+                    "import matplotlib.pyplot as pltimport seaborn as snssns.distplot([0, 1, \n  2, 3, 4, 5], hist=False)plt.show()"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_random_normal.asp",
+        "cours": {
+            "titre": "Normal (Gaussian) Distribution",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_random_normal.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The Normal Distribution is one of the most important distributions.",
+                    "It is also called the Gaussian Distribution after the German mathematician \nCarl Friedrich Gauss.",
+                    "It fits the probability distribution of many events, eg. IQ Scores, Heartbeat etc.",
+                    "Use therandom.normal()method to get a Normal Data Distribution.",
+                    "It has three parameters:",
+                    "loc- (Mean) where the peak of the bell exists.",
+                    "scale- (Standard Deviation) how flat the graph distribution should be.",
+                    "size- The shape of the returned array.",
+                    "Generate a random normal distribution of size 2x3:",
+                    "Generate a random normal distribution of size 2x3 with mean at 1 and standard deviation of 2:",
+                    "",
+                    "Note:The curve of a Normal Distribution is also known as the Bell Curve because of the bell-shaped curve."
+                ],
+                "lists": [],
+                "examples": [
+                    "from numpy import randomx = random.normal(size=(2, 3))print(x)",
+                    "from numpy import randomx = random.normal(loc=1, scale=2, size=(2, 3))print(x)",
+                    "from numpy import randomimport matplotlib.pyplot as pltimport seaborn as snssns.distplot(random.normal(size=1000), hist=False)plt.show()"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_random_binomial.asp",
+        "cours": {
+            "titre": "Binomial Distribution",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_random_binomial.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Binomial Distribution is aDiscrete Distribution.",
+                    "It describes the outcome of binary scenarios, e.g. toss of a coin, it will either be head or tails.",
+                    "It has three parameters:",
+                    "n- number of trials.",
+                    "p- probability of occurence of each trial (e.g. for toss of a coin 0.5 each).",
+                    "size- The shape of the returned array.",
+                    "Discrete Distribution:The distribution is defined at separate set of events,\n   e.g. a coin toss's result is discrete as it can be only head or tails whereas height of people is continuous \n   as it can be 170, 170.1, 170.11 and so on.",
+                    "Given 10 trials for coin toss generate 10 data points:",
+                    "",
+                    "The main difference is that normal distribution is continous whereas binomial is discrete,\nbut if there are enough data points it will be quite similar to normal distribution with certain loc and scale.",
+                    ""
+                ],
+                "lists": [],
+                "examples": [
+                    "from numpy import randomx = random.binomial(n=10, p=0.5, size=10)print(x)",
+                    "from numpy import randomimport matplotlib.pyplot as pltimport seaborn as snssns.distplot(random.binomial(n=10, p=0.5, size=1000), hist=True, kde=False)plt.show()",
+                    "from numpy import randomimport matplotlib.pyplot as pltimport seaborn as snssns.distplot(random.normal(loc=50, scale=5, size=1000), hist=False, \n  label='normal')sns.distplot(random.binomial(n=100, p=0.5, size=1000), hist=False, \n  label='binomial')plt.show()"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_random_poisson.asp",
+        "cours": {
+            "titre": "Poisson Distribution",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_random_poisson.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Poisson Distribution is aDiscrete Distribution.",
+                    "It estimates how many times an event can happen in a specified time.\ne.g. If someone eats twice a day what is the probability he will eat thrice?",
+                    "It has two parameters:",
+                    "lam- rate or known number of occurrences e.g. 2 for above problem.",
+                    "size- The shape of the returned array.",
+                    "Generate a random 1x10 distribution for occurrence 2:",
+                    "",
+                    "Normal distribution is continuous whereas poisson is discrete.",
+                    "But we can see that similar to binomial for a large enough poisson distribution it will become similar to normal distribution with certain std dev and mean.",
+                    "",
+                    "Binomial distribution only has two possible outcomes, whereas poisson distribution \ncan have unlimited possible outcomes.",
+                    "But for very largenand near-zeropbinomial \ndistribution is near identical to poisson distribution such thatn * pis nearly equal tolam.",
+                    ""
+                ],
+                "lists": [],
+                "examples": [
+                    "from numpy import randomx = random.poisson(lam=2, size=10)print(x)",
+                    "from numpy import randomimport matplotlib.pyplot as pltimport seaborn as snssns.distplot(random.poisson(lam=2, size=1000), kde=False)plt.show()",
+                    "from numpy import randomimport matplotlib.pyplot as pltimport seaborn as snssns.distplot(random.normal(loc=50, scale=7, size=1000), hist=False, \n  label='normal')sns.distplot(random.poisson(lam=50, size=1000), hist=False, \n  label='poisson')plt.show()",
+                    "from numpy import randomimport matplotlib.pyplot as pltimport seaborn as snssns.distplot(random.binomial(n=1000, p=0.01, size=1000), hist=False, \n  label='binomial')sns.distplot(random.poisson(lam=10, size=1000), hist=False, \n  label='poisson')plt.show()"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_random_uniform.asp",
+        "cours": {
+            "titre": "Uniform Distribution",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_random_uniform.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Used to describe probability where every event has equal chances of occuring.",
+                    "E.g. Generation of random numbers.",
+                    "It has three parameters:",
+                    "low- lower bound - default 0 .0.",
+                    "high- upper bound - default 1.0.",
+                    "size- The shape of the returned array.",
+                    "Create a 2x3 uniform distribution sample:",
+                    ""
+                ],
+                "lists": [],
+                "examples": [
+                    "from numpy import randomx = random.uniform(size=(2, 3))print(x)",
+                    "from numpy import randomimport matplotlib.pyplot as pltimport seaborn as snssns.distplot(random.uniform(size=1000), hist=False)plt.show()"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_random_logistic.asp",
+        "cours": {
+            "titre": "Logistic Distribution",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_random_logistic.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Logistic Distribution is used to describe growth.",
+                    "Used extensively in machine learning in logistic regression, neural networks etc.",
+                    "It has three parameters:",
+                    "loc- mean, where the peak is. Default 0.",
+                    "scale- standard deviation, the flatness of distribution. Default 1.",
+                    "size- The shape of the returned array.",
+                    "Draw 2x3 samples from a logistic distribution with mean at 1 and stddev 2.0:",
+                    "",
+                    "Both distributions are near identical, but logistic distribution has more area under the tails, \nmeaning it represents more possibility of occurrence of an event further away from mean.",
+                    "For higher value of scale (standard deviation) the normal and logistic distributions are near identical apart from the peak.",
+                    ""
+                ],
+                "lists": [],
+                "examples": [
+                    "from numpy import randomx = random.logistic(loc=1, scale=2, size=(2, \n  3))print(x)",
+                    "from numpy import randomimport matplotlib.pyplot as pltimport seaborn as snssns.distplot(random.logistic(size=1000), hist=False)plt.show()",
+                    "from numpy import randomimport matplotlib.pyplot as pltimport seaborn as snssns.distplot(random.normal(scale=2, size=1000), hist=False, \n  label='normal')sns.distplot(random.logistic(size=1000), hist=False, \n  label='logistic')plt.show()"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_random_multinomial.asp",
+        "cours": {
+            "titre": "Multinomial Distribution",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_random_multinomial.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Multinomial distribution is a generalization of binomial distribution.",
+                    "It describes outcomes of multi-nomial scenarios unlike binomial where scenarios must be only one of two.\ne.g. Blood type of a population, dice roll outcome.",
+                    "It has three parameters:",
+                    "n- number of possible outcomes (e.g. 6 for dice roll).",
+                    "pvals- list of probabilties of outcomes (e.g. [1/6, 1/6, 1/6, 1/6, 1/6, 1/6] for dice roll).",
+                    "size- The shape of the returned array.",
+                    "Draw out a sample for dice roll:",
+                    "Note:Multinomial samples will NOT produce a single value! \n  They will produce one value for eachpval.",
+                    "Note:As they are generalization of binomial distribution their visual representation and similarity of normal distribution is same as that of multiple binomial distributions."
+                ],
+                "lists": [],
+                "examples": [
+                    "from numpy import randomx = random.multinomial(n=6, pvals=[1/6, 1/6, \n  1/6, 1/6, 1/6, 1/6])print(x)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_random_exponential.asp",
+        "cours": {
+            "titre": "Exponential Distribution",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_random_exponential.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Exponential distribution is used for describing time till next event e.g. failure/success etc.",
+                    "It has two parameters:",
+                    "scale- inverse of rate ( see lam in poisson distribution ) defaults to 1.0.",
+                    "size- The shape of the returned array.",
+                    "Draw out a sample for exponential distribution with 2.0 scale with 2x3 size:",
+                    "",
+                    "Poisson distribution deals with number of occurences of an event in a time period whereas exponential\ndistribution deals with the time between these events."
+                ],
+                "lists": [],
+                "examples": [
+                    "from numpy import randomx = random.exponential(scale=2, size=(2, 3))print(x)",
+                    "from numpy import randomimport matplotlib.pyplot as pltimport seaborn as snssns.distplot(random.exponential(size=1000), hist=False)plt.show()"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_random_chisquare.asp",
+        "cours": {
+            "titre": "Chi Square Distribution",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_random_chisquare.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Chi Square distribution is used  as a basis to verify the hypothesis.",
+                    "It has two parameters:",
+                    "df- (degree of freedom).",
+                    "size- The shape of the returned array.",
+                    "Draw out a sample for chi squared distribution with degree of freedom 2 with size 2x3:",
+                    ""
+                ],
+                "lists": [],
+                "examples": [
+                    "from numpy import randomx = random.chisquare(df=2, size=(2, 3))print(x)",
+                    "from numpy import randomimport matplotlib.pyplot as pltimport seaborn as snssns.distplot(random.chisquare(df=1, size=1000), hist=False)plt.show()"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_random_rayleigh.asp",
+        "cours": {
+            "titre": "Rayleigh Distribution",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_random_rayleigh.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Rayleigh distribution is used in signal processing.",
+                    "It has two parameters:",
+                    "scale- (standard deviation) decides how flat the distribution will be  default 1.0).",
+                    "size- The shape of the returned array.",
+                    "Draw out a sample for rayleigh distribution with scale of 2 with size 2x3:",
+                    "",
+                    "At unit stddev and 2 degrees of freedom rayleigh and chi square represent the same distributions."
+                ],
+                "lists": [],
+                "examples": [
+                    "from numpy import randomx = random.rayleigh(scale=2, size=(2, 3))print(x)",
+                    "from numpy import randomimport matplotlib.pyplot as pltimport seaborn as snssns.distplot(random.rayleigh(size=1000), hist=False)plt.show()"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_random_pareto.asp",
+        "cours": {
+            "titre": "Pareto Distribution",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_random_pareto.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A distribution following Pareto's law i.e. 80-20 distribution (20% factors cause 80% outcome).",
+                    "It has two parameter:",
+                    "a- shape parameter.",
+                    "size- The shape of the returned array.",
+                    "Draw out a sample for pareto distribution with shape of 2 with size 2x3:",
+                    ""
+                ],
+                "lists": [],
+                "examples": [
+                    "from numpy import randomx = random.pareto(a=2, size=(2, 3))print(x)",
+                    "from numpy import randomimport matplotlib.pyplot as pltimport seaborn as snssns.distplot(random.pareto(a=2, size=1000), kde=False)plt.show()"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_random_zipf.asp",
+        "cours": {
+            "titre": "Zipf Distribution",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_random_zipf.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Zipf distributions are used to sample data based on zipf's law.",
+                    "Zipf's Law:In a collection, the nth common term is 1/n times of the most common term.\n E.g. the 5th most common word in English occurs nearly 1/5 times as often as \n  the most common word.",
+                    "It has two parameters:",
+                    "a- distribution parameter.",
+                    "size- The shape of the returned array.",
+                    "Draw out a sample for zipf distribution with distribution parameter 2 with size 2x3:",
+                    "Sample 1000 points but plotting only ones with value < 10 for more meaningful chart.",
+                    ""
+                ],
+                "lists": [],
+                "examples": [
+                    "from numpy import randomx = random.zipf(a=2, size=(2, 3))print(x)",
+                    "from numpy import randomimport matplotlib.pyplot as pltimport seaborn as snsx = random.zipf(a=2, size=1000)sns.distplot(x[x<10], kde=False)plt.show()"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_ufunc.asp",
+        "cours": {
+            "titre": "NumPy ufuncs",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_ufunc.asp",
+            "contenus": {
+                "paragraphs": [
+                    "ufuncs stands for \"Universal Functions\" and they are NumPy functions that\noperate on thendarrayobject.",
+                    "ufuncs are used to implementvectorizationin NumPy which is way faster than iterating over elements.",
+                    "They also provide broadcasting and additional methods like reduce, accumulate etc. that are very helpful for computation.",
+                    "ufuncs also take additional arguments, like:",
+                    "whereboolean array or condition defining where the operations should take place.",
+                    "dtypedefining the return type of elements.",
+                    "outoutput array where the return value should be copied.",
+                    "Converting iterative statements into a vector based operation is called vectorization.",
+                    "It is faster as modern CPUs are optimized for such operations.",
+                    "list 1: [1, 2, 3, 4]",
+                    "list 2: [4, 5, 6, 7]",
+                    "One way of doing it is to iterate over both of the lists and then sum each elements.",
+                    "Without ufunc, we can use Python's built-inzip()method:",
+                    "NumPy has a ufunc for this, calledadd(x, y)that will produce the same result.",
+                    "With ufunc, we can use theadd()function:"
+                ],
+                "lists": [],
+                "examples": [
+                    "x = [1, 2, 3, 4]y = [4, 5, 6, 7]z = []for i, j in zip(x, y):z.append(i + j)print(z)",
+                    "import numpy as npx = [1, 2, 3, 4]y = [4, 5, 6, 7]z = np.add(x, y)print(z)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_ufunc_create_function.asp",
+        "cours": {
+            "titre": "Create Your Own ufunc",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_ufunc_create_function.asp",
+            "contenus": {
+                "paragraphs": [
+                    "To create your own ufunc, you have to define a function, like you do with normal functions in Python, then you\nadd it to your NumPy ufunc library with thefrompyfunc()method.",
+                    "Thefrompyfunc()method takes the following arguments:",
+                    "Create your own ufunc for addition:",
+                    "Check thetypeof a function to check if it is a ufunc or not.",
+                    "A ufunc should return<class 'numpy.ufunc'>.",
+                    "Check if a function is a ufunc:",
+                    "If it is not a ufunc, it will return another type, like this built-in NumPy function for joining two or more arrays:",
+                    "Check the type of another function: concatenate():",
+                    "If the function is not recognized at all, it will return an error:",
+                    "Check the type of something that does not exist. This will produce an error:",
+                    "To test if the function is a ufunc in an if statement, use thenumpy.ufuncvalue \n(ornp.ufuncif you use np as an alias for numpy):",
+                    "Use an if statement to check if the function is a ufunc or not:"
+                ],
+                "lists": [
+                    [
+                        "function- the name of the function.",
+                        "inputs- the number of input arguments (arrays).",
+                        "outputs- the number of output arrays."
+                    ]
+                ],
+                "examples": [
+                    "import numpy as npdef myadd(x, y):return x+ymyadd = np.frompyfunc(myadd, 2, 1)print(myadd([1, 2, \n  3, 4], [5, 6, 7, 8]))",
+                    "import numpy as npprint(type(np.add))",
+                    "import numpy as npprint(type(np.concatenate))",
+                    "import numpy as npprint(type(np.blahblah))",
+                    "import numpy as npif type(np.add) == np.ufunc:print('add is ufunc')else:print('add is not ufunc')"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_ufunc_simple_arithmetic.asp",
+        "cours": {
+            "titre": "Simple Arithmetic",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_ufunc_simple_arithmetic.asp",
+            "contenus": {
+                "paragraphs": [
+                    "You could use arithmetic operators+-*/directly between NumPy arrays, but this section discusses an extension of the same where we have \nfunctions that can take any array-like objects e.g. lists, tuples etc. and perform arithmeticconditionally.",
+                    "Arithmetic Conditionally:means that we can define conditions where the arithmetic operation should happen.",
+                    "All of the discussed arithmetic functions take awhereparameter in which we can specify that condition.",
+                    "Theadd()function sums the content of two arrays, and \nreturn the results in a new array.",
+                    "Add the values in arr1 to the values in arr2:",
+                    "The example above will return [30 32 34 36 38 40] which is the sums of 10+20, 11+21, 12+22 etc.",
+                    "Thesubtract()function subtracts the values from one array with the values from \nanother array,\nand return the results in a new array.",
+                    "Subtract the values in arr2 from the values in arr1:",
+                    "The example above will return [-10  -1   8  17  26  35] which is the result of 10-20, 20-21, 30-22 etc.",
+                    "Themultiply()function multiplies the values from one array with the values from \nanother array,\nand return the results in a new array.",
+                    "Multiply the values in arr1 with the values in arr2:",
+                    "The example above will return [200  420  660  920 1200 1500] which is the result of 10*20, 20*21, 30*22 etc.",
+                    "Thedivide()function divides the values from one array with the values from another array,\nand return the results in a new array.",
+                    "Divide the values in arr1 with the values in arr2:",
+                    "The example above will return [3.33333333  4.          3.          5.         25.          1.81818182] which is the result of 10/3, 20/5, 30/10 etc.",
+                    "Thepower()function rises the values from the first array to the power of the values of the second array,\nand return the results in a new array.",
+                    "Raise the valules in arr1 to the power of values in arr2:",
+                    "The example above will return [1000       3200000     729000000 6553600000000          2500\n             0] which is the result of 10*10*10, 20*20*20*20*20, 30*30*30*30*30*30 etc.",
+                    "Both themod()and theremainder()functions\nreturn the remainder of the values in the first array corresponding to the values in the second array, and return the results in a new array.",
+                    "Return the remainders:",
+                    "The example above will return [1  6  3  0  0 27] which is the remainders when you divide 10 with 3 (10%3), 20 with 7 (20%7) 30 with 9 (30%9) etc.",
+                    "You get the same result when using theremainder()function:",
+                    "Return the remainders:",
+                    "Thedivmod()function\nreturn both the quotient and the mod. The return value is two arrays, the \nfirst array contains the quotient and second array contains the mod.",
+                    "Return the quotient and mod:",
+                    "The example above will return:(array([3,  2,  3,  5, 25,  1]),\n array([1,  6,  3,  0,  0, 27]))The first array represents the quotients, \n  (the integer value when you divide 10 with 3, 20 with 7, 30 with 9 etc.The second array represents the \n  remainders of the same divisions.",
+                    "Both theabsolute()and theabs()functions\n do the same absolute operation element-wise but we should useabsolute()to avoid confusion with python's inbuiltmath.abs()",
+                    "Return the quotient and mod:",
+                    "The example above will return [1 2 1 2 3 4]."
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as nparr1 = np.array([10, 11, 12, 13, 14, 15])arr2 = \n  np.array([20, \n  21, 22, 23, 24, 25])newarr = np.add(arr1, arr2)print(newarr)",
+                    "import numpy as nparr1 = np.array([10, 20, 30, 40, 50, 60])arr2 = \n  np.array([20, \n  21, 22, 23, 24, 25])newarr = np.subtract(arr1, arr2)print(newarr)",
+                    "import numpy as nparr1 = np.array([10, 20, 30, 40, 50, 60])arr2 = \n  np.array([20, \n  21, 22, 23, 24, 25])newarr = np.multiply(arr1, arr2)print(newarr)",
+                    "import numpy as nparr1 = np.array([10, 20, 30, 40, 50, 60])arr2 = \n  np.array([3, \n  5, 10, 8, 2, 33])newarr = np.divide(arr1, arr2)print(newarr)",
+                    "import numpy as nparr1 = np.array([10, 20, 30, 40, 50, 60])arr2 = \n  np.array([3, \n  5, 6, 8, 2, 33])newarr = np.power(arr1, arr2)print(newarr)",
+                    "import numpy as nparr1 = np.array([10, 20, 30, 40, 50, 60])arr2 = \n  np.array([3, 7, 9, 8, 2, 33])newarr = np.mod(arr1, arr2)print(newarr)",
+                    "import numpy as nparr1 = np.array([10, 20, 30, 40, 50, 60])arr2 = \n  np.array([3, 7, 9, 8, 2, 33])newarr = np.remainder(arr1, arr2)print(newarr)",
+                    "import numpy as nparr1 = np.array([10, 20, 30, 40, 50, 60])arr2 = \n  np.array([3, 7, 9, 8, 2, 33])newarr = np.divmod(arr1, arr2)print(newarr)",
+                    "import numpy as nparr = np.array([-1, -2, 1, 2, 3, -4])newarr = np.absolute(arr)print(newarr)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_ufunc_rounding_decimals.asp",
+        "cours": {
+            "titre": "Rounding Decimals",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_ufunc_rounding_decimals.asp",
+            "contenus": {
+                "paragraphs": [
+                    "There are primarily five ways of rounding off decimals in NumPy:",
+                    "Remove the decimals, and return the float number closest to zero. Use thetrunc()andfix()functions.",
+                    "Truncate elements of following array:",
+                    "Same example, usingfix():",
+                    "Thearound()function increments preceding digit or decimal by 1 if >=5 else do nothing.",
+                    "E.g. round off to 1 decimal point, 3.16666 is 3.2",
+                    "Round off 3.1666 to 2 decimal places:",
+                    "The floor() function rounds off decimal to nearest lower integer.",
+                    "E.g. floor of 3.166 is 3.",
+                    "Floor the elements of following array:",
+                    "The ceil() function rounds off decimal to nearest upper integer.",
+                    "E.g. ceil of 3.166 is 4.",
+                    "Ceil the elements of following array:"
+                ],
+                "lists": [
+                    [
+                        "truncation",
+                        "fix",
+                        "rounding",
+                        "floor",
+                        "ceil"
+                    ]
+                ],
+                "examples": [
+                    "import numpy as nparr = np.trunc([-3.1666, 3.6667])print(arr)",
+                    "import numpy as nparr = np.fix([-3.1666, 3.6667])print(arr)",
+                    "import numpy as nparr = np.around(3.1666, 2)print(arr)",
+                    "import numpy as nparr = np.floor([-3.1666, \n  3.6667])print(arr)",
+                    "import numpy as nparr = np.ceil([-3.1666, \n  3.6667])print(arr)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_ufunc_logs.asp",
+        "cours": {
+            "titre": "NumPy Logs",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_ufunc_logs.asp",
+            "contenus": {
+                "paragraphs": [
+                    "NumPy provides functions to perform log at the base 2, e and 10.",
+                    "We will also explore how we can take log for any base by creating a custom ufunc.",
+                    "All of the log functions will place -inf or inf in the elements if the log can not be computed.",
+                    "Use thelog2()function to perform log at the base 2.",
+                    "Find log at base 2 of all elements of following array:",
+                    "Note:Thearange(1, 10)function returns an array \n  with integers starting from 1 (included) to 10 (not included).",
+                    "Use thelog10()function to perform log at the base 10.",
+                    "Find log at base 10 of all elements of following array:",
+                    "Use thelog()function to perform log at the base e.",
+                    "Find log at base e of all elements of following array:",
+                    "NumPy does not provide any function to take log at any base,\nso we can use thefrompyfunc()function along with inbuilt functionmath.log()with two input parameters and one output parameter:"
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as nparr = np.arange(1, 10)print(np.log2(arr))",
+                    "import numpy as nparr = np.arange(1, 10)print(np.log10(arr))",
+                    "import numpy as nparr = np.arange(1, 10)print(np.log(arr))",
+                    "from math import logimport numpy as npnplog = np.frompyfunc(log, \n  2, 1)print(nplog(100, 15))"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_ufunc_summations.asp",
+        "cours": {
+            "titre": "NumPy Summations",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_ufunc_summations.asp",
+            "contenus": {
+                "paragraphs": [
+                    "What is the difference between summation and addition?",
+                    "Addition is done between two arguments whereas summation happens over n elements.",
+                    "Add the values in arr1 to the values in arr2:",
+                    "Returns:[2 4 6]",
+                    "Sum the values in arr1 and the values in arr2:",
+                    "Returns:12",
+                    "If you specifyaxis=1, NumPy will sum the \nnumbers in each array.",
+                    "Perform summation in the following array over 1st axis:",
+                    "Returns:[6 6]",
+                    "Cummulative sum means partially adding the elements in array.",
+                    "E.g. The partial sum of [1, 2, 3, 4] would be [1, 1+2, 1+2+3, 1+2+3+4] = [1, 3, 6, 10].",
+                    "Perfom partial sum with thecumsum()function.",
+                    "Perform cummulative summation in the following array:",
+                    "Returns:[1 3 6]"
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as nparr1 = np.array([1, 2, 3])arr2 = np.array([1, 2, \n  3])newarr = np.add(arr1, arr2)print(newarr)",
+                    "import numpy as nparr1 = np.array([1, 2, 3])arr2 = np.array([1, 2, \n  3])newarr = np.sum([arr1, arr2])print(newarr)",
+                    "import numpy as nparr1 = np.array([1, 2, 3])arr2 = np.array([1, 2, \n  3])newarr = np.sum([arr1, arr2], axis=1)print(newarr)",
+                    "import numpy as nparr = np.array([1, 2, 3])newarr = np.cumsum(arr)print(newarr)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_ufunc_products.asp",
+        "cours": {
+            "titre": "NumPy Products",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_ufunc_products.asp",
+            "contenus": {
+                "paragraphs": [
+                    "To find the product of the elements in an array, use theprod()function.",
+                    "Find the product of the elements of this array:",
+                    "Returns:24because 1*2*3*4 = 24",
+                    "Find the product of the elements of two arrays:",
+                    "Returns:40320because 1*2*3*4*5*6*7*8 = \n  40320",
+                    "If you specifyaxis=1, NumPy will return the \nproduct of each array.",
+                    "Perform summation in the following array over 1st axis:",
+                    "Returns:[24 1680]",
+                    "Cummulative product means taking the product partially.",
+                    "E.g. The partial product of [1, 2, 3, 4] is [1, 1*2, 1*2*3, 1*2*3*4] = [1, 2, 6, 24]",
+                    "Perfom partial sum with thecumprod()function.",
+                    "Take cummulative product of all elements for following array:",
+                    "Returns:[5   30  210 1680]"
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as nparr = np.array([1, 2, 3, 4])x = np.prod(arr)print(x)",
+                    "import numpy as nparr1 = np.array([1, 2, 3, 4])arr2 = np.array([5, \n  6, 7, 8])x = np.prod([arr1, arr2])print(x)",
+                    "import numpy as nparr1 = np.array([1, 2, 3, 4])arr2 = np.array([5, \n  6, 7, 8])newarr = np.prod([arr1, arr2], axis=1)print(newarr)",
+                    "import numpy as nparr = np.array([5, \n  6, 7, 8])newarr = np.cumprod(arr)print(newarr)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_ufunc_differences.asp",
+        "cours": {
+            "titre": "NumPy Differences",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_ufunc_differences.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A discrete difference means subtracting two successive elements.",
+                    "E.g. for [1, 2, 3, 4], the discrete difference would be [2-1, 3-2, 4-3] = [1, 1, 1]",
+                    "To find the discrete difference, use thediff()function.",
+                    "Compute discrete difference of the following array:",
+                    "Returns:[5  10 -20]because 15-10=5, 25-15=10, and 5-25=-20",
+                    "We can perform this operation repeatedly by giving parametern.",
+                    "Compute discrete difference of the following array twice:",
+                    "Returns:[5 -30]because: 15-10=5, 25-15=10, and 5-25=-20 AND 10-5=5 and -20-10=-30"
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as nparr = np.array([10, \n  15, 25, 5])newarr = np.diff(arr)print(newarr)",
+                    "import numpy as nparr = np.array([10, \n  15, 25, 5])newarr = np.diff(arr, n=2)print(newarr)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_ufunc_lcm.asp",
+        "cours": {
+            "titre": "NumPy LCM Lowest Common Multiple",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_ufunc_lcm.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The Lowest Common Multiple is the smallest number that is a common multiple of \ntwo numbers.",
+                    "Find the LCM of the following two numbers:",
+                    "Returns:12because that is the lowest \n  common multiple of both numbers (4*3=12 and 6*2=12).",
+                    "To find the Lowest Common Multiple of all values in an array, you can use thereduce()method.",
+                    "Thereduce()method will use the ufunc, in this case thelcm()function, on each element, and reduce the array \n  by one dimension.",
+                    "Find the LCM of the values of the following array:",
+                    "Returns:18because that is the lowest \n  common multiple of all three numbers (3*6=18, 6*3=18 and 9*2=18).",
+                    "Find the LCM of all values of an array where the array contains all integers from 1 to 10:"
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as npnum1 = 4num2 = 6x = np.lcm(num1, num2)print(x)",
+                    "import numpy as nparr = np.array([3, 6, 9])x = np.lcm.reduce(arr)print(x)",
+                    "import numpy as nparr = np.arange(1, 11)x = np.lcm.reduce(arr)print(x)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_ufunc_gcd.asp",
+        "cours": {
+            "titre": "NumPy GCD Greatest Common Devisor",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_ufunc_gcd.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The GCD (Greatest Common Devisor), also known as HCF (Highest Common Factor) is the biggest number that is a common factor of both of the numbers.",
+                    "Find the HCF of the following two numbers:",
+                    "Returns:3because that is the \n  highest number both numbers can be divided by (6/3=2 and 9/3=3).",
+                    "To find the Highest Common Factor of all values in an array, you can use thereduce()method.",
+                    "Thereduce()method will use the ufunc, in this case thegcd()function, on each element, and reduce the array \n  by one dimension.",
+                    "Find the GCD for all of the numbers in the following array:",
+                    "Returns:4because that is the \n  highest number all values can be divided by."
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as npnum1 = 6num2 = 9x = np.gcd(num1, num2)print(x)",
+                    "import numpy as nparr = np.array([20, 8, 32, 36, 16])x = \n  np.gcd.reduce(arr)print(x)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_ufunc_trigonometric.asp",
+        "cours": {
+            "titre": "NumPy Trigonometric Functions",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_ufunc_trigonometric.asp",
+            "contenus": {
+                "paragraphs": [
+                    "NumPy provides the ufuncssin(),cos()andtan()that take values in radians and produce the corresponding sin, cos and tan \nvalues.",
+                    "Find sine value of PI/2:",
+                    "Find sine values for all of the values in arr:",
+                    "By default all of the trigonometric functions take radians as parameters\nbut we can convert radians to degrees and vice versa as well in NumPy.",
+                    "Note:radians values are pi/180 * degree_values.",
+                    "Convert all of the values in following array arr to radians:",
+                    "Convert all of the values in following array arr to degrees:",
+                    "Finding angles from values of sine, cos, tan. E.g. sin, cos and tan inverse (arcsin, arccos, arctan).",
+                    "NumPy provides ufuncsarcsin(),arccos()andarctan()that produce radian values for corresponding sin, cos and tan values given.",
+                    "Find the angle of 1.0:",
+                    "Find the angle for all of the sine values in the array",
+                    "Finding hypotenues using pythagoras theorem in NumPy.",
+                    "NumPy provides thehypot()function that takes the base and perpendicular values and produces hypotenues based on pythagoras theorem.",
+                    "Find the hypotenues for 4 base and 3 perpendicular:"
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as npx = np.sin(np.pi/2)print(x)",
+                    "import numpy as nparr = np.array([np.pi/2, np.pi/3, np.pi/4, np.pi/5])x = np.sin(arr)print(x)",
+                    "import numpy as nparr = np.array([90, 180, 270, 360])x = np.deg2rad(arr)print(x)",
+                    "import numpy as nparr = np.array([np.pi/2, np.pi, 1.5*np.pi, 2*np.pi])x = np.rad2deg(arr)print(x)",
+                    "import numpy as npx = np.arcsin(1.0)print(x)",
+                    "import numpy as nparr = np.array([1, -1, 0.1])x = \n  np.arcsin(arr)print(x)",
+                    "import numpy as npbase = 3perp = 4x = np.hypot(base, perp)print(x)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_ufunc_hyperbolic.asp",
+        "cours": {
+            "titre": "NumPy Hyperbolic Functions",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_ufunc_hyperbolic.asp",
+            "contenus": {
+                "paragraphs": [
+                    "NumPy provides the ufuncssinh(),cosh()andtanh()that take values in radians and produce the corresponding sinh, cosh and tanh values..",
+                    "Find sinh value of PI/2:",
+                    "Find cosh values for all of the values in arr:",
+                    "Finding angles from values of hyperbolic sine, cos, tan. E.g. sinh, cosh and tanh inverse (arcsinh, arccosh, arctanh).",
+                    "Numpy provides ufuncsarcsinh(),arccosh()andarctanh()that produce radian values for corresponding sinh, cosh and tanh values given.",
+                    "Find the angle of 1.0:",
+                    "Find the angle for all of the tanh values in array:"
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as npx = np.sinh(np.pi/2)print(x)",
+                    "import numpy as nparr = np.array([np.pi/2, np.pi/3, np.pi/4, np.pi/5])x = \n  np.cosh(arr)print(x)",
+                    "import numpy as npx = np.arcsinh(1.0)print(x)",
+                    "import numpy as nparr = np.array([0.1, 0.2, 0.5])x = np.arctanh(arr)print(x)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_ufunc_set_operations.asp",
+        "cours": {
+            "titre": "NumPy Set Operations",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_ufunc_set_operations.asp",
+            "contenus": {
+                "paragraphs": [
+                    "A set in mathematics is a collection of unique elements.",
+                    "Sets are used for operations involving frequent intersection, union and difference operations.",
+                    "We can use NumPy'sunique()method to find unique elements from any array.\nE.g. create a set array, but remember that the set arrays should only be 1-D arrays.",
+                    "Convert following array with repeated elements to a set:",
+                    "To find the unique values of two arrays, use theunion1d()method.",
+                    "Find union of the following two set arrays:",
+                    "To find only the values that are present in both arrays, use theintersect1d()method.",
+                    "Find intersection of the following two set arrays:",
+                    "Note:theintersect1d()method takes an optional argumentassume_unique,\n   which if set to True can speed up computation. It should always be set to True when dealing with sets.",
+                    "To find only the values in the first set that is NOT present in the seconds set, use thesetdiff1d()method.",
+                    "Find the difference of the set1 from set2:",
+                    "Note:thesetdiff1d()method takes an optional argumentassume_unique,\n   which if set to True can speed up computation. It should always be set to True when dealing with sets.",
+                    "To find only the values that are NOT present in BOTH sets, use thesetxor1d()method.",
+                    "Find the symmetric difference of the set1 and set2:",
+                    "Note:thesetxor1d()method takes an optional argumentassume_unique,\n   which if set to True can speed up computation. It should always be set to True when dealing with sets."
+                ],
+                "lists": [],
+                "examples": [
+                    "import numpy as nparr = np.array([1, 1, 1, 2, 3, 4, 5, 5, 6, 7])x = np.unique(arr)print(x)",
+                    "import numpy as nparr1 = np.array([1, 2, 3, 4])arr2 = np.array([3, 4, 5, 6])newarr = np.union1d(arr1, arr2)print(newarr)",
+                    "import numpy as nparr1 = np.array([1, 2, 3, 4])arr2 = np.array([3, 4, 5, 6])newarr = np.intersect1d(arr1, arr2, assume_unique=True)print(newarr)",
+                    "import numpy as npset1 = np.array([1, 2, 3, 4])set2 = np.array([3, 4, 5, 6])newarr = np.setdiff1d(set1, set2, assume_unique=True)print(newarr)",
+                    "import numpy as npset1 = np.array([1, 2, 3, 4])set2 = np.array([3, 4, 5, 6])newarr = np.setxor1d(set1, set2, assume_unique=True)print(newarr)"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_compiler.asp",
+        "cours": {
+            "titre": "NumPyOnline Compiler (Editor)",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_compiler.asp",
+            "contenus": {
+                "paragraphs": [
+                    "With our \"Try it Yourself\" editor, you can edit Python code and use the NumPy\nmodule, and view the result in your browser.",
+                    "Click on the \"Try it Yourself\" button to see how it works.",
+                    "If you want to create your own website or build Python applications, check outW3Schools Spaces.",
+                    "W3Schools Spacesis a website-building tool that enables you to create and share your own website. \nYou can also get a Python server, allowing you to develop and host your Python applications with ease.",
+                    "Note:This includes Python libraries such as: Django, Pandas, NumPy, SciPy and more.",
+                    "You can change the website's look and how it works by editing the code right in your web browser.",
+                    "It's easy to use and doesn't require any setup",
+                    "The code editor is packed with features to help you achieve more:",
+                    "Practice is key to mastering coding, and the best way to put your Python knowledge into practice is by getting practical with code.",
+                    "UseW3Schools Spacesto build, test and deploy code.",
+                    "The code editor lets you write and practice different types of computer languages. It includes \nPython, but you can use it for other languages too.",
+                    "New languages are added all the time:",
+                    "If you don't know Python, we suggest that you read ourPython Tutorialfrom scratch.",
+                    "Get an overview of your packages and easily add or delete frameworks and libraries. Then, with just one click, you can make changes to your packages without manual installation.",
+                    "",
+                    "You can also use the code editor inW3School Spacesto build frontend or full-stack websites from scratch.",
+                    "Or you can use the 60+ templates available and save time:",
+                    "Create your Spaces account today and explore them all!",
+                    "Host and publish your websites in no time withW3School Spaces.",
+                    "W3Schools subdomain and SSL certificate are included for free withW3School Spaces. An SSL certificate makes your website safe and secure. It also helps people trust your website and makes it easier to find it online.",
+                    "Want a custom domain for your website?",
+                    "You can buy a domain or transfer an existing one and connect it to your space.",
+                    "Get started in a few clicks withW3School Spaces."
+                ],
+                "lists": [
+                    [
+                        "Templates:Start from scratch or use a template",
+                        "Cloud-based:no installations required. You only need your browser",
+                        "Terminal & Log:debug and troubleshoot your code easily",
+                        "File Navigator:switch between files inside the code editor",
+                        "And much more!"
+                    ]
+                ],
+                "examples": [
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5])print(arr)print(type(arr))"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_quiz.asp",
+        "cours": {
+            "titre": "NumPyQuiz",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_quiz.asp",
+            "contenus": {
+                "paragraphs": [
+                    "You can test your NumPy skills with W3Schools' Quiz.",
+                    "The test contains 25 questions and there is no time limit.",
+                    "The test is not official, it's just a nice way to see how much you know, or don't know, about \nNumPy.",
+                    "You will get 1 point for each correct answer. At the end of the Quiz,\nyour total score will be displayed. Maximum score is 25 points.",
+                    "Good luck!",
+                    "Start the NumPy Quiz ❯",
+                    "If you don't know NumPy, we suggest that you read ourNumPy Tutorialfrom scratch.",
+                    "Get certified by completingthecourse"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_exercises.asp",
+        "cours": {
+            "titre": "NumPyExercises",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_exercises.asp",
+            "contenus": {
+                "paragraphs": [
+                    "Test your NumPy skills with exercises from all categories:",
+                    "If you haven't already,sign upto become a W3Schooler, and get points for every exercise you complete.",
+                    "As a logged on W3Schools user you will have access to many features like havingyour own web page,track your learning progress,receive personal guided paths, andmore.",
+                    "The exercises are a mix of \"multiple choice\" and \"fill in the blanks\" questions. \nThere are between 3 and 9 questions in  each category.\nThe answer can be found in the corresponding tutorial chapter. If you're stuck, \nor answer wrong, you can try again or hit the \"Show Answer\" button to see the correct answer.",
+                    "Get certified by completingthecourse"
+                ],
+                "lists": [],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_syllabus.asp",
+        "cours": {
+            "titre": "NumPySyllabus",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_syllabus.asp",
+            "contenus": {
+                "paragraphs": [
+                    "TheW3Schools NumPy Tutorialis comprehensive and beginner-friendly.",
+                    "It will give you a fundamental knowledge of NumPy.",
+                    "It is designed for beginners and requires only basic Python knowledge.",
+                    "The content has been carefully made to be bite-sized, simple, and easy to understand.",
+                    "The content has been proven by millions of users over the years. It is updated and improved frequently.",
+                    "The syllabus outline and its sequence are structured so you can learn NumPy step by step, from the introduction to creating your first array operations.",
+                    "Get Started With NumPy »",
+                    "Note:Are you a teacher teaching NumPy?W3Schools Academyis a toolbox of features that can help you teach. It offers classroom features such as pre-built study plans, classroom administration and much more. Read more aboutAcademy here.",
+                    "Get Started",
+                    "In this tutorial we offer different activities for you to learn NumPy for free:",
+                    "You can also create a free account to track your progress.",
+                    "As a signed-in user, you get access to features such as:",
+                    "Sign Up - It's free",
+                    "Get Started",
+                    "NumPy, like any other library, is best learned through hands-on practice.",
+                    "Try this example using our editor:",
+                    "Create a NumPy array:",
+                    "If you want to explore more and host your project, we have a feature calledSpacesthat allows you to build, test and deploy Python projects for free.",
+                    "Here you get a secure sandbox environment called Spaces, where you can practice NumPy code and test projects in real-time.",
+                    "Spaces allow you to test, build, and deploy code. This includes a W3Schools subdomain, hosting, and secure SSL certificates.",
+                    "Spaces require no installation and run directly in the browser.",
+                    "Features include:",
+                    "Create a Spaces Account",
+                    "W3Schools offers an end-of-pathway certification program.",
+                    "Here you can take exams to get certified.",
+                    "The NumPy exam is a test that summarizes the W3Schools NumPy syllabus.",
+                    "After passing the exam you get the \"Certified NumPy Developer\" Certification.",
+                    "There are two different types of certifications:",
+                    "The non-adaptive is pass or no pass.",
+                    "The adaptive certification is adaptive and graded; students will get a grade from intermediate, advanced to professional.",
+                    "Buy Certificate »",
+                    "Are you interested in learning how you can useW3Schools Academyto Teach \nNumPy?",
+                    "Watch a demo ofW3Schools Academy. You'll see how it works, and discover how it can make teaching programming easier and more engaging.",
+                    "Watch Demo »"
+                ],
+                "lists": [
+                    [
+                        "Understand the basic structure of NumPy arrays.",
+                        "Create and manipulate arrays efficiently.",
+                        "Perform mathematical operations on arrays.",
+                        "Apply array indexing and slicing.",
+                        "Use array functions and methods.",
+                        "Perform array reshaping and stacking.",
+                        "Work with random number generation.",
+                        "Apply linear algebra operations.",
+                        "Create efficient numerical computations."
+                    ],
+                    [
+                        "Data Science:NumPy is essential for numerical computing and data manipulation.",
+                        "Scientific Computing:NumPy provides powerful tools for scientific calculations and analysis.",
+                        "Machine Learning:NumPy is fundamental for handling numerical data in Machine Learning applications.",
+                        "Statistics:NumPy offers efficient tools for statistical calculations.",
+                        "Image Processing:NumPy arrays are perfect for handling image data.",
+                        "Engineering:NumPy supports mathematical operations for engineering applications.",
+                        "Research:NumPy is widely used in scientific research and data analysis."
+                    ],
+                    [
+                        "Lessons",
+                        "Exercises",
+                        "Quizzes"
+                    ],
+                    [
+                        "Learning paths",
+                        "Sandbox and lab environments",
+                        "Achievements",
+                        "And much more!"
+                    ],
+                    [
+                        "NumPy HOME",
+                        "NumPy Intro",
+                        "NumPy Getting Started",
+                        "NumPy Creating Arrays",
+                        "NumPy Array Indexing",
+                        "NumPy Array Slicing",
+                        "NumPy Data Types",
+                        "NumPy Copy vs View",
+                        "NumPy Array Shape",
+                        "NumPy Array Reshape",
+                        "NumPy Array Iterating",
+                        "NumPy Array Join",
+                        "NumPy Array Split",
+                        "NumPy Array Search",
+                        "NumPy Array Sort",
+                        "NumPy Array Filter",
+                        "Random Intro",
+                        "Data Distribution",
+                        "Random Permutation",
+                        "Seaborn Module",
+                        "Normal Distribution",
+                        "Binomial Distribution",
+                        "Poisson Distribution",
+                        "Uniform Distribution",
+                        "Logistic Distribution",
+                        "Multinomial Distribution",
+                        "Exponential Distribution",
+                        "Chi Square Distribution",
+                        "Rayleigh Distribution",
+                        "Pareto Distribution",
+                        "Zipf Distribution",
+                        "ufunc Intro",
+                        "ufunc Create Function",
+                        "ufunc Simple Arithmetic",
+                        "ufunc Rounding Decimals",
+                        "ufunc Logs",
+                        "ufunc Summations",
+                        "ufunc Products",
+                        "ufunc Differences",
+                        "ufunc Finding LCM",
+                        "ufunc Finding GCD",
+                        "ufunc Trigonometric",
+                        "ufunc Hyperbolic",
+                        "ufunc Set Operations"
+                    ],
+                    [
+                        "Collaboration",
+                        "File navigator",
+                        "Terminal & log",
+                        "Package manager",
+                        "Database",
+                        "Environment manager",
+                        "Analytics"
+                    ],
+                    [
+                        "Non-adaptive",
+                        "Adaptive"
+                    ]
+                ],
+                "examples": [
+                    "import numpy as nparr = np.array([1, 2, 3, 4, 5])print(arr)print(type(arr))"
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_study_plan.asp",
+        "cours": {
+            "titre": "NumPyStudy Plan",
+            "description": "",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_study_plan.asp",
+            "contenus": {
+                "paragraphs": [
+                    "The NumPy study plan helps you teach your students NumPy step-by-step.",
+                    "Creating a study plan for NumPy is easy.",
+                    "You can use a pre-built study plan or customize it.",
+                    "Students have different skill levels. The study plans can be customized to ensure that everyone is challenged.",
+                    "Save time with pre-built teacher materials and study plans. Easily organize your class with a timeline from the introduction of NumPy to the final exam.",
+                    "This study plan is a feature of W3Schools Academy.",
+                    "W3Schools Academy is a platform that has everything you need to teach coding, all in one place.",
+                    "It offers you as a teacher a toolbox of features that helps you succeed with teaching in your classroom.",
+                    "You need to have an active subscription to access the study plan feature. There are two different subscription tiers:",
+                    "Learn More »",
+                    "Academy also offer other features such as:",
+                    "Get a free demo »",
+                    "W3Schools has everything you need to teach NumPy.",
+                    "The NumPy training materials is available for you to include and use in your study plan:",
+                    "With the NumPy Syllabus, your students will start with the basics, like creating arrays and performing basic operations, and move to more advanced topics, like slicing arrays, working with array shapes, and performing mathematical calculations. Each chapter includes examples, try-it-yourself sections, exercises, and quizzes to make learning easy, interactive, and fun.",
+                    "Read more about NumPy Syllabus.",
+                    "The study plan features are made to help teachers and students. They make learning easy, flexible, and fun. These features work for different types of classes, learning styles and student level.",
+                    "Learn More »",
+                    "You choose the timeline and paceof your study plans.",
+                    "Schools have different preferences.",
+                    "Some would like more intensive pace, e.g. 3 weeks, others 12 or more weeks.",
+                    "It is completely up to you.",
+                    "For example, this is how a 3-week NumPy study plan could look like:",
+                    "Image of Sample NumPy study plan:",
+                    "Start withNumPy Study Planstoday.",
+                    "Get Started »",
+                    "Are you interested in learning how you can useW3Schools Academyto Teach NumPy programming?",
+                    "Watch a demo ofW3Schools Academy. You'll see how it works, and discover how it can make teaching programming easier and more engaging.",
+                    "Watch Demo »"
+                ],
+                "lists": [
+                    [
+                        "Essentials ($1.99 / month per student)",
+                        "Full Access ($5.99 / month per student)",
+                        "Calculate your price and orderhere."
+                    ],
+                    [
+                        "Managing your classroom",
+                        "Tracking of student progress and reports",
+                        "Labs, assignments, and code challenges (prebuilt challenges or create your own ones)",
+                        "Auto-grading",
+                        "Teaching materials",
+                        "Certification exams"
+                    ],
+                    [
+                        "W3Schools NumPy Tutorial",
+                        "NumPy Exercises",
+                        "NumPy Quiz",
+                        "NumPy Challenges (Coding challenges)",
+                        "NumPy Certification Exam (End of Pathway Exam)"
+                    ],
+                    [
+                        "Learning PathsYou can add ready-made learning paths.The learning paths are by default ordered by our recommended order.You can change the order.You can add custom activities with text, links, or multi-media files.Drag and drop or click to make changes to the path.",
+                        "You can add ready-made learning paths.",
+                        "The learning paths are by default ordered by our recommended order.",
+                        "You can change the order.",
+                        "You can add custom activities with text, links, or multi-media files.",
+                        "Drag and drop or click to make changes to the path.",
+                        "Interactive ContentTutorialsTry-its (test code snippets)ExercisesQuizChallengesLabs",
+                        "Tutorials",
+                        "Try-its (test code snippets)",
+                        "Exercises",
+                        "Quiz",
+                        "Challenges",
+                        "Labs",
+                        "Timeline and PaceYou can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).You can decide the learning pace for your class.Different study plans can be assigned to different students in the same class.The flexibility can help to make sure that everyone is challenged.",
+                        "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+                        "You can decide the learning pace for your class.",
+                        "Different study plans can be assigned to different students in the same class.",
+                        "The flexibility can help to make sure that everyone is challenged.",
+                        "Track Student ProgressThere are tools to track student progress.The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+                        "There are tools to track student progress.",
+                        "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+                        "The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+                        "End of Pathway ExamThe NumPy study plan aligns with the NumPy Certification Exam.The exam can be taken at the end of the study plan, at your selected date.The exam summarizes the NumPy Tutorial.You get reports of the students' results.",
+                        "The NumPy study plan aligns with the NumPy Certification Exam.",
+                        "The exam can be taken at the end of the study plan, at your selected date.",
+                        "The exam summarizes the NumPy Tutorial.",
+                        "You get reports of the students' results.",
+                        "AccessibilityStudy plans and learning materials are accessible on desktops, tablets, and smartphones.This ensures students can learn anytime, anywhere.",
+                        "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+                        "This ensures students can learn anytime, anywhere."
+                    ],
+                    [
+                        "You can add ready-made learning paths.",
+                        "The learning paths are by default ordered by our recommended order.",
+                        "You can change the order.",
+                        "You can add custom activities with text, links, or multi-media files.",
+                        "Drag and drop or click to make changes to the path."
+                    ],
+                    [
+                        "Tutorials",
+                        "Try-its (test code snippets)",
+                        "Exercises",
+                        "Quiz",
+                        "Challenges",
+                        "Labs"
+                    ],
+                    [
+                        "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+                        "You can decide the learning pace for your class.",
+                        "Different study plans can be assigned to different students in the same class.",
+                        "The flexibility can help to make sure that everyone is challenged."
+                    ],
+                    [
+                        "There are tools to track student progress.",
+                        "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+                        "The challenges can be auto-graded or manually graded. The results are available to you as a teacher."
+                    ],
+                    [
+                        "The NumPy study plan aligns with the NumPy Certification Exam.",
+                        "The exam can be taken at the end of the study plan, at your selected date.",
+                        "The exam summarizes the NumPy Tutorial.",
+                        "You get reports of the students' results."
+                    ],
+                    [
+                        "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+                        "This ensures students can learn anytime, anywhere."
+                    ],
+                    [
+                        "Week 1: Introduction, Getting Started",
+                        "Week 2: Arrays",
+                        "Week 3: Random, ufunc, NumPy Certification Exam"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/python/numpy/numpy_exam.asp",
+        "cours": {
+            "titre": "NumPyCertification",
+            "description": "How Does It Work?Study for free at W3Schools.comStudy at your own speedTest your skills with W3Schools online quizzesApply for your certificate by paying an exam feeTake your exam online, at any time, and from any location",
+            "lien": "https://www.w3schools.com/python/numpy/numpy_exam.asp",
+            "contenus": {
+                "paragraphs": [
+                    "W3Schools offers an Online Certification Program.",
+                    "The perfect solution for busy professionals who need to balance work, family, and career building.",
+                    "More than 50 000 certificates already issued!",
+                    "Get Your Certificate »",
+                    "W3Schools offers an Online Certification Program.",
+                    "The perfect solution for busy professionals who need to balance work, family, and career building.",
+                    "More than 50 000 certificates already issued!",
+                    "Get Your Certificate »",
+                    "Any student or professional within the digital industry.",
+                    "Certifications are valuable assets to gain trust and demonstrate knowledge to your clients, current or future employers on a ever increasing competitive market.",
+                    "W3Schools has over two decades of experience with teaching coding online.",
+                    "Our certificates are recognized and valued by companies looking to employ skilled developers.",
+                    "Show the world your coding skills by getting a certification.",
+                    "The prices is a small fraction compared to the price of traditional education.",
+                    "Document and validate your competence by getting certified!",
+                    "Fee:95 USD",
+                    "Achievable certification levels:Intermediate (40%)Advanced (75%)Professional (90%)",
+                    "Number of questions:Adaptive,60on average",
+                    "Requirement to pass:Minimum 40% - Intermediate level",
+                    "Time limit:60 minutes",
+                    "Number of attempts to pass:3",
+                    "Exam deadline:None",
+                    "Certification Expiration:None",
+                    "Format:Online, multiple choice",
+                    "Register now »",
+                    "Getting a certificate proves your commitment to upgrading your skills.",
+                    "The certificate can be added as credentials to your CV, Resume, LinkedIn profile, and so on.",
+                    "It gives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+                    "Knowledge is power, especially in the current job market.",
+                    "Documentation of your skills enables you to advance your career or helps you to start a new one.",
+                    "Example certificate:",
+                    "Each certificate gets a unique link that can be shared with others.",
+                    "Validate your certification with the link or QR code.",
+                    "Check how it looks like in thisExample.",
+                    "Share your certificate on Linkedin the Certifications section in just one click!",
+                    "Getting a certificate proves your commitment to upgrade your skills,\ngives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+                    "Get Your Certificate »",
+                    "Are you an educator, manager or business owner looking for courses or certifications?",
+                    "We are working with schools, companies and organizations from all over the world.",
+                    "Get courses and/or certifications for your team here."
+                ],
+                "lists": [
+                    [
+                        "Study for free at W3Schools.com",
+                        "Study at your own speed",
+                        "Test your skills with W3Schools online quizzes",
+                        "Apply for your certificate by paying an exam fee",
+                        "Take your exam online, at any time, and from any location"
+                    ]
+                ],
+                "examples": []
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://campus.w3schools.com/collections/certifications/products/numpy-certification-exam",
+        "cours": {}
+    }
+]

@@ -1,0 +1,1369 @@
+[
+    {
+        "url": "https://www.w3schools.com/typescript/index.php",
+        "cours": {
+            "titre": "TypeScript Tutorial",
+            "description": "Learn TypeScript TypeScript is JavaScript with added syntax for types. Start learning TypeScript now »",
+            "lien": "https://www.w3schools.com/typescript/index.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "console.log('Hello World!');",
+                    "Example console.log('Hello World!'); Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "Start learning TypeScript now »",
+                        "url": "https://www.w3schools.com/typescript/typescript_intro.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_helloworld"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_intro.php",
+        "cours": {
+            "titre": "TypeScript Introduction",
+            "description": "TypeScript is JavaScript with added syntax for types.",
+            "lien": "https://www.w3schools.com/typescript/typescript_intro.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/index.php"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/index.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_getstarted.php",
+        "cours": {
+            "titre": "TypeScript Getting Started",
+            "description": "TypeScript being converted into JavaScript means it runs anywhere that JavaScript runs!",
+            "lien": "https://www.w3schools.com/typescript/typescript_getstarted.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "npm install typescript --save-dev",
+                    "added 1 package, and audited 2 packages in 2s found 0 vulnerabilities",
+                    "npx tsc",
+                    "Version 4.5.5 tsc: The TypeScript Compiler - Version 4.5.5",
+                    "npx tsc --init",
+                    "Created a new tsconfig.json with: TS target: es2016 module: commonjs strict: true esModuleInterop: true skipLibCheck: true forceConsistentCasingInFileNames: true You can learn more at https://aka.ms/tsconfig.json",
+                    "{ \"include\": [\"src\"], \"compilerOptions\": { \"outDir\": \"./build\" } }"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_intro.php"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_intro.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_simple_types.php",
+        "cours": {
+            "titre": "TypeScript Simple Types",
+            "description": "There are three main primitives in JavaScript and TypeScript. boolean - true or false values number - whole numbers and floating point values string - text values like \"TypeScript Rocks\" There are also 2 less common primitives used in later versions of Javascript and TypeScript. bigint - whole numbers and floating point values, but allows larger negative and positive numbers than the number type. symbol are used to create a globally unique identifier.",
+            "lien": "https://www.w3schools.com/typescript/typescript_simple_types.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [
+                    [
+                        "Explicit",
+                        "Implicit"
+                    ]
+                ],
+                "examples": [
+                    "let firstName: string = \"Dylan\";",
+                    "let firstName = \"Dylan\";",
+                    "let firstName: string = \"Dylan\"; // type string firstName = 33; // attempts to re-assign the value to a different type",
+                    "let firstName = \"Dylan\"; // inferred to type string firstName = 33; // attempts to re-assign the value to a different type",
+                    "// Implicit any as JSON.parse doesn't know what type of data it returns so it can be \"any\" thing... const json = JSON.parse(\"55\"); // Most expect json to be an object, but it can be a string or a number like this example console.log(typeof json);",
+                    "let firstName: string = \"Dylan\"; Try it Yourself »",
+                    "let firstName = \"Dylan\"; Try it Yourself »",
+                    "Example let firstName: string = \"Dylan\"; // type string firstName = 33; // attempts to re-assign the value to a different type Try it Yourself »",
+                    "Example let firstName = \"Dylan\"; // inferred to type string firstName = 33; // attempts to re-assign the value to a different type Try it Yourself »",
+                    "Example // Implicit any as JSON.parse doesn't know what type of data it returns so it can be \"any\" thing... const json = JSON.parse(\"55\"); // Most expect json to be an object, but it can be a string or a number like this example console.log(typeof json); Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_getstarted.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_simple_types_explicit1"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_simple_types_infer1"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_simple_types_explicit"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_simple_types"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_simple_types_infer"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_getstarted.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_special_types.php",
+        "cours": {
+            "titre": "TypeScript Special Types",
+            "description": "unknown is best used when you don't know the type of data being typed. To add a type later, you'll need to cast it. Casting is when we use the \"as\" keyword to say property or variable is of the casted type.",
+            "lien": "https://www.w3schools.com/typescript/typescript_special_types.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "let u = true; u = \"string\"; // Error: Type 'string' is not assignable to type 'boolean'. Math.round(u); // Error: Argument of type 'boolean' is not assignable to parameter of type 'number'.",
+                    "let v: any = true; v = \"string\"; // no error as it can be \"any\" type Math.round(v); // no error as it can be \"any\" type",
+                    "let w: unknown = 1; w = \"string\"; // no error w = { runANonExistentMethod: () => { console.log(\"I think therefore I am\"); } } as { runANonExistentMethod: () => void} // How can we avoid the error for the code commented out below when we don't know the type? // w.runANonExistentMethod(); // Error: Object is of type 'unknown'. if(typeof w === 'object' && w !== null) { (w as { runANonExistentMethod: Function }).runANonExistentMethod(); } // Although we have to cast multiple times we can do a check in the if to secure our type and have a safer casting",
+                    "let x: never = true; // Error: Type 'boolean' is not assignable to type 'never'.",
+                    "let y: undefined = undefined; let z: null = null;",
+                    "Example without any let u = true; u = \"string\"; // Error: Type 'string' is not assignable to type 'boolean'. Math.round(u); // Error: Argument of type 'boolean' is not assignable to parameter of type 'number'. Try it Yourself »",
+                    "Example with any let v: any = true; v = \"string\"; // no error as it can be \"any\" type Math.round(v); // no error as it can be \"any\" type Try it Yourself »",
+                    "let w: unknown = 1; w = \"string\"; // no error w = { runANonExistentMethod: () => { console.log(\"I think therefore I am\"); } } as { runANonExistentMethod: () => void} // How can we avoid the error for the code commented out below when we don't know the type? // w.runANonExistentMethod(); // Error: Object is of type 'unknown'. if(typeof w === 'object' && w !== null) { (w as { runANonExistentMethod: Function }).runANonExistentMethod(); } // Although we have to cast multiple times we can do a check in the if to secure our type and have a safer casting Try it Yourself »",
+                    "let x: never = true; // Error: Type 'boolean' is not assignable to type 'never'. Try it Yourself »",
+                    "let y: undefined = undefined; let z: null = null; Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_simple_types.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_special_types_without_any"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_special_types_with_any"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_special_types_with_unknown"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_special_types_never"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_special_types_undefined_null"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_simple_types.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_arrays.php",
+        "cours": {
+            "titre": "TypeScript Arrays",
+            "description": "",
+            "lien": "https://www.w3schools.com/typescript/typescript_arrays.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "const names: string[] = []; names.push(\"Dylan\"); // no error // names.push(3); // Error: Argument of type 'number' is not assignable to parameter of type 'string'.",
+                    "const names: readonly string[] = [\"Dylan\"]; names.push(\"Jack\"); // Error: Property 'push' does not exist on type 'readonly string[]'. // try removing the readonly modifier and see if it works?",
+                    "const numbers = [1, 2, 3]; // inferred to type number[] numbers.push(4); // no error // comment line below out to see the successful assignment numbers.push(\"2\"); // Error: Argument of type 'string' is not assignable to parameter of type 'number'. let head: number = numbers[0]; // no error",
+                    "Example const names: string[] = []; names.push(\"Dylan\"); // no error // names.push(3); // Error: Argument of type 'number' is not assignable to parameter of type 'string'. Try it Yourself »",
+                    "Example const names: readonly string[] = [\"Dylan\"]; names.push(\"Jack\"); // Error: Property 'push' does not exist on type 'readonly string[]'. // try removing the readonly modifier and see if it works? Try it Yourself »",
+                    "Example const numbers = [1, 2, 3]; // inferred to type number[] numbers.push(4); // no error // comment line below out to see the successful assignment numbers.push(\"2\"); // Error: Argument of type 'string' is not assignable to parameter of type 'number'. let head: number = numbers[0]; // no error Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_special_types.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_arrays_typed"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_arrays_readonly"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_arrays_inferred"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_special_types.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_tuples.php",
+        "cours": {
+            "titre": "TypeScript Tuples",
+            "description": "To review destructuring check it out here .",
+            "lien": "https://www.w3schools.com/typescript/typescript_tuples.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "// define our tuple let ourTuple: [number, boolean, string]; // initialize correctly ourTuple = [5, false, 'Coding God was here'];",
+                    "// define our tuple let ourTuple: [number, boolean, string]; // initialized incorrectly which throws an error ourTuple = [false, 'Coding God was mistaken', 5];",
+                    "// define our tuple let ourTuple: [number, boolean, string]; // initialize correctly ourTuple = [5, false, 'Coding God was here']; // We have no type safety in our tuple for indexes 3+ ourTuple.push('Something new and wrong'); console.log(ourTuple);",
+                    "// define our readonly tuple const ourReadonlyTuple: readonly [number, boolean, string] = [5, true, 'The Real Coding God']; // throws error as it is readonly. ourReadonlyTuple.push('Coding God took a day off');",
+                    "const graph: [x: number, y: number] = [55.2, 41.3];",
+                    "const graph: [number, number] = [55.2, 41.3]; const [x, y] = graph;",
+                    "Example // define our tuple let ourTuple: [number, boolean, string]; // initialize correctly ourTuple = [5, false, 'Coding God was here']; Try it Yourself »",
+                    "Example // define our tuple let ourTuple: [number, boolean, string]; // initialized incorrectly which throws an error ourTuple = [false, 'Coding God was mistaken', 5]; Try it Yourself »",
+                    "Example // define our tuple let ourTuple: [number, boolean, string]; // initialize correctly ourTuple = [5, false, 'Coding God was here']; // We have no type safety in our tuple for indexes 3+ ourTuple.push('Something new and wrong'); console.log(ourTuple); Try it Yourself »",
+                    "Example // define our readonly tuple const ourReadonlyTuple: readonly [number, boolean, string] = [5, true, 'The Real Coding God']; // throws error as it is readonly. ourReadonlyTuple.push('Coding God took a day off'); Try it Yourself »",
+                    "Example const graph: [x: number, y: number] = [55.2, 41.3];",
+                    "Example const graph: [number, number] = [55.2, 41.3]; const [x, y] = graph;"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_arrays.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_tuples"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_tuples_wrong_order"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_tuples_newvalue"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_tuples_readonly"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_arrays.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_object_types.php",
+        "cours": {
+            "titre": "TypeScript Object Types",
+            "description": "Object types like this can also be written separately, and even be reused, look at interfaces for more details.",
+            "lien": "https://www.w3schools.com/typescript/typescript_object_types.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "const car: { type: string, model: string, year: number } = { type: \"Toyota\", model: \"Corolla\", year: 2009 };",
+                    "const car = { type: \"Toyota\", }; car.type = \"Ford\"; // no error car.type = 2; // Error: Type 'number' is not assignable to type 'string'.",
+                    "const car: { type: string, mileage: number } = { // Error: Property 'mileage' is missing in type '{ type: string;\n      }' but required in type '{ type: string; mileage: number; }'. type: \"Toyota\", }; car.mileage = 2000;",
+                    "const car: { type: string, mileage?: number } = { // no error type: \"Toyota\" }; car.mileage = 2000;",
+                    "const nameAgeMap: { [index: string]: number } = {}; nameAgeMap.Jack = 25; // no error nameAgeMap.Mark = \"Fifty\"; // Error: Type 'string' is not assignable to type 'number'.",
+                    "Example const car: { type: string, model: string, year: number } = { type: \"Toyota\", model: \"Corolla\", year: 2009 }; Try it Yourself »",
+                    "Example const car = { type: \"Toyota\", }; car.type = \"Ford\"; // no error car.type = 2; // Error: Type 'number' is not assignable to type 'string'. Try it Yourself »",
+                    "Example without an optional property const car: { type: string, mileage: number } = { // Error: Property 'mileage' is missing in type '{ type: string;\n      }' but required in type '{ type: string; mileage: number; }'. type: \"Toyota\", }; car.mileage = 2000;",
+                    "Example with an optional property const car: { type: string, mileage?: number } = { // no error type: \"Toyota\" }; car.mileage = 2000; Try it Yourself »",
+                    "Example const nameAgeMap: { [index: string]: number } = {}; nameAgeMap.Jack = 25; // no error nameAgeMap.Mark = \"Fifty\"; // Error: Type 'string' is not assignable to type 'number'. Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_tuples.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_object_types_ex"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_object_types_infer"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_object_types_optional"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_object_types_undefined_props"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_tuples.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_enums.php",
+        "cours": {
+            "titre": "TypeScript Enums",
+            "description": "",
+            "lien": "https://www.w3schools.com/typescript/typescript_enums.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "enum CardinalDirections { North, East, South, West } let currentDirection = CardinalDirections.North; // logs 0 console.log(currentDirection); // throws error as 'North' is not a valid enum currentDirection = 'North'; // Error: \"North\" is not assignable to type 'CardinalDirections'.",
+                    "enum CardinalDirections { North = 1, East, South, West } // logs 1 console.log(CardinalDirections.North); // logs 4 console.log(CardinalDirections.West);",
+                    "enum StatusCodes { NotFound = 404, Success = 200, Accepted = 202, BadRequest = 400 } // logs 404 console.log(StatusCodes.NotFound); // logs 200 console.log(StatusCodes.Success);",
+                    "enum CardinalDirections { North = 'North', East = \"East\", South = \"South\", West = \"West\" }; // logs \"North\" console.log(CardinalDirections.North); // logs \"West\" console.log(CardinalDirections.West);",
+                    "Example enum CardinalDirections { North, East, South, West } let currentDirection = CardinalDirections.North; // logs 0 console.log(currentDirection); // throws error as 'North' is not a valid enum currentDirection = 'North'; // Error: \"North\" is not assignable to type 'CardinalDirections'. Try it Yourself »",
+                    "Example enum CardinalDirections { North = 1, East, South, West } // logs 1 console.log(CardinalDirections.North); // logs 4 console.log(CardinalDirections.West); Try it Yourself »",
+                    "Example enum StatusCodes { NotFound = 404, Success = 200, Accepted = 202, BadRequest = 400 } // logs 404 console.log(StatusCodes.NotFound); // logs 200 console.log(StatusCodes.Success); Try it Yourself »",
+                    "Example enum CardinalDirections { North = 'North', East = \"East\", South = \"South\", West = \"West\" }; // logs \"North\" console.log(CardinalDirections.North); // logs \"West\" console.log(CardinalDirections.West); Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_object_types.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_enums_numeric"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_enums_numeric_init"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_enums_numeric_custom"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_enums_strings"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_object_types.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_aliases_and_interfaces.php",
+        "cours": {
+            "titre": "TypeScript Type Aliases and Interfaces",
+            "description": "Extending an interface means you are creating a new interface with the same properties as the original, plus something new.",
+            "lien": "https://www.w3schools.com/typescript/typescript_aliases_and_interfaces.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "type CarYear = number type CarType = string type CarModel = string type Car = { year: CarYear, type: CarType, model: CarModel } const carYear: CarYear = 2001 const carType: CarType = \"Toyota\" const carModel: CarModel = \"Corolla\" const car: Car = { year: carYear, type: carType, model: carModel };",
+                    "interface Rectangle { height: number, width: number } const rectangle: Rectangle = { height: 20, width: 10 };",
+                    "interface Rectangle { height: number, width: number } interface ColoredRectangle extends Rectangle { color: string } const coloredRectangle: ColoredRectangle = { height: 20, width: 10, color: \"red\" };",
+                    "Example type CarYear = number type CarType = string type CarModel = string type Car = { year: CarYear, type: CarType, model: CarModel } const carYear: CarYear = 2001 const carType: CarType = \"Toyota\" const carModel: CarModel = \"Corolla\" const car: Car = { year: carYear, type: carType, model: carModel }; Try it Yourself »",
+                    "Example interface Rectangle { height: number, width: number } const rectangle: Rectangle = { height: 20, width: 10 }; Try it Yourself »",
+                    "Example interface Rectangle { height: number, width: number } interface ColoredRectangle extends Rectangle { color: string } const coloredRectangle: ColoredRectangle = { height: 20, width: 10, color: \"red\" }; Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_enums.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_aliases"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_aliases_interfaces"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_aliases_interfaces_extended"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_enums.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_union_types.php",
+        "cours": {
+            "titre": "TypeScript Union Types",
+            "description": "",
+            "lien": "https://www.w3schools.com/typescript/typescript_union_types.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "function printStatusCode(code: string | number) { console.log(`My status code is ${code}.`) } printStatusCode(404); printStatusCode('404');",
+                    "function printStatusCode(code: string | number) { console.log(`My status code is ${code.toUpperCase()}.`) // error: Property 'toUpperCase' does not exist ontype 'string | number'. Property 'toUpperCase' does not exist on type 'number' }",
+                    "Example function printStatusCode(code: string | number) { console.log(`My status code is ${code}.`) } printStatusCode(404); printStatusCode('404'); Try it Yourself »",
+                    "Example function printStatusCode(code: string | number) { console.log(`My status code is ${code.toUpperCase()}.`) // error: Property 'toUpperCase' does not exist ontype 'string | number'. Property 'toUpperCase' does not exist on type 'number' } In our example we are having an issue invoking toUpperCase() as its a string method and number doesn't have access\n            to it. Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_aliases_and_interfaces.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_or"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_or_error"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_aliases_and_interfaces.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_functions.php",
+        "cours": {
+            "titre": "TypeScript Functions",
+            "description": "If no return type is defined, TypeScript will attempt to infer it through the types of the variables or expressions returned.",
+            "lien": "https://www.w3schools.com/typescript/typescript_functions.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "// the `: number` here specifies that this function returns a number function getTime(): number { return new Date().getTime(); }",
+                    "function printHello(): void { console.log('Hello!'); }",
+                    "function multiply(a: number, b: number) { return a * b; }",
+                    "// the `?` operator here marks parameter `c` as optional function add(a: number, b: number, c?: number) { return a + b + (c || 0); }",
+                    "function pow(value: number, exponent: number = 10) { return value ** exponent; }",
+                    "function divide({ dividend, divisor }: { dividend: number, divisor: number }) { return dividend / divisor; }",
+                    "function add(a: number, b: number, ...rest: number[]) { return a + b + rest.reduce((p, c) => p + c, 0); }",
+                    "type Negate = (value: number) => number; // in this function, the parameter `value` automatically gets assigned the type `number` from the type `Negate` const negateFunction: Negate = (value) => value * -1;",
+                    "Example // the `: number` here specifies that this function returns a number function getTime(): number { return new Date().getTime(); } Try it Yourself »",
+                    "Example function printHello(): void { console.log('Hello!'); } Try it Yourself »",
+                    "Example function multiply(a: number, b: number) { return a * b; } Try it Yourself »",
+                    "Example // the `?` operator here marks parameter `c` as optional function add(a: number, b: number, c?: number) { return a + b + (c || 0); } Try it Yourself »",
+                    "Example function pow(value: number, exponent: number = 10) { return value ** exponent; } Try it Yourself »",
+                    "Example function divide({ dividend, divisor }: { dividend: number, divisor: number }) { return dividend / divisor; } Try it Yourself »",
+                    "Example function add(a: number, b: number, ...rest: number[]) { return a + b + rest.reduce((p, c) => p + c, 0); } Try it Yourself »",
+                    "Example type Negate = (value: number) => number; // in this function, the parameter `value` automatically gets assigned the type `number` from the type `Negate` const negateFunction: Negate = (value) => value * -1; Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_union_types.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_functions_explicit"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_functions_void"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_functions_params"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_functions_params_optional"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_functions_params_defaults"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_functions_named_types"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_functions_rest"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_functions_types"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_union_types.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_casting.php",
+        "cours": {
+            "titre": "TypeScript Casting",
+            "description": "",
+            "lien": "https://www.w3schools.com/typescript/typescript_casting.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "let x: unknown = 'hello'; console.log((x as string).length);",
+                    "let x: unknown = 4; console.log((x as string).length); // prints undefined since numbers don't have a length",
+                    "console.log((4 as string).length); // Error: Conversion of type 'number' to type 'string' may be a mistake because neither type sufficiently overlaps with the other. If this was intentional, convert the expression to 'unknown' first.",
+                    "let x: unknown = 'hello'; console.log((<string>x).length);",
+                    "let x = 'hello'; console.log(((x as unknown) as number).length); // x is not actually a number so this will return undefined",
+                    "Example let x: unknown = 'hello'; console.log((x as string).length); Try it Yourself »",
+                    "Example let x: unknown = 'hello'; console.log((<string>x).length); Try it Yourself »",
+                    "Example let x = 'hello'; console.log(((x as unknown) as number).length); // x is not actually a number so this will return undefined Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_functions.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_casting_as"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_casting_as_brackets"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_casting_unknown"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_functions.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_classes.php",
+        "cours": {
+            "titre": "TypeScript Classes",
+            "description": "There are three main visibility modifiers in TypeScript. public - (default) allows access to the class member from anywhere private - only allows access to the class member from within the class protected - allows access to the class member from itself and any classes that inherit it, which is covered in the inheritance section below",
+            "lien": "https://www.w3schools.com/typescript/typescript_classes.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "class Person { name: string; } const person = new Person(); person.name = \"Jane\";",
+                    "class Person { private name: string; public constructor(name: string) { this.name = name; } public getName(): string { return this.name; } } const person = new Person(\"Jane\"); console.log(person.getName()); // person.name isn't accessible from outside the class since it's private",
+                    "class Person { // name is a private member variable public constructor(private name: string) {} public getName(): string { return this.name; } } const person = new Person(\"Jane\"); console.log(person.getName());",
+                    "class Person { private readonly name: string; public constructor(name: string) { // name cannot be changed after this initial definition, which has to be either at it's declaration or in the constructor. this.name = name; } public getName(): string { return this.name; } } const person = new Person(\"Jane\"); console.log(person.getName());",
+                    "interface Shape { getArea: () => number; } class Rectangle implements Shape { public constructor(protected readonly width: number, protected readonly height: number) {} public getArea(): number { return this.width * this.height; } }",
+                    "interface Shape { getArea: () => number; } class Rectangle implements Shape { public constructor(protected readonly width: number, protected readonly height: number) {} public getArea(): number { return this.width * this.height; } } class Square extends Rectangle { public constructor(width: number) { super(width, width); } // getArea gets inherited from Rectangle }",
+                    "interface Shape { getArea: () => number; } class Rectangle implements Shape { // using protected for these members allows access from classes that extend from this class, such as Square public constructor(protected readonly width: number, protected readonly height: number) {} public getArea(): number { return this.width * this.height; } public toString(): string { return `Rectangle[width=${this.width}, height=${this.height}]`; } } class Square extends Rectangle { public constructor(width: number) { super(width, width); } // this toString replaces the toString from Rectangle public override toString(): string { return `Square[width=${this.width}]`; } }",
+                    "abstract class Polygon { public abstract getArea(): number; public toString(): string { return `Polygon[area=${this.getArea()}]`; } } class Rectangle extends Polygon { public constructor(protected readonly width: number, protected readonly height: number) { super(); } public getArea(): number { return this.width * this.height; } }",
+                    "Example class Person { name: string; } const person = new Person(); person.name = \"Jane\"; Try it Yourself »",
+                    "Example class Person { private name: string; public constructor(name: string) { this.name = name; } public getName(): string { return this.name; } } const person = new Person(\"Jane\"); console.log(person.getName()); // person.name isn't accessible from outside the class since it's private Try it Yourself »",
+                    "Example class Person { // name is a private member variable public constructor(private name: string) {} public getName(): string { return this.name; } } const person = new Person(\"Jane\"); console.log(person.getName()); Try it Yourself »",
+                    "Example class Person { private readonly name: string; public constructor(name: string) { // name cannot be changed after this initial definition, which has to be either at it's declaration or in the constructor. this.name = name; } public getName(): string { return this.name; } } const person = new Person(\"Jane\"); console.log(person.getName()); Try it Yourself »",
+                    "Example interface Shape { getArea: () => number; } class Rectangle implements Shape { public constructor(protected readonly width: number, protected readonly height: number) {} public getArea(): number { return this.width * this.height; } } Try it Yourself »",
+                    "Example interface Shape { getArea: () => number; } class Rectangle implements Shape { public constructor(protected readonly width: number, protected readonly height: number) {} public getArea(): number { return this.width * this.height; } } class Square extends Rectangle { public constructor(width: number) { super(width, width); } // getArea gets inherited from Rectangle } Try it Yourself »",
+                    "Example interface Shape { getArea: () => number; } class Rectangle implements Shape { // using protected for these members allows access from classes that extend from this class, such as Square public constructor(protected readonly width: number, protected readonly height: number) {} public getArea(): number { return this.width * this.height; } public toString(): string { return `Rectangle[width=${this.width}, height=${this.height}]`; } } class Square extends Rectangle { public constructor(width: number) { super(width, width); } // this toString replaces the toString from Rectangle public override toString(): string { return `Square[width=${this.width}]`; } } Try it Yourself »",
+                    "Example abstract class Polygon { public abstract getArea(): number; public toString(): string { return `Polygon[area=${this.getArea()}]`; } } class Rectangle extends Polygon { public constructor(protected readonly width: number, protected readonly height: number) { super(); } public getArea(): number { return this.width * this.height; } } Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_casting.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_class_intro"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_class_modifiers"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_class_param_prop"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_class_readonly"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_class_interface"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_class_extends"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_class_override"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_class_abstract"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_casting.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_basic_generics.php",
+        "cours": {
+            "titre": "TypeScript Basic Generics",
+            "description": "TypeScript can also infer the type of the generic parameter from the function parameters.",
+            "lien": "https://www.w3schools.com/typescript/typescript_basic_generics.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "function createPair<S, T>(v1: S, v2: T): [S, T] { return [v1, v2]; } console.log(createPair<string, number>('hello', 42)); // ['hello', 42]",
+                    "class NamedValue<T> { private _value: T | undefined; constructor(private name: string) {} public setValue(value: T) { this._value = value; } public getValue(): T | undefined { return this._value; } public toString(): string { return `${this.name}: ${this._value}`; } } let value = new NamedValue<number>('myNumber'); value.setValue(10); console.log(value.toString()); // myNumber: 10",
+                    "type Wrapped<T> = { value: T }; const wrappedValue: Wrapped<number> = { value: 10 };",
+                    "class NamedValue<T = string> { private _value: T | undefined; constructor(private name: string) {} public setValue(value: T) { this._value = value; } public getValue(): T | undefined { return this._value; } public toString(): string { return `${this.name}: ${this._value}`; } } let value = new NamedValue('myNumber'); value.setValue('myValue'); console.log(value.toString()); // myNumber: myValue",
+                    "function createLoggedPair<S extends string | number, T extends string | number>(v1: S, v2: T): [S, T] { console.log(`creating pair: v1='${v1}', v2='${v2}'`); return [v1, v2]; }",
+                    "Example function createPair<S, T>(v1: S, v2: T): [S, T] { return [v1, v2]; } console.log(createPair<string, number>('hello', 42)); // ['hello', 42] Try it Yourself »",
+                    "Example class NamedValue<T> { private _value: T | undefined; constructor(private name: string) {} public setValue(value: T) { this._value = value; } public getValue(): T | undefined { return this._value; } public toString(): string { return `${this.name}: ${this._value}`; } } let value = new NamedValue<number>('myNumber'); value.setValue(10); console.log(value.toString()); // myNumber: 10 Try it Yourself »",
+                    "Example type Wrapped<T> = { value: T }; const wrappedValue: Wrapped<number> = { value: 10 };",
+                    "Example class NamedValue<T = string> { private _value: T | undefined; constructor(private name: string) {} public setValue(value: T) { this._value = value; } public getValue(): T | undefined { return this._value; } public toString(): string { return `${this.name}: ${this._value}`; } } let value = new NamedValue('myNumber'); value.setValue('myValue'); console.log(value.toString()); // myNumber: myValue",
+                    "Example function createLoggedPair<S extends string | number, T extends string | number>(v1: S, v2: T): [S, T] { console.log(`creating pair: v1='${v1}', v2='${v2}'`); return [v1, v2]; }"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_classes.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_basic_generics"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_basic_generics_class"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_classes.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_utility_types.php",
+        "cours": {
+            "titre": "TypeScript Utility Types",
+            "description": "Record<string, number> is equivalent to { [key: string]: number }",
+            "lien": "https://www.w3schools.com/typescript/typescript_utility_types.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "interface Point { x: number; y: number; } let pointPart: Partial<Point> = {}; // `Partial` allows x and y to be optional pointPart.x = 10;",
+                    "interface Car { make: string; model: string; mileage?: number; } let myCar: Required<Car> = { make: 'Ford', model: 'Focus', mileage: 12000 // `Required` forces mileage to be defined };",
+                    "const nameAgeMap: Record<string, number> = { 'Alice': 21, 'Bob': 25 };",
+                    "interface Person { name: string; age: number; location?: string; } const bob: Omit<Person, 'age' | 'location'> = { name: 'Bob' // `Omit` has removed age and location from the type and they can't be defined here };",
+                    "interface Person { name: string; age: number; location?: string; } const bob: Pick<Person, 'name'> = { name: 'Bob' // `Pick` has only kept name, so age and location were removed from the type and they can't be defined here };",
+                    "type Primitive = string | number | boolean const value: Exclude<Primitive, string> = true; // a string cannot be used here since Exclude removed it from the type.",
+                    "type PointGenerator = () => { x: number; y: number; }; const point: ReturnType<PointGenerator> = { x: 10, y: 20 };",
+                    "type PointPrinter = (p: { x: number; y: number; }) => void; const point: Parameters<PointPrinter>[0] = { x: 10, y: 20 };",
+                    "interface Person { name: string; age: number; } const person: Readonly<Person> = { name: \"Dylan\", age: 35, }; person.name = 'Israel'; // prog.ts(11,8): error TS2540: Cannot assign to 'name' because it is a read-only property.",
+                    "Example interface Point { x: number; y: number; } let pointPart: Partial<Point> = {}; // `Partial` allows x and y to be optional pointPart.x = 10; Try it Yourself »",
+                    "Example interface Car { make: string; model: string; mileage?: number; } let myCar: Required<Car> = { make: 'Ford', model: 'Focus', mileage: 12000 // `Required` forces mileage to be defined }; Try it Yourself »",
+                    "Example const nameAgeMap: Record<string, number> = { 'Alice': 21, 'Bob': 25 }; Try it Yourself »",
+                    "Example interface Person { name: string; age: number; location?: string; } const bob: Omit<Person, 'age' | 'location'> = { name: 'Bob' // `Omit` has removed age and location from the type and they can't be defined here }; Try it Yourself »",
+                    "Example interface Person { name: string; age: number; location?: string; } const bob: Pick<Person, 'name'> = { name: 'Bob' // `Pick` has only kept name, so age and location were removed from the type and they can't be defined here }; Try it Yourself »",
+                    "Example type Primitive = string | number | boolean const value: Exclude<Primitive, string> = true; // a string cannot be used here since Exclude removed it from the type. Try it Yourself »",
+                    "Example type PointGenerator = () => { x: number; y: number; }; const point: ReturnType<PointGenerator> = { x: 10, y: 20 }; Try it Yourself »",
+                    "Example type PointPrinter = (p: { x: number; y: number; }) => void; const point: Parameters<PointPrinter>[0] = { x: 10, y: 20 }; Try it Yourself »",
+                    "Example interface Person { name: string; age: number; } const person: Readonly<Person> = { name: \"Dylan\", age: 35, }; person.name = 'Israel'; // prog.ts(11,8): error TS2540: Cannot assign to 'name' because it is a read-only property. Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_basic_generics.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_utility_types_partial"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_utility_types_required"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_utility_types_record"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_utility_types_omit"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_utility_types_pick"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_utility_types_exclude"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_utility_types_return_type"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_utility_types_parameters"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_utility_types_readonly"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_basic_generics.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_keyof.php",
+        "cours": {
+            "titre": "TypeScript Keyof",
+            "description": "",
+            "lien": "https://www.w3schools.com/typescript/typescript_keyof.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "interface Person { name: string; age: number; } // `keyof Person` here creates a union type of \"name\" and \"age\", other strings will not be allowed function printPersonProperty(person: Person, property: keyof Person) { console.log(`Printing person property ${property}: \"${person[property]}\"`); } let person = { name: \"Max\", age: 27 }; printPersonProperty(person, \"name\"); // Printing person property name: \"Max\"",
+                    "type StringMap = { [key: string]: unknown }; // `keyof StringMap` resolves to `string` here function createStringPair(property: keyof StringMap, value: string): StringMap { return { [property]: value }; }",
+                    "Example interface Person { name: string; age: number; } // `keyof Person` here creates a union type of \"name\" and \"age\", other strings will not be allowed function printPersonProperty(person: Person, property: keyof Person) { console.log(`Printing person property ${property}: \"${person[property]}\"`); } let person = { name: \"Max\", age: 27 }; printPersonProperty(person, \"name\"); // Printing person property name: \"Max\" Try it Yourself »",
+                    "type StringMap = { [key: string]: unknown }; // `keyof StringMap` resolves to `string` here function createStringPair(property: keyof StringMap, value: string): StringMap { return { [property]: value }; }"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_utility_types.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_keyof_explicit"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_utility_types.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_null.php",
+        "cours": {
+            "titre": "TypeScript Null & Undefined",
+            "description": "",
+            "lien": "https://www.w3schools.com/typescript/typescript_null.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "let value: string | undefined | null = null; value = 'hello'; value = undefined;",
+                    "interface House { sqft: number; yard?: { sqft: number; }; } function printYardSize(house: House) { const yardSize = house.yard?.sqft; if (yardSize === undefined) { console.log('No yard'); } else { console.log(`Yard is ${yardSize} sqft`); } } let home: House = { sqft: 500 }; printYardSize(home); // Prints 'No yard'",
+                    "function printMileage(mileage: number | null | undefined) { console.log(`Mileage: ${mileage ?? 'Not Available'}`); } printMileage(null); // Prints 'Mileage: Not Available' printMileage(0); // Prints 'Mileage: 0'",
+                    "function getValue(): string | undefined { return 'hello'; } let value = getValue(); console.log('value length: ' + value!.length);",
+                    "let array: number[] = [1, 2, 3]; let value = array[0]; // with `noUncheckedIndexedAccess` this has the type `number | undefined`",
+                    "Example let value: string | undefined | null = null; value = 'hello'; value = undefined; Try it Yourself »",
+                    "Example interface House { sqft: number; yard?: { sqft: number; }; } function printYardSize(house: House) { const yardSize = house.yard?.sqft; if (yardSize === undefined) { console.log('No yard'); } else { console.log(`Yard is ${yardSize} sqft`); } } let home: House = { sqft: 500 }; printYardSize(home); // Prints 'No yard' Try it Yourself »",
+                    "Example function printMileage(mileage: number | null | undefined) { console.log(`Mileage: ${mileage ?? 'Not Available'}`); } printMileage(null); // Prints 'Mileage: Not Available' printMileage(0); // Prints 'Mileage: 0' Try it Yourself »",
+                    "Example function getValue(): string | undefined { return 'hello'; } let value = getValue(); console.log('value length: ' + value!.length); Try it Yourself »",
+                    "Example let array: number[] = [1, 2, 3]; let value = array[0]; // with `noUncheckedIndexedAccess` this has the type `number | undefined` Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_keyof.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_null_optional"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_null_chaining"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_null_coalescence"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_null_assertion"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_null_bounds"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_keyof.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_definitely_typed.php",
+        "cours": {
+            "titre": "TypeScript Definitely Typed",
+            "description": "Editors such as Visual Studio Code will often suggest installing packages like these when types are missing.",
+            "lien": "https://www.w3schools.com/typescript/typescript_definitely_typed.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "npm install --save-dev @types/jquery",
+                    "Example npm install --save-dev @types/jquery"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_null.php"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_null.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_5_updates.php",
+        "cours": {
+            "titre": "TypeScript 5.x Updates",
+            "description": "As a reminder these features will only be available in 5.x+",
+            "lien": "https://www.w3schools.com/typescript/typescript_5_updates.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [
+                    "type Color = \"red\" | \"green\" | \"blue\"; type HexColor<T extends Color> = `#${string}`; // Usage: let myColor: HexColor<\"blue\"> = \"#0000FF\";",
+                    "type DynamicObject = { [key: string as `dynamic_${string}`]: string }; // Usage: let obj: DynamicObject = { dynamic_key: \"value\" };",
+                    "Example type Color = \"red\" | \"green\" | \"blue\"; type HexColor<T extends Color> = `#${string}`; // Usage: let myColor: HexColor<\"blue\"> = \"#0000FF\"; Try it Yourself »",
+                    "Example type DynamicObject = { [key: string as `dynamic_${string}`]: string }; // Usage: let obj: DynamicObject = { dynamic_key: \"value\" }; Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_definitely_typed.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_template_literal_types"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_index_signature_label"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_definitely_typed.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_editor.php",
+        "cours": {
+            "titre": "TypeScript Online Editor",
+            "description": "",
+            "lien": "https://www.w3schools.com/typescript/typescript_editor.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [
+                    [
+                        "Templates: Start from scratch or use a template",
+                        "Cloud-based: no installations required. You only need your browser",
+                        "Terminal & Log: debug and troubleshoot your code easily",
+                        "File Navigator: switch between files inside the code editor",
+                        "And much more!"
+                    ]
+                ],
+                "examples": [
+                    "console.log('Hello World!');"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_definitely_typed.php"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_definitely_typed.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_exercises.php",
+        "cours": {
+            "titre": "TypeScript Exercises",
+            "description": "",
+            "lien": "https://www.w3schools.com/typescript/typescript_exercises.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_editor.php"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_editor.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_quiz.php",
+        "cours": {
+            "titre": "TypeScript Quiz",
+            "description": "",
+            "lien": "https://www.w3schools.com/typescript/typescript_quiz.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_exercises.php"
+                    },
+                    {
+                        "title": "Start the TypeScript Quiz ❯",
+                        "url": "https://www.w3schools.com/quiztest/quiztest.php?qtest=TS"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_exercises.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_syllabus.php",
+        "cours": {
+            "titre": "TypeScript Syllabus",
+            "description": "",
+            "lien": "https://www.w3schools.com/typescript/typescript_syllabus.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [
+                    [
+                        "Learn what TypeScript is and how to get started",
+                        "Work with simple types (string, number, boolean)",
+                        "Use special types (any, void, never, undefined, null)",
+                        "Create and work with arrays and tuples",
+                        "Define object types and enums",
+                        "Use type aliases and interfaces",
+                        "Work with union types and functions",
+                        "Understand type casting and classes",
+                        "Use basic generics and utility types"
+                    ],
+                    [
+                        "Web Development: TypeScript enhances JavaScript development with static typing.",
+                        "Front-end Development: TypeScript is widely used in Angular and other frameworks.",
+                        "Back-end Development: TypeScript can be used with Node.js for server-side code.",
+                        "Application Development: TypeScript supports building large-scale applications.",
+                        "Enterprise Software: TypeScript provides better tooling and maintainability.",
+                        "API Development: TypeScript offers strong typing for API contracts.",
+                        "Full-stack Development: TypeScript enables type safety across the stack."
+                    ],
+                    [
+                        "Lessons",
+                        "Exercises",
+                        "Quizzes"
+                    ],
+                    [
+                        "Learning paths",
+                        "Sandbox and lab environments",
+                        "Achievements",
+                        "And much more!"
+                    ],
+                    [
+                        "Collaboration",
+                        "File navigator",
+                        "Terminal & log",
+                        "Package manager",
+                        "Database",
+                        "Environment manager",
+                        "Analytics"
+                    ],
+                    [
+                        "Non-adaptive",
+                        "Adaptive"
+                    ]
+                ],
+                "examples": [
+                    "console.log('Hello World!');",
+                    "Example console.log('Hello World!'); Try it Yourself »"
+                ],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_quiz.php"
+                    },
+                    {
+                        "title": "Try it Yourself »",
+                        "url": "https://www.w3schools.com/typescript/trytypescript.php?filename=demo_helloworld"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_quiz.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_study_plan.php",
+        "cours": {
+            "titre": "TypeScript Study Plan",
+            "description": "",
+            "lien": "https://www.w3schools.com/typescript/typescript_study_plan.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [
+                    [
+                        "Essentials ($1.99 / month per student)",
+                        "Full Access ($5.99 / month per student)",
+                        "Calculate your price and order here ."
+                    ],
+                    [
+                        "Managing your classroom",
+                        "Tracking of student progress and reports",
+                        "Labs, assignments, and code challenges (prebuilt challenges or create your own ones)",
+                        "Auto-grading",
+                        "Teaching materials",
+                        "Certification exams"
+                    ],
+                    [
+                        "W3Schools TypeScript Tutorial",
+                        "TypeScript Exercises",
+                        "TypeScript Quiz",
+                        "TypeScript Challenges (Coding challenges)",
+                        "TypeScript Certification Exam (End of Pathway Exam)"
+                    ],
+                    [
+                        "Learning Paths You can add ready-made learning paths. The learning paths are by default ordered by our recommended order. You can change the order. You can add custom activities with text, links, or multi-media files. Drag and drop or click to make changes to the path.",
+                        "You can add ready-made learning paths.",
+                        "The learning paths are by default ordered by our recommended order.",
+                        "You can change the order.",
+                        "You can add custom activities with text, links, or multi-media files.",
+                        "Drag and drop or click to make changes to the path.",
+                        "Interactive Content Tutorials Try-its (test code snippets) Exercises Quiz Challenges Labs",
+                        "Tutorials",
+                        "Try-its (test code snippets)",
+                        "Exercises",
+                        "Quiz",
+                        "Challenges",
+                        "Labs",
+                        "Timeline and Pace You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans). You can decide the learning pace for your class. Different study plans can be assigned to different students in the same class. The flexibility can help to make sure that everyone is challenged.",
+                        "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+                        "You can decide the learning pace for your class.",
+                        "Different study plans can be assigned to different students in the same class.",
+                        "The flexibility can help to make sure that everyone is challenged.",
+                        "Track Student Progress There are tools to track student progress. The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more. The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+                        "There are tools to track student progress.",
+                        "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+                        "The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+                        "End of Pathway Exam The TypeScript study plan aligns with the TypeScript Certification Exam. The exam can be taken at the end of the study plan, at your selected date. The exam summarizes the TypeScript Tutorial. You get reports of the students' results.",
+                        "The TypeScript study plan aligns with the TypeScript Certification Exam.",
+                        "The exam can be taken at the end of the study plan, at your selected date.",
+                        "The exam summarizes the TypeScript Tutorial.",
+                        "You get reports of the students' results.",
+                        "Accessibility Study plans and learning materials are accessible on desktops, tablets, and smartphones. This ensures students can learn anytime, anywhere.",
+                        "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+                        "This ensures students can learn anytime, anywhere."
+                    ],
+                    [
+                        "Week 1: Essentials",
+                        "Week 2: Syntax and Variables, Functions",
+                        "Week 3: Arrays, Tuples, Object-oriented programming, TypeScript Certification Exam"
+                    ]
+                ],
+                "examples": [],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_syllabus.php"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_exercises.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://www.w3schools.com/typescript/typescript_exam.php",
+        "cours": {
+            "titre": "TypeScript Certificate",
+            "description": "How Does It Work? Study for free at W3Schools.com Study at your own speed Test your skills with W3Schools online quizzes Apply for your certificate by paying an exam fee Take your exam online, at any time, and from any location",
+            "lien": "https://www.w3schools.com/typescript/typescript_exam.php",
+            "contenus": {
+                "paragraphs": [],
+                "lists": [],
+                "examples": [],
+                "course_structure": [
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_study_plan.php"
+                    },
+                    {
+                        "title": "❮ Previous",
+                        "url": "https://www.w3schools.com/typescript/typescript_study_plan.php"
+                    },
+                    {
+                        "title": "Log in",
+                        "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+                    }
+                ]
+            },
+            "categories": "",
+            "niveau": "",
+            "durée": ""
+        }
+    },
+    {
+        "url": "https://campus.w3schools.com/products/typescript-certificate?utm_source=w3schools&utm_medium=referral&utm_campaign=typescript_exam&utm_content=get_your_certificate",
+        "cours": {}
+    }
+]

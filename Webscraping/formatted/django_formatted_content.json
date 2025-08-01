@@ -1,0 +1,3288 @@
+[
+  {
+    "url": "https://www.w3schools.com/django/index.php",
+    "cours": {
+      "titre": "Django Tutorial",
+      "description": "[+: Learn Django Django is a back-end server side web framework. Django is free, open source and written in Python. Django makes it easier to build web pages using Python. Start learning \n  Django now ❯",
+      "lien": "https://www.w3schools.com/django/index.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "Example <ul>\n  {% for x in mymembers %}\n    <li>{{ x.firstname }}</li>\n  {% endfor %}\n</ul> Run Example »"
+        ],
+        "course_structure": [
+          {
+            "title": "Start learning \n  Django now ❯",
+            "url": "https://www.w3schools.com/django/django_intro.php"
+          },
+          {
+            "title": "Introduction",
+            "url": "https://www.w3schools.com/django/django_intro.php"
+          },
+          {
+            "title": "Getting Started",
+            "url": "https://www.w3schools.com/django/django_getstarted.php"
+          },
+          {
+            "title": "Virtual Environment",
+            "url": "https://www.w3schools.com/django/django_create_virtual_environment.php"
+          },
+          {
+            "title": "Install Django",
+            "url": "https://www.w3schools.com/django/django_install_django.php"
+          },
+          {
+            "title": "Create Project",
+            "url": "https://www.w3schools.com/django/django_create_project.php"
+          },
+          {
+            "title": "Create App",
+            "url": "https://www.w3schools.com/django/django_create_app.php"
+          },
+          {
+            "title": "Views",
+            "url": "https://www.w3schools.com/django/django_views.php"
+          },
+          {
+            "title": "Urls",
+            "url": "https://www.w3schools.com/django/django_urls.php"
+          },
+          {
+            "title": "Templates",
+            "url": "https://www.w3schools.com/django/django_templates.php"
+          },
+          {
+            "title": "Models",
+            "url": "https://www.w3schools.com/django/django_models.php"
+          },
+          {
+            "title": "Insert Data",
+            "url": "https://www.w3schools.com/django/django_insert_data.php"
+          },
+          {
+            "title": "Update Data",
+            "url": "https://www.w3schools.com/django/django_update_data.php"
+          },
+          {
+            "title": "Delete Data",
+            "url": "https://www.w3schools.com/django/django_delete_data.php"
+          },
+          {
+            "title": "Update Model",
+            "url": "https://www.w3schools.com/django/django_update_model.php"
+          },
+          {
+            "title": "Prepare",
+            "url": "https://www.w3schools.com/django/django_prepare_template.php"
+          },
+          {
+            "title": "Add Details",
+            "url": "https://www.w3schools.com/django/django_add_link_details.php"
+          },
+          {
+            "title": "Add Master",
+            "url": "https://www.w3schools.com/django/django_master_template.php"
+          },
+          {
+            "title": "Add Main",
+            "url": "https://www.w3schools.com/django/django_add_main.php"
+          },
+          {
+            "title": "Add 404",
+            "url": "https://www.w3schools.com/django/django_404.php"
+          },
+          {
+            "title": "Add Test",
+            "url": "https://www.w3schools.com/django/django_test_view.php"
+          },
+          {
+            "title": "Admin",
+            "url": "https://www.w3schools.com/django/django_admin.php"
+          },
+          {
+            "title": "Create User",
+            "url": "https://www.w3schools.com/django/django_admin_create_user.php"
+          },
+          {
+            "title": "Models",
+            "url": "https://www.w3schools.com/django/django_admin_include_members.php"
+          },
+          {
+            "title": "List Display",
+            "url": "https://www.w3schools.com/django/django_admin_set_list_display.php"
+          },
+          {
+            "title": "Update",
+            "url": "https://www.w3schools.com/django/django_admin_update_members.php"
+          },
+          {
+            "title": "Add",
+            "url": "https://www.w3schools.com/django/django_admin_add_members.php"
+          },
+          {
+            "title": "Delete",
+            "url": "https://www.w3schools.com/django/django_admin_delete_members.php"
+          },
+          {
+            "title": "Variables",
+            "url": "https://www.w3schools.com/django/django_template_variables.php"
+          },
+          {
+            "title": "Tags",
+            "url": "https://www.w3schools.com/django/django_template_tags.php"
+          },
+          {
+            "title": "If...Else",
+            "url": "https://www.w3schools.com/django/django_tags_if.php"
+          },
+          {
+            "title": "For Loop",
+            "url": "https://www.w3schools.com/django/django_tags_for.php"
+          },
+          {
+            "title": "Comment",
+            "url": "https://www.w3schools.com/django/django_tags_comment.php"
+          },
+          {
+            "title": "Include",
+            "url": "https://www.w3schools.com/django/django_tags_include.php"
+          },
+          {
+            "title": "QuerySet",
+            "url": "https://www.w3schools.com/django/django_queryset.php"
+          },
+          {
+            "title": "Get Data",
+            "url": "https://www.w3schools.com/django/django_queryset_get.php"
+          },
+          {
+            "title": "Filter",
+            "url": "https://www.w3schools.com/django/django_queryset_filter.php"
+          },
+          {
+            "title": "Order By",
+            "url": "https://www.w3schools.com/django/django_queryset_orderby.php"
+          },
+          {
+            "title": "Add Static",
+            "url": "https://www.w3schools.com/django/django_add_static_files.php"
+          },
+          {
+            "title": "WhiteNoise",
+            "url": "https://www.w3schools.com/django/django_static_whitenoise.php"
+          },
+          {
+            "title": "Collect",
+            "url": "https://www.w3schools.com/django/django_collect_static_files.php"
+          },
+          {
+            "title": "Global Static",
+            "url": "https://www.w3schools.com/django/django_add_global_static_files.php"
+          },
+          {
+            "title": "Add to Poject",
+            "url": "https://www.w3schools.com/django/django_add_css_file_project.php"
+          },
+          {
+            "title": "Intro",
+            "url": "https://www.w3schools.com/django/django_db_postgresql_intro.php"
+          },
+          {
+            "title": "AWS Account",
+            "url": "https://www.w3schools.com/django/django_db_create_aws_account.php"
+          },
+          {
+            "title": "RDS",
+            "url": "https://www.w3schools.com/django/django_db_create_rds.php"
+          },
+          {
+            "title": "Connect",
+            "url": "https://www.w3schools.com/django/django_db_connect.php"
+          },
+          {
+            "title": "Add Members",
+            "url": "https://www.w3schools.com/django/django_db_add_members.php"
+          },
+          {
+            "title": "Elastic Beanstalk",
+            "url": "https://www.w3schools.com/django/django_deploy_provider.php"
+          },
+          {
+            "title": "Requirements",
+            "url": "https://www.w3schools.com/django/django_deploy_requirements.php"
+          },
+          {
+            "title": "django.config",
+            "url": "https://www.w3schools.com/django/django_deploy_config.php"
+          },
+          {
+            "title": "Create .zip",
+            "url": "https://www.w3schools.com/django/django_deploy_zip.php"
+          },
+          {
+            "title": "Deploy",
+            "url": "https://www.w3schools.com/django/django_deploy_eb.php"
+          },
+          {
+            "title": "Update",
+            "url": "https://www.w3schools.com/django/django_deploy_update.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_django_index"
+          },
+          {
+            "title": "See all Django Exercises",
+            "url": "https://www.w3schools.com/django/django_exercises.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_intro.php",
+    "cours": {
+      "titre": "Django Introduction",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_intro.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Model - The data you want to present, usually data from a database.",
+            "View - A request handler that returns the relevant template and content - based on the request from the user.",
+            "Template - A text file (like an HTML file) containing the layout of the web page, with logic on how to display the data."
+          ],
+          [
+            "Django receives the URL, checks the urls.py file, and calls the view that matches the URL.",
+            "The view, located in views.py , checks for relevant models.",
+            "The models are imported from the models.py file.",
+            "The view then sends the data to a specified template in the template folder.",
+            "The template contains HTML and Django tags, and with the data it returns \nfinished HTML content back to the browser."
+          ]
+        ],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/index.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/index.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_getstarted.php",
+    "cours": {
+      "titre": "Django Getting Started",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_getstarted.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "python --version",
+          "Python 3.9.2",
+          "pip --version",
+          "pip 20.2.3 from c:\\python39\\lib\\site-packages\\pip (python 3.9)",
+          "python --version",
+          "Python 3.9.2",
+          "pip --version",
+          "pip 20.2.3 from c:\\python39\\lib\\site-packages\\pip (python 3.9)"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_intro.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_intro.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_create_virtual_environment.php",
+    "cours": {
+      "titre": "Django - Create Virtual Environment",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_create_virtual_environment.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "py -m venv myworld",
+          "python -m venv myworld",
+          "myworld Include Lib Scripts pyvenv.cfg",
+          "myworld\\Scripts\\activate.bat",
+          "source myworld/bin/activate",
+          "(myworld) C:\\Users\\ Your Name >",
+          "(myworld) ... $",
+          "Windows: py -m venv myworld Unix/MacOS: python -m venv myworld",
+          "myworld Include Lib Scripts pyvenv.cfg",
+          "Windows: myworld\\Scripts\\activate.bat Unix/MacOS: source myworld/bin/activate",
+          "Windows: (myworld) C:\\Users\\ Your Name > Unix/MacOS: (myworld) ... $"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_getstarted.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_getstarted.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_install_django.php",
+    "cours": {
+      "titre": "Install Django",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_install_django.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "(myworld) C:\\Users\\ Your Name > py -m pip install Django",
+          "(myworld) ... $ python -m pip install Django",
+          "Collecting Django Downloading \n  Django-4.0.3-py3-none-any.whl (8.0 MB) |████████████████████████████████| \n  8.0 MB 2.2 MB/s Collecting sqlparse>=0.2.2 Using cached \n  sqlparse-0.4.2-py3-none-any.whl (42 kB) Collecting asgiref<4,>=3.4.1 Downloading asgiref-3.5.0-py3-none-any.whl (22 kB) Collecting tzdata; \n  sys_platform == \"win32\" Downloading tzdata-2021.5-py2.py3-none-any.whl (339 \n  kB) |████████████████████████████████| 339 kB 6.4 MB/s Installing \n  collected packages: sqlparse, asgiref, tzdata, Django Successfully \n  installed Django-4.0.3 asgiref-3.5.0 sqlparse-0.4.2 tzdata-2021.5 WARNING: You are using pip version 20.2.3; however, version 22.3 is available. You should consider upgrading via the 'C:\\Users\\ Your Name \\myworld\\Scripts\\python.exe -m pip install --upgrade pip' command.",
+          "py --version",
+          "python --version",
+          "(myworld) C:\\Users\\ Your Name > django-admin --version",
+          "4.1.2",
+          "Windows: (myworld) C:\\Users\\ Your Name > py -m pip install Django Unix/MacOS: (myworld) ... $ python -m pip install Django",
+          "Collecting Django Downloading \n  Django-4.0.3-py3-none-any.whl (8.0 MB) |████████████████████████████████| \n  8.0 MB 2.2 MB/s Collecting sqlparse>=0.2.2 Using cached \n  sqlparse-0.4.2-py3-none-any.whl (42 kB) Collecting asgiref<4,>=3.4.1 Downloading asgiref-3.5.0-py3-none-any.whl (22 kB) Collecting tzdata; \n  sys_platform == \"win32\" Downloading tzdata-2021.5-py2.py3-none-any.whl (339 \n  kB) |████████████████████████████████| 339 kB 6.4 MB/s Installing \n  collected packages: sqlparse, asgiref, tzdata, Django Successfully \n  installed Django-4.0.3 asgiref-3.5.0 sqlparse-0.4.2 tzdata-2021.5 WARNING: You are using pip version 20.2.3; however, version 22.3 is available. You should consider upgrading via the 'C:\\Users\\ Your Name \\myworld\\Scripts\\python.exe -m pip install --upgrade pip' command.",
+          "Windows: py --version Unix/MacOS: python --version",
+          "(myworld) C:\\Users\\ Your Name > django-admin --version",
+          "4.1.2"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_create_virtual_environment.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_create_virtual_environment.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_create_project.php",
+    "cours": {
+      "titre": "Django Create Project",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_create_project.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "django-admin startproject my_tennis_club",
+          "my_tennis_club manage.py my_tennis_club/ __init__.py asgi.py settings.py urls.py wsgi.py",
+          "py manage.py runserver",
+          "Watching for file changes with StatReloader Performing system checks... System check identified no issues (0 silenced). You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions. Run 'python manage.py migrate' to apply them. October 27, 2022 - 13:03:14 Django version 4.1.2, using settings 'my_tennis_club.settings' Starting development server at http://127.0.0.1:8000/ Quit the server with CTRL-BREAK.",
+          "django-admin startproject my_tennis_club",
+          "my_tennis_club manage.py my_tennis_club/ __init__.py asgi.py settings.py urls.py wsgi.py",
+          "py manage.py runserver",
+          "Watching for file changes with StatReloader Performing system checks... System check identified no issues (0 silenced). You have 18 unapplied migration(s). Your project may not work properly until you apply the migrations for app(s): admin, auth, contenttypes, sessions. Run 'python manage.py migrate' to apply them. October 27, 2022 - 13:03:14 Django version 4.1.2, using settings 'my_tennis_club.settings' Starting development server at http://127.0.0.1:8000/ Quit the server with CTRL-BREAK."
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_install_django.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_install_django.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_create_app.php",
+    "cours": {
+      "titre": "Django Create App",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_create_app.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "py manage.py startapp members",
+          "my_tennis_club manage.py my_tennis_club/ members/ migrations/ __init__.py __init__.py admin.py apps.py models.py tests.py views.py",
+          "py manage.py startapp members",
+          "my_tennis_club manage.py my_tennis_club/ members/ migrations/ __init__.py __init__.py admin.py apps.py models.py tests.py views.py"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_create_project.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_create_project.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_views.php",
+    "cours": {
+      "titre": "Django Views",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_views.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "my_tennis_club/members/views.py : from django.shortcuts import render\n\n# Create your views here.",
+          "my_tennis_club/members/views.py : from django.shortcuts import render\nfrom django.http import HttpResponse\n\ndef members(request):\n    return HttpResponse(\"Hello world!\")"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_create_app.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_create_app.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_urls.php",
+    "cours": {
+      "titre": "Django URLs",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_urls.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "py manage.py runserver",
+          "my_tennis_club/members/urls.py : from django.urls import path\nfrom . import views\n\nurlpatterns = [\n    path('members/', views.members, name='members'),\n]",
+          "my_tennis_club/my_tennis_club/urls.py : from django.contrib import admin\nfrom django.urls import include, path\n\nurlpatterns = [\n    path('', include('members.urls')),\n    path('admin/', admin.site.urls),\n]",
+          "py manage.py runserver"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_views.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_views.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_templates.php",
+    "cours": {
+      "titre": "Django Templates",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_templates.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "my_tennis_club manage.py my_tennis_club/ members/ templates/ myfirst.html",
+          "py manage.py migrate",
+          "Operations to perform: Apply all migrations: admin, auth,\n  contenttypes, sessions Running migrations: Applying \n  contenttypes.0001_initial... OK Applying auth.0001_initial... OK Applying admin.0001_initial... OK Applying \n  admin.0002_logentry_remove_auto_add... OK Applying \n  admin.0003_logentry_add_action_flag_choices... OK Applying \n  contenttypes.0002_remove_content_type_name... OK Applying \n  auth.0002_alter_permission_name_max_length... OK Applying \n  auth.0003_alter_user_email_max_length... OK Applying \n  auth.0004_alter_user_username_opts... OK Applying \n  auth.0005_alter_user_last_login_null... OK Applying \n  auth.0006_require_contenttypes_0002... OK Applying \n  auth.0007_alter_validators_add_error_messages... OK Applying \n  auth.0008_alter_user_username_max_length... OK Applying \n  auth.0009_alter_user_last_name_max_length... OK Applying \n  auth.0010_alter_group_name_max_length... OK Applying \n  auth.0011_update_proxy_permissions... OK Applying \n  auth.0012_alter_user_first_name_max_length... OK Applying \n  sessions.0001_initial... OK (myworld) C:\\Users\\ Your Name \\myworld\\my_tennis_club>",
+          "py manage.py runserver",
+          "my_tennis_club manage.py my_tennis_club/ members/ templates/ myfirst.html",
+          "my_tennis_club/members/templates/myfirst.html : <!DOCTYPE html>\n<html>\n<body>\n\n<h1>Hello World!</h1>\n<p>Welcome to my first Django project!</p>\n\n</body>\n</html>",
+          "my_tennis_club/members/views.py : from django.http import HttpResponse\nfrom django.template import loader\n\ndef members(request):\n  template = loader.get_template('myfirst.html')\n  return HttpResponse(template.render())",
+          "my_tennis_club/my_tennis_club/settings.py : INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'members'\n]",
+          "py manage.py migrate",
+          "Operations to perform: Apply all migrations: admin, auth,\n  contenttypes, sessions Running migrations: Applying \n  contenttypes.0001_initial... OK Applying auth.0001_initial... OK Applying admin.0001_initial... OK Applying \n  admin.0002_logentry_remove_auto_add... OK Applying \n  admin.0003_logentry_add_action_flag_choices... OK Applying \n  contenttypes.0002_remove_content_type_name... OK Applying \n  auth.0002_alter_permission_name_max_length... OK Applying \n  auth.0003_alter_user_email_max_length... OK Applying \n  auth.0004_alter_user_username_opts... OK Applying \n  auth.0005_alter_user_last_login_null... OK Applying \n  auth.0006_require_contenttypes_0002... OK Applying \n  auth.0007_alter_validators_add_error_messages... OK Applying \n  auth.0008_alter_user_username_max_length... OK Applying \n  auth.0009_alter_user_last_name_max_length... OK Applying \n  auth.0010_alter_group_name_max_length... OK Applying \n  auth.0011_update_proxy_permissions... OK Applying \n  auth.0012_alter_user_first_name_max_length... OK Applying \n  sessions.0001_initial... OK (myworld) C:\\Users\\ Your Name \\myworld\\my_tennis_club>",
+          "py manage.py runserver"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_urls.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_urls.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_models.php",
+    "cours": {
+      "titre": "Django Models",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_models.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "py manage.py makemigrations members",
+          "Migrations for 'members': members\\migrations\\0001_initial.py - Create model Member (myworld) C:\\Users\\ Your Name \\myworld\\my_tennis_club>",
+          "py manage.py migrate",
+          "Operations to perform: Apply all migrations: admin, auth, contenttypes, members, sessions Running migrations: Applying members.0001_initial... OK (myworld) C:\\Users\\ Your Name \\myworld\\my_tennis_club>",
+          "py manage.py sqlmigrate members 0001",
+          "BEGIN; -- -- Create model Member -- CREATE TABLE \"members_member\" (\"id\" integer NOT NULL PRIMARY KEY AUTOINCREMENT, \"firstname\" varchar(255) NOT NULL, \"lastname\" varchar(255) NOT NULL);\nCOMMIT;",
+          "my_tennis_club/members/models.py : from django.db import models\n\nclass Member(models.Model):\n  firstname = models.CharField(max_length=255)\n  lastname = models.CharField(max_length=255)",
+          "py manage.py makemigrations members",
+          "Migrations for 'members': members\\migrations\\0001_initial.py - Create model Member (myworld) C:\\Users\\ Your Name \\myworld\\my_tennis_club>",
+          "my_tennis_club/members/migrations/0001_initial.py : # Generated by Django 4.1.2 on 2022-10-27 11:14\n\nfrom django.db import migrations, models\n\n\nclass Migration(migrations.Migration):\n\n    initial = True\n\n    dependencies = [\n    ]\n\n    operations = [\n        migrations.CreateModel(\n            name='Member',\n            fields=[\n                ('id', models.BigAutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID')),\n                ('firstname', models.CharField(max_length=255)),\n                ('lastname', models.CharField(max_length=255)),\n            ],\n        ),\n    ]",
+          "py manage.py migrate",
+          "Operations to perform: Apply all migrations: admin, auth, contenttypes, members, sessions Running migrations: Applying members.0001_initial... OK (myworld) C:\\Users\\ Your Name \\myworld\\my_tennis_club>",
+          "py manage.py sqlmigrate members 0001",
+          "BEGIN; -- -- Create model Member -- CREATE TABLE \"members_member\" (\"id\" integer NOT NULL PRIMARY KEY AUTOINCREMENT, \"firstname\" varchar(255) NOT NULL, \"lastname\" varchar(255) NOT NULL);\nCOMMIT;"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_templates.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_templates.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_insert_data.php",
+    "cours": {
+      "titre": "Django Insert Data",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_insert_data.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "py manage.py shell",
+          "Python 3.9.2 (tags/v3.9.2:1a79785, Feb 19 2021, 13:44:55) [MSC v.1928 64 bit (AMD64)] on win32 Type \"help\", \"copyright\", \"credits\" or \"license\" for more information. (InteractiveConsole) >>>",
+          ">>> from members.models import Member",
+          ">>> Member.objects.all()",
+          "<QuerySet []>",
+          ">>> member = Member(firstname='Emil', lastname='Refsnes') >>> member.save()",
+          ">>> Member.objects.all().values()",
+          "<QuerySet [{'id': 1, 'firstname': 'Emil', 'lastname': 'Refsnes'}]>",
+          ">>> member1 = Member(firstname='Tobias', lastname='Refsnes') >>> member2 = Member(firstname='Linus', lastname='Refsnes') >>> member3 = Member(firstname='Lene', lastname='Refsnes') >>> member4 = Member(firstname='Stale', lastname='Refsnes') >>> member5 = Member(firstname='Jane', lastname='Doe') >>> members_list = \n  [member1, member2, member3, member4, member5] >>> for x in members_list: >>>   x.save()",
+          ">>> Member.objects.all().values() <QuerySet [{'id': 1, 'firstname': 'Emil', 'lastname': 'Refsnes'}, {'id': 2, 'firstname': 'Tobias', 'lastname': 'Refsnes'}, {'id': 3, 'firstname': 'Linus', 'lastname': 'Refsnes'}, {'id': 4, 'firstname': 'Lene', 'lastname': 'Refsnes'}, {'id': 5, 'firstname': 'Stale', 'lastname': 'Refsnes'}, {'id': 6, 'firstname': 'Jane', 'lastname': 'Doe'}]>",
+          "py manage.py shell",
+          "Python 3.9.2 (tags/v3.9.2:1a79785, Feb 19 2021, 13:44:55) [MSC v.1928 64 bit (AMD64)] on win32 Type \"help\", \"copyright\", \"credits\" or \"license\" for more information. (InteractiveConsole) >>>",
+          ">>> from members.models import Member",
+          ">>> Member.objects.all()",
+          "<QuerySet []>",
+          ">>> member = Member(firstname='Emil', lastname='Refsnes') >>> member.save()",
+          ">>> Member.objects.all().values()",
+          "<QuerySet [{'id': 1, 'firstname': 'Emil', 'lastname': 'Refsnes'}]>",
+          ">>> member1 = Member(firstname='Tobias', lastname='Refsnes') >>> member2 = Member(firstname='Linus', lastname='Refsnes') >>> member3 = Member(firstname='Lene', lastname='Refsnes') >>> member4 = Member(firstname='Stale', lastname='Refsnes') >>> member5 = Member(firstname='Jane', lastname='Doe') >>> members_list = \n  [member1, member2, member3, member4, member5] >>> for x in members_list: >>>   x.save()",
+          ">>> Member.objects.all().values() <QuerySet [{'id': 1, 'firstname': 'Emil', 'lastname': 'Refsnes'}, {'id': 2, 'firstname': 'Tobias', 'lastname': 'Refsnes'}, {'id': 3, 'firstname': 'Linus', 'lastname': 'Refsnes'}, {'id': 4, 'firstname': 'Lene', 'lastname': 'Refsnes'}, {'id': 5, 'firstname': 'Stale', 'lastname': 'Refsnes'}, {'id': 6, 'firstname': 'Jane', 'lastname': 'Doe'}]>"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_models.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_models.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_update_data.php",
+    "cours": {
+      "titre": "Django Update Data",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_update_data.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          ">>> from members.models import Member >>> x = Member.objects.all()[4]",
+          ">>> x.firstname",
+          "'Stale'",
+          ">>> x.firstname = \"Stalikken\" >>> x.save()",
+          ">>> Member.objects.all().values()",
+          "<QuerySet [{'id': 1, 'firstname': 'Emil', 'lastname': 'Refsnes'}, {'id': 2, 'firstname': 'Tobias', 'lastname': 'Refsnes'}, {'id': 3, 'firstname': 'Linus', 'lastname': 'Refsnes'}, {'id': 4, 'firstname': 'Lene', 'lastname': 'Refsnes'}, {'id': 5, 'firstname': 'Stalikken', 'lastname': 'Refsnes'}, {'id': 6, 'firstname': 'Jane', 'lastname': 'Doe'}]>",
+          ">>> from members.models import Member >>> x = Member.objects.all()[4]",
+          ">>> x.firstname",
+          "'Stale'",
+          ">>> x.firstname = \"Stalikken\" >>> x.save()",
+          ">>> Member.objects.all().values()",
+          "<QuerySet [{'id': 1, 'firstname': 'Emil', 'lastname': 'Refsnes'}, {'id': 2, 'firstname': 'Tobias', 'lastname': 'Refsnes'}, {'id': 3, 'firstname': 'Linus', 'lastname': 'Refsnes'}, {'id': 4, 'firstname': 'Lene', 'lastname': 'Refsnes'}, {'id': 5, 'firstname': 'Stalikken', 'lastname': 'Refsnes'}, {'id': 6, 'firstname': 'Jane', 'lastname': 'Doe'}]>"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_insert_data.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_insert_data.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_delete_data.php",
+    "cours": {
+      "titre": "Django Delete Data",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_delete_data.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          ">>> from members.models import Member >>> x = Member.objects.all()[5]",
+          ">>> x.firstname",
+          "'Jane'",
+          ">>> x.delete()",
+          "(1, {'members.Member': 1})",
+          ">>> Member.objects.all().values() <QuerySet [{'id': 1, 'firstname': 'Emil', 'lastname': 'Refsnes'}, {'id': 2, 'firstname': 'Tobias', 'lastname': 'Refsnes'}, {'id': 3, 'firstname': 'Linus', 'lastname': 'Refsnes'}, {'id': 4, 'firstname': 'Lene', 'lastname': 'Refsnes'}, {'id': 5, 'firstname': 'Stalikken', 'lastname': 'Refsnes'}]>",
+          ">>> from members.models import Member >>> x = Member.objects.all()[5]",
+          ">>> x.firstname",
+          "'Jane'",
+          ">>> x.delete()",
+          "(1, {'members.Member': 1})",
+          ">>> Member.objects.all().values() <QuerySet [{'id': 1, 'firstname': 'Emil', 'lastname': 'Refsnes'}, {'id': 2, 'firstname': 'Tobias', 'lastname': 'Refsnes'}, {'id': 3, 'firstname': 'Linus', 'lastname': 'Refsnes'}, {'id': 4, 'firstname': 'Lene', 'lastname': 'Refsnes'}, {'id': 5, 'firstname': 'Stalikken', 'lastname': 'Refsnes'}]>"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_update_data.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_update_data.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_update_model.php",
+    "cours": {
+      "titre": "Django Update Model",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_update_model.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "py manage.py makemigrations members",
+          "py manage.py makemigrations members You are trying to add a non-nullable field 'joined_date' to members without a default;\nwe can't do that (the database needs something to populate existing rows). Please select a fix: 1) Provide a one-off default now (will be set on all existing rows with a null value for this column) 2) Quit, and let me add a default in models.py Select an option:",
+          "py manage.py makemigrations members",
+          "Migrations for 'members': members\\migrations\\0002_member_joined_date_member_phone.py - Add field \n  joined_date to member - Add field \n  phone to member",
+          "py manage.py migrate",
+          "Operations to perform: Apply all migrations: admin, auth, contenttypes, members, sessions Running migrations: Applying members.0002_member_joined_date_member_phone... OK (myworld) C:\\Users\\ Your Name \\myworld\\my_tennis_club>",
+          "py manage.py shell",
+          "Python 3.9.2 (tags/v3.9.2:1a79785, Feb 19 2021, 13:44:55) [MSC v.1928 64 bit (AMD64)] on win32 Type \"help\", \"copyright\", \"credits\" or \"license\" for more information. (InteractiveConsole) >>>",
+          ">>> from members.models import Member >>> x = Member.objects.all()[0] >>> x.phone = 5551234 >>> x.joined_date = '2022-01-05' >>> x.save()",
+          ">>> Member.objects.all().values()",
+          "<QuerySet [ {'id': 1, 'firstname': 'Emil', 'lastname': 'Refsnes', 'phone': 5551234, 'joined_date': datetime.date(2022, 1, 5)}, {'id': 2, 'firstname': 'Tobias', 'lastname': 'Refsnes', 'phone': None, 'joined_date': None}, {'id': 3, 'firstname': 'Linus', 'lastname': 'Refsnes', 'phone': None, 'joined_date': None}, {'id': 4, 'firstname': 'Lene', 'lastname': 'Refsnes', 'phone': None, 'joined_date': None}, {'id': 5, 'firstname': 'Stalikken', 'lastname': 'Refsnes', 'phone': None, 'joined_date': None}]>",
+          "my_tennis_club/members/models.py : from django.db import models\n\nclass Member(models.Model):\n  firstname = models.CharField(max_length=255)\n  lastname = models.CharField(max_length=255)\n  phone = models.IntegerField()\n  joined_date = models.DateField()",
+          "py manage.py makemigrations members",
+          "py manage.py makemigrations members You are trying to add a non-nullable field 'joined_date' to members without a default;\nwe can't do that (the database needs something to populate existing rows). Please select a fix: 1) Provide a one-off default now (will be set on all existing rows with a null value for this column) 2) Quit, and let me add a default in models.py Select an option:",
+          "my_tennis_club/members/models.py : from django.db import models\n\nclass Member(models.Model):\n  firstname = models.CharField(max_length=255)\n  lastname = models.CharField(max_length=255)\n  phone = models.IntegerField(null=True)\n  joined_date = models.DateField(null=True)",
+          "py manage.py makemigrations members",
+          "Migrations for 'members': members\\migrations\\0002_member_joined_date_member_phone.py - Add field \n  joined_date to member - Add field \n  phone to member",
+          "py manage.py migrate",
+          "Operations to perform: Apply all migrations: admin, auth, contenttypes, members, sessions Running migrations: Applying members.0002_member_joined_date_member_phone... OK (myworld) C:\\Users\\ Your Name \\myworld\\my_tennis_club>",
+          "py manage.py shell",
+          "Python 3.9.2 (tags/v3.9.2:1a79785, Feb 19 2021, 13:44:55) [MSC v.1928 64 bit (AMD64)] on win32 Type \"help\", \"copyright\", \"credits\" or \"license\" for more information. (InteractiveConsole) >>>",
+          ">>> from members.models import Member >>> x = Member.objects.all()[0] >>> x.phone = 5551234 >>> x.joined_date = '2022-01-05' >>> x.save()",
+          ">>> Member.objects.all().values()",
+          "<QuerySet [ {'id': 1, 'firstname': 'Emil', 'lastname': 'Refsnes', 'phone': 5551234, 'joined_date': datetime.date(2022, 1, 5)}, {'id': 2, 'firstname': 'Tobias', 'lastname': 'Refsnes', 'phone': None, 'joined_date': None}, {'id': 3, 'firstname': 'Linus', 'lastname': 'Refsnes', 'phone': None, 'joined_date': None}, {'id': 4, 'firstname': 'Lene', 'lastname': 'Refsnes', 'phone': None, 'joined_date': None}, {'id': 5, 'firstname': 'Stalikken', 'lastname': 'Refsnes', 'phone': None, 'joined_date': None}]>"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_delete_data.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_delete_data.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_prepare_template.php",
+    "cours": {
+      "titre": "Django Prepare Template",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_prepare_template.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Creates a mymembers object with all the values of the Member model.",
+            "Loads the all_members.html template.",
+            "Creates an object containing the mymembers object.",
+            "Sends the object to the template.",
+            "Outputs the HTML that is rendered by the template."
+          ]
+        ],
+        "examples": [
+          "py manage.py runserver",
+          "my_tennis_club/members/templates/all_members.html : <!DOCTYPE html>\n<html>\n<body>\n\n<h1>Members</h1>\n  \n<ul>\n  {% for x in mymembers %}\n    <li>{{ x.firstname }} {{ x.lastname }}</li>\n  {% endfor %}\n</ul>\n\n</body>\n</html>",
+          "my_tennis_club/members/views.py : from django.http import HttpResponse\nfrom django.template import loader\nfrom .models import Member\n\ndef members(request):\n  mymembers = Member.objects.all().values()\n  template = loader.get_template('all_members.html')\n  context = {\n    'mymembers': mymembers,\n  }\n  return HttpResponse(template.render(context, request)) Run Example »",
+          "py manage.py runserver"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_update_model.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_prepare"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_prepare"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_templates.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_add_link_details.php",
+    "cours": {
+      "titre": "Django Add Link to Details",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_add_link_details.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "py manage.py runserver",
+          "my_tennis_club/members/templates/details.html : <!DOCTYPE html>\n<html>\n\n<body>\n\n<h1>{{ mymember.firstname }} {{ mymember.lastname }}</h1>\n  \n<p>Phone: {{ mymember.phone }}</p>\n<p>Member since: {{ mymember.joined_date }}</p>\n\n<p>Back to <a href=\"/members\">Members</a></p>\n\n</body>\n</html>",
+          "my_tennis_club/members/templates/all_members.html : <!DOCTYPE html>\n<html>\n<body>\n\n<h1>Members</h1>\n  \n<ul>\n  {% for x in mymembers %}\n    <li><a href=\"details/{{ x.id }}\">{{ x.firstname }} {{ x.lastname }}</a></li>\n  {% endfor %}\n</ul>\n\n</body>\n</html>",
+          "my_tennis_club/members/views.py : from django.http import HttpResponse\nfrom django.template import loader\nfrom .models import Member\n\ndef members(request):\n  mymembers = Member.objects.all().values()\n  template = loader.get_template('all_members.html')\n  context = {\n    'mymembers': mymembers,\n  }\n  return HttpResponse(template.render(context, request))\n  \ndef details(request, id):\n  mymember = Member.objects.get(id=id)\n  template = loader.get_template('details.html')\n  context = {\n    'mymember': mymember,\n  }\n  return HttpResponse(template.render(context, request))",
+          "my_tennis_club/members/urls.py : from django.urls import path\nfrom . import views\n\nurlpatterns = [\n    path('members/', views.members, name='members'),\n    path('members/details/<int:id>', views.details, name='details'),\n] Run Example »",
+          "py manage.py runserver"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_prepare_template.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_add_link_details"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_prepare_template.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_master_template.php",
+    "cours": {
+      "titre": "Django Add Master Template",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_master_template.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "py manage.py runserver",
+          "Master my_tennis_club/members/templates/master.html : <!DOCTYPE html>\n<html>\n<head>\n  <title>{% block title %}{% endblock %}</title>\n</head>\n<body>\n\n{% block content %}\n{% endblock %}\n\n</body>\n</html>",
+          "Members my_tennis_club/members/templates/all_members.html : {% extends \"master.html\" %}\n\n{% block title %}\n  My Tennis Club - List of all members\n{% endblock %}\n\n\n{% block content %}\n  <h1>Members</h1>\n  \n  <ul>\n    {% for x in mymembers %}\n      <li><a href=\"details/{{ x.id }}\">{{ x.firstname }} {{ x.lastname }}</a></li>\n    {% endfor %}\n  </ul>\n{% endblock %} Run Example »",
+          "Details my_tennis_club/members/templates/details.html : {% extends \"master.html\" %}\n\n{% block title %}\n  Details about {{ mymember.firstname }} {{ mymember.lastname }}\n{% endblock %}\n\n\n{% block content %}\n  <h1>{{ mymember.firstname }} {{ mymember.lastname }}</h1>\n  \n  <p>Phone {{ mymember.phone }}</p>\n  <p>Member since: {{ mymember.joined_date }}</p>\n  \n  <p>Back to <a href=\"/members\">Members</a></p>\n  \n{% endblock %} Run Example »",
+          "py manage.py runserver"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_add_link_details.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_master_index"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_master_details1"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_add_link_details.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_add_main.php",
+    "cours": {
+      "titre": "Django Add Main Index Page",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_add_main.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "loads the main.html template.",
+            "Outputs the HTML that is rendered by the template."
+          ]
+        ],
+        "examples": [
+          "py manage.py runserver",
+          "Main my_tennis_club/members/templates/main.html : {% extends \"master.html\" %}\n\n{% block title %}\n  My Tennis Club\n{% endblock %}\n\n\n{% block content %}\n  <h1>My Tennis Club</h1>\n\n  <h3>Members</h3>\n  \n  <p>Check out all our <a href=\"members/\">members</a></p>\n  \n{% endblock %}",
+          "my_tennis_club/members/views.py : from django.http import HttpResponse\nfrom django.template import loader\nfrom .models import Member\n\ndef members(request):\n  mymembers = Member.objects.all().values()\n  template = loader.get_template('all_members.html')\n  context = {\n    'mymembers': mymembers,\n  }\n  return HttpResponse(template.render(context, request))\n  \ndef details(request, id):\n  mymember = Member.objects.get(id=id)\n  template = loader.get_template('details.html')\n  context = {\n    'mymember': mymember,\n  }\n  return HttpResponse(template.render(context, request))\n  \ndef main(request):\n  template = loader.get_template('main.html')\n  return HttpResponse(template.render())",
+          "my_tennis_club/members/urls.py : from django.urls import path\nfrom . import views\n\nurlpatterns = [\n    path('', views.main, name='main'),\n    path('members/', views.members, name='members'),\n    path('members/details/<int:id>', views.details, name='details'),\n] Run Example »",
+          "Example my_tennis_club/members/templates/all_members.html : {% extends \"master.html\" %}\n\n{% block title %}\n  My Tennis Club - List of all members\n{% endblock %}\n\n\n{% block content %}\n\n  <p><a href=\"/\">HOME</a></p>\n\n  <h1>Members</h1>\n  \n  <ul>\n    {% for x in mymembers %}\n      <li><a href=\"details/{{ x.id }}\">{{ x.firstname }} {{ x.lastname }}</a></li>\n    {% endfor %}\n  </ul>\n{% endblock %} Run Example »",
+          "py manage.py runserver"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_master_template.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_add_main"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_link_to_home"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_master_template.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_404.php",
+    "cours": {
+      "titre": "Django 404 (page not found)",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_404.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "<!DOCTYPE html> <html> <title>Wrong address</title> <body> <h1>Ooops!</h1> <h2>I cannot \n  find the file you requested!</h2> </body> </html>",
+          "Example Set the debug property to False , and allow the project to run from your local \nhost: my_tennis_club/my_tennis_club/settings.py : .\n.\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\n\nALLOWED_HOSTS = ['*']\n.\n.",
+          "my_tennis_club/members/templates/404.html : <!DOCTYPE html> <html> <title>Wrong address</title> <body> <h1>Ooops!</h1> <h2>I cannot \n  find the file you requested!</h2> </body> </html>"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_add_main.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_add_main.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_test_view.php",
+    "cours": {
+      "titre": "Django Add Test View",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_test_view.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "my_tennis_club manage.py my_tennis_club/ members/ templates/ 404.html all_members.html details.html main.html master.html myfirst.html template.html",
+          "py manage.py runserver",
+          "my_tennis_club/members/views.py : from django.http import HttpResponse\nfrom django.template import loader\nfrom .models import Member\n\ndef members(request):\n  mymembers = Member.objects.all().values()\n  template = loader.get_template('all_members.html')\n  context = {\n    'mymembers': mymembers,\n  }\n  return HttpResponse(template.render(context, request))\n  \ndef details(request, id):\n  mymember = Member.objects.get(id=id)\n  template = loader.get_template('details.html')\n  context = {\n    'mymember': mymember,\n  }\n  return HttpResponse(template.render(context, request))\n  \ndef main(request):\n  template = loader.get_template('main.html')\n  return HttpResponse(template.render())\n\ndef testing(request):\n  template = loader.get_template('template.html')\n  context = {\n    'fruits': ['Apple', 'Banana', 'Cherry'],   \n  }\n  return HttpResponse(template.render(context, request))",
+          "my_tennis_club/members/urls.py : from django.urls import path\nfrom . import views\n\nurlpatterns = [\n    path('', views.main, name='main'),\n    path('members/', views.members, name='members'),\n    path('members/details/<int:id>', views.details, name='details'),\n    path('testing/', views.testing, name='testing'),    \n]",
+          "my_tennis_club manage.py my_tennis_club/ members/ templates/ 404.html all_members.html details.html main.html master.html myfirst.html template.html",
+          "my_tennis_club/members/templates/template.html : <!DOCTYPE html>\n<html>\n<body>\n\n{% for x in fruits %}\n  <h1>{{ x }}</h1>\n{% endfor %}\n\n<p>In views.py you can see what the fruits variable looks like.</p>\n\n</body>\n</html> Run Example »",
+          "py manage.py runserver"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_404.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_for"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_404.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_admin.php",
+    "cours": {
+      "titre": "Django Admin",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_admin.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "py manage.py runserver",
+          "py manage.py runserver",
+          "my_tennis_club/my_tennis_club/urls.py : from django.contrib import admin\nfrom django.urls import include, path\n\nurlpatterns = [\n    path('', include('members.urls')),\n    path('admin/', admin.site.urls),\n]"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_test_view.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_test_view.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_admin_create_user.php",
+    "cours": {
+      "titre": "Django Admin - Create User",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_admin_create_user.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "py manage.py createsuperuser",
+          "Username:",
+          "Username: johndoe Email address: johndoe@dummymail.com Password: Password (again): This password is too short. It must contain at least 8 characters. This password is too common. This password is entirely numeric. Bypass password validation and create user anyway? [y/N]:",
+          "Bypass password validation and create user anyway? [y/N]: y",
+          "Superuser created successfully.",
+          "py manage.py runserver",
+          "py manage.py createsuperuser",
+          "Username:",
+          "Username: johndoe Email address: johndoe@dummymail.com Password: Password (again): This password is too short. It must contain at least 8 characters. This password is too common. This password is entirely numeric. Bypass password validation and create user anyway? [y/N]:",
+          "Bypass password validation and create user anyway? [y/N]: y",
+          "Superuser created successfully.",
+          "py manage.py runserver"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_admin.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_admin.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_admin_include_members.php",
+    "cours": {
+      "titre": "Django Admin - Include Member",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_admin_include_members.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "my_tennis_club/members/admin.py : from django.contrib import admin\n\n# Register your models here.",
+          "my_tennis_club/members/admin.py : from django.contrib import admin\nfrom .models import Member\n\n# Register your models here.\nadmin.site.register(Member)"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_admin_create_user.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_admin_create_user.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_admin_set_list_display.php",
+    "cours": {
+      "titre": "Django Admin - Set Fields to Display",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_admin_set_list_display.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Change the string representation function, __str__() of the Member Model",
+            "Set the list_details property of the Member Model"
+          ]
+        ],
+        "examples": [
+          "my_tennis_club/members/models.py : from django.db import models\n\nclass Member(models.Model):\n  firstname = models.CharField(max_length=255)\n  lastname = models.CharField(max_length=255)\n  phone = models.IntegerField(null=True)\n  joined_date = models.DateField(null=True)\n\n  def __str__(self):\n    return f\"{self.firstname} {self.lastname}\"",
+          "my_tennis_club/members/admin.py : from django.contrib import admin\nfrom .models import Member\n\n# Register your models here.\n\nclass MemberAdmin(admin.ModelAdmin):\n  list_display = (\"firstname\", \"lastname\", \"joined_date\",)\n  \nadmin.site.register(Member, MemberAdmin)"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_admin_include_members.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_admin_include_members.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_admin_update_members.php",
+    "cours": {
+      "titre": "Django Admin - Update Members",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_admin_update_members.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_admin_set_list_display.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_admin_set_list_display.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_admin_add_members.php",
+    "cours": {
+      "titre": "Django Admin - Add Members",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_admin_add_members.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_admin_update_members.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_admin_update_members.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_admin_delete_members.php",
+    "cours": {
+      "titre": "Django Admin - Delete Members",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_admin_delete_members.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_admin_add_members.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_admin_add_members.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_template_variables.php",
+    "cours": {
+      "titre": "Django Template Variables",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_template_variables.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "Example templates/template.html : <h1>Hello {{ firstname }}, how are you?</h1> Run Example »",
+          "views.py : from django.http import HttpResponse\nfrom django.template import loader\n\ndef testing(request):\n  template = loader.get_template('template.html')\n  context = {\n    'firstname': 'Linus',\n  }\n  return HttpResponse(template.render(context, request)) Run Example »",
+          "Example templates/template.html : {% with firstname=\"Tobias\" %}\n<h1>Hello {{ firstname }}, how are you?</h1>\n{% endwith %} Run Example »",
+          "members/views.py : from django.http import HttpResponse, HttpResponseRedirect\nfrom django.template import loader\nfrom .models import Member\n\ndef testing(request):\n  mymembers = Member.objects.all().values()\n  template = loader.get_template('template.html')\n  context = {\n    'mymembers': mymembers,\n  }\n  return HttpResponse(template.render(context, request))",
+          "templates/template.html : <ul>\n  {% for x in mymembers %}\n    <li>{{ x.firstname }}</li>\n  {% endfor %}\n</ul> Run Example »"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_admin_delete_members.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_variables"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_variables2"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_variables3"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_variables4"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_admin_delete_members.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_template_tags.php",
+    "cours": {
+      "titre": "Django Template Tags",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_template_tags.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "Example templates/template.html : {% if greeting == 1 %}\n  <h1>Hello</h1>\n{% else %}\n  <h1>Bye</h1>\n{% endif %} Run Example »",
+          "templates/template.html : <ul>\n  {% for x in mymembers %}\n    <li>{{ x.firstname }}</li>\n  {% endfor %}\n</ul> Run Example »"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_template_variables.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_tags1"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_variables4"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_template_variables.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_tags_if.php",
+    "cours": {
+      "titre": "Django if Tag",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_tags_if.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "Example {% if greeting == 1 %}\n  <h1>Hello</h1>\n{% endif %} Run Example »",
+          "Example {% if greeting == 1 %}\n  <h1>Hello</h1>\n{% elif greeting == 2 %}\n  <h1>Welcome</h1>\n{% endif %} Run Example »",
+          "Example {% if greeting == 1 %}\n  <h1>Hello</h1>\n{% elif greeting == 2 %}\n  <h1>Welcome</h1>\n{% else %}\n  <h1>Goodbye</h1>\n{% endif %} Run Example »",
+          "Example {% if greeting %}\n  <h1>Hello</h1>\n{% endif %} Run Example »",
+          "Example {% if greeting == 2 %}\n  <h1>Hello</h1>\n{% endif %} Run Example »",
+          "Example {% if greeting != 1 %}\n  <h1>Hello</h1>\n{% endif %} Run Example »",
+          "Example {% if greeting < 3 %}\n  <h1>Hello</h1>\n{% endif %} Run Example »",
+          "Example {% if greeting <= 3 %}\n  <h1>Hello</h1>\n{% endif %} Run Example »",
+          "Example {% if greeting > 1 %}\n  <h1>Hello</h1>\n{% endif %} Run Example »",
+          "Example {% if greeting >= 1 %}\n  <h1>Hello</h1>\n{% endif %} Run Example »",
+          "Example {% if greeting == 1 and day == \"Friday\" %}\n  <h1>Hello Weekend!</h1>\n{% endif %} Run Example »",
+          "Example {% if greeting == 1 or greeting == 5 %}\n  <h1>Hello</h1>\n{% endif %} Run Example »",
+          "Example {% if greeting == 1 and day == \"Friday\" or greeting == 5 %} Run Example »",
+          "{% if (greeting == 1 and day == \"Friday\") or greeting == 5 %}",
+          "Example {% if 'Banana' in fruits %}\n  <h1>Hello</h1>\n{% else %}\n  <h1>Goodbye</h1>\n{% endif %} Run Example »",
+          "Example {% if 'Banana' not in fruits %}\n  <h1>Hello</h1>\n{% else %}\n  <h1>Goodbye</h1>\n{% endif %} Run Example »",
+          "Example views.py : from django.http import HttpResponse\nfrom django.template import loader\n\ndef testing(request):\n  template = loader.get_template('template.html')\n  context = {\n    'x': ['Apple', 'Banana', 'Cherry'], \n    'y': ['Apple', 'Banana', 'Cherry'], \n  }\n  return HttpResponse(template.render(context, request))",
+          "Example {% if x is y %}\n  <h1>YES</h1>\n{% else %}\n  <h1>NO</h1>\n{% endif %} Run Example »",
+          "Example {% if x == y %}\n  <h1>YES</h1>\n{% else %}\n  <h1>NO</h1>\n{% endif %} Run Example »",
+          "Example {% with var1=x var2=x %}\n  {% if var1 is var2 %}\n    <h1>YES</h1>\n  {% else %}\n    <h1>NO</h1>\n  {% endif %}\n{% endwith %} Run Example »",
+          "Example {% if x is not y %}\n  <h1>YES</h1>\n{% else %}\n  <h1>NO</h1>\n{% endif %} Run Example »"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_template_tags.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_if"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_elif"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_else"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_operator"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_operator_equal"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_operator_notequal"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_operator_lessthan"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_operator_lessthan_eq"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_operator_gt"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_operator_gt_eq"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_operator_and"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_operator_or"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_operator_andor"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_operator_in"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_operator_notin"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_operator_is1"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_operator_is2"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_operator_is3"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_operator_isnot"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_template_tags.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_tags_for.php",
+    "cours": {
+      "titre": "Django for Tag",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_tags_for.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "forloop.counter",
+            "forloop.counter0",
+            "forloop.first",
+            "forloop.last",
+            "forloop.parentloop",
+            "forloop.revcounter",
+            "forloop.revcounter0"
+          ]
+        ],
+        "examples": [
+          "Example Loop through the items of a list: {% for x in fruits %}\n  <h1>{{ x }}</h1>\n{% endfor %} Run Example »",
+          "Example Loop through a list of dictionaries: {% for x in cars %}\n  <h1>{{ x.brand }}</h1>\n  <p>{{ x.model }}</p>\n  <p>{{ x.year }}</p>\n{% endfor %} Run Example »",
+          "<QuerySet [\n  {\n    'id': 1,\n    'firstname': 'Emil',\n    'lastname': 'Refsnes',\n    'phone': 5551234,\n    'joined_date': datetime.date(2022, 1, 5)\n  },\n  {\n    'id': 2,\n    'firstname': 'Tobias',\n    'lastname': 'Refsnes'\n    'phone': 5557777,\n    'joined_date': datetime.date(2021, 4, 1)\n  },\n  {\n    'id': 3,\n    'firstname': 'Linus',\n    'lastname': 'Refsnes'\n    'phone': 5554321,\n    'joined_date': datetime.date(2021, 12, 24)\n  },\n  {\n    'id': 4,\n    'firstname': 'Lene',\n    'lastname': 'Refsnes'\n    'phone': 5551234,\n    'joined_date': datetime.date(2021, 5, 1)\n  },\n  {\n    'id': 5,\n    'firstname': 'Stalikken',\n    'lastname': 'Refsnes'\n    'phone': 5559876,\n    'joined_date': datetime.date(2022, 9, 29)\n  }\n]>",
+          "Example Loop through items fetched from a database: {% for x in members %}\n  <h1>{{ x.id }}</h1>\n  <p>\n    {{ x.firstname }}\n    {{ x.lastname }}\n  </p>\n{% endfor %} Run Example »",
+          "Example {% for x in members reversed %}\n  <h1>{{ x.id }}</h1>\n  <p>\n    {{ x.firstname }}\n    {{ x.lastname }}\n  </p>\n{% endfor %} Run Example »",
+          "Example <ul>\n  {% for x in emptytestobject %}\n    <li>{{ x.firstname }}</li>\n  {% empty %}\n    <li>No members</li>\n  {% endfor %}\n</ul> Run Example »",
+          "Example <ul>\n  {% for x in myobject %}\n    <li>{{ x.firstname }}</li>\n  {% empty %}\n    <li>No members</li>\n  {% endfor %}\n</ul> Run Example »",
+          "Example <ul>\n  {% for x in fruits %}\n    <li>{{ forloop.counter }}</li>\n  {% endfor %}\n</ul> Run Example »",
+          "Example <ul>\n  {% for x in fruits %}\n    <li>{{ forloop.counter0 }}</li>\n  {% endfor %}\n</ul> Run Example »",
+          "Example Draw a blue background for the first iteration of the loop: <ul>\n  {% for x in fruits %}\n    <li\n      {% if forloop.first %}\n        style='background-color:lightblue;'\n      {% endif %}\n    >{{ x }}</li>\n  {% endfor %}\n</ul> Run Example »",
+          "Example Draw a blue background for the last iteration of the loop: <ul>\n  {% for x in fruits %}\n    <li\n      {% if forloop.last %}\n        style='background-color:lightblue;'\n      {% endif %}\n    >{{ x }}</li>\n  {% endfor %}\n</ul> Run Example »",
+          "Example <ul>\n  {% for x in fruits %}\n    <li>{{ forloop.revcounter }}</li>\n  {% endfor %}\n</ul> Run Example »",
+          "Example <ul>\n  {% for x in fruits %}\n    <li>{{ forloop.revcounter0 }}</li>\n  {% endfor %}\n</ul> Run Example »"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_tags_if.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_for"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_for2"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_for3"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_for_reversed"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_for_empty"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_for_empty2"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_for_counter"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_for_counter0"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_for_first"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_for_last"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_for_revcounter"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_for_revcounter0"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_tags_if.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_tags_comment.php",
+    "cours": {
+      "titre": "Django comment Tag",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_tags_comment.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "Example <h1>Welcome Everyone</h1>\n{% comment %}\n  <h1>Welcome ladies and gentlemen</h1>\n{% endcomment %} Run Example »",
+          "Example Add a description to your comment: <h1>Welcome Everyone</h1>\n{% comment \"this was the original welcome message\" %}\n    <h1>Welcome ladies and gentlemen</h1>\n{% endcomment %} Run Example »",
+          "Example Comment out the word Everyone: <h1>Welcome{# Everyone#}</h1> Run Example »",
+          "Example Comment out a section in the view: from django.http import HttpResponse\nfrom django.template import loader\n\ndef testing(request):\n  template = loader.get_template('template.html')\n  #context = {\n  # 'var1': 'John',\n  #}\n  return HttpResponse(template.render()) Run Example »"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_tags_for.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_comment1"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_comment2"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_comment3"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_comment4"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_tags_for.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_tags_include.php",
+    "cours": {
+      "titre": "Django include Tag",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_tags_include.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "Example templates/footer.html : <p>You have reached the bottom of this page, thank you for your time.</p> templates/template.html : <h1>Hello</h1>\n\n<p>This page contains a footer in a template.</p>\n\n{% include 'footer.html' %} Run Example »",
+          "Example templates/mymenu.html : <div>HOME | {{ me }} | ABOUT | FORUM | {{ sponsor }}</div> templates/template.html : <!DOCTYPE html>\n<html>\n<body>\n\n{% include \"mymenu.html\" with me=\"TOBIAS\" sponsor=\"W3SCHOOLS\" %}\n\n<h1>Welcome</h1>\n\n<p>This is my webpage</p>\n\n</body>\n</html> Run Example »"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_tags_comment.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_include"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_templates_include2"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_tags_comment.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_queryset.php",
+    "cours": {
+      "titre": "Django QuerySet",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_queryset.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "Member : id firstname lastname phone joined_date 1 Emil Refsnes 5551234 2022-01-05 2 Tobias Refsnes 5557777 2022-04-01 3 Linus Refsnes 5554321 2021-12-24 4 Lene Refsnes 5551234 2021-05-01 5 Stalikken Refsnes 5559876 2022-09-29",
+          "View views.py : from django.http import HttpResponse\nfrom django.template import loader\nfrom .models import Member\n\ndef testing(request):\n  mydata = Member.objects.all()\n  template = loader.get_template('template.html')\n  context = {\n    'mymembers': mydata,\n  }\n  return HttpResponse(template.render(context, request))",
+          "Template templates/template.html : <table border='1'>\n  <tr>\n    <th>ID</th>\n    <th>Firstname</th>\n    <th>Lastname</th>\n  </tr>\n  {% for x in mymembers %}\n    <tr>\n      <td>{{ x.id }}</td>\n        <td>{{ x.firstname }}</td>\n      <td>{{ x.lastname }}</td>\n    </tr>\n  {% endfor %}\n</table> Run Example »"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_tags_include.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_queryset"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_tags_include.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_queryset_get.php",
+    "cours": {
+      "titre": "Django QuerySet - Get Data",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_queryset_get.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "Example views.py : from django.http import HttpResponse\nfrom django.template import loader\nfrom .models import Member\n\ndef testing(request):\n  mydata = Member.objects.all().values()\n  template = loader.get_template('template.html')\n  context = {\n    'mymembers': mydata,\n  }\n  return HttpResponse(template.render(context, request)) Run Example »",
+          "Example Return only the firstname columns: views.py : from django.http import HttpResponse\nfrom django.template import loader\nfrom .models import Member\n\ndef testing(request):\n  mydata = Member.objects.values_list('firstname')\n  template = loader.get_template('template.html')\n  context = {\n    'mymembers': mydata,\n  }\n  return HttpResponse(template.render(context, request)) Run Example »",
+          "Example Return only the records where firstname is \n  'Emil' views.py : from django.http import HttpResponse\nfrom django.template import loader\nfrom .models import Member\n\ndef testing(request):\n  mydata = Member.objects.filter(firstname='Emil').values()\n  template = loader.get_template('template.html')\n  context = {\n    'mymembers': mydata,\n  }\n  return HttpResponse(template.render(context, request)) Run Example »"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_queryset.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_queryset_get"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_queryset_get2"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_queryset_get3"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_queryset.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_queryset_filter.php",
+    "cours": {
+      "titre": "Django QuerySet - Filter",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_queryset_filter.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "Example Return only the records where the firstname is 'Emil': mydata = Member.objects.filter(firstname='Emil').values() Run Example »",
+          "SELECT * FROM members WHERE firstname = 'Emil';",
+          "Example Return records where lastname is \"Refsnes\" and id is 2: mydata = Member.objects.filter(lastname='Refsnes', id=2).values() Run Example »",
+          "SELECT * FROM members WHERE lastname = 'Refsnes' AND id = 2;",
+          "Example Return records where firstname is either \"Emil\" or Tobias\": mydata = Member.objects.filter(firstname='Emil').values() | Member.objects.filter(firstname='Tobias').values() Run Example »",
+          "Example Return records where firstname is either \"Emil\" or Tobias\": from django.http import HttpResponse\nfrom django.template import loader\nfrom .models import Member\nfrom django.db.models import Q\n\ndef testing(request):\n  mydata = Member.objects.filter(Q(firstname='Emil') | Q(firstname='Tobias')).values()\n  template = loader.get_template('template.html')\n  context = {\n    'mymembers': mydata,\n  }\n  return HttpResponse(template.render(context, request)) Run Example »",
+          "SELECT * FROM members WHERE firstname = 'Emil' OR firstname = 'Tobias';",
+          "Example: Use the __startswith keyword: .filter(firstname__startswith='L'); Is the same as the SQL statement: WHERE firstname LIKE 'L%'",
+          "Example Return the records where firstname starts with the letter 'L': mydata = Member.objects.filter(firstname__startswith='L').values() Run Example »"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_queryset_get.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_queryset_get3"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_queryset_filter"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_queryset_filter_or"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_queryset_filter_q"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_queryset_filter_startswith"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_queryset_get.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_queryset_orderby.php",
+    "cours": {
+      "titre": "Django QuerySet - Order By",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_queryset_orderby.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "Example Order the result alphabetically by firstname: mydata = Member.objects.all().order_by('firstname').values() Run Example »",
+          "SELECT * FROM members ORDER BY firstname;",
+          "Example Order the result firstname descending: mydata = Member.objects.all().order_by('-firstname').values() Run Example »",
+          "SELECT * FROM members ORDER BY firstname DESC;",
+          "Example Order the result first by lastname ascending, then descending on id: mydata = Member.objects.all().order_by('lastname', '-id').values() Run Example »",
+          "SELECT * FROM members ORDER BY lastname ASC, id DESC;"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_queryset_filter.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_queryset_orderby"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_queryset_orderby2"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_queryset_orderby3"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_queryset_filter.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_add_static_files.php",
+    "cours": {
+      "titre": "Django - Add Static File",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_add_static_files.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "my_tennis_club manage.py my_tennis_club/ members/ templates/ static/",
+          "my_tennis_club manage.py my_tennis_club/ members/ templates/ static/ myfirst.css",
+          "py manage.py runserver",
+          "my_tennis_club manage.py my_tennis_club/ members/ templates/ static/",
+          "my_tennis_club manage.py my_tennis_club/ members/ templates/ static/ myfirst.css",
+          "my_tennis_club/members/static/myfirst.css : body {\n  background-color: lightblue;\n  font-family: verdana;\n}",
+          "Example my_tennis_club/members/templates/template.html : {% load static %}\n<!DOCTYPE html>\n<html>\n<link rel=\"stylesheet\" href=\"{% static 'myfirst.css' %}\">\n<body>\n\n{% for x in fruits %}\n  <h1>{{ x }}</h1>\n{% endfor %}\n\n</body>\n</html> Run Example »",
+          "py manage.py runserver",
+          "Example (in development): my_tennis_club/my_tennis_club/settings.py : .\n.\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\n.\n.",
+          "Example: my_tennis_club/my_tennis_club/settings.py : .\n.\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\n\nALLOWED_HOSTS = ['*']\n\n.\n."
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_queryset_orderby.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_static_css"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_queryset_orderby.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_static_whitenoise.php",
+    "cours": {
+      "titre": "Django - Installing WhiteNoise",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_static_whitenoise.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "pip install whitenoise",
+          "Collecting whitenoise Downloading whitenoise-6.2.0-py3-none-any.whl (19 kB) Installing collected packages: whitenoise Successfully installed whitenoise-6.2.0 WARNING: You are using pip version 20.2.3; however, version 22.3.1 is available. You should consider upgrading via the 'c:\\users\\ Your Name \\myworld\\scripts\\python.exe -m pip install --upgrade pip' command.",
+          "pip install whitenoise",
+          "Collecting whitenoise Downloading whitenoise-6.2.0-py3-none-any.whl (19 kB) Installing collected packages: whitenoise Successfully installed whitenoise-6.2.0 WARNING: You are using pip version 20.2.3; however, version 22.3.1 is available. You should consider upgrading via the 'c:\\users\\ Your Name \\myworld\\scripts\\python.exe -m pip install --upgrade pip' command.",
+          "my_tennis_club/my_tennis_club/settings.py : .\n.\nMIDDLEWARE = [ 'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware', 'whitenoise.middleware.WhiteNoiseMiddleware',\n].\n."
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_add_static_files.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_add_static_files.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_collect_static_files.php",
+    "cours": {
+      "titre": "Django - Collect Static Files",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_collect_static_files.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "py manage.py collectstatic",
+          "131 static files copied to 'C:\\Users\\ your_name \\myworld\\my_tennis_club\\productionfiles'.",
+          "my_tennis_club members/ my_tennis_club/ productionfiles/ admin/ myfirst.css",
+          "py manage.py runserver",
+          "my_tennis_club/my_tennis_club/settings.py : .\n.\n\nSTATIC_ROOT = BASE_DIR / 'productionfiles'\n\nSTATIC_URL = 'static/'\n\n.\n.",
+          "py manage.py collectstatic",
+          "131 static files copied to 'C:\\Users\\ your_name \\myworld\\my_tennis_club\\productionfiles'.",
+          "my_tennis_club members/ my_tennis_club/ productionfiles/ admin/ myfirst.css",
+          "py manage.py runserver",
+          "Example my_tennis_club/members/templates/template.html : {% load static %}\n<!DOCTYPE html>\n<html>\n<link rel=\"stylesheet\" href=\"{% static 'myfirst.css' %}\">\n<body>\n\n{% for x in fruits %}\n  <h1>{{ x }}</h1>\n{% endfor %}\n\n</body>\n</html> Run Example »"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_static_whitenoise.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_static_css"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_static_whitenoise.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_add_global_static_files.php",
+    "cours": {
+      "titre": "Django - Global Static Files",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_add_global_static_files.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "my_tennis_club db.sqlite3 manage.py my_tennis_club/ members/ mystaticfiles/",
+          "my_tennis_club db.sqlite3 manage.py my_tennis_club/ members/ mystaticfiles/ myglobal.css",
+          "py manage.py collectstatic",
+          "You have requested to collect static files at the destination location as specified in your settings: C:\\Users\\ Your Name \\myworld\\my_tennis_club\\productionfiles This will overwrite existing files! Are you sure you want to do this? Type 'yes' to continue, or 'no' to cancel:",
+          "Type 'yes' to continue, or 'no' to cancel: yes",
+          "1 static file copied to 'C:\\Users\\ Your Name \\myworld\\my_tennis_club\\productionfiles', 131 unmodified.",
+          "py manage.py runserver",
+          "my_tennis_club db.sqlite3 manage.py my_tennis_club/ members/ mystaticfiles/",
+          "my_tennis_club db.sqlite3 manage.py my_tennis_club/ members/ mystaticfiles/ myglobal.css",
+          "my_tennis_club/mystaticfiles/myglobal.css : body {\n  color: violet;\n}",
+          "Add a STATICFILES_DIRS list: my_tennis_club/my_tennis_club/settings.py : .\n.\n\nSTATIC_ROOT = BASE_DIR / 'productionfiles'\n\nSTATIC_URL = 'static/'\n\n#Add this in your settings.py file:\nSTATICFILES_DIRS = [\n    BASE_DIR / 'mystaticfiles'\n]\n.\n.",
+          "Example my_tennis_club/members/templates/template.html : {% load static %}\n<!DOCTYPE html>\n<html>\n<link rel=\"stylesheet\" href=\"{% static 'myglobal.css' %}\">\n<body>\n\n{% for x in fruits %}\n  <h1>{{ x }}</h1>\n{% endfor %}\n\n</body>\n</html> Run Example »",
+          "py manage.py collectstatic",
+          "You have requested to collect static files at the destination location as specified in your settings: C:\\Users\\ Your Name \\myworld\\my_tennis_club\\productionfiles This will overwrite existing files! Are you sure you want to do this? Type 'yes' to continue, or 'no' to cancel:",
+          "Type 'yes' to continue, or 'no' to cancel: yes",
+          "1 static file copied to 'C:\\Users\\ Your Name \\myworld\\my_tennis_club\\productionfiles', 131 unmodified.",
+          "py manage.py runserver",
+          "Example my_tennis_club/members/templates/template.html : {% load static %}\n<!DOCTYPE html>\n<html>\n<link rel=\"stylesheet\" href=\"{% static 'myglobal.css' %}\">\n<body>\n\n{% for x in fruits %}\n  <h1>{{ x }}</h1>\n{% endfor %}\n\n</body>\n</html> Run Example »"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_collect_static_files.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_static_css_global"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_static_css_global"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_collect_static_files.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_add_css_file_project.php",
+    "cours": {
+      "titre": "Add CSS File to the Project",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_add_css_file_project.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "my_tennis_club manage.py my_tennis_club/ members/ mystaticfiles/ mystyles.css",
+          "py manage.py collectstatic",
+          "You have requested to collect static files at the destination location as specified in your settings: C:\\Users\\ Your Name \\myworld\\my_tennis_club\\productionfiles This will overwrite existing files! Are you sure you want to do this? Type 'yes' to continue, or 'no' to cancel:",
+          "1 static file copied to 'C:\\Users\\ Your Name \\minverden\\my_tennis_club\\productionfiles', 132 unmodified.",
+          "py manage.py runserver",
+          "py manage.py collectstatic",
+          "py manage.py runserver",
+          "my_tennis_club manage.py my_tennis_club/ members/ mystaticfiles/ mystyles.css",
+          "my_tennis_club/mystaticfiles/mystyles.css : body {\n  background-color: violet;\n}",
+          "my_tennis_club/members/templates/master.html : {% load static %}\n<!DOCTYPE html>\n<html>\n<head>\n  <title>{% block title %}{% endblock %}</title>\n  <link rel=\"stylesheet\" href=\"{% static 'mystyles.css' %}\">  \n</head>\n<body>\n\n{% block content %}\n{% endblock %}\n\n</body>\n</html>",
+          "my_tennis_club/my_tennis_club/settings.py : .\n.\nSTATIC_ROOT = BASE_DIR / 'productionfiles'\n\nSTATIC_URL = 'static/'\n\n#Add this in your settings.py file:\nSTATICFILES_DIRS = [\n    BASE_DIR / 'mystaticfiles'\n]\n.\n.",
+          "py manage.py collectstatic",
+          "You have requested to collect static files at the destination location as specified in your settings: C:\\Users\\ Your Name \\myworld\\my_tennis_club\\productionfiles This will overwrite existing files! Are you sure you want to do this? Type 'yes' to continue, or 'no' to cancel:",
+          "1 static file copied to 'C:\\Users\\ Your Name \\minverden\\my_tennis_club\\productionfiles', 132 unmodified.",
+          "py manage.py runserver",
+          "my_tennis_club/mystaticfiles/mystyles.css : @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap');\nbody {\n  margin:0;\n  font: 600 18px 'Source Sans Pro', sans-serif;\n  letter-spacing: 0.64px;\n  color: #585d74;\n}\n.topnav {\n  background-color:#375BDC;\n  color:#ffffff;\n  padding:10px;\n}\n.topnav a:link, .topnav a:visited {\n  text-decoration: none;\n  color: #ffffff; \n}\n.topnav a:hover, .topnav a:active {\n  text-decoration: underline;\n}\n.mycard {\n  background-color: #f1f1f1;\n  background-image: linear-gradient(to bottom, #375BDC, #4D70EF); \n  background-size: 100% 120px;\n  background-repeat: no-repeat;\n  margin: 40px auto;\n  width: 350px;\n  border-radius: 5px;\n  box-shadow: 0 5px 7px -1px rgba(51, 51, 51, 0.23); \n  padding: 20px;\n}\n.mycard h1 {\n  text-align: center;\n  color:#ffffff;\n  margin:20px 0 60px 0;\n}\nul {\n  list-style-type: none;\n  padding: 0;\n  margin: 0;\n}\nli {\n  background-color: #ffffff;\n  background-image: linear-gradient(to right, #375BDC, #4D70EF); \n  background-size: 50px 60px;\n  background-repeat: no-repeat;\n  cursor: pointer;\n  transition: transform .25s;\n  border-radius: 5px;\n  box-shadow: 0 5px 7px -1px rgba(51, 51, 51, 0.23);\n  padding: 15px;\n  padding-left: 70px;\n  margin-top: 5px;\n}\nli:hover {\n  transform: scale(1.1);\n}\na:link, a:visited {\n  color: #375BDC; \n}\n.main, .main h1 {\n  text-align:center;\n  color:#375BDC;\n}",
+          "my_tennis_club/members/templates/master.html : {% load static %}\n<!DOCTYPE html>\n<html>\n<head>\n  <link rel=\"stylesheet\" href=\"{% static 'mystyles.css' %}\">\n  <title>{% block title %}{% endblock %}</title>\n</head>\n<body>\n\n<div class=\"topnav\">\n  <a href=\"/\">HOME</a> |\n  <a href=\"/members\">MEMBERS</a>\n</div>\n\n{% block content %}\n{% endblock %}\n\n</body>\n</html>",
+          "my_tennis_club/members/templates/all_members.html : {% extends \"master.html\" %}\n\n{% block title %}\n  My Tennis Club - List of all members\n{% endblock %}\n\n\n{% block content %}\n  <div class=\"mycard\">\n    <h1>Members</h1>\n    <ul>\n      {% for x in mymembers %}\n        <li onclick=\"window.location = 'details/{{ x.id }}'\">{{ x.firstname }} {{ x.lastname }}</li>\n      {% endfor %}\n    </ul>\n  </div>\n{% endblock %}",
+          "my_tennis_club/members/templates/details.html : {% extends \"master.html\" %}\n\n{% block title %}\n  Details about {{ mymember.firstname }} {{ mymember.lastname }}\n{% endblock %}\n\n{% block content %}\n  <div class=\"mycard\">\n    <h1>{{ mymember.firstname }} {{ mymember.lastname }}</h1>\n    <p>Phone {{ mymember.phone }}</p>\n    <p>Member since: {{ mymember.joined_date }}</p>\n  </div>\n{% endblock %}",
+          "my_tennis_club/members/templates/main.html : {% extends \"master.html\" %}\n\n{% block title %}\n  My Tennis Club\n{% endblock %}\n\n{% block content %}\n  <div class=\"main\">\n    <h1>My Tennis Club</h1>\n\n    <h3>Members</h3>\n  \n    <p>Check out all our <a href=\"members/\">members</a></p>\n  </div>\n{% endblock %}",
+          "py manage.py collectstatic",
+          "py manage.py runserver"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_add_global_static_files.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_add_global_static_files.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_db_postgresql_intro.php",
+    "cours": {
+      "titre": "Introduction to PostgreSQL",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_db_postgresql_intro.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "PostgreSQL",
+            "MariaDB",
+            "MySQL",
+            "Oracle"
+          ]
+        ],
+        "examples": [
+          "pip install psycopg2-binary",
+          "Collecting psycopg2-binary Downloading psycopg2_binary-2.9.5-cp39-cp39-win_amd64.whl (1.2 MB) |████████████████████████████████| 1.2 MB 3.3 MB/s Installing collected packages: psycopg2-binary Successfully installed psycopg2-binary-2.9.5 WARNING: You are using pip version 20.2.3; however, version 22.3.1 is available.\nYou should consider upgrading via the 'c:\\users\\ Your Name \\myworld\\scripts\\python.exe -m pip install --upgrade pip' command.",
+          "pip install psycopg2-binary",
+          "Collecting psycopg2-binary Downloading psycopg2_binary-2.9.5-cp39-cp39-win_amd64.whl (1.2 MB) |████████████████████████████████| 1.2 MB 3.3 MB/s Installing collected packages: psycopg2-binary Successfully installed psycopg2-binary-2.9.5 WARNING: You are using pip version 20.2.3; however, version 22.3.1 is available.\nYou should consider upgrading via the 'c:\\users\\ Your Name \\myworld\\scripts\\python.exe -m pip install --upgrade pip' command."
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_add_css_file_project.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_add_css_file_project.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_db_create_aws_account.php",
+    "cours": {
+      "titre": "Create AWS Account",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_db_create_aws_account.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_db_postgresql_intro.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_db_postgresql_intro.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_db_create_rds.php",
+    "cours": {
+      "titre": "Create PostgreSQL Database",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_db_create_rds.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_db_create_aws_account.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_db_create_aws_account.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_db_connect.php",
+    "cours": {
+      "titre": "Connect to Database",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_db_connect.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "py manage.py migrate",
+          "Operations to perform: Apply all migrations: admin, auth, contenttypes, members, sessions Running migrations: Applying contenttypes.0001_initial... OK Applying auth.0001_initial... OK Applying admin.0001_initial... OK Applying admin.0002_logentry_remove_auto_add... OK Applying admin.0003_logentry_add_action_flag_choices... OK Applying contenttypes.0002_remove_content_type_name... OK Applying auth.0002_alter_permission_name_max_length... OK Applying auth.0003_alter_user_email_max_length... OK Applying auth.0004_alter_user_username_opts... OK Applying auth.0005_alter_user_last_login_null... OK Applying auth.0006_require_contenttypes_0002... OK Applying auth.0007_alter_validators_add_error_messages... OK Applying auth.0008_alter_user_username_max_length... OK Applying auth.0009_alter_user_last_name_max_length... OK Applying auth.0010_alter_group_name_max_length... OK Applying auth.0011_update_proxy_permissions... OK Applying auth.0012_alter_user_first_name_max_length... OK Applying members.0001_initial... OK Applying members.0002_members_delete_member... OK Applying members.0003_rename_members_member... OK Applying sessions.0001_initial... OK",
+          "py manage.py runserver",
+          "SQLite my_tennis_club/my_tennis_club/settings.py : .\n.\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.sqlite3',\n        'NAME': BASE_DIR / 'db.sqlite3',\n    }\n}\n.",
+          "PostgreSQL my_tennis_club/my_tennis_club/settings.py : .\n.\nDATABASES = {\n    'default': {\n        'ENGINE': 'django.db.backends.postgresql',\n        'NAME': 'postgres',\n        'USER': 'masteruser',\n        'PASSWORD': '12345678',\n        'HOST': 'w3-django-project.cdxmgq9zqqlr.us-east-1.rds.amazonaws.com',\n        'PORT': '5432'\n    }\n}\n.",
+          "py manage.py migrate",
+          "Operations to perform: Apply all migrations: admin, auth, contenttypes, members, sessions Running migrations: Applying contenttypes.0001_initial... OK Applying auth.0001_initial... OK Applying admin.0001_initial... OK Applying admin.0002_logentry_remove_auto_add... OK Applying admin.0003_logentry_add_action_flag_choices... OK Applying contenttypes.0002_remove_content_type_name... OK Applying auth.0002_alter_permission_name_max_length... OK Applying auth.0003_alter_user_email_max_length... OK Applying auth.0004_alter_user_username_opts... OK Applying auth.0005_alter_user_last_login_null... OK Applying auth.0006_require_contenttypes_0002... OK Applying auth.0007_alter_validators_add_error_messages... OK Applying auth.0008_alter_user_username_max_length... OK Applying auth.0009_alter_user_last_name_max_length... OK Applying auth.0010_alter_group_name_max_length... OK Applying auth.0011_update_proxy_permissions... OK Applying auth.0012_alter_user_first_name_max_length... OK Applying members.0001_initial... OK Applying members.0002_members_delete_member... OK Applying members.0003_rename_members_member... OK Applying sessions.0001_initial... OK",
+          "py manage.py runserver"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_db_create_rds.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_db_create_rds.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_db_add_members.php",
+    "cours": {
+      "titre": "PostgreSQL - Add Members",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_db_add_members.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "py manage.py createsuperuser",
+          "Username:",
+          "Username: johndoe Email address: johndoe@dummymail.com Password: Password (again): This password is too short. It must contain at least 8 characters. This password is too common. This password is entirely numeric. Bypass password validation and create user anyway? [y/N]:",
+          "Bypass password validation and create user anyway? [y/N]: y",
+          "Superuser created successfully.",
+          "py manage.py runserver",
+          "py manage.py createsuperuser",
+          "Username:",
+          "Username: johndoe Email address: johndoe@dummymail.com Password: Password (again): This password is too short. It must contain at least 8 characters. This password is too common. This password is entirely numeric. Bypass password validation and create user anyway? [y/N]:",
+          "Bypass password validation and create user anyway? [y/N]: y",
+          "Superuser created successfully.",
+          "py manage.py runserver"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_db_connect.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_db_connect.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_deploy_provider.php",
+    "cours": {
+      "titre": "Deploy Django - Choose Provider",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_deploy_provider.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_db_add_members.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_db_add_members.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_deploy_requirements.php",
+    "cours": {
+      "titre": "Deploy Django - Create Requirements",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_deploy_requirements.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "py -m pip freeze > requirements.txt",
+          "my_tennis_club members/ my_tennis_club/ mystaticfiles/ productionfiles/ db.sqlite3 manage.py requirements.txt",
+          "py -m pip freeze > requirements.txt",
+          "my_tennis_club members/ my_tennis_club/ mystaticfiles/ productionfiles/ db.sqlite3 manage.py requirements.txt",
+          "my_tennis_club/requirements.txt : asgiref==3.5.2\nDjango==4.1.4\npsycopg2-binary==2.9.5\nsqlparse==0.4.3\ntzdata==2022.7\nwhitenoise==6.2.0"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_deploy_provider.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_deploy_provider.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_deploy_config.php",
+    "cours": {
+      "titre": "Deploy Django - django.config",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_deploy_config.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "my_tennis_club .ebextensions/ members/ my_tennis_club/ mystaticfiles/ productionfiles/ db.sqlite3 manage.py requirements.txt",
+          "my_tennis_club .ebextensions/ django.config",
+          "my_tennis_club .ebextensions/ members/ my_tennis_club/ mystaticfiles/ productionfiles/ db.sqlite3 manage.py requirements.txt",
+          "my_tennis_club .ebextensions/ django.config",
+          "my_tennis_club/.ebextensions/django.config : option_settings:\n  aws:elasticbeanstalk:container:python:\n    WSGIPath: my_tennis_club.wsgi:application"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_deploy_requirements.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_deploy_requirements.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_deploy_zip.php",
+    "cours": {
+      "titre": "Deploy Django Project - Create zip File",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_deploy_zip.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "my_tennis_club .ebextensions/ members/ my_tennis_club/ mystaticfiles/ productionfiles/ db.sqlite3 manage.py requirements.txt",
+          "my_tennis_club .ebextensions/ members/ my_tennis_club/ mystaticfiles/ productionfiles/ db.sqlite3 manage.py my_tennis_clup.zip requirements.txt",
+          "my_tennis_club .ebextensions/ members/ my_tennis_club/ mystaticfiles/ productionfiles/ db.sqlite3 manage.py requirements.txt",
+          "my_tennis_club .ebextensions/ members/ my_tennis_club/ mystaticfiles/ productionfiles/ db.sqlite3 manage.py my_tennis_clup.zip requirements.txt"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_deploy_config.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_deploy_config.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_deploy_eb.php",
+    "cours": {
+      "titre": "Deploy Django - Elastic Beanstalk",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_deploy_eb.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_deploy_zip.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_deploy_zip.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_deploy_update.php",
+    "cours": {
+      "titre": "Deploy Django - Update Project",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_deploy_update.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "my_tennis_club .ebextensions/ members/ my_tennis_club/ mystaticfiles/ productionfiles/ db.sqlite3 manage.py requirements.txt",
+          "my_tennis_club .ebextensions/ members/ my_tennis_club/ mystaticfiles/ productionfiles/ db.sqlite3 manage.py my_tennis_clup.zip requirements.txt",
+          "my_tennis_club .ebextensions/ members/ my_tennis_club/ mystaticfiles/ productionfiles/ db.sqlite3 manage.py requirements.txt",
+          "my_tennis_club .ebextensions/ members/ my_tennis_club/ mystaticfiles/ productionfiles/ db.sqlite3 manage.py my_tennis_clup.zip requirements.txt"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_deploy_eb.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_deploy_eb.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_slug_field.php",
+    "cours": {
+      "titre": "Django Slug Field",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_slug_field.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "w3schools.com/django/learn-about-slug-field",
+          "127.0.0.1:8000/members/details/1",
+          "127.0.0.1:8000/members/details/emil-refsnes",
+          "py manage.py makemigrations",
+          "py manage.py migrate",
+          "py manage.py runserver",
+          "my_tennis_club/members/models.py : from django.db import models\n\nclass Member(models.Model):\n  firstname = models.CharField(max_length=255)\n  lastname = models.CharField(max_length=255)\n  phone = models.IntegerField(null=True)\n  joined_date = models.DateField(null=True)\n  slug = models.SlugField(default=\"\", null=False)\n\n  def __str__(self):\n    return f\"{self.firstname} {self.lastname}\"",
+          "py manage.py makemigrations",
+          "py manage.py migrate",
+          "my_tennis_club/members/admin.py : from django.contrib import admin\nfrom .models import Member\n\n# Register your models here.\n\nclass MemberAdmin(admin.ModelAdmin):\n  list_display = (\"firstname\", \"lastname\", \"joined_date\",)\n  prepopulated_fields = {\"slug\": (\"firstname\", \"lastname\")}\n  \nadmin.site.register(Member, MemberAdmin)",
+          "my_tennis_club/members/templates/all_members.html : {% extends \"master.html\" %}\n\n{% block title %}\n  My Tennis Club - List of all members\n{% endblock %}\n\n\n{% block content %}\n  <div class=\"mycard\">\n    <h1>Members</h1>\n    <ul>\n      {% for x in mymembers %}\n        <li onclick=\"window.location = 'details/{{ x.slug }}'\">{{ x.firstname }} {{ x.lastname }}</li>\n      {% endfor %}\n    </ul>\n  </div>\n{% endblock %}",
+          "my_tennis_club/members/urls.py : from django.urls import path\nfrom . import views\n\nurlpatterns = [\n    path('', views.main, name='main'),\n    path('members/', views.members, name='members'),\n    path('members/details/<slug:slug>', views.details, name='details'),\n    path('testing/', views.testing, name='testing'),\n]",
+          "my_tennis_club/members/views.py : from django.http import HttpResponse\nfrom django.template import loader\nfrom .models import Member\n\ndef members(request):\n  mymembers = Member.objects.all().values()\n  template = loader.get_template('all_members.html')\n  context = {\n    'mymembers': mymembers,\n  }\n  return HttpResponse(template.render(context, request))\n  \ndef details(request, slug):\n  mymember = Member.objects.get(slug=slug)\n  template = loader.get_template('details.html')\n  context = {\n    'mymember': mymember,\n  }\n  return HttpResponse(template.render(context, request))\n  \ndef main(request):\n  template = loader.get_template('main.html')\n  return HttpResponse(template.render())\n\ndef testing(request):\n  template = loader.get_template('template.html')\n  context = {\n    'fruits': ['Apple', 'Banana', 'Cherry'],   \n  }\n  return HttpResponse(template.render(context, request))",
+          "py manage.py runserver"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_deploy_update.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_deploy_update.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_add_bootstrap5.php",
+    "cours": {
+      "titre": "Django - Add Static File",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_add_bootstrap5.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [
+          "Scripts\\activate.bat",
+          "pip \n  install django-bootstrap-v5",
+          "Collecting django-bootstrap-v5 Downloading django_bootstrap_v5-1.0.11-py3-none-any.whl (24 kB) Requirement already satisfied: django<5.0,>=2.2 in c:\\users\\ your name \\myworld\\lib\\site-packages (from django-bootstrap-v5) (4.1.4) Collecting beautifulsoup4<5.0.0,>=4.8.0 Downloading beautifulsoup4-4.11.1-py3-none-any.whl (128 kB) |████████████████████████████████| 128 kB 6.4 MB/s Requirement already satisfied: tzdata; sys_platform == \"win32\" in c:\\users\\ your name \\myworld\\lib\\site-packages (from django<5.0,>=2.2->django-bootstrap-v5) (2022.7) Requirement already satisfied: asgiref<4,>=3.5.2 in c:\\users\\ your name \\myworld\\lib\\site-packages (from django<5.0,>=2.2->django-bootstrap-v5) (3.5.2) Requirement already satisfied: sqlparse>=0.2.2 in c:\\users\\ your name \\myworld\\lib\\site-packages (from django<5.0,>=2.2->django-bootstrap-v5) (0.4.3) Collecting soupsieve>1.2 Downloading soupsieve-2.3.2.post1-py3-none-any.whl (37 kB) Installing collected packages: soupsieve, beautifulsoup4, django-bootstrap-v5 Successfully installed beautifulsoup4-4.11.1 django-bootstrap-v5-1.0.11 soupsieve-2.3.2.post1",
+          "Scripts\\activate.bat",
+          "pip \n  install django-bootstrap-v5",
+          "Collecting django-bootstrap-v5 Downloading django_bootstrap_v5-1.0.11-py3-none-any.whl (24 kB) Requirement already satisfied: django<5.0,>=2.2 in c:\\users\\ your name \\myworld\\lib\\site-packages (from django-bootstrap-v5) (4.1.4) Collecting beautifulsoup4<5.0.0,>=4.8.0 Downloading beautifulsoup4-4.11.1-py3-none-any.whl (128 kB) |████████████████████████████████| 128 kB 6.4 MB/s Requirement already satisfied: tzdata; sys_platform == \"win32\" in c:\\users\\ your name \\myworld\\lib\\site-packages (from django<5.0,>=2.2->django-bootstrap-v5) (2022.7) Requirement already satisfied: asgiref<4,>=3.5.2 in c:\\users\\ your name \\myworld\\lib\\site-packages (from django<5.0,>=2.2->django-bootstrap-v5) (3.5.2) Requirement already satisfied: sqlparse>=0.2.2 in c:\\users\\ your name \\myworld\\lib\\site-packages (from django<5.0,>=2.2->django-bootstrap-v5) (0.4.3) Collecting soupsieve>1.2 Downloading soupsieve-2.3.2.post1-py3-none-any.whl (37 kB) Installing collected packages: soupsieve, beautifulsoup4, django-bootstrap-v5 Successfully installed beautifulsoup4-4.11.1 django-bootstrap-v5-1.0.11 soupsieve-2.3.2.post1",
+          "my_tennis_club/my_tennis_club/settings.py : INSTALLED_APPS = [\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'members',\n    'bootstrap5',\n]",
+          "my_tennis_club/members/templates/master.html : <!DOCTYPE html>\n<html>\n<head>\n  <title>{% block title %}{% endblock %}</title>\n  {% load bootstrap5 %}\n  {% bootstrap_css %}\n  {% bootstrap_javascript %}\n</head>\n<body>\n\n<div class=\"container\">\n  <ul class=\"nav bg-info\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link link-light\" href=\"/\">HOME</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link link-light\" href=\"/members\">MEMBERS</a>\n    </li>\n  </ul>\n\n  {% block content %}\n  {% endblock %}\n</div>\n</body>\n</html>",
+          "{% load bootstrap5 %}\n  {% bootstrap_css %}\n  {% bootstrap_javascript %}",
+          "<div class=\"container\">\n  <ul class=\"nav bg-info\">\n    <li class=\"nav-item\">\n      <a class=\"nav-link link-light\" href=\"/\">HOME</a>\n    </li>\n    <li class=\"nav-item\">\n      <a class=\"nav-link link-light\" href=\"/members\">MEMBERS</a>\n    </li>\n  </ul>\n  {% block content %}\n  {% endblock %}\n</div>"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_slug_field.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_slug_field.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_ref_template_tags.php",
+    "cours": {
+      "titre": "Django Template Tags Reference",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_ref_template_tags.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_add_bootstrap5.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_add_bootstrap5.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_ref_filter.php",
+    "cours": {
+      "titre": "Filter Reference",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_ref_filter.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_ref_template_tags.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_ref_template_tags.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_ref_field_lookups.php",
+    "cours": {
+      "titre": "QuerySet Field Lookups Reference",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_ref_field_lookups.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_ref_filter.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_ref_filter.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_compiler.php",
+    "cours": {
+      "titre": "Django Online Compiler",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_compiler.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Templates: Start from scratch or use a template",
+            "Cloud-based: no installations required. You only need your browser",
+            "Terminal & Log: debug and troubleshoot your code easily",
+            "File Navigator: switch between files inside the code editor",
+            "And much more!"
+          ]
+        ],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_ref_field_lookups.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_ref_field_lookups.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_exercises.php",
+    "cours": {
+      "titre": "Django Exercises",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_exercises.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_compiler.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_compiler.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_quiz.php",
+    "cours": {
+      "titre": "Django Quiz",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_quiz.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_exercises.php"
+          },
+          {
+            "title": "Start the Django Quiz ❯",
+            "url": "https://www.w3schools.com/quiztest/quiztest.php?qtest=DJANGO"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_exercises.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_syllabus.php",
+    "cours": {
+      "titre": "Django Syllabus",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_syllabus.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Learn what Django is and create your first project",
+            "Set up virtual environment and install Django",
+            "Create Django apps and handle web pages with views",
+            "Connect pages using Django URLs",
+            "Create templates with Django template tags",
+            "Work with databases using Django models",
+            "Learn CRUD operations (Create, Read, Update, Delete)",
+            "Use Django admin interface to manage data",
+            "Work with static files and PostgreSQL database",
+            "Deploy your Django project to the web"
+          ],
+          [
+            "Web Development: Django can be used for building robust web applications.",
+            "Back-end Development: Django provides a complete framework for server-side development.",
+            "Database Management: Django's ORM simplifies database operations.",
+            "Content Management: Django is good for building content management systems and content-driven websites.",
+            "API Development: Django REST framework enables powerful API creation.",
+            "E-commerce: Django can be used for building secure e-commerce platforms.",
+            "Enterprise Applications: Django is suitable for large-scale enterprise solutions."
+          ],
+          [
+            "Lessons",
+            "Exercises",
+            "Quizzes"
+          ],
+          [
+            "Learning paths",
+            "Sandbox and lab environments",
+            "Achievements",
+            "And much more!"
+          ],
+          [
+            "Collaboration",
+            "File navigator",
+            "Terminal & log",
+            "Package manager",
+            "Database",
+            "Environment manager",
+            "Analytics"
+          ]
+        ],
+        "examples": [
+          "Example <ul>\n  {% for x in mymembers %}\n    <li>{{ x.firstname }}</li>\n  {% endfor %}\n</ul> Run Example »"
+        ],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_quiz.php"
+          },
+          {
+            "title": "Run Example »",
+            "url": "https://www.w3schools.com/django/showdjango.php?filename=demo_django_index"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_quiz.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_study_plan.php",
+    "cours": {
+      "titre": "Django Study Plan",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_study_plan.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [
+          [
+            "Essentials ($1.99 / month per student)",
+            "Full Access ($5.99 / month per student)",
+            "Calculate your price and order here ."
+          ],
+          [
+            "Managing your classroom",
+            "Tracking of student progress and reports",
+            "Labs, assignments, and code challenges (prebuilt challenges or create your own ones)",
+            "Auto-grading",
+            "Teaching materials",
+            "Certification exams"
+          ],
+          [
+            "W3Schools Django Tutorial",
+            "Django Exercises",
+            "Django Quiz",
+            "Django Challenges (Coding challenges)",
+            "Django Certification Exam (End of Pathway Exam)"
+          ],
+          [
+            "Learning Paths You can add ready-made learning paths. The learning paths are by default ordered by our recommended order. You can change the order. You can add custom activities with text, links, or multi-media files. Drag and drop or click to make changes to the path.",
+            "You can add ready-made learning paths.",
+            "The learning paths are by default ordered by our recommended order.",
+            "You can change the order.",
+            "You can add custom activities with text, links, or multi-media files.",
+            "Drag and drop or click to make changes to the path.",
+            "Interactive Content Tutorials Try-its (test code snippets) Exercises Quiz Challenges Labs",
+            "Tutorials",
+            "Try-its (test code snippets)",
+            "Exercises",
+            "Quiz",
+            "Challenges",
+            "Labs",
+            "Timeline and Pace You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans). You can decide the learning pace for your class. Different study plans can be assigned to different students in the same class. The flexibility can help to make sure that everyone is challenged.",
+            "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+            "You can decide the learning pace for your class.",
+            "Different study plans can be assigned to different students in the same class.",
+            "The flexibility can help to make sure that everyone is challenged.",
+            "Track Student Progress There are tools to track student progress. The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more. The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+            "There are tools to track student progress.",
+            "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+            "The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+            "End of Pathway Exam The Django study plan aligns with the Django Certification Exam. The exam can be taken at the end of the study plan, at your selected date. The exam summarizes the Django Tutorial. You get reports of the students' results.",
+            "The Django study plan aligns with the Django Certification Exam.",
+            "The exam can be taken at the end of the study plan, at your selected date.",
+            "The exam summarizes the Django Tutorial.",
+            "You get reports of the students' results.",
+            "Accessibility Study plans and learning materials are accessible on desktops, tablets, and smartphones. This ensures students can learn anytime, anywhere.",
+            "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+            "This ensures students can learn anytime, anywhere."
+          ],
+          [
+            "Week 1: Introduction, Display Data, Admin",
+            "Week 2: Syntax, QuerySets, Static Files",
+            "Week 3: PostgreSQL, Deploy, More Django, Django Certification Exam"
+          ]
+        ],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_syllabus.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_syllabus.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_server.php",
+    "cours": {
+      "titre": "Django Server",
+      "description": "",
+      "lien": "https://www.w3schools.com/django/django_server.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_study_plan.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_study_plan.php"
+          },
+          {
+            "title": "Log in to track progress",
+            "url": "https://www.w3schools.com/signup/?utm_source=classic&utm_medium=vue_tutorial&utm_campaign=button_lower_navigation"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/django/django_exam.php",
+    "cours": {
+      "titre": "W3Schools Django Certificate",
+      "description": "How Does It Work? Study for free at W3Schools.com Study at your own speed Test your skills with W3Schools online quizzes Apply for your certificate by paying an exam fee Take your exam online, at any time, and from any location",
+      "lien": "https://www.w3schools.com/django/django_exam.php",
+      "contenus": {
+        "paragraphs": [],
+        "lists": [],
+        "examples": [],
+        "course_structure": [
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_server.php"
+          },
+          {
+            "title": "❮ Previous",
+            "url": "https://www.w3schools.com/django/django_server.php"
+          },
+          {
+            "title": "Log in",
+            "url": "https://profile.w3schools.com/log-in?redirect_url=https%3A%2F%2Fpathfinder.w3schools.com"
+          }
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://campus.w3schools.com/collections/certifications/products/django-certification-exam?utm_source=w3schools&utm_medium=referral&utm_campaign=django_exam&utm_content=get_your_certificate",
+    "cours": {
+      "id": "",
+      "contenus": {
+        "texte": "",
+        "lienVideo": ""
+      },
+      "categories": [],
+      "niveau": "Débutant",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  }
+]

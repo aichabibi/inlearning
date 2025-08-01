@@ -1,0 +1,1734 @@
+[
+  {
+    "url": "https://www.w3schools.com/angular/default.asp",
+    "cours": {
+      "titre": "AngularJS Tutorial",
+      "description": "Learn AngularJSAngularJS extends HTML with new attributes.AngularJS is perfect for Single Page Applications (SPAs).AngularJS is easy to learn.Start learning AngularJS now »",
+      "lien": "https://www.w3schools.com/angular/default.asp",
+      "contenus": {
+        "paragraphs": [
+          "AngularJS extends HTML with new attributes.",
+          "AngularJS is perfect for Single Page Applications (SPAs).",
+          "AngularJS is easy to learn.",
+          "This tutorial is specially designed to help you learn AngularJS as quickly and efficiently as possible.",
+          "First, you will learn the basics of AngularJS: directives, expressions, \nfilters, modules, and controllers.",
+          "Then you will learn everything else you need to know about AngularJS:",
+          "Events, DOM, Forms, Input, Validation, Http, and more.",
+          "In every chapter, you can edit the examples online, and click on a button to view the result.",
+          "Before you study AngularJS, you should have a basic understanding of:",
+          "AngularJS version 1.0 was released in 2012.",
+          "MiÅ¡ko Hevery, a Google employee, started to work with AngularJS in 2009.",
+          "The idea turned out very well, and the project is now officially supported by \nGoogle.",
+          "Track your progress with the free \"My Learning\" program here at W3Schools.",
+          "Log in to your account, and start earning points!",
+          "This is an optional feature. You can study at W3Schools without using My Learning.",
+          "W3Schools' AngularJS tutorial contains lots of AngularJS examples!",
+          "AngularJS Examples",
+          "The AngularJS reference contains all directives and filters used in this tutorial.",
+          "AngularJS Reference"
+        ],
+        "lists": [
+          [
+            "HTML",
+            "CSS",
+            "JavaScript"
+          ]
+        ],
+        "examples": [
+          "<!DOCTYPE html><html lang=\"en-US\"><script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js\"></script><body><div ng-app=\"\"><p>Name : <input type=\"text\" ng-model=\"name\"></p><h1>Hello {{name}}</h1></div></body></html>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_intro.asp",
+    "cours": {
+      "titre": "AngularJS Introduction",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_intro.asp",
+      "contenus": {
+        "paragraphs": [
+          "AngularJS is aJavaScript framework. It can be added to an HTML \npage with a <script> tag.",
+          "AngularJS extends HTML attributes withDirectives, and binds data to HTML withExpressions.",
+          "AngularJS is a JavaScript framework written in JavaScript.",
+          "AngularJS is distributed as a JavaScript file, and can be added to a web page \nwith a script tag:",
+          "AngularJS extends HTML withng-directives.",
+          "Theng-appdirective defines an AngularJS application.",
+          "Theng-modeldirective binds the value of HTML controls \n(input, select, textarea) to application data.",
+          "Theng-binddirective binds application data to the HTML \nview.",
+          "Example explained:",
+          "AngularJS starts automatically when the web page has loaded.",
+          "Theng-appdirective tells AngularJS that the <div> element is the \"owner\" of an \nAngularJSapplication.",
+          "Theng-modeldirective binds the value of the input field to \nthe application variablename.",
+          "Theng-binddirective binds the content of the <p> element to the application variablename.",
+          "As you have already seen, AngularJS directives are HTML attributes with anngprefix.",
+          "Theng-initdirective initializes AngularJS application variables.",
+          "Alternatively with valid HTML:",
+          "You can usedata-ng-, instead ofng-, if \nyou want to make your page HTML valid.",
+          "You will learn a lot more about directives later in this tutorial.",
+          "AngularJS expressions are written inside double braces:{{ expression }}.",
+          "AngularJS will \"output\" data exactly where the expression is written:",
+          "AngularJS expressions bind AngularJS data to HTML the same way as theng-binddirective.",
+          "You will learn more about expressions later in this tutorial.",
+          "AngularJSmodulesdefine AngularJS applications.",
+          "AngularJScontrollerscontrol AngularJS applications.",
+          "Theng-appdirective defines the application, theng-controllerdirective defines the controller.",
+          "AngularJS modules define applications:",
+          "AngularJS controllers control applications:",
+          "You will learn more about modules and controllers later in this tutorial."
+        ],
+        "lists": [],
+        "examples": [
+          "<script\nsrc=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js\"></script>",
+          "<!DOCTYPE html><html><script\nsrc=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js\"></script><body><div ng-app=\"\"><p>Name: <input type=\"text\" ng-model=\"name\"></p><p ng-bind=\"name\"></p></div></body></html>",
+          "<div ng-app=\"\" ng-init=\"firstName='John'\"><p>The name is <span ng-bind=\"firstName\"></span></p></div>",
+          "<div data-ng-app=\"\" data-ng-init=\"firstName='John'\"><p>The name is <span data-ng-bind=\"firstName\"></span></p></div>",
+          "<!DOCTYPE html><html><script\nsrc=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js\"></script><body><div ng-app=\"\"><p>My first expression: {{ 5 + 5 }}</p></div></body></html>",
+          "<!DOCTYPE html><html><script\nsrc=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js\"></script><body><div ng-app=\"\"><p>Name: \n <input type=\"text\" ng-model=\"name\"></p><p>{{name}}</p></div></body></html>",
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\">First Name: <input type=\"text\" ng-model=\"firstName\"><br>Last Name: <input type=\"text\" ng-model=\"lastName\"><br><br>Full Name: {{firstName + \" \" + lastName}}</div><script>var app = angular.module('myApp', []);app.controller('myCtrl', \n function($scope) {$scope.firstName= \"John\";$scope.lastName= \"Doe\";});</script>",
+          "var app = angular.module('myApp', []);",
+          "app.controller('myCtrl', \n function($scope) {$scope.firstName= \"John\";$scope.lastName= \"Doe\";});"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_expressions.asp",
+    "cours": {
+      "titre": "AngularJS Expressions",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_expressions.asp",
+      "contenus": {
+        "paragraphs": [
+          "AngularJS binds data to HTML usingExpressions.",
+          "AngularJS expressions can be written inside double braces:{{expression}}.",
+          "AngularJS expressions can also be written inside a directive:ng-bind=\"expression\".",
+          "AngularJS will resolve the expression, and return the result exactly where the expression is written.",
+          "AngularJS expressionsare much likeJavaScript \nexpressions:They can contain literals, operators, and variables.",
+          "Example {{ 5 + 5 }} or {{ firstName + \" \" + lastName }}",
+          "If you remove theng-appdirective, HTML will display the \nexpression as it is, without solving it:",
+          "You can write expressions wherever you like, AngularJS will simply resolve the \nexpression and return the result.",
+          "Example: Let AngularJS change the value of CSS properties.Change the color of the input box below, by changing its value:Example<div ng-app=\"\" ng-init=\"myCol='lightblue'\"><input \n    style=\"background-color:{{myCol}}\" ng-model=\"myCol\"></div>Try it Yourself »AngularJS NumbersAngularJS numbers are like JavaScript numbers:Example<div ng-app=\"\" ng-init=\"quantity=1;cost=5\"><p>Total in dollar: {{ quantity * cost }}</p></div>Try it Yourself »Same example usingng-bind:Example<div ng-app=\"\" ng-init=\"quantity=1;cost=5\"><p>Total in dollar: <span ng-bind=\"quantity * cost\"></span></p></div>Try it Yourself »Usingng-initis not very common. You will learn a better way to initialize data \nin the chapter about controllers.AngularJS StringsAngularJS strings are like JavaScript strings:Example<div ng-app=\"\" ng-init=\"firstName='John';lastName='Doe'\"><p>The name is {{ firstName + \" \" + lastName }}</p></div>Try it Yourself »Same example usingng-bind:Example<div ng-app=\"\" ng-init=\"firstName='John';lastName='Doe'\"><p>The name is <span ng-bind=\"firstName + ' ' + lastName\"></span></p></div>Try it Yourself »AngularJS ObjectsAngularJS objects are like JavaScript objects:Example<div ng-app=\"\" ng-init=\"person={firstName:'John',lastName:'Doe'}\"><p>The name is {{ person.lastName }}</p></div>Try it Yourself »Same example usingng-bind:Example<div ng-app=\"\" ng-init=\"person={firstName:'John',lastName:'Doe'}\"><p>The name is <span ng-bind=\"person.lastName\"></span></p></div>Try it Yourself »AngularJS ArraysAngularJS arrays are like JavaScript arrays:Example<div ng-app=\"\" ng-init=\"points=[1,15,19,2,40]\"><p>The third result is {{ points[2] }}</p></div>Try it Yourself »Same example usingng-bind:Example<div ng-app=\"\" ng-init=\"points=[1,15,19,2,40]\"><p>The third result is <span ng-bind=\"points[2]\"></span></p></div>Try it Yourself »AngularJS Expressions vs. JavaScript ExpressionsLike JavaScript expressions, AngularJS expressions can contain literals, \noperators, and variables.Unlike JavaScript expressions, AngularJS expressions can be written inside \nHTML.AngularJS expressions do not support \nconditionals, loops, and exceptions, while JavaScript expressions do.AngularJS expressions support filters, while JavaScript expressions do not.Learn about JavaScript in ourJavaScript Tutorial.❮ PreviousNext ❯★+1Track your progress - it's free!Log inSign Up",
+          "Example: Let AngularJS change the value of CSS properties.",
+          "Change the color of the input box below, by changing its value:",
+          "AngularJS numbers are like JavaScript numbers:",
+          "Same example usingng-bind:",
+          "Usingng-initis not very common. You will learn a better way to initialize data \nin the chapter about controllers.",
+          "AngularJS strings are like JavaScript strings:",
+          "Same example usingng-bind:",
+          "AngularJS objects are like JavaScript objects:",
+          "Same example usingng-bind:",
+          "AngularJS arrays are like JavaScript arrays:",
+          "Same example usingng-bind:",
+          "Like JavaScript expressions, AngularJS expressions can contain literals, \noperators, and variables.",
+          "Unlike JavaScript expressions, AngularJS expressions can be written inside \nHTML.",
+          "AngularJS expressions do not support \nconditionals, loops, and exceptions, while JavaScript expressions do.",
+          "AngularJS expressions support filters, while JavaScript expressions do not.",
+          "Learn about JavaScript in ourJavaScript Tutorial."
+        ],
+        "lists": [],
+        "examples": [
+          "<!DOCTYPE html><html><script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js\"></script><body><div ng-app=\"\"><p>My first expression: {{ 5 + 5 }}</p></div></body></html>",
+          "<!DOCTYPE html><html><script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js\"></script><body><div><p>My first expression: {{ 5 + 5 }}</p></div></body></html>",
+          "<div ng-app=\"\" ng-init=\"myCol='lightblue'\"><input \n    style=\"background-color:{{myCol}}\" ng-model=\"myCol\"></div>",
+          "<div ng-app=\"\" ng-init=\"quantity=1;cost=5\"><p>Total in dollar: {{ quantity * cost }}</p></div>",
+          "<div ng-app=\"\" ng-init=\"quantity=1;cost=5\"><p>Total in dollar: <span ng-bind=\"quantity * cost\"></span></p></div>",
+          "<div ng-app=\"\" ng-init=\"firstName='John';lastName='Doe'\"><p>The name is {{ firstName + \" \" + lastName }}</p></div>",
+          "<div ng-app=\"\" ng-init=\"firstName='John';lastName='Doe'\"><p>The name is <span ng-bind=\"firstName + ' ' + lastName\"></span></p></div>",
+          "<div ng-app=\"\" ng-init=\"person={firstName:'John',lastName:'Doe'}\"><p>The name is {{ person.lastName }}</p></div>",
+          "<div ng-app=\"\" ng-init=\"person={firstName:'John',lastName:'Doe'}\"><p>The name is <span ng-bind=\"person.lastName\"></span></p></div>",
+          "<div ng-app=\"\" ng-init=\"points=[1,15,19,2,40]\"><p>The third result is {{ points[2] }}</p></div>",
+          "<div ng-app=\"\" ng-init=\"points=[1,15,19,2,40]\"><p>The third result is <span ng-bind=\"points[2]\"></span></p></div>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_modules.asp",
+    "cours": {
+      "titre": "AngularJS Modules",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_modules.asp",
+      "contenus": {
+        "paragraphs": [
+          "An AngularJS module defines an application.",
+          "The module is a container for the different parts of an \napplication.",
+          "The module is a container for the application controllers.",
+          "Controllers always belong to a module.",
+          "A module is created by using the AngularJS functionangular.module",
+          "The \"myApp\" parameter refers to an HTML element in which the application will \nrun.",
+          "Now you can add controllers, directives, filters, and more, to your AngularJS application.",
+          "Add a controller to your application, and refer to the controller with theng-controllerdirective:",
+          "You will learn more about controllers later in this tutorial.",
+          "AngularJS has a set of built-in directives which you can use to add functionality \nto your application.",
+          "For a full reference, visit ourAngularJS directive reference.",
+          "In addition you can use the module to add your own directives to your \napplications:",
+          "You will learn more about directives later in this tutorial.",
+          "It is common in AngularJS applications to put the module and the controllers \nin JavaScript files.",
+          "In this example, \"myApp.js\" contains an application module definition, \nwhile \"myCtrl.js\" \ncontains the controller:",
+          "The [] parameter in the module definition can be used to define dependent \nmodules.",
+          "Without the [] parameter, you are notcreatinga new module, butretrievingan existing one.",
+          "Global functions should be avoided in JavaScript. They can easily be overwritten or destroyed by other scripts.",
+          "AngularJS modules reduces this problem, by keeping all functions local to the \nmodule.",
+          "While it is common in HTML applications to place scripts at the end of the<body>element, it is recommended that you load the AngularJS library either in \nthe<head>or at the start of the<body>.",
+          "This is because  \ncalls toangular.modulecan only be compiled after the library has been loaded."
+        ],
+        "lists": [],
+        "examples": [
+          "<div ng-app=\"myApp\">...</div><script>var app = angular.module(\"myApp\", []);</script>",
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\">{{ firstName + \" \" + lastName }}</div><script>var \n    app \n    = angular.module(\"myApp\", \n    []);app.controller(\"myCtrl\", function($scope) {$scope.firstName \n    = \"John\";$scope.lastName \n    = \"Doe\";});</script>",
+          "<div ng-app=\"myApp\" w3-test-directive></div><script>var app = \n    angular.module(\"myApp\", []);app.directive(\"w3TestDirective\", \n    function() {return {template : \"I was made in a directive constructor!\"};});</script>",
+          "<!DOCTYPE html><html><script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js\"></script><body><div ng-app=\"myApp\" \n    ng-controller=\"myCtrl\">{{ firstName + \" \" + lastName }}</div><script src=\"myApp.js\"></script><script src=\"myCtrl.js\"></script></body></html>",
+          "var app = angular.module(\"myApp\", []);",
+          "app.controller(\"myCtrl\", function($scope) {$scope.firstName    = \"John\";$scope.lastName= \"Doe\";});",
+          "<!DOCTYPE html><html><body><script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js\"></script><div ng-app=\"myApp\" \nng-controller=\"myCtrl\">{{ firstName + \" \" + lastName }}</div><script>var app = angular.module(\"myApp\", \n[]);app.controller(\"myCtrl\", function($scope) {$scope.firstName \n= \"John\";$scope.lastName \n= \"Doe\";});</script></body></html>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_directives.asp",
+    "cours": {
+      "titre": "AngularJS Directives",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_directives.asp",
+      "contenus": {
+        "paragraphs": [
+          "AngularJS lets you extend HTML with new attributes calledDirectives.",
+          "AngularJS has a set of built-in directives which offers functionality \nto your applications.",
+          "AngularJS also lets you define your own directives.",
+          "AngularJS directives are extended HTML attributes with the prefixng-.",
+          "Theng-appdirective initializes an AngularJS application.",
+          "Theng-initdirective initializes \napplication data.",
+          "Theng-modeldirective binds the value of HTML controls \n(input, select, textarea) to application data.",
+          "Read about all AngularJS directives in ourAngularJS directive reference.",
+          "Theng-appdirective also tells AngularJS that the <div> element \nis the \"owner\" of the AngularJS application.",
+          "The{{ firstName }}expression, in the example above, is an AngularJS data binding expression.",
+          "Data binding in AngularJS binds AngularJS expressions \nwith AngularJS data.",
+          "{{ firstName }}is bound withng-model=\"firstName\".",
+          "In the next example two text fields are bound together with two ng-model \ndirectives:",
+          "Usingng-initis not very common. You will learn how to initialize data \nin the chapter about controllers.",
+          "Theng-repeatdirective repeats an HTML element:",
+          "Theng-repeatdirective actuallyclones HTML elementsonce for each item in a collection.",
+          "Theng-repeatdirective used on an array of objects:",
+          "AngularJS is perfect for database CRUD (Create Read Update Delete) applications.Just imagine if these objects were records from a database.",
+          "Theng-appdirective defines theroot elementof an \nAngularJS application.",
+          "Theng-appdirective willauto-bootstrap(automatically \ninitialize) the application when a web page is loaded.",
+          "Theng-initdirective definesinitial valuesfor an \nAngularJS application.",
+          "Normally, you will not use ng-init. You will use a controller or module \ninstead.",
+          "You will learn more about controllers and modules later.",
+          "Theng-modeldirective binds the value of HTML controls \n(input, select, textarea) to application data.",
+          "Theng-modeldirective can also:",
+          "Read more about theng-modeldirective in the next chapter.",
+          "In addition to all the built-in AngularJS directives, you can create your own \ndirectives.",
+          "New directives are created by using the.directivefunction.",
+          "To invoke the new directive, make an HTML element with the same tag name as \nthe new directive.",
+          "When naming a directive, you must use a camel case name,w3TestDirective, but when invoking it, you must use-separated name,w3-test-directive:",
+          "You can invoke a directive by using:",
+          "The examples below will all produce the same result:",
+          "Element name",
+          "Attribute",
+          "Class",
+          "Comment",
+          "You can restrict your directives to only be invoked by some of the methods.",
+          "By adding arestrictproperty with the value\"A\", \n    the directive can only be invoked by attributes:",
+          "The legal restrict values are:",
+          "By default the value isEA, meaning that both Element names and attribute names can invoke the directive."
+        ],
+        "lists": [
+          [
+            "Provide type validation for application data (number, email, required).",
+            "Provide status for application data (invalid, dirty, touched, error).",
+            "Provide CSS classes for HTML elements.",
+            "Bind HTML elements to HTML forms."
+          ],
+          [
+            "Element name",
+            "Attribute",
+            "Class",
+            "Comment"
+          ],
+          [
+            "Efor Element name",
+            "Afor Attribute",
+            "Cfor Class",
+            "Mfor Comment"
+          ]
+        ],
+        "examples": [
+          "<div ng-app=\"\" ng-init=\"firstName='John'\"><p>Name: <input type=\"text\" ng-model=\"firstName\"></p><p>You wrote: {{ firstName }}</p></div>",
+          "<div ng-app=\"\" ng-init=\"quantity=1;price=5\">Quantity: <input type=\"number\"    ng-model=\"quantity\">Costs:    <input type=\"number\" ng-model=\"price\">Total in dollar: {{ quantity * price }}</div>",
+          "<div ng-app=\"\" ng-init=\"names=['Jani','Hege','Kai']\"><ul><li ng-repeat=\"x in names\">{{ x }}</li></ul></div>",
+          "<div ng-app=\"\" ng-init=\"names=[{name:'Jani',country:'Norway'},{name:'Hege',country:'Sweden'},{name:'Kai',country:'Denmark'}]\"><ul><li ng-repeat=\"x    in names\">{{ x.name + ', ' + x.country }}</li></ul></div>",
+          "<body ng-app=\"myApp\"><w3-test-directive></w3-test-directive><script>var app = angular.module(\"myApp\", []);app.directive(\"w3TestDirective\", \n    function() {return {template : \"<h1>Made by a directive!</h1>\"};});</script></body>",
+          "<w3-test-directive></w3-test-directive>",
+          "<div w3-test-directive></div>",
+          "<div class=\"w3-test-directive\"></div>",
+          "<!-- directive: w3-test-directive -->",
+          "var app = angular.module(\"myApp\", []);app.directive(\"w3TestDirective\", \n    function() {return {restrict : \"A\",template : \"<h1>Made by a directive!</h1>\"};});"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_model.asp",
+    "cours": {
+      "titre": "AngularJS ng-model Directive",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_model.asp",
+      "contenus": {
+        "paragraphs": [
+          "The ng-model directive binds the value of HTML controls (input, \nselect, textarea) to application data.",
+          "With theng-modeldirective you can bind the value of an input field \nto a variable created in AngularJS.",
+          "The binding goes both ways. If the user changes the value inside the input \nfield, the AngularJS property will also change its value:",
+          "Theng-modeldirective can provide type validation for application data (number, \ne-mail, required):",
+          "In the example above, the span will be displayed only if the expression in \ntheng-showattribute returnstrue.",
+          "If the property in theng-modelattribute does not exist, \nAngularJS will create one for you.",
+          "Theng-modeldirective can provide status for application data (valid, \ndirty, touched, error):",
+          "Theng-modeldirective provides CSS classes for HTML elements, depending \non their status:",
+          "Theng-modeldirective adds/removes the following classes, according to the \nstatus of the form field:"
+        ],
+        "lists": [
+          [
+            "ng-empty",
+            "ng-not-empty",
+            "ng-touched",
+            "ng-untouched",
+            "ng-valid",
+            "ng-invalid",
+            "ng-dirty",
+            "ng-pending",
+            "ng-pristine"
+          ]
+        ],
+        "examples": [
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\">Name: \n    <input ng-model=\"name\"></div><script>var app = angular.module('myApp', []);app.controller('myCtrl', function($scope) {$scope.name \n    = \"John Doe\";});</script>",
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\">Name: \n    <input ng-model=\"name\"><h1>You entered: {{name}}</h1></div>",
+          "<form ng-app=\"\" name=\"myForm\">Email:<input type=\"email\" name=\"myAddress\" ng-model=\"text\"><span ng-show=\"myForm.myAddress.$error.email\">Not a valid e-mail \n    address</span></form>",
+          "<form ng-app=\"\" name=\"myForm\" ng-init=\"myText = 'post@myweb.com'\">Email:<input type=\"email\" name=\"myAddress\" ng-model=\"myText\" \n    required><h1>Status</h1>{{myForm.myAddress.$valid}}{{myForm.myAddress.$dirty}}{{myForm.myAddress.$touched}}</form>",
+          "<style>input.ng-invalid {background-color: \n        lightblue;}</style><body><form ng-app=\"\" name=\"myForm\">Enter your name:<input name=\"myName\" ng-model=\"myText\" required></form>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_databinding.asp",
+    "cours": {
+      "titre": "AngularJS Data Binding",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_databinding.asp",
+      "contenus": {
+        "paragraphs": [
+          "Data binding in AngularJS is the synchronization between the model and the \nview.",
+          "AngularJS applications usually have a data model. The data model is a \ncollection of data available for the application.",
+          "The HTML container where the AngularJS application is displayed, is called the view.",
+          "The view has access to the model, and there are several ways of displaying \nmodel data in the view.",
+          "You can use theng-binddirective, which will bind the innerHTML \nof the element to the specified model property:",
+          "You can also use double braces{{}}to display content \nfrom the model:",
+          "Or you can use theng-modeldirective on HTML controls to bind \nthe model to the view.",
+          "Use theng-modeldirective to bind data from the model to the view on HTML \ncontrols (input, select, textarea)",
+          "Theng-modeldirective provides a two-way binding between the \nmodel and the view.",
+          "Data binding in AngularJS is the synchronization between the model and the \nview.",
+          "When data in themodelchanges, theviewreflects the \nchange, and when data in theviewchanges, themodelis \nupdated as well. This happens immediately and automatically, which makes sure \nthat the model and the view is updated at all times.",
+          "Applications in AngularJS are controlled by controllers. Read about \ncontrollers in theAngularJS Controllerschapter.",
+          "Because of the immediate synchronization of the model and the view, the \ncontroller can be completely separated from the view, and simply concentrate on \nthe model data. Thanks to the data binding in AngularJS, the view will reflect \nany changes made in the controller."
+        ],
+        "lists": [],
+        "examples": [
+          "var app = angular.module('myApp', []);app.controller('myCtrl', function($scope) {$scope.firstname \n    = \"John\";$scope.lastname = \"Doe\";});",
+          "<p ng-bind=\"firstname\"></p>",
+          "<p>First name: {{firstname}}</p>",
+          "<input ng-model=\"firstname\">",
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\">Name: <input ng-model=\"firstname\"><h1>{{firstname}}</h1></div><script>var app = angular.module('myApp', []);app.controller('myCtrl', function($scope) {$scope.firstname \n    = \"John\";$scope.lastname = \"Doe\";});</script>",
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\"><h1 ng-click=\"changeName()\">{{firstname}}</h1></div><script>var app = angular.module('myApp', []);app.controller('myCtrl', function($scope) {$scope.firstname \n    = \"John\";$scope.changeName \n    = function() {$scope.firstname \n    = \"Nelly\";}});</script>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_controllers.asp",
+    "cours": {
+      "titre": "AngularJS Controllers",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_controllers.asp",
+      "contenus": {
+        "paragraphs": [
+          "AngularJS controllerscontrol the dataof AngularJS \napplications.",
+          "AngularJS controllers are regularJavaScript Objects.",
+          "AngularJS applications are controlled by controllers.",
+          "Theng-controllerdirective defines the application controller.",
+          "A controller is aJavaScript Object, created by a standard JavaScriptobject constructor.",
+          "Application explained:",
+          "The AngularJS application is defined byng-app=\"myApp\". The application \nruns inside the <div>.",
+          "Theng-controller=\"myCtrl\"attribute is an AngularJS directive. \nIt defines a \ncontroller.",
+          "ThemyCtrlfunction is a JavaScript function.",
+          "AngularJS will invoke the controller with a$scopeobject.",
+          "In AngularJS, $scope is the application object (the owner of application \nvariables and functions).",
+          "The controller creates two properties (variables) in the scope \n(firstNameandlastName).",
+          "Theng-modeldirectives bind the input fields to  \nthe controller properties (firstName and lastName).",
+          "The example above demonstrated a controller object with two properties: lastName and firstName.",
+          "A controller can also have methods (variables as functions):",
+          "In larger applications, it is common to store controllers in \nexternal files.",
+          "Just copy the code between the <script> tags into an external file namedpersonController.js:",
+          "For the next example we will create a new controller file:",
+          "Save the file asnamesController.js:",
+          "And then use the controller file in an application:"
+        ],
+        "lists": [],
+        "examples": [
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\">First Name: <input type=\"text\" ng-model=\"firstName\"><br>Last Name: <input type=\"text\" ng-model=\"lastName\"><br><br>Full Name: {{firstName + \" \" + lastName}}</div><script>var app = angular.module('myApp', \n    []);app.controller('myCtrl', function($scope) {$scope.firstName \n    = \"John\";$scope.lastName = \"Doe\";});</script>",
+          "<div ng-app=\"myApp\" ng-controller=\"personCtrl\">First Name: <input type=\"text\" ng-model=\"firstName\"><br>Last Name: <input type=\"text\" ng-model=\"lastName\"><br><br>Full Name: {{fullName()}}</div><script>var app = angular.module('myApp', []);app.controller('personCtrl', \n function($scope) {$scope.firstName = \"John\";$scope.lastName \n = \"Doe\";$scope.fullName = function() {return $scope.firstName + \" \" + $scope.lastName;};});</script>",
+          "<div ng-app=\"myApp\" ng-controller=\"personCtrl\">First Name: <input type=\"text\" ng-model=\"firstName\"><br>Last Name: <input type=\"text\" ng-model=\"lastName\"><br><br>Full Name: {{fullName()}}</div><script src=\"personController.js\"></script>",
+          "angular.module('myApp', []).controller('namesCtrl',  \n function($scope) {$scope.names = [{name:'Jani',country:'Norway'},{name:'Hege',country:'Sweden'},{name:'Kai',country:'Denmark'}];});",
+          "<div ng-app=\"myApp\" ng-controller=\"namesCtrl\"><ul><li ng-repeat=\"x in names\">{{ x.name + ', ' + x.country }}</li></ul></div><script src=\"namesController.js\"></script>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_scopes.asp",
+    "cours": {
+      "titre": "AngularJS Scope",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_scopes.asp",
+      "contenus": {
+        "paragraphs": [
+          "The scope is the binding part between the HTML (view) and the JavaScript (controller).",
+          "The scope is an object with the available properties and \nmethods.",
+          "The scope is available for both the view and the controller.",
+          "When you make a controller in AngularJS, you pass the$scopeobject as an \nargument:",
+          "Properties made in the controller, can be referred to in the view:",
+          "When adding properties to the$scopeobject in the controller, the view (HTML) gets access to these properties.",
+          "In the view, you do not use the prefix$scope, you just \nrefer to a property name, like{{carname}}.",
+          "If we consider an AngularJS application to consist of:",
+          "Then the scope is the Model.",
+          "The scope is a JavaScript object with properties and methods, which are \navailable for both the view and the controller.",
+          "If you make changes in the view, the model and the controller \n    will be updated:",
+          "It is important to know which scope you are dealing with, at any time.",
+          "In the two examples above there is only one scope, so knowing your scope is \nnot an issue, but for larger applications there can be sections in the HTML DOM \nwhich can only access certain scopes.",
+          "When dealing with theng-repeatdirective, each repetition has  \naccess to the current repetition object:",
+          "Each<li>element has access to the current repetition object, \nin this case a string, which is referred to by usingx.",
+          "All applications have a$rootScopewhich is the scope created on \nthe HTML element that contains theng-appdirective.",
+          "The rootScope is available in the entire application.",
+          "If a variable has the same name in both the current scope and in the \nrootScope, the application uses the one in the current scope.",
+          "A variable named \"color\" exists in both the controller's scope and in the \nrootScope:"
+        ],
+        "lists": [
+          [
+            "View, which is the HTML.",
+            "Model, which is the data available for the current view.",
+            "Controller, which is the JavaScript function that \n    makes/changes/removes/controls the data."
+          ]
+        ],
+        "examples": [
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\"><h1>{{carname}}</h1></div><script>var app = angular.module('myApp', \n    []);app.controller('myCtrl', function($scope) {$scope.carname \n    = \"Volvo\";});</script>",
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\"><input ng-model=\"name\"><h1>My name is {{name}}</h1></div><script>var app = angular.module('myApp', \n    []);app.controller('myCtrl', function($scope) {$scope.name \n    = \"John Doe\";});</script>",
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\"><ul><li ng-repeat=\"x in names\">{{x}}</li></ul></div><script>var app = angular.module('myApp', \n    []);app.controller('myCtrl', function($scope) {$scope.names \n    = [\"Emil\", \"Tobias\", \"Linus\"];});</script>",
+          "<body ng-app=\"myApp\"><p>The rootScope's favorite color:</p><h1>{{color}}</h1><div ng-controller=\"myCtrl\"><p>The scope of the controller's favorite color:</p><h1>{{color}}</h1></div><p>The rootScope's favorite color is \n    still:</p><h1>{{color}}</h1><script>var app = angular.module('myApp', []);app.run(function($rootScope) {$rootScope.color = 'blue';});app.controller('myCtrl', \n    function($scope) {$scope.color = \"red\";});</script></body>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_filters.asp",
+    "cours": {
+      "titre": "AngularJS Filters",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_filters.asp",
+      "contenus": {
+        "paragraphs": [
+          "Filters can be added in AngularJS to format data.",
+          "AngularJS provides filters to transform data:",
+          "Filters can be added to expressions by using the pipe character|, \nfollowed by a filter.",
+          "Theuppercasefilter format strings to upper case:",
+          "Thelowercasefilter format strings to lower case:",
+          "Filters are added to directives, likeng-repeat, by using the pipe character|, followed by a filter:",
+          "TheorderByfilter sorts an array:",
+          "Thecurrencyfilter formats a number as currency:",
+          "Read more about the currency filter in ourAngularJS currency Filter Reference",
+          "Thefilterfilter selects a subset of an array.",
+          "Thefilterfilter can only be used on arrays, and it returns an \narray containing only the matching items.",
+          "Return the names that contains the letter \"i\":",
+          "Read more about the filter filter in ourAngularJS \nfilter Filter Reference",
+          "By setting theng-modeldirective \non an input field, we can use the value of the input field as an expression in a \nfilter.",
+          "Type a letter in the input field, and the list will shrink/grow depending on the match:",
+          "Click the table headers to change the sort order::",
+          "By adding theng-clickdirective on the table headers, we can run a function that changes the sorting order of the array:",
+          "You can make your own filters by registering a new filter factory function with \nyour module:",
+          "Make a custom filter called \"myFormat\":",
+          "ThemyFormatfilter will format every other character to uppercase."
+        ],
+        "lists": [
+          [
+            "currencyFormat a number to a currency format.",
+            "dateFormat a date to a specified format.",
+            "filterSelect a subset of items from an array.",
+            "jsonFormat an object to a JSON string.",
+            "limitToLimits an array/string, into a specified number of elements/characters.",
+            "lowercaseFormat a string to lower case.",
+            "numberFormat a number to a string.",
+            "orderByOrders an array by an expression.",
+            "uppercaseFormat a string to upper case."
+          ],
+          [
+            "{{ x }}"
+          ]
+        ],
+        "examples": [
+          "<div ng-app=\"myApp\" ng-controller=\"personCtrl\"><p>The name is {{ lastName | uppercase }}</p></div>",
+          "<div ng-app=\"myApp\" ng-controller=\"personCtrl\"><p>The name is {{ lastName | lowercase }}</p></div>",
+          "<div ng-app=\"myApp\" ng-controller=\"namesCtrl\"><ul><li ng-repeat=\"x in names | orderBy:'country'\">{{ x.name + ', ' + x.country }}</li></ul></div>",
+          "<div ng-app=\"myApp\" ng-controller=\"costCtrl\"><h1>Price: {{ price | currency }}</h1></div>",
+          "<div ng-app=\"myApp\" ng-controller=\"namesCtrl\"><ul><li ng-repeat=\"x in names | \nfilter : 'i'\">{{ x }}</li></ul></div>",
+          "<div ng-app=\"myApp\" ng-controller=\"namesCtrl\"><p><input type=\"text\" ng-model=\"test\"></p><ul><li ng-repeat=\"x in names | filter : test\">{{ x }}</li></ul></div>",
+          "<div ng-app=\"myApp\" ng-controller=\"namesCtrl\"><table border=\"1\" width=\"100%\"><tr><th ng-click=\"orderByMe('name')\">Name</th><th ng-click=\"orderByMe('country')\">Country</th></tr><tr \n    ng-repeat=\"x in names | orderBy:myOrderBy\"><td>{{x.name}}</td><td>{{x.country}}</td></tr></table></div><script>angular.module('myApp', []).controller('namesCtrl', \n    function($scope) {$scope.names = [{name:'Jani',country:'Norway'},{name:'Carl',country:'Sweden'},{name:'Margareth',country:'England'},{name:'Hege',country:'Norway'},{name:'Joe',country:'Denmark'},{name:'Gustav',country:'Sweden'},{name:'Birgit',country:'Denmark'},{name:'Mary',country:'England'},{name:'Kai',country:'Norway'}];$scope.orderByMe = function(x) {$scope.myOrderBy \n    = x;}});</script>",
+          "<ul ng-app=\"myApp\" ng-controller=\"namesCtrl\"><li ng-repeat=\"x \n    in names\">{{x |myFormat}}</li></ul><script>var app = \n    angular.module('myApp', []);app.filter('myFormat', \n    function() {return function(x) {var i, c, txt = \"\";for (i = 0; i < \n    x.length; i++) {c = x[i];if (i % 2 == 0) {c = c.toUpperCase();}txt \n    += c;}return txt;};});app.controller('namesCtrl', function($scope) \n    {$scope.names = ['Jani', 'Carl', 'Margareth', 'Hege', \n    'Joe', 'Gustav', 'Birgit', 'Mary', 'Kai'];});</script>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_services.asp",
+    "cours": {
+      "titre": "AngularJS Services",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_services.asp",
+      "contenus": {
+        "paragraphs": [
+          "In AngularJS you can make your own service, or use one of the \nmany built-in services.",
+          "In AngularJS, a service is a function, or object, that is available for, \nand limited to, your AngularJS application.",
+          "AngularJS has about 30 built-in services. One of them is the$locationservice.",
+          "The$locationservice has methods which return information \nabout the location of the current web page:",
+          "Use the$locationservice in a controller:",
+          "Note that the$locationservice is passed in to the controller \nas an argument. In order to use the service in the controller, it must be \ndefined as a dependency.",
+          "For many services, like the$locationservice, it seems like you \ncould use objects that are already in the DOM, like thewindow.locationobject, and you could, but it would have some limitations, at least for your \nAngularJS application.",
+          "AngularJS constantly supervises your application, and for it to handle changes \nand events properly, AngularJS prefers that you use the$locationservice instead of thewindow.locationobject.",
+          "The$httpservice is one of the most common used services in AngularJS \napplications. The service makes a request to the server, and lets your \napplication handle the response.",
+          "Use the$httpservice to request data from the server:",
+          "This example demonstrates a very simple use of the$httpservice. Learn more \nabout the$httpservice in theAngularJS Http \nTutorial.",
+          "The$timeoutservice is AngularJS' version of thewindow.setTimeoutfunction.",
+          "Display a new message after two seconds:",
+          "The$intervalservice is AngularJS' version of thewindow.setIntervalfunction.",
+          "Display the time every second:",
+          "To create your own service, connect your service to the module:",
+          "Create a service namedhexafy:",
+          "To use your custom made service, add it as a dependency when defining the controller:",
+          "Use the custom made service namedhexafyto convert a number \n    into a hexadecimal number:",
+          "Once you have created a service, and connected it to your application, you can use the service in any controller, directive, filter, or even inside other services.",
+          "To use the service inside a filter, add it as a dependency when defining the \nfilter:",
+          "The servicehexafyused in the filtermyFormat:",
+          "You can use the filter when displaying values from an object, or an array:"
+        ],
+        "lists": [],
+        "examples": [
+          "var app = angular.module('myApp', []);app.controller('customersCtrl', \n    function($scope, $location) {$scope.myUrl = $location.absUrl();});",
+          "var app = angular.module('myApp', []);app.controller('myCtrl', \n    function($scope, $http) {$http.get(\"welcome.htm\").then(function \n    (response) {$scope.myWelcome \n    = response.data;});});",
+          "var app = angular.module('myApp', []);app.controller('myCtrl', \n    function($scope, $timeout) {$scope.myHeader = \"Hello \n    World!\";$timeout(function () {$scope.myHeader = \"How are you today?\";}, 2000);});",
+          "var app = angular.module('myApp', []);app.controller('myCtrl', \n    function($scope, $interval) {$scope.theTime = new \n    Date().toLocaleTimeString();$interval(function () {$scope.theTime = new Date().toLocaleTimeString();}, \n    1000);});",
+          "app.service('hexafy', function() {this.myFunc = function (x) {return x.toString(16);}});",
+          "app.controller('myCtrl', function($scope,hexafy) {$scope.hex \n    =hexafy.myFunc(255);});",
+          "app.filter('myFormat',['hexafy', function(hexafy) {return function(x) {returnhexafy.myFunc(x);};}]);",
+          "<ul><li ng-repeat=\"x in counts\">{{x | myFormat}}</li></ul>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_http.asp",
+    "cours": {
+      "titre": "AngularJS AJAX - $http",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_http.asp",
+      "contenus": {
+        "paragraphs": [
+          "$httpis an AngularJS service for reading data \nfrom remote servers.",
+          "The AngularJS$httpservice makes a request to the server, and \nreturns a response.",
+          "Make a simple request to the server, and display the result in a header:",
+          "The example above uses the.getmethod of the$httpservice.",
+          "The .get method is a shortcut method of the $http service. There are several \nshortcut methods:",
+          "The methods above are all shortcuts of calling the $http service:",
+          "The example above executes the $http service with an object as an argument. \nThe object is \nspecifying the HTTP method, the url, what to do on success, and what to do on \nfailure.",
+          "The response from the server is an object with these properties:",
+          "To handle errors, add one more functions to the.thenmethod:",
+          "The data you get from the response is expected to be in JSON format.",
+          "JSON is a great way of transporting data, and it is easy to use within \n    AngularJS, or any other JavaScript.",
+          "Example: On the server we have a file that returns a JSON object containing \n15 customers, all wrapped in array calledrecords.",
+          "Click here to take a look at the JSON object.",
+          "Theng-repeatdirective is perfect for looping through an \n    array:",
+          "Application explained:",
+          "The application defines thecustomersCtrlcontroller, with a$scopeand$httpobject.",
+          "$httpis anXMLHttpRequest objectfor requesting \nexternal data.",
+          "$http.get()readsJSON datafromhttps://www.w3schools.com/angular/customers.php.",
+          "On success, the controller creates a property,myData, \nin the scope, with JSON \ndata from the server."
+        ],
+        "lists": [
+          [
+            ".delete()",
+            ".get()",
+            ".head()",
+            ".jsonp()",
+            ".patch()",
+            ".post()",
+            ".put()"
+          ],
+          [
+            ".configthe object used to generate the request.",
+            ".dataa string, or an object, carrying the response from \n    the server.",
+            ".headersa function to use to get header information.",
+            ".statusa number defining the HTTP status.",
+            ".statusTexta string defining the HTTP status."
+          ]
+        ],
+        "examples": [
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\"><p>Today's welcome \n    message is:</p><h1>{{myWelcome}}</h1></div><script>var app = angular.module('myApp', []);app.controller('myCtrl', \n    function($scope, $http) {$http.get(\"welcome.htm\").then(function(response) {$scope.myWelcome \n    = response.data;});});</script>",
+          "var app = angular.module('myApp', []);app.controller('myCtrl', \n    function($scope, $http) {$http({method : \"GET\",url : \"welcome.htm\"}).then(function mySuccess(response) {$scope.myWelcome = response.data;}, function myError(response) \n    {$scope.myWelcome = \n    response.statusText;});});",
+          "var app = angular.module('myApp', []);app.controller('myCtrl', \n    function($scope, $http) {$http.get(\"welcome.htm\").then(function(response) {$scope.content \n    = response.data;$scope.statuscode \n    = response.status;$scope.statustext \n    = response.statusText;});});",
+          "var app = angular.module('myApp', []);app.controller('myCtrl', \n    function($scope, $http) {$http.get(\"wrongfilename.htm\").then(function(response) {// First function handles success$scope.content \n    = response.data;}, function(response) {// Second function handles error$scope.content = \"Something went wrong\";});});",
+          "<div ng-app=\"myApp\" ng-controller=\"customersCtrl\"><ul><li \nng-repeat=\"x in myData\">{{ x.Name + ', ' + x.Country }}</li></ul></div><script>var app = angular.module('myApp', \n []);app.controller('customersCtrl', \n function($scope, $http) {$http.get(\"customers.php\").then(function(response) {$scope.myData \n= response.data.records;});});</script>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_tables.asp",
+    "cours": {
+      "titre": "AngularJS Tables",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_tables.asp",
+      "contenus": {
+        "paragraphs": [
+          "The ng-repeat directive is perfect for displaying tables.",
+          "Displaying tables with angular is very simple:",
+          "To make it nice, add some CSS to the page:",
+          "To sort the table, add anorderByfilter:",
+          "To display uppercase, add anuppercasefilter:",
+          "To display the table index, add a <td> with$index:"
+        ],
+        "lists": [],
+        "examples": [
+          "<div ng-app=\"myApp\" ng-controller=\"customersCtrl\"><table><tr ng-repeat=\"x in names\"><td>{{ x.Name }}</td><td>{{ x.Country }}</td></tr></table></div><script>var app = angular.module('myApp', []);app.controller('customersCtrl', \n function($scope, $http) {$http.get(\"customers.php\").then(function (response) {$scope.names = response.data.records;});});</script>",
+          "<style>table, th , td {border: 1px solid grey;border-collapse: collapse;padding: 5px;}table tr:nth-child(odd) {background-color: #f1f1f1;}table tr:nth-child(even) {background-color: #ffffff;}</style>",
+          "<table><tr ng-repeat=\"x in names | orderBy : 'Country'\"><td>{{ x.Name }}</td><td>{{ x.Country }}</td></tr></table>",
+          "<table><tr ng-repeat=\"x in names\"><td>{{ x.Name }}</td><td>{{ x.Country \n| uppercase }}</td></tr></table>",
+          "<table><tr ng-repeat=\"x in names\"><td>{{ $index + 1 }}</td><td>{{ x.Name }}</td><td>{{ x.Country }}</td></tr></table>",
+          "<table><tr ng-repeat=\"x in names\"><td ng-if=\"$odd\" \n style=\"background-color:#f1f1f1\">{{ x.Name }}</td><td ng-if=\"$even\">{{ \n x.Name }}</td><td ng-if=\"$odd\" style=\"background-color:#f1f1f1\">{{ \n x.Country }}</td><td ng-if=\"$even\">{{ x.Country }}</td></tr></table>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_select.asp",
+    "cours": {
+      "titre": "AngularJS Select Boxes",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_select.asp",
+      "contenus": {
+        "paragraphs": [
+          "AngularJS lets you create dropdown lists based on items in an array, or an \nobject.",
+          "If you want to create a dropdown list, based on an object or an array in AngularJS, you should use theng-optionsdirective:",
+          "You can also use theng-repeatdirective to make the same dropdown list:",
+          "Because theng-repeatdirective repeats a block of HTML code for \neach item in an array, it can be used to create options in a dropdown list, but \ntheng-optionsdirective was made especially for filling a dropdown \nlist with options.",
+          "You can use both theng-repeatdirective and \ntheng-optionsdirective:",
+          "Assume you have an array of objects:",
+          "Usingng-repeat:",
+          "When using the value as an object, useng-valueinsead ofvalue:",
+          "Usingng-repeatas an object:",
+          "Usingng-options:",
+          "When the selected value is an object, it can hold more information, and your application can be more flexible.",
+          "We will use theng-optionsdirective in this tutorial.",
+          "In the previous examples the data source was an array, but we can also use an \nobject.",
+          "Assume you have an object with key-value pairs:",
+          "The expression in theng-optionsattribute is a bit different \nfor objects:",
+          "Using an object as the data source,xrepresents the key, andyrepresents the value:",
+          "The selected value will always be thevaluein a key-valuepair.",
+          "Thevaluein a key-valuepair can also be an object:",
+          "The selected value will still be thevaluein a key-valuepair, only this time it is an object:",
+          "The options in the dropdown list does not have to be thekeyin akey-value pair, it can also be the value, or a property of the value \nobject:"
+        ],
+        "lists": [],
+        "examples": [
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\"><select ng-model=\"selectedName\" \n    ng-options=\"x for x in names\"></select></div><script>var app = angular.module('myApp', []);app.controller('myCtrl', \n    function($scope) {$scope.names = [\"Emil\", \"Tobias\", \n    \"Linus\"];});</script>",
+          "<select><option ng-repeat=\"x in names\">{{x}}</option></select>",
+          "$scope.cars = [{model : \"Ford Mustang\", color : \n    \"red\"},{model : \"Fiat 500\", color : \"white\"},{model : \"Volvo XC90\", color : \"black\"}];",
+          "<select ng-model=\"selectedCar\"><option ng-repeat=\"x in cars\" value=\"{{x.model}}\">{{x.model}}</option></select><h1>You selected: {{selectedCar}}</h1>",
+          "<select ng-model=\"selectedCar\"><option ng-repeat=\"x in cars\" ng-value=\"{{x}}\">{{x.model}}</option></select><h1>You selected a {{selectedCar.color}} {{selectedCar.model}}</h1>",
+          "<select ng-model=\"selectedCar\" ng-options=\"x.model for x in cars\"></select><h1>You selected: {{selectedCar.model}}</h1><p>Its color is: {{selectedCar.color}}</p>",
+          "$scope.cars = {car01 : \"Ford\",car02 : \"Fiat\",car03 : \"Volvo\"};",
+          "<select ng-model=\"selectedCar\" ng-options=\"x for (x, y) in cars\"></select><h1>You selected: {{selectedCar}}</h1>",
+          "$scope.cars = {car01 : {brand : \"Ford\", model : \"Mustang\", color : \n    \"red\"},car02 : {brand : \"Fiat\", model : \"500\", color : \"white\"},car03 : {brand : \"Volvo\", model : \"XC90\", color : \"black\"}};",
+          "<select ng-model=\"selectedCar\" ng-options=\"y.brandfor (x, y) in cars\"></select>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_sql.asp",
+    "cours": {
+      "titre": "AngularJS SQL",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_sql.asp",
+      "contenus": {
+        "paragraphs": [
+          "AngularJS is perfect for displaying data from a Database. Just make sure the \ndata is in JSON format.",
+          "The following section is a listing of the server code used to fetch SQL data.",
+          "A request for data from a different server (other than the requesting page), are \ncalledcross-siteHTTP requests.",
+          "Cross-site requests are common on the web. Many pages load CSS, images, \nand scripts from different servers.",
+          "In modern browsers, cross-site HTTP requestsfrom scriptsare restricted tosame sitefor security reasons.",
+          "The following line, in our PHP examples, has been added to allow cross-site access."
+        ],
+        "lists": [
+          [
+            "Using PHP and MySQL. Returning JSON.",
+            "Using PHP and MS Access. Returning JSON.",
+            "Using ASP.NET, VB, and MS Access. Returning JSON.",
+            "Using ASP.NET, Razor, and SQL Lite. Returning JSON."
+          ]
+        ],
+        "examples": [
+          "<div ng-app=\"myApp\" ng-controller=\"customersCtrl\"><table><tr ng-repeat=\"x in names\"><td>{{ x.Name }}</td><td>{{ x.Country }}</td></tr></table></div><script>var app = angular.module('myApp', []);app.controller('customersCtrl', function($scope, $http) {$http.get(\"customers_mysql.php\").then(function (response) {$scope.names = response.data.records;});});</script>",
+          "<div ng-app=\"myApp\" ng-controller=\"customersCtrl\"><table><tr ng-repeat=\"x in names\"><td>{{ x.Name }}</td><td>{{ x.Country }}</td></tr></table></div><script>var app = angular.module('myApp', []);app.controller('customersCtrl', function($scope, $http) {$http.get(\"customers_sql.aspx\").then(function (response) {$scope.names = response.data.records;});});</script>",
+          "header(\"Access-Control-Allow-Origin: *\");",
+          "<?phpheader(\"Access-Control-Allow-Origin: *\");header(\"Content-Type: application/json; charset=UTF-8\");$conn = new mysqli(\"myServer\", \"myUser\", \"myPassword\", \"Northwind\");$result = $conn->query(\"SELECT CompanyName, City, Country FROM Customers\");$outp = \"\";while($rs = $result->fetch_array(MYSQLI_ASSOC)) {if ($outp != \"\") {$outp .= \",\";}$outp .= '{\"Name\":\"'  . $rs[\"CompanyName\"] . '\",';$outp .= '\"City\":\"'   . $rs[\"City\"]        . '\",';$outp .= '\"Country\":\"'. $rs[\"Country\"]     . '\"}';}$outp ='{\"records\":['.$outp.']}';$conn->close();echo($outp);?>",
+          "<?phpheader(\"Access-Control-Allow-Origin: *\");header(\"Content-Type: application/json; charset=ISO-8859-1\");$conn = new COM(\"ADODB.Connection\");$conn->open(\"PROVIDER=Microsoft.Jet.OLEDB.4.0;Data Source=Northwind.mdb\");$rs = $conn->execute(\"SELECT CompanyName, City, Country FROM Customers\");$outp = \"\";while (!$rs->EOF) {if ($outp != \"\") {$outp .= \",\";}$outp .= '{\"Name\":\"'  . $rs[\"CompanyName\"] . '\",';$outp .= '\"City\":\"'   . $rs[\"City\"]        . '\",';$outp .= '\"Country\":\"'. $rs[\"Country\"]     . '\"}';$rs->MoveNext();}$outp ='{\"records\":['.$outp.']}';$conn->close();echo ($outp);?>",
+          "<%@ Import Namespace=\"System.IO\"%><%@ Import Namespace=\"System.Data\"%><%@ Import Namespace=\"System.Data.OleDb\"%><%Response.AppendHeader(\"Access-Control-Allow-Origin\", \"*\")Response.AppendHeader(\"Content-type\", \"application/json\")Dim conn As OleDbConnectionDim objAdapter As OleDbDataAdapterDim objTable As DataTableDim objRow As DataRowDim objDataSet As New DataSet()Dim outpDim cconn = New OledbConnection(\"Provider=Microsoft.Jet.OLEDB.4.0;data source=Northwind.mdb\")objAdapter = New OledbDataAdapter(\"SELECT CompanyName, City, Country FROM Customers\", conn)objAdapter.Fill(objDataSet, \"myTable\")objTable=objDataSet.Tables(\"myTable\")outp = \"\"c = chr(34)for each x in objTable.Rowsif outp <> \"\" then outp = outp & \",\"outp = outp & \"{\" & c & \"Name\"    & c & \":\" & c & x(\"CompanyName\") & c & \",\"outp = outp &       c & \"City\"    & c & \":\" & c \n& x(\"City\")        & c & \",\"outp = outp &       c & \"Country\" & c & \":\" & c & x(\"Country\")     & c & \"}\"nextoutp =\"{\" & c & \"records\" & c & \":[\" & outp & \"]}\"response.write(outp)conn.close%>",
+          "@{Response.AppendHeader(\"Access-Control-Allow-Origin\", \"*\")Response.AppendHeader(\"Content-type\", \"application/json\")var db = Database.Open(\"Northwind\");var query = db.Query(\"SELECT CompanyName, City, Country FROM Customers\");var outp =\"\"var c = chr(34)}@foreach(var row in query){if (outp != \"\") {outp = outp + \",\"}outp = outp + \"{\" + c + \"Name\"    + c + \":\" + c + @row.CompanyName + c + \",\"outp = outp +       c + \"City\"    + c + \":\" + c + @row.City        + c + \",\"outp = outp +       c + \"Country\" + c + \":\" + c + @row.Country     + c + \"}\"}outp =\"{\" + c  + \"records\" + c + \":[\" + outp + \"]}\"@outp"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_htmldom.asp",
+    "cours": {
+      "titre": "AngularJS HTML DOM",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_htmldom.asp",
+      "contenus": {
+        "paragraphs": [
+          "AngularJS has directives for binding application data to the \nattributes of HTML DOM elements.",
+          "Theng-disableddirective binds AngularJS application data to the \ndisabled attribute of HTML elements.",
+          "Application explained:",
+          "Theng-disableddirective binds the application datamySwitchto the \nHTML button'sdisabledattribute.",
+          "Theng-modeldirective binds the value of the HTML checkbox element to the value ofmySwitch.",
+          "If the value ofmySwitchevaluates totrue, the button will \nbe disabled:",
+          "If the value ofmySwitchevaluates tofalse, the button will \nnot be disabled:",
+          "Theng-showdirective shows or hides an HTML \nelement.",
+          "The ng-show directive shows (or hides) an HTML element based on thevalueof ng-show.",
+          "You can use any expression that evaluates to true or false:",
+          "In the next chapter, there are more examples, using the click of a button to hide HTML elements.",
+          "Theng-hidedirective hides or shows an HTML \nelement."
+        ],
+        "lists": [],
+        "examples": [
+          "<div ng-app=\"\" ng-init=\"mySwitch=true\"><p><button ng-disabled=\"mySwitch\">Click Me!</button></p><p><input type=\"checkbox\" ng-model=\"mySwitch\">Button</p><p>{{ mySwitch }}</p></div>",
+          "<p><button disabled>Click Me!</button></p>",
+          "<p><button>Click Me!</button></p>",
+          "<div ng-app=\"\"><p ng-show=\"true\">I am visible.</p><p ng-show=\"false\">I am not visible.</p></div>",
+          "<div ng-app=\"\" ng-init=\"hour=13\"><p ng-show=\"hour > 12\">I am visible.</p></div>",
+          "<div ng-app=\"\"><p ng-hide=\"true\">I am \n    not visible.</p><p ng-hide=\"false\">I am visible.</p></div>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_events.asp",
+    "cours": {
+      "titre": "AngularJS Events",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_events.asp",
+      "contenus": {
+        "paragraphs": [
+          "AngularJS has its own HTML events directives.",
+          "You can add AngularJS event listeners to your HTML elements by using one or \nmore of these directives:",
+          "The event directives allows us to run AngularJS functions at certain user \nevents.",
+          "An AngularJS event will not overwrite an HTML event, both events will be \nexecuted.",
+          "Mouse events occur when the cursor moves over an element, in this order:",
+          "Or when a mouse button is clicked on an element, in this order:",
+          "You can add mouse events on any HTML element.",
+          "Increase the count variable when the mouse moves over the H1 element:",
+          "Theng-clickdirective defines AngularJS code that will be executed when the element is being \nclicked.",
+          "You can also refer to a function:",
+          "If you want to show a section of HTML code when a button is clicked, and hide when the button is clicked again, like a dropdown menu, make \nthe button behave like a toggle switch:",
+          "Click MeMenu:PizzaPastaPesce",
+          "TheshowMevariable starts out as the Boolean valuefalse.",
+          "ThemyFuncfunction sets theshowMevariable to the \nopposite of what it is, by using the!(not) operator.",
+          "You can pass the$eventobject as an argument when calling the \nfunction.",
+          "The$eventobject contains the browser's event object:"
+        ],
+        "lists": [
+          [
+            "ng-blur",
+            "ng-change",
+            "ng-click",
+            "ng-copy",
+            "ng-cut",
+            "ng-dblclick",
+            "ng-focus",
+            "ng-keydown",
+            "ng-keypress",
+            "ng-keyup",
+            "ng-mousedown",
+            "ng-mouseenter",
+            "ng-mouseleave",
+            "ng-mousemove",
+            "ng-mouseover",
+            "ng-mouseup",
+            "ng-paste"
+          ],
+          [
+            "ng-mouseover",
+            "ng-mouseenter",
+            "ng-mousemove",
+            "ng-mouseleave"
+          ],
+          [
+            "ng-mousedown",
+            "ng-mouseup",
+            "ng-click"
+          ]
+        ],
+        "examples": [
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\"><h1 ng-mousemove=\"count \n= count + 1\">Mouse over me!</h1><h2>{{ count }}</h2></div><script>var app = \n angular.module('myApp', []);app.controller('myCtrl', function($scope) {$scope.count = 0;});</script>",
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\"><button ng-click=\"count \n= count + 1\">Click me!</button><p>{{ count }}</p></div><script>var app = \n angular.module('myApp', []);app.controller('myCtrl', function($scope) {$scope.count = 0;});</script>",
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\"><button ng-click=\"myFunction()\">Click me!</button><p>{{ count }}</p></div><script>var app = \n angular.module('myApp', []);app.controller('myCtrl', function($scope) {$scope.count = 0;$scope.myFunction = function() {$scope.count++;}});</script>",
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\"><button ng-click=\"myFunc()\">Click \n    Me!</button><div ng-show=\"showMe\"><h1>Menu:</h1><div>Pizza</div><div>Pasta</div><div>Pesce</div></div></div><script>var app = angular.module('myApp', []);app.controller('myCtrl', function($scope) {$scope.showMe = false;$scope.myFunc \n    = function() {$scope.showMe = !$scope.showMe;}});</script>",
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\"><h1 ng-mousemove=\"myFunc($event)\">Mouse \n    Over Me!</h1><p>Coordinates: {{x + ', ' + y}}</p></div><script>var app = angular.module('myApp', []);app.controller('myCtrl', \n    function($scope) {$scope.myFunc = function(myE) {$scope.x = myE.clientX;$scope.y \n    = myE.clientY;}});</script>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_forms.asp",
+    "cours": {
+      "titre": "AngularJS Forms",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_forms.asp",
+      "contenus": {
+        "paragraphs": [
+          "Forms in AngularJS provides data-binding and validation of input controls.",
+          "Input controls are the HTML input elements:",
+          "Input controls provides data-binding by using theng-modeldirective.",
+          "The application does now have a property namedfirstname.",
+          "Theng-modeldirective binds the input controller to the rest of \nyour application.",
+          "The propertyfirstname, can be referred to in a controller:",
+          "It can also be referred to elsewhere in the application:",
+          "A checkbox has the valuetrueorfalse. Apply theng-modeldirective to a checkbox, and use its value in your \napplication.",
+          "Show the header if the checkbox is checked:",
+          "Bind radio buttons to your application with theng-modeldirective.",
+          "Radio buttons with the sameng-modelcan have different values, \nbut only the selected one will be used.",
+          "Display some text, based on the value of the selected radio button:",
+          "The value of myVar will be eitherdogs,tuts, orcars.",
+          "Bind select boxes to your application with theng-modeldirective.",
+          "The property defined in theng-modelattribute will have the \nvalue of the selected option in the selectbox.",
+          "Display some text, based on the value of the selected option:",
+          "The value of myVar will be eitherdogs,tuts, orcars.",
+          "form = {{user}}",
+          "master = {{master}}",
+          "Thenovalidateattribute is new in HTML5. It disables any default \nbrowser validation.",
+          "Theng-appdirective defines the AngularJS application.",
+          "Theng-controllerdirective defines the application controller.",
+          "Theng-modeldirective binds two input elements to theuserobject in the model.",
+          "TheformCtrlcontroller sets initial values to themasterobject, and defines thereset()method.",
+          "Thereset()method sets theuserobject \nequal to themasterobject.",
+          "Theng-clickdirective invokes thereset()method, only if the button is clicked.",
+          "The novalidate attribute is not needed for this application, but normally you \nwill use it in AngularJS forms, to override standard HTML5 validation."
+        ],
+        "lists": [
+          [
+            "input elements",
+            "select elements",
+            "button elements",
+            "textarea elements"
+          ]
+        ],
+        "examples": [
+          "<input type=\"text\" ng-model=\"firstname\">",
+          "<script>var app = angular.module('myApp', []);app.controller('formCtrl', \n    function($scope) {$scope.firstname = \"John\";});</script>",
+          "<form>First Name: <input type=\"text\" ng-model=\"firstname\"></form><h1>You entered: {{firstname}}</h1>",
+          "<form>Check to show a header:<input type=\"checkbox\" ng-model=\"myVar\"></form><h1 ng-show=\"myVar\">My \n    Header</h1>",
+          "<form>Pick a topic:<input type=\"radio\" ng-model=\"myVar\" \n    value=\"dogs\">Dogs<input type=\"radio\" ng-model=\"myVar\" value=\"tuts\">Tutorials<input type=\"radio\" ng-model=\"myVar\" value=\"cars\">Cars</form>",
+          "<form>Select a topic:<select ng-model=\"myVar\"><option value=\"\"><option value=\"dogs\">Dogs<option value=\"tuts\">Tutorials<option \n        value=\"cars\">Cars</select></form>",
+          "<div ng-app=\"myApp\" ng-controller=\"formCtrl\"><form \n    novalidate>First Name:<br><input type=\"text\" ng-model=\"user.firstName\"><br>Last \n    Name:<br><input type=\"text\" ng-model=\"user.lastName\"><br><br><button ng-click=\"reset()\">RESET</button></form><p>form = {{{user}}</p><p>master = {{{master}}</p></div><script>var app =\n    angular.module('myApp', []);app.controller('formCtrl',  \n    function($scope) {$scope.master = {firstName: \"John\", lastName: \"Doe\"};$scope.reset = function() {$scope.user \n    = angular.copy($scope.master);};$scope.reset();});</script>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_validation.asp",
+    "cours": {
+      "titre": "AngularJS Form Validation",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_validation.asp",
+      "contenus": {
+        "paragraphs": [
+          "AngularJS can validate input data.",
+          "AngularJS offers client-side form validation.",
+          "AngularJS monitors the state of the form and input fields (input, textarea, \nselect), and lets you notify the user about the current state.",
+          "AngularJS also holds information about whether they have been touched, or \nmodified, or not.",
+          "You can use standard HTML5 attributes to validate input, or you can make your own validation functions.",
+          "Client-side validation cannot alone secure user input. Server side \nvalidation is also necessary.",
+          "Use \nthe HTML5 attributerequiredto specify that the input field must \nbe filled out:",
+          "The input field is required:",
+          "Use the HTML5 typeemailto specify that the value must be an e-mail:",
+          "The input field has to be an e-mail:",
+          "AngularJS is constantly updating the state of both the form and the input fields.",
+          "Input fields have the following states:",
+          "They are all properties of the input field, and are eithertrueorfalse.",
+          "Forms have the following states:",
+          "They are all properties of the form, and are eithertrueorfalse.",
+          "You can use these states to show meaningful messages to the user. Example, if \na field is required, and the user leaves it blank, you should give the user a \nwarning:",
+          "Show an error message if the field has been touched AND is empty:",
+          "AngularJS adds CSS classes to forms and input fields depending on their states.",
+          "The following classes are added to, or removed from, input fields:",
+          "The following classes are added to, or removed from, forms:",
+          "The classes are removed if the value they represent isfalse.",
+          "Add styles for these classes to give your application a \nbetter and more intuitive user interface.",
+          "Apply styles, using standard CSS:",
+          "Forms can also be styled:",
+          "Apply styles for unmodified (pristine) forms, and for modified forms:",
+          "To create your own validation function is a bit more tricky; You have to add a \nnew directive to your application, and deal with the validation inside a \nfunction with certain specified arguments.",
+          "Create your own directive, containing a custom validation function, and refer \nto it by usingmy-directive.",
+          "The field will only be valid if the value contains the character \"e\":",
+          "In HTML, the new directive will be referred to by using the attributemy-directive.",
+          "In the JavaScript we start by adding a new directive namedmyDirective.",
+          "Remember, when naming a directive, you must use a camel case name,myDirective, but when invoking it, you must use-separated name,my-directive.",
+          "Then, return an object where you specify that we requirengModel, \nwhich is the ngModelController.",
+          "Make a linking function which takes some arguments, where the fourth \nargument,mCtrl, is thengModelController,",
+          "Then specify a function, in this case namedmyValidation, which \ntakes one argument, this argument is the value of the input element.",
+          "Test if the value contains the letter \"e\", and set the validity of the model \ncontroller to eithertrueorfalse.",
+          "At last,mCtrl.$parsers.push(myValidation);will add themyValidationfunction to an array of other functions, which will be \nexecuted every time the input value changes.",
+          "The HTML form attributenovalidateis used to disable default \nbrowser validation.",
+          "The AngularJS directiveng-modelbinds the input elements to the model.",
+          "The model object has two properties:userandemail.",
+          "Because ofng-show, the spans with color:red are displayed only \nwhen user or email is$dirtyand$invalid."
+        ],
+        "lists": [
+          [
+            "$untouchedThe field has not been touched yet",
+            "$touchedThe field has been touched",
+            "$pristineThe field has not been modified yet",
+            "$dirtyThe field has been modified",
+            "$invalidThe field content is not valid",
+            "$validThe field content is valid"
+          ],
+          [
+            "$pristineNo fields have been modified yet",
+            "$dirtyOne or more have been modified",
+            "$invalidThe form content is not valid",
+            "$validThe form content is valid",
+            "$submittedThe form is submitted"
+          ],
+          [
+            "ng-untouchedThe field has not been touched yet",
+            "ng-touchedThe field has been touched",
+            "ng-pristineThe field has not been  modified yet",
+            "ng-dirtyThe field has been modified",
+            "ng-validThe field content is valid",
+            "ng-invalidThe field content is not valid",
+            "ng-valid-keyOnekeyfor each validation. \n    Example:ng-valid-required, useful when there are more than one \n    thing that must be validated",
+            "ng-invalid-keyExample:ng-invalid-required"
+          ],
+          [
+            "ng-pristineNo fields has not been modified yet",
+            "ng-dirtyOne or more fields has been modified",
+            "ng-validThe form content is valid",
+            "ng-invalidThe form content is not valid",
+            "ng-valid-keyOnekeyfor each validation. \n    Example:ng-valid-required, useful when there are more than one \n    thing that must be validated",
+            "ng-invalid-keyExample:ng-invalid-required"
+          ]
+        ],
+        "examples": [
+          "<form name=\"myForm\"><input name=\"myInput\" ng-model=\"myInput\" \n    required></form><p>The input's valid state is:</p><h1>{{myForm.myInput.$valid}}</h1>",
+          "<form name=\"myForm\"><input name=\"myInput\" ng-model=\"myInput\" \n    type=\"email\"></form><p>The input's valid state is:</p><h1>{{myForm.myInput.$valid}}</h1>",
+          "<input name=\"myName\" ng-model=\"myName\" required><span ng-show=\"myForm.myName.$touched \n    && myForm.myName.$invalid\">The name is required.</span>",
+          "<style>input.ng-invalid {background-color: pink;}input.ng-valid {background-color: lightgreen;}</style>",
+          "<style>form.ng-pristine {background-color: lightblue;}form.ng-dirty {background-color: pink;}</style>",
+          "<form name=\"myForm\"><input name=\"myInput\" ng-model=\"myInput\" required \n    my-directive></form><script>var app = angular.module('myApp', \n    []);app.directive('myDirective', function() {return {require: 'ngModel',link: function(scope, element, \n    attr, mCtrl) {function myValidation(value) \n    {if (value.indexOf(\"e\") > -1) \n    {mCtrl.$setValidity('charE', \n    true);} else {mCtrl.$setValidity('charE', false);}return value;}mCtrl.$parsers.push(myValidation);}};});</script>",
+          "<!DOCTYPE html><html><script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js\"></script><body><h2>Validation Example</h2><form  ng-app=\"myApp\"  \n    ng-controller=\"validateCtrl\"name=\"myForm\" novalidate><p>Username:<br><input type=\"text\" name=\"user\" ng-model=\"user\" \n    required><span style=\"color:red\" ng-show=\"myForm.user.$dirty && \n    myForm.user.$invalid\"><span ng-show=\"myForm.user.$error.required\">Username \n    is required.</span></span></p><p>Email:<br><input type=\"email\" name=\"email\" ng-model=\"email\" required><span \n    style=\"color:red\" ng-show=\"myForm.email.$dirty && myForm.email.$invalid\"><span ng-show=\"myForm.email.$error.required\">Email is required.</span><span ng-show=\"myForm.email.$error.email\">Invalid email address.</span></span></p><p><input type=\"submit\"ng-disabled=\"myForm.user.$dirty && myForm.user.$invalid ||myForm.email.$dirty && myForm.email.$invalid\"></p></form><script>var app = angular.module('myApp', []);app.controller('validateCtrl', \n    function($scope) {$scope.user = 'John Doe';$scope.email = 'john.doe@gmail.com';});</script></body></html>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_api.asp",
+    "cours": {
+      "titre": "AngularJS API",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_api.asp",
+      "contenus": {
+        "paragraphs": [
+          "API stands forApplicationProgrammingInterface.",
+          "The AngularJS Global API is a set of global JavaScript functions for \nperforming common tasks \nlike:",
+          "The Global API functions are accessed using the angular object.",
+          "Below is a list of some common API functions:"
+        ],
+        "lists": [
+          [
+            "Comparing objects",
+            "Iterating objects",
+            "Converting data"
+          ]
+        ],
+        "examples": [
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\"><p>{{ x1 }}</p><p>{{ x2 }}</p></div><script>var app = angular.module('myApp', []);app.controller('myCtrl', function($scope) {$scope.x1 = \"JOHN\";$scope.x2 = angular.lowercase($scope.x1);});</script>",
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\"><p>{{ x1 }}</p><p>{{ x2 }}</p></div><script>var app = angular.module('myApp', []);app.controller('myCtrl', function($scope) {$scope.x1 = \"John\";$scope.x2 = angular.uppercase($scope.x1);});</script>",
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\"><p>{{ x1 }}</p><p>{{ x2 }}</p></div><script>var app = angular.module('myApp', []);app.controller('myCtrl', function($scope) {$scope.x1 = \"JOHN\";$scope.x2 = angular.isString($scope.x1);});</script>",
+          "<div ng-app=\"myApp\" ng-controller=\"myCtrl\"><p>{{ x1 }}</p><p>{{ x2 }}</p></div><script>var app = angular.module('myApp', []);app.controller('myCtrl', function($scope) {$scope.x1 = \"JOHN\";$scope.x2 = angular.isNumber($scope.x1);});</script>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_w3css.asp",
+    "cours": {
+      "titre": "AngularJS and W3.CSS",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_w3css.asp",
+      "contenus": {
+        "paragraphs": [
+          "You can easily use w3.css style sheet together with AngularJS. This chapter demonstrates how.",
+          "To include W3.CSS in your AngularJS application, add the following \nline to the head of your document:",
+          "If you want to study W3.CSS, visit ourW3.CSS Tutorial.Below is a complete HTML example, with all AngularJS directives and \nW3.CSS classes explained.HTML Code<!DOCTYPE html><html><link rel=\"stylesheet\" href=\"https://www.w3schools.com/w3css/4/w3.css\"><script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js\"></script><body ng-app=\"myApp\" ng-controller=\"userCtrl\"><div \n    class=\"w3-container\"><h3>Users</h3><table class=\"w3-table \n    w3-bordered w3-striped\"><tr><th>Edit</th><th>First Name</th><th>Last Name</th></tr><tr ng-repeat=\"user in users\"><td><button class=\"w3-btn w3-ripple\" ng-click=\"editUser(user.id)\">&#9998; \n    Edit</button></td><td>{{ \n    user.fName }}</td><td>{{ user.lName }}</td></tr></table><br><button class=\"w3-btn w3-green w3-ripple\" \n    ng-click=\"editUser('new')\">&#9998; Create New User</button><form \n    ng-hide=\"hideform\"><h3 ng-show=\"edit\">Create New \n    User:</h3><h3 ng-hide=\"edit\">Edit User:</h3><label>First \n    Name:</label><input class=\"w3-input w3-border\" \n    type=\"text\" ng-model=\"fName\" ng-disabled=\"!edit\" placeholder=\"First Name\"><br><label>Last Name:</label><input \n    class=\"w3-input w3-border\" type=\"text\" ng-model=\"lName\" ng-disabled=\"!edit\" \n    placeholder=\"Last Name\"><br><label>Password:</label><input \n    class=\"w3-input w3-border\" type=\"password\" ng-model=\"passw1\" \n    placeholder=\"Password\"><br><label>Repeat:</label><input \n    class=\"w3-input w3-border\" type=\"password\" ng-model=\"passw2\" \n    placeholder=\"Repeat Password\"><br><button \n    class=\"w3-btn w3-green w3-ripple\" ng-disabled=\"error || incomplete\">&#10004; \n    Save Changes</button></form></div><script src= \"myUsers.js\"></script></body></html>Try it Yourself »Directives (Used Above) ExplainedAngularJS DirectiveDescription<body ng-appDefines an application for the <body> element<body ng-controllerDefines a controller for the <body> element<tr ng-repeatRepeats the <tr> element for each user in users<button ng-clickInvoke the function editUser() when the <button> element is clicked<h3 ng-showShow the <h3>s element if edit = true<h3 ng-hideHide the form if hideform = true, and hide the <h3> element if edit = true<input ng-modelBind the <input> element to the application<button ng-disabledDisables the <button> element if error or incomplete = trueW3.CSS Classes ExplainedElementClassDefines<div>w3-containerA content container<table>w3-tableA table<table>w3-borderedA bordered table<table>w3-stripedA striped table<button>w3-btnA button<button>w3-greenA green button<button>w3-rippleA ripple effect when you click the button<input>w3-inputAn input field<input>w3-borderA border on the input fieldJavaScript CodemyUsers.jsangular.module('myApp', []).controller('userCtrl',  \n function($scope) {$scope.fName \n= '';$scope.lName = '';$scope.passw1 = '';$scope.passw2 = '';$scope.users = [{id:1, fName:'Hege', lName:\"Pege\" },{id:2, fName:'Kim',  lName:\"Pim\" },{id:3, fName:'Sal',  lName:\"Smith\" },{id:4, fName:'Jack', lName:\"Jones\" },{id:5, fName:'John', lName:\"Doe\" \n},{id:6, fName:'Peter',lName:\"Pan\" }];$scope.edit = true;$scope.error = false;$scope.incomplete = false;$scope.hideform = true;$scope.editUser = \nfunction(id) {$scope.hideform = false;if (id == 'new') {$scope.edit = true;$scope.incomplete \n= true;$scope.fName = '';$scope.lName \n= '';} else {$scope.edit = false;$scope.fName \n= $scope.users[id-1].fName;$scope.lName \n= $scope.users[id-1].lName;}};$scope.$watch('passw1',function() \n{$scope.test();});$scope.$watch('passw2',function() {$scope.test();});$scope.$watch('fName', function() {$scope.test();});$scope.$watch('lName', function() {$scope.test();});$scope.test = function() {if \n($scope.passw1 !== $scope.passw2) {$scope.error = \ntrue;} else {$scope.error = \nfalse;}$scope.incomplete = false;if ($scope.edit \n&& (!$scope.fName.length ||!$scope.lName.length ||!$scope.passw1.length || !$scope.passw2.length)) {$scope.incomplete = true;}};});JavaScript Code ExplainedScope PropertiesUsed for$scope.fNameModel variable (user first name)$scope.lNameModel variable (user last name)$scope.passw1Model variable (user password 1)$scope.passw2Model variable (user password 2)$scope.usersModel variable (array of users)$scope.editSet to true when user clicks on 'Create user'.$scope.hideformSet to false when user clicks on 'Edit' or 'Create user'.$scope.errorSet to true if passw1 not equal passw2$scope.incompleteSet to true if any field is empty (length = 0)$scope.editUserSets model variables$scope.$watchWatches model variables$scope.testTests model variables for errors and incompleteness❮ PreviousNext ❯★+1Track your progress - it's free!Log inSign Up",
+          "Below is a complete HTML example, with all AngularJS directives and \nW3.CSS classes explained.HTML Code<!DOCTYPE html><html><link rel=\"stylesheet\" href=\"https://www.w3schools.com/w3css/4/w3.css\"><script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js\"></script><body ng-app=\"myApp\" ng-controller=\"userCtrl\"><div \n    class=\"w3-container\"><h3>Users</h3><table class=\"w3-table \n    w3-bordered w3-striped\"><tr><th>Edit</th><th>First Name</th><th>Last Name</th></tr><tr ng-repeat=\"user in users\"><td><button class=\"w3-btn w3-ripple\" ng-click=\"editUser(user.id)\">&#9998; \n    Edit</button></td><td>{{ \n    user.fName }}</td><td>{{ user.lName }}</td></tr></table><br><button class=\"w3-btn w3-green w3-ripple\" \n    ng-click=\"editUser('new')\">&#9998; Create New User</button><form \n    ng-hide=\"hideform\"><h3 ng-show=\"edit\">Create New \n    User:</h3><h3 ng-hide=\"edit\">Edit User:</h3><label>First \n    Name:</label><input class=\"w3-input w3-border\" \n    type=\"text\" ng-model=\"fName\" ng-disabled=\"!edit\" placeholder=\"First Name\"><br><label>Last Name:</label><input \n    class=\"w3-input w3-border\" type=\"text\" ng-model=\"lName\" ng-disabled=\"!edit\" \n    placeholder=\"Last Name\"><br><label>Password:</label><input \n    class=\"w3-input w3-border\" type=\"password\" ng-model=\"passw1\" \n    placeholder=\"Password\"><br><label>Repeat:</label><input \n    class=\"w3-input w3-border\" type=\"password\" ng-model=\"passw2\" \n    placeholder=\"Repeat Password\"><br><button \n    class=\"w3-btn w3-green w3-ripple\" ng-disabled=\"error || incomplete\">&#10004; \n    Save Changes</button></form></div><script src= \"myUsers.js\"></script></body></html>Try it Yourself »Directives (Used Above) ExplainedAngularJS DirectiveDescription<body ng-appDefines an application for the <body> element<body ng-controllerDefines a controller for the <body> element<tr ng-repeatRepeats the <tr> element for each user in users<button ng-clickInvoke the function editUser() when the <button> element is clicked<h3 ng-showShow the <h3>s element if edit = true<h3 ng-hideHide the form if hideform = true, and hide the <h3> element if edit = true<input ng-modelBind the <input> element to the application<button ng-disabledDisables the <button> element if error or incomplete = trueW3.CSS Classes ExplainedElementClassDefines<div>w3-containerA content container<table>w3-tableA table<table>w3-borderedA bordered table<table>w3-stripedA striped table<button>w3-btnA button<button>w3-greenA green button<button>w3-rippleA ripple effect when you click the button<input>w3-inputAn input field<input>w3-borderA border on the input fieldJavaScript CodemyUsers.jsangular.module('myApp', []).controller('userCtrl',  \n function($scope) {$scope.fName \n= '';$scope.lName = '';$scope.passw1 = '';$scope.passw2 = '';$scope.users = [{id:1, fName:'Hege', lName:\"Pege\" },{id:2, fName:'Kim',  lName:\"Pim\" },{id:3, fName:'Sal',  lName:\"Smith\" },{id:4, fName:'Jack', lName:\"Jones\" },{id:5, fName:'John', lName:\"Doe\" \n},{id:6, fName:'Peter',lName:\"Pan\" }];$scope.edit = true;$scope.error = false;$scope.incomplete = false;$scope.hideform = true;$scope.editUser = \nfunction(id) {$scope.hideform = false;if (id == 'new') {$scope.edit = true;$scope.incomplete \n= true;$scope.fName = '';$scope.lName \n= '';} else {$scope.edit = false;$scope.fName \n= $scope.users[id-1].fName;$scope.lName \n= $scope.users[id-1].lName;}};$scope.$watch('passw1',function() \n{$scope.test();});$scope.$watch('passw2',function() {$scope.test();});$scope.$watch('fName', function() {$scope.test();});$scope.$watch('lName', function() {$scope.test();});$scope.test = function() {if \n($scope.passw1 !== $scope.passw2) {$scope.error = \ntrue;} else {$scope.error = \nfalse;}$scope.incomplete = false;if ($scope.edit \n&& (!$scope.fName.length ||!$scope.lName.length ||!$scope.passw1.length || !$scope.passw2.length)) {$scope.incomplete = true;}};});JavaScript Code ExplainedScope PropertiesUsed for$scope.fNameModel variable (user first name)$scope.lNameModel variable (user last name)$scope.passw1Model variable (user password 1)$scope.passw2Model variable (user password 2)$scope.usersModel variable (array of users)$scope.editSet to true when user clicks on 'Create user'.$scope.hideformSet to false when user clicks on 'Edit' or 'Create user'.$scope.errorSet to true if passw1 not equal passw2$scope.incompleteSet to true if any field is empty (length = 0)$scope.editUserSets model variables$scope.$watchWatches model variables$scope.testTests model variables for errors and incompleteness❮ PreviousNext ❯★+1Track your progress - it's free!Log inSign Up"
+        ],
+        "lists": [],
+        "examples": [
+          "<link rel=\"stylesheet\" href=\"https://www.w3schools.com/w3css/4/w3.css\">",
+          "<!DOCTYPE html><html><link rel=\"stylesheet\" href=\"https://www.w3schools.com/w3css/4/w3.css\"><script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js\"></script><body ng-app=\"myApp\" ng-controller=\"userCtrl\"><div \n    class=\"w3-container\"><h3>Users</h3><table class=\"w3-table \n    w3-bordered w3-striped\"><tr><th>Edit</th><th>First Name</th><th>Last Name</th></tr><tr ng-repeat=\"user in users\"><td><button class=\"w3-btn w3-ripple\" ng-click=\"editUser(user.id)\">&#9998; \n    Edit</button></td><td>{{ \n    user.fName }}</td><td>{{ user.lName }}</td></tr></table><br><button class=\"w3-btn w3-green w3-ripple\" \n    ng-click=\"editUser('new')\">&#9998; Create New User</button><form \n    ng-hide=\"hideform\"><h3 ng-show=\"edit\">Create New \n    User:</h3><h3 ng-hide=\"edit\">Edit User:</h3><label>First \n    Name:</label><input class=\"w3-input w3-border\" \n    type=\"text\" ng-model=\"fName\" ng-disabled=\"!edit\" placeholder=\"First Name\"><br><label>Last Name:</label><input \n    class=\"w3-input w3-border\" type=\"text\" ng-model=\"lName\" ng-disabled=\"!edit\" \n    placeholder=\"Last Name\"><br><label>Password:</label><input \n    class=\"w3-input w3-border\" type=\"password\" ng-model=\"passw1\" \n    placeholder=\"Password\"><br><label>Repeat:</label><input \n    class=\"w3-input w3-border\" type=\"password\" ng-model=\"passw2\" \n    placeholder=\"Repeat Password\"><br><button \n    class=\"w3-btn w3-green w3-ripple\" ng-disabled=\"error || incomplete\">&#10004; \n    Save Changes</button></form></div><script src= \"myUsers.js\"></script></body></html>",
+          "angular.module('myApp', []).controller('userCtrl',  \n function($scope) {$scope.fName \n= '';$scope.lName = '';$scope.passw1 = '';$scope.passw2 = '';$scope.users = [{id:1, fName:'Hege', lName:\"Pege\" },{id:2, fName:'Kim',  lName:\"Pim\" },{id:3, fName:'Sal',  lName:\"Smith\" },{id:4, fName:'Jack', lName:\"Jones\" },{id:5, fName:'John', lName:\"Doe\" \n},{id:6, fName:'Peter',lName:\"Pan\" }];$scope.edit = true;$scope.error = false;$scope.incomplete = false;$scope.hideform = true;$scope.editUser = \nfunction(id) {$scope.hideform = false;if (id == 'new') {$scope.edit = true;$scope.incomplete \n= true;$scope.fName = '';$scope.lName \n= '';} else {$scope.edit = false;$scope.fName \n= $scope.users[id-1].fName;$scope.lName \n= $scope.users[id-1].lName;}};$scope.$watch('passw1',function() \n{$scope.test();});$scope.$watch('passw2',function() {$scope.test();});$scope.$watch('fName', function() {$scope.test();});$scope.$watch('lName', function() {$scope.test();});$scope.test = function() {if \n($scope.passw1 !== $scope.passw2) {$scope.error = \ntrue;} else {$scope.error = \nfalse;}$scope.incomplete = false;if ($scope.edit \n&& (!$scope.fName.length ||!$scope.lName.length ||!$scope.passw1.length || !$scope.passw2.length)) {$scope.incomplete = true;}};});"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_includes.asp",
+    "cours": {
+      "titre": "AngularJS Includes",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_includes.asp",
+      "contenus": {
+        "paragraphs": [
+          "With AngularJS, you can include HTML from an external file.",
+          "With AngularJS, you can include HTML content using theng-includedirective:",
+          "The HTML files you include with the ng-include directive, can also contain \nAngularJS code:",
+          "Include the file \"myTable.htm\" in your web page, and all AngularJS code will be \nexecuted, even the code inside the included file:",
+          "By default, the ng-include directive does not allow you to include files from other domains.",
+          "To include files from another domain, you can add a whitelist of legal files \nand/or domains in the config function of your application:",
+          "Be sure that the server on the destination allows cross domain file access."
+        ],
+        "lists": [],
+        "examples": [
+          "<body ng-app=\"\"><div ng-include=\"'myFile.htm'\"></div></body>",
+          "<table><tr ng-repeat=\"x in \n    names\"><td>{{ x.Name }}</td><td>{{ x.Country }}</td></tr></table>",
+          "<body><div ng-app=\"myApp\" ng-controller=\"customersCtrl\"><div ng-include=\"'myTable.htm'\"></div></div><script>var app = angular.module('myApp', []);app.controller('customersCtrl', function($scope, $http) {$http.get(\"customers.php\").then(function (response) {$scope.names = response.data.records;});});</script>",
+          "<body ng-app=\"myApp\"><div ng-include=\"'https://tryit.w3schools.com/angular_include.php'\"></div><script>var app = angular.module('myApp', [])app.config(function($sceDelegateProvider) \n    {$sceDelegateProvider.resourceUrlWhitelist(['https://tryit.w3schools.com/**']);});</script></body>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_animations.asp",
+    "cours": {
+      "titre": "AngularJS Animations",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_animations.asp",
+      "contenus": {
+        "paragraphs": [
+          "AngularJS provides animated transitions, with help from CSS.",
+          "An animation is when the transformation of an HTML element \ngives you an illusion of motion.",
+          "Check the checkbox to hide the DIV:",
+          "Applications should not be filled with animations, but some animations can \nmake the application easier to understand.",
+          "To make your applications ready for animations, you must include the \nAngularJS Animate library:",
+          "Then you must refer to thengAnimatemodule in your application:",
+          "Or if your application has a name, addngAnimateas a dependency \nin your application module:",
+          "The ngAnimate module adds and removes classes.",
+          "The ngAnimate module does not animate your HTML elements, but when ngAnimate notice \ncertain events, like hide or show of an HTML element, the element  \ngets some pre-defined classes which can be used to make animations.",
+          "The directives in AngularJS who add/remove classes are:",
+          "Theng-showandng-hidedirectives adds or removes \nang-hideclass value.",
+          "The other directives adds ang-enterclass value when they enter \nthe DOM, and ang-leaveattribute when they are removed from the DOM.",
+          "Theng-repeatdirective also adds ang-moveclass \nvalue when the HTML element changes position.",
+          "In addition,duringthe animation, the HTML element will have a set \nof class values, which will be removed when the animation has finished. Example: theng-hidedirective will add these class values:",
+          "We can use CSS transitions or CSS animations to animate HTML elements. This tutorial will show you \nboth.",
+          "To learn more about CSS Animation, study ourCSS Transition Tutorialand ourCSS Animation Tutorial.",
+          "CSS transitions \nallows you to change CSS property values smoothly, from one value to another, \nover a given duration:",
+          "When the DIV element gets the.ng-hideclass, the transition \nwill take 0.5 seconds, and the height will smoothly change from 100px to 0:",
+          "CSS Animations allows you to change CSS property values smoothly, from one value to another, \nover a given duration:",
+          "When the DIV element gets the.ng-hideclass, themyChangeanimation will run, which will smoothly change the height from 100px to 0:"
+        ],
+        "lists": [
+          [
+            "ng-show",
+            "ng-hide",
+            "ng-class",
+            "ng-view",
+            "ng-include",
+            "ng-repeat",
+            "ng-if",
+            "ng-switch"
+          ],
+          [
+            "ng-animate",
+            "ng-hide-animate",
+            "ng-hide-add(if the element will be hidden)",
+            "ng-hide-remove(if the element will be showed)",
+            "ng-hide-add-active(if the element will be hidden)",
+            "ng-hide-remove-active(if the element will be showed)"
+          ]
+        ],
+        "examples": [
+          "<body ng-app=\"ngAnimate\">Hide the DIV: <input type=\"checkbox\" ng-model=\"myCheck\"><div ng-hide=\"myCheck\"></div></body>",
+          "<script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-animate.js\"></script>",
+          "<body ng-app=\"ngAnimate\">",
+          "<body ng-app=\"myApp\"><h1>Hide the DIV: <input type=\"checkbox\" ng-model=\"myCheck\"></h1><div ng-hide=\"myCheck\"></div><script>var app = \n    angular.module('myApp', ['ngAnimate']);</script>",
+          "<style>div {transition: all linear 0.5s;background-color: lightblue;height: 100px;}.ng-hide \n    {height: 0;}</style>",
+          "<style>@keyframes myChange {from {height: 100px;} to {height: 0;}}div {height: 100px;background-color: lightblue;}div.ng-hide {animation: 0.5s myChange;}</style>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_routing.asp",
+    "cours": {
+      "titre": "AngularJS Routing",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_routing.asp",
+      "contenus": {
+        "paragraphs": [
+          "ThengRoutemodule helps your application to become a Single \nPage Application.",
+          "If you want to navigate to different pages in your application, but you also \nwant the application to be a SPA (Single Page Application), \nwith no page reloading, you can use thengRoutemodule.",
+          "ThengRoutemoduleroutesyour application to different pages \nwithout reloading the entire application.",
+          "Navigate to \"red.htm\", \"green.htm\", and \"blue.htm\":",
+          "To make your applications ready for routing, you must include the AngularJS Route module:",
+          "Then you must add thengRouteas a dependency in the \napplication module:",
+          "Now your application has access to the route module, which provides the$routeProvider.",
+          "Use the$routeProviderto configure different routes in your \napplication:",
+          "Your application needs a container to put the content provided by the routing.",
+          "This container is theng-viewdirective.",
+          "There are three different ways to include theng-viewdirective \nin your application:",
+          "Applications can only have oneng-viewdirective, and this will be the placeholder for all views \nprovided by the route.",
+          "With the$routeProvideryou can define what page to display when a user \nclicks a link.",
+          "Define a$routeProvider:",
+          "Define the$routeProviderusing theconfigmethod of your application. Work \nregistered in theconfigmethod will be performed when the \napplication is \nloading.",
+          "With the$routeProvideryou can also define a controller for \neach \"view\".",
+          "Add controllers:",
+          "The \"london.htm\" and \"paris.htm\" are normal HTML files, which you can add AngularJS expressions as you would with any other HTML sections of your \nAngularJS application.",
+          "The files looks like this:",
+          "london.htm",
+          "paris.htm",
+          "In the previous examples we have used thetemplateUrlproperty in the$routeProvider.whenmethod.",
+          "You can also use thetemplateproperty, which allows you to write HTML \ndirectly in the property value, and not refer to a page.",
+          "Write templates:",
+          "In the previous examples we have used thewhenmethod of the$routeProvider.",
+          "You can also use theotherwisemethod, which is the default route \nwhen none of the others get a match.",
+          "If neither the \"Banana\" nor the \"Tomato\" link has been clicked, let them \nknow:"
+        ],
+        "lists": [],
+        "examples": [
+          "<body ng-app=\"myApp\"><p><a href=\"#/!\">Main</a></p><a href=\"#!red\">Red</a><a href=\"#!green\">Green</a><a href=\"#!blue\">Blue</a><div ng-view></div><script>var app = angular.module(\"myApp\", [\"ngRoute\"]);app.config(function($routeProvider) {$routeProvider.when(\"/\", {templateUrl : \"main.htm\"}).when(\"/red\", {templateUrl : \"red.htm\"}).when(\"/green\", {templateUrl : \"green.htm\"}).when(\"/blue\", {templateUrl : \"blue.htm\"});});</script></body>",
+          "<script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-route.js\"></script>",
+          "var app = angular.module(\"myApp\", [\"ngRoute\"]);",
+          "app.config(function($routeProvider) {$routeProvider.when(\"/\", {templateUrl : \"main.htm\"}).when(\"/red\", {templateUrl : \"red.htm\"}).when(\"/green\", {templateUrl : \n    \"green.htm\"}).when(\"/blue\", {templateUrl : \"blue.htm\"});});",
+          "<div ng-view></div>",
+          "<ng-view></ng-view>",
+          "<div \n    class=\"ng-view\"></div>",
+          "var app = angular.module(\"myApp\", [\"ngRoute\"]);app.config(function($routeProvider) {$routeProvider.when(\"/\", {templateUrl : \"main.htm\"}).when(\"/london\", {templateUrl : \"london.htm\"}).when(\"/paris\", {templateUrl : \"paris.htm\"});});",
+          "var app = angular.module(\"myApp\", [\"ngRoute\"]);app.config(function($routeProvider) {$routeProvider.when(\"/\", {templateUrl : \"main.htm\"}).when(\"/london\", {templateUrl : \"london.htm\",controller : \"londonCtrl\"}).when(\"/paris\", {templateUrl : \"paris.htm\",controller : \"parisCtrl\"});});app.controller(\"londonCtrl\", function ($scope) {$scope.msg = \"I love London\";});app.controller(\"parisCtrl\", function \n    ($scope) {$scope.msg = \"I love Paris\";});",
+          "<h1>London</h1><h3>London is the capital city of England.</h3><p>It \n    is the most populous city in the United Kingdom, with a metropolitan area of \n    over 13 million inhabitants.</p><p>{{msg}}</p>",
+          "<h1>Paris</h1><h3>Paris is the capital city of France.</h3><p>The Paris area is one of the largest population centers in Europe, with more than 12 million inhabitants.</p><p>{{msg}}</p>",
+          "var app = angular.module(\"myApp\", [\"ngRoute\"]);app.config(function($routeProvider) {$routeProvider.when(\"/\", {template : \"<h1>Main</h1><p>Click \n    on the links to change this content</p>\"}).when(\"/banana\", {template : \"<h1>Banana</h1><p>Bananas \n    contain around 75% water.</p>\"}).when(\"/tomato\", {template : \"<h1>Tomato</h1><p>Tomatoes \n    contain around 95% water.</p>\"});});",
+          "var app = angular.module(\"myApp\", [\"ngRoute\"]);app.config(function($routeProvider) {$routeProvider.when(\"/banana\", {template : \"<h1>Banana</h1><p>Bananas \n    contain around 75% water.</p>\"}).when(\"/tomato\", {template : \"<h1>Tomato</h1><p>Tomatoes \n    contain around 95% water.</p>\"}).otherwise({template : \"<h1>None</h1><p>Nothing \n    has been selected</p>\"});});"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_application.asp",
+    "cours": {
+      "titre": "AngularJS Application",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_application.asp",
+      "contenus": {
+        "paragraphs": [
+          "It is time to create a real AngularJS Application.",
+          "Lets use some of the AngularJS features to make a shopping list, where you can \nadd or remove items:",
+          "{{errortext}}",
+          "Start by making an application calledmyShoppingList, and add a \ncontroller namedmyCtrlto it.",
+          "The controller adds an array namedproductsto the current$scope.",
+          "In the HTML, we use theng-repeatdirective to display a list \nusing the items in the array.",
+          "So far we have made an HTML list based on the items of an array:",
+          "In the HTML, add a text field, and bind it to the application with theng-modeldirective.",
+          "In the controller, make a function namedaddItem, and use the \nvalue of theaddMeinput field to add an item to theproductsarray.",
+          "Add a button, and give it anng-clickdirective that will run \ntheaddItemfunction when the button is clicked.",
+          "Now we can add items to our shopping list:",
+          "We also want to be able to remove items from the shopping list.",
+          "In the controller, make a function namedremoveItem, which takes \nthe index of the item you want to remove, as a parameter.",
+          "In the HTML, make a<span>element for each item, and give them \nanng-clickdirective which calls theremoveItemfunction with the current$index.",
+          "Now we can remove items from our shopping list:",
+          "The application has some errors, like if you try to add the same item twice, \nthe application crashes. Also, it should not be allowed to add empty items.",
+          "We will fix that by checking the value before adding new \nitems.",
+          "In the HTML, we will add a container for error messages, and write an error \nmessage when someone tries to add an existing item.",
+          "A shopping list, with the possibility to write error messages:",
+          "The application works, but could use a better design. We use the W3.CSS stylesheet to style our application.",
+          "Add the W3.CSS stylesheet, and include the proper classes throughout the \napplication, and the result will be the same as the shopping list at the top of \nthis page.",
+          "Style your application using the W3.CSS stylesheet:"
+        ],
+        "lists": [
+          [
+            "{{x}}×"
+          ]
+        ],
+        "examples": [
+          "<script>var app = angular.module(\"myShoppingList\", []);app.controller(\"myCtrl\", function($scope) {$scope.products \n    = [\"Milk\", \"Bread\", \"Cheese\"];});</script><div ng-app=\"myShoppingList\" \n    ng-controller=\"myCtrl\"><ul><li ng-repeat=\"x in products\">{{x}}</li></ul></div>",
+          "<script>var app = angular.module(\"myShoppingList\", []);app.controller(\"myCtrl\", function($scope) {$scope.products \n    = [\"Milk\", \"Bread\", \"Cheese\"];$scope.addItem = function () {$scope.products.push($scope.addMe);}});</script><div ng-app=\"myShoppingList\" \n    ng-controller=\"myCtrl\"><ul><li ng-repeat=\"x in products\">{{x}}</li></ul><input ng-model=\"addMe\"><button ng-click=\"addItem()\">Add</button></div>",
+          "<script>var app = angular.module(\"myShoppingList\", []);app.controller(\"myCtrl\", function($scope) {$scope.products \n    = [\"Milk\", \"Bread\", \"Cheese\"];$scope.addItem = function () {$scope.products.push($scope.addMe);}$scope.removeItem = function (x) {$scope.products.splice(x, 1);}});</script><div ng-app=\"myShoppingList\" \n    ng-controller=\"myCtrl\"><ul><li ng-repeat=\"x in products\">{{x}}<span ng-click=\"removeItem($index)\">&times;</span></li></ul><input ng-model=\"addMe\"><button ng-click=\"addItem()\">Add</button></div>",
+          "<script>var app = angular.module(\"myShoppingList\", []);app.controller(\"myCtrl\", function($scope) {$scope.products \n    = [\"Milk\", \"Bread\", \"Cheese\"];$scope.addItem = function () {$scope.errortext = \"\";if (!$scope.addMe) {return;}if ($scope.products.indexOf($scope.addMe) \n    == -1) {$scope.products.push($scope.addMe);} else {$scope.errortext = \"The item is already \n    in your shopping list.\";}}$scope.removeItem = function (x) {$scope.errortext = \"\";$scope.products.splice(x, 1);}});</script><div ng-app=\"myShoppingList\" \n    ng-controller=\"myCtrl\"><ul><li ng-repeat=\"x in products\">{{x}}<span ng-click=\"removeItem($index)\">&times;</span></li></ul><input ng-model=\"addMe\"><button ng-click=\"addItem()\">Add</button><p>{{errortext}}</p></div>",
+          "<link rel=\"stylesheet\" href=\"https://www.w3schools.com/w3css/4/w3.css\">"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_examples.asp",
+    "cours": {
+      "titre": "AngularJS Examples",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_examples.asp",
+      "contenus": {
+        "paragraphs": [
+          "You can edit the examples online, and click on a button to \nview the result.",
+          "Basic AngularJS Explained",
+          "Expressions Explained",
+          "Modules Explained",
+          "Directives Explained",
+          "Models Explained",
+          "Controllers Explained",
+          "Scopes Explained",
+          "Filters Explained",
+          "XMLHttpRequest Explained",
+          "Tables Explained",
+          "Angular SQL Explained",
+          "HTML DOM Explained",
+          "HTML Events Explained",
+          "Angular Forms Explained",
+          "API Explained",
+          "W3.CSS Explained",
+          "AngularJS Includes",
+          "AngularJS Animations",
+          "AngularJS Applications"
+        ],
+        "lists": [],
+        "examples": [
+          "<div ng-app=\"\"><p>Name: <input type=\"text\" ng-model=\"name\"></p><p>You wrote: {{ name }}</p></div>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_syllabus.asp",
+    "cours": {
+      "titre": "AngularSyllabus",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_syllabus.asp",
+      "contenus": {
+        "paragraphs": [
+          "TheW3Schools Angular Tutorialis comprehensive and beginner-friendly.",
+          "It will give you a fundamental knowledge of Angular framework.",
+          "It is designed for beginners and requires basic HTML, CSS, and JavaScript knowledge.",
+          "The content has been carefully made to be bite-sized, simple, and easy to understand.",
+          "The syllabus outline and its sequence are structured so you can learn Angular step by step, from the introduction to building applications.",
+          "Get Started With Angular »",
+          "Note:Are you a teacher teaching Angular?W3Schools Academyis a toolbox of features that can help you teach. It offers classroom features such as pre-built study plans, classroom administration and much more. Read more aboutAcademy here.",
+          "Get Started",
+          "You can also create a free account to track your progress.",
+          "As a signed-in user, you get access to features such as:",
+          "Sign Up - It's free",
+          "Get Started",
+          "Angular, like any framework, is best learned through hands-on practice.",
+          "Try this example using our editor:",
+          "If you want to explore more and host your project, we have a feature calledSpacesthat allows you to build, test and deploy Angular applications for free.",
+          "Here you get a secure sandbox environment called Spaces, where you can practice Angular code and test projects in real-time.",
+          "Spaces allow you to test, build, and deploy code. This includes a W3Schools subdomain, hosting, and secure SSL certificates.",
+          "Spaces require no installation and run directly in the browser.",
+          "Features include:",
+          "Create a Spaces Account",
+          "W3Schools offers an end-of-pathway certification program.",
+          "Here you can take exams to get certified.",
+          "The Angular exam is a test that summarizes the W3Schools Angular syllabus.",
+          "After passing the exam you get the \"Certified Angular Developer\" Certification.",
+          "The certification exam is adaptive and graded; students will get a grade from intermediate, advanced to professional.",
+          "Buy Certificate »",
+          "Are you interested in learning how you can useW3Schools Academyto Teach \nAngular?",
+          "Watch a demo ofW3Schools Academy. You'll see how it works, and discover how it can make teaching programming easier and more engaging.",
+          "Watch Demo »"
+        ],
+        "lists": [
+          [
+            "Learn what AngularJS is and how it works",
+            "Use AngularJS expressions to show data",
+            "Create AngularJS modules to organize code",
+            "Work with AngularJS directives to extend HTML",
+            "Build forms and handle user input",
+            "Use filters to format data",
+            "Create controllers to manage data",
+            "Work with services to share data",
+            "Use HTTP to connect with servers"
+          ],
+          [
+            "Web Development:Angular is essential for building modern web applications.",
+            "Front-end Development:Angular provides a complete framework for UI development.",
+            "Single Page Applications:Angular excels at creating SPAs.",
+            "Enterprise Applications:Angular is widely used in large-scale enterprise apps.",
+            "Progressive Web Apps:Angular supports building PWAs out of the box.",
+            "Mobile Development:Angular can be used for mobile-first applications.",
+            "Cross-platform Development:Angular enables building apps for multiple platforms."
+          ],
+          [
+            "Learning paths",
+            "Sandbox and lab environments",
+            "Achievements",
+            "And much more!"
+          ],
+          [
+            "AngularJS HOME",
+            "AngularJS Intro",
+            "AngularJS Expressions",
+            "AngularJS Modules",
+            "AngularJS Directives",
+            "AngularJS Model",
+            "AngularJS Data Binding",
+            "AngularJS Controllers",
+            "AngularJS Scopes",
+            "AngularJS Filters",
+            "AngularJS Services",
+            "AngularJS Http",
+            "AngularJS Tables",
+            "AngularJS Select",
+            "AngularJS SQL",
+            "AngularJS DOM",
+            "AngularJS Events",
+            "AngularJS Forms",
+            "AngularJS Validation",
+            "AngularJS API",
+            "AngularJS W3.CSS",
+            "AngularJS Includes",
+            "AngularJS Animations",
+            "AngularJS Routing",
+            "AngularJS Application"
+          ],
+          [
+            "Collaboration",
+            "File navigator",
+            "Terminal & log",
+            "Package manager",
+            "Database",
+            "Environment manager",
+            "Analytics"
+          ]
+        ],
+        "examples": [
+          "<!DOCTYPE html><html lang=\"en-US\"><script src=\"https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js\"></script><body><div ng-app=\"\"><p>Name : <input type=\"text\" ng-model=\"name\"></p><h1>Hello {{name}}</h1></div></body></html>"
+        ]
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_study_plan.asp",
+    "cours": {
+      "titre": "AngularStudy Plan",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_study_plan.asp",
+      "contenus": {
+        "paragraphs": [
+          "The Angular study plan helps you teach your students Angular step-by-step.",
+          "Creating a study plan for Angular is easy.",
+          "You can use a pre-built study plan or customize it.",
+          "Students have different skill levels. The study plans can be customized to ensure that everyone is challenged.",
+          "Save time with pre-built teacher materials and study plans. Easily organize your class with a timeline from the introduction of Angular to the final exam.",
+          "This study plan is a feature of W3Schools Academy.",
+          "W3Schools Academy is a platform that has everything you need to teach coding, all in one place.",
+          "It offers you as a teacher a toolbox of features that helps you succeed with teaching in your classroom.",
+          "You need to have an active subscription to access the study plan feature. There are two different subscription tiers:",
+          "Learn More »",
+          "Academy also offer other features such as:",
+          "Get a free demo »",
+          "W3Schools has everything you need to teach Angular.",
+          "The Angular training materials is available for you to include and use in your study plan:",
+          "With the Angular Syllabus, your students will start with the basics, like setting up an Angular project and understanding components, and move to more advanced topics, like creating templates, managing data with services, and building dynamic web applications. Each chapter includes simple examples, try-it-yourself sections, exercises, and quizzes to make learning easy, interactive, and fun.",
+          "Read more about Angular Syllabus.",
+          "The study plan features are made to help teachers and students. They make learning easy, flexible, and fun. These features work for different types of classes, learning styles and student level.",
+          "Learn More »",
+          "You choose the timeline and paceof your study plans.",
+          "Schools have different preferences.",
+          "Some would like more intensive pace, e.g. 3 weeks, others 12 or more weeks.",
+          "It is completely up to you.",
+          "For example, this is how a 3-week Angular study plan could look like:",
+          "Image of Sample Angular study plan:",
+          "Start withAngular Study Planstoday.",
+          "Get Started »",
+          "Are you interested in learning how you can useW3Schools Academyto Teach Angular programming?",
+          "Watch a demo ofW3Schools Academy. You'll see how it works, and discover how it can make teaching programming easier and more engaging.",
+          "Watch Demo »"
+        ],
+        "lists": [
+          [
+            "Essentials ($1.99 / month per student)",
+            "Full Access ($5.99 / month per student)",
+            "Calculate your price and orderhere."
+          ],
+          [
+            "Managing your classroom",
+            "Tracking of student progress and reports",
+            "Labs, assignments, and code challenges (prebuilt challenges or create your own ones)",
+            "Auto-grading",
+            "Teaching materials",
+            "Certification exams"
+          ],
+          [
+            "W3Schools Angular Tutorial",
+            "Angular Challenges (Coding challenges)",
+            "Angular Certification Exam (End of Pathway Exam)"
+          ],
+          [
+            "Learning PathsYou can add ready-made learning paths.The learning paths are by default ordered by our recommended order.You can change the order.You can add custom activities with text, links, or multi-media files.Drag and drop or click to make changes to the path.",
+            "You can add ready-made learning paths.",
+            "The learning paths are by default ordered by our recommended order.",
+            "You can change the order.",
+            "You can add custom activities with text, links, or multi-media files.",
+            "Drag and drop or click to make changes to the path.",
+            "Interactive ContentTutorialsTry-its (test code snippets)ExercisesQuizChallengesLabs",
+            "Tutorials",
+            "Try-its (test code snippets)",
+            "Exercises",
+            "Quiz",
+            "Challenges",
+            "Labs",
+            "Timeline and PaceYou can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).You can decide the learning pace for your class.Different study plans can be assigned to different students in the same class.The flexibility can help to make sure that everyone is challenged.",
+            "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+            "You can decide the learning pace for your class.",
+            "Different study plans can be assigned to different students in the same class.",
+            "The flexibility can help to make sure that everyone is challenged.",
+            "Track Student ProgressThere are tools to track student progress.The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+            "There are tools to track student progress.",
+            "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+            "The challenges can be auto-graded or manually graded. The results are available to you as a teacher.",
+            "End of Pathway ExamThe Angular study plan aligns with the Angular Certification Exam.The exam can be taken at the end of the study plan, at your selected date.The exam summarizes the Angular Tutorial.You get reports of the students' results.",
+            "The Angular study plan aligns with the Angular Certification Exam.",
+            "The exam can be taken at the end of the study plan, at your selected date.",
+            "The exam summarizes the Angular Tutorial.",
+            "You get reports of the students' results.",
+            "AccessibilityStudy plans and learning materials are accessible on desktops, tablets, and smartphones.This ensures students can learn anytime, anywhere.",
+            "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+            "This ensures students can learn anytime, anywhere."
+          ],
+          [
+            "You can add ready-made learning paths.",
+            "The learning paths are by default ordered by our recommended order.",
+            "You can change the order.",
+            "You can add custom activities with text, links, or multi-media files.",
+            "Drag and drop or click to make changes to the path."
+          ],
+          [
+            "Tutorials",
+            "Try-its (test code snippets)",
+            "Exercises",
+            "Quiz",
+            "Challenges",
+            "Labs"
+          ],
+          [
+            "You can set a timeline of your study plan (e.g., 4-week, 8-week, 12-week, 24-week plans).",
+            "You can decide the learning pace for your class.",
+            "Different study plans can be assigned to different students in the same class.",
+            "The flexibility can help to make sure that everyone is challenged."
+          ],
+          [
+            "There are tools to track student progress.",
+            "The analytic tools include: chapter progress, exercises results, quiz results, exam results, and much more.",
+            "The challenges can be auto-graded or manually graded. The results are available to you as a teacher."
+          ],
+          [
+            "The Angular study plan aligns with the Angular Certification Exam.",
+            "The exam can be taken at the end of the study plan, at your selected date.",
+            "The exam summarizes the Angular Tutorial.",
+            "You get reports of the students' results."
+          ],
+          [
+            "Study plans and learning materials are accessible on desktops, tablets, and smartphones.",
+            "This ensures students can learn anytime, anywhere."
+          ],
+          [
+            "Week 1: Essentials",
+            "Week 2: Core concepts, Data Handling, UI and Interactions",
+            "Week 3: APIs, Styling, and Applications, AngularJS Certification Exam"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_exam.asp",
+    "cours": {
+      "titre": "W3SchoolsAngularJS Certificate",
+      "description": "How Does It Work?Study for free at W3Schools.comStudy at your own speedTest your skills with W3Schools online quizzesApply for your certificate by paying an exam feeTake your exam online, at any time, and from any location",
+      "lien": "https://www.w3schools.com/angular/angular_exam.asp",
+      "contenus": {
+        "paragraphs": [
+          "W3Schools offers an Online Certification Program.",
+          "The perfect solution for busy professionals who need to balance work, family, and career building.",
+          "More than 50 000 certificates already issued!",
+          "Get Your Certificate »",
+          "W3Schools offers an Online Certification Program.",
+          "The perfect solution for busy professionals who need to balance work, family, and career building.",
+          "More than 50 000 certificates already issued!",
+          "Get Your Certificate »",
+          "Any student or professional within the digital industry.",
+          "Certifications are valuable assets to gain trust and demonstrate knowledge to your clients, current or future employers on a ever increasing competitive market.",
+          "W3Schools has over two decades of experience with teaching coding online.",
+          "Our certificates are recognized and valued by companies looking to employ skilled developers.",
+          "Show the world your coding skills by getting a certification.",
+          "The prices is a small fraction compared to the price of traditional education.",
+          "Document and validate your competence by getting certified!",
+          "Fee:95 USD",
+          "Achievable certification levels:Intermediate (40%)Advanced (75%)Professional (90%)",
+          "Number of questions:Adaptive,60on average",
+          "Requirement to pass:Minimum 40% - Intermediate level",
+          "Time limit:60 minutes",
+          "Number of attempts to pass:3",
+          "Exam deadline:None",
+          "Certification Expiration:None",
+          "Format:Online, multiple choice",
+          "Register now »",
+          "Getting a certificate proves your commitment to upgrading your skills.",
+          "The certificate can be added as credentials to your CV, Resume, LinkedIn profile, and so on.",
+          "It gives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+          "Knowledge is power, especially in the current job market.",
+          "Documentation of your skills enables you to advance your career or helps you to start a new one.",
+          "Example certificate:",
+          "Each certificate gets a unique link that can be shared with others.",
+          "Validate your certification with the link or QR code.",
+          "Check how it looks like in thisExample.",
+          "Share your certificate on Linkedin the Certifications section in just one click!",
+          "Getting a certificate proves your commitment to upgrade your skills,\n    gives you the credibility needed for more responsibilities, larger projects, and a higher salary.",
+          "Get Your Certificate »",
+          "Are you an educator, manager or business owner looking for courses or certifications?",
+          "We are working with schools, companies and organizations from all over the world.",
+          "Get courses and/or certifications for your team here."
+        ],
+        "lists": [
+          [
+            "Study for free at W3Schools.com",
+            "Study at your own speed",
+            "Test your skills with W3Schools online quizzes",
+            "Apply for your certificate by paying an exam fee",
+            "Take your exam online, at any time, and from any location"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  },
+  {
+    "url": "https://www.w3schools.com/angular/angular_ref_directives.asp",
+    "cours": {
+      "titre": "AngularJS References",
+      "description": "",
+      "lien": "https://www.w3schools.com/angular/angular_ref_directives.asp",
+      "contenus": {
+        "paragraphs": [
+          "AngularJS modifies the default behavior of some HTML elements.",
+          "Filters are explained inAngular Filters.",
+          "Validation is explained inAngular Validation.",
+          "The Global API is explained inAngular API."
+        ],
+        "lists": [
+          [
+            "$dirty",
+            "$invalid",
+            "$error"
+          ]
+        ],
+        "examples": []
+      },
+      "categories": "",
+      "niveau": "",
+      "durée": "",
+      "id": "",
+      "duree": "45 minutes",
+      "vecteur_embedding": []
+    }
+  }
+]
