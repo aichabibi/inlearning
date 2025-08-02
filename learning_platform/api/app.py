@@ -31,6 +31,9 @@ app = Flask(__name__)
 @app.route("/")
 def home():
     return {"message": "InLearning API is running 🚀"}
+@app.route("/", methods=["GET"])
+def index():
+    return {"message": "✅ InLearning API is live and running on Render 🚀"}
 
 
 CORS(app)
