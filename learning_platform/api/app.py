@@ -28,6 +28,11 @@ logger = logging.getLogger(__name__)
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 app = Flask(__name__)
+@app.route("/")
+def home():
+    return {"message": "InLearning API is running 🚀"}
+
+
 CORS(app)
 
 # 🔒 SÉCURISÉ: Clé API chargée depuis les variables d'environnement
