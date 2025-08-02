@@ -1,1 +1,1 @@
-web: gunicorn app:app
+web: gunicorn learning_platform.api.app:app
