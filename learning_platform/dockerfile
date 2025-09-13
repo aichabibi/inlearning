@@ -5,21 +5,16 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 
-# ---- Dépendances Python du backend (adapter si besoin) ----
-# ATTENTION: mets bien un requirements.txt côté learning_platform
+# Dépendances
 COPY learning_platform/requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir -r /tmp/requirements.txt \
     && pip install --no-cache-dir "gunicorn>=21.2"
 
-# ---- Code ----
-# On copie le package learning_platform tel quel
+# Code (inclut learning_platform/models/*)
 COPY learning_platform/ /app/learning_platform/
-# Ton code charge des fichiers dans ../models → on copie aussi le dossier models/ à la racine de l'image
-# (si tu n'as pas ce dossier dans le repo, cette ligne sera ignorée par Docker)
-COPY models/ /app/models/
 
-# Rendre le package importable
+# Le package est importable
 ENV PYTHONPATH=/app
 
-# Démarrage Gunicorn sur l'objet Flask "app" dans learning_platform/app.py
+# Démarre l'API Flask définie dans learning_platform/app.py → objet "app"
 CMD ["gunicorn","-w","2","-k","gthread","-b","0.0.0.0:5000","learning_platform.app:app"]
