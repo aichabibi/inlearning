@@ -29,13 +29,12 @@ jobs:
       - name: Build & Push backend (learning_platform + models)
         uses: docker/build-push-action@v6
         with:
-          context: .                          # 👈 racine: on voit learning_platform/ ET models/
+          context: .                          # racine pour bien prendre learning_platform/
           file: ./learning_platform/Dockerfile
           push: true
           tags: |
             ghcr.io/aichabibi/inlearning-backend:latest
             ghcr.io/aichabibi/inlearning-backend:${{ github.sha }}
-
 
       # ---- FRONTEND = dossier 'learning_platform' (note les guillemets) ----
       - name: Build & Push frontend (learning_platform)
