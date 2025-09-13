@@ -46,3 +46,16 @@ jobs:
           tags: |
             ghcr.io/aichabibi/inlearning-frontend:latest
             ghcr.io/aichabibi/inlearning-frontend:${{ github.sha }}
+            
+            deploy:
+              needs: build-push
+              runs-on: [self-hosted, Windows, X64]
+              steps:
+                - name: Déployer localement
+                  shell: powershell
+                  run: |
+                    cd C:\inlearning
+                    docker compose -f docker-compose.prod.yml pull
+                    docker compose -f docker-compose.prod.yml up -d
+                    docker system prune -f
+            
