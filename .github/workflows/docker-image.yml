@@ -25,19 +25,23 @@ jobs:
           username: ${{ github.actor }}
           password: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Build & Push backend
+      # ---- BACKEND = dossier 'elearning' ----
+      - name: Build & Push backend (elearning)
         uses: docker/build-push-action@v6
         with:
-          context: ./backend
+          context: ./elearning
+          file: ./elearning/Dockerfile
           push: true
           tags: |
             ghcr.io/aichabibi/inlearning-backend:latest
             ghcr.io/aichabibi/inlearning-backend:${{ github.sha }}
 
-      - name: Build & Push frontend
+      # ---- FRONTEND = dossier 'inlearning platform' (note les guillemets) ----
+      - name: Build & Push frontend (inlearning platform)
         uses: docker/build-push-action@v6
         with:
-          context: ./frontend
+          context: "./inlearning platform"
+          file: "./inlearning platform/Dockerfile"
           push: true
           tags: |
             ghcr.io/aichabibi/inlearning-frontend:latest
