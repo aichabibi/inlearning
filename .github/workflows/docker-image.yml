@@ -36,12 +36,12 @@ jobs:
             ghcr.io/aichabibi/inlearning-backend:latest
             ghcr.io/aichabibi/inlearning-backend:${{ github.sha }}
 
-      # ---- FRONTEND = dossier 'inlearning platform' (note les guillemets) ----
-      - name: Build & Push frontend (inlearning platform)
+      # ---- FRONTEND = dossier 'learning_platform' (note les guillemets) ----
+      - name: Build & Push frontend (learning_platform)
         uses: docker/build-push-action@v6
         with:
-          context: "./inlearning platform"
-          file: "./inlearning platform/Dockerfile"
+          context: "./learning_platform"
+          file: "./learning_platform/Dockerfile"
           push: true
           tags: |
             ghcr.io/aichabibi/inlearning-frontend:latest
