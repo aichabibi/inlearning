@@ -75,7 +75,7 @@ def call_claude_api(prompt, model_name=DEFAULT_CLAUDE_MODEL):
 
 
 def load_models():
-    models_dir = Path(__file__).parent.parent / 'models'
+    models_dir = Path(__file__).parent / 'models'
     logger.info(f"Loading models from: {models_dir}")
     
     try:
