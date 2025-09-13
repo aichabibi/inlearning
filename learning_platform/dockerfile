@@ -1,24 +1,25 @@
-FROM python:3.9-slim
+FROM python:3.12-slim
+
+ENV PYTHONDONTWRITEBYTECODE=1 \
+    PYTHONUNBUFFERED=1
 
 WORKDIR /app
 
-# Installer les dépendances système nécessaires
-RUN apt-get update && apt-get install -y \
-    build-essential \
-    && rm -rf /var/lib/apt/lists/*
+# ---- Dépendances Python du backend (adapter si besoin) ----
+# ATTENTION: mets bien un requirements.txt côté learning_platform
+COPY learning_platform/requirements.txt /tmp/requirements.txt
+RUN pip install --no-cache-dir -r /tmp/requirements.txt \
+    && pip install --no-cache-dir "gunicorn>=21.2"
 
-# Copier les fichiers de dépendances
-COPY requirements.txt .
+# ---- Code ----
+# On copie le package learning_platform tel quel
+COPY learning_platform/ /app/learning_platform/
+# Ton code charge des fichiers dans ../models → on copie aussi le dossier models/ à la racine de l'image
+# (si tu n'as pas ce dossier dans le repo, cette ligne sera ignorée par Docker)
+COPY models/ /app/models/
 
-# Installer les dépendances Python avec des options pour améliorer la fiabilité
-RUN pip install --no-cache-dir --timeout 1000 --retries 3 -r requirements.txt
+# Rendre le package importable
+ENV PYTHONPATH=/app
 
-# Copier le reste des fichiers
-COPY . .
-
-# Exposer le port
-EXPOSE 5000
-
-WORKDIR /app/api
-# Commande pour démarrer l'API
-CMD ["python", "app.py"]
+# Démarrage Gunicorn sur l'objet Flask "app" dans learning_platform/app.py
+CMD ["gunicorn","-w","2","-k","gthread","-b","0.0.0.0:5000","learning_platform.app:app"]
