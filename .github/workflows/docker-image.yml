@@ -26,15 +26,16 @@ jobs:
           password: ${{ secrets.GITHUB_TOKEN }}
 
       # ---- BACKEND = dossier 'elearning' ----
-      - name: Build & Push backend (elearning)
+      - name: Build & Push backend (elearning + learning_platform)
         uses: docker/build-push-action@v6
         with:
-          context: ./elearning
-          file: ./elearning/Dockerfile
+          context: .                     # ⬅️ racine pour pouvoir copier les 2 dossiers
+          file: ./elearning/Dockerfile   # ⬅️ on garde le Dockerfile dans elearning/
           push: true
           tags: |
             ghcr.io/aichabibi/inlearning-backend:latest
             ghcr.io/aichabibi/inlearning-backend:${{ github.sha }}
+
 
       # ---- FRONTEND = dossier 'learning_platform' (note les guillemets) ----
       - name: Build & Push frontend (learning_platform)
