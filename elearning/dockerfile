@@ -5,19 +5,17 @@ ENV PYTHONDONTWRITEBYTECODE=1 \
 
 WORKDIR /app
 
+# 1) Dépendances backend
 COPY elearning/requirements.txt /tmp/requirements.txt
 RUN pip install --no-cache-dir -r /tmp/requirements.txt \
- && pip install --no-cache-dir "gunicorn>=21.2"
+    && pip install --no-cache-dir "gunicorn>=21.2"
 
-# Copier le code backend + le package learning_platform
+# 2) Code backend + librairie learning_platform (copie des 2 dossiers)
 COPY elearning/ /app/
 COPY learning_platform/ /app/learning_platform/
 
-# Pour que Python voie /app et donc le package learning_platform
+# 3) Assure que /app est dans le chemin d'import
 ENV PYTHONPATH=/app
 
-# (option) healthcheck si /health existe
-# HEALTHCHECK --interval=30s --timeout=5s --retries=3 CMD curl -fsS http://localhost:5000/health || exit 1
-
-# Important : ton app est dans elearning/api/app.py → module = api.app:app
+# 4) Démarrage : ton app est dans elearning/api/app.py -> objet "app"
 CMD ["gunicorn","-w","2","-k","gthread","-b","0.0.0.0:5000","api.app:app"]
