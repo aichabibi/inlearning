@@ -29,12 +29,13 @@ jobs:
       - name: Build & Push backend (elearning + learning_platform)
         uses: docker/build-push-action@v6
         with:
-          context: .                     # ⬅️ racine pour pouvoir copier les 2 dossiers
-          file: ./elearning/Dockerfile   # ⬅️ on garde le Dockerfile dans elearning/
+          context: .                  # 👈 racine du repo
+          file: ./elearning/Dockerfile
           push: true
           tags: |
             ghcr.io/aichabibi/inlearning-backend:latest
             ghcr.io/aichabibi/inlearning-backend:${{ github.sha }}
+      
 
 
       # ---- FRONTEND = dossier 'learning_platform' (note les guillemets) ----
