@@ -1,0 +1,108 @@
+version: "3.9"
+
+name: inlearning
+
+networks:
+  inlearning-net:
+    driver: bridge
+
+volumes:
+  pgdata:
+  esdata:
+
+services:
+  postgres:
+    image: postgres:15
+    container_name: inlearning-postgres
+    environment:
+      POSTGRES_USER: ${POSTGRES_USER:-inlearning}
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:-inlearningpwd}
+      POSTGRES_DB: ${POSTGRES_DB:-inlearning_db}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U $$POSTGRES_USER -d $$POSTGRES_DB"]
+      interval: 10s
+      timeout: 5s
+      retries: 10
+    networks:
+      - inlearning-net
+
+  backend:
+    # --- Profil DEV: build local ---
+    profiles: ["dev"]
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: inlearning-backend-dev
+    environment:
+      FLASK_ENV: ${FLASK_ENV:-production}
+      PORT: ${BACKEND_PORT:-5000}
+      DATABASE_URL: postgresql://${POSTGRES_USER:-inlearning}:${POSTGRES_PASSWORD:-inlearningpwd}@postgres:5432/${POSTGRES_DB:-inlearning_db}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-change-me}
+    depends_on:
+      postgres:
+        condition: service_healthy
+      elasticsearch:
+        condition: service_healthy
+    ports:
+      - "${BACKEND_PORT:-5000}:5000"
+    networks:
+      - inlearning-net
+
+  backend-prod:
+    # --- Profil PROD: images depuis GHCR ---
+    profiles: ["prod"]
+    image: ghcr.io/aicha-bibi/inlearning-backend:${IMAGE_TAG:-latest}
+    container_name: inlearning-backend
+    environment:
+      FLASK_ENV: production
+      PORT: 5000
+      DATABASE_URL: postgresql://${POSTGRES_USER:-inlearning}:${POSTGRES_PASSWORD:-inlearningpwd}@postgres:5432/${POSTGRES_DB:-inlearning_db}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-change-me}
+    depends_on:
+      postgres:
+        condition: service_healthy
+    ports:
+      - "5000:5000"
+    networks:
+      - inlearning-net
+
+  frontend:
+    # --- Profil DEV: build local ---
+    profiles: ["dev"]
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: inlearning-frontend-dev
+    environment:
+      STREAMLIT_PORT: ${FRONTEND_PORT:-8501}
+      BACKEND_URL: ${BACKEND_URL:-http://backend:5000}
+      # Ex: pour afficher un bandeau "prod/dev" :
+      APP_ENV: ${APP_ENV:-dev}
+    depends_on:
+      backend:
+        condition: service_started
+    ports:
+      - "${FRONTEND_PORT:-8501}:8501"
+    networks:
+      - inlearning-net
+
+  frontend-prod:
+    # --- Profil PROD: images depuis GHCR ---
+    profiles: ["prod"]
+    image: ghcr.io/aicha-bibi/inlearning-frontend:${IMAGE_TAG:-latest}
+    container_name: inlearning-frontend
+    environment:
+      STREAMLIT_PORT: 8501
+      BACKEND_URL: ${BACKEND_URL:-http://backend:5000}
+      APP_ENV: production
+    depends_on:
+      backend-prod:
+        condition: service_started
+    ports:
+      - "8501:8501"
+    networks:
+      - inlearning-net
